@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro);
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.remark-slides-area {
+    background: white url(../images/mug073-bg.png) no-repeat;
+}
+
+div.remark-slide {
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.remark-slide-content {
+    font-size: 22px;
+}
+      
+.remark-code, .remark-inline-code {
+    font-size: 20px;
+    word-break: break-all;
+}
