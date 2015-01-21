@@ -44,7 +44,7 @@ $ npm install -g grunt-cli
 
 ---
 # Install Grunt 
-Install globally:
+Install locally:
 ```shell
 $ npm install grunt --save-dev
 $ npm install grunt-contrib-watch --save-dev

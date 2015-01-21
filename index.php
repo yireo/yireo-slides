@@ -15,6 +15,7 @@ $slideGroups = array(
         'slides' => array(
             array('file' => 'djpd/automation/phing', 'title' => 'Phing'),
             array('file' => 'djpd/automation/grunt', 'title' => 'Grunt'),
+            array('file' => 'djpd/automation/gulp', 'title' => 'Gulp'),
             array('file' => 'djpd/automation/yireo', 'title' => 'Yireo mojo'),
         ),
     ),
