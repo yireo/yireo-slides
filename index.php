@@ -4,18 +4,18 @@ $slideGroups = array(
         'group' => 'MUG073 - Magento XML',
         'style' => 'mug073',
         'slides' => array(
-            array('file' => 'mug073-xml', 'title' => 'Introduction'),
-            array('file' => 'mug073-layoutxml', 'title' => 'Layout XML'),
-            array('file' => 'mug073-m2xml', 'title' => 'Magento 2 XML'),
+            array('file' => 'mug073/xml/intro', 'title' => 'Introduction'),
+            array('file' => 'mug073/xml/layout', 'title' => 'Layout XML'),
+            array('file' => 'mug073/xml/magento2', 'title' => 'Magento 2 XML'),
         ),
     ),
     array(
         'group' => 'DJPD - Automation Tools',
         'style' => 'djpdnl',
         'slides' => array(
-            array('file' => 'djpd-phing', 'title' => 'Phing'),
-            array('file' => 'djpd-grunt', 'title' => 'Grunt'),
-            array('file' => 'djpd-yireo', 'title' => 'Yireo mojo'),
+            array('file' => 'djpd/automation/phing', 'title' => 'Phing'),
+            array('file' => 'djpd/automation/grunt', 'title' => 'Grunt'),
+            array('file' => 'djpd/automation/yireo', 'title' => 'Yireo mojo'),
         ),
     ),
 );
