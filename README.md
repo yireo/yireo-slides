@@ -4,6 +4,9 @@ are in [Markdown](highlight syntax) format.
 
 The slides are styled using [Remark](http://remarkjs.com/)
 
+## View the slides online
+* Navigate to http://slides.yireo.com/ to view the slides online
+
 ## Get the slides text only
 * Navigate to the `/slides/` folder on GitHub
 
