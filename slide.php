@@ -1,7 +1,15 @@
 <?php
+// Fetch parameters
+$title = $_GET['title'];
 $style = $_GET['style'];
 $slide = $_GET['slide'];
-$title = $_GET['title'];
+
+// Security checks
+$style = preg_replace('/([^a-zA-Z0-9\_\.\-]+)/', '', $style);
+$slide = preg_replace('/([^a-zA-Z0-9\/\_\.\-]+)/', '', $slide);
+$slide = realpath('slides/'.$slide.'.md');
+if(empty($slide)) die('no slide');
+if(stristr($slide, __DIR__) == false) die('access denied');
 ?>
 <!DOCTYPE html>
 <html>
@@ -11,7 +19,7 @@ $title = $_GET['title'];
     <link rel="stylesheet" href="css/<?php echo $style; ?>.css" />
   </head>
   <body>
-    <textarea id="source"><?php include_once 'slides/'.$slide.'.md'; ?></textarea>
+    <textarea id="source"><?php include_once $slide; ?></textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
     <script>
       var slideshow = remark.create({

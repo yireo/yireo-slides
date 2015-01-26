@@ -26,9 +26,15 @@ $slideGroups = array(
   <head>
     <title><?php echo $title; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" href="css/<?php echo $style; ?>.css" />
+    <link rel="stylesheet" href="css/yireo.min.css" />
+    <link rel="stylesheet" href="css/yireo.custom.css" />
   </head>
   <body>
+    <div class="container container-heading">
+    <img src="https://www.yireo.com/templates/yireo/images/logo.png" align="right" />
+    <h1>Yireo Slides <small>based on remark</small></h1>
+    </div>
+    <div class="container">
     <?php foreach($slideGroups as $slideGroup): ?>
     <h3><?php echo $slideGroup['group']; ?></h3>
     <ul>
@@ -41,6 +47,8 @@ $slideGroups = array(
         </li>
         <?php endforeach; ?>
     </ul>
+    <hr/>
     <?php endforeach; ?>
+    </div>
   </body>
 </html>

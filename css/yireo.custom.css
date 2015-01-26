@@ -1,0 +1,15 @@
+div.container-heading {
+    padding-top: 20px;
+    height: 120px;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 25px;
+}
+
+img {
+    padding-right: 40px;
+}
+
+h1 {
+    padding-top: 20px;
+    font-size: 300%;
+}
