@@ -24,7 +24,7 @@ $slideGroups = array(
 <!DOCTYPE html>
 <html>
   <head>
-    <title><?php echo $title; ?></title>
+    <title>Yireo Slides</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="css/yireo.min.css" />
     <link rel="stylesheet" href="css/yireo.custom.css" />
