@@ -1,6 +1,13 @@
 <?php
 $slideGroups = array(
     array(
+        'group' => 'Yireo',
+        'style' => 'yireo',
+        'slides' => array(
+            array('file' => 'yireo/plugins', 'title' => 'Joomla Plugins'),
+        ),
+    ),
+    array(
         'group' => 'MUG073 - Magento XML',
         'style' => 'mug073',
         'slides' => array(

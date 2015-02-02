@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import ./yireo.min.css;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.remark-slides-area {
+    background: #EE817F -webkit-gradient(linear, 100% 100%, 0% 100%, from(#6c0034), to(#ee817f));
+}
+
+div.remark-slide-container {
+    opacity: 1.0;
+    background-image: url(../images/yireo-bg.png);
+    background-position: -100px -300px;
+}
+
+div.remark-slide {
+    opacity: 1.0;
+}
+
+h1, h2, h3 {
+}
+
+.remark-slide-content {
+    font-size: 28px;
+}
+      
+.remark-code, .remark-inline-code {
+}
+
+code {
+    background-color: #d2e8f8;
+}
+
+li {
+    line-height: 190%;
+}
+
+li li {
+    font-size: 80%;
+    color: #333;
+}
