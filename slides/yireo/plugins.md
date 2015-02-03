@@ -53,6 +53,19 @@ class: center, middle
 - *Quick Icons* = Snelkoppelingen
 
 ---
+# Derde partij plugins
+- E-commerce (payment, shipment)
+    * Hikashop, RedShop, VirtueMart
+- Content (extra velden, automatische content)
+    * K2, ZOO, SimpleLists, Seblod
+- Gewoon uitbreidbaar maken
+    * Kunena, Dynamic404, Akeeba Subscriptions
+
+---
+class: center, middle
+### (demo)
+
+---
 # Events
 - Technische manier om in te haken op iets
 - Een event wordt *getriggered*
@@ -186,6 +199,11 @@ class: center, middle
 
 ---
 class: center, middle
+### (wie is er nog wakker?)
+
+---
+class: center, middle
 ## @yireo 
 ### http://yir.io/jpb
 ### https://github.com/yireo/yireo-slides
+
