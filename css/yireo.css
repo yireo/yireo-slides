@@ -29,6 +29,11 @@ h1, h2, h3 {
 .remark-code, .remark-inline-code {
 }
 
+.remark-slide-number {
+    font-size: 80%;
+    font-style: italic;
+}
+
 code {
     background-color: #d2e8f8;
 }

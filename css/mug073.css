@@ -16,10 +16,18 @@ h1, h2, h3 {
 }
 
 .remark-slide-content {
-    font-size: 22px;
+    font-size: 160%;
+    line-height: 150%;
 }
       
 .remark-code, .remark-inline-code {
+    background-color: #fde0a7;
     font-size: 20px;
     word-break: break-all;
+}
+
+.hljs-googlecode .hljs {
+    font-size: 80%;
+    line-height: 140%;
+    background-color: #fde9c1 !important;
 }
