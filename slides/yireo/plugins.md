@@ -1,6 +1,6 @@
 class: center, middle
 # Joomla plugins 
-### Joomla User Group Heerenveen
+### introductie tot plugins &amp; events
 
 ---
 # Jisse Reitsma
