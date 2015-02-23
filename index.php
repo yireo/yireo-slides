@@ -5,6 +5,14 @@ $slideGroups = array(
         'style' => 'yireo',
         'slides' => array(
             array('file' => 'yireo/plugins', 'title' => 'Joomla Plugins'),
+            array('file' => 'yireo/ssl', 'title' => 'Joomla &amp; SSL'),
+        ),
+    ),
+    array(
+        'group' => 'MUG073 - Magento &amp; Composer',
+        'style' => 'mug073',
+        'slides' => array(
+            array('file' => 'mug073/composer/composer', 'title' => 'Composer &amp; Packagist'),
         ),
     ),
     array(
@@ -38,7 +46,7 @@ $slideGroups = array(
   </head>
   <body>
     <div class="container container-heading">
-    <img src="https://www.yireo.com/templates/yireo/images/logo.png" align="right" />
+    <img src="images/yireo-logo.png" align="right" />
     <h1>Yireo Slides <small>based on remark</small></h1>
     </div>
     <div class="container">
