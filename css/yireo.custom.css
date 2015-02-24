@@ -5,6 +5,21 @@ div.container-heading {
     margin-bottom: 25px;
 }
 
+div.advertizement {
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+
+div.advertizement img {
+    margin-left: 40px;
+}
+
+div.advertizement p {
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
 img {
     padding-right: 40px;
 }
