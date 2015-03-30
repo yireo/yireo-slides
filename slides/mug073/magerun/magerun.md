@@ -10,6 +10,13 @@ class: center, middle
     - http://magerun.net/
 
 ---
+# Placement
+- SSH access
+- Other CLI tools
+    - git
+    - modman / composer
+
+---
 # Installation
 Installing:
 ```bash
