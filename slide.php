@@ -23,7 +23,7 @@ if(stristr($slide, __DIR__) == false) die('access denied');
     <script src="js/remark-latest.min.js"></script>
     <script>
       var slideshow = remark.create({
-        slideNumberFormat: '<?php echo $title; ?> - %current% of %total%',
+        slideNumberFormat: '%current% of %total%',
         highlightStyle: 'googlecode'
       });
     </script>

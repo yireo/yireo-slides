@@ -1,3 +1,10 @@
+layout: true
+<div class="slide-heading">Joomla Plugins &amp; Events</div>
+<div class="slide-footer">
+    <img src="images/yireo-logo.png" width="40" align="left" /> <span>www.yireo.com</span>
+</div>
+
+---
 class: center, middle
 # Joomla plugins 
 ### introductie tot plugins &amp; events
