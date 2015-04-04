@@ -17,6 +17,7 @@ if(stristr($slide, __DIR__) == false) die('access denied');
     <title><?php echo $title; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="css/<?php echo $style; ?>.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   </head>
   <body>
     <textarea id="source"><?php include_once $slide; ?></textarea>
@@ -26,6 +27,10 @@ if(stristr($slide, __DIR__) == false) die('access denied');
         slideNumberFormat: '%current% of %total%',
         highlightStyle: 'googlecode'
       });
+
+      /*slideshow.on('afterShowSlide', function (slide) {
+        console.log(slide);
+      });*/
     </script>
   </body>
 </html>
