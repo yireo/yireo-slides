@@ -4,7 +4,8 @@ $slideGroups = array(
         'group' => 'Yireo',
         'style' => 'yireo',
         'slides' => array(
-            array('file' => 'yireo/plugins', 'title' => 'Joomla Plugins'),
+            array('file' => 'yireo/custom_plugin', 'title' => 'Joomla System Plugin Per Project (NL)'),
+            array('file' => 'yireo/plugins', 'title' => 'Introducie tot Joomla Plugins &amp; Events (NL)'),
             array('file' => 'yireo/ssl', 'title' => 'Joomla &amp; SSL'),
             array('file' => 'yireo/zray_design', 'title' => 'Joomla &amp; Zend Server Z-Ray - Templaters Aid'),
             array('file' => 'yireo/zray_plugins', 'title' => 'Joomla &amp; Zend Server Z-Ray - Plugins and Events'),

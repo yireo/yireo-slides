@@ -10,14 +10,20 @@ class: center, middle
 ### Leren bij Yireo
 
 ---
+# Jisse Reitsma
+- Oprichter Yireo
+- Programmeur en ondernemer
+- Auteur "Joomla Templates Ontwerpen" (NL 2009)
+- Auteur "Programming Joomla Plugins" (EN 2014)
+
+---
 # Een overzicht
-- "Opening Up Technology"
+- Internet onderneming
     - open source
     - 60+ extensies voor Magento en Joomla
     - 200+ text en video tutorials
-- Opgericht door Jisse Reitsma
-    - Auteur "Joomla Templates Ontwerpen" (NL 2009)
-    - Auteur "Programming Joomla Plugins" (EN 2014)
+- Missie
+    - "Opening Up Technology"
 
 ---
 # Samen met Yireo
@@ -35,51 +41,32 @@ class: center, middle
 
 ---
 # Educatie
-- Trainingen
-- Workshops
-- Bootcamps
-- Seminars
-- Screencasts
-- Tutorials
-- Boeken
-
----
-# Leren bij Yireo
 - Fysieke trainingen
     - 1-op-1 maatwerkcursus
     - groepstraining
-    - cursus op locatie
+    - bootcamps, expert sessies
 - Online trainingen
-    - Screencasts
-    - Tekst tutorials
-
----
-# Slimmere oplossingen
-- Klassikale cursussen werken niet
-- Online learning is goedkoop en praktisch
-- Snelle ontwikkelingen binnen IT 
-    - Blijvende vraag naar expertise
-    - Moeilijk up-to-date te blijven
+    - screencasts
+    - tekst tutorials
+    - boeken
 
 ---
 # Yireo Leercurve
 - Blended learning (online en offline)
 - Kies zelf je eigen strategie
-    - Screencasts
-    - Boeken en tutorials
-    - Skype / Google Hangout
-    - Cursusmateriaal op maat
-    - Persoonlijk advies
-    - Code audits
-    - Expert sessies / usergroups
+    - Screencasts, boeken en tutorials
+    - Onderwerpen op maat
+    - Persoonlijk advies, audits (Skype / Google Hangout)
+    - Fysieke trainingen
 
 ---
-# Yireo in 2015 en 2016
-- Meer boeken (Magento en Joomla)
-- Meer tutorials en screencasts
+# Planning in 2015 / 2016
 - E-learning packages
-- Fysieke trainingen
-- Seminars, expert sessies, usergroups
+    - boeken (Magento en Joomla)
+    - tutorials en screencasts
+- Persoonlijke hulp
+    - fysieke trainingen
+    - seminars, expert sessies, usergroups
 
 ---
 # Meer informatie?
