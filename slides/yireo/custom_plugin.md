@@ -115,7 +115,7 @@ class: center, middle
 ---
 # XML file "form/form.xml"
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
+&lt;?xml version="1.0" encoding="utf-8"?>
 <form>
     <fields name="attribs">
         <fieldset name="attribs">
