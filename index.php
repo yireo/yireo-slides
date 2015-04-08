@@ -2,7 +2,7 @@
 include_once 'definitions.php';
 
 $root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
-$request = str_replace($root_url, '', $_SERVER['REQUEST_URI']);
+$request = substr_replace($_SERVER['REQUEST_URI'], '', 0, strlen($root_url));
 
 if (!empty($request)) {
     include_once 'slide.php';

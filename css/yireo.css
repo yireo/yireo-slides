@@ -65,6 +65,7 @@ div.slide-heading {
 div.slide-footer {
     border-top: solid 1px #ccc;
     padding-top: 10px;
+    padding-left: 80px;
     position: absolute;
     bottom: 25px;
     left: 20px;
@@ -73,6 +74,7 @@ div.slide-footer {
     color: #aaa;
     text-align: left;
     font-style: italic;
+    background: transparent url(../images/yireo-logo-40.png) no-repeat 0 3px;
 }
 
 div.slide-footer span {
