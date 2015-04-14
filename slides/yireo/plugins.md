@@ -1,7 +1,7 @@
 layout: true
 <div class="slide-heading">Joomla Plugins &amp; Events</div>
 <div class="slide-footer">
-    <img src="images/yireo-logo.png" width="40" align="left" /> <span>www.yireo.com</span>
+    <span>www.yireo.com - slides.yireo.com</span>
 </div>
 
 ---
@@ -210,7 +210,6 @@ class: center, middle
 
 ---
 class: center, middle
-## @yireo 
-### http://yir.io/jpb
-### https://github.com/yireo/yireo-slides
+## thanks
+### http://yir.io/pjp
 

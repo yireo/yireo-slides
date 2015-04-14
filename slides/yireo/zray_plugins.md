@@ -1,7 +1,7 @@
 layout: true
 <div class="slide-heading">Joomla &amp; Zend Server Z-Ray - Plugins &amp; Events</div>
 <div class="slide-footer">
-    <img src="images/yireo-logo.png" width="40" align="left" /> <span>www.yireo.com</span>
+    <span>www.yireo.com - slides.yireo.com</span>
 </div>
 
 ---
@@ -59,3 +59,11 @@ class: center, middle
 ---
 # Joomla plugins &amp; events
 - @todo
+
+
+---
+class: center, middle
+## thanks
+### tweet us via @yireo
+### https://github.com/yireo/Z-Ray-Joomla
+

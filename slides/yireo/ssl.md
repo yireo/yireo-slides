@@ -1,7 +1,7 @@
 layout: true
 <div class="slide-heading">Joomla &amp; SSL</div>
 <div class="slide-footer">
-    <img src="images/yireo-logo.png" width="40" align="left" /> <span>www.yireo.com</span>
+    <span>www.yireo.com - slides.yireo.com</span>
 </div>
 
 ---
@@ -215,7 +215,5 @@ Validatie van jouw bedrijf bij CA
 
 ---
 class: center, middle
-## @yireo 
+## thanks
 ### SSLRedirect: http://yir.io/ssl
-### https://github.com/yireo/yireo-slides
-
