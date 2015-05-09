@@ -1,4 +1,9 @@
 <?php
+$title = null;
+$style = null;
+$slide = null;
+$root_url = null;
+
 // Fetch parameters
 if(empty($request)) {
     $title = $_GET['title'];
