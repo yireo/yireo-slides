@@ -16,6 +16,7 @@ $slideGroups = array(
         'group' => 'MUG073 - Magento User Group Den Bosch',
         'style' => 'mug073',
         'slides' => array(
+            array('file' => 'mug073/generic/intro', 'title' => 'Introductie'),
             array('file' => 'mug073/configurables/code', 'title' => 'Configurable Products Code'),
             array('file' => 'mug073/magerun/magerun', 'title' => 'n98-magerun'),
             array('file' => 'mug073/composer/composer', 'title' => 'Composer &amp; Packagist'),
