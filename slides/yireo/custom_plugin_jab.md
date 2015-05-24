@@ -20,6 +20,9 @@ class: center, middle
     - Missing guide for plugins
     - For both beginner and experienced developer
     - Available as dead-tree-format (ebook in August)
+- Part of Zend Z-Team
+    - Zend Server Z-Ray plugin for Joomla
+    - Various Zend tutorials
 
 ---
 # Yireo Education
