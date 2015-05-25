@@ -4,6 +4,7 @@ $slideGroups = array(
         'group' => 'Yireo',
         'style' => 'yireo',
         'slides' => array(
+            array('file' => 'yireo/custom_plugin_jab', 'title' => 'Joomla System Plugin Per Project (JAB15)'),
             array('file' => 'yireo/custom_plugin', 'title' => 'Joomla System Plugin Per Project (NL)'),
             array('file' => 'yireo/plugins', 'title' => 'Introducie tot Joomla Plugins &amp; Events (NL)'),
             array('file' => 'yireo/ssl', 'title' => 'Joomla &amp; SSL'),
@@ -16,6 +17,7 @@ $slideGroups = array(
         'group' => 'MUG073 - Magento User Group Den Bosch',
         'style' => 'mug073',
         'slides' => array(
+            array('file' => 'mug073/generic/intro', 'title' => 'Introductie'),
             array('file' => 'mug073/configurables/code', 'title' => 'Configurable Products Code'),
             array('file' => 'mug073/magerun/magerun', 'title' => 'n98-magerun'),
             array('file' => 'mug073/composer/composer', 'title' => 'Composer &amp; Packagist'),
