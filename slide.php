@@ -31,10 +31,13 @@ if(empty($slide)) die('no slide');
 if(file_exists($slide) == false) die('no slide');
 
 if(stristr($slide, __DIR__) == false) die('access denied');
+
+$root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
 ?>
 <!DOCTYPE html>
 <html>
   <head>
+    <base href="<?php echo $root_url; ?>">
     <title><?php echo $title; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="<?php echo $root_url; ?>css/<?php echo $style; ?>.css" />
