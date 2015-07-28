@@ -18,6 +18,7 @@ $slideGroups = array(
         'style' => 'mug073',
         'slides' => array(
             array('file' => 'mug073/generic/intro', 'title' => 'Introductie'),
+            array('file' => 'mug073/quality/quality', 'title' => 'Quality Assurance'),
             array('file' => 'mug073/configurables/code', 'title' => 'Configurable Products Code'),
             array('file' => 'mug073/magerun/magerun', 'title' => 'n98-magerun'),
             array('file' => 'mug073/composer/composer', 'title' => 'Composer &amp; Packagist'),
