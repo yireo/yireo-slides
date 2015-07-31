@@ -56,13 +56,14 @@ class: center, middle
 ---
 # Goal: Zero logs in logfiles
 - Apache error-log
-- var/log/system.log
-- var/log/exception.log
-- var/reports
+- `var/log/system.log`
+- `var/log/exception.log`
+- `var/reports/*`
 
 ---
 # Common errors in logs
 - PHP Notices on uninitialized variables
+- PHP Notices on constants that should be strings
 - PHP Warnings on wrong loops
 - Horrible Magento coding
 - Exceptions on payment gateways
@@ -90,17 +91,17 @@ magerun sys:check
 
 ---
 # PHP tools
-- phpcs = PHP Code Sniffer
-- phpmd = PHP Mess Detector
+- `phpcs` = PHP Code Sniffer
+- `phpmd` = PHP Mess Detector
 - PHP Copy/Paste Detector
 - PHP Dead Code Detector
 - PHP lint
 
 ---
 # Coding standards
-- github.com/magento-ecg/coding-standard
+- https://github.com/magento-ecg/coding-standard
 - Zend Coding Standard
-- PSR1 plus PSR2 (PHPGIF)
+- PSR1 plus PSR2 (PHP-FIG)
 - Validation in IDE
     - PhpStorm
     - Zend Studio
@@ -131,8 +132,8 @@ magerun sys:check
 
 ---
 # Other useful tools
-- maldet = malware scanner
-- shoplift.byte.nl
+- `maldet` = malware scanner
+- https://shoplift.byte.nl
 - profilers
     - Zend Server Z-Ray
     - New Relic
@@ -143,10 +144,10 @@ magerun sys:check
 - PHP version
     - PHP 5.4 is going to be obsolete in September 2015
     - PHP 7 is upcoming in December 2015 (PHP-NG)
-    - or HipHop VM (HHVM)
+    - HipHop VM (HHVM) is also nice
 - Magento tools
     - Redis
-    - magerun, composer
+    - `magerun`, `composer`
 
 ---
 # Measuring performance
@@ -160,7 +161,7 @@ magerun sys:check
 - Complete page analysis
     - Pingdom
     - GTMetrix
-    - magespeedtest.com
+    - http://www.magespeedtest.com
     - Google PageSpeed analysis
 - Do it yourself
     - sitespeed.io
@@ -175,10 +176,14 @@ https://magentotherightway.com/
 - Extensions
     - Yireo NewRelic (free)
     - Yireo SystemInfo (free)
-- Magento Performance Insights
-- Code Reviews as a service
-- Magento Performance Masterclass
-    - 09 september (2 seats left)
+- Services
+    - Magento Performance Insights
+    - Code Reviews as a service
+- Training
+    - Magento Performance Masterclass
+        - 09 september (full), 08 december (open)
+    - Magento 2 Development
+        - december / january (pending)
 
 ---
 class: center, middle

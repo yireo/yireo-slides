@@ -32,3 +32,7 @@ pre, .remark-code, .remark-inline-code {
     background-color: #fde9c1 !important;
     word-break: break-all;
 }
+
+li li {
+    font-size: 80%;
+}
