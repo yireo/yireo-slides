@@ -37,7 +37,7 @@ $root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
 <!DOCTYPE html>
 <html>
   <head>
-    <base href="<?php echo $root_url; ?>">
+    <base href="<?php echo $_SERVER['REQUEST_URI']; ?>">
     <title><?php echo $title; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="<?php echo $root_url; ?>css/<?php echo $style; ?>.css" />

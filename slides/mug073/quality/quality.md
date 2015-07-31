@@ -101,6 +101,9 @@ magerun sys:check
 - github.com/magento-ecg/coding-standard
 - Zend Coding Standard
 - PSR1 plus PSR2 (PHPGIF)
+- Validation in IDE
+    - PhpStorm
+    - Zend Studio
 
 ---
 # Testing Concepts
@@ -130,12 +133,17 @@ magerun sys:check
 # Other useful tools
 - maldet = malware scanner
 - shoplift.byte.nl
+- profilers
+    - Zend Server Z-Ray
+    - New Relic
+    - Blackfire
 
 ---
 # Quality of hosting
 - PHP version
     - PHP 5.4 is going to be obsolete in September 2015
-    - PHP 7 is upcoming in December 2015
+    - PHP 7 is upcoming in December 2015 (PHP-NG)
+    - or HipHop VM (HHVM)
 - Magento tools
     - Redis
     - magerun, composer
