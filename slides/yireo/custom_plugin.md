@@ -1,5 +1,5 @@
 layout: true
-<div class="slide-heading">Een System Plugin per project</div>
+<div class="slide-heading">A System Plugin per project</div>
 <div class="slide-footer">
     <span>www.yireo.com - slides.yireo.com</span>
 </div>
@@ -7,7 +7,7 @@ layout: true
 ---
 class: center, middle
 # Joomla Plugins
-### een eigen System Plugin per project
+### a custom System Plugin per project
 
 ---
 class: center, middle
@@ -15,53 +15,49 @@ class: center, middle
 
 ---
 # Jisse Reitsma
-- Oprichter van Yireo
-- Auteur van "Programming Joomla Plugins"
-    - Engels-talig boek
-    - Voor beginnende en ervaren programmeurs
-- Programmeur en ondernemer
+- Founder of Yireo
+- Author of "Programming Joomla Plugins"
+    - Missing guide for plugins
+    - For both beginner and experienced developer
+    - Available as dead-tree-format (ebook in August)
+- Part of Zend Z-Team
+    - Zend Server Z-Ray plugin for Joomla
+    - Various Zend tutorials
 
 ---
-# Yireo Educatie
-- Joomla Development Crash Course
-    - woensdag 08 juli 2015
-- Dutch Joomla PHP Developers: PhpStorm
-    - dinsdag 21 april 2015
-- Expert Sessie met Perfect Web Team
-    - ? mei/juni 2015
+# Yireo Education
+* Physical events
+    - Joomla Development Crash Course (me)
+    - Dutch Joomla PHP Developers (Roland Dalmulder)
+    - Expert Sessie (Sander Potjer)
+* Online events
+    - 80+ Tutorials
+    - Programming Joomla Modules video-course
     
-https://www.yireo.com/training/events/
+https://www.yireo.com/education/joomla-education
 
 ---
-# Deze presentatie
-- Over System Plugins
-- Praktische scenarios
-    - JForm formulieren en veld-typen
-    - Tags vervangen (FontAwesome)
-    - Eigen authenticatie
-    - Meer braindumps
+# This presentation
+- About System Plugins
+- Practical scenarios
+    - JForm forms
+    - Reusing logic
+- Sample Custom Plugin with mixins
 
 ---
 # Joomla Plugins
-- Plugin Groepen
+- Plugin Groups
     - Content
     - **System**
     - Authentication
-- Plugin Events / Methodes
+- Plugin Events / Methods
     - `onContentPrepare`
     - `onAfterInitialise`
     - `onUserAuthenticate`
+- Use System Plugins to fetch any event
 
 ---
-# Snel aan de slag
-- Iedere Joomla plugin heeft plugin-klasse
-- Binnen plugin-klasse definieer je methodes
-- Methodes zijn gelijknamig aan plugin event
-- Plugin methode vangt plugin event af
-- MEGATIP: System Plugin vangt ALLE events af
-
----
-# System Plugin skelet
+# System Plugin skeleton
 ```php
 defined('_JEXEC') or die;
 
@@ -74,43 +70,36 @@ class PlgSystemCustom extends JPlugin
     public function onContentPrepare($context, &$row, $params, $page = 0) {}
     public function onUserAuthenticate($credentials, $options, &$response) {}
 
-    private function doSomething() {}
-    private function doSomethingElse() {}
+    protected function doSomethingGeneric() {}
+
+    private function doSomethingVerySpecific() {}
 }
 ```
 
 ---
 # Plugin in PHP
-* Plugin klasse extends van `JPlugin` klasse
-* Events afvangen via methodes
-    - Ik noem het *event methodes*
+* Plugin extends of `JPlugin` 
+* Events are caught using methods
+    - I call them *event methods*
     - Access: `public`
-* Extra code in andere methoden
-    - Ik noem het *helper methodes*
-    - Access: `protected` of `private`
+* Additional code in other methods
+    - I call them *helper methods*
+    - Access: `protected` or `private`
 
 ---
 class: center, middle
-# Scenario #1
-## Content aanpassen
+# Modifying forms
+### why we love JForm
 
 ---
-# Content in Joomla
-- Artikel
-    - titel, text, auteur, datum, tags, categorie, taal
-- Boek
-    - uitgeverij, boek auteur, verschijningsdatum, boek taal
-- Recept
-    - ingredienten, type keuken, benodigde tijd
-- Blog
-    - auteur bio, toon social media (J|N)
-
----
-# JForm in plugins
-- Toevoegen van eigen `JForm` code
-    - Definieren eigen XML file
-    - Fuseren van eigen XML met bestaande formulier
-- Zie ook "Joomla Webdesigner Special" (2015)
+# Why we love JForm
+- Use a plugin to modify JForm objects
+    - Modifying existing fields
+    - Add new fields
+- How
+    - Define your own XML
+    - Fuse this XML with the existing form
+- Forms are everywhere
 
 ---
 # XML file "form/form.xml"
@@ -129,7 +118,7 @@ class: center, middle
 ```
 
 ---
-# Formulier toevoegen
+# Add form
 
 ```php
 public function onContentPrepareForm($form, $data)
@@ -140,116 +129,97 @@ public function onContentPrepareForm($form, $data)
 ```
 
 ---
-# Waar zijn formulieren?
-- Content beheer
-    - Artikel, Categorie, Weblink, Contact
-- Module beheer
-- Menu-Item beheer
-- Template beheer
-- Eigen formulieren in frontend
-    
+# Mental notes
+- Method `onContentPrepareForm` is very generic
+
 ---
 class: center, middle
-# Scenario #2
-## Eigen tags in content
+# More stuff we can do
+### with System Plugins
 
 ---
-# FontAwesome iconen
-- CSS gebaseerde iconen
-
-<i class="fa fa-quote-left"></i>
-<i class="fa fa-quote-left fa-3x"></i>
-<i class="fa fa-quote-left fa-3x fa-border"></i>
-<i class="fa fa-spinner fa-spin"></i>
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-twitter fa-stack-1x"></i>
-</span>
-<span class="fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
-</span>
-
----
-# FontAwesome in code
-
-```html
-<i class="fa fa-quote-left"></i>
-<i class="fa fa-quote-left fa-3x"></i>
-<i class="fa fa-quote-left fa-3x fa-border"></i>
-<i class="fa fa-spinner fa-spin"></i>
-
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-twitter fa-stack-1x"></i>
-</span>
-
-<span class="fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
-</span>
-```
-
----
-# FontAwesome Joomla
-Inladen van FontAwesome via gemakkelijke syntax
-
-    {fa fa-spinner fa-spin}
-
-    {fa spinner spin}
-
-    mytwitter="stack [square-o stack-2x][twitter stack-1x]"
-    {fa mytwitter}
-
-    myflag="stack [circle stack-2x][flag stack-1x inverse]"
-    {fa myflag}
-
-https://github.com/yireo/plg_system_fontawesome
-
----
-# Plugin logica
-- Voeg FontAwesome CSS en JS toe
-- Pas HTML document aan
-    - Find all tags beginnend met `{fa` en eindigend met `}`
-    - Vervang die tags met echte HTML-elementen
-
----
-# Plugin skelet
-
-```php
-class PlgSystemCustom extends JPlugin
-{
-    public function onAfterInitialise()
-    {
-        // Add CSS and JS
-    }
-
-    public function onAfterRender()
-    {
-        // Modify HTML
-    }
-
-    protected function replaceTags($body)
-    {
-        // Modify HTML
-    }
-}
-```
-
----
-# JS en CSS toevoegen
+# Adding CSS
 
 ```php
 public function onAfterInitialise()
 {
+    $cssFolder = 'media/plg_system_custom/css';
+
     $document = JFactory::getDocument();
-    $document->addStylesheet('media/custom/css/custom.css');
-    $document->addScript('media/custom/js/custom.js');
+    $document->addStylesheet($cssFolder . '/default.css');
 }
 ```
 
 ---
-# HTML aanpassen (1)
+# Clean code
+* Methods should do only 1 thing
+* Reduce dependancies of a single method
+
+---
+# Adding CSS and JS (+)
+
+```php
+public function onAfterInitialise()
+{
+    $this->addCss('default');
+}
+
+public function addCss($file)
+{
+    $cssFolder = 'media/plg_system_custom/css';
+
+    $doc = JFactory::getDocument();
+    $doc->addStylesheet($cssFolder . '/' . $file . '.css');
+}
+```
+
+---
+# Adding CSS and JS (++)
+
+```php
+public function onAfterInitialise()
+{
+    $this->addCss('default');
+}
+
+public function addCss($file)
+{
+    $pluginName = basename(__DIR__);
+    $pluginGroup = basename(dirname(__DIR__));
+    $pluginFullName = 'plg_' . $pluginGroup . '_' . $pluginName;
+
+    $cssFolder = 'media/' . $pluginFullName . '/css';
+
+    $doc = JFactory::getDocument();
+    $doc->addStylesheet($cssFolder . '/' . $file . '.css');
+}
+```
+
+---
+# Adding CSS and JS (+++)
+
+```php
+public function onAfterInitialise()
+{
+    $this->addCss('default');
+}
+
+public function addCss() {}
+
+public function getCssFolder() {}
+
+public function getFullPluginName() {}
+
+```
+
+
+---
+# Mental notes
+- All methods should become very generic
+
+
+---
+# Modifying HTML (1)
 
 ```php
 public function onAfterRender()
@@ -261,7 +231,7 @@ public function onAfterRender()
 ```
 
 ---
-# HTML aanpassen (2)
+# Modifying HTML (2)
 
 ```php
 public function replaceTags($body)
@@ -280,37 +250,13 @@ public function replaceTags($body)
 ```
 
 ---
-class: center, middle
-# Scenario #3
-## Eigen authenticatie
-
----
-# Eigen authenticatie
-- Per token
-- Per IP adres
-- Per Authenticatie Plugin
-
----
-# Per token
-```php
-public function onAfterRoute()
-{
-    $token = $this->app->input->getCmd('token');
-
-    if ($token != $this->params->get('token'))
-    {
-        die('UnAuthorized');
-    }
-}
-```
-
----
-# Authenticatie Plugin (1)
+# Authentication Plugin (1)
 ```php
 public function onUserAuthenticate($credentials, $options, &$response)
 {
     $username = $credentials['username'];
     $password = $credentials['password'];
+
     $validate = $this->validate($username, $password);
 
     if($validate == false)
@@ -327,13 +273,13 @@ public function onUserAuthenticate($credentials, $options, &$response)
 ```
 
 ---
-# Authenticatie Plugin (2)
+# Authentication Plugin (2)
 ```php
 public function validate($username, $password)
 {
-    $hackMySite = true;
+    $doSomething = false;
 
-    if ($hackMySite == true)
+    if ($doSomething == true)
     {
         return true;
     }
@@ -344,32 +290,60 @@ public function validate($username, $password)
 
 ---
 class: center, middle
-# Braindump
+# Mixins
+### Reacting on the mental notes
 
 ---
-# Braindump
-- Voeg JS en CSS toe, los van template
-    - Font Awesome, jQuery UI, Bootstrap 3, Foundation
-- Search Plugins voor derde partij componenten
-- GeoIP locatie in combinatie met formulier velden
-- Definieren van `JFormFields`
-    - Landen selector, jQuery UI
-- AJAX calls afvangen via `com_ajax`
+# Mental notes
+- Every method should have a single purpose
+- Loose coupling of methods reduces complexity
+- The more we reuse our code, the better
 
 ---
-# Meer weten?
-- Mijn boek "Programming Joomla Plugins"
-    - Beginners: events, klasse, XML, voorbeeld code
-    - Gevorderden: TFA, finder, Phing, unit testing
-- Yireo Educatie
-    - Extra tutorials & screencasts
-    - Trainingen
-- Weblinks
-    - http://yir.io/pjp
-    - https://github.com/yireo/
+# Possible solution: Mixins
+- Determined in runtime, so not traits
+- Use a parent class
+
+---
+# Basic plugin layout
+```php
+class PlgSystemCustom extends PlgSystemCustomAbstract
+{
+    protected $mixins = array(
+        'somegroup/sometask',
+    );
+
+    public function onAfterRender()
+    {
+        $this->doSomeTask();
+    }
+}
+```
+
+---
+# Basic plugin layout
+```php
+class PlgSystemCustom extends PlgSystemCustomAbstract
+{
+    protected $mixins = array(
+        'somegroup/sometask',
+    );
+
+    public function onAfterRender()
+    {
+        $this->doSomeTask();
+    }
+}
+```
+
+---
+class: center, middle
+# Demo
+### https://github.com/yireo/plg_system_custom
+
 
 ---
 class: center, middle
 ## thanks
-### tweet us via @yireo
+### tweet me via @yireo
 

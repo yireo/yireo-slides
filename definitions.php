@@ -4,7 +4,7 @@ $slideGroups = array(
         'group' => 'Yireo',
         'style' => 'yireo',
         'slides' => array(
-            array('file' => 'yireo/custom_plugin_jab', 'title' => 'Joomla System Plugin Per Project (JAB15)'),
+            array('file' => 'yireo/custom_plugin', 'title' => 'Joomla System Plugin Per Project (EN)'),
             array('file' => 'yireo/custom_plugin', 'title' => 'Joomla System Plugin Per Project (NL)'),
             array('file' => 'yireo/plugins', 'title' => 'Introducie tot Joomla Plugins &amp; Events (NL)'),
             array('file' => 'yireo/ssl', 'title' => 'Joomla &amp; SSL'),
