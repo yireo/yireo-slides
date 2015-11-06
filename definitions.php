@@ -4,6 +4,7 @@ $slideGroups = array(
         'group' => 'Yireo',
         'style' => 'yireo',
         'slides' => array(
+            array('file' => 'yireo/modern_php_in_joomla', 'title' => 'Modern PHP in Joomla (JWC15)'),
             array('file' => 'yireo/custom_plugin_jwc15', 'title' => 'Joomla System Plugin Per Project (JWC15)'),
             array('file' => 'yireo/custom_plugin', 'title' => 'Joomla System Plugin Per Project (NL)'),
             array('file' => 'yireo/plugins', 'title' => 'Introducie tot Joomla Plugins &amp; Events (NL)'),

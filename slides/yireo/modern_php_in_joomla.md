@@ -1,7 +1,7 @@
 layout: true
-<div class="slide-heading">Mddern PHP mixed in Joomla</div>
+<div class="slide-heading">Modern PHP mixed in Joomla</div>
 <div class="slide-footer">
-    <span>www.yireo.com - slides.yireo.com</span>
+    <span>www.yireo.com - slides.yireo.com  - #jwc15 - @yireo / @jissereitsma</span>
 </div>
 
 ---
@@ -41,13 +41,13 @@ https://www.yireo.com/education/joomla-education
 - Interfaces & abstract classes
 - Exceptions
 - Namespaces
-- Closures & lambdas & anonymous functions
+- Closures & lambdas
 - Mixins & traits
-- PHP 7
 
 ---
 class: center, middle
-# Interfaces & abstract classes
+# Interfaces 
+# & abstract classes
 
 ---
 # Inheritance
@@ -108,8 +108,9 @@ class JModelbase implements JModel
 	- `JModelBase`
 - Create your own contracts (so: interfaces)
 
-```
-ExampleModelItem extends JModelForm implements JModel implements ExampleModelContract
+```php
+class ExampleModelItem extends JModelForm 
+    implements JModel, ExampleModelContract
 ```
 
 ---
@@ -117,10 +118,11 @@ class: center, middle
 # Exceptions
 
 ---
-# Exceptions
-- Usage
-    - Defining the exception with `throw`
-    - Catching the exception with `try {} catch(Exception $e) {}`
+# Exceptions: Usage
+- Defining the exception
+    - `throw new Exception($errorMsg);`
+- Catching the exception
+    - `try {} catch(Exception $e) {}`
 
 ---
 # Defining the exception
@@ -172,7 +174,7 @@ class: center, middle
 
 ---
 # Namespace definition
-File `libraries/yireo/joomla/dynamic404/helpers/matching.php`:
+File `libraries > yireo > joomla > dynamic404 > helpers > matching.php`:
 ```php
 namespace Yireo\Joomla\Dynamic404\Helpers;
 
@@ -194,29 +196,89 @@ $matches = Dynamic404\Helpers\Matching::match($search);
 ```
 
 ---
-# Rewrite legacy to namespaces
-@todo
-- `JRegistry` > `\Joomla\Registry'
+# Legacy to namespaces
+- `JRegistry` > `\Joomla\Registry`
 
 ---
 class: center, middle
-# closures & lambdas & anonymous functions
-@todo
+# Closures & lambdas
+
+---
+# Closures & lambdas
+- Closures
+    - Function without a name
+- Anonymous functions
+    - Othe name for a closure
+- Lambdas
+    - Closure with ability to reuse variables outside scope
+
+---
+# Regular function
+```php
+function helloWorld($name) {
+    echo 'Hello World, ' . $name;
+}
+
+$name = 'John Doe';
+echo $helloWorld($name);
+```
+
+---
+# Anonymous function
+```php
+function ($name) {
+    echo 'Hello World, ' . $name;
+}
+```
+
+---
+# Closures
+aka *anonymous functions*:
+```php
+$name = 'John Doe';
+$helloWorld = function ($name) {
+    echo 'Hello World, ' . $name;
+};
+echo $helloWorld($name);
+```
+
+---
+# Lambdas
+```php
+$name = 'John Doe';
+$helloWorld = function () use (&$name) {
+    echo 'Hello World, ' . $name;
+};
+echo $helloWorld();
+```
 
 ---
 class: center, middle
 # Mixings & traits
 
 ---
+# Problem of inheritance
+- Multiple inheritance is not possible
+- Code clutters in either subclass or parent classes
+- Possible solution
+    - Mixins
+    - Traits
+
+---
 # Mixins
-@todo
+- Override `__call` magic function
+- Search for right method automatically
+- Include methods from other classes
+- Determined at runtime
 
 ---
 # Traits
-@todo
+- PHP 5.4 or later
+- New `use` call within class definition
+- Include methods from `trait` not `class` classes
+- Determined at code time
 
 ---
-class: center, middle
 # more stuff
 - PHP 7
 - Unit testing

@@ -1,7 +1,7 @@
 layout: true
 <div class="slide-heading">A System Plugin per project</div>
 <div class="slide-footer">
-    <span>www.yireo.com - slides.yireo.com - #jwc15</span>
+    <span>www.yireo.com - slides.yireo.com - #jwc15 - @yireo / @jissereitsma</span>
 </div>
 
 ---
@@ -540,4 +540,3 @@ class: center, middle
 class: center, middle
 ## thanks
 ### tweet me via @yireo
-
