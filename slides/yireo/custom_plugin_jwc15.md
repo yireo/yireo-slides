@@ -1,7 +1,7 @@
 layout: true
 <div class="slide-heading">A System Plugin per project</div>
 <div class="slide-footer">
-    <span>www.yireo.com - slides.yireo.com</span>
+    <span>www.yireo.com - slides.yireo.com - #jwc15</span>
 </div>
 
 ---
@@ -16,10 +16,11 @@ class: center, middle
 ---
 # Jisse Reitsma
 - Founder of Yireo
+    - 50% Joomla, 50% Magento
 - Author of "Programming Joomla Plugins"
     - Missing guide for plugins
     - For both beginner and experienced developer
-    - Available as dead-tree-format (ebook end of November 2015)
+    - Dead-tree-format (ebook end of November 2015)
 - Part of Zend Z-Team
     - Zend Server Z-Ray plugin for Joomla
     - Various Zend tutorials
@@ -38,11 +39,59 @@ https://www.yireo.com/education/joomla-education
 
 ---
 # This presentation
-- About System Plugins
+- About Plugins
 - Practical scenarios
     - JForm forms
     - Reusing logic
-- Sample Custom Plugin with mixins
+- Sample Custom Plugin
+    - Mixins
+    - Traits
+
+---
+# Joomla Plugins
+- Plugin Groups
+- Events
+- PHP code
+
+---
+# Extension types
+- *Components* = main goal
+- *Modules* = extra functionality
+- *Plugins*
+- *Templates* = webdesign
+- *Libraries* = for developers
+
+---
+# Plugin definition
+- Works in the "background"
+- Tasks are processed via events
+- Flexible but bit complex
+
+---
+# Plugin groups (1 of 2)
+- *Content*
+- *Authentication*
+- *System*
+- *User*
+- *Search*
+- *Smart Search* (`finder`)
+
+---
+# Plugin groups (2 of 2)
+- *Captcha*
+- *Two Factor Authentication*
+- *Editor*
+- *Button* (`editors-xtd`)
+- *Quick Icons*
+
+---
+# Third party plugins
+- E-commerce (payment, shipment)
+    * Hikashop, RedShop, VirtueMart
+- Content (additional fields, automatic content)
+    * K2, ZOO, SimpleLists, Seblod
+- Simply extendible
+    * Kunena, Dynamic404, Akeeba Subscriptions
 
 ---
 # Joomla Plugins
@@ -55,6 +104,108 @@ https://www.yireo.com/education/joomla-education
     - `onAfterInitialise`
     - `onUserAuthenticate`
 - Use System Plugins to fetch any event
+
+---
+# Events
+- Technical way of hooking into something
+- An event is triggered
+    - By a component
+    - By a module
+- An event equals one or more methods in a plugin
+    - `onContentDisplayBefore`
+    - `onUserAuthenticate`
+
+---
+class: center, middle
+# Code
+
+---
+# Content events
+- `onContentSaveBefore`
+- `onContentSaveAfter`
+- `onContentDisplayBefore`
+
+---
+# User events
+- `onUserBeforeSave`
+- `onUserAfterSave`
+- `onUserLogin`
+- `onUserLogout`
+
+---
+# user/joomla folder
+`plugins/user/joomla/`
+
+* `joomla.php`
+* `joomla.xml`
+* `index.html`
+
+---
+# PHP intro in 30 seconds
+* Programming language
+* Object oriented programming
+    * Objects are instances of classes
+    * Classes have parts
+        * Variables
+        * Methods
+
+---
+# user/joomla plugin
+```php
+defined('_JEXEC') or die;
+
+class PlgUserJoomla extends JPlugin
+{
+    protected $app;
+    protected $db;
+
+    public function onUserAfterDelete($user, $success, $msg) {}
+    public function onUserAfterSave($user, $isnew, $success, $msg) {}
+
+    public function onUserLogin($user, $options = array()) {}
+    public function onUserLogout($user, $options = array()) {}
+
+    protected function _getUser($user, $options = array())
+}
+```
+
+---
+# Plugin in PHP
+* Plugin class extends of `JPlugin` class
+* Events are fetched using method
+    - I call these *event methods*
+    - Access: `public`
+* Extra code in other methods
+    - I call these *helper methodes*
+    - Access: `protected` of `private`
+
+---
+# Recaptcha folder
+`plugins/captcha/recaptcha/`
+
+* `recaptcha.php`
+* `recaptcha.xml`
+* `index.html`
+
+---
+# Recaptcha plugin
+```php
+defined('_JEXEC') or die;
+
+class PlgCaptchaRecaptcha extends JPlugin
+{
+    public function onInit($id) {}
+    public function onDisplay($name, $id, $class) {}
+    public function onCheckAnswer($code) {}
+    private function _recaptcha_qsencode($data) {}
+}
+```
+
+---
+# System events
+- `onAfterInitialize`
+- `onAfterRender`
+- `onAfterDispatch`
 
 ---
 # System Plugin skeleton
@@ -303,18 +454,43 @@ class: center, middle
 - Add trait when needed
 
 ---
-# Possible solution: Mixins
-- Determined in runtime, so not traits
-- Use a parent class
+# Basic inheritance
+```php
+class A
+{
+    public function doSomeTask() {}
+}
+
+class B extends A
+{
+}
+
+$b = new B;
+$b->doSomeTask();
+```
 
 ---
-# Basic plugin layout
+# Basics of traits
+```php
+trait A
+{
+    public function doSomeTask() {}
+}
+
+class B extends A
+{
+}
+
+$b = new B;
+$b->doSomeTask();
+```
+
+---
+# Traits: Basic plugin layout
 ```php
 class PlgSystemCustom extends PlgSystemCustomAbstract
 {
-    protected $mixins = array(
-        'somegroup/sometask',
-    );
+    use \SomeGroup\SomeTask;
 
     public function onAfterRender()
     {
@@ -324,7 +500,17 @@ class PlgSystemCustom extends PlgSystemCustomAbstract
 ```
 
 ---
-# Basic plugin layout
+class: center, middle
+# Traits code
+### https://github.com/yireo/plg_system_traits
+
+---
+# Possible solution: Mixins
+- Determined in runtime, so not traits
+- Use a parent class
+
+---
+# Mixins: Basic plugin layout
 ```php
 class PlgSystemCustom extends PlgSystemCustomAbstract
 {
@@ -341,8 +527,8 @@ class PlgSystemCustom extends PlgSystemCustomAbstract
 
 ---
 class: center, middle
-# Demo
-### https://github.com/yireo/plg_system_custom
+# Mixins code
+### https://github.com/yireo/plg_system_mixins
 
 
 ---
