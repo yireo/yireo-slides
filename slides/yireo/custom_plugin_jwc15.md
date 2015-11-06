@@ -439,6 +439,11 @@ public function validate($username, $password)
 
 ---
 class: center, middle
+# Plugin code to replace tags
+### https://github.com/yireo/plg_system_custom
+
+---
+class: center, middle
 # Reuse your code
 ### Reacting on the mental notes
 
