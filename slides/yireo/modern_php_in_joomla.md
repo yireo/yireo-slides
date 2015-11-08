@@ -41,7 +41,7 @@ https://www.yireo.com/education/joomla-education
 - Interfaces & abstract classes
 - Exceptions
 - Namespaces
-- Closures & lambdas
+- Lambdas & closures
 - Mixins & traits
 
 ---
@@ -83,7 +83,7 @@ class ExampleModelItems extends YireoModelList
 }
 
 $model = new ExampleModelItems;
-$items = $model->getItems();
+$items = $model->getData();
 $limit = $model->getState('limit');
 ```
 
@@ -325,16 +325,18 @@ $matches = Dynamic404\Helpers\Matching::match($search);
 
 ---
 class: center, middle
-# Closures & lambdas
+# Lambdas & closures
 
 ---
-# Closures & lambdas
-- Closures
+# Lambdas & closures
+- Lambdas
     - Function without a name
 - Anonymous functions
-    - Othe name for a closure
-- Lambdas
+    - Other name for a closure
+- Closures
     - Closure with ability to reuse variables outside scope
+    - Variable is *copied* to function scope
+    - Function scope is then assigned to variable
 
 ---
 # Regular function
@@ -356,7 +358,7 @@ function ($name) {
 ```
 
 ---
-# Closures
+# Lambdas
 aka *anonymous functions*:
 ```php
 $name = 'John Doe';
@@ -367,7 +369,7 @@ echo $helloWorld($name);
 ```
 
 ---
-# Lambdas
+# Closures
 ```php
 $name = 'John Doe';
 $helloWorld = function () use (&$name) {
@@ -378,11 +380,11 @@ echo $helloWorld();
 
 ---
 # Recommendations
-- @todo
+- None
 
 ---
 class: center, middle
-# Mixings & traits
+# Mixins & traits
 
 ---
 # Problem of inheritance
