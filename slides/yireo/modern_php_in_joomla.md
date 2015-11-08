@@ -6,7 +6,7 @@ layout: true
 
 ---
 class: center, middle
-# Modern PHP mixed in Joomla
+# Modern PHP in Joomla
 ### modern-day OOP practices for Joomla
 
 ---
@@ -19,7 +19,7 @@ class: center, middle
 - Author of "Programming Joomla Plugins"
     - Missing guide for plugins
     - For both beginner and experienced developer
-    - Available as dead-tree-format (ebook end of November 2015)
+    - Dead-tree-format (ebook end of November 2015)
 - Part of Zend Z-Team
     - Zend Server Z-Ray plugin for Joomla
     - Various Zend tutorials
@@ -50,7 +50,7 @@ class: center, middle
 # & abstract classes
 
 ---
-# Inheritance
+# Inheritance (1 of 2)
 ```php
 class JModelList
 {
@@ -58,7 +58,7 @@ class JModelList
     public function getItems() { ... }
 }
 
-class ExampleModelItems extends JModelLegacy
+class ExampleModelItems extends JModelList
 {
     public function getItems() { ... }
 }
@@ -67,6 +67,30 @@ $model = new ExampleModelItems;
 $items = $model->getItems();
 $limit = $model->getState('limit');
 ```
+
+---
+# Inheritance (2 of 2)
+```php
+class YireoModelList extends JModelLegacy
+{
+    public function getState() { ... }
+    public function getData() { ... }
+}
+
+class ExampleModelItems extends YireoModelList
+{
+    public function getData() { ... }
+}
+
+$model = new ExampleModelItems;
+$items = $model->getItems();
+$limit = $model->getState('limit');
+```
+
+---
+# Problem of inheritance
+- Hierarchy of classes quickly becomes complex
+- No guarantee that subclass properly uses code offered by parent
 
 ---
 # Abstract classes
@@ -101,7 +125,50 @@ class JModelbase implements JModel
 ```
 
 ---
-# Recommendations
+# Abstract vs interfaces
+- Interfaces offer clean way for contracting
+- Abstract classes are a half-breed
+- Use interfaces instead of abstract classes
+
+---
+# Towards interface (1 of 2)
+```php
+abstract class JModelForm
+{
+    public function getState() { ... }
+    abstract public function getForm();
+}
+
+class ExampleModelItem extends JModelForm
+{
+    public function load($id) { ... }
+    public function getForm() { ... }
+}
+```
+
+---
+# Towards interface (2 of 2)
+```php
+class JModelForm
+{
+    public function getState() { ... }
+}
+
+interface JModelFormContract
+{
+    abstract public function getForm();
+}
+
+class ExampleModelItem extends JModelForm
+    implements JModelFormContract
+{
+    public function load($id) { ... }
+    public function getForm() { ... }
+}
+```
+
+---
+# Recommendations (1 of 2)
 - Implement `JModel` in all your models
 - Extend from whatever you feel comfortable with
 	- `JModelLegacy`, `JModelItem`, `JModelForm`
@@ -111,6 +178,17 @@ class JModelbase implements JModel
 ```php
 class ExampleModelItem extends JModelForm 
     implements JModel, ExampleModelContract
+```
+
+---
+# Recommendations (2 of 2)
+- Document your implemented methods
+
+```php
+/**
+ * @see JModelFormContract::getForm();
+ */
+public function getForm() {}
 ```
 
 ---
@@ -169,6 +247,37 @@ catch(Exception $e)
 - Create your own exception classes
 
 ---
+# Custom exception (1 of 2)
+```php
+class ExampleException extends Exception
+{
+}
+```
+
+---
+# Custom exception (2 of 2)
+```php
+class ExampleException extends Exception
+{
+    public function __construct($message, $code = 0, Exception $previous = null) {
+        $message = '[ExampleException] ' . $message;
+        parent::__construct($message, $code, $previous);
+    }
+
+    public function __toString()
+    {
+        return __CLASS__ . ": [{$this->code}]: {$this->message}\n";
+    }
+}
+
+throw ExampleException('test');
+
+try { something(); } catch(ExampleException $e) {
+    echo $e;
+}
+```
+
+---
 class: center, middle
 # Namespaces
 
@@ -186,10 +295,18 @@ class Matching
 
 ---
 # Namespace usage
+Full path:
 ```php
 $matches = \Yireo\Joomla\Dynamic404\Helpers\Matching::match($search);
 ```
 
+Including a namespace:
+```php
+use Yireo\Joomla\Dynamic404\Helpers\Matching as Dynamic404Matching;
+$matches = Dynamic404Matching::match($search);
+```
+
+Or part of it:
 ```php
 use Yireo\Joomla\Dynamic404 as Dynamic404;
 $matches = Dynamic404\Helpers\Matching::match($search);
@@ -198,6 +315,13 @@ $matches = Dynamic404\Helpers\Matching::match($search);
 ---
 # Legacy to namespaces
 - `JRegistry` > `\Joomla\Registry`
+
+---
+# Recommendations
+- Try to convert your own code to namespaces
+    - Helper classes
+    - Library classes
+    - Interfaces
 
 ---
 class: center, middle
@@ -253,6 +377,10 @@ echo $helloWorld();
 ```
 
 ---
+# Recommendations
+- @todo
+
+---
 class: center, middle
 # Mixings & traits
 
@@ -272,11 +400,84 @@ class: center, middle
 - Determined at runtime
 
 ---
+# Mixins (1 of 2)
+```php
+class SubExample extends ParentExample
+{
+    protected $mixins = array('Alertable');
+}
+
+$example = new SubExample;
+$example->alert('Hello World');
+```
+
+---
+# Mixins (2 of 2)
+```php
+class ParentExample
+{
+    public function __call($method, $arguments)
+    {
+        if ($method == 'alert')
+        {
+            $alertable = new Alertable;
+            $alertable->alert($arguments);
+        }
+    }
+}
+
+class Alertable
+{
+    public function alert($string)
+    {
+        echo '<script>alert("'.$string.'");</script>';
+    }
+}
+```
+
+---
+# Traits (1 of 2)
+```php
+class SubExample extends ParentExample
+{
+}
+
+$example = new SubExample;
+$example->alert('Hello World');
+```
+
+---
+# Traits (2 of 2)
+```php
+class ParentExample
+{
+    use Alertable;
+}
+
+trait Alertable
+{
+    public function alert($string)
+    {
+        echo '<script>alert("'.$string.'");</script>';
+    }
+}
+```
+
+---
 # Traits
 - PHP 5.4 or later
 - New `use` call within class definition
 - Include methods from `trait` not `class` classes
 - Determined at code time
+
+---
+# Recommendations
+- Use traits or mixins for:
+    - Behavioral patterns
+- Name methods properly
+    - Similar name to trait or mixins
+    - trait `Alterable`: `alert`
+    - mixin `Publishable`: `publish` / `unpublish`
 
 ---
 # more stuff
