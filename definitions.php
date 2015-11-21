@@ -4,6 +4,7 @@ $slideGroups = array(
         'group' => 'Yireo',
         'style' => 'yireo',
         'slides' => array(
+            array('file' => 'yireo/joomla_stuff', 'title' => 'Joomla Stuff (JUG Breda)'),
             array('file' => 'yireo/modern_php_in_joomla', 'title' => 'Modern PHP in Joomla (JWC15)'),
             array('file' => 'yireo/custom_plugin_jwc15', 'title' => 'Joomla System Plugin Per Project (JWC15)'),
             array('file' => 'yireo/custom_plugin', 'title' => 'Joomla System Plugin Per Project (NL)'),
@@ -18,7 +19,9 @@ $slideGroups = array(
         'group' => 'MUG073 - Magento User Group Den Bosch',
         'style' => 'mug073',
         'slides' => array(
-            array('file' => 'mug073/generic/intro', 'title' => 'Introductie'),
+            array('file' => 'mug073/magento2/intro', 'title' => 'Introduction MUG073'),
+            array('file' => 'mug073/magento2/overview', 'title' => 'Overview Magento 2'),
+            //array('file' => 'mug073/generic/intro', 'title' => 'Introductie'),
             array('file' => 'mug073/quality/quality', 'title' => 'Quality Assurance'),
             array('file' => 'mug073/configurables/code', 'title' => 'Configurable Products Code'),
             array('file' => 'mug073/magerun/magerun', 'title' => 'n98-magerun'),

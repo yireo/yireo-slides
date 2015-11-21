@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro);
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 div.remark-slides-area {
@@ -12,7 +12,7 @@ div.remark-slide {
 }
 
 h1, h2, h3 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .remark-slide-content {
