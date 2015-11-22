@@ -43,8 +43,13 @@ https://www.yireo.com/education/joomla-education
 - SimpleLists
 - TweetScheduler
 - EmailScheduler
+- FollowUp HikaShop
 - Bing/GoogleTranslate
 - LanguageDomains
+- AutoCorrect
+- FontAwesome
+- StaticContent
+- SEF Test
 
 ---
 class: center, middle

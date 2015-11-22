@@ -40,6 +40,12 @@ class: center, middle
 * Magento StackExchange
 
 ---
+# MageStackDay
+- 15 januari 2016
+- online
+- zoveel Magento StackExchange vragen
+
+---
 # Web Winkel Vakdagen
 - 20 en 21 januari 2016
 - Jaarbeurs Utrecht
