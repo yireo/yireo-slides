@@ -62,13 +62,15 @@ http://www.webwinkelvakdagen.nl/
     + 150-200 deelnemers
     + Ben Marks als keynote
 
-http://magento2seminar.yireo.com
+https://magento2seminar.yireo.com
 
 ---
-# Magento 2 Dev Sessies
-- 23 januari of 24 januari 2016
+# Magento 2 Hackathon
+- 23 januari 2016
 - Door iedere MUG voor zich
 - Locatie nodig voor MUG073!!!
+
+http://www.meetup.com/Magento-User-Group-s-Hertogenbosch/
 
 ---
 # Daarna
