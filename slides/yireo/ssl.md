@@ -128,6 +128,11 @@ class: center, middle
 # Geavanceerd
 
 ---
+# Gratis SSL certificaten
+- StartSSL
+- LetsEncrypt
+
+---
 # SSL-certificaat aanmaken
 * Genereer een private SSL-key + CSR
     * Private key = Goede backup maken
