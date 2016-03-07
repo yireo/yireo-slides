@@ -40,50 +40,14 @@ class: center, middle
 * Magento StackExchange
 
 ---
-# MageStackDay
-- 15 januari 2016
-- online
-- zoveel Magento StackExchange vragen
-
----
-# Web Winkel Vakdagen
-- 20 en 21 januari 2016
-- Jaarbeurs Utrecht
-- op dag 1 nieuwjaarsborrel Dutchento
-
-http://www.webwinkelvakdagen.nl/
-
----
 # Magento 2 Seminar
-- 22 januari 2016
+- 21 oktober 2016
 - Seats2Meet Utrecht
-- Door Yireo & Dutchento & Magento
+- Door Yireo & Magento
     + Zend, New Relic, Varnish
-    + 150-200 deelnemers
-    + Ben Marks als keynote
+    + 200-250 deelnemers
 
 https://magento2seminar.yireo.com
-
----
-# Magento 2 Hackathon
-- 23 januari 2016
-- Door iedere MUG voor zich
-- Locatie nodig voor MUG073!!!
-
-http://www.meetup.com/Magento-User-Group-s-Hertogenbosch/
-
----
-# Daarna
-- MUGs
-- Yireo M2 development training
-- M2 training door Vinai en Ivan
-- MageUnconference NL?
-
----
-# JetBrains gratis licentie
-```
-2Z6EG-AF6VM-EGUYT-D8CC1-2SBGC
-```
 
 ---
 class: center, middle
