@@ -21,6 +21,7 @@ $slideGroups = array(
         'style' => 'mug073',
         'slides' => array(
             array('file' => 'mug073/generic/intro', 'title' => 'Introductie'),
+            array('file' => 'mug073/magento2/plugins', 'title' => 'Magento 2 Plugins and AOP'),
             array('file' => 'mug073/magento2/overview', 'title' => 'Overview Magento 2'),
             array('file' => 'mug073/quality/quality', 'title' => 'Quality Assurance'),
             array('file' => 'mug073/configurables/code', 'title' => 'Configurable Products Code'),
