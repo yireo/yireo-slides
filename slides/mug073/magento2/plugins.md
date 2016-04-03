@@ -33,7 +33,7 @@ File `etc/di.xml`:
     xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Catalog\Api\Product">
         <plugin name="uniqueFoobarName"
-            type="Yireo\FooBar\Plugin\Catalog\Product" 
+            type="Yireo\FooBar\Plugin\Catalog\ProductPlugin" 
             sortOrder="1" disabled="false"/>
     </type>
 </config>
@@ -49,11 +49,11 @@ Ordering is possible via `sortOrder`, which might be great (or not).
 ---
 # Using a plugin (before)
 ```php
-namespace Yireo\FooBar\Plugin;
-use Magento\Catalog\Model\Product as ProductSubject;
-class Product
+namespace Yireo\FooBar\Plugin\Catalog;
+use Magento\Catalog\Model\Product;
+class ProductPlugin
 {
-    public function beforeSetName(ProductSubject $subject, $name)
+    public function beforeSetName(Product $subject, $name)
     {
         $name = 'Example: ' . $name;
         return array($name);
@@ -65,11 +65,11 @@ The first argument `$subject` is specific to the plugin method. The other method
 ---
 # Using a plugin (after)
 ```php
-namespace Yireo\FooBar\Plugin;
-use Magento\Catalog\Model\Product as ProductSubject;
-class Product
+namespace Yireo\FooBar\Plugin\Catalog;
+use Magento\Catalog\Model\Product;
+class ProductPlugin
 {
-    public function afterSetName(ProductSubject $subject, $name)
+    public function afterSetName(Product $subject, $name)
     {
         $name = 'Example: ' . $name;
         return $name;
@@ -81,12 +81,12 @@ Same principle applies, except that the return value of the original method is m
 ---
 # Using a plugin (around)
 ```php
-namespace Yireo\FooBar\Plugin;
-use Magento\Catalog\Model\Product as ProductSubject;
-class Product
+namespace Yireo\FooBar\Plugin\Catalog;
+use Magento\Catalog\Model\Product;
+class ProductPlugin
 {
     public function aroundSetName(
-        ProductSubject $subject,
+        Product $subject,
         \Closure $proceed,
         $name
     )
