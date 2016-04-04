@@ -4,9 +4,9 @@ $slideGroups = array(
         'group' => 'Yireo on Joomla and Magento',
         'style' => 'yireo',
         'slides' => array(
-            array('file' => 'yireo/running_m2', 'title' => 'Running Magento 2 (Magento Developers Paradise 2016)'),
-            array('file' => 'yireo/missing_up_di', 'title' => 'Messing Up DI (MeetMagento NL 2016)'),
-            array('file' => 'yireo/php7', 'title' => 'PHP 7 (JoomlaDagen 2016)'),
+            array('file' => 'yireo/running_m2', 'title' => 'Running Magento 2 (Magento Developers Paradise 2016)', 'public' => 0),
+            array('file' => 'yireo/missing_up_di', 'title' => 'Messing Up DI (MeetMagento NL 2016)', 'public' => 0),
+            array('file' => 'yireo/php7', 'title' => 'PHP 7 (JoomlaDagen 2016)', 'public' => 0),
             array('file' => 'yireo/plugin_patterns', 'title' => 'Joomla Plugin Concepten (JUG Utrecht)'),
             array('file' => 'yireo/joomla_stuff', 'title' => 'Joomla Stuff (JUG Breda)'),
             array('file' => 'yireo/modern_php_in_joomla', 'title' => 'Modern PHP in Joomla (JWC15)'),

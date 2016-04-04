@@ -39,6 +39,7 @@ if (!empty($request)) {
     <h3><?php echo $slideGroup['group']; ?></h3>
     <ul>
         <?php foreach($slideGroup['slides'] as $slide) : ?>
+        <?php if (isset($slide['public']) && $slide['public'] == 0) continue; ?>
         <li>
             <?php $title = $slide['title']; ?>
             <a href="<?= $slide['file'] ?>">
