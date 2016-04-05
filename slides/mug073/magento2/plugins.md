@@ -2,14 +2,18 @@ class: center, middle
 # Plugins and AOP
 
 ---
-# Pieces
-- Yireo Magento 2 Development Training
-- Magento 2 Seminar (October 21st 2016)
-- Daniel Sloofs work on AOP for Magento 1
+# Dates
+- Meet Magento NL
+    - 13 mei (conf), 14 mei (hackathon)
+- Magento 2 Development Training
+    - 22 juni, door Yireo
+- Magento 2 Seminar
+    - 21 oktober, door Yireo
 
 ---
 # AOP
 - Aspect Oriented Programming
+- Daniel Sloofs worked on AOP for Magento 1
 - Cleanly insert custom code in aspects of original code
 - Other similar methods
     - Dependency Injection with preferences and types
