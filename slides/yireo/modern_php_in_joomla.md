@@ -346,7 +346,7 @@ function helloWorld($name) {
 }
 
 $name = 'John Doe';
-echo $helloWorld($name);
+echo helloWorld($name);
 ```
 
 ---
@@ -372,7 +372,7 @@ echo $helloWorld($name);
 # Closures
 ```php
 $name = 'John Doe';
-$helloWorld = function () use (&$name) {
+$helloWorld = function () use ($name) {
     echo 'Hello World, ' . $name;
 };
 echo $helloWorld();
@@ -380,7 +380,8 @@ echo $helloWorld();
 
 ---
 # Recommendations
-- None
+- Only pass by reference when needed
+    - `function () use (&$name) {}`
 
 ---
 class: center, middle
