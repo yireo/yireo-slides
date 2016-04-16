@@ -137,6 +137,16 @@ class: center, middle
 - Origineel gelabeled `phpng` (Next Generation)
 - Publieke stemming om dit niet 5.7 te noemen
 - 2x sneller dan PHP 5.6
+- Dank aan Zend
+
+---
+# Zend
+- PHP
+- Zend Studio
+- Apigility
+- Zend Framework
+- Zend Server + Z-Ray
+- Z-Ray plugin for Joomla
 
 ---
 # PHP 7 features

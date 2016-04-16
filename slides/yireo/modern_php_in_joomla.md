@@ -26,13 +26,12 @@ class: center, middle
 
 ---
 # Yireo Education
-* Physical events
-    - Joomla Development Crash Course (me)
-    - Dutch Joomla PHP Developers (Roland Dalmulder)
-    - Expert Sessie (Sander Potjer)
-* Online events
-    - 80+ Tutorials
-    - Programming Joomla Modules video-course
+- PHP Advanced Training (May 11th)
+- Joomla Development Crash Course (May 27th)
+- Dutch Joomla Developers (Roland Dalmulder & Peter Martin)
+- Expert Sessie (Sander Potjer)
+- 80+ Online Tutorials
+- Programming Joomla Modules video-course (?)
     
 https://www.yireo.com/education/joomla-education
 
