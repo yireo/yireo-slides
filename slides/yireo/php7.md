@@ -126,37 +126,70 @@ class: center, middle
 
 --
 - Ofwel: HipHop VM
+--
+
 - Ontwikkeld door Facebook
+--
+
 - Publiek gemaakt in 2013
+--
+
 - JIT compiler / transpiler
+--
+
 - Hack taal t.v.v. PHP
+--
+
 - 2x sneller dan PHP 5.6
 
 ---
 # PHP 7
+--
+
 - Origineel gelabeled `phpng` (Next Generation)
+--
+
 - Publieke stemming om dit niet 5.7 te noemen
+--
+
 - 2x sneller dan PHP 5.6
+--
+
 - Dank aan Zend
 
 ---
 # Zend
 - PHP
+--
+
 - Zend Studio
+--
+
 - Apigility
+--
+
 - Zend Framework
+--
+
 - Zend Server + Z-Ray
+--
+
 - Z-Ray plugin for Joomla
 
 ---
 # PHP 7 features
 - Abstract Syntax Tree optimalisatie
+--
+
 - Spaceship operator
     - Omdat het op een raket lijkt: `<=>`
     - `$a < $b` is gelijk aan `($a <=> $b) === -1`
+--
 - Null coalescing
     - Oud: `$b = (isset($a['c'])) ? $a['c'] : false;`
     - Nieuw: `$b = ($a['c']) ?? false;`
+--
+
 
 ---
 # Huidige status
