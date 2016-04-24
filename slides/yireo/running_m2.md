@@ -45,27 +45,58 @@ class: center, middle
 
 ---
 # Running Magento 2
+
+---
+# Running Magento 2
 - PHP 7 + Zend OPcache
---
+    - Zend OPCache enabled
+    - `validate_timestamps` off?
 
+---
+# Running Magento 2
+- PHP 7 + Zend OPcache
 - Nginx + PHP-FPM
---
+    - PHP-FPM via UNIX socket?
+    - HTTP/2
 
+---
+# Running Magento 2
+- PHP 7 + Zend OPcache
+- Nginx + PHP-FPM
 - Redis caching
---
+    - Multiple Redis database
 
+---
+# Running Magento 2
+- PHP 7 + Zend OPcache
+- Nginx + PHP-FPM
+- Redis caching
 - MySQL 5.6 (or alternative) + tuning
     - Query cache, InnoDB buffers
---
-- composer / magerun2
---
 
+---
+# Running Magento 2
+- PHP 7 + Zend OPcache
+- Nginx + PHP-FPM
+- Redis caching
+- MySQL 5.6 (or alternative) + tuning
+- composer / magerun2
+    - Magerun2 addons from Hypernode: Patching, updates
+
+---
+# Running Magento 2
+- PHP 7 + Zend OPcache
+- Nginx + PHP-FPM
+- Redis caching
+- MySQL 5.6 (or alternative) + tuning
+- composer / magerun2
 - CI tools
     - phpcs, phpmd, Phing/Capistrano/Fabric
 
 ---
 # Optionals
 - Varnish
+    - VCL file generated through Magento 2
 - Clustering
     - MySQL master/slave, M2 EE
 - Offloading search
@@ -84,6 +115,7 @@ class: center, middle
 
 - Tune Zend OPcache
     - `opcache.validate_timestamps=0`
+    - Reload PHP-FPM instance after git pull
 --
 - Recompile PHP with PGO
     - PGO = Profile-Guided Optimization
@@ -112,6 +144,9 @@ class: center, middle
 ---
 class: center, middle
 # Operations
+
+---
+# Magento 2 operations
 
 ---
 # Magento 2 operations
