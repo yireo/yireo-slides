@@ -22,6 +22,9 @@ class: center, middle
 - Wrote 2 developer books for J\*\*ml\*
 --
 
+- Part of Zend Z-Team
+--
+
 - Loving Magento 2
 --
 
