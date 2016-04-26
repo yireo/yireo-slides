@@ -139,7 +139,8 @@ class: center, middle
 ---
 # Experimental
 - appserver.io
-- Tarantool instead of Redis
+- Tarantool or Aerospike instead of Redis
+- Hack from HHVM
 
 ---
 class: center, middle
