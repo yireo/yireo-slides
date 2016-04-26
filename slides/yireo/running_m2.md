@@ -40,7 +40,7 @@ class: center, middle
 - I am not a runner
 
 --
-- I am no god
+- I am just a simple Dutch guy
     - Bits of cool stuff
     - Some best practices
     - Perhaps some insights?
@@ -86,7 +86,7 @@ class: center, middle
 - Redis caching
 - MySQL 5.6 (or alternative) + tuning
 - composer
-    - Include Prestissimo
+    - Optimize autoload file (`--optimize-autoloader`)
 
 ---
 # Environment
@@ -122,10 +122,7 @@ class: center, middle
 # PHP 7
 --
 
-- Hurray for Zend
---
-
-- Drop HHVM
+- Ditch HHVM / Hurray for Zend
 --
 
 - Tune Zend OPcache
@@ -156,11 +153,11 @@ class: center, middle
 --
 
 - appserver.io
+    - Wait for 06/2016 release for PHP 7
 --
-
 - Tarantool or Aerospike instead of Redis
+    - github.com/danslo/Rubic_Cache_Backend_Aerospike
 --
-
 - Hack from HHVM
 
 ---
@@ -175,8 +172,7 @@ class: center, middle
     - Committing `var/generation` and `var/di` to git?
 --
 - No composer updates on live server
-    - Committing `composer.lock` to git
-    - Optimize autoload file (`--optimize-autoloader`)
+    - Committing `composer.lock` to git (?)
     - Use `prestissimo` for faster downloads
     - Use Satis or Toran Proxy for offloading
 
@@ -187,17 +183,17 @@ class: center, middle
     - Count of dispatched events does matter
     - But events are less confusing than interceptors
 --
-- Deploying static view files
-    - Use Grunt / Gulp instead
-    - Specify what you want to deploy (PR @denisristic)
-    - Other stuff we did on Monday
-
----
-# Magento 2 operations
 - How to analyse DI properly?
     - Preferences, types, virtual types, plugins
     - Circular dependencies reports do not help
     - magento-hackathon/magento2-plugin-visualization
+
+---
+# Magento 2 operations
+- Deploying static view files
+    - Use Grunt / Gulp instead
+    - Specify what you want to deploy (PR @denisristic)
+    - Other stuff we did on Monday
 
 ---
 class: center, middle
