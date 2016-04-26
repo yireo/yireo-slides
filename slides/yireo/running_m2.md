@@ -32,42 +32,47 @@ class: center, middle
 
 ---
 # Disclaimers
-- I am not a runner
---
 
-- Difference between running from running
-    - Operations vs performance
+--
+- I do not live in a palace
+
+--
+- I am not a runner
+
 --
 - I am no god
-    - Known configurations
-    - Best practices
-    - Perhaps some insights
+    - Bits of cool stuff
+    - Some best practices
+    - Perhaps some insights?
+--
+- Difference between running from running
+    - Operations vs performance
 
 ---
+class: center, middle
 # Running Magento 2
+### Performance
 
 ---
-# Running Magento 2
+# Environment
 - PHP 7 + Zend OPcache
-    - Zend OPCache enabled
-    - `validate_timestamps` off?
 
 ---
-# Running Magento 2
+# Environment
 - PHP 7 + Zend OPcache
 - Nginx + PHP-FPM
     - PHP-FPM via UNIX socket?
     - HTTP/2
 
 ---
-# Running Magento 2
+# Environment
 - PHP 7 + Zend OPcache
 - Nginx + PHP-FPM
 - Redis caching
-    - Multiple Redis database
+    - Multiple Redis databases
 
 ---
-# Running Magento 2
+# Environment
 - PHP 7 + Zend OPcache
 - Nginx + PHP-FPM
 - Redis caching
@@ -75,21 +80,32 @@ class: center, middle
     - Query cache, InnoDB buffers
 
 ---
-# Running Magento 2
+# Environment
 - PHP 7 + Zend OPcache
 - Nginx + PHP-FPM
 - Redis caching
 - MySQL 5.6 (or alternative) + tuning
-- composer / magerun2
+- composer
+    - Include Prestissimo
+
+---
+# Environment
+- PHP 7 + Zend OPcache
+- Nginx + PHP-FPM
+- Redis caching
+- MySQL 5.6 (or alternative) + tuning
+- composer
+- magerun2
     - Magerun2 addons from Hypernode: Patching, updates
 
 ---
-# Running Magento 2
+# Environment
 - PHP 7 + Zend OPcache
 - Nginx + PHP-FPM
 - Redis caching
 - MySQL 5.6 (or alternative) + tuning
-- composer / magerun2
+- composer
+- magerun2
 - CI tools
     - phpcs, phpmd, Phing/Capistrano/Fabric
 
@@ -103,18 +119,17 @@ class: center, middle
     - Solr, ElasticSearch
 
 ---
-class: center, middle
-# Performance
-
----
 # PHP 7
+--
+
+- Hurray for Zend
 --
 
 - Drop HHVM
 --
 
 - Tune Zend OPcache
-    - `opcache.validate_timestamps=0`
+    - `opcache.validate_timestamps=0` ?
     - Reload PHP-FPM instance after git pull
 --
 - Recompile PHP with PGO
@@ -138,16 +153,20 @@ class: center, middle
 
 ---
 # Experimental
+--
+
 - appserver.io
+--
+
 - Tarantool or Aerospike instead of Redis
+--
+
 - Hack from HHVM
 
 ---
 class: center, middle
-# Operations
-
----
-# Magento 2 operations
+# Running Magento 2
+### Operations
 
 ---
 # Magento 2 operations
@@ -170,14 +189,15 @@ class: center, middle
 --
 - Deploying static view files
     - Use Grunt / Gulp instead
-    - Only copy file when original is updated (timestamps)
+    - Specify what you want to deploy (PR @denisristic)
+    - Other stuff we did on Monday
 
 ---
 # Magento 2 operations
 - How to analyse DI properly?
     - Preferences, types, virtual types, plugins
     - Circular dependencies reports do not help
-    - Magerun2 extension?
+    - magento-hackathon/magento2-plugin-visualization
 
 ---
 class: center, middle
