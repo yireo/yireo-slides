@@ -31,6 +31,13 @@ class: center, middle
 - I live near a palace
 
 ---
+# The palace
+
+<p class="center">
+<img class="img-responsive" src="../slides/yireo/images/paleis.jpg" />
+</p>
+
+---
 # Disclaimers
 
 --
