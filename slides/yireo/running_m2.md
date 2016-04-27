@@ -1,7 +1,7 @@
 layout: true
-<div class="slide-heading">Jisse Reitsma (Yireo) - Running Magento 2</div>
+<div class="slide-heading">Jisse Reitsma - Running Magento 2</div>
 <div class="slide-footer">
-    <span>Yireo - Opening Up Technologies - slides.yireo.com</span>
+    <span>Yireo - slides.yireo.com</span>
 </div>
 
 ---
@@ -20,6 +20,9 @@ class: center, middle
 --
 
 - Wrote 2 developer books for J\*\*ml\*
+--
+
+- Grab a MUGMUG
 --
 
 - Part of Zend Z-Team
@@ -48,9 +51,7 @@ class: center, middle
 
 --
 - I am just a simple Dutch guy
-    - Bits of cool stuff
-    - Some best practices
-    - Perhaps some insights?
+
 --
 - Difference between running from running
     - Operations vs performance
@@ -93,7 +94,6 @@ class: center, middle
 - Redis caching
 - MySQL 5.6 (or alternative) + tuning
 - composer
-    - Optimize autoload file (`--optimize-autoloader`)
 
 ---
 # Environment
@@ -127,18 +127,38 @@ class: center, middle
 
 ---
 # PHP 7
---
 
-- Ditch HHVM / Hurray for Zend
---
+---
+# PHP 7
+- Hurray for Zend
 
+---
+# PHP 7
+- Hurray for Zend
+- Ditch HHVM
+
+---
+# PHP 7
+- Hurray for Zend
+- Ditch HHVM
 - Tune Zend OPcache
     - `opcache.validate_timestamps=0` ?
     - Reload PHP-FPM instance after git pull
---
+
+---
+# PHP 7
+- Hurray for Zend
+- Ditch HHVM
+- Tune Zend OPcache
 - Recompile PHP with PGO
     - PGO = Profile-Guided Optimization
---
+
+---
+# PHP 7
+- Hurray for Zend
+- Ditch HHVM
+- Tune Zend OPcache
+- Recompile PHP with PGO
 - Enable `huge_code_pages` in kernel
     - Not page size of 4k but of 2m
 
@@ -177,19 +197,30 @@ class: center, middle
 - No code generation of live server
     - Not running `magento setup:di:compile`
     - Committing `var/generation` and `var/di` to git?
---
+
+---
+# Magento 2 operations
+- No code generation of live server
 - No composer updates on live server
     - Committing `composer.lock` to git (?)
     - Use `prestissimo` for faster downloads
     - Use Satis or Toran Proxy for offloading
+    - Optimize autoload file (`--optimize-autoloader`)
 
 ---
 # Magento 2 operations
+- No code generation of live server
+- No composer updates on live server
 - Interceptors instead of event observers
     - Interceptor count matters less due to code generation
     - Count of dispatched events does matter
     - But events are less confusing than interceptors
---
+
+---
+# Magento 2 operations
+- No code generation of live server
+- No composer updates on live server
+- Interceptors instead of event observers
 - How to analyse DI properly?
     - Preferences, types, virtual types, plugins
     - Circular dependencies reports do not help
@@ -197,6 +228,10 @@ class: center, middle
 
 ---
 # Magento 2 operations
+- No code generation of live server
+- No composer updates on live server
+- Interceptors instead of event observers
+- How to analyse DI properly?
 - Deploying static view files
     - Use Grunt / Gulp instead
     - Specify what you want to deploy (PR @denisristic)
@@ -204,4 +239,5 @@ class: center, middle
 
 ---
 class: center, middle
-# Q&A
+# Thanks
+### Questions?
