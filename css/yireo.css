@@ -85,3 +85,7 @@ a {
     text-decoration: none;
     color: #e36a7a;
 }
+
+div.remark-slide-number {
+    display: none;
+}
