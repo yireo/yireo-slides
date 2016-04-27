@@ -16,9 +16,6 @@ class: center, middle
 - Founder and lead developer of Yireo
 --
 
-- Trainer, enterpreneur, coder
---
-
 - Wrote 2 developer books for J\*\*ml\*
 --
 
@@ -28,7 +25,7 @@ class: center, middle
 - Part of Zend Z-Team
 --
 
-- Loving Magento 2
+- Part of ExtDN
 --
 
 - I live near a palace
@@ -93,7 +90,6 @@ class: center, middle
 - Nginx + PHP-FPM
 - Redis caching
 - MySQL 5.6 (or alternative) + tuning
-- composer
 
 ---
 # Environment
@@ -101,8 +97,7 @@ class: center, middle
 - Nginx + PHP-FPM
 - Redis caching
 - MySQL 5.6 (or alternative) + tuning
-- composer
-- magerun2
+- composer / magerun2
     - Magerun2 addons from Hypernode: Patching, updates
 
 ---
@@ -111,8 +106,7 @@ class: center, middle
 - Nginx + PHP-FPM
 - Redis caching
 - MySQL 5.6 (or alternative) + tuning
-- composer
-- magerun2
+- composer / magerun2
 - CI tools
     - phpcs, phpmd, Phing/Capistrano/Fabric
 
