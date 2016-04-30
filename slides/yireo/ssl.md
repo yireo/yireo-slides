@@ -15,7 +15,7 @@ class: center, middle
 - Auteur van "Programming Joomla Plugins"
     - Engels-talig boek
     - Echt voor programmeurs
-- Programmeur en ondernemer
+- Programmeur, trainer, ondernemer
 
 ---
 # Missie
@@ -71,7 +71,7 @@ class: center, middle
     * Derde partij
         * Seller: Networking4all
         * Vendor: GeoTrust, GlobalSign, Comodo, Thawte, TrustWave 
-* Eigen IP-adres
+* Eigen IP-adres (?)
 
 ---
 class: center, middle
@@ -128,9 +128,11 @@ class: center, middle
 # Geavanceerd
 
 ---
-# Gratis SSL certificaten
-- StartSSL
-- LetsEncrypt
+# LetsEncrypt
+- Gratis certificaten vanaf server
+    - `letsencrypt-auto certonly -d example.com`
+- Renewal iedere 3 maanden
+    - `letsencrypt renew`
 
 ---
 # SSL-certificaat aanmaken
@@ -181,8 +183,8 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048
 ```
 
 ---
-# Veelvoorkomende Apache-directives
-```
+# Apache directives
+```shell
 SSLEngine on
 SSLCertificateKeyFile /etc/httpd/conf/ssl.key/server.key
 SSLCertificateFile /etc/httpd/conf/ssl.crt/server.crt
@@ -214,9 +216,9 @@ Validatie van jouw bedrijf bij CA
 
 ---
 # SSL in de toekomst
-* SPDY en HTTP/2 
-    * Niet mogelijk zonder HTTPS (TLS)
-    * SPDY vereist nu extra modules in webserver
+* HTTP/2 
+    * Niet mogelijk zonder HTTPS (SSL/TLS)
+    * HTTP/2 vereist extra modules in webserver
 
 ---
 class: center, middle
