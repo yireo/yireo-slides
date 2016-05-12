@@ -26,8 +26,6 @@ class: center, middle
 - Loving Magento 2
 --
 
-- I live near a palace
-
 ---
 # My talk
 - Dependency Injection
@@ -65,14 +63,17 @@ class Data
 {
     protected $logger;
 
+    /**
+     * Don't mention interfaces yet
+     */
     public function __construct(Monolog $logger)
     {
         $this->logger = $logger;
     }
 
-    public function log($text)
+    public function warning($text)
     {
-        // @todo: Do something with $this->logger
+        $this->logger->warning($text);
     }
 }
 ```
@@ -89,10 +90,10 @@ class Data extends AbstractHelper
 {
     protected $logger;
 
-    public function __construct(
-        Monolog $logger
-        Context $context
-    )
+    /**
+     * Still don't mention interfaces yet
+     */
+    public function __construct(Monolog $logger, Context $context)
     {
         $this->logger = $logger;
         parent::construct($context);
@@ -167,6 +168,17 @@ abstract class Helper
     - Both `$this->_logger` and `$this->urlEncoder` are protected
 
 ---
+# Lessons
+- Don't inject logger, but check your `$context` first
+--
+
+- Keep the number of dependencies to a minimum
+    - Move all similar dependencies to a common class
+    - Move around dependencies until each class has as little dependencies as possible
+--
+- Don't name your protected variables or methods with an underscore
+
+---
 class: center, middle
 # ObjectManager & Factory
 
@@ -205,14 +217,17 @@ class BaseFactory
 ```
 
 ---
-# Rules on instantiation
+# Lessons
 - Object Manager should NEVER be used
----
+--
 
 - Except for in a Factory
----
+--
 
 - And CLI scripts
+--
+
+- And perhaps unit tests
 
 
 ---
@@ -234,11 +249,12 @@ class Data
         $this->logger = $logger;
     }
 
-    public function log($text)
+    public function warning($text)
     {
-        // @todo: Do something with $this->logger
+        $this->logger->warning($text);
     }
 }
+```
 
 ---
 # DI in better theory
@@ -255,15 +271,18 @@ class Data
         $this->logger = $logger;
     }
 
-    public function log($text)
+    public function warning($text)
     {
-        // @todo: Do something with $this->logger
+        $this->logger->warning($text);
     }
 }
+```
 
 ---
 # Better theory
 - Only use interfaces for constructor arguments 
+    - Use PhpStorm + Magicento2 to open up right `di.xml`
+--
 - Define interfaces for most of your own classes
     - Map interfaces to real classes using Preferences
 
