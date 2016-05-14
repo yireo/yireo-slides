@@ -96,7 +96,7 @@ class Data extends AbstractHelper
     public function __construct(Monolog $logger, Context $context)
     {
         $this->logger = $logger;
-        parent::construct($context);
+        parent::__construct($context);
     }
 
     ...
