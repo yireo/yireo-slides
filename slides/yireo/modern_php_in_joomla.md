@@ -1,7 +1,7 @@
 layout: true
 <div class="slide-heading">Modern PHP mixed in Joomla</div>
 <div class="slide-footer">
-    <span>www.yireo.com - slides.yireo.com  - #jwc15 - @yireo / @jissereitsma</span>
+    <span>www.yireo.com - slides.yireo.com  - #jab16 - @yireo / @jissereitsma</span>
 </div>
 
 ---
@@ -19,20 +19,19 @@ class: center, middle
 - Author of "Programming Joomla Plugins"
     - Missing guide for plugins
     - For both beginner and experienced developer
-    - Dead-tree-format (ebook end of November 2015)
 - Part of Zend Z-Team
     - Zend Server Z-Ray plugin for Joomla
     - Various Zend tutorials
 
 ---
 # Yireo Education
-- PHP Advanced Training (May 11th)
-- Joomla Development Crash Course (May 27th)
-- Dutch Joomla Developers (Roland Dalmulder & Peter Martin)
-- Expert Sessie (Sander Potjer)
+- Joomla Development Crash Course
+- PHP Advanced Training
+- Magento 2 Development
+- Dutch Joomla Developers (Roland & Pe7er)
+- Expert Sessie (Sander)
 - 80+ Online Tutorials
-- Programming Joomla Modules video-course (?)
-    
+ 
 https://www.yireo.com/education/joomla-education
 
 ---
@@ -40,8 +39,13 @@ https://www.yireo.com/education/joomla-education
 - Interfaces & abstract classes
 - Exceptions
 - Namespaces
-- Lambdas & closures
 - Mixins & traits
+
+---
+# Modern PHP
+- "Modern PHP" by Josh Lockhart
+- PHP 7
+- http://www.phptherightway.com/
 
 ---
 class: center, middle
@@ -130,14 +134,17 @@ class JModelbase implements JModel
 - Use interfaces instead of abstract classes
 
 ---
-# Towards interface (1 of 2)
+# Towards interface (1 of 3)
 ```php
+// Already in Joomla core
 abstract class JModelForm
 {
     public function getState() { ... }
+    public function setState() { ... }
     abstract public function getForm();
 }
 
+// My class dummy
 class ExampleModelItem extends JModelForm
 {
     public function load($id) { ... }
@@ -146,20 +153,36 @@ class ExampleModelItem extends JModelForm
 ```
 
 ---
-# Towards interface (2 of 2)
+# Towards interface (2 of 3)
 ```php
-class JModelForm
+// Already in Joomla core
+interface JModel
+{
+    public function getState();
+    public function setState();
+}
+
+// New
+interface ExampleModelFormContract
+{
+    public function getForm();
+}
+```
+
+---
+# Towards interface (3 of 3)
+```php
+// Already in Joomla core
+abstract class JModelForm
 {
     public function getState() { ... }
-}
-
-interface JModelFormContract
-{
+    public function setState() { ... }
     abstract public function getForm();
 }
 
+// My class dummy
 class ExampleModelItem extends JModelForm
-    implements JModelFormContract
+    implements ExampleModelFormContract, JModel
 {
     public function load($id) { ... }
     public function getForm() { ... }
@@ -167,8 +190,8 @@ class ExampleModelItem extends JModelForm
 ```
 
 ---
-# Recommendations (1 of 2)
-- Implement `JModel` in all your models
+# Recommendations
+- Implement `JModel` interface in all your models
 - Extend from whatever you feel comfortable with
 	- `JModelLegacy`, `JModelItem`, `JModelForm`
 	- `JModelBase`
@@ -177,17 +200,6 @@ class ExampleModelItem extends JModelForm
 ```php
 class ExampleModelItem extends JModelForm 
     implements JModel, ExampleModelContract
-```
-
----
-# Recommendations (2 of 2)
-- Document your implemented methods
-
-```php
-/**
- * @see JModelFormContract::getForm();
- */
-public function getForm() {}
 ```
 
 ---
@@ -244,6 +256,10 @@ catch(Exception $e)
 # Recommendations
 - Do not return errors, instead throw exceptions
 - Create your own exception classes
+    - `ComponentNotFoundException`
+    - `ComponentViewNotFoundException`
+    - `AccessNotAllowedException`
+    - `PluginNotEnabledException`
 
 ---
 # Custom exception (1 of 2)
@@ -282,38 +298,40 @@ class: center, middle
 
 ---
 # Namespace definition
-File `libraries > yireo > joomla > dynamic404 > helpers > matching.php`:
+File `libraries > Yireo > Joomla > Dynamic404 > Helpers > Matching.php`:
 ```php
 namespace Yireo\Joomla\Dynamic404\Helpers;
 
 class Matching
 {
-    static public function match($search) {}
+    public function match($search) {}
 }
 ```
 
 ---
 # Namespace usage
-Full path:
+Full namespace:
 ```php
-$matches = \Yireo\Joomla\Dynamic404\Helpers\Matching::match($search);
+$matchHelper = new \Yireo\Joomla\Dynamic404\Helpers\Matching;
 ```
 
-Including a namespace:
+With a namespace alias:
 ```php
 use Yireo\Joomla\Dynamic404\Helpers\Matching as Dynamic404Matching;
-$matches = Dynamic404Matching::match($search);
+$matchHelper = new Dynamic404Matching;
 ```
 
-Or part of it:
+Or aliasing part of the full namespace:
 ```php
 use Yireo\Joomla\Dynamic404 as Dynamic404;
-$matches = Dynamic404\Helpers\Matching::match($search);
+$matchHelper = Dynamic404\Helpers\Matching;
 ```
 
 ---
 # Legacy to namespaces
 - `JRegistry` > `\Joomla\Registry`
+- `JArrayHelper` > `\Joomla\Utilities\ArrayHelper`
+- `JURI` extends `Joomla\Uri\Uri`
 
 ---
 # Recommendations
@@ -321,66 +339,6 @@ $matches = Dynamic404\Helpers\Matching::match($search);
     - Helper classes
     - Library classes
     - Interfaces
-
----
-class: center, middle
-# Lambdas & closures
-
----
-# Lambdas & closures
-- Lambdas
-    - Function without a name
-- Anonymous functions
-    - Other name for a closure
-- Closures
-    - Closure with ability to reuse variables outside scope
-    - Variable is *copied* to function scope
-    - Function scope is then assigned to variable
-
----
-# Regular function
-```php
-function helloWorld($name) {
-    echo 'Hello World, ' . $name;
-}
-
-$name = 'John Doe';
-echo helloWorld($name);
-```
-
----
-# Anonymous function
-```php
-function ($name) {
-    echo 'Hello World, ' . $name;
-}
-```
-
----
-# Lambdas
-aka *anonymous functions*:
-```php
-$name = 'John Doe';
-$helloWorld = function ($name) {
-    echo 'Hello World, ' . $name;
-};
-echo $helloWorld($name);
-```
-
----
-# Closures
-```php
-$name = 'John Doe';
-$helloWorld = function () use ($name) {
-    echo 'Hello World, ' . $name;
-};
-echo $helloWorld();
-```
-
----
-# Recommendations
-- Only pass by reference when needed
-    - `function () use (&$name) {}`
 
 ---
 class: center, middle
@@ -480,12 +438,12 @@ trait Alertable
     - Similar name to trait or mixins
     - trait `Alterable`: `alert`
     - mixin `Publishable`: `publish` / `unpublish`
+- Or use Composition to solve things instead
 
 ---
 # more stuff
-- PHP 7
-- Unit testing
-- Reflection API
+- Dependency Injection
+- Unit testing / Reflection API
 - Design patterns
 - PSR standards
 
