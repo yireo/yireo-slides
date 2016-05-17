@@ -15,24 +15,11 @@ class: center, middle
 
 ---
 # Jisse Reitsma
-- Founder of Yireo
+- Founder and lead developer of Yireo
 - Author of "Programming Joomla Plugins"
-    - Missing guide for plugins
-    - For both beginner and experienced developer
+- Trainer & speaker
 - Part of Zend Z-Team
-    - Zend Server Z-Ray plugin for Joomla
-    - Various Zend tutorials
-
----
-# Yireo Education
-- Joomla Development Crash Course
-- PHP Advanced Training
-- Magento 2 Development
-- Dutch Joomla Developers (Roland & Pe7er)
-- Expert Sessie (Sander)
-- 80+ Online Tutorials
- 
-https://www.yireo.com/education/joomla-education
+- Untrained idiot on a bicycle
 
 ---
 # This presentation
