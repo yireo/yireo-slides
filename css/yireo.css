@@ -87,5 +87,9 @@ a {
 }
 
 div.remark-slide-number {
-    display: none;
+    /*display: none;*/
+}
+
+img.img-responsive {
+    max-width: 100%;
 }
