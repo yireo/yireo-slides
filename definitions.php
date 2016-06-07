@@ -4,6 +4,7 @@ $slideGroups = array(
         'group' => 'Yireo on Joomla and Magento',
         'style' => 'yireo',
         'slides' => array(
+            array('file' => 'yireo/joomla_hikashop', 'title' => 'Joomla, HikaShop and Yireo'),
             array('file' => 'yireo/joomla_zray', 'title' => 'Zend Z-Ray and Joomla (JAB16)'),
             array('file' => 'yireo/modern_php_in_joomla', 'title' => 'Modern PHP in Joomla (JAB16)'),
             array('file' => 'yireo/running_m2', 'title' => 'Running Magento 2 (Magento Developers Paradise 2016)', 'public' => 1),
