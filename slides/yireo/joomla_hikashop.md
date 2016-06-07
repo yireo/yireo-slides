@@ -30,7 +30,7 @@ http://yir.io/d404
 - Integrations
     - FollowUp for HikaShop 
 
-http://yir.io/d404
+http://yir.io/es
 
 ---
 class: center, middle
