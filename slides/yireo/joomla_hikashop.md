@@ -49,7 +49,8 @@ http://yir.io/simplelists
 # Yireo EmailScheduler
 - Schedule emails in advance
 - Integrations
-    - MageBridge
+    - Joomla Welcome Mail
+    - MageBridge (Magento bridge)
     - FollowUp for HikaShop 
     - FollowUp for VirtueMart
 
