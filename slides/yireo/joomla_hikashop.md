@@ -12,6 +12,7 @@ class: center, middle
 ---
 # HikaShop & Yireo
 - Yireo Dynamic404
+- Yireo SimpleLists
 - Yireo EmailScheduler
 
 ---
@@ -22,6 +23,17 @@ class: center, middle
     - HikaShop categories
 
 http://yir.io/d404
+
+---
+# Yireo SimpleLists
+- Combined items in simple listings
+    - FAQ, peoplebook, teasers
+- Listing layout
+    - Table, hover, gallery
+- Link to items
+    - Article, Menu-Item, YouTube, HikaShop
+
+http://yir.io/sl
 
 ---
 # Yireo EmailScheduler
