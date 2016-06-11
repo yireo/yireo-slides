@@ -33,7 +33,7 @@ http://yir.io/d404
 - Link to items
     - Article, Menu-Item, YouTube, HikaShop
 
-http://yir.io/sl
+http://yir.io/simplelists
 
 ---
 # Yireo EmailScheduler
