@@ -41,6 +41,7 @@ class: center, middle
     - Technieken
 - Werkgroepen
 - Problemen oplossen?
+- Swag
 
 ---
 # Regels van deze MUG
