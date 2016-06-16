@@ -14,7 +14,7 @@ if(empty($request)) {
         foreach($slideGroup['slides'] as $slideSet) {
             if($slideSet['file'] == $request) {
                 $slide = $slideSet['file'];
-                $style = $slideGroup['style'];
+                $style = (!empty($slideSet['style'])) ? $slideSet['style'] : $slideGroup['style'];
                 $title = $slideSet['title'];
                 break;
             }

@@ -93,3 +93,7 @@ div.remark-slide-number {
 img.img-responsive {
     max-width: 100%;
 }
+
+code {
+    word-break: break-word;
+}

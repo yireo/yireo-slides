@@ -36,10 +36,10 @@ class: center, middle
 
 ---
 # Agenda
-- 16 juni 2016 - MUG073: XML layout & PHTML
 - 18-19 juni 2016 - MageStackDay
 - 29 juni 2016 - MUG Zuid-Holland (aka Rotterdam)
 - 4-5 juli 2016 - MeetMagento DE
+- 16 augustus 2016 - MUG Utrecht of Brabant?
 - 8 september 2016 - MeetMagento BE
 - 6 oktober 2016 - MUG Waalwijk
 - 14-16 oktober 2016 - MageUnconf NL

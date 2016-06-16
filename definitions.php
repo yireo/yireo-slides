@@ -25,6 +25,7 @@ $slideGroups = array(
         'group' => 'MUG - Magento User Group',
         'style' => 'mug',
         'slides' => array(
+            array('file' => 'yireo/magento_layoutphtml', 'title' => 'Magento XML and PHTML', 'style' => 'yireo'),
             array('file' => 'mug/generic/intro', 'title' => 'Introductie tot MUGs'),
             array('file' => 'mug/magento2/plugins', 'title' => 'Magento 2 Plugins and AOP'),
             array('file' => 'mug/magento2/overview', 'title' => 'Overview Magento 2'),
