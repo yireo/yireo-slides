@@ -13,7 +13,7 @@ class: center, middle
 # Jisse Reitsma
 
 --
-- Extension provider since 2009
+- Yireo: Extension provider since 2009
 
 --
 - Trainer for M1 & M2 developers
@@ -96,6 +96,14 @@ class: center, middle
 ---
 class: center, middle
 ## Magento 2
+
+---
+# Why Magento 2?
+- Released november 2015
+- Complete rewrite of Magento 1
+- Modern PHP architecture
+    - DI, composer, PSR
+- Just as extensible as Magento 1
 
 ---
 class: center, middle
