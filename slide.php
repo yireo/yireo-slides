@@ -2,6 +2,8 @@
 $title = null;
 $style = null;
 $slide = null;
+$footer = true;
+$header = true;
 $root_url = null;
 
 // Fetch parameters
@@ -16,6 +18,8 @@ if(empty($request)) {
                 $slide = $slideSet['file'];
                 $style = (!empty($slideSet['style'])) ? $slideSet['style'] : $slideGroup['style'];
                 $title = $slideSet['title'];
+                if (isset($slideSet['header'])) $header = (bool) $slideSet['header'];
+                if (isset($slideSet['footer'])) $footer = (bool) $slideSet['footer'];
                 break;
             }
         }
@@ -56,5 +60,10 @@ $root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
         console.log(slide);
       });*/
     </script>
+    <?php if($footer == false) : ?>
+    <style>
+    .remark-slide-number { display:none; }
+    </style>
+    <?php endif; ?>
   </body>
 </html>

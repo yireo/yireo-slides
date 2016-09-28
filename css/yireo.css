@@ -97,3 +97,7 @@ img.img-responsive {
 code {
     word-break: break-word;
 }
+
+.remark-code {
+    font-size: 80%;
+}
