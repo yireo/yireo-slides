@@ -1,7 +1,3 @@
----
-class: center, middle
-
----
 class: center, middle
 # So ... Magento 2?
 
