@@ -7,7 +7,15 @@ layout: true
 ---
 class: center, middle
 # Joomla & SSL
-### overzicht van SSL binnen Joomla
+
+---
+class: center, middle
+# Wie gebruikt er SSL?
+
+---
+class: center, middle
+# Wie zou er SSL gebruiken?
+als het niets kost en gemakkelijk aan te zetten is
 
 ---
 # Jisse Reitsma
@@ -20,6 +28,8 @@ class: center, middle
 ---
 # Missie
 - Technologie openen voor anderen
+
+--
 - Alles wat simpel is moeilijk maken
 
 ---
@@ -71,7 +81,8 @@ class: center, middle
     * Derde partij
         * Seller: Networking4all
         * Vendor: GeoTrust, GlobalSign, Comodo, Thawte, TrustWave 
-* Eigen IP-adres (?)
+* Eigen IP-adres
+    * Soms wel of niet (SNI)
 
 ---
 class: center, middle
