@@ -4,6 +4,7 @@ $slideGroups = array(
         'group' => 'Yireo on Joomla and Magento',
         'style' => 'yireo',
         'slides' => array(
+            array('file' => 'yireo/m2s_uicomponents', 'title' => 'Magento 2 KnockoutJS & RequireJS in 1 component (M2Seminar v2)'),
             array('file' => 'yireo/m2_for-all-of-us', 'title' => 'Magento 2 - for all of us', 'footer' => 0, 'header' => 0),
             array('file' => 'yireo/joomla_hikashop', 'title' => 'Joomla, HikaShop and Yireo'),
             array('file' => 'yireo/joomla_zray', 'title' => 'Zend Z-Ray and Joomla (JAB16)'),
