@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.remark-slides-area {
+    background: #ccc -webkit-gradient(linear, 100% 100%, 0% 100%, from(#fff), to(#ccc));
+    /*background: #EE817F -webkit-gradient(linear, 100% 100%, 0% 100%, from(#6c0034), to(#ee817f));*/
+}
+
+div.remark-slide-container {
+    opacity: 1.0;
+    background-image: url(../images/joomlacommunity_bg.png);
+}
+
+div.remark-slide {
+    opacity: 1.0;
+}
+
+h3 {
+    font-weight: 300;
+    color: #555;
+}
+
+.remark-slide-content {
+    font-size: 28px;
+    padding: 1em 2em 1em 2em;
+}
+      
+.remark-code, .remark-inline-code {
+}
+
+.remark-slide-number {
+    bottom: 20px;
+    right: 15px;
+    padding: 5px;
+    font-size: 80%;
+    font-style: italic;
+}
+
+code {
+    background-color: #d2e8f8;
+}
+
+li {
+    line-height: 190%;
+}
+
+li li {
+    font-size: 80%;
+    color: #333;
+}
+
+div.slide-heading {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-size: 60%;
+    color: #aaa;
+    font-style: italic;
+}
+
+div.slide-footer {
+    border-top: solid 1px #ccc;
+    padding-top: 10px;
+    padding-left: 80px;
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    right: 20px;
+    font-size: 70%;
+    color: #aaa;
+    text-align: left;
+    font-style: italic;
+}
+
+div.slide-footer span {
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #e36a7a;
+}
+
+div.remark-slide-number {
+    /*display: none;*/
+}
+
+img.img-responsive {
+    max-width: 100%;
+}
+
+code {
+    word-break: break-word;
+}
+
+.remark-code {
+    font-size: 80%;
+}

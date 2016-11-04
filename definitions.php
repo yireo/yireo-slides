@@ -52,4 +52,11 @@ $slideGroups = array(
             array('file' => 'djpd/automation/yireo', 'title' => 'Automation Tools - Yireo mojo'),
         ),
     ),
+    array(
+        'group' => 'Joomla Community',
+        'style' => 'joomla',
+        'slides' => array(
+            array('file' => 'joomla/jep', 'title' => 'Joomla Educatie Project'),
+        ),
+    ),
 );
