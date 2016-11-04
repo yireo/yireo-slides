@@ -34,8 +34,8 @@ Hiermee Joomla meer onder de aandacht brengen van technische studenten (develope
 
 ---
 # Contactpersonen
-- Jisse Reitsma
-- Robert Kronshorst
-- Erik van Doorne
-- Remco 
+- Jisse Reitsma (jisse@yireo.com)
+- Robert Kronshorst (robert@yolknet.nl)
+- Erik van Doorne (evdoorne@mastersofmedia.nl)
+- Remco Janssen (remco@remcojanssen.nl)
 
