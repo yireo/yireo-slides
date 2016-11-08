@@ -102,3 +102,7 @@ code {
 .remark-code {
     font-size: 80%;
 }
+
+.hljs-googlecode .hljs {
+    background-color: #eaf4ff;
+}
