@@ -144,6 +144,7 @@ class: center, middle
     - `letsencrypt-auto certonly -d example.com`
 - Renewal iedere 3 maanden
     - `letsencrypt renew`
+- Of via `certbot` of `certbot-auto`
 
 ---
 # SSL-certificaat aanmaken
