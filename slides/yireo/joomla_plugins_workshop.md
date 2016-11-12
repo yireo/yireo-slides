@@ -36,6 +36,8 @@ class: center, middle
 - You are going to write plugins
 - I'm going to help you
 
+Laptops?
+
 ---
 # Timeline (2 hours)
 - This introduction
@@ -49,7 +51,7 @@ class: center, middle
 ---
 # 0 - Base skeleton
 - Mission:
-    - Trim the title of each article before saving
+    - Create a base skeleton for any other work
 - Steps
     - Create a folder structure
     - Add an XML file
@@ -61,7 +63,7 @@ class: center, middle
     - Trim the title of each article before saving
 - Steps
     - Create a Content Plugin
-    - Use the event `onBeforeSave()`
+    - Use the event `onContentBeforeSave()`
 
 ---
 # 2 - New article field
@@ -70,15 +72,17 @@ class: center, middle
 - Steps
     - Create a Content Plugin
     - Create a new JForm XML file
-    - Use the event ????
+    - Use the event `onContentPrepareForm`
 
 ---
 # 3 - Remote authentication
 - Mission
-    - Authenticate to dummyauth.yireo.com API
+    - Authenticate with http://joomla1.yireo-dev.com/dummyauth.php
 - Steps
     - Create an Authentication Plugin
-    - Authenticate against `foo` / `bar` 
+    - Use the event `onUserAuthenticate`
+    - Authenticate with `?cmd=auth&username=foo&password=bar`
+    - Or use `?type=help`
 
 ---
 # 4 - Finder plugin
@@ -87,6 +91,7 @@ class: center, middle
 - Steps
     - Create a new Finder Plugin
     - Add a new taxonomy with some values
+    - Use the events `onFinder...`
 
 ---
 # 5 - Replacing tags
@@ -94,6 +99,7 @@ class: center, middle
     - Replace some `{dummy arg=foobar}` tags
 - Steps
     - Create a System Plugin
+    - Use the event `onAfterRender`
 
 ---
 # 6 - Fix typos in URLs
@@ -102,6 +108,7 @@ class: center, middle
 - Steps
     - Create a System Plugin
     - Use the routing events to fix URLs
+    - Use the event `onAfterInitialise`
 
 ---
 # 7 - Whitelisted emails
@@ -109,6 +116,7 @@ class: center, middle
     - Only allow users from whitelisted emails
 - Steps
     - Create a User Plugin
+    - Use the event `onUserSaveBefore`
 
 ---
 # 8 - Some jQuery effect
@@ -116,6 +124,7 @@ class: center, middle
     - Add some jQuery UI effect via a plugin
 - Steps
     - Create a System Plugin
+    - Use the event `onBeforeRender`
 
 ---
 # 9 - Uninstall anything
@@ -124,11 +133,20 @@ class: center, middle
     - aka: Make it impossible to install extensions
 - Steps
     - Create a System Plugin
+    - Use the event `onInstallerAfterInstaller`
 
 ---
 # 10 - Whatever is cool for you
 - Suggestions
     - Create a plugin that talks to Peter Martins RPi device
+    - Remove swearing words from content
+    - Override a class file from the Joomla core
+
+---
+# Pick your scenario
+- Go to slides.yireo.com
+    - https://slides.yireo.com/joomla_plugins_workshop
+- Take your pick
 
 ---
 class: center, middle
@@ -155,13 +173,12 @@ class: center, middle
 
 ---
 # Some other bits
-- Create helpers
+- Create helper classes
     - And come to my talk on why you shouldn't use helpers
 - PhpStorm
 - Add your repo to GitHub and commit often
 
 ---
-class: center, middle
 # Resources
 - https://slides.yireo.com/joomla_plugins_workshop
 - https://github.com/yireo/JoomlaPluginsBook
