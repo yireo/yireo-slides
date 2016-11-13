@@ -55,6 +55,7 @@ $root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
     <script>
       var slideshow = remark.create({
         slideNumberFormat: '%current% of %total%',
+        countIncrementalSlides: false,
         highlightStyle: 'googlecode'
       });
 

@@ -111,6 +111,10 @@ class PlgSystemArticleTags extends JPlugin {
 - No clear description of functionality
 
 ---
+class: center, middle
+# Refactoring
+
+---
 # Single Reponsibility Principle
 - Part of SOLID
 - Meaning
@@ -119,16 +123,25 @@ class PlgSystemArticleTags extends JPlugin {
     - One class should have one task
 
 ---
-# Exploding methods (1 of 3)
+# Exploding methods (1 of 4)
 ```php
 class PlgSystemArticleTags extends JPlugin
 {
-  public function onAfterRender()
+  public  function onAfterRender()
   {
     $body = $this->app->getBody();
     $body = $this->replaceTag($body);
     $this->app->setBody($body);
   }
+  ...
+```
+
+---
+# Exploding methods (2 of 4)
+```php
+class PlgSystemArticleTags extends JPlugin
+{
+  public  function onAfterRender() {}
 
   private function replaceTag($string)
   {
@@ -140,9 +153,13 @@ class PlgSystemArticleTags extends JPlugin
 ```
 
 ---
-# Exploding methods (2 of 3)
+# Exploding methods (2 of 4)
 ```php
-  ...
+class PlgSystemArticleTags extends JPlugin
+{
+  public  function onAfterRender() {}
+  private function replaceTag($string) {}
+
   private function getArticleTitle($articleId)
   {
     $db = $this->getDbo();
@@ -150,15 +167,21 @@ class PlgSystemArticleTags extends JPlugin
     $query->select($db->quoteName('title'));
     $query->from($db->quoteName('#__content'));
     $query->where($db->quoteName('id').'='.$articleId);
+
     return $db->loadResult();
   }
   ...
 ```
 
 ---
-# Exploding methods (2 of 3)
+# Exploding methods (4 of 4)
 ```php
-  ...
+class PlgSystemArticleTags extends JPlugin
+{
+  public  function onAfterRender() {}
+  private function replaceTag($string) {}
+  private function getArticleTitle($articleId)
+
   private function getArticleId()
   {
     return $this->params->get('article_id');
@@ -175,7 +198,7 @@ class PlgSystemArticleTags extends JPlugin
 # New signature
 ```php
 class PlgSystemArticleTags extends JPlugin {
-  public function onAfterRender() {}
+  public  function onAfterRender() {}
   private function replaceTag($string) {}
   private function getArticleTitle($articleId) {}
   private function getArticleId() {}
@@ -183,6 +206,7 @@ class PlgSystemArticleTags extends JPlugin {
 }
 ```
 
+--
 - It is a plugin.
 - It replaces tags
 - It does something with the database
@@ -190,14 +214,26 @@ class PlgSystemArticleTags extends JPlugin {
 ---
 # Moving to helpers (1 of 2)
 ```php
-class PlgSystemArticleTags extends JPlugin {
+class PlgSystemArticleTags extends JPlugin
+{
   public function onAfterRender()
   {
     $body = $this->app->getBody();
+
     $helper = $this->getHelper();
     $body = $helper->replaceTag($body);
+
     $this->app->setBody($body);
   }
+  ...
+```
+
+---
+# Moving to helpers (2 of 2)
+```php
+class PlgSystemArticleTags extends JPlugin
+{
+  public function onAfterRender() {}
 
   private function getHelper()
   {
@@ -208,9 +244,22 @@ class PlgSystemArticleTags extends JPlugin {
 ```
 
 ---
-# Moving to helpers (2 of 2)
+# The helper
 ```php
 class ArticleTagsHelper {
+  private function replaceTag($string) {}
+  private function getArticleTitle($articleId) {}
+  private function getArticleId() {}
+  private function getDbo() {}
+}
+```
+
+---
+# And with namespaces
+```php
+namespace Yireo\Article\Tags;
+
+class Helper {
   private function replaceTag($string) {}
   private function getArticleTitle($articleId) {}
   private function getArticleId() {}
@@ -226,6 +275,10 @@ class ArticleTagsHelper {
     - Create a class for each subject
 
 ---
+class: center, middle
+# Encapsulation
+
+---
 # Moving to real OOP
 - Plugin class extending from `JPlugin`
 - Class to replace tags in string
@@ -237,33 +290,36 @@ class ArticleTagsHelper {
 # Replacing tags
 ```php
 namespace Yireo\Utilities;
-class TagHandler {
+
+class TagHandler
+{
     protected $text = '';
     public function _construct() {}
     public function setText($text)
     public function replace($tag, $replacement) {}
 }
 ```
-
-Use:
+--
 ```php
-$textHandler = new Yireo\Utilities\TagHandler;
-$textHandler->setText($body);
-$body = $textHandler->replace('article.title', $article);
+$tagHandler = new Yireo\Utilities\TagHandler;
+$tagHandler->setText($body);
+$body = $tagHandler->replace('article.title', $article);
 ```
 
 ---
 # Loading articles
 ```php
 namespace Yireo\Database;
-class Article {
+
+class Article
+{
   public function __construct($db) {}
   public function load($id) {}
   public function getTitle() {}
 }
 ```
 
-Use:
+--
 ```php
 $db = JFactory::getDbo();
 $article = new Yireo\Database\Article($db);
@@ -272,36 +328,45 @@ $title = $article->getTitle();
 ```
 
 ---
-# Mimicing JDatabase
+# Mocking JDatabase (1 of 2)
 ```php
 namespace Yireo\Api;
+
 interface DboInterface extends \JDatabaseInterface
+{
+    public function getQuery($isNew);
+}
 ```
 
+---
+# Mocking JDatabase (2 of 2)
 ```php
 namespace Yireo\Database;
+
+use Yireo\Api\DboInterface;
+
 class Article
 {
-  public function __construct(\Yireo\Api\DboInterface $db)
-  {
-    $this->db = $db;
-  }
+    public function __construct(DboInterface $db)
+    {
+        $this->db = $db;
+    }
 
-  public function load($articleId)
-  {
-    ... $this->db->getQuery(true);
-  }
+    public function load($articleId)
+    {
+        $query = $this->db->getQuery(true);
+    }
 }
 ```
 
 ---
 # YireoLib 
 - https://github.com/yireo/lib_yireo
-- Uses `libraries/yireo/loader.php` to initialize
-    - `jimport('yireo.loader')`
-- Calls upon `Yireo\System\Autoloader`
-    - Implementing PSR-4
-- Only used in my Joomla extensions
+- Autoloading:
+    - Add `jimport('yireo.loader')` to your code
+    - Loads `libraries/yireo/loader.php` to initialize autoloading
+    - Calls upon `Yireo\System\Autoloader` which uses PSR-4
+- Only used in my personal Joomla extensions
 
 ---
 # Moving to real OOP
@@ -313,22 +378,36 @@ class Article
 Usable in Joomla, Magento, Laravel, custom PHP apps
 
 ---
-# Tips for using namespaces
-- Create your own library now
-    - Use TDD, BDD, DDD, scrapbooks, diagrams, whatever
-    - Native PHP code without Joomla
-    - Move as much functionality to library as possible
+# Create your own library
+--
+
+- Use TDD, BDD, DDD, scrapbooks, diagrams, whatever
+--
+
+- Native PHP code without Joomla
+--
+
+- Move as much functionality to library as possible
+--
+
 - Mimic behaviour of Joomla classes
     - Using bridges, proxies and interfaces
     - Downsize dependency with CMS classes
 
 ---
-class: center, middle
-### Start implementing namespaces
-### in your Joomla extensions
-## today
+# More thoughts
+- Add MVC parents that use namespaces
+--
+
+- Create namespaced module helpers
+--
+
+- Reuse libraries via composer
 
 ---
 class: center, middle
-## thanks
+### Make your code more agile by using namespaces
+
+---
+class: center, middle
 ### tweet me via @yireo
