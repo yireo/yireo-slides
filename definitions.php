@@ -48,6 +48,7 @@ $slideGroups = array(
         'group' => 'DJPD - Dutch Joomla PHP Developers',
         'style' => 'djpdnl',
         'slides' => array(
+            array('file' => 'djpd/composer/composer', 'title' => 'Composer'),
             array('file' => 'djpd/automation/phing', 'title' => 'Automation Tools - Phing'),
             array('file' => 'djpd/automation/grunt', 'title' => 'Automation Tools - Grunt'),
             array('file' => 'djpd/automation/gulp', 'title' => 'Automation Tools - Gulp'),
