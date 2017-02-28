@@ -1,7 +1,7 @@
 layout: true
 <div class="slide-heading">Messing Up DI</div>
 <div class="slide-footer">
-    <span>www.yireo.com - slides.yireo.com</span>
+    <span>MeetMagento Croatia 2017</span>
 </div>
 
 ---
@@ -304,6 +304,9 @@ class Data
 # @todo
 - 2.1 requirement for $context
 - 2.2 entity manager
+- Open Sans Condensed
+- worldmap logo on back of slides
+- some slides: orange #ff3f04
 
 ---
 class: center, middle
