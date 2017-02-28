@@ -95,12 +95,17 @@ img.img-responsive {
     max-width: 100%;
 }
 
+.remark-slide-content h1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 code {
     word-break: break-word;
 }
 
 .remark-code {
-    font-size: 80%;
+    font-size: 68%;
 }
 
 .hljs-googlecode .hljs {

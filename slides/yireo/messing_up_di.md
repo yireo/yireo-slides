@@ -20,7 +20,7 @@ class: center, middle
 - Trainer, enterpreneur, coder
 --
 
-- Wrote 2 developer books for J\*\*ml\*
+- Magento 2 Master - Mover
 --
 
 - Loving Magento 2
@@ -110,18 +110,18 @@ namespace Magento\Catalog\Model;
 use ...;
 
 class Product extends \Magento\Catalog\Model\AbstractModel 
-    implements IdentityInterface, SaleableInterface, ProductInterface
+  implements IdentityInterface, SaleableInterface, ProductInterface
 {
     public function __construct(
         \Magento\Framework\Model\Context $context,
         \Magento\Framework\Registry $registry,
-        \Magento\Framework\Api\ExtensionAttributesFactory $extensionFactory,
+        ExtensionAttributesFactory $extensionFactory,
         AttributeValueFactory $customAttributeFactory,
-        \Magento\Store\Model\StoreManagerInterface $storeManager,
-        \Magento\Catalog\Api\ProductAttributeRepositoryInterface $metadataService,
+        StoreManagerInterface $storeManager,
+        ProductAttributeRepositoryInterface $metadataService,
         Product\Url $url,
         Product\Link $productLink,
-        \Magento\Catalog\Model\Product\Configuration\Item\OptionFactory $itemOptionFactory,
+        OptionFactory $itemOptionFactory,
         ...
     ) {
         ...
