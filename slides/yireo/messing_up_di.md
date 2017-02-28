@@ -113,8 +113,8 @@ class Product extends \Magento\Catalog\Model\AbstractModel
   implements IdentityInterface, SaleableInterface, ProductInterface
 {
     public function __construct(
-        \Magento\Framework\Model\Context $context,
-        \Magento\Framework\Registry $registry,
+        Context $context,
+        Registry $registry,
         ExtensionAttributesFactory $extensionFactory,
         AttributeValueFactory $customAttributeFactory,
         StoreManagerInterface $storeManager,
@@ -129,7 +129,7 @@ class Product extends \Magento\Catalog\Model\AbstractModel
 
 ---
 # Too many dependencies
-- `Magento\Catalog\Model\Product` has 35 constructor arguments
+- `Product` model has 35 constructor arguments
 --
 
 - One of these constructor arguments is `$context`
@@ -160,9 +160,9 @@ abstract class Helper
 
 ---
 # Too many dependencies
-- `Magento\Catalog\Model\Product` has 35 constructor arguments
+- `Product` model has 35 constructor arguments
 - One of these constructor arguments is `$context`
-    - `Magento\Framework\Model\Context` contains another 20+ dependencies
+    - `Context` contains another 20+ dependencies
 --
 - What is the meaning of an underscore?
     - Both `$this->_logger` and `$this->urlEncoder` are protected
@@ -199,14 +199,18 @@ class: center, middle
 # Factory
 ```php
 namespace Magento\Core\Model\Config;
+
 use Magento\Framework\ObjectManager;
+
 class BaseFactory
 {
     protected $_objectManager;
+
     public function __construct(ObjectManager $objectManager)
     {
         $this->_objectManager = $objectManager;
     }
+
     public function create($sourceData = null)
     {
         return $this->_objectManager->create(
@@ -288,13 +292,18 @@ class Data
 
 ---
 # Focusing on Product again 
-- `Magento\Catalog\Model\Product` has 35 constructor arguments
+- `Product` model has 35 constructor arguments
 --
 
 - 5 out of 35 are actually interfaces
 --
 
 - However, about 10 are Factories that generate interfaces
+
+---
+# @todo
+- 2.1 requirement for $context
+- 2.2 entity manager
 
 ---
 class: center, middle
