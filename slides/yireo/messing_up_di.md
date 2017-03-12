@@ -1,7 +1,7 @@
 layout: true
 <div class="slide-heading">Messing Up DI</div>
 <div class="slide-footer">
-    <span>MeetMagento Croatia 2017</span>
+    <span>Meet Magento Croatia 2017</span>
 </div>
 
 ---
@@ -27,13 +27,12 @@ class: center, middle
 --
 
 - Loving Magento 2
---
 
 ---
 # My talk
 - Dependency Injection
 - ObjectManager & Factory
-- Interfaces
+- Refactoring
 
 ---
 class: center, middle
@@ -54,7 +53,7 @@ class: center, middle
 - ObjectManager is our new god
 --
 
-- Code smells are everywhere
+- Code smells are still around
 
 ---
 # DI in theory
@@ -337,17 +336,15 @@ class: center, middle
 - Open Sans Condensed
 - worldmap logo on back of slides
 - some slides: orange #ff3f04
+- https://github.com/gnab/remark/wiki/Markdown#background-image
 
 ---
 class: center, middle
 # Conclusion
 
 ---
-# Conclusion
-- Magento 2 is great
---
-
-- Magento 2 is made by humans
+class: center, middle
+# Keep refactoring
 
 ---
 class: center, middle
