@@ -182,8 +182,11 @@ Both `$this->_logger` and `$this->urlEncoder` are protected
 
 ---
 class: center, middle, orange
-# Why bother with underscores?
-Both `$this->_logger` and `$this->urlEncoder` are protected
+# Ignoring $context
+Magento 2.0 *allowed* for this to happen
+
+Magento 2.1 made this more strict: It gives an exception if you inject something that is already injected. In short: You
+can't ignore `$context`.
 
 ---
 # Lessons
@@ -193,8 +196,6 @@ Both `$this->_logger` and `$this->urlEncoder` are protected
 - Keep the number of dependencies to a minimum
     - Move all similar dependencies to a common class
     - Move around dependencies until each class has as little dependencies as possible
---
-- Don't name your protected variables or methods with an underscore
 
 ---
 class: center, middle
@@ -239,8 +240,21 @@ class BaseFactory
 ```
 
 ---
+class: center, middle, orange
+# Object Manager should NEVER be used
+
+---
+class: center, middle, orange
+# Object Manager should NEVER be used - except in factories
+
+---
+class: center, middle, orange
+# Object Manager should NEVER be used - except in factories, shell scripts, builders, weird interceptors, unit tests
+
+---
 # Lessons
 - Object Manager should NEVER be used
+
 --
 
 - Except for in a Factory
@@ -347,7 +361,6 @@ class: center, middle
 
 ---
 # @todo
-- 2.1 requirement for $context
 - 2.2 entity manager
 - Open Sans Condensed
 - worldmap logo on back of slides
