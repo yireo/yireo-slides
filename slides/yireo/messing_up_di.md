@@ -209,7 +209,7 @@ class: center, middle, orange
 
 ---
 class: center, middle, keepasecret, bgimage
-## Entity Manager
+# Entity Manager
 
 ---
 class: center, middle
