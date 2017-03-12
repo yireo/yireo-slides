@@ -6,6 +6,7 @@ layout: true
 
 ---
 class: center, middle
+background-image: url(../images/mm_background_world.png)
 # Messing Up
 ### Dependency Injection
 
