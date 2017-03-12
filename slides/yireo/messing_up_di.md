@@ -252,21 +252,6 @@ class: center, middle, orange
 # Object Manager should NEVER be used - except in factories, shell scripts, builders, weird interceptors, unit tests
 
 ---
-# Lessons
-- Object Manager should NEVER be used
-
---
-
-- Except for in a Factory
---
-
-- And CLI scripts
---
-
-- And perhaps unit tests
-
-
----
 class: center, middle
 # Interfaces
 
