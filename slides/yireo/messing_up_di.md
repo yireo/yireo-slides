@@ -39,8 +39,9 @@ class: orange
 - Refactoring
 
 ---
-class: center, middle
-# Dependency Injection (DI)
+class: center, middle, orange
+# Dependency Injection
+## (DI)
 
 
 ---
@@ -110,7 +111,7 @@ class Data extends AbstractHelper
 ```
 
 ---
-# Too many dependencies
+# Product model
 ```php
 namespace Magento\Catalog\Model;
 use ...;
@@ -165,13 +166,24 @@ abstract class Helper
 ```
 
 ---
+class: center, middle, orange
+# Why bother with underscores?
+Both `$this->_logger` and `$this->urlEncoder` are protected
+
+---
 # Too many dependencies
 - `Product` model has 35 constructor arguments
 - One of these constructor arguments is `$context`
     - `Context` contains another 20+ dependencies
---
-- What is the meaning of an underscore?
-    - Both `$this->_logger` and `$this->urlEncoder` are protected
+
+---
+# Lessons
+- Don't inject logger, but check your `$context` first
+
+---
+class: center, middle, orange
+# Why bother with underscores?
+Both `$this->_logger` and `$this->urlEncoder` are protected
 
 ---
 # Lessons
