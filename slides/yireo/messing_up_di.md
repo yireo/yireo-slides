@@ -305,12 +305,30 @@ class Data
 
 ---
 class: center, middle
-## 
-- `Product` model has 35 constructor arguments
---
+### My question to Anton Krill (DevParadise 16):
+## "Isn't there a Dependency Hell
+## within Magento 2?"
 
-- One of these constructor arguments is `$context`
+---
+class: center, middle
+### Anton Krills answer:
+## "..."
 
+---
+class: center, middle
+### Anton Krills answer:
+## "Yes."
+
+---
+class: center, middle
+### Anton Krills answer:
+## "Yes. Just like in Magento 1."
+
+---
+class: center, middle
+### Anton Krills answer:
+## "Yes. Just like in Magento 1."
+## "But now we can actually fix it."
 
 ---
 # @todo
