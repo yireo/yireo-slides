@@ -11,6 +11,7 @@ background-image: url(../images/mm_background_world.png)
 ### Dependency Injection
 
 ---
+class: orange
 # About me
 - Jisse Reitsma
 --
