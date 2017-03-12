@@ -5,10 +5,9 @@ layout: true
 </div>
 
 ---
-class: center, middle
-background-image: url(../images/mm_background_world.png)
+class: center, middle, world
 # Messing Up
-### Dependency Injection
+## Dependency Injection
 
 ---
 class: orange
