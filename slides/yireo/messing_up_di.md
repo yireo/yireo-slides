@@ -198,6 +198,10 @@ can't ignore `$context`.
     - Move around dependencies until each class has as little dependencies as possible
 
 ---
+class: center, middle, orange
+# Composition over inheritance
+
+---
 class: center, middle
 # ObjectManager & Factory
 
