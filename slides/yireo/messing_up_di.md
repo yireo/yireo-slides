@@ -9,6 +9,9 @@ class: center, middle, world
 # Messing Up
 ## Dependency Injection
 
+Meet Magento Croatia 2017
+Osijek, Croatia
+
 ---
 class: orange
 # About me
