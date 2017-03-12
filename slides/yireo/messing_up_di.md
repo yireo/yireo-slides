@@ -5,7 +5,7 @@ layout: true
 </div>
 
 ---
-class: center, middle, world
+class: center, middle, world, bgimage
 # Messing Up
 ## Dependency Injection
 
@@ -208,7 +208,7 @@ class: center, middle, orange
 - Inject those classes instead of using parents
 
 ---
-class: center, middle, keepasecret
+class: center, middle, keepasecret, bgimage
 ## Entity Manager
 
 ---
