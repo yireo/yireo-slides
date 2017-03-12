@@ -202,6 +202,15 @@ class: center, middle, orange
 # Composition over inheritance
 
 ---
+# Composition over inheritance
+- Refactor a class by grouping together features
+- Move common features to dedicated classes
+- Inject those classes instead of using parents
+
+--
+Refactoring with the Entity Manager
+
+---
 class: center, middle
 # ObjectManager & Factory
 
@@ -347,14 +356,6 @@ class: center, middle
 ### Anton Krills answer:
 > Yes. Just like in Magento 1.
 > But now we can actually fix it.
-
----
-# @todo
-- 2.2 entity manager
-- Open Sans Condensed
-- worldmap logo on back of slides
-- some slides: orange #ff3f04
-- https://github.com/gnab/remark/wiki/Markdown#background-image
 
 ---
 class: center, middle
