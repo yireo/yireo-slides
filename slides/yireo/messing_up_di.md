@@ -1,7 +1,7 @@
 layout: true
 <div class="slide-heading">Messing Up DI</div>
 <div class="slide-footer">
-    <span>Meet Magento Croatia 2017</span>
+    <span>Messing Up DI - Jisse Reitsma - Meet Magento Croatia 2017</span>
 </div>
 
 ---
@@ -309,29 +309,29 @@ class Data
 ---
 class: center, middle
 ### My question to Anton Krill (DevParadise 16):
-## "Isn't there a Dependency Hell
-## within Magento 2?"
+> Isn't there a Dependency Hell
+> within Magento 2?
 
 ---
 class: center, middle
 ### Anton Krills answer:
-## "..."
+> ...
 
 ---
 class: center, middle
 ### Anton Krills answer:
-## "Yes."
+> Yes.
 
 ---
 class: center, middle
 ### Anton Krills answer:
-## "Yes. Just like in Magento 1."
+> Yes. Just like in Magento 1.
 
 ---
 class: center, middle
 ### Anton Krills answer:
-## "Yes. Just like in Magento 1."
-## "But now we can actually fix it."
+> Yes. Just like in Magento 1.
+> But now we can actually fix it.
 
 ---
 # @todo
@@ -351,6 +351,7 @@ class: center, middle
 # Keep refactoring
 
 ---
-class: center, middle
-# End
+class: center, middle, world
+# @yireo
+# @jissereitsma
 
