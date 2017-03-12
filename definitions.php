@@ -12,7 +12,6 @@ $slideGroups = array(
             array('file' => 'yireo/joomla_zray', 'title' => 'Zend Z-Ray and Joomla (JAB16)'),
             array('file' => 'yireo/modern_php_in_joomla', 'title' => 'Modern PHP in Joomla (JAB16)'),
             array('file' => 'yireo/running_m2', 'title' => 'Running Magento 2 (Magento Developers Paradise 2016)', 'public' => 1),
-            array('file' => 'yireo/messing_up_di', 'title' => 'Messing Up DI (MeetMagento NL 2016)', 'public' => 1),
             array('file' => 'yireo/php7', 'title' => 'PHP 7 (JoomlaDagen 2016)', 'public' => 1),
             array('file' => 'yireo/plugin_patterns', 'title' => 'Joomla Plugin Concepten (JUG Utrecht)'),
             array('file' => 'yireo/joomla_stuff', 'title' => 'Joomla Stuff (JUG Breda)'),
@@ -23,6 +22,13 @@ $slideGroups = array(
             array('file' => 'yireo/zray_design', 'title' => 'Joomla &amp; Zend Server Z-Ray - Templaters Aid'),
             array('file' => 'yireo/zray_plugins', 'title' => 'Joomla &amp; Zend Server Z-Ray - Plugins and Events'),
             array('file' => 'yireo/leercurves', 'title' => 'Yireo Educatie - Leren samen met Yireo'),
+        ),
+    ),
+    array(
+        'group' => 'MeetMagento',
+        'style' => 'meetmagento',
+        'slides' => array(
+            array('file' => 'yireo/messing_up_di', 'title' => 'Messing Up DI (MeetMagento HR 2017)', 'public' => 1),
         ),
     ),
     array(

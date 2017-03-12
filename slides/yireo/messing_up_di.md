@@ -20,7 +20,10 @@ class: center, middle
 - Trainer, enterpreneur, coder
 --
 
-- Magento 2 Master - Mover
+- Magento 2 Master "Mover" (2017)
+--
+
+- Knockout JiSse (I don't why)
 --
 
 - Loving Magento 2
@@ -299,6 +302,15 @@ class Data
 --
 
 - However, about 10 are Factories that generate interfaces
+
+---
+class: center, middle
+## 
+- `Product` model has 35 constructor arguments
+--
+
+- One of these constructor arguments is `$context`
+
 
 ---
 # @todo
