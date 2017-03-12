@@ -207,8 +207,9 @@ class: center, middle, orange
 - Move common features to dedicated classes
 - Inject those classes instead of using parents
 
---
-Refactoring with the Entity Manager
+---
+class: center, middle, keepasecret
+## Entity Manager
 
 ---
 class: center, middle
