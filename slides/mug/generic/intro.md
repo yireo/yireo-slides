@@ -49,13 +49,6 @@ class: center, middle
 ### Magento nieuws
 
 ---
-# Magento 2.2
-- Verwacht: Q1 2017?
-- Features
-    - Meer stabiliteit
-    - B2B features
-
----
 # Agenda
 - 13 april = MUG Amsterdam (JMango360): Mobile
 - 10 mei = MeetMagento NL
