@@ -82,6 +82,12 @@ class Data
 ```
 
 ---
+# Lessons
+- Don't use helpers
+    - [Helpers are code smell](http://www.robbagby.com/posts/helper-classes-are-a-code-smell/) (thanks @WebShopApps)
+
+
+---
 # DI in practice 
 ```php
 namespace Yireo\Example\Helper;
@@ -188,6 +194,10 @@ abstract class Helper
 
 ---
 # Lessons
+- Don't use helpers
+- Don't use underscores to identify scope
+
+--
 - Try to keep dependencies to a minimum
     - Move all similar dependencies to a common class
     - Move around dependencies until each class has as little dependencies as possible
@@ -214,7 +224,7 @@ abstract class AbstractHelper
 
 ---
 class: center, middle
-# Migrating from 2.0 to 2.1?
+# Migrating from 2.0 to 2.1 ?
 
 ---
 class: center, middle, orange
@@ -242,6 +252,8 @@ class Data extends AbstractHelper
 
 ---
 # Lessons
+- Don't use helpers
+- Don't use underscores to identify scope
 - Try to keep dependencies to a minimum
 - Check your `$context` first
 
@@ -285,6 +297,8 @@ class Product extends AbstractModel
 
 ---
 # Lessons
+- Don't use helpers
+- Don't use underscores to identify scope
 - Try to keep dependencies to a minimum
 - Check your `$context` first
 - Depend on interfaces instead of classes
@@ -353,6 +367,8 @@ class: center, middle, orange
 
 ---
 # Lessons
+- Don't use helpers
+- Don't use underscores to identify scope
 - Try to keep dependencies to a minimum
 - Check your `$context` first
 - Depend on interfaces instead of classes
@@ -394,6 +410,10 @@ class: center, middle
 ### Anton Krills answer:
 > Yes. Just like in Magento 1.<br/>
 > But now we can actually fix it.
+
+---
+class: center, middle, orange
+# Don't use Magento modules for examples
 
 ---
 class: center, middle
