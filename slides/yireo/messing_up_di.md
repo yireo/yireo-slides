@@ -18,7 +18,7 @@ class: orange
 - Jisse Reitsma
 --
 
-- Founder and lead developer of Yireo
+- Founder and lead developer of Yireo (Netherlands)
 --
 
 - Trainer, enterpreneur, coder
