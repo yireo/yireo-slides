@@ -104,10 +104,10 @@ class Data extends AbstractHelper
 ```
 
 ---
-# DI in practice 
+# DI in better practice 
 ```php
 namespace Yireo\Example\Helper;
-use Psr\Log\LoggerInterface;
+use Psr\Log\LoggerInterface as Logger;
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;
 
@@ -115,7 +115,7 @@ class Data extends AbstractHelper
 {
     protected $logger;
 
-    public function __construct(LoggerInterface $logger, Context $context)
+    public function __construct(Logger $logger, Context $context)
     {
         $this->logger = $logger;
         parent::__construct($context);
@@ -245,6 +245,10 @@ class Data extends AbstractHelper
 - Try to keep dependencies to a minimum
 - Check your `$context` first
 
+--
+- Depend on interfaces instead of classes
+    - Check if there is a `preference`
+
 ---
 class: center, middle, orange
 # Composition over inheritance
@@ -254,6 +258,40 @@ class: center, middle, orange
 - Refactor a class by grouping together features
 - Move common features to dedicated classes
 - Inject those classes instead of using parents
+
+---
+# Product model
+```php
+namespace Magento\Catalog\Model;
+use ...;
+
+class Product extends AbstractModel 
+  implements IdentityInterface, SaleableInterface, ProductInterface
+{
+    public function __construct(
+        Context $context,
+        Registry $registry,
+        ExtensionAttributesFactory $extensionFactory,
+        AttributeValueFactory $customAttributeFactory,
+        StoreManagerInterface $storeManager,
+        ProductAttributeRepositoryInterface $metadataService,
+        Product\Url $url,
+        Product\Link $productLink,
+        OptionFactory $itemOptionFactory,
+        ...
+    ) {
+        ...
+```
+
+---
+# Lessons
+- Try to keep dependencies to a minimum
+- Check your `$context` first
+- Depend on interfaces instead of classes
+
+--
+- Depend on service interfaces instead of normal
+    - `ProductRepositoryInterface` instead of `Product` model
 
 ---
 class: center, middle, keepasecret, bgimage
@@ -314,9 +352,11 @@ class: center, middle, orange
 # Object Manager should NEVER be used - except in factories, shell scripts, builders, weird interceptors, unit tests
 
 ---
-class: center, middle
-# Interfaces
-
+# Lessons
+- Try to keep dependencies to a minimum
+- Check your `$context` first
+- Depend on interfaces instead of classes
+- Depend on service interfaces instead of normal
 
 ---
 # Better theory
