@@ -358,22 +358,14 @@ class: center, middle, orange
 - Depend on interfaces instead of classes
 - Depend on service interfaces instead of normal
 
----
-# Better theory
-- Only use interfaces for constructor arguments 
-    - Use PhpStorm + Magicento2 to open up right `di.xml`
 --
-- Define interfaces for most of your own classes
-    - Map interfaces to real classes using Preferences
+- Never inject Object Manager
+    - Except for edge cases (factories, scripts, testing, ...)
 
 ---
 # Focusing on Product again 
 - `Product` model has 35 constructor arguments
---
-
 - 5 out of 35 are actually interfaces
---
-
 - However, about 10 are Factories that generate interfaces
 
 ---
