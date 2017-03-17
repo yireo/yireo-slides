@@ -167,9 +167,32 @@ abstract class Helper
 ---
 # Lessons
 - Try to keep dependencies to a minimum
-
+    - Move all similar dependencies to a common class
+    - Move around dependencies until each class has as little dependencies as possible
 --
-- Don't inject logger, but check your `$context` first
+- Check your `$context` first
+
+---
+# Check your $context
+```php
+class Data extends AbstractHelper
+{
+}
+```
+
+```php
+abstract class AbstractHelper
+{
+    public function __construct(Context $context)
+    {
+        $this->_logger = $context->getLogger();
+    }
+}
+```
+
+---
+class: center, middle
+# Migrating from 2.0 to 2.1?
 
 ---
 class: center, middle, orange
@@ -181,12 +204,8 @@ can't ignore `$context`.
 
 ---
 # Lessons
-- Don't inject logger, but check your `$context` first
---
-
-- Keep the number of dependencies to a minimum
-    - Move all similar dependencies to a common class
-    - Move around dependencies until each class has as little dependencies as possible
+- Try to keep dependencies to a minimum
+- Check your `$context` first
 
 ---
 class: center, middle, orange
@@ -346,7 +365,7 @@ class: center, middle
 ---
 class: center, middle
 ### Anton Krills answer:
-> Yes. Just like in Magento 1.
+> Yes. Just like in Magento 1.<br/>
 > But now we can actually fix it.
 
 ---
