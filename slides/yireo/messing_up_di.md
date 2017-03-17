@@ -54,11 +54,10 @@ class: center, middle, orange
 
 - Hollywood Principle
     - Don't call us, we call you
---
-- ObjectManager is our new god
---
 
-- Code smells are still around
+---
+class: center, middle, orange
+# ObjectManager is god
 
 ---
 # DI in theory
@@ -70,9 +69,6 @@ class Data
 {
     protected $logger;
 
-    /**
-     * Don't mention interfaces yet
-     */
     public function __construct(Monolog $logger)
     {
         $this->logger = $logger;
@@ -97,9 +93,6 @@ class Data extends AbstractHelper
 {
     protected $logger;
 
-    /**
-     * Still don't mention interfaces yet
-     */
     public function __construct(Monolog $logger, Context $context)
     {
         $this->logger = $logger;
@@ -116,7 +109,7 @@ class Data extends AbstractHelper
 namespace Magento\Catalog\Model;
 use ...;
 
-class Product extends \Magento\Catalog\Model\AbstractModel 
+class Product extends AbstractModel 
   implements IdentityInterface, SaleableInterface, ProductInterface
 {
     public function __construct(
@@ -166,11 +159,6 @@ abstract class Helper
 ```
 
 ---
-class: center, middle, orange
-# Why bother with underscores?
-Both `$this->_logger` and `$this->urlEncoder` are protected
-
----
 # Too many dependencies
 - `Product` model has 35 constructor arguments
 - One of these constructor arguments is `$context`
@@ -178,6 +166,9 @@ Both `$this->_logger` and `$this->urlEncoder` are protected
 
 ---
 # Lessons
+- Try to keep dependencies to a minimum
+
+--
 - Don't inject logger, but check your `$context` first
 
 ---
