@@ -104,6 +104,28 @@ class Data extends AbstractHelper
 ```
 
 ---
+# DI in practice 
+```php
+namespace Yireo\Example\Helper;
+use Psr\Log\LoggerInterface;
+use Magento\Framework\App\Helper\AbstractHelper;
+use Magento\Framework\App\Helper\Context;
+
+class Data extends AbstractHelper
+{
+    protected $logger;
+
+    public function __construct(LoggerInterface $logger, Context $context)
+    {
+        $this->logger = $logger;
+        parent::__construct($context);
+    }
+
+    ...
+}
+```
+
+---
 # Product model
 ```php
 namespace Magento\Catalog\Model;
@@ -203,6 +225,22 @@ Magento 2.1 made this more strict: It gives an exception if you inject something
 can't ignore `$context`.
 
 ---
+# DI in practice 
+```php
+namespace Yireo\Example\Helper;
+use Magento\Framework\App\Helper\AbstractHelper;
+use Magento\Framework\App\Helper\Context;
+
+class Data extends AbstractHelper
+{
+    public function warning($text)
+    {
+        $this->_logger->warning($text);
+    }
+}
+```
+
+---
 # Lessons
 - Try to keep dependencies to a minimum
 - Check your `$context` first
@@ -223,10 +261,10 @@ class: center, middle, keepasecret, bgimage
 
 ---
 class: center, middle
-# ObjectManager & Factory
+# Factories
 
 ---
-# Using DI
+# Using factories
 - Requires object to be injectable
 --
 
@@ -279,49 +317,6 @@ class: center, middle, orange
 class: center, middle
 # Interfaces
 
----
-# DI in theory
-```php
-namespace Yireo\Example\Helper;
-use Magento\Framework\Logger\Monolog;
-
-class Data
-{
-    protected $logger;
-
-    public function __construct(Monolog $logger)
-    {
-        $this->logger = $logger;
-    }
-
-    public function warning($text)
-    {
-        $this->logger->warning($text);
-    }
-}
-```
-
----
-# DI in better theory
-```php
-namespace Yireo\Example\Helper;
-use Psr\Log\LoggerInterface;
-
-class Data
-{
-    protected $logger;
-
-    public function __construct(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-    }
-
-    public function warning($text)
-    {
-        $this->logger->warning($text);
-    }
-}
-```
 
 ---
 # Better theory
