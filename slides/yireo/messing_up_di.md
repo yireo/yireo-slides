@@ -413,11 +413,7 @@ class: center, middle
 
 ---
 class: center, middle, orange
-# Don't use Magento modules for examples
-
----
-class: center, middle
-# Conclusion
+# Not everything in the Magento core might be the best of examples
 
 ---
 class: center, middle
@@ -425,6 +421,7 @@ class: center, middle
 
 ---
 class: center, middle, world
-# @yireo
-# @jissereitsma
+# Any questions?
+### @yireo
+### @jissereitsma
 
