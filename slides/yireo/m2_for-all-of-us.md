@@ -287,4 +287,8 @@ class: center, middle, orange
 ---
 class: center, middle
 ## For all of us
+
+---
+class: center, middle
+## questions?
 ### magento.reageer.tv
