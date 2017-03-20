@@ -1,11 +1,11 @@
 layout: true
 <div class="slide-heading">Magento 2 for all of us</div>
 <div class="slide-footer">
-    <span>Messing Up DI - Jisse Reitsma - Meet Magento Croatia 2017</span>
+    <span>Magento 2 for all of us - Jisse Reitsma - slides.yireo.com</span>
 </div>
 
 ---
-class: center, middle
+class: center, middle, orange
 # So ... Magento 2?
 
 ---
@@ -31,7 +31,7 @@ class: center, middle
 - Organizing usergroups & hackathons & events
 
 ---
-class: center, middle
+class: center, middle, orange
 # Magento ...
 
 ---
@@ -103,7 +103,7 @@ class: center, middle
 - Sellvana
 
 ---
-class: center, middle
+class: center, middle, orange
 ## Magento 2
 
 ---
@@ -269,7 +269,7 @@ class: center, middle
 ## M2 brings Magento to PHP
 
 ---
-class: center, middle
+class: center, middle, orange
 ## Community
 
 ---
