@@ -15,6 +15,12 @@ class: center, middle
 - Trainer for M1 & M2 developers
 
 --
+- Magento Master "Mover" 2017
+
+--
+- Zend Z-Team member
+
+--
 - Organizing usergroups & hackathons & events
 
 ---
@@ -36,10 +42,10 @@ class: center, middle
 ---
 # Example Magento shop
 - "Help, my shop is slow"
-- First glance
+- First glance (Oct 2016)
     - 4.000 Configurable Products
     - 4 million Simple Products
-    - Server without SSD and PHP 5.3
+    - Server without SSD and still on PHP 5.3
 
 ---
 # Example Magento shop
@@ -99,7 +105,7 @@ class: center, middle
 - Complete rewrite of Magento 1
 - Modern PHP architecture
     - DI, composer, PSR
-- Just as extensible as Magento 1
+- More extensible than Magento 1
 
 ---
 class: center, middle
@@ -261,15 +267,15 @@ class: center, middle
 
 ---
 ## Upcoming events
-- Mage Unconference NL
-    - 14-16 October 2016
-    - Utrecht
-    - SOLD OUT
-- Magento 2 Seminar
-    - 21 October 2016
-    - Utrecht
-    - 200-300 attendees
-    - magento2seminar.yireo.com
+- MeetMagento NL
+    - 25-27 August 2017, Utrecht
+    - www.meet-magento.nl
+- MageUnconference NL
+    - 25-27 August 2017, Utrecht
+    - nl.mageuc.org
+- MageTestFest
+    - 17 November 2017, Utrecht
+    - magetestfest.nl
 
 ---
 class: center, middle
