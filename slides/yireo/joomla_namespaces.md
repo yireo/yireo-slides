@@ -29,6 +29,9 @@ class: center, middle
 - Part of Zend Z-Team
 --
 
+- Magento Master "Mover" 2017
+--
+
 - Untrained idiot on a bicycle
 
 ---
@@ -47,8 +50,8 @@ use \Yireo\Api\CalculatorInterface;
 
 class Calculator implements CalculatorInterface
 {
-    public function multiply($source, $multiplier) {}
-    public function sum($number1, $number2) {}
+    public function multiply($source, $multiplier) { ... }
+    public function sum($number1, $number2) { ... }
 }
 ```
 
