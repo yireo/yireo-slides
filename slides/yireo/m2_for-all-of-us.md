@@ -1,3 +1,10 @@
+layout: true
+<div class="slide-heading">Magento 2 for all of us</div>
+<div class="slide-footer">
+    <span>Messing Up DI - Jisse Reitsma - Meet Magento Croatia 2017</span>
+</div>
+
+---
 class: center, middle
 # So ... Magento 2?
 
@@ -268,7 +275,7 @@ class: center, middle
 ---
 ## Upcoming events
 - MeetMagento NL
-    - 25-27 August 2017, Utrecht
+    - 10 May 2017, Utrecht
     - www.meet-magento.nl
 - MageUnconference NL
     - 25-27 August 2017, Utrecht
