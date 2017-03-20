@@ -77,7 +77,17 @@ class Calculator implements CalculatorInterface
 ---
 # Joomla & namespaces 
 - in Joomla Framework: Everywhere
-- in Joomla CMS: `Joomla\Registry\Registry`
+- in Joomla CMS: Limited
+
+---
+# Joomla classes
+```php
+Joomla\Registry\Registry
+Joomla\Utilities\ArrayHelper
+Joomla\String\StringHelper
+
+Joomla\Ldap\LdapClient
+```
 
 ---
 # Your own extensions
