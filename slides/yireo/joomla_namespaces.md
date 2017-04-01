@@ -10,6 +10,9 @@ class: center, middle
 ### in Joomla
 
 ---
+{images gor.jpg} 
+
+---
 class: center, middle
 # http://slides.yireo.com/
 
