@@ -1,7 +1,7 @@
 layout: true
 <div class="slide-heading">Implementing namespaces in Joomla</div>
 <div class="slide-footer">
-    <span>www.yireo.com - slides.yireo.com  - #jwc16 - @yireo / @jissereitsma</span>
+    <span>www.yireo.com - slides.yireo.com  - #jd17nl - @yireo / @jissereitsma</span>
 </div>
 
 ---
