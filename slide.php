@@ -68,5 +68,7 @@ $root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
     .remark-slide-number { display:none; }
     </style>
     <?php endif; ?>
+    <div class="slide-camera"><video id="camera" autoplay="true"></video></div>
+    <script src="js/video.js"></script>
   </body>
 </html>

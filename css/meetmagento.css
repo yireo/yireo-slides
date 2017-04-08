@@ -158,18 +158,18 @@ code {
     background-color: #eaf4ff;
 }
 
-.slide-video {
+.slide-camera {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 500px;
-    height: 375px;
-    border: 10px #333 solid;
+    top: 1%;
+    right: 1%;
+    width: 25%;
+    height: 23%;
+    border: 8px #aaa solid;
     z-index: 90;
 }
 
-.slide-video video {
-    width: 500px;
-    height: 375px;
-    background-color: #666;
+.slide-camera video {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
 }
