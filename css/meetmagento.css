@@ -164,10 +164,15 @@ code {
     top: 2%;
     height: 28%;
     z-index: 90;
+    -webkit-user-drag: element;
+    border: 8px #aaa solid;
 }
 
 .slide-camera video {
-    border: 8px #aaa solid;
     width: auto;
     height: 100%;
+}
+
+[draggable=true] {
+    cursor: move;
 }
