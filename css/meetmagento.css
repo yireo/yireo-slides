@@ -160,16 +160,14 @@ code {
 
 .slide-camera {
     position: absolute;
-    top: 1%;
-    right: 1%;
-    width: 25%;
-    height: 23%;
-    border: 8px #aaa solid;
+    left: 65%;
+    top: 2%;
+    height: 28%;
     z-index: 90;
 }
 
 .slide-camera video {
-    width: 100%;
+    border: 8px #aaa solid;
+    width: auto;
     height: 100%;
-    background-color: #ccc;
 }
