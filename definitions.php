@@ -27,6 +27,7 @@ $slideGroups = array(
         'group' => 'MeetMagento',
         'style' => 'meetmagento',
         'slides' => array(
+            array('file' => 'yireo/imagine2017_en', 'title' => 'Imagine 2017 review (EN)'),
             array('file' => 'yireo/m2_for-all-of-us', 'title' => 'Magento 2 - for all of us', 'footer' => 0, 'header' => 0),
             array('file' => 'yireo/messing_up_di', 'title' => 'Messing Up DI (MeetMagento HR 2017)', 'public' => 1),
         ),
