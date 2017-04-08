@@ -160,19 +160,15 @@ code {
 
 .slide-camera {
     position: absolute;
-    left: 65%;
-    top: 2%;
+    top: 1%;
+    left: 1%;
     height: 28%;
     z-index: 90;
     -webkit-user-drag: element;
-    border: 8px #aaa solid;
 }
 
 .slide-camera video {
     width: auto;
     height: 100%;
-}
-
-[draggable=true] {
-    cursor: move;
+    border: 8px #aaa solid;
 }
