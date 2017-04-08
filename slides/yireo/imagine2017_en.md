@@ -1,4 +1,5 @@
 layout: true
+<div class="slide-video"><video autoplay="true"></video></div>
 <div class="slide-heading"></div>
 <div class="slide-footer">
     <span>Imagine 2017 review by Jisse Reitsma (Yireo)</span>

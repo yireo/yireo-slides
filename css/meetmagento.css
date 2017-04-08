@@ -157,3 +157,19 @@ code {
 .hljs-googlecode .hljs {
     background-color: #eaf4ff;
 }
+
+.slide-video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 375px;
+    border: 10px #333 solid;
+    z-index: 90;
+}
+
+.slide-video video {
+    width: 500px;
+    height: 375px;
+    background-color: #666;
+}
