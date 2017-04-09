@@ -171,4 +171,5 @@ code {
     width: auto;
     height: 100%;
     border: 8px #aaa solid;
+    transform: rotateY(180deg);
 }
