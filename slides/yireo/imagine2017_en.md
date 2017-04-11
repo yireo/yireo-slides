@@ -28,11 +28,14 @@ class: orange
 --
 - Techtalk
 
+???
+So let's start. Imagine had a lot of things to offer, some really oriented on the community. There were announcements on new products & services, mainly on the last 3rd day of Imagine. I really wanted to take this opportunity to share some of my thoughts on these products. Also, there is some news on Magento 2.2. And, finally, because I'm a developer, there is some techtalk as well.
+
 ---
 # Community bits
 
 --
-- PreImagine
+- PreImagine & other parties
 
 --
 - Magento Masters
@@ -41,7 +44,7 @@ class: orange
 - Diversity in Tech
 
 ???
-PreImagine: ShipperHQ
+So the community was vibrating. For instance, the PreImagine party, sponsored by ShipperHQ, it offered a great way to meet existing friends and make new friends. Besides PreImagine, there were many more other great parties - simply showing that Magento 
 Woman Who Code
 
 ---
