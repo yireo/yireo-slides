@@ -9,6 +9,9 @@ class: center, middle, world, bgimage
 # Imagine 2017
 ## Review by Jisse Reitsma
 
+???
+cold, last week early April, Last Vegas
+
 ---
 class: orange
 # Imagine 2017
@@ -38,6 +41,7 @@ class: orange
 - Diversity in Tech
 
 ???
+PreImagine: ShipperHQ
 Woman Who Code
 
 ---
