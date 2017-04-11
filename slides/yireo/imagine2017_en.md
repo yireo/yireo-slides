@@ -19,11 +19,20 @@ class: orange
 --
 - Community bits
 
+???
+So let's start. Imagine had a lot of things to offer, some really oriented on the community. There were announcements on new products & services, mainly on the last 3rd day of Imagine. I really wanted to take this opportunity to share some of my thoughts on these products. Also, there is some news on Magento 2.2. And, finally, because I'm a developer, there is some techtalk as well.
+
 --
 - New products & services
 
+???
+So let's start. Imagine had a lot of things to offer, some really oriented on the community. There were announcements on new products & services, mainly on the last 3rd day of Imagine. I really wanted to take this opportunity to share some of my thoughts on these products. Also, there is some news on Magento 2.2. And, finally, because I'm a developer, there is some techtalk as well.
+
 --
 - News on Magento 2.2
+
+???
+So let's start. Imagine had a lot of things to offer, some really oriented on the community. There were announcements on new products & services, mainly on the last 3rd day of Imagine. I really wanted to take this opportunity to share some of my thoughts on these products. Also, there is some news on Magento 2.2. And, finally, because I'm a developer, there is some techtalk as well.
 
 --
 - Techtalk
@@ -120,19 +129,30 @@ The big question is then still: When? When will 2.2 be released? The current ans
 - Blackfire
 
 ???
-Possible refactoring of RequireJS to WebPack
-Blackfire integration with Enterprise Cloud
-    - more inspiration
-        - headless commerce (REST)
-        - progressive web apps (service workers, polymers, custom elements)
-        - IoT, wearables, VR, AI, Augmented Reality
-        - APIs van Amazon Echo connecten met Magento REST API
+During the conference, there was talk on the Extension Quality Program as it is used by Magento Marketplace, to check extensions for common issues. There is a EQP tool available on GitHub. However, it includes only some common tools like composer checks and PHPSniffer rules. There was especially talk on more advanced rules, like checking if the Object Manager was used in a wrong place or whether a module was using a repository properly. This is something for the future, and definitely the community could help out here.
+
+During various talks on UIcomponents, best practices were discussed - for instance during a round-table at the DevExchange session on the last day. Also, there was talk of a possible refactoring of RequireJS to WebPack, which could allow for a bit more flexibility. There is much more to say on this topic, and we hope to see some kind of online DevExchange soon.
+
+The DevBox was discussed - the docker-based solution for developers to get Magento 2 up and running quickly. Make sure to check out the slides when they come available.
+
+And last but not least, there was a lot of talk on Blackfire. It is integrated in the Enterprise Cloud, however nothing is stopping you from implementing it in your own production or development environment. A very cool tool!
+
+Besides these topics, there was a lot more: There was a lot of talk on headless Magento shops, where a non-Magento frontend (for instance based on Angular) was connected to a Magento REST API.
+
+Also, progressive web apps were discussed, complete with service workers, polymers and custom elements. Things like the Internet of Things, wearables, Virtual Reality, Augmented Reality and Artificial Intelligence popped up. APIs from an Amazon Echo to connect to a Magento REST API, to allow consumers to voice operate a Magento store. Pff, too much to mention.
 
 ---
 class: center, middle, orange
 # Next Imagine
 ## April 23-25, 2018
 
+???
+In short, Magento Imagine was awesome. I loved it. And I'm definitely going to be there next year!
+
 ---
 class: center, middle
 # @yireo
+
+???
+If you have any comments, do let me know. And I hope to see you next year at Imagine.
+See you!
