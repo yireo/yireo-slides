@@ -73,15 +73,13 @@ Moving on, some products and services were announced throughout Imagine. First o
 
 Magento Social was announced as well: Kind of a Facebook app for product listings, targetting specific customers, ad campaigns, etcetera. Really useful for merchants who want to promote their products via social channels.
 
+Bluefoot was aquired some time ago already, so this was not really big news. However, it should be noted that Magento has now labeled it Magento Advanced CMS. Bluefoot contains already awesome features like content templating, ease-of-use so that no frontend developer is needed. And upcoming versions will also bring a more advanced media gallery.
 
+Another product is BI: A completely separate app, which contains reporting, graphics, data mining on a variety of topics. I've not seen much of its details yet, but I can imagine that its values lies in its ability to aggregate data in an easy way. Very interesting.
 
-Magento Shipping via Fedex UPS, generate picking lists, nice integration in backend but also possible via ShipperHQ
+Last but not least came the announcement of Magento Shipping - an integrated solution via shipping methods like Fedex UPS. It allows to generate picking lists, has a nice integration in backend. The solution is based on a third party called Temando. And fair to say, there are more similar solutions out there, ShipperHQ being one of them.
 
-Bluefoot: templating, no frontend developer needed (Joomla/MageBridge), upcoming media gallery
-
-BI: different app, reporting, graphics, data mining, ETL (Extraction, Transformation and Load)
-
-many only for EE
+Most of the features are meant - as I understand it - for Magento Enterprise, either in the cloud or on your own server. And if I have to play the devils advocate, I could point out that all of these new products, except for the Magento Security Scanner, seem to be refurbishments of existing solutions that are simply integrated now with Magento. It might be great, but it still feels that a lot of these products require a healthy competition from the community.
 
 ---
 # Magento 2.2 news
@@ -89,7 +87,7 @@ many only for EE
 --
 - B2B features (EE only)
     - Corporate accounts; Organizational chart; ACLs
-    - Request quote; Requistition Lists
+    - Request quote; Requisition Lists
     - Quote overview with quote status
     - Personalized catalogs with discounts
 --
@@ -99,7 +97,12 @@ many only for EE
 - ETA: Summer 2017
 
 ???
-Requisition lists, aka wishlists for B2B
+Moving on, there was news on Magento 2.2. Well, ok, some of the things we already knew: Magento 2.2 will ship with various B2B features - only for the Enterprise addition though. There are various cool features in there, like corporate accounts, wishlists for B2B (aka requisition lists) and quote status handling. However, this is not new!
+
+Also something that we knew was that numerous open issues on GitHub will be solved and integrated in 2.2 - allowing for many bugs to be fixed. This will make Magento 2 a lot more stable for sure.
+
+The big question is then still: When? When will 2.2 be released? The current answer is somewhere in the summer.
+
 
 ---
 # TechTalk
