@@ -44,8 +44,11 @@ So let's start. Imagine had a lot of things to offer, some really oriented on th
 - Diversity in Tech
 
 ???
-So the community was vibrating. For instance, the PreImagine party, sponsored by ShipperHQ, it offered a great way to meet existing friends and make new friends. Besides PreImagine, there were many more other great parties - simply showing that Magento 
-Woman Who Code
+So the community was vibrating. For instance, the PreImagine party, sponsored by ShipperHQ, it offered a great way to meet existing friends and make new friends. Besides PreImagine, there were many more other great parties - simply showing that Magento people like to party.
+
+Another part of the community was awarding various people in the community who did great work to help Magento move forward. I'm proud to be a Magento Master as well, but it was even greater to meetup with the other masters.
+
+I'm picking just a few topics, but one noteworthy talk, or actually a panel discussion, was on diversity in tech - a session which discussed the ways that woman specifically can get a better chance to evolve within the tech industry. It was a great session. And I especially loved the involvement of Alaina Percival who represented the organization "Woman Who Code". Agree or disagree, it is an important topic and shows how the Magento community matures.
 
 ---
 # New products & services
@@ -66,9 +69,11 @@ Woman Who Code
 - Magento Shipping (aka Temando)
 
 ???
-Magento Social: Facebook app for product listings, targetting, ad campaigns
+Moving on, some products and services were announced throughout Imagine. First of all, the Magento Security Scanner was revealed, currently in beta. It will allow for a report to be created for your specific Magento instance. Technically, this involves an automated login through SSH, making it an internal scan and not an external scan like the great MageReport tool created by the guys of Hypernode. I signed up for the beta, and am curious how this will come to be.
 
-Magento Security Scanner: Login via SSH to your site. Not external scan like MageReport, but internal scan
+Magento Social was announced as well: Kind of a Facebook app for product listings, targetting specific customers, ad campaigns, etcetera. Really useful for merchants who want to promote their products via social channels.
+
+
 
 Magento Shipping via Fedex UPS, generate picking lists, nice integration in backend but also possible via ShipperHQ
 
