@@ -10,7 +10,7 @@ class: center, middle, world, bgimage
 ## Review by Jisse Reitsma
 
 ???
-cold, last week early April, Last Vegas
+Hi everybody, welcome to this screencast on Imagine, the yearly international Magento conference that took place last week (early April) in April. Before we start I have to apologize for my voice a bit, which is a little rusty - not because of partying, but because of a cold I caught in Las Vegas.
 
 ---
 class: orange
