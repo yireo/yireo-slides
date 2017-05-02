@@ -230,6 +230,9 @@ class PersonalizedFoobar implements SectionSourceInterface
 ```
 
 
+---
+class: orange, center, middle
+# ...
 
 ---
 class: orange, center, middle
@@ -241,10 +244,11 @@ class: orange, center, middle
 
 ---
 class: orange, center, middle
-# Mage Test Fest
+<h1 class="magetestfest"><span>Mage</span><span>Test</span><span>Fest</span></h1>
 
 ---
-# MageTestFest
+<h1 class="magetestfest">Mage Test Fest</h1>
+- Magento. Software Testing. Party.
 - November 15th-18th 2017
 - Somewhere in The Netherlands
 - 5 awesome speakers

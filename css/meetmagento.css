@@ -157,3 +157,16 @@ code {
 .hljs-googlecode .hljs {
     background-color: #eaf4ff;
 }
+
+h1.magetestfest {
+    font-family: 'Bowlby One';
+    text-transform: uppercase;
+}
+
+h1.magetestfest span {
+    display: block;
+    font-size: 200%;
+    line-height: 90%;
+    color: white;
+    text-shadow: 2px 2px #222;
+}
