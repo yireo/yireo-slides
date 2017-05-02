@@ -106,11 +106,15 @@ for Magento Marketplace extensions
 
 ---
 # Module files
-```
-etc/module.xml
-registration.php
-Block/Foobar.php
-```
+- `etc/module.xml`
+- `registration.php`
+- `view/frontend/layout/foobar.xml`
+- `Block/Foobar.php`
+- `view/frontend/template/foobar.phtml`
+- `view/frontend/requirejs-config.js`
+- `view/frontend/web/js/foobarComp.js`
+- `etc/di.xml`
+- `CustomerData/PersonalizedFoobar.php`
 
 ---
 # Private content
@@ -200,7 +204,9 @@ File `etc/di.xml`
 <type name="Magento\Customer\CustomerData\SectionPoolInterface">
     <arguments>
         <argument name="sectionSourceMap" xsi:type="array">
-            <item name="fooBarData" xsi:type="string">Yireo\Example\CustomerData\PersonalizedFoobar</item>
+            <item name="fooBarData" xsi:type="string">
+                Yireo\Example\CustomerData\PersonalizedFoobar
+            </item>
         </argument>
     </arguments>
 </type>
@@ -225,6 +231,17 @@ class PersonalizedFoobar implements SectionSourceInterface
 
 
 
+---
+class: orange, center, middle
+# WTF ?!?
+
+---
+class: orange, center, middle
+# MTF !!!
+
+---
+class: orange, center, middle
+# Mage Test Fest
 
 ---
 # MageTestFest
