@@ -251,6 +251,13 @@ class: orange, center, middle
 
 ---
 <div>
+So, we have defined a module with a simple `module.xml` and a `registration.php` file, 
+to call upon a regular flow of XML layout, to define a Block class that is outputted
+into a PHTML template, which is then outputting a JSON configuration array, that was 
+inserted into the Block class, using an XML argument-array, and which is then used
+to initialize a custom AMD-style JS component, initialized through another component
+Magento_Ui/js/core/app which connects our JS component to our KnockoutJS component.
+And this is just the beginning.
 </div>
 
 ---
