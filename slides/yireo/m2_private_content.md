@@ -122,8 +122,7 @@ for Magento Marketplace extensions
 
 ---
 # Module files
-- `etc/module.xml`
-- `registration.php`
+- `etc/module.xml` + `registration.php`
 - `view/frontend/layout/foobar.xml`
 - `Block/Foobar.php`
 - `view/frontend/template/foobar.phtml`
