@@ -60,12 +60,13 @@ class: orange
 
 --
 - Enable FPC with Magento caching
-
+    - 50-100 ms
 --
 - Set caching handler to Redis (or memcache)
-
+    - 10-50 ms
 --
 - Switch to Varnish
+    - 5-10 ms
 
 ---
 # cacheable=false
@@ -251,7 +252,7 @@ class: orange, center, middle
 
 ---
 <div>
-So, we have defined a module with a simple `module.xml` and a `registration.php` file, 
+So, we have defined a module with a simple module.xml and a registration.php file, 
 to call upon a regular flow of XML layout, to define a Block class that is outputted
 into a PHTML template, which is then outputting a JSON configuration array, that was 
 inserted into the Block class, using an XML argument-array, and which is then used
@@ -260,7 +261,9 @@ Magento_Ui/js/core/app which connects our JS component to our KnockoutJS compone
 Our JS component then injects the customer-data component, to collect a thing called
 foobarData, which is fetched through a kind of localStorage-cached AJAX-call to the backend
 which is configured through a DI type that injects an array of section sources into
-a backend class, that fetches data from 
+a backend class, that fetches data from various sources, including our own, to then
+send back a bundled response, if possible, to the JS component, with the major feature
+being JavaScript AJAX lazy loading.
 </div>
 
 ---
