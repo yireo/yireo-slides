@@ -34,22 +34,37 @@ class: orange
 ---
 # My talk
 - Private Content
-    - Hole punching in FPC
+    - Hole punching in FPC (M2)
+--
 - JS Components
     - RequireJS
     - KnockoutJS
 
 ---
 # Full Page Cache
+
+--
 - Shipped out of the box with M2
-    - CE and EE
-    - Native Magento cache or Varnish Cache
+
+--
+- For both CE and EE
+
+--
+- Native Magento cache or Varnish Cache
 
 ---
 # Optimizations
+
+--
 - Make sure no blocks are using `cacheable=false`
+
+--
 - Enable FPC with Magento caching
+
+--
 - Set caching handler to Redis (or memcache)
+
+--
 - Switch to Varnish
 
 ---
