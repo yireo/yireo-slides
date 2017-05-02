@@ -299,11 +299,12 @@ class: orange, center, middle
 
 --
 - 5 awesome speakers
-    
+
 --
 - 1st announcement: Vinai Kopp
 
-[magetestfest.nl](https://magetestfest.nl/)
+--
+- [magetestfest.nl](https://magetestfest.nl/)
 
 ---
 class: center, middle, world
