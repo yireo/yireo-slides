@@ -257,7 +257,10 @@ into a PHTML template, which is then outputting a JSON configuration array, that
 inserted into the Block class, using an XML argument-array, and which is then used
 to initialize a custom AMD-style JS component, initialized through another component
 Magento_Ui/js/core/app which connects our JS component to our KnockoutJS component.
-And this is just the beginning.
+Our JS component then injects the customer-data component, to collect a thing called
+foobarData, which is fetched through a kind of localStorage-cached AJAX-call to the backend
+which is configured through a DI type that injects an array of section sources into
+a backend class, that fetches data from 
 </div>
 
 ---
