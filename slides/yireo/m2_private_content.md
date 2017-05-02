@@ -33,16 +33,28 @@ class: orange
 
 ---
 # My talk
+- Private Content
+    - Hole punching in FPC
 - JS Components
     - RequireJS
     - KnockoutJS
-- Private Content
-    - Hole punching in FPC
+
+---
+# Full Page Cache
+- Shipped out of the box with M2
+    - CE and EE
+    - Native Magento cache or Varnish Cache
+
+---
+# Optimizations
+- Make sure no blocks are using `cacheable=false`
 
 ---
 # MageTestFest
 - November 15th-18th 2017
 - Somewhere in The Netherlands
+- 5 awesome speakers
+    - 1st announcement: Vinai Kopp
 
 [magetestfest.nl](https://magetestfest.nl/)
 
