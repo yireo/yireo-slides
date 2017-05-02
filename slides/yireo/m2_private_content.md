@@ -250,6 +250,18 @@ class: orange, center, middle
 # ...
 
 ---
+<div>
+</div>
+
+---
+class: orange, center, middle
+# WTF ?!?
+
+---
+class: orange, center, middle
+# Wonderful. Technology. Fun.
+
+---
 class: orange, center, middle
 # WTF ?!?
 
@@ -263,11 +275,21 @@ class: orange, center, middle
 
 ---
 <h1 class="magetestfest">Mage Test Fest</h1>
+
+--
 - Magento. Software Testing. Party.
+
+--
 - November 15th-18th 2017
+
+--
 - Somewhere in The Netherlands
+
+--
 - 5 awesome speakers
-    - 1st announcement: Vinai Kopp
+    
+--
+- 1st announcement: Vinai Kopp
 
 [magetestfest.nl](https://magetestfest.nl/)
 
