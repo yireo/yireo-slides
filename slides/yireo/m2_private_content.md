@@ -48,6 +48,40 @@ class: orange
 ---
 # Optimizations
 - Make sure no blocks are using `cacheable=false`
+- Enable FPC with Magento caching
+- Set caching handler to Redis (or memcache)
+- Switch to Varnish
+
+# cacheable=false
+```xml
+<layout>
+  <referenceBlock name="category.products.list">
+    <arguments>
+      <argument name="cacheable" xsi:type="bool">false</argument>
+    </arguments>
+  </referenceBlock>
+</layout>
+```
+
+NOTE: This prevents FPC on this entire page
+
+---
+# Checking for FPC
+- Enable FPC
+- Open up Error Console and check for HTTP headers
+- FPC is working
+    - `X-Magento-Cache-Control: MISS`
+    - `X-Magento-Cache-Control: HIT`
+- FPC is not working
+    - `X-Magento-Cache-Control: MISS`
+    - `X-Magento-Cache-Control: MISS`
+
+---
+# Reasons why cacheable=false
+- Bad third party modules
+- Module `Magento_Captcha` is enabled
+
+@todo
 
 ---
 # MageTestFest
