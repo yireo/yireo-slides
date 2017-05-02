@@ -52,6 +52,7 @@ class: orange
 - Set caching handler to Redis (or memcache)
 - Switch to Varnish
 
+---
 # cacheable=false
 ```xml
 <layout>
@@ -64,6 +65,10 @@ class: orange
 ```
 
 NOTE: This prevents FPC on this entire page
+
+---
+class: orange
+# About me
 
 ---
 # Checking for FPC
@@ -82,6 +87,141 @@ NOTE: This prevents FPC on this entire page
 - Module `Magento_Captcha` is enabled
 
 @todo
+
+---
+# Hole punching with M2
+- No ESI Includes, no VCL tricks
+- Just plain JavaScript lazy loading
+
+---
+# Private Content
+- Print dummy HTML in PHTML template
+- Load JS component in RequireJS
+- Extend from `UiComponent`
+- Load data from `customerData` component
+- Let Knockout replace data in PHTML template
+
+---
+# Module files
+```
+etc/module.xml
+registration.php
+Block/Foobar.php
+```
+
+---
+# Private content
+File `Block/Foobar.php`
+```php
+namespace Yireo\Example\Block;
+
+class Foobar extends \Magento\Framework\View\Element\Template
+{
+    protected $_template = 'foobar.phtml';
+}
+```
+
+---
+# Private content
+File `view/frontend/layout/foobar.xml`
+```xml
+ <block class="Yireo\Example\Block\Foobar" name="foobar">
+    <arguments>
+        <argument name="jsLayout" xsi:type="array">
+            <item name="components" xsi:type="array">
+                <item name="fooBarComp" xsi:type="array">
+                    <item name="component" xsi:type="string">
+                        foobarComp
+                    </item>
+                </item>
+            </item>
+        </argument>
+    </arguments>
+</block>
+```
+
+---
+# Private content
+File `view/frontend/template/foobar.phtml`
+```html
+<div data-bind="scope: 'fooBarComp'" id="foobarElement">
+    <span data-bind="text: secret_number">0</span>
+</div>
+```
+
+```php
+<script type="text/x-magento-init">
+{
+    "#foobarElement": {
+        "Magento_Ui/js/core/app": &lt;?php echo $block->getJsLayout();?>
+    }
+}
+</script>
+```
+
+---
+# Private content
+File `view/frontend/requirejs-config.js`:
+```js
+var config = {
+    path: {
+        '*': {
+            foobarComp: 'Yireo_Example/js/foobarComp',
+        }
+    }
+};
+```
+
+---
+# Private content
+File `view/frontend/web/js/foobarComp.js`
+```js
+define([
+    'uiComponent',
+    'Magento_Customer/js/customer-data'
+], function (Component, customerData) {
+    ...
+    return Component.extend({
+        initialize: function () {
+            this._super();
+            this.fooBarComp = customerData.get('fooBarData');
+        }
+    });
+});
+```
+
+---
+# Private content
+File `etc/di.xml`
+```xml
+<type name="Magento\Customer\CustomerData\SectionPoolInterface">
+    <arguments>
+        <argument name="sectionSourceMap" xsi:type="array">
+            <item name="fooBarData" xsi:type="string">Yireo\Example\CustomerData\PersonalizedFoobar</item>
+        </argument>
+    </arguments>
+</type>
+```
+
+---
+# Private content
+File `CustomerData/PersonalizedFoobar.php`
+```php
+namespace Yireo\Example\CustomerData;
+
+use Magento\Customer\CustomerData\SectionSourceInterface;
+
+class PersonalizedFoobar implements SectionSourceInterface
+{
+    public function getSectionData()
+    {
+        return ['secret_number' => '42'];
+    }
+}
+```
+
+
+
 
 ---
 # MageTestFest
