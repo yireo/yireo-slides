@@ -51,9 +51,6 @@ $root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
   </head>
   <body>
     <textarea id="source"><?php include_once $slide; ?></textarea>
-        <div class="slide-camera" onmousedown='mydragg.startMoving(this,"source",event);' onmouseup='mydragg.stopMoving("source");'>
-            <video id="camera" autoplay="true"></video>
-        </div>
     <script src="<?php echo $root_url; ?>js/remark-latest.min.js"></script>
     <script>
       var slideshow = remark.create({
@@ -71,6 +68,5 @@ $root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
     .remark-slide-number { display:none; }
     </style>
     <?php endif; ?>
-    <script src="<?php echo $root_url; ?>js/video.js"></script>
   </body>
 </html>

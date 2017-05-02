@@ -157,19 +157,3 @@ code {
 .hljs-googlecode .hljs {
     background-color: #eaf4ff;
 }
-
-.slide-camera {
-    position: absolute;
-    top: 1%;
-    left: 1%;
-    height: 28%;
-    z-index: 90;
-    -webkit-user-drag: element;
-}
-
-.slide-camera video {
-    width: auto;
-    height: 100%;
-    border: 8px #aaa solid;
-    transform: rotateY(180deg);
-}
