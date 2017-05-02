@@ -64,11 +64,14 @@ class: orange
 </layout>
 ```
 
-NOTE: This prevents FPC on this entire page
+--
+If you do this, you are a bastard
 
 ---
-class: orange
-# About me
+class: orange, center, middle
+# `cacheable=false`
+# is in top 5 issues
+for Magento Marketplace extensions
 
 ---
 # Checking for FPC
@@ -82,7 +85,7 @@ class: orange
     - `X-Magento-Cache-Control: MISS`
 
 ---
-# Reasons why cacheable=false
+# Reasons `cacheable=false`
 - Bad third party modules
 - Module `Magento_Captcha` is enabled
 
