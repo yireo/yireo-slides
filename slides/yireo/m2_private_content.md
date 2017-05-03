@@ -112,8 +112,10 @@ for Magento Marketplace extensions
 # Reasons `cacheable=false`
 - Bad third party modules
 - Module `Magento_Captcha` is enabled
-
-@todo
+- You are in Catalog Search result pages
+- You are comparing products
+- You are in the checkout or in the cart
+- You are in customer pages
 
 ---
 # Hole punching with M2
