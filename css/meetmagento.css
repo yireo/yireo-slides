@@ -34,6 +34,13 @@ h3 {
     color: white;
 }
 
+.remark-slide-content.orange h1,
+.remark-slide-content.orange h2,
+.remark-slide-content.orange h3,
+.remark-slide-content.orange h4 {
+    color: white;
+}
+
 
 .remark-slide-content.world h2 {
     color: #ff5410;

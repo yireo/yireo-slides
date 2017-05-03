@@ -12,6 +12,14 @@ class: center, middle, world, bgimage
 Meet Magento Netherlands 2017
 
 ---
+class: center, middle
+### This slide is made possible with RemarkJS
+
+---
+class: center, middle
+### This slide too
+
+---
 class: orange
 # About me
 - Jisse Reitsma
@@ -130,6 +138,10 @@ for Magento Marketplace extensions
 - `view/frontend/web/js/foobarComp.js`
 - `etc/di.xml`
 - `CustomerData/PersonalizedFoobar.php`
+
+---
+class: orange, center, middle
+### Disclaimer: This code is not 100% halal
 
 ---
 # Private content
