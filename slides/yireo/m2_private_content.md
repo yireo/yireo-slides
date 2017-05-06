@@ -289,6 +289,10 @@ class: orange, center, middle
 
 ---
 # Tips
+- Learn about RequireJS & KnockoutJS
+- Take your time to read through devdocs
+    - Or learn from a training
+- Do not use extensions with `cacheable=false`
 
 ---
 class: orange, center, middle
