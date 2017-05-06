@@ -15,9 +15,12 @@ Meet Magento Netherlands 2017
 class: center, middle
 ### This slide is made possible with RemarkJS
 
+???
+Reminder: Make a silly joke on that this slide is using RemarkJS and refer to these student notes as an example.
+
 ---
 class: center, middle
-### This slide too
+### This slide is also made possible with RemarkJS
 
 ---
 class: orange
