@@ -281,19 +281,22 @@ being JavaScript AJAX lazy loading.
 
 ---
 class: orange, center, middle
-# WTF ?!?
+# WTF
 
 ---
 class: orange, center, middle
-# Wonderful. Technology. Fun.
+# (W)onderful. (T)echnology. (F)un.
+
+---
+# Tips
 
 ---
 class: orange, center, middle
-# WTF ?!?
+# WTF 
 
 ---
 class: orange, center, middle
-# MTF !!!
+# MTF
 
 ---
 class: orange, center, middle
