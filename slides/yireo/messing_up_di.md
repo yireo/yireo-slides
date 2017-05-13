@@ -21,7 +21,7 @@ class: orange
 - Founder and lead developer of Yireo (Netherlands)
 --
 
-- Trainer, enterpreneur, coder
+- Trainer, consultant, developer
 --
 
 - Magento 2 Master "Mover" (2017)
@@ -30,7 +30,7 @@ class: orange
 - Knockout JiSse (I don't why)
 --
 
-- Loving Magento 2
+- Loving Magento 2 long time
 
 ---
 # My talk
@@ -228,11 +228,22 @@ class: center, middle
 
 ---
 class: center, middle, orange
-# Ignoring $context
+# Do not ignore $context
 Magento 2.0 *allowed* for this to happen
 
 Magento 2.1 made this more strict: It gives an exception if you inject something that is already injected. In short: You
 can't ignore `$context`.
+
+---
+class: center, middle
+# Migrating from 2.1 to 2.2 ?
+
+---
+class: center, middle, orange
+# Ignore $context
+Magento 2.2 removes the restriction again. We can depend on parent classes to hand us `$context`, but we should be free to remove parent
+dependencies as well (favoring composition over inheritance).
+
 
 ---
 # DI in practice 
@@ -255,8 +266,10 @@ class Data extends AbstractHelper
 - Don't use helpers
 - Don't use underscores to identify scope
 - Try to keep dependencies to a minimum
-- Check your `$context` first
 
+--
+- Check your `$context` first (2.1)
+    - Or choose to ignore it on purpose (2.2)
 --
 - Depend on interfaces instead of classes
     - Check if there is a `preference`
