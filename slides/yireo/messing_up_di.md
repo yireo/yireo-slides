@@ -1,7 +1,7 @@
 layout: true
 <div class="slide-heading">Messing Up DI</div>
 <div class="slide-footer">
-    <span>Messing Up DI - Jisse Reitsma - Meet Magento Croatia 2017</span>
+    <span>Messing Up DI - Jisse Reitsma - MageTitans Italy 2017</span>
 </div>
 
 ---
@@ -9,8 +9,8 @@ class: center, middle, world, bgimage
 # Messing Up
 ## Dependency Injection
 
-Meet Magento Croatia 2017
-Osijek, Croatia
+MageTitans Italy 2017<br/>
+Milano, Italia
 
 ---
 class: orange
