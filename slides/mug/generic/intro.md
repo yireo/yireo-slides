@@ -60,13 +60,26 @@ class: center, middle
 ### Magento nieuws
 
 ---
+# Magento 2
+
+--
+- Magento 2.2 in Q3 2017
+    - Veel bugfixes
+--
+- Enterprise features
+
+---
 # Agenda
 - (10 mei = MeetMagento NL)
 - 18 mei = MUG Nijmegen (Marqato): SEO
-- juli = MUG Utrecht (Buckaroo): Payment
-- 25 augustus = MageUnconference NL
-- 17 november = MageTestFest
-- 2018: MageTitans Nederland
+- 18 mei = MUG Amsterdam (SupportDesk): B2B
+- ~= MUG Utrecht (Buckaroo): Payment
+- ~= MUG Zwolle 
+- ~= MUG Tilburg
+- 25 augustus = MageUnconference NL (Utrecht)
+- 26-27 oktober = MeetMagento BE
+- 17 november = MageTestFest (Yireo)
+- 2018 = MageTitans NL (Groningen)
 
 ---
 class: center, middle
