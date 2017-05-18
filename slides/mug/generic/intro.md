@@ -63,10 +63,21 @@ class: center, middle
 # Magento 2
 
 --
+- Magento 2.1 (huidig)
+    - Veel GitHub issues
+    - Enorm veel devdocs
+--
 - Magento 2.2 in Q3 2017
     - Veel bugfixes
+    - Magento Security Scanner
 --
 - Enterprise features
+    - Bluefoot CMS, Social, BI, Temando, 
+
+---
+# Dutchento
+- Werkgroepen
+    - Content (MM, MUG, MageTitans)
 
 ---
 # Agenda
