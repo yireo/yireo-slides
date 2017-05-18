@@ -75,9 +75,18 @@ class: center, middle
     - Bluefoot CMS, Social, BI, Temando, 
 
 ---
-# Dutchento
-- Werkgroepen
+# Community
+
+--
+- Hackathons vs Contribution Days
+
+--
+- MageStackDay, MageDockerDay
+
+--
+- Duthento werkgroepen (?)
     - Content (MM, MUG, MageTitans)
+    - Localisatie (?)
 
 ---
 # Agenda
