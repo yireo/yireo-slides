@@ -41,7 +41,7 @@ class: orange
 class: center, middle
 <div style="position:relative;">
 <img src="../images/magetitans-it/beef-and-olive-spaghetti-bolognese-109377-1.jpeg" class="img-responsive" />
-<div style="position:absolute; bottom:10px; left:0; right:0; text-align:center;">
+<div style="position:absolute; top:-50px; left:0; right:0; text-align:center;">
     <h1 class="shadow" style="font-size: 400%">I <i class="fa fa-heart"></i> Spaghetti</h1>
 </div>
 </div>
@@ -162,6 +162,12 @@ class Product extends AbstractModel
     ) {
         ...
 ```
+
+---
+class: center, middle
+<h1 class="shadow" style="font-size: 300%">Spaghetti Code</h1>
+<img src="../images/magetitans-it/baby-eating-pasta.jpg" class="img-responsive" />
+
 
 ---
 class: center, middle
@@ -333,10 +339,6 @@ class Product extends AbstractModel
     - `ProductRepositoryInterface` instead of `Product` model
 
 ---
-class: center, middle, keepasecret, bgimage
-# Entity Manager
-
----
 class: center, middle
 # Factories
 
@@ -445,11 +447,11 @@ class: center, middle
 # Keep refactoring
 
 ---
-class: center, middle, world
-# Any questions?
-### @yireo
-### @jissereitsma
-
----
 class: orange, center, middle
 <h1 class="magetestfest"><span>Mage</span><span>Test</span><span>Fest</span></h1>
+
+---
+class: center, middle, world
+# Heads up?
+### @jissereitsma
+
