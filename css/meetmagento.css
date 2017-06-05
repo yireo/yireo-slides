@@ -184,8 +184,12 @@ h1.shadow {
 
 h1.shadow.invert {
     text-shadow: 1px 1px #000;
-    font-variant: small-caps;
+    text-transform: uppercase;
     color: #fff;
+}
+
+div.remark-slide-content.black {
+    background-color: black;
 }
 
 div.remark-slide-content.zero {

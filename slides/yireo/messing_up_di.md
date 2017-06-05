@@ -48,7 +48,6 @@ class: center, middle, orange
 # Dependency Injection
 ## (in short: DI)
 
-
 ---
 # DI in Magento 2
 - Constructor based DI
@@ -137,6 +136,9 @@ class Data extends AbstractHelper
 ```
 
 ---
+class: center, middle, zero
+
+---
 # Product model
 ```php
 namespace Magento\Catalog\Model;
@@ -184,6 +186,9 @@ class: center, middle, zero
 - Try to keep dependencies to a minimum
     - Move all similar dependencies to a common class
     - Move around dependencies until each class has as little dependencies as possible
+
+---
+class: center, middle, zero
 
 ---
 # Check your $context
@@ -247,6 +252,9 @@ class: center, middle, zero
 <div style="position:relative;">
 <img src="../images/magetitans-it/swedish-chef.jpg" class="img-responsive" />
 </div>
+
+---
+class: center, middle, zero
 
 ---
 # Lessons
@@ -374,7 +382,7 @@ class: center, middle, orange
 class: center, middle, zero
 <div style="position:relative;">
 <img src="../images/magetitans-it/godfather.jpg" class="img-responsive" />
-<div style="position:absolute; top:60px; left:0; right:0; text-align:center;">
+<div style="position:absolute; top:20px; left:0; right:0; text-align:center;">
     <h1 class="shadow invert" style="font-size: 140%">Use the Object Manager with care</h1>
 </div>
 </div>
