@@ -177,3 +177,7 @@ h1.magetestfest span {
     color: white;
     text-shadow: 2px 2px #222;
 }
+
+h1.shadow {
+    text-shadow: 1px 1px #fff;
+}

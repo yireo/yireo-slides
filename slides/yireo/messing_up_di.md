@@ -39,8 +39,12 @@ class: orange
 
 ---
 class: center, middle
+<div style="position:relative;">
 <img src="../images/magetitans-it/beef-and-olive-spaghetti-bolognese-109377-1.jpeg" class="img-responsive" />
-# I <i class="fa fa-heart"></i> Spaghetti
+<div style="position:absolute; bottom:10px; left:0; right:0; text-align:center;">
+    <h1 class="shadow" style="font-size: 400%">I <i class="fa fa-heart"></i> Spaghetti</h1>
+</div>
+</div>
 
 ---
 class: center, middle, orange
@@ -446,3 +450,6 @@ class: center, middle, world
 ### @yireo
 ### @jissereitsma
 
+---
+class: orange, center, middle
+<h1 class="magetestfest"><span>Mage</span><span>Test</span><span>Fest</span></h1>
