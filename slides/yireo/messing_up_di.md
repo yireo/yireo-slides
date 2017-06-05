@@ -156,6 +156,10 @@ class Product extends AbstractModel
 ```
 
 ---
+class: center, middle
+# Entity Manager
+
+---
 # Too many dependencies
 - `Product` model has 35 constructor arguments
 --
