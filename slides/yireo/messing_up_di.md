@@ -38,10 +38,10 @@ class: orange
 - Refactoring
 
 ---
-class: center, middle
+class: center, middle, zero
 <div style="position:relative;">
-<img src="../images/magetitans-it/beef-and-olive-spaghetti-bolognese-109377-1.jpeg" class="img-responsive" />
-<div style="position:absolute; top:-50px; left:0; right:0; text-align:center;">
+<img src="../images/magetitans-it/spaghetti.jpg" class="img-responsive" />
+<div style="position:absolute; top:-30px; left:0; right:0; text-align:center;">
     <h1 class="shadow" style="font-size: 400%">I <i class="fa fa-heart"></i> Spaghetti</h1>
 </div>
 </div>
@@ -168,10 +168,6 @@ class: center, middle
 <h1 class="shadow" style="font-size: 300%">Spaghetti Code</h1>
 <img src="../images/magetitans-it/baby-eating-pasta.jpg" class="img-responsive" />
 
-
----
-class: center, middle
-# Spaghetti code
 
 ---
 # Too many dependencies
@@ -405,38 +401,8 @@ class: center, middle, orange
 - Never inject Object Manager
     - Except for edge cases (factories, scripts, testing, ...)
 
----
-# Focusing on Product again 
-- `Product` model has 35 constructor arguments
-- 5 out of 35 are actually interfaces
-- However, about 10 are Factories that generate interfaces
 
----
-class: center, middle
-### My question to Anton Krill (DevParadise 16):
-> Isn't there a Dependency Hell
-> within Magento 2?
-
----
-class: center, middle
-### Anton Krills answer:
-> ...
-
----
-class: center, middle
-### Anton Krills answer:
-> Yes.
-
----
-class: center, middle
-### Anton Krills answer:
-> Yes. Just like in Magento 1.
-
----
-class: center, middle
-### Anton Krills answer:
-> Yes. Just like in Magento 1.<br/>
-> But now we can actually fix it.
+the-godfather-1.jpg
 
 ---
 class: center, middle, orange

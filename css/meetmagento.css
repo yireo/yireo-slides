@@ -181,3 +181,11 @@ h1.magetestfest span {
 h1.shadow {
     text-shadow: 1px 1px #fff;
 }
+
+div.remark-slide-content.zero {
+    padding: 0;
+}
+
+div.remark-slide-content.zero div.slide-footer {
+    display: none;
+}
