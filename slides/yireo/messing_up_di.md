@@ -49,7 +49,7 @@ class: center, middle, zero
 ---
 class: center, middle, orange
 # Dependency Injection
-## (DI)
+## (in short: DI)
 
 
 ---
@@ -164,9 +164,13 @@ class Product extends AbstractModel
 ```
 
 ---
-class: center, middle
-<h1 class="shadow" style="font-size: 300%">Spaghetti Code</h1>
-<img src="../images/magetitans-it/baby-eating-pasta.jpg" class="img-responsive" />
+class: center, middle, zero
+<div style="position:relative;">
+<img src="../images/magetitans-it/spaghetti-baby.jpg" class="img-responsive" />
+<div style="position:absolute; bottom:60px; left:0; right:0; text-align:center;">
+    <h1 class="shadow" style="font-size: 300%">Spaghetti Code</h1>
+</div>
+</div>
 
 
 ---
@@ -174,35 +178,6 @@ class: center, middle
 - `Product` model has 35 constructor arguments
 --
 
-- One of these constructor arguments is `$context`
-
----
-# Discovering $context
-```php
-namespace Magento\Framework\App\Helper;
-
-abstract class Helper
-{
-    public function __construct(Context $context)
-    {
-        $this->_moduleManager = $context->getModuleManager();
-        $this->_logger = $context->getLogger();
-        $this->_request = $context->getRequest();
-        $this->_urlBuilder = $context->getUrlBuilder();
-        $this->_httpHeader = $context->getHttpHeader();
-        $this->_eventManager = $context->getEventManager();
-        $this->_remoteAddress = $context->getRemoteAddress();
-        $this->_cacheConfig = $context->getCacheConfig();
-        $this->urlEncoder = $context->getUrlEncoder();
-        $this->urlDecoder = $context->getUrlDecoder();
-        $this->scopeConfig = $context->getScopeConfig();
-    }
-}
-```
-
----
-# Too many dependencies
-- `Product` model has 35 constructor arguments
 - One of these constructor arguments is `$context`
     - `Context` contains another 20+ dependencies
 
