@@ -250,7 +250,7 @@ dependencies as well (favoring composition over inheritance).
 ---
 class: center, middle, zero
 <div style="position:relative;">
-<img src="../images/magetitans-it/swedish-chef.jpg" class="img-responsive" />
+<img src="../images/magetitans-it/depressed.jpg" class="img-responsive" />
 </div>
 
 ---
@@ -310,6 +310,15 @@ class Product extends AbstractModel
 - Depend on interfaces instead of classes
 - Depend on service interfaces instead of models
     - `ProductRepositoryInterface` instead of `Product` model
+
+---
+class: center, middle, zero
+<div style="position:relative;">
+<img src="../images/magetitans-it/godfather.jpg" class="img-responsive" />
+<div style="position:absolute; top:20px; left:0; right:0; text-align:center;">
+    <h1 class="shadow invert" style="font-size: 140%">Never inject Object Manager</h1>
+</div>
+</div>
 
 ---
 class: center, middle
@@ -377,15 +386,6 @@ class: center, middle, orange
 - Never inject Object Manager
     - Except for edge cases (factories, scripts, testing, ...)
 
-
----
-class: center, middle, zero
-<div style="position:relative;">
-<img src="../images/magetitans-it/godfather.jpg" class="img-responsive" />
-<div style="position:absolute; top:20px; left:0; right:0; text-align:center;">
-    <h1 class="shadow invert" style="font-size: 140%">Use the Object Manager with care</h1>
-</div>
-</div>
 
 ---
 class: center, middle
