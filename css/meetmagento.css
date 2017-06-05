@@ -182,6 +182,12 @@ h1.shadow {
     text-shadow: 1px 1px #fff;
 }
 
+h1.shadow.invert {
+    text-shadow: 1px 1px #000;
+    font-variant: small-caps;
+    color: #fff;
+}
+
 div.remark-slide-content.zero {
     padding: 0;
 }

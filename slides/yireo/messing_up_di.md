@@ -169,7 +169,6 @@ class: center, middle, zero
 </div>
 </div>
 
-
 ---
 # Too many dependencies
 - `Product` model has 35 constructor arguments
@@ -300,6 +299,7 @@ class Product extends AbstractModel
 - Don't use helpers
 - Try to keep dependencies to a minimum
 - Check your `$context` first
+- Depend on interfaces instead of classes
 - Depend on service interfaces instead of models
     - `ProductRepositoryInterface` instead of `Product` model
 
@@ -363,18 +363,21 @@ class: center, middle, orange
 - Try to keep dependencies to a minimum
 - Check your `$context` first
 - Depend on interfaces instead of classes
-- Depend on service interfaces instead of normal
+- Depend on service interfaces instead of models
 
 --
 - Never inject Object Manager
     - Except for edge cases (factories, scripts, testing, ...)
 
 
-the-godfather-1.jpg
-
 ---
-class: center, middle, orange
-# Not everything in the Magento core might be the best of examples
+class: center, middle, zero
+<div style="position:relative;">
+<img src="../images/magetitans-it/godfather.jpg" class="img-responsive" />
+<div style="position:absolute; top:60px; left:0; right:0; text-align:center;">
+    <h1 class="shadow invert" style="font-size: 140%">Use the Object Manager with care</h1>
+</div>
+</div>
 
 ---
 class: center, middle
