@@ -17,7 +17,7 @@ class: orange
 - Jisse Reitsma
 --
 
-- Founder and lead developer of Yireo (Netherlands)
+- Founder of Yireo (Netherlands)
 --
 
 - Trainer, consultant, developer
@@ -27,9 +27,6 @@ class: orange
 --
 
 - Knockout JiSse (I don't why)
---
-
-- Loving Magento 2 long time
 
 ---
 # My talk
@@ -178,8 +175,7 @@ class: center, middle, zero
 - `Product` model has 35 constructor arguments
 --
 
-- One of these constructor arguments is `$context`
-    - `Context` contains another 20+ dependencies
+- One of these constructor arguments is `$context`, containing another 20+ dependencies
 
 ---
 # Lessons
@@ -212,6 +208,23 @@ abstract class AbstractHelper
 ```
 
 ---
+# DI in practice 
+```php
+namespace Yireo\Example\Helper;
+use Magento\Framework\App\Helper\AbstractHelper;
+use Magento\Framework\App\Helper\Context;
+
+class Data extends AbstractHelper
+{
+    public function warning($text)
+    {
+        $this->_logger->warning($text);
+    }
+}
+```
+
+
+---
 class: center, middle
 # Migrating from 2.0 to 2.1 ?
 
@@ -233,22 +246,11 @@ class: center, middle, orange
 Magento 2.2 removes the restriction again. We can depend on parent classes to hand us `$context`, but we should be free to remove parent
 dependencies as well (favoring composition over inheritance).
 
-
 ---
-# DI in practice 
-```php
-namespace Yireo\Example\Helper;
-use Magento\Framework\App\Helper\AbstractHelper;
-use Magento\Framework\App\Helper\Context;
-
-class Data extends AbstractHelper
-{
-    public function warning($text)
-    {
-        $this->_logger->warning($text);
-    }
-}
-```
+class: center, middle, zero
+<div style="position:relative;">
+<img src="../images/magetitans-it/swedish-chef.jpg" class="img-responsive" />
+</div>
 
 ---
 # Lessons
