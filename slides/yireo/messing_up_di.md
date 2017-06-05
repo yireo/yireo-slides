@@ -115,7 +115,7 @@ class Data extends AbstractHelper
 ```
 
 ---
-# DI in better practice 
+# DI with interfaces
 ```php
 namespace Yireo\Example\Helper;
 use Psr\Log\LoggerInterface as Logger;
@@ -180,14 +180,11 @@ class: center, middle, zero
 ---
 # Lessons
 - Don't use helpers
-- Don't use underscores to identify scope
 
 --
 - Try to keep dependencies to a minimum
     - Move all similar dependencies to a common class
     - Move around dependencies until each class has as little dependencies as possible
---
-- Check your `$context` first
 
 ---
 # Check your $context
@@ -208,7 +205,7 @@ abstract class AbstractHelper
 ```
 
 ---
-# DI in practice 
+# Reusing $context
 ```php
 namespace Yireo\Example\Helper;
 use Magento\Framework\App\Helper\AbstractHelper;
@@ -255,7 +252,6 @@ class: center, middle, zero
 ---
 # Lessons
 - Don't use helpers
-- Don't use underscores to identify scope
 - Try to keep dependencies to a minimum
 
 --
@@ -302,13 +298,9 @@ class Product extends AbstractModel
 ---
 # Lessons
 - Don't use helpers
-- Don't use underscores to identify scope
 - Try to keep dependencies to a minimum
 - Check your `$context` first
-- Depend on interfaces instead of classes
-
---
-- Depend on service interfaces instead of normal
+- Depend on service interfaces instead of models
     - `ProductRepositoryInterface` instead of `Product` model
 
 ---
@@ -368,7 +360,6 @@ class: center, middle, orange
 ---
 # Lessons
 - Don't use helpers
-- Don't use underscores to identify scope
 - Try to keep dependencies to a minimum
 - Check your `$context` first
 - Depend on interfaces instead of classes
