@@ -1,5 +1,4 @@
 layout: true
-<div class="slide-heading">Messing Up DI</div>
 <div class="slide-footer">
     <span>Messing Up DI - Jisse Reitsma - MageTitans Italy 2017</span>
 </div>
@@ -37,6 +36,11 @@ class: orange
 - Dependency Injection
 - ObjectManager & Factory
 - Refactoring
+
+---
+class: center, middle
+<img src="../images/magetitans-it/beef-and-olive-spaghetti-bolognese-109377-1.jpeg" class="img-responsive" />
+# I <i class="fa fa-heart"></i> Spaghetti
 
 ---
 class: center, middle, orange
@@ -157,7 +161,7 @@ class Product extends AbstractModel
 
 ---
 class: center, middle
-# Entity Manager
+# Spaghetti code
 
 ---
 # Too many dependencies
