@@ -159,7 +159,7 @@ class: center, middle
 - Static file deployment
 
 --
-- Prototype versus jQuery+Require+Knockout+UiComponents
+- Prototype versus jQuery+Require+Knockout
 
 --
 - Varnish integration
@@ -182,6 +182,13 @@ class: center, middle
 ---
 class: center, middle
 ## Still Magento
+
+---
+class: center, middle, orange
+
+---
+class: center, middle, orange
+## Magento 2 DI
 
 ---
 ## Magento 2 DI
@@ -339,10 +346,16 @@ class: center, middle, orange
 ## Community
 
 ---
+## Community
+- Global
+    - MeetMagento conferences
+    - Magento Stack Exchange
+- Local
+    - Dutchento (Netherlands)
+    - Firegento (Germany)
+
+---
 ## Upcoming events
-- MeetMagento NL
-    - 10 May 2017, Utrecht
-    - www.meet-magento.nl
 - MageUnconference NL
     - 25-27 August 2017, Utrecht
     - nl.mageuc.org
@@ -352,9 +365,9 @@ class: center, middle, orange
 
 ---
 class: center, middle
+### Magento 2
 ## For all of us
 
 ---
 class: center, middle
-## questions?
-### magento.reageer.tv
+## thanks
