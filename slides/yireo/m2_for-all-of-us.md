@@ -5,6 +5,11 @@ layout: true
 </div>
 
 ---
+class: center, middle
+# Magento 2
+### For all of us
+
+---
 class: center, middle, orange
 # So ... Magento 2?
 
@@ -41,24 +46,24 @@ class: center, middle
 
 ---
 # Example Magento shop
-- "Help, my shop is slow"
+- A customer says "Help, my shop is slow"
     - 4.000 SKUs
     - 4 Gb RAM
     - Magento specialized hosting
 
 ---
 # Example Magento shop
-- "Help, my shop is slow"
-- First glance (Oct 2016)
+- A customer says "Help, my shop is slow"
+- My first glance (Oct 2016)
     - 4.000 Configurable Products
     - 4 million Simple Products
     - Server without SSD and still on PHP 5.3
 
 ---
 # Example Magento shop
-- "Help, my shop is slow"
-- First glance
-- Second glance
+- A customer says "Help, my shop is slow"
+- My first glance
+- My second glance
     - Outdated environment
     - No budget
     - No developer involved
@@ -66,9 +71,20 @@ class: center, middle
 ---
 # Magento performance
 - Fast server with sufficient RAM and SSD
+--
+
 - Nginx, PHP-FPM, PHP 7
+--
+
 - Redis, memcache (sessions and cache)
+--
+
+- RequireJS bundling, Grunt LESS compilation
+--
+
 - Optimized MySQL (Percona, InnoDB tuning)
+--
+
 - Optionally Varnish
 
 ---
@@ -84,14 +100,24 @@ class: center, middle
 ---
 # Magento complexity
 - XML configuration
+--
+
 - Product Types: Configurable, Bundled, Grouped
+--
+
 - XML Layout and PHTML templating
+--
+
 - Multistore, multisite, multilingual
 
 ---
 # Magento tools
 - PhpStorm + Magicento plugin
+--
+
 - magerun CLI tool
+--
+
 - New Relic, Blackfire, Zend Z-Ray
 
 ---
@@ -109,9 +135,14 @@ class: center, middle, orange
 ---
 # Why Magento 2?
 - Released november 2015
+--
+
 - Complete rewrite of Magento 1
+--
+
 - Modern PHP architecture
     - DI, composer, PSR
+--
 - More extensible than Magento 1
 
 ---
@@ -128,7 +159,7 @@ class: center, middle
 - Static file deployment
 
 --
-- jQuery versus Prototype
+- Prototype versus jQuery+Require+Knockout+UiComponents
 
 --
 - Varnish integration
@@ -265,7 +296,7 @@ class ProductPlugin
 ---
 ## Magento 2 composer
 - GitHub releases
-- Satis, Toran Proxy
+- Satis, Toran Proxy, Private Packagist
 - Integration of common packages
     - PSR, Monolog
     - oyejorge/less, league/climate
