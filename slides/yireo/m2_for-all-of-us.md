@@ -171,7 +171,7 @@ class: center, middle
 
 ---
 # Interceptors (1/3)
-`etc/di.xml` (Yireo_FooBar module):
+`etc/di.xml` (module):
 ```xml
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="urn:magento:framework:
@@ -188,7 +188,6 @@ ObjectManager/etc/config.xsd">
 # Interceptors (2/3)
 `Magento\Catalog\Model\Product.php` (core):
 ```php
-&lt;?php
 namespace Magento\Catalog\Model;
 
 class Product
@@ -204,10 +203,9 @@ class Product
 
 ---
 # Interceptors (3/3)
-File `Plugin\Catalog\ProductPlugin.php` (Yireo_FooBar module):
+`Plugin\Catalog\ProductPlugin.php` (module):
 
 ```php
-&lt;?php
 namespace Yireo\FooBar\Plugin\Catalog;
 use Magento\Catalog\Model\Product;
 
@@ -220,6 +218,43 @@ class ProductPlugin
     }
 }
 ```
+
+---
+# Dependency Injection (1 of 2)
+`etc/di.xml` (module):
+```xml
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="urn:magento:framework:
+ObjectManager/etc/config.xsd">
+    <preference name="Yireo\CustomLogger\Logger">
+        for="Psr\Logger\LoggerInterface">
+    </type>
+</config>
+```
+---
+# Dependency Injection (1 of 2)
+`Plugin\Catalog\ProductPlugin.php` (module):
+
+```php
+namespace Yireo\FooBar\Plugin\Catalog;
+use Magento\Catalog\Model\Product;
+
+class ProductPlugin
+{
+    public function __construct(
+        \Psr\Logger\LoggerInterface $logger
+    ) {
+        $this->logger = $logger;
+    }
+
+    public function beforeSetName(Product $subject, $name)
+    {
+        $this->logger->notice($name);
+        return array($name);
+    }
+}
+```
+
 
 ---
 ## Complex?
