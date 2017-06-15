@@ -387,6 +387,30 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xs
 ```
 
 ---
+# Yireo Whoops
+`Plugin/HttpApp.php` (module):
+```php
+namespace Yireo\Whoops\Plugin;
+class HttpApp
+{
+    public function beforeCatchException(
+        \Magento\Framework\App\Http $subject,
+        \Magento\Framework\App\Bootstrap $bootstrap,
+        \Exception $exception
+    )
+    {
+        if ($bootstrap->isDeveloperMode()) {
+            $run = new \Whoops\Run;
+            $handler = new \Whoops\Handler\PrettyPageHandler;
+            $run->pushHandler($handler);
+            $run->handleException($exception);
+        }
+        return [$bootstrap, $exception];
+    }
+}
+```
+
+---
 class: center, middle
 # M2 brings PHP to Magento
 
