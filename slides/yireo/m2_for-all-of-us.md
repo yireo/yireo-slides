@@ -324,10 +324,16 @@ class: center, middle, orange
 
 ---
 ## Complex?
+--
+
 - Build anything you want
     - Within a full-blown application, not a framework!
+--
 - Customizable and reusable code
+    - Shitload of Magento modules
+--
 - Requires a learning curve
+    - Well, it's IT
 
 ---
 ## Magento 2 composer
@@ -339,7 +345,7 @@ class: center, middle, orange
     - PHPUnit, phpmd
 
 ---
-## Yireo Whoops
+# Yireo Whoops
 - `github.com/yireo/Yireo_Whoops`
 - Interceptors
     - Using an interceptor to replace exception handler
@@ -347,7 +353,8 @@ class: center, middle, orange
     - Using the generic PHP Whoops library
 
 ---
-## Composer.json
+# Yireo Whoops
+`composer.json`:
 ```json
 {
     ...
@@ -361,6 +368,11 @@ class: center, middle, orange
     ...
 }
 ```
+
+---
+# Yireo Whoops
+`etc/di.xml` (module):
+```xml
 
 ---
 class: center, middle
