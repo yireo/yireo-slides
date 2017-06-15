@@ -22,14 +22,13 @@ class: center, middle
 
 --
 - Yireo
+
 --
     - Extension provider since 2009
 --
     - Trainings for M1 & M2 developers
 --
     - Online training (September 2017)
---
-
 --
 - Magento Master "Mover" 2017
 
