@@ -215,9 +215,11 @@ class: center, middle, orange
 xsi:noNamespaceSchemaLocation="urn:magento:framework:
 ObjectManager/etc/config.xsd">
     <type name="Magento\Catalog\Model\Product">
-        <plugin name="uniqueFoobarName"
+        <plugin 
+            name="uniqueFoobarName"
             type="Yireo\FooBar\Plugin\Catalog\ProductPlugin"
-            sortOrder="1" disabled="false"/>
+            sortOrder="1"
+            disabled="false" />
     </type>
 </config>
 ```
@@ -268,13 +270,10 @@ class ProductPlugin
 # Dependency Injection (1 of 3)
 `/app/etc/di.xml` (core):
 ```xml
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation="urn:magento:framework:
-ObjectManager/etc/config.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <preference
         for="Psr\Logger\LoggerInterface"
         type="Magento\Framework\Logger\Monolog" />
-    </type>
 </config>
 ```
 
@@ -285,8 +284,12 @@ ObjectManager/etc/config.xsd">
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="urn:magento:framework:
 ObjectManager/etc/config.xsd">
-    <preference name="Yireo\CustomLogger\Logger">
-        for="Psr\Logger\LoggerInterface">
+    <type name="Yireo\Example\Helper\Data">
+        <arguments>
+            <argument name="logger" xsi:type="object">
+                Yireo\CustomLogger\Logger
+            </argument>
+        </arguments>
     </type>
 </config>
 ```
