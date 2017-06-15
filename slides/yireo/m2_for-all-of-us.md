@@ -451,3 +451,5 @@ class: center, middle
 ---
 class: center, middle
 # thanks
+### @jissereitsma
+### jisse@yireo.com
