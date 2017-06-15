@@ -130,7 +130,7 @@ class: center, middle
 
 ---
 class: center, middle, orange
-## Magento 2
+# Magento 2
 
 ---
 # Why Magento 2?
@@ -147,10 +147,10 @@ class: center, middle, orange
 
 ---
 class: center, middle
-## Still slow?
+# Still slow?
 
 ---
-## Magento 2 performance
+# Magento 2 performance
 
 --
 - Code compilation
@@ -169,10 +169,10 @@ class: center, middle
 
 ---
 class: center, middle
-## Still complex?
+# Still complex?
 
 ---
-## Magento 2 complexity
+# Magento 2 complexity
 - Dependency Injection
 - Composer
 - RequireJS, KnockoutJS, UIComponents
@@ -188,10 +188,10 @@ class: center, middle, orange
 
 ---
 class: center, middle, orange
-## Magento 2 DI
+# Magento 2 DI
 
 ---
-## Magento 2 DI
+# Magento 2 DI
 - Dependency Injection
 - Object Manager (DI Container)
 - Configurable via XML
@@ -200,7 +200,7 @@ class: center, middle, orange
     - Plugins / interceptors
 
 ---
-## Magento 2 Interceptors
+# Magento 2 Interceptors
 - Middleware in Magento 2
     - Original class
     - Plugin class
@@ -260,7 +260,7 @@ class ProductPlugin
 ```
 
 ---
-## Dependency Injection
+# Dependency Injection
 - Preference
     - Regular mapping between class and interface
 - Type
@@ -323,7 +323,7 @@ class: center, middle, orange
 ### The Hitchhiker's Guide to the Galaxy
 
 ---
-## Complex?
+# Complex?
 --
 
 - Build anything you want
@@ -336,7 +336,7 @@ class: center, middle, orange
     - Well, it's IT
 
 ---
-## Magento 2 composer
+# Magento 2 composer
 - GitHub releases
 - Satis, Toran Proxy, Private Packagist
 - Integration of common packages
@@ -373,21 +373,29 @@ class: center, middle, orange
 # Yireo Whoops
 `etc/di.xml` (module):
 ```xml
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Whoops\Handler\HandlerInterface" type="Whoops\Handler\PrettyPageHandler" />
+    <type name="Magento\Framework\App\Http">
+        <plugin disabled="false" name="Yireo_Whoops_Plugin_HttpApp" type="\Yireo\Whoops\Plugin\HttpApp" />
+    </type>
+</config>
+```
 
 ---
 class: center, middle
-## M2 brings PHP to Magento
+# M2 brings PHP to Magento
 
 ---
 class: center, middle
-## M2 brings Magento to PHP
+# M2 brings Magento to PHP
 
 ---
 class: center, middle, orange
-## Community
+# Community
 
 ---
-## Community
+# Community
 - Global
     - MeetMagento conferences
     - Magento Stack Exchange
@@ -396,7 +404,7 @@ class: center, middle, orange
     - Firegento (Germany)
 
 ---
-## Upcoming events
+# Upcoming events
 - MageUnconference NL
     - 25-27 August 2017, Utrecht
     - nl.mageuc.org
@@ -411,4 +419,4 @@ class: center, middle
 
 ---
 class: center, middle
-## thanks
+# thanks
