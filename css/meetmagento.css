@@ -199,3 +199,7 @@ div.remark-slide-content.zero {
 div.remark-slide-content.zero div.slide-footer {
     display: none;
 }
+
+pre {
+    white-space: pre-wrap;
+}

@@ -281,10 +281,8 @@ class ProductPlugin
 # Dependency Injection (2 of 3)
 `etc/di.xml` (module):
 ```xml
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation="urn:magento:framework:
-ObjectManager/etc/config.xsd">
-    <type name="Yireo\Example\Helper\Data">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Yireo\FooBar\Plugin\Catalog\ProductPlugin">
         <arguments>
             <argument name="logger" xsi:type="object">
                 Yireo\CustomLogger\Logger
