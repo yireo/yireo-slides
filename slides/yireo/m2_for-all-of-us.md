@@ -345,7 +345,7 @@ class: center, middle, orange
     - PHPUnit, phpmd
 
 ---
-# Yireo Whoops
+# Yireo Whoops (1 of 4)
 - `github.com/yireo/Yireo_Whoops`
 - Interceptors
     - Using an interceptor to replace exception handler
@@ -353,7 +353,7 @@ class: center, middle, orange
     - Using the generic PHP Whoops library
 
 ---
-# Yireo Whoops
+# Yireo Whoops (2 of 4)
 `composer.json`:
 ```json
 {
@@ -370,7 +370,7 @@ class: center, middle, orange
 ```
 
 ---
-# Yireo Whoops
+# Yireo Whoops (3 of 4)
 `etc/di.xml` (module):
 ```xml
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -387,7 +387,7 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xs
 ```
 
 ---
-# Yireo Whoops
+# Yireo Whoops (4 of 4)
 `Plugin/HttpApp.php` (module):
 ```php
 namespace Yireo\Whoops\Plugin;
