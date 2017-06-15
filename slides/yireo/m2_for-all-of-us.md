@@ -21,10 +21,14 @@ class: center, middle
 # Jisse Reitsma
 
 --
-- Yireo: Extension provider since 2009
-
+- Yireo
 --
-- Trainer for M1 & M2 developers
+    - Extension provider since 2009
+--
+    - Trainings for M1 & M2 developers
+--
+    - Online training (September 2017)
+--
 
 --
 - Magento Master "Mover" 2017
