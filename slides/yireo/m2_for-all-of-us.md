@@ -258,7 +258,29 @@ class ProductPlugin
 ```
 
 ---
-# Dependency Injection (1 of 2)
+## Dependency Injection
+- Normal 
+- Middleware in Magento 2
+    - Original class
+    - Plugin class
+    - Results in interceptor class
+- Based on DI and code compilation
+
+---
+# Dependency Injection (1 of 3)
+`/app/etc/di.xml` (core):
+```xml
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="urn:magento:framework:
+ObjectManager/etc/config.xsd">
+    <preference name="Magento\Framework\Monolog\Logger">
+        for="Psr\Logger\LoggerInterface">
+    </type>
+</config>
+```
+
+---
+# Dependency Injection (2 of 3)
 `etc/di.xml` (module):
 ```xml
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -269,8 +291,9 @@ ObjectManager/etc/config.xsd">
     </type>
 </config>
 ```
+
 ---
-# Dependency Injection (1 of 2)
+# Dependency Injection (3 of 3)
 `Plugin\Catalog\ProductPlugin.php` (module):
 
 ```php
