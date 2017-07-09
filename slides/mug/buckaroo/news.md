@@ -112,10 +112,16 @@ class: center, middle
     - Client-rendered frontend
     - Progressive Web Apps (PWA)
     - Full GraphQL
-- Entitlement API (Apollo)
+    - Entitlement API (Apollo)
 
 ---
 # Community
+
+--
+- Dutchento
+
+--
+- Magento User Groups (MUGs)
 
 --
 - Hackathons vs Contribution Days
@@ -137,5 +143,5 @@ class: center, middle
 
 ---
 class: center, middle
-### [end]
+### ?
 
