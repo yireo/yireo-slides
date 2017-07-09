@@ -17,6 +17,15 @@ class: center, middle
 ### #mug024 #magento
 
 ---
+# Jisse Reitsma
+- Oprichter en lead developer Yireo
+- Developer, blogger, trainer, spreker
+- Organisator MUGs
+- Organisator Magento 2 Seminar / MageTestFest
+- Zend Z-Team Member 2015-2016
+- Magento Master "Mover" 2017
+
+---
 # Magento User Groups
 * Gebruikersgroep
     * Webwinkeliers / merchants
@@ -79,7 +88,7 @@ class: center, middle
 # Magento 2.2
 - B2B (Business-to-Business)
 - Advanced Reporting (BI)
-- Social
+- Social (Shopial)
 - Shipping (Temando)
 - Security Scanner
 
