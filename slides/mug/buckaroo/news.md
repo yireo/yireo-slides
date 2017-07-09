@@ -69,11 +69,41 @@ class: center, middle
     - Enorm veel devdocs
 --
 - Magento 2.2 in september 2017
-    - Veel bugfixes
-    - Magento Security Scanner
---
-- Enterprise features
-    - Bluefoot CMS, Social, BI, Temando
+
+---
+# Magento
+- Open Source ("Community Edition")
+- Commerce ("Enterprise Edition")
+
+---
+# Magento 2.2
+- B2B (Business-to-Business)
+- Advanced Reporting (BI)
+- Social
+- Shipping (Temando)
+- Security Scanner
+
+---
+# Magento 2.2 features
+- Bugfixes
+- API coverage
+- Deployment enhancements
+
+---
+# Magento 2.3
+- Advanced CMS (Bluefoot)
+- Klarna
+- Features
+    - ORM / Query API / schema definitions
+    - Magento Testing Framework
+
+---
+# Magento 2.4
+- Features
+    - Client-rendered frontend
+    - Progressive Web Apps (PWA)
+    - Full GraphQL
+- Entitlement API (Apollo)
 
 ---
 # Community
