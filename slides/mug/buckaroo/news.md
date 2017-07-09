@@ -1,15 +1,16 @@
 class: center, middle
-# 18 mei 2017
-### Magento User Group
-#### hosted by Marqato
+# 12 juli 2017
+### MUG Utrecht
+#### hosted by Buckaroo, TIG en Yireo
 
 ---
-# 18 mei 2017
-- Locatie Nijmegen (Marqato)
+# 12 juli 2017
+- Locatie Utrecht (Buckaroo)
 - Intro tot MUGs
 - Magento Nieuws en Agenda
-- SEO in e-commerce - Gerk Mulder (Tribal)
-- Yoast extensie - Vincent Hornikx (MaxServ)
+- Recurring payments (Buckaroo)
+- Payment module (TIG)
+- Vraag & antwoord
 
 ---
 class: center, middle
@@ -67,12 +68,12 @@ class: center, middle
     - Veel GitHub issues
     - Enorm veel devdocs
 --
-- Magento 2.2 in Q3 2017
+- Magento 2.2 in september 2017
     - Veel bugfixes
     - Magento Security Scanner
 --
 - Enterprise features
-    - Bluefoot CMS, Social, BI, Temando, 
+    - Bluefoot CMS, Social, BI, Temando
 
 ---
 # Community
@@ -81,22 +82,16 @@ class: center, middle
 - Hackathons vs Contribution Days
 
 --
-- MageStackDay, MageDockerDay
-
---
-- Duthento werkgroepen (?)
-    - Content (MM, MUG, MageTitans)
+- Duthento werkgroepen
+    - Content (MeetMagento, MUG, MageTitans)
     - Localisatie (?)
 
 ---
 # Agenda
-- (10 mei = MeetMagento NL)
-- 18 mei = MUG Nijmegen (Marqato): SEO
-- 18 mei = MUG Amsterdam (SupportDesk): B2B
-- ~= MUG Utrecht (Buckaroo): Payment
-- ~= MUG Zwolle 
-- ~= MUG Tilburg
+- 12 juli MUG Utrecht (Buckaroo): Payment
+- 24 augustus MUG Waalwijk
 - 25 augustus = MageUnconference NL (Utrecht)
+- 12 september MUG Zwolle
 - 26-27 oktober = MeetMagento BE
 - 17 november = MageTestFest (Yireo)
 - 2018 = MageTitans NL (Groningen)

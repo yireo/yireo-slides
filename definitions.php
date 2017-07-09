@@ -23,6 +23,7 @@ $slideGroups = array(
         'group' => 'MUG - Magento User Group',
         'style' => 'mug',
         'slides' => array(
+            array('file' => 'mug/buckaroo/news', 'title' => 'MUG Utrecht introduction'),
             array('file' => 'mug/localisation/main', 'title' => 'Localisatie'),
             array('file' => 'mug/security/security', 'title' => 'Security'),
             array('file' => 'yireo/magento_layoutphtml', 'title' => 'Magento XML and PHTML', 'style' => 'yireo'),
