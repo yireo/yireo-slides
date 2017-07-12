@@ -78,6 +78,8 @@ class: center, middle
     - Enorm veel devdocs
 --
 - Magento 2.2 in september 2017
+    - RC1 nu beschikbaar
+    - RC2 binnenkort beschikbaar
 
 ---
 # Magento
