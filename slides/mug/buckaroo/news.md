@@ -98,7 +98,13 @@ class: center, middle
 # Magento 2.2 features
 - Bugfixes
 - API coverage
+    - Better `@api` coverage
+    - More PHP interfaces
+    - Less `around` Plugins
 - Deployment enhancements
+    - Pipeline deployment
+    - Faster DI compilation
+    - Faster Static View Files Deployment
 
 ---
 # Magento 2.3
