@@ -5,7 +5,7 @@ class: center, middle
 
 ---
 # 24 augustus 2017
-- 19:00 Welkom 
+- 19:00 Ronald Meeuwissen (MaxServ): Welkom 
 - 19:15 Jisse (Yireo): Magento Inc Updates 
 - 19:30 Michiel Heijmans (Yoast): SEO practices
 - 20:00 Jamie Maria (Hatimeria): Headless Magento 
