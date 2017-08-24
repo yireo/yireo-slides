@@ -4,7 +4,7 @@ $slideGroups = array(
         'group' => 'Yireo on Magento',
         'style' => 'yireo',
         'slides' => array(
-            array('file' => 'yireo/m2s_uicomponents', 'title' => 'Magento 2 KnockoutJS & RequireJS in 1 component (M2Seminar v2)'),
+            array('file' => 'yireo/m2s_uicomponents', 'title' => 'Magento 2 KnockoutJS & RequireJS in 1 component'),
             array('file' => 'yireo/running_m2', 'title' => 'Running Magento 2 (Magento Developers Paradise 2016)', 'public' => 1),
             array('file' => 'yireo/leercurves', 'title' => 'Yireo Educatie - Leren samen met Yireo'),
         ),
@@ -23,6 +23,7 @@ $slideGroups = array(
         'group' => 'MUG - Magento User Group',
         'style' => 'mug',
         'slides' => array(
+            array('file' => 'mug/waalwijk/news', 'title' => 'MUG Waalwijk introduction'),
             array('file' => 'mug/buckaroo/news', 'title' => 'MUG Utrecht introduction'),
             array('file' => 'mug/localisation/main', 'title' => 'Localisatie'),
             array('file' => 'mug/security/security', 'title' => 'Security'),
