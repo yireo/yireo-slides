@@ -5,18 +5,18 @@ class: center, middle
 
 ---
 # 24 augustus 2017
-- 19:00 - Welkom 
-- 19:15 - Yireo - Jisse: Magento Inc Updates 
-- 19:30 - Yoast SEO - Michiel Heijmans: Shop SEO best & worst practices. 
-- 20:00 - Hatimeria - Jamie Maria: Headless Magento 
-- 20:30 - Pauze 
-- 20:45 - MaxServ - Vincent: MATE (Magento And TYPO3 Environment) 
-- 21:15 - We/Provide - Mark/Frank: Magento 2 en Bluefoot  
-- 21:45 - Borrel
+- 19:00 Welkom 
+- 19:15 Yireo - Jisse: Magento Inc Updates 
+- 19:30 Michiel Heijmans (Yoast): SEO practices
+- 20:00 Jamie Maria (Hatimeria): Headless Magento 
+- 20:30 Pauze 
+- 20:45 Vincent (MaxServ): MATE
+- 21:15 Mark/Frank (We/Provide): Bluefoot  
+- 21:45 Rondvraag & Borrel
 
 ---
 class: center, middle
-### #mug024 #magento
+### #mug0416 #magento
 
 ---
 # Jisse Reitsma
@@ -76,12 +76,12 @@ class: center, middle
 
 --
 - Magento 2.1 (huidig)
+    - 2.1.8 nu beschikbaar
     - Veel GitHub issues
     - Enorm veel devdocs
 --
 - Magento 2.2 in september 2017
-    - RC1 nu beschikbaar
-    - RC2 binnenkort beschikbaar
+    - 2.2-rc2.1 nu beschikbaar
 
 ---
 # Magento
@@ -123,6 +123,7 @@ class: center, middle
     - Progressive Web Apps (PWA)
     - Full GraphQL
     - Entitlement API (Apollo)
+    - ... maybe based on React?
 
 ---
 # Community
@@ -149,7 +150,7 @@ class: center, middle
 - 12 september = MUG Zwolle: Migratie
 - 26-27 oktober = MeetMagento BE
 - 17 november = MageTestFest (Yireo)
-- 2018 = MageTitans NL (Groningen)
+- 2018 = MageTitans NL (?)
 
 ---
 class: center, middle
