@@ -54,6 +54,13 @@ class: center, middle
 - Community in actie
 
 ---
+# Dutchento
+- Officiele gezicht van NL community
+- Organisatie en funding van events
+- Bundeling van community effort
+- Voor ons, door ons
+
+---
 # Idee?
 Laat het ons weten!
 
