@@ -143,14 +143,21 @@ class: center, middle
     - Localisatie (?)
 
 ---
-# Agenda
-- 12 juli = MUG Utrecht (Buckaroo): Payment
-- 24 augustus = MUG Waalwijk: Content
-- 25 augustus = MageUnconference NL (Utrecht)
+# Agenda MUGs
+- **24 augustus = MUG Waalwijk: Content**
 - 12 september = MUG Zwolle: Migratie
+- ? oktober = MUG Tilburg (GJ-R)
+- ? november = MUG Zwolle (Primegento)
+- ? december = MUG Waalwijk (MaxServ)
+- ? januari = MUG Utrecht (TIG)
+
+---
+# Andere events
+- 25 augustus = MageUnconference NL (Utrecht)
 - 26-27 oktober = MeetMagento BE
-- 17 november = MageTestFest (Yireo)
+- 14-18 november = MageTestFest (Yireo)
 - 2018 = MageTitans NL (?)
+- ? mei 2018 = MeetMagento NL
 
 ---
 class: center, middle
