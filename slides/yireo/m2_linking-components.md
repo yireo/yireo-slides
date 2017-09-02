@@ -200,7 +200,7 @@ define(['uiComponent'],
 <img class="img-responsive" src="../slides/yireo/images/m2_linking-components-02.jpg" />
 
 ---
-# Export from component2
+# Plain component2
 File `view/frontend/web/js/component2.js`:
 ```js
 define(['uiComponent'],
@@ -209,6 +209,25 @@ define(['uiComponent'],
         return Component.extend({
             defaults: {
                 message: 'Hello from component 2'
+            }
+        });
+    }
+);
+```
+
+---
+# Imports from component2
+File `view/frontend/web/js/component1.js`:
+```js
+define(['uiComponent'],
+    function (Component) {
+        'use strict';
+        return Component.extend({
+            defaults: {
+                message: 'Hello World',
+                imports: {
+                    message: 'component2:message'
+                }
             }
         });
     }
