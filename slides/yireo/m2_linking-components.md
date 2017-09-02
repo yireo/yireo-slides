@@ -107,6 +107,9 @@ File `view/frontend/templates/component2.phtml`:
 </script>
 ```
 
+???
+Linking only works if both components are delivering ViewModels that are registered in the uiRegistry.
+
 ---
 # PHTML template
 File `view/frontend/templates/component1.phtml`:
@@ -233,6 +236,9 @@ define(['uiComponent'],
     }
 );
 ```
+
+???
+For this to work, `component2` needs to be loaded earlier in the DOM than `component2`.
 
 ---
 class: orange, center, middle
