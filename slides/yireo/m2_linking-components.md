@@ -65,7 +65,8 @@ class: center, middle
 - `etc/module.xml`
 - `registration.php`
 - `view/frontend/layout/default.xml`
-- `view/frontend/templates/example.phtml`
+- `view/frontend/templates/component1.phtml`
+- `view/frontend/templates/component2.phtml`
 - `view/frontend/requirejs-config.js`
 - `view/frontend/web/js/component1.js`
 - `view/frontend/web/js/component2.js`
@@ -79,8 +80,8 @@ File `view/frontend/layout/default.xml`:
 xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" name="component-linking" template="Yireo_ExampleComponentLinking::example.phtml">
-            </block>
+            <block class="Magento\Framework\View\Element\Template" name="component1-linking" template="Yireo_ExampleComponentLinking::component1.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" name="component2-linking" template="Yireo_ExampleComponentLinking::component2.phtml"/>
         </referenceContainer>
     </body>
 </page>
@@ -88,8 +89,28 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_config
 
 ---
 # PHTML template
-File `view/frontend/templates/example.phtml`:
+File `view/frontend/templates/component1.phtml`:
 ```php
+<div id="example-component-linking-1" data-bind="scope: 'component1'">
+    Yireo_ExampleComponentLinking: <span data-bind="text: message">Waiting</span>
+</div>
+<div style="clear:both"></div>
+```
+```php
+<script type="text/x-magento-init">
+{
+    "#example-component-linking-1": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "component1": {
+                    "component": "component1",
+                    "provider": "component2"
+                }
+            }
+        }
+    }
+}
+</script>
 ```
 
 ---
