@@ -174,7 +174,7 @@ define(['uiComponent'],
 
 ---
 # Result
-<img class="img-responsive" src="../slides/yireo/images/gor.jpg" />
+<img class="img-responsive" src="../slides/yireo/images/m2_linking-components-01.jpg" />
 
 ---
 class: orange, center, middle
