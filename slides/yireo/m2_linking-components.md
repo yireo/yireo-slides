@@ -56,12 +56,36 @@ class: orange
 - Personal opinion on this
 
 ---
+class: center, middle
+## Sample module
+### 
+
+---
 # Sample module
 - `etc/module.xml`
 - `registration.php`
 - `view/frontend/layout/default.xml`
 - `view/frontend/templates/example.phtml`
 - `view/frontend/requirejs-config.js`
+- `view/frontend/web/js/component1.js`
+- `view/frontend/web/js/component2.js`
+
+---
+# XML layout
+File `view/frontend/layout/default.xml`:
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="component-linking"
+template="Yireo_ExampleComponentLinking::example.phtml">
+            </block>
+        </referenceContainer>
+    </body>
+</page>
+```
 
 ---
 class: orange, center, middle
