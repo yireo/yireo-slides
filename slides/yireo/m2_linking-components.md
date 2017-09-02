@@ -241,6 +241,24 @@ define(['uiComponent'],
 For this to work, `component2` needs to be loaded earlier in the DOM than `component2`.
 
 ---
+# Template literals
+File `view/frontend/web/js/component1.js`:
+```js
+define(['uiComponent'],
+    function (Component) {
+        'use strict';
+        return Component.extend({
+            defaults: {
+                message: 'Hello World',
+                imports: {
+                    message: '${ $.provider }:message'
+                }
+            }
+        });
+    }
+);
+
+---
 class: orange, center, middle
 <h1 class="magetestfest"><span>Mage</span><span>Test</span><span>Fest</span></h1>
 
