@@ -177,6 +177,30 @@ define(['uiComponent'],
 <img class="img-responsive" src="../slides/yireo/images/m2_linking-components-01.jpg" />
 
 ---
+# Export from component2
+File `view/frontend/web/js/component2.js`:
+```js
+define(['uiComponent'],
+    function (Component) {
+        'use strict';
+        return Component.extend({
+            defaults: {
+                message: 'Hello from component 2',
+                exports: {
+                    message: 'component1:message'
+                }
+            }
+        });
+    }
+);
+```
+
+---
+# Result
+<img class="img-responsive" src="../slides/yireo/images/m2_linking-components-01.jpg" />
+
+
+---
 class: orange, center, middle
 <h1 class="magetestfest"><span>Mage</span><span>Test</span><span>Fest</span></h1>
 
