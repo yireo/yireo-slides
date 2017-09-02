@@ -80,8 +80,8 @@ File `view/frontend/layout/default.xml`:
 xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" name="component1-linking" template="Yireo_ExampleComponentLinking::component1.phtml"/>
-            <block class="Magento\Framework\View\Element\Template" name="component2-linking" template="Yireo_ExampleComponentLinking::component2.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" name="component1" template="Yireo_ExampleComponentLinking::component1.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" name="component2" template="Yireo_ExampleComponentLinking::component2.phtml"/>
         </referenceContainer>
     </body>
 </page>
@@ -91,9 +91,7 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_config
 # PHTML template
 File `view/frontend/templates/component2.phtml`:
 ```php
-<div id="example-component-2" data-bind="scope: 'component2'"></div>
-```
-```php
+<div id="example-component-2" data-bind="scope: 'component2'"/>
 <script type="text/x-magento-init">
 {
     "#example-component-2": {
@@ -115,11 +113,8 @@ File `view/frontend/templates/component2.phtml`:
 File `view/frontend/templates/component1.phtml`:
 ```php
 <div id="example-component-1" data-bind="scope: 'component1'">
-    Yireo_ExampleComponentLinking: <span data-bind="text: message">Waiting</span>
+    <span data-bind="text: message">Waiting</span>
 </div>
-<div style="clear:both"></div>
-```
-```php
 <script type="text/x-magento-init">
 {
     "#example-component-1": {
