@@ -107,7 +107,6 @@ File `view/frontend/templates/component2.phtml`:
 </script>
 ```
 
-
 ---
 # PHTML template
 File `view/frontend/templates/component1.phtml`:
@@ -129,6 +128,25 @@ File `view/frontend/templates/component1.phtml`:
     }
 }
 </script>
+```
+
+---
+# RequireJS configuration
+File `view/frontend/requirejs-config.js`:
+```js
+var config = {
+    paths: {
+        component1: 'Yireo_ExampleComponentLinking/js/component1',
+        component2: 'Yireo_ExampleComponentLinking/js/component2'
+    }
+};
+```
+
+---
+# Draft of component1
+File `view/frontend/web/js/component1.js`:
+```js
+
 ```
 
 ---
