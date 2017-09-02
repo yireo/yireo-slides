@@ -56,6 +56,14 @@ class: orange
 - Personal opinion on this
 
 ---
+# Sample module
+- `etc/module.xml`
+- `registration.php`
+- `view/frontend/layout/default.xml`
+- `view/frontend/templates/example.phtml`
+- `view/frontend/requirejs-config.js`
+
+---
 class: orange, center, middle
 <h1 class="magetestfest"><span>Mage</span><span>Test</span><span>Fest</span></h1>
 
@@ -69,16 +77,13 @@ class: orange, center, middle
 - November 15th-18th 2017
 
 --
-- Somewhere in The Netherlands
+- Prodent Factory, Amersfoort, The Netherlands
 
 --
-- 5 awesome speakers
+- 7 awesome speakers
 
 --
-- 1st announcement: Vinai Kopp
-
---
-- [magetestfest.nl](https://magetestfest.nl/)
+- [magetestfest.com](https://magetestfest.com/)
 
 ---
 class: center, middle, world
