@@ -197,7 +197,7 @@ define(['uiComponent'],
 
 ---
 # Result
-<img class="img-responsive" src="../slides/yireo/images/m2_linking-components-01.jpg" />
+<img class="img-responsive" src="../slides/yireo/images/m2_linking-components-02.jpg" />
 
 
 ---
