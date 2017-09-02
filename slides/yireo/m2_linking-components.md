@@ -173,6 +173,10 @@ define(['uiComponent'],
 ```
 
 ---
+# Result
+<img class="img-responsive" src="../slides/yireo/images/gor.jpg" />
+
+---
 class: orange, center, middle
 <h1 class="magetestfest"><span>Mage</span><span>Test</span><span>Fest</span></h1>
 
