@@ -199,6 +199,21 @@ define(['uiComponent'],
 # Result
 <img class="img-responsive" src="../slides/yireo/images/m2_linking-components-02.jpg" />
 
+---
+# Export from component2
+File `view/frontend/web/js/component2.js`:
+```js
+define(['uiComponent'],
+    function (Component) {
+        'use strict';
+        return Component.extend({
+            defaults: {
+                message: 'Hello from component 2'
+            }
+        });
+    }
+);
+```
 
 ---
 class: orange, center, middle
