@@ -58,7 +58,7 @@ class: orange
 ---
 class: center, middle
 ## Sample module
-### 
+### [yireo-training/magento2-example-component-linking](https://github.com/yireo-training/magento2-example-component-linking)
 
 ---
 # Sample module
@@ -79,8 +79,7 @@ File `view/frontend/layout/default.xml`:
 xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" name="component-linking"
-template="Yireo_ExampleComponentLinking::example.phtml">
+            <block class="Magento\Framework\View\Element\Template" name="component-linking" template="Yireo_ExampleComponentLinking::example.phtml">
             </block>
         </referenceContainer>
     </body>
