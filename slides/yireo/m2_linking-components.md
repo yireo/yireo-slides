@@ -87,6 +87,12 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_config
 ```
 
 ---
+# PHTML template
+File `view/frontend/templates/example.phtml`:
+```php
+```
+
+---
 class: orange, center, middle
 <h1 class="magetestfest"><span>Mage</span><span>Test</span><span>Fest</span></h1>
 
