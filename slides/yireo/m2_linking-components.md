@@ -143,13 +143,30 @@ var config = {
 ```
 
 ---
-# Draft of component1
+# Draft of component2
 File `view/frontend/web/js/component2.js`:
 ```js
 define(['uiComponent'],
     function (Component) {
         'use strict';
         return Component.extend({
+            // @todo
+        });
+    }
+);
+```
+
+---
+# Draft of component1
+File `view/frontend/web/js/component1.js`:
+```js
+define(['uiComponent'],
+    function (Component) {
+        'use strict';
+        return Component.extend({
+            defaults: {
+                message: 'Hello World'
+            }
         });
     }
 );
