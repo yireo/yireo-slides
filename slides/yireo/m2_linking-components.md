@@ -89,9 +89,32 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_config
 
 ---
 # PHTML template
+File `view/frontend/templates/component2.phtml`:
+```php
+<div id="example-component-2" data-bind="scope: 'component2'"></div>
+```
+```php
+<script type="text/x-magento-init">
+{
+    "#example-component-2": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "component2": {
+                    "component": "component2"
+                }
+            }
+        }
+    }
+}
+</script>
+```
+
+
+---
+# PHTML template
 File `view/frontend/templates/component1.phtml`:
 ```php
-<div id="example-component-linking-1" data-bind="scope: 'component1'">
+<div id="example-component-1" data-bind="scope: 'component1'">
     Yireo_ExampleComponentLinking: <span data-bind="text: message">Waiting</span>
 </div>
 <div style="clear:both"></div>
@@ -99,7 +122,7 @@ File `view/frontend/templates/component1.phtml`:
 ```php
 <script type="text/x-magento-init">
 {
-    "#example-component-linking-1": {
+    "#example-component-1": {
         "Magento_Ui/js/core/app": {
             "components": {
                 "component1": {
