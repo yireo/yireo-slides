@@ -80,6 +80,33 @@ File `view/frontend/layout/default.xml`:
 xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
+        </referenceContainer>
+    </body>
+</page>
+```
+---
+# XML layout
+File `view/frontend/layout/default.xml`:
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="component1" template="Yireo_ExampleComponentLinking::component1.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
+```
+---
+# XML layout
+File `view/frontend/layout/default.xml`:
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template" name="component1" template="Yireo_ExampleComponentLinking::component1.phtml"/>
             <block class="Magento\Framework\View\Element\Template" name="component2" template="Yireo_ExampleComponentLinking::component2.phtml"/>
         </referenceContainer>
@@ -187,7 +214,11 @@ define(['uiComponent'],
 
 --
 - `x-magento-init` is used to initialize JS components
+
+--
 - `component1` delivers output through KnockoutJS
+
+--
 - `component2` is not doing anything yet
 
 ---
