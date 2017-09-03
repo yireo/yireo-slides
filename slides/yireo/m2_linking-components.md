@@ -324,9 +324,9 @@ define(['uiComponent'],
     function (Component) {
         'use strict';
         return Component.extend({
-            initialize: {
+            initialize: function() {
                 this._super();
-                console.log('Provider: ' + this.provider); // component2
+                console.log('Provider: ' + this.provider);
                 return true;
             }
         });
