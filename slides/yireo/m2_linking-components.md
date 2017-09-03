@@ -363,6 +363,30 @@ class: center, middle
 - KnockoutJS for managing ViewModels
 
 ---
+# Manually using uiRegistry
+File `view/frontend/web/js/component1.js`:
+```js
+define([
+        'uiComponent',
+        'uiRegistry'
+    ],
+    function (Component, uiRegistry) {
+        'use strict';
+        return Component.extend({
+            defaults: {
+                message: 'Hello from component 1'
+            },
+            initialize: function() {
+                this._super();
+                this.message = uiRegistry.get('component2').message;
+                return this;
+            }
+        });
+    }
+);
+```
+
+---
 class: orange, center, middle
 <h1 class="magetestfest"><span>Mage</span><span>Test</span><span>Fest</span></h1>
 
