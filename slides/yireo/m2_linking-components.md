@@ -359,8 +359,27 @@ class: center, middle
 
 ---
 # Ingredients
+
+--
 - RequireJS for dependency management
+
+--
 - KnockoutJS for managing ViewModels
+
+--
+- uiRegistry keeping track of ViewModels
+
+--
+- Imports/exports allowing to connect everything
+
+
+--
+### But is this all ok?
+
+---
+# Clean code
+- Design patterns
+- Composition over inheritance
 
 ---
 # Manually using uiRegistry
