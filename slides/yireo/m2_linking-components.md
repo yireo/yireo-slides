@@ -209,7 +209,7 @@ define(['uiComponent'],
 ```
 
 ---
-# Result
+class: center, middle
 <img class="img-responsive" src="../slides/yireo/images/m2_linking-components-01.jpg" />
 
 ---
@@ -251,7 +251,7 @@ define(['uiComponent'],
 ```
 
 ---
-# Result
+class: center, middle
 <img class="img-responsive" src="../slides/yireo/images/m2_linking-components-02.jpg" />
 
 ---
@@ -377,7 +377,7 @@ class: center, middle
 ### But is this all ok?
 
 ---
-# Result
+class: center, middle
 <img class="img-responsive" src="../slides/yireo/images/complex-diagram.jpg" />
 
 ---
