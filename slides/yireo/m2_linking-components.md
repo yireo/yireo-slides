@@ -377,9 +377,19 @@ class: center, middle
 ### But is this all ok?
 
 ---
+# Result
+<img class="img-responsive" src="../slides/yireo/images/complex-diagram.jpg" />
+
+---
 # Clean code
+
+--
 - Design patterns
+
+--
 - Composition over inheritance
+
+--
 - Link components, not component properties
 
 ---
@@ -428,7 +438,15 @@ define(['uiComponent', 'component2'],
 
 ---
 # My advice
+
+--
 - Prefer DI over linking
+
+--
+- Keep reading on JavaScript
+
+--
+- Focus on JS testing
 
 ---
 class: center, middle
