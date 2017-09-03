@@ -180,6 +180,17 @@ define(['uiComponent'],
 <img class="img-responsive" src="../slides/yireo/images/m2_linking-components-01.jpg" />
 
 ---
+# What happened
+
+--
+- XML layout and PHTML are used to create placeholders
+
+--
+- `x-magento-init` is used to initialize JS components
+- `component1` delivers output through KnockoutJS
+- `component2` is not doing anything yet
+
+---
 # Export from component2
 File `view/frontend/web/js/component2.js`:
 ```js
@@ -201,10 +212,6 @@ define(['uiComponent'],
 ---
 # Result
 <img class="img-responsive" src="../slides/yireo/images/m2_linking-components-02.jpg" />
-
----
-# What happened
-- `component1` delivers output through KnockoutJS
 
 ---
 # Plain component2
