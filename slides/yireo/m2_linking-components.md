@@ -360,6 +360,7 @@ class: center, middle
 ---
 # Ingredients
 - RequireJS for dependency management
+- KnockoutJS for managing ViewModels
 
 ---
 class: orange, center, middle
