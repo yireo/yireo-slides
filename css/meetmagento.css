@@ -71,6 +71,11 @@ h3 {
     background-size: cover;
 }
 
+.remark-slide-content.krakow:before {
+    opacity: .3; 
+    background-image: url(../slides/yireo/images/krakow.jpg); 
+}
+
 .remark-slide-content.world:before {
     opacity: .3; 
     background-image: url(../images/mm_background_world.png); 
