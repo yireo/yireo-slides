@@ -119,6 +119,9 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_config
 File `view/frontend/templates/component2.phtml`:
 ```php
 <div id="example-component-2" data-bind="scope: 'component2'"/>
+```
+--
+```php
 <script type="text/x-magento-init">
 {
     "#example-component-2": {
@@ -144,6 +147,9 @@ File `view/frontend/templates/component1.phtml`:
 <div id="example-component-1" data-bind="scope: 'component1'">
     <span data-bind="text: message">Waiting</span>
 </div>
+```
+--
+```php
 <script type="text/x-magento-init">
 {
     "#example-component-1": {
