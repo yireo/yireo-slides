@@ -228,6 +228,10 @@ define(['uiComponent'],
 - `component2` is not doing anything yet
 
 ---
+class: center, middle
+### Exporting and importing
+
+---
 # Export from component2
 File `view/frontend/web/js/component2.js`:
 ```js
@@ -305,6 +309,7 @@ define(['uiComponent'],
         });
     }
 );
+```
 
 ---
 class: orange, center, middle
