@@ -393,6 +393,10 @@ class: center, middle
 - Link components, not component properties
 
 ---
+class: center, middle
+<img class="img-responsive" src="../slides/yireo/images/jisse-frown.jpg" />
+
+---
 # Manually using uiRegistry
 File `view/frontend/web/js/component1.js`:
 ```js
