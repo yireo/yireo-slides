@@ -293,6 +293,47 @@ define(['uiComponent'],
 For this to work, `component2` needs to be loaded earlier in the DOM than `component2`.
 
 ---
+class: center, middle
+### Providers
+
+---
+# Remember the PHTML
+File `view/frontend/templates/component1.phtml`:
+```php
+<script type="text/x-magento-init">
+{
+    "#example-component-1": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "component1": {
+                    "component": "component1",
+                    "provider": "component2"
+                }
+            }
+        }
+    }
+}
+```
+
+---
+# Internal property
+File `view/frontend/web/js/component1.js`:
+```js
+define(['uiComponent'],
+    function (Component) {
+        'use strict';
+        return Component.extend({
+            initialize: {
+                this._super();
+                message: 'Hello World',
+                imports: {
+                    message: '${ $.provider }:message'
+                }
+            }
+        });
+    }
+
+---
 # Template literals
 File `view/frontend/web/js/component1.js`:
 ```js
