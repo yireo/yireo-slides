@@ -313,6 +313,7 @@ File `view/frontend/templates/component1.phtml`:
         }
     }
 }
+</script>
 ```
 
 ---
@@ -332,6 +333,8 @@ define(['uiComponent'],
             }
         });
     }
+);
+```
 
 ---
 # Template literals
