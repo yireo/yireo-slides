@@ -326,10 +326,8 @@ define(['uiComponent'],
         return Component.extend({
             initialize: {
                 this._super();
-                message: 'Hello World',
-                imports: {
-                    message: '${ $.provider }:message'
-                }
+                console.log('Provider: ' + this.provider); // component2
+                return true;
             }
         });
     }
