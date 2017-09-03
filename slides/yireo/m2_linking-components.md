@@ -5,7 +5,7 @@ layout: true
 </div>
 
 ---
-class: center, middle, world, bgimage
+class: center, middle, krakow, bgimage
 # Magento 2
 ## Linking JS Components
 
