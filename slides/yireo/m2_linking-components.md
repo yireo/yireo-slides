@@ -405,6 +405,10 @@ define(['uiComponent', 'uiRegistry'],
 ```
 
 ---
+class: center, middle
+### Before I stop talking
+
+---
 class: orange, center, middle
 <h1 class="magetestfest"><span>Mage</span><span>Test</span><span>Fest</span></h1>
 
