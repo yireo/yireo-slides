@@ -354,6 +354,14 @@ define(['uiComponent'],
 ```
 
 ---
+class: center, middle
+### What are we doing?
+
+---
+# Ingredients
+- RequireJS for dependency management
+
+---
 class: orange, center, middle
 <h1 class="magetestfest"><span>Mage</span><span>Test</span><span>Fest</span></h1>
 
