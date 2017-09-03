@@ -380,15 +380,13 @@ class: center, middle
 # Clean code
 - Design patterns
 - Composition over inheritance
+- Link components, not component properties
 
 ---
 # Manually using uiRegistry
 File `view/frontend/web/js/component1.js`:
 ```js
-define([
-        'uiComponent',
-        'uiRegistry'
-    ],
+define(['uiComponent', 'uiRegistry'],
     function (Component, uiRegistry) {
         'use strict';
         return Component.extend({
@@ -397,7 +395,8 @@ define([
             },
             initialize: function() {
                 this._super();
-                this.message = uiRegistry.get('component2').message;
+                this.providerObject = uiRegistry.get('component2');
+                this.message = this.providerObject.message;
                 return this;
             }
         });
