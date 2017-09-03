@@ -405,6 +405,32 @@ define(['uiComponent', 'uiRegistry'],
 ```
 
 ---
+# Manually using DI
+File `view/frontend/web/js/component1.js`:
+```js
+define(['uiComponent', 'component2'],
+    function (Component, component2) {
+        'use strict';
+        var component2 = component2();
+        return Component.extend({
+            defaults: {
+                message: 'Hello from component 1'
+            },
+            initialize: function() {
+                this._super();
+                this.message = component2.message;
+                return this;
+            }
+        });
+    }
+);
+```
+
+---
+# My advice
+- Prefer DI over linking
+
+---
 class: center, middle
 ### Before I stop talking
 
