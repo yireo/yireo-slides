@@ -203,6 +203,10 @@ define(['uiComponent'],
 <img class="img-responsive" src="../slides/yireo/images/m2_linking-components-02.jpg" />
 
 ---
+# What happened
+- `component1` delivers output through KnockoutJS
+
+---
 # Plain component2
 File `view/frontend/web/js/component2.js`:
 ```js
