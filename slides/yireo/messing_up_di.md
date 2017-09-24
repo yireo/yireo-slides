@@ -252,7 +252,6 @@ class Data extends AbstractHelper
 }
 ```
 
-
 ---
 class: center, middle
 # Migrating from 2.0 to 2.1 ?
@@ -288,13 +287,11 @@ class: center, middle, zero
 # Lessons
 - Don't use helpers
 - Try to keep dependencies to a minimum
+- Depend on interfaces
 
 --
 - Check your `$context` first (2.1)
     - Or choose to ignore it on purpose (2.2)
---
-- Depend on interfaces instead of classes
-    - Check if there is a `preference`
 
 ---
 class: center, middle, orange
@@ -333,9 +330,9 @@ class Product extends AbstractModel
 ---
 # Lessons
 - Don't use helpers
+- Depend on interfaces
 - Try to keep dependencies to a minimum
 - Check your `$context` first
-- Depend on interfaces instead of classes
 - Depend on service interfaces instead of models
     - `ProductRepositoryInterface` instead of `Product` model
 
