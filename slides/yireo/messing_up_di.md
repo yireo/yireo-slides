@@ -74,10 +74,10 @@ class Data extends AbstractHelper
         parent::__construct($context);
     }
 
-    public function warning($text)
+    public function vardump($text, $variable)
     {
-        $text = '[Cool Prefix] ' . $text;
-        $this->logger->warning($text);
+        $text = $text . ' = ' . var_export($variable, true);
+        $this->logger->notice($text);
     }
 }
 ```
@@ -104,10 +104,10 @@ class Data extends AbstractHelper
         parent::__construct($context);
     }
 
-    public function warning($text)
+    public function vardump($text, $variable)
     {
-        $text = '[Cool Prefix] ' . $text;
-        $this->logger->warning($text);
+        $text = $text . ' = ' . var_export($variable, true);
+        $this->logger->notice($text);
     }
 }
 ```
@@ -133,10 +133,10 @@ class Logger
         $this->logger = $logger;
     }
 
-    public function warning($text)
+    public function vardump($text, $variable)
     {
-        $text = '[Cool Prefix] ' . $text;
-        $this->logger->warning($text);
+        $text = $text . ' = ' . var_export($variable, true);
+        $this->logger->notice($text);
     }
 }
 ```
@@ -156,13 +156,18 @@ class Logger
         $this->logger = $logger;
     }
 
-    public function warning($text)
+    public function vardump($text, $variable)
     {
-        $text = '[Cool Prefix] ' . $text;
-        $this->logger->warning($text);
+        $text = $text . ' = ' . var_export($variable, true);
+        $this->logger->notice($text);
     }
 }
 ```
+
+---
+# Lessons
+- Don't use helpers
+    - [Helpers are code smell](http://www.robbagby.com/posts/helper-classes-are-a-code-smell/) (thanks @WebShopApps)
 
 ---
 class: center, middle, zero
