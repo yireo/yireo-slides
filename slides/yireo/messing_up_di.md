@@ -286,12 +286,11 @@ class: center, middle, zero
 ---
 # Lessons
 - Don't use helpers
-- Try to keep dependencies to a minimum
 - Depend on interfaces
+- Try to keep dependencies to a minimum
 
 --
-- Check your `$context` first (2.1)
-    - Or choose to ignore it on purpose (2.2)
+- Use `$context` (2.1) or ignore `$context` (2.2)
 
 ---
 class: center, middle, orange
@@ -332,7 +331,7 @@ class Product extends AbstractModel
 - Don't use helpers
 - Depend on interfaces
 - Try to keep dependencies to a minimum
-- Check your `$context` first
+- Use `$context` (2.1) or ignore `$context` (2.2)
 - Depend on service interfaces instead of models
     - `ProductRepositoryInterface` instead of `Product` model
 
@@ -340,6 +339,7 @@ class Product extends AbstractModel
 # StackExchange example
 ```php
 use Magento\Framework\ObjectManager;
+use Psr\Logger\LoggerInterface;
 
 class Example
 {
@@ -351,7 +351,9 @@ class Example
 
     public function vardump($text, $variable)
     {
-        $logger = $this->objectManager->get(\Psr\Logger\LoggerInterface:class)
+        $logger = $this->objectManager->get(LoggerInterface:class);
+        $text = $text . ' = ' . var_export($variable, true);
+        $logger->notice($text);
     }
 }
 ```
