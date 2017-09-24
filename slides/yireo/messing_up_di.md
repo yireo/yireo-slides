@@ -373,7 +373,9 @@ class: zero
 - Try to keep dependencies to a minimum
 - Use `$context` (2.1) or ignore `$context` (2.2)
 - Depend on service interfaces instead of models
-- Do NOT inject the ObjectManager ever
+
+--
+- Never inject Object Manager
 
 
 ---
@@ -428,20 +430,17 @@ class: center, middle, orange
 
 ---
 class: center, middle, orange
-# Object Manager should NEVER be used - except in factories, shell scripts, builders, weird interceptors, unit tests
+# Object Manager should NEVER be used - except in factories, manual proxies, shell scripts, builders, weird interceptors, unit tests
 
 ---
 # Lessons
 - Don't use helpers
+- Depend on interfaces
 - Try to keep dependencies to a minimum
-- Check your `$context` first
-- Depend on interfaces instead of classes
+- Use `$context` (2.1) or ignore `$context` (2.2)
 - Depend on service interfaces instead of models
-
---
 - Never inject Object Manager
-    - Except for edge cases (factories, scripts, testing, ...)
-
+    - Except for some edge cases
 
 ---
 class: center, middle
