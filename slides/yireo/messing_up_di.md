@@ -60,15 +60,18 @@ class: center, middle, orange
 # Sample helper
 ```php
 namespace Yireo\Example\Helper;
-use Magento\Framework\Logger\Monolog;
+use Magento\Framework\Logger\Monolog as Logger;
+use Magento\Framework\App\Helper\AbstractHelper;
+use Magento\Framework\App\Helper\Context;
 
-class Data
+class Data extends AbstractHelper
 {
-    protected $logger;
+    private $logger;
 
-    public function __construct(Monolog $logger)
+    public function __construct(Logger $logger, Context $context)
     {
         $this->logger = $logger;
+        parent::__construct($context);
     }
 
     public function warning($text)
@@ -138,7 +141,7 @@ class Logger
 ```
 
 ---
-# DI with interfaces
+# Depend on interfaces
 ```php
 namespace Yireo\Example\Helper;
 use Psr\Log\LoggerInterface as Logger;
