@@ -48,14 +48,16 @@ class: center, middle, orange
 
 ---
 class: center, middle
-# Remember the Mage class?
+# Remember `Mage`?
+### `Mage::getSingleton()`
+### `Mage::getModel()`
 
 ---
 class: center, middle, orange
 # ObjectManager is god
 
 ---
-# DI in theory
+# Sample helper
 ```php
 namespace Yireo\Example\Helper;
 use Magento\Framework\Logger\Monolog;
@@ -79,6 +81,28 @@ class Data
 ---
 class: center, middle, orange
 # Did you see him?
+
+---
+# Sample helper
+```php
+namespace Yireo\Example\Helper;
+use Magento\Framework\Logger\Monolog;
+
+class Data
+{
+    protected $logger;
+
+    public function __construct(Monolog $logger)
+    {
+        $this->logger = $logger;
+    }
+
+    public function warning($text)
+    {
+        $this->logger->warning($text);
+    }
+}
+```
 
 ---
 # Lessons
