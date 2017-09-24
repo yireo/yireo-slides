@@ -47,6 +47,10 @@ class: center, middle, orange
     - Don't call us, we call you
 
 ---
+class: center, middle
+# Remember the Mage class?
+
+---
 class: center, middle, orange
 # ObjectManager is god
 
@@ -71,6 +75,10 @@ class Data
     }
 }
 ```
+
+---
+class: center, middle, orange
+# Did you see him?
 
 ---
 # Lessons
@@ -148,15 +156,6 @@ class Product extends AbstractModel
     ) {
         ...
 ```
-
----
-class: center, middle, zero
-<div style="position:relative;">
-<img src="../images/magetitans-it/spaghetti-baby.jpg" class="img-responsive" />
-<div style="position:absolute; bottom:60px; left:0; right:0; text-align:center;">
-    <h1 class="shadow" style="font-size: 300%">Spaghetti Code</h1>
-</div>
-</div>
 
 ---
 # Too many dependencies
