@@ -361,8 +361,10 @@ class Example
 ```
 
 ---
-class: center, middle
-<img class="img-responsive" src="../slides/yireo/images/complex-diagram.jpg" />
+class: fullscreen
+<div class="img-wrapper">
+<img class="img-responsive" src="../slides/yireo/images/riccardo-meme-resized.jpg" />
+</div>
 
 ---
 class: center, middle
