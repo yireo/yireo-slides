@@ -167,7 +167,8 @@ class Logger
 ---
 # Lessons
 - Don't use helpers
-    - [Helpers are code smell](http://www.robbagby.com/posts/helper-classes-are-a-code-smell/) (thanks @WebShopApps)
+- Depend on interfaces
+    - Dependency inversion principle of SOLID
 
 ---
 class: center, middle, zero
@@ -206,6 +207,7 @@ class Product extends AbstractModel
 ---
 # Lessons
 - Don't use helpers
+- Depend on interfaces
 
 --
 - Try to keep dependencies to a minimum
@@ -242,9 +244,10 @@ use Magento\Framework\App\Helper\Context;
 
 class Data extends AbstractHelper
 {
-    public function warning($text)
+    public function vardump($text, $variable)
     {
-        $this->_logger->warning($text);
+        $text = $text . ' = ' . var_export($variable, true);
+        $this->_logger->notice($text);
     }
 }
 ```
