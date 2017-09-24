@@ -430,7 +430,7 @@ class: center, middle, orange
 
 ---
 class: center, middle, orange
-# Object Manager should NEVER be used - except in factories, manual proxies, shell scripts, builders, weird interceptors, unit tests
+# Object Manager should NEVER be used - except in factories, manual proxies, shell scripts, builders, weird interceptors, unit tests, integration tests
 
 ---
 # Lessons
