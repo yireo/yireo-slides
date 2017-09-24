@@ -361,9 +361,8 @@ class Example
 ```
 
 ---
-class: fullscreen
-<div class="img-wrapper">
-<img class="img-responsive" src="../slides/yireo/images/riccardo-meme-resized.jpg" />
+class: zero
+<div class="img-wrapper" style="background-image: url(../slides/yireo/images/riccardo-meme-resized.jpg)">
 </div>
 
 ---
