@@ -23,14 +23,11 @@ class: orange
 --
 
 - Magento 2 Master "Mover" (2017)
---
-
-- Knockout JiSse (I don't why)
 
 ---
 # My talk
 - Dependency Injection
-- ObjectManager & Factory
+- What not to do in DI
 - Refactoring
 
 ---
