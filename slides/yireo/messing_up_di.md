@@ -343,10 +343,12 @@ use Psr\Logger\LoggerInterface;
 
 class Example
 {
+    private $objectManager;
+
     public function __construct(
         ObjectManager $objectManager
     ) {
-        $this->_objectManager = $objectManager;
+        $this->objectManager = $objectManager;
     }
 
     public function vardump($text, $variable)
@@ -358,6 +360,9 @@ class Example
 }
 ```
 
+---
+class: center, middle
+<img class="img-responsive" src="../slides/yireo/images/complex-diagram.jpg" />
 
 ---
 class: center, middle
