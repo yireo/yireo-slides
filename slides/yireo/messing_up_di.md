@@ -73,6 +73,7 @@ class Data
 
     public function warning($text)
     {
+        $text = '[Cool Prefix] ' . $text;
         $this->logger->warning($text);
     }
 }
@@ -99,6 +100,7 @@ class Data
 
     public function warning($text)
     {
+        $text = '[Cool Prefix] ' . $text;
         $this->logger->warning($text);
     }
 }
@@ -111,24 +113,27 @@ class Data
 
 
 ---
-# DI in practice
+# Sample logger
 ```php
-namespace Yireo\Example\Helper;
+namespace Yireo\Example\Logger;
 use Magento\Framework\Logger\Monolog;
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;
 
-class Data extends AbstractHelper
+class Logger
 {
     protected $logger;
 
-    public function __construct(Monolog $logger, Context $context)
+    public function __construct(Monolog $logger)
     {
         $this->logger = $logger;
-        parent::__construct($context);
     }
 
-    ...
+    public function warning($text)
+    {
+        $text = '[Cool Prefix] ' . $text;
+        $this->logger->warning($text);
+    }
 }
 ```
 
@@ -137,20 +142,21 @@ class Data extends AbstractHelper
 ```php
 namespace Yireo\Example\Helper;
 use Psr\Log\LoggerInterface as Logger;
-use Magento\Framework\App\Helper\AbstractHelper;
-use Magento\Framework\App\Helper\Context;
 
-class Data extends AbstractHelper
+class Logger
 {
     protected $logger;
 
-    public function __construct(Logger $logger, Context $context)
+    public function __construct(Logger $logger)
     {
         $this->logger = $logger;
-        parent::__construct($context);
     }
 
-    ...
+    public function warning($text)
+    {
+        $text = '[Cool Prefix] ' . $text;
+        $this->logger->warning($text);
+    }
 }
 ```
 
