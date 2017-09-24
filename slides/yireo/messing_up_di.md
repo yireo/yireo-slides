@@ -113,7 +113,7 @@ class Data extends AbstractHelper
 ```
 
 ---
-class: zero, center
+class: center, middle, zero
 <div class="img-wrapper" style="background-image: url(../slides/yireo/images/kim-jong-il.jpg)">
 <h1 class="white">You don't need helpers</h1>
 </div>

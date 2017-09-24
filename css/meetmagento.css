@@ -211,6 +211,10 @@ div.img-wrapper {
     padding: 5%;
 }
 
+.white {
+    color: white;
+}
+
 pre {
     white-space: pre-wrap;
 }
