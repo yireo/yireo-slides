@@ -302,15 +302,6 @@ class Product extends AbstractModel
     - `ProductRepositoryInterface` instead of `Product` model
 
 ---
-class: center, middle, zero
-<div style="position:relative;">
-<img src="../images/magetitans-it/godfather.jpg" class="img-responsive" />
-<div style="position:absolute; top:20px; left:0; right:0; text-align:center;">
-    <h1 class="shadow invert" style="font-size: 140%">Never inject Object Manager</h1>
-</div>
-</div>
-
----
 class: center, middle
 # Factories
 
