@@ -1,6 +1,6 @@
 layout: true
 <div class="slide-footer">
-    <span>Messing Up DI - Jisse Reitsma - MageTitans Italy 2017</span>
+    <span>Messing Up DI - Jisse Reitsma - MeetMagento Belgium 2017</span>
 </div>
 
 ---
@@ -8,8 +8,7 @@ class: center, middle, world, bgimage
 # Messing Up
 ## Dependency Injection
 
-MageTitans Italy 2017<br/>
-Milano, Italia
+MeetMagento Belgium 2017<br/>
 
 ---
 class: orange
@@ -33,15 +32,6 @@ class: orange
 - Dependency Injection
 - ObjectManager & Factory
 - Refactoring
-
----
-class: center, middle, zero
-<div style="position:relative;">
-<img src="../images/magetitans-it/spaghetti.jpg" class="img-responsive" />
-<div style="position:absolute; top:-30px; left:0; right:0; text-align:center;">
-    <h1 class="shadow" style="font-size: 400%">I <i class="fa fa-heart"></i> Spaghetti</h1>
-</div>
-</div>
 
 ---
 class: center, middle, orange
@@ -92,7 +82,7 @@ class Data
 
 
 ---
-# DI in practice 
+# DI in practice
 ```php
 namespace Yireo\Example\Helper;
 use Magento\Framework\Logger\Monolog;
@@ -144,7 +134,7 @@ class: center, middle, zero
 namespace Magento\Catalog\Model;
 use ...;
 
-class Product extends AbstractModel 
+class Product extends AbstractModel
   implements IdentityInterface, SaleableInterface, ProductInterface
 {
     public function __construct(
@@ -284,7 +274,7 @@ class: center, middle, orange
 namespace Magento\Catalog\Model;
 use ...;
 
-class Product extends AbstractModel 
+class Product extends AbstractModel
   implements IdentityInterface, SaleableInterface, ProductInterface
 {
     public function __construct(
@@ -356,7 +346,7 @@ class BaseFactory
     public function create($sourceData = null)
     {
         return $this->_objectManager->create(
-            'Magento\Core\Model\Config\Base', 
+            'Magento\Core\Model\Config\Base',
             array('sourceData' => $sourceData));
     }
 }
@@ -399,4 +389,3 @@ class: orange, center, middle
 class: center, middle, world
 # Heads up?
 ### @jissereitsma
-
