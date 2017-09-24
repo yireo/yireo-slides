@@ -337,6 +337,27 @@ class Product extends AbstractModel
     - `ProductRepositoryInterface` instead of `Product` model
 
 ---
+# StackExchange example
+```php
+use Magento\Framework\ObjectManager;
+
+class Example
+{
+    public function __construct(
+        ObjectManager $objectManager
+    ) {
+        $this->_objectManager = $objectManager;
+    }
+
+    public function vardump($text, $variable)
+    {
+        $logger = $this->objectManager->get(\Psr\Logger\LoggerInterface:class)
+    }
+}
+```
+
+
+---
 class: center, middle
 # Factories
 
