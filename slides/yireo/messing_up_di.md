@@ -387,5 +387,5 @@ class: orange, center, middle
 
 ---
 class: center, middle, world
-# Heads up?
+# See you soon!
 ### @jissereitsma
