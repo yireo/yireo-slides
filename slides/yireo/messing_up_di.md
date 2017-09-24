@@ -113,9 +113,9 @@ class Data extends AbstractHelper
 ```
 
 ---
-class: zero
-<div class="img-wrapper" style="background-image: url(../slides/yireo/images/riccardo-meme-resized.jpg)">
-<h1>I beg your pardon?</h1>
+class: zero, center
+<div class="img-wrapper" style="background-image: url(../slides/yireo/images/kim-jong-il.jpg)">
+<h1 class="white">You don't need helpers</h1>
 </div>
 
 ---
