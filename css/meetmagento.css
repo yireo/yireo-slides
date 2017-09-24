@@ -205,6 +205,12 @@ div.remark-slide-content.zero div.slide-footer {
     display: none;
 }
 
+div.img-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+
 pre {
     white-space: pre-wrap;
 }

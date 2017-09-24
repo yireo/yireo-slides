@@ -363,7 +363,18 @@ class Example
 ---
 class: zero
 <div class="img-wrapper" style="background-image: url(../slides/yireo/images/riccardo-meme-resized.jpg)">
+<h1>I beg your pardon?</h1>
 </div>
+
+---
+# Lessons
+- Don't use helpers
+- Depend on interfaces
+- Try to keep dependencies to a minimum
+- Use `$context` (2.1) or ignore `$context` (2.2)
+- Depend on service interfaces instead of models
+- Do NOT inject the ObjectManager ever
+
 
 ---
 class: center, middle
