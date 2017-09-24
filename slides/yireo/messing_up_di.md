@@ -443,6 +443,16 @@ class: center, middle, orange
     - Except for some edge cases
 
 ---
+# Lessons
+- Don't use helpers
+- Depend on interfaces
+- Try to keep dependencies to a minimum
+- Use `$context` (2.1) or ignore `$context` (2.2)
+- Depend on service interfaces instead of models
+- Never inject Object Manager
+- Do not inject exceptions, plugins, proxies
+
+---
 class: center, middle
 # Keep refactoring
 
