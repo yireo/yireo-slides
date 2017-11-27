@@ -125,12 +125,25 @@ yo karma --test-framework=jasmine
 ```
 
 ---
-# Creating skeleton
-Modify file `karma.conf.js`:
-- `frameworks: ['mocha']`
-- `files: ['spec/*.js']`
-- `browsers: ['Chrome']`
-- Add `karma-chrome-launcher` to `plugins` array
+# Karma config for Jasmine
+File `karma.conf.js`:
+```js
+module.exports = function(config) {
+  'use strict';
+  config.set({
+    basePath: '',
+    frameworks: ['jasmine'],
+    files: ['spec/*.js'],
+    port: 8080,
+    browsers: ['Chrome'],
+    plugins: [
+      'karma-phantomjs-launcher',
+      'karma-chrome-launcher',
+      'karma-jasmine'
+    ]
+  });
+};
+```
 
 ???
 Browser can be Chrome, Firefox, Opera, Safari, IE, with or without graphical output: `xvfb`. Or PhantomJS.
@@ -141,7 +154,6 @@ File `test/spec/test.js`:
 ```js
 (function () {
   'use strict';
-
   describe('Give it some context', function () {
     describe('maybe a bit more context here', function () {
       it('should run here few assertions', function () {
@@ -174,9 +186,26 @@ Installing packages:
 npm  install karma-mocha mocha
 ```
 
-Edit file `karma.conf.js`:
-- `frameworks: ['mocha']`
-- Add `karma-mocha` to `plugins` array
+---
+# Karma config for Mocha
+File `karma.conf.js`:
+```js
+module.exports = function(config) {
+  'use strict';
+  config.set({
+    basePath: '',
+    frameworks: ['mocha'],
+    files: ['spec/*.js'],
+    port: 8080,
+    browsers: ['Chrome'],
+    plugins: [
+      'karma-phantomjs-launcher',
+      'karma-chrome-launcher',
+      'karma-mocha'
+    ]
+  });
+};
+```
 
 ---
 # Run tests
