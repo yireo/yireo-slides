@@ -406,6 +406,10 @@ npm install requirejs
 
 ---
 {center}
+### `jQuery requires a window with a document`
+
+---
+{center}
 ### Mocking jQuery or just using it?
 
 ???
