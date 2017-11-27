@@ -92,13 +92,13 @@ Assertion libraries most commonly provide a `assert()` function.
 # Getting started with Jasmine
 Installing packages:
 ```bash
-sudo npm install -g jasmine-node
-sudo npm install -g yo
-sudo npm install -g generator-jasmine
+$ npm install -g jasmine-node
+$ npm install -g yo
+$ npm install -g generator-jasmine
 ```
 Creating a Jasmine skeleton:
 ```bash
-yo jasmine
+$ yo jasmine
 ```
 
 Files:
@@ -114,14 +114,14 @@ Open up HTML file to run test
 # Adding Karma
 Installing packages:
 ```bash
-npm install -g karma
-npm install -g generator-karma
-npm install karma-chrome-launcher
+$ npm install -g karma
+$ npm install -g generator-karma
+$ npm install karma-chrome-launcher
 ```
 
 Creating a Karma/Jasmine skeleton
 ```bash
-yo karma --test-framework=jasmine
+$ yo karma --test-framework=jasmine
 ```
 
 ---
@@ -170,9 +170,9 @@ Dependencies of this test are limited to only Jasmine.
 ---
 # Run tests
 ```bash
-cd test/
-karma start
-karma start karma.conf.js
+$ cd test/
+$ karma start
+$ karma start karma.conf.js
 ```
 
 ---
@@ -183,7 +183,7 @@ karma start karma.conf.js
 # Karma + Mocha
 Installing packages:
 ```js
-npm  install karma-mocha mocha
+$ npm  install karma-mocha mocha
 ```
 
 ---
@@ -211,13 +211,13 @@ module.exports = function(config) {
 # Run tests
 Mocha only:
 ```bash
-node_modules/mocha/bin/mocha test/mocha/test.js
+$ node_modules/mocha/bin/mocha test/spec/test.js
 ```
 or via Karma:
 ```bash
-cd test/
-karma start
-karma start karma.conf.js
+$ cd test/
+$ karma start
+$ karma start karma.conf.js
 ```
 
 ---
@@ -226,7 +226,6 @@ File `test/spec/test.js`:
 ```js
 (function () {
   'use strict';
-
   const assert = require('assert');
   describe('Give it some context', function () {
     describe('maybe a bit more context here', function () {
@@ -249,24 +248,41 @@ Example is using NodeJS `assert`. Note that `require` is provided by the NodeJS 
 # Adding Chai
 Installing packages:
 ```bash
-npm install karma-chai
+$ npm install karma-chai
 ```
 
-Edit file `karma.conf.js`:
-- `frameworks: ['mocha', 'chai']`
-- Add `karma-mocha` to `plugins` array
+---
+# Karma config for Mocha+Chai
+File `karma.conf.js`:
+```js
+module.exports = function(config) {
+  'use strict';
+  config.set({
+    basePath: '',
+    frameworks: ['mocha', 'chai'],
+    files: ['spec/*.js'],
+    port: 8080,
+    browsers: ['Chrome'],
+    plugins: [
+      'karma-phantomjs-launcher',
+      'karma-chrome-launcher',
+      'karma-mocha'
+    ]
+  });
+};
+```
 
 ---
 # Run tests
 Mocha only:
 ```bash
-node_modules/mocha/bin/mocha test/mocha/test.js
+$ node_modules/mocha/bin/mocha test/spec/test.js
 ```
 or via Karma:
 ```bash
-cd test/
-karma start
-karma start karma.conf.js
+$ cd test/
+$ karma start
+$ karma start karma.conf.js
 ```
 
 ---
@@ -275,7 +291,6 @@ File `test/spec/test.js`:
 ```js
 (function () {
   'use strict';
-
   const assert = chai.assert;
   describe('Give it some context', function () {
     describe('maybe a bit more context here', function () {
@@ -298,12 +313,12 @@ Dependencies are same as before, plus Chai. Only upside is that Chai does not cl
 # Adding Tape
 Installing packages:
 ```bash
-npm install -g tape
+$ npm install -g tape
 ```
 
 Run tests:
-```
-tape test/spec/test.js
+```bash
+$ tape test/spec/test.js
 ```
 
 ---
@@ -312,7 +327,6 @@ File `test/spec/test.js`:
 ```js
 (function () {
   'use strict';
-
   const test = require('tape');
   test('Give it some context', function (t) {
     t.equal(typeof true, 'boolean');
@@ -369,7 +383,7 @@ define(['jquery'], function($) {
 ```
 
 PHTML template:
-```
+```html
 <div class="my-div" data-mage-init="{'my-component':{}}"></div>
 ```
 
