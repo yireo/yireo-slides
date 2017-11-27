@@ -96,12 +96,7 @@ sudo npm install -g jasmine-node
 sudo npm install -g yo
 sudo npm install -g generator-jasmine
 ```
-
-???
-Yeoman project generator
-
----
-# Creating a Jasmine skeleton
+Creating a Jasmine skeleton:
 ```bash
 yo jasmine
 ```
@@ -111,6 +106,8 @@ Files:
 - `test/spec/test.js`
 
 ???
+Yeoman project generator
+
 Open up HTML file to run test
 
 ---
@@ -122,12 +119,13 @@ npm install -g generator-karma
 npm install karma-chrome-launcher
 ```
 
----
-# Creating skeleton
+Creating a Karma/Jasmine skeleton
 ```bash
 yo karma --test-framework=jasmine
 ```
 
+---
+# Creating skeleton
 Modify file `karma.conf.js`:
 - `frameworks: ['mocha']`
 - `files: ['spec/*.js']`
