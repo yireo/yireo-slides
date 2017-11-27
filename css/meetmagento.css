@@ -103,6 +103,9 @@ h3 {
 
 code {
     background-color: #d2e8f8;
+    font-size: 80%;
+    font-weight: 300;
+    color: #222;
 }
 
 .remark-slide-content.orange code {
@@ -220,9 +223,9 @@ pre {
 }
 
 ul li span.label {
-    font-weight: bold;
 }
 
 ul li span.value {
-    font-size: 90%;
+    font-size: 60%;
 }
+
