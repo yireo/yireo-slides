@@ -44,6 +44,9 @@ $root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
 ob_start(); 
 require_once $slide;
 $slideContent = ob_get_clean(); 
+$slideContent = str_replace('{main}', 'class: center, middle, main', $slideContent);
+$slideContent = str_replace('{center}', 'class: center, middle', $slideContent);
+$slideContent = preg_replace('/^- ([^:]+): (.*)$/g', '', $slideContent);
 ?>
 <!DOCTYPE html>
 <html>
