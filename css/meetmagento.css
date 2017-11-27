@@ -218,3 +218,11 @@ div.img-wrapper {
 pre {
     white-space: pre-wrap;
 }
+
+ul li span.label {
+    font-weight: bold;
+}
+
+ul li span.value {
+    font-size: 90%;
+}
