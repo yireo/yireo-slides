@@ -39,6 +39,11 @@ if(file_exists($slide) == false) die('no slide');
 if(stristr($slide, __DIR__) == false) die('access denied');
 
 $root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
+
+// Parse content
+ob_start(); 
+require_once $slide;
+$slideContent = ob_get_clean(); 
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,7 +56,7 @@ $root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
     <link rel="stylesheet" href="<?php echo $root_url; ?>font-awesome/css/font-awesome.min.css">
   </head>
   <body>
-    <textarea id="source"><?php include_once $slide; ?></textarea>
+    <textarea id="source"><?php echo $slideContent; ?></textarea>
     <script src="<?php echo $root_url; ?>js/remark-latest.min.js"></script>
     <script>
       var slideshow = remark.create({

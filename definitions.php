@@ -13,6 +13,7 @@ $slideGroups = array(
         'group' => 'MeetMagento',
         'style' => 'meetmagento',
         'slides' => array(
+            array('file' => 'yireo/js_testing', 'title' => 'What to test in JS (MageConf 2017 Ukraine)', 'public' => 1),
             array('file' => 'yireo/messing_up_di', 'title' => 'Messing Up DI (MeetMagento 2017 Belgium)', 'public' => 1),
             array('file' => 'yireo/m2_linking-components', 'title' => 'M2 Linking JS Components'),
             array('file' => 'yireo/m2_private_content', 'title' => 'M2 Private Data via JS Components'),
