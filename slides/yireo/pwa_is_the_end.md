@@ -61,5 +61,28 @@ And the output is ...?
 - Private content via `customer-data.js`
 - Custom KO `data-bind` handlers
 - RequireJS mixins
-- UiComponent
+- JS components versus KO ViewModels
+- UiComponent children and templating
 - (linking/importing/exporting)
+
+---
+# Roadmap
+- Magento 2.0: initial release
+- Magento 2.1: breaking stuff
+- Magento 2.2: stability
+- Magento 2.3: completing the API
+- Magento 2.4: PWA
+
+---
+# Magento 2.3
+- Better REST API
+- GraphQL
+- CQRS
+
+---
+# Magento 2.4
+- Progressive Web Apps (PWA)
+  - Serviceworkers
+  - React + Redux
+  - NodeJS backend jobs
+- PWA Studio
