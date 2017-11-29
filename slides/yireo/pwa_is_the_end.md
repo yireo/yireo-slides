@@ -117,11 +117,13 @@ And the output is ...?
 - RequireJS > Webpack (?)
 - Stripped down HTML document
   - Less need for XML layout / Blocks / PHTML (?)
-- Complete refactoring of UiComponents
+- Complete refactoring of JS Components
   - No more RequireJS, KO
   - New architectural design (FLUX?)
+  - No more UiComponents (?)
 
 ---
+{center}
 # This is the end
 ### as we know it
 
@@ -131,5 +133,10 @@ And the output is ...?
   - Or go headless
 - Old theming layer will still be there
   - Magento backend
-  -
+  - Your own frontend
   - Maybe deprecated in Magento 3?
+
+---
+{center}
+# This is the beginning
+### of something greater
