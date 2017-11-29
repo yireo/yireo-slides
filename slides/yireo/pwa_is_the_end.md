@@ -47,7 +47,7 @@ And the output is ...?
 
 ---
 # Magento 2 frontend
-- XML layout
+~ XML layout
 - PHTML templates
 - Block classes
 - RequireJS dependency management
@@ -147,7 +147,7 @@ And the output is ...?
 ---
 {center}
 ## Coffee with James Zetlen
-### March 2018, The Netherlands
+### March 13th, 2018 - The Netherlands
 
 ---
 {center}

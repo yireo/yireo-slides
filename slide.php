@@ -47,6 +47,7 @@ $slideContent = ob_get_clean();
 $slideContent = str_replace('{main}', 'class: center, middle, main', $slideContent);
 $slideContent = str_replace('{center}', 'class: center, middle', $slideContent);
 $slideContent = preg_replace('/^\-\ ([a-zA-Z0-9\ \-\.]+)\:\ (.*)$/m', '- <span class="label">\1&nbsp;</span><span class="value">\2</span>', $slideContent);
+$slideContent = preg_replace('/^\~\ /m', "- ", $slideContent);
 ?>
 <!DOCTYPE html>
 <html>
