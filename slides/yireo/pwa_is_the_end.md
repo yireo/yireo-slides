@@ -1,12 +1,12 @@
 layout: true
-<div class="slide-heading">PWA: Is the end?</div>
 <div class="slide-footer">
-    <span>PWA: Is the end? - Jisse Reitsma - ChristMage 2017 Aachen</span>
+    <span>PWA - Is the end? - Jisse Reitsma - ChristMage 2017 Aachen</span>
 </div>
 
 ---
 {main}
-# PWA: Is this the end?
+# PWA
+### Is this the end?
 
 ---
 {center}
@@ -75,7 +75,9 @@ And the output is ...?
 
 ---
 # Magento 2.3
-- Better REST API
+- REST API
+  - Checkout API (?)
+  - Reusage of `frontend` area or new area (?)
 - GraphQL
 - CQRS
 
@@ -86,3 +88,18 @@ And the output is ...?
   - React + Redux
   - NodeJS backend jobs
 - PWA Studio
+  - Helping devs build PWAs
+
+---
+# PWA
+- Invented by Google
+- Serviceworkers
+- Offline behaviour
+- Add app to dashboard
+
+---
+# The change
+- KnockoutJS > React / JSX (?)
+- RequireJS > Webpack (?)
+- Stripped down HTML document
+- Complete refactoring of UiComponents
