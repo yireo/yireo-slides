@@ -410,9 +410,6 @@ npm install jquery
 npm install requirejs
 ```
 
-MAJOR FAIL: `jQuery requires a window with a document`
-
-
 ---
 # The test (Tape)
 ```js
