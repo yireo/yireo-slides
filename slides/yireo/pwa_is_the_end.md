@@ -137,6 +137,12 @@ And the output is ...?
   - Maybe deprecated in Magento 3?
 
 ---
+# What can you do for now?
+- Build simple PWA app using ReactJS
+  - Learn more JavaScript
+  - Inspect with Lighthouse
+
+---
 {center}
 # This is the beginning
 ### of something greater
