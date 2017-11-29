@@ -78,8 +78,10 @@ And the output is ...?
 - REST API
   - Checkout API (?)
   - Reusage of `frontend` area or new area (?)
+  - URL mapping (?)
 - GraphQL
-- CQRS
+- CQRS instead of just MVC
+- Allowing for better headless Magento
 
 ---
 # Magento 2.4
@@ -92,10 +94,22 @@ And the output is ...?
 
 ---
 # PWA
-- Invented by Google
+- Initial draft by Google
 - Serviceworkers
 - Offline behaviour
 - Add app to dashboard
+- Web App Manifest
+- Responsiveness
+
+---
+# Old versus New
+- Old
+  - Build full HTML document
+  - Add JS to it
+- New (PWA)
+  - Build tiny HTML document
+  - Add JS to it (serviceworkers)
+  - Build full HTML using JS
 
 ---
 # The change
@@ -105,7 +119,7 @@ And the output is ...?
   - Less need for XML layout / Blocks / PHTML (?)
 - Complete refactoring of UiComponents
   - No more RequireJS, KO
-  - New architectural design
+  - New architectural design (FLUX?)
 
 ---
 # This is the end
@@ -114,6 +128,7 @@ And the output is ...?
 ---
 # The future
 - You have a choice between PWA and regular frontend
+  - Or go headless
 - Old theming layer will still be there
   - Magento backend
   -
