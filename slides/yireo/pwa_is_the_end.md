@@ -102,4 +102,19 @@ And the output is ...?
 - KnockoutJS > React / JSX (?)
 - RequireJS > Webpack (?)
 - Stripped down HTML document
+  - Less need for XML layout / Blocks / PHTML (?)
 - Complete refactoring of UiComponents
+  - No more RequireJS, KO
+  - New architectural design
+
+---
+# This is the end
+### as we know it
+
+---
+# The future
+- You have a choice between PWA and regular frontend
+- Old theming layer will still be there
+  - Magento backend
+  -
+  - Maybe deprecated in Magento 3?
