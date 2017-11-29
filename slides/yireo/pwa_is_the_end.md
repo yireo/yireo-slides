@@ -141,6 +141,13 @@ And the output is ...?
 - Build simple PWA app using ReactJS
   - Learn more JavaScript
   - Inspect with Lighthouse
+- Play with other JS frameworks
+  - Vue, Angular, Knockout
+
+---
+{center}
+## Coffee with James Zetlen
+### March 2018, The Netherlands
 
 ---
 {center}
