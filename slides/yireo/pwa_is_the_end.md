@@ -48,22 +48,22 @@ And the output is ...?
 ---
 # Magento 2 frontend
 ~ XML layout
-- PHTML templates
-- Block classes
-- RequireJS dependency management
-- KnockoutJS templating
-- UiComponents
+~ PHTML templates
+~ Block classes
+~ RequireJS dependency management
+~ KnockoutJS templating
+~ UiComponents
 
 ---
 # Magento 2 JavaScript
-- `x-magento-init` / `data-mage-init`
-- KnockoutJS observers and subscribers
-- Private content via `customer-data.js`
-- Custom KO `data-bind` handlers
-- RequireJS mixins
-- JS components versus KO ViewModels
-- UiComponent children and templating
-- (linking/importing/exporting)
+~ `x-magento-init` / `data-mage-init`
+~ KnockoutJS observers and subscribers
+~ Private content via `customer-data.js`
+~ Custom KO `data-bind` handlers
+~ RequireJS mixins
+~ JS components versus KO ViewModels
+~ UiComponent children and templating
+~ (linking/importing/exporting)
 
 ---
 # Roadmap
@@ -75,21 +75,21 @@ And the output is ...?
 
 ---
 # Magento 2.3
-- REST API
-  - Checkout API (?)
-  - Reusage of `frontend` area or new area (?)
-  - URL mapping (?)
-- GraphQL
-- CQRS instead of just MVC
-- Allowing for better headless Magento
+~ REST API
+  ~ Checkout API (?)
+  ~ Reusage of `frontend` area or new area (?)
+  ~ URL mapping (?)
+~ GraphQL
+~ CQRS instead of just MVC
+~ Allowing for better headless Magento
 
 ---
 # Magento 2.4
-- Progressive Web Apps (PWA)
-  - Serviceworkers
-  - React + Redux
-  - NodeJS backend jobs
-- PWA Studio
+~ Progressive Web Apps (PWA)
+  ~ Serviceworkers
+  ~ React + Redux
+  ~ NodeJS backend jobs
+~ PWA Studio
   - Helping devs build PWAs
 
 ---
@@ -106,21 +106,21 @@ And the output is ...?
 - Old
   - Build full HTML document
   - Add JS to it
-- New (PWA)
+~ New (PWA)
   - Build tiny HTML document
   - Add JS to it (serviceworkers)
   - Build full HTML using JS
 
 ---
 # The change
-- KnockoutJS > React / JSX (?)
-- RequireJS > Webpack (?)
-- Stripped down HTML document
+~ KnockoutJS > React / JSX (?)
+~ RequireJS > Webpack (?)
+~ Stripped down HTML document
   - Less need for XML layout / Blocks / PHTML (?)
-- Complete refactoring of JS Components
-  - No more RequireJS, KO
-  - New architectural design (FLUX?)
-  - No more UiComponents (?)
+~ Complete refactoring of JS Components
+  ~ No more RequireJS, KO
+  ~ New architectural design (FLUX?)
+  ~ No more UiComponents (?)
 
 ---
 {center}
@@ -129,20 +129,21 @@ And the output is ...?
 
 ---
 # The future
-- You have a choice between PWA and regular frontend
+~ You have a choice between PWA and regular frontend
   - Or go headless
-- Old theming layer will still be there
+~ Old theming layer will still be there
   - Magento backend
   - Your own frontend
   - Maybe deprecated in Magento 3?
 
 ---
 # What can you do for now?
-- Build simple PWA app using ReactJS
+~ Build simple PWA app using ReactJS
   - Learn more JavaScript
   - Inspect with Lighthouse
-- Play with other JS frameworks
+~ Play with other JS frameworks
   - Vue, Angular, Knockout
+~ Attend conference talks on PWA
 
 ---
 {center}
