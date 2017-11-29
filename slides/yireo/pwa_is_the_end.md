@@ -13,10 +13,18 @@ layout: true
 ## JavaScript
 ### our peculiar friend
 
+---
+# Lovely typing
 ```js
 var test = require('tape');
-test('Null is an object', function (t) {
+
+test('null is an object', function (t) {
   t.equal(typeof null, 'object');
+  t.end();
+});
+
+test('NaN is a number', function (t) {
+  t.equal(typeof NaN, 'number');
   t.end();
 });
 ```
