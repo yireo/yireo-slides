@@ -65,6 +65,9 @@ class Slide
         $this->replaceTags();
         $this->replacePatterns();
 
+        $this->slides = explode("\n---\n", $this->content);
+        
+
         return $this->content;
     }
 

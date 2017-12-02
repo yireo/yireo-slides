@@ -11,15 +11,16 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Alfa+Slab+One|Black+Ops+One|Bowlby+One"
           rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/reveal.css">
-    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/black.css">
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/white.css">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $definition->getStyle(); ?>.css"/>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 <div class="reveal">
     <div class="slides">
-        <section>Slide 1</section>
-        <section>Slide 2</section>
+        <section data-markdown>
+	        <textarea data-template><?php echo $slide->getContent(); ?></textarea>
+        </section>
     </div>
 </div>
 <script src="<?php echo $rootUrl; ?>js/reveal.js"></script>
