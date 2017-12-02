@@ -17,7 +17,8 @@ class Reveal implements RendererInterface
     {
         $slides = explode("\n---\n", $content);
         foreach ($slides as $slideId => $slide) {
-            $slides[$slideId] = $this->renderSection($slide);
+            $slide = $this->renderSection($slide);
+            $slides[$slideId] = $slide;
         }
 
         return implode('',$slides);
@@ -32,21 +33,25 @@ class Reveal implements RendererInterface
     {
         $sectionAttributes = [];
 
+        if ($sectionParts = explode('???', $section)) {
+            $section = $sectionParts[0];
+        }
+
         if (preg_match('/\{background-image: (.*)\}/', $section, $match)) {
             $section = str_replace($match[0], '', $section);
             $sectionAttributes[] = 'data-background-image="images/'.$match[1].'"';
         }
 
-        if (preg_match('/\{main\}/', $section, $match)) {
+        if (preg_match('/\{state: (.*)\}/', $section, $match)) {
             $section = str_replace($match[0], '', $section);
-            $sectionAttributes[] = 
+            $sectionAttributes[] = 'data-state="main"';
         }
 
         $sectionStart = "<section data-markdown ".implode(' ', $sectionAttributes).">";
         $sectionStart .= "\n<textarea data-template>\n";
-        $sectionEnd = "</textarea>\n</section>\n";
+        $sectionEnd = "</textarea>\n</section>";
 
-        $section = trim($sectionStart . $section . $sectionEnd;);
+        $section = $sectionStart . trim($section) . $sectionEnd."\n";
         return $section;
     }
 }

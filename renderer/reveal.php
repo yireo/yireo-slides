@@ -18,9 +18,7 @@
 <body>
 <div class="reveal">
     <div class="slides">
-        <section data-markdown>
-	        <textarea data-template><?php echo $slide->getContent(); ?></textarea>
-        </section>
+        <?php echo $slide->getContent(); ?>
     </div>
 </div>
 <script src="<?php echo $rootUrl; ?>js/reveal.js"></script>
