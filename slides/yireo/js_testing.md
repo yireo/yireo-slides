@@ -83,6 +83,7 @@ Assertion libraries most commonly provide a `assert()` function.
 
 ---
 {state: main}
+{background-image: mageconf/bg-divider.png}
 # Jasmine basics
 
 ---
@@ -174,6 +175,7 @@ $ karma start karma.conf.js
 
 ---
 {state: main}
+{background-image: mageconf/bg-divider.png}
 # Adding Mocha
 
 ---
@@ -239,6 +241,7 @@ Example is using NodeJS `assert`. Note that `require` is provided by the NodeJS 
 
 ---
 {state: main}
+{background-image: mageconf/bg-divider.png}
 # Adding Chai
 
 ---
@@ -304,6 +307,7 @@ Dependencies are same as before, plus Chai. Only upside is that Chai does not cl
 
 ---
 {state: main}
+{background-image: mageconf/bg-divider.png}
 # From Karma to Tape
 
 ---
@@ -334,6 +338,7 @@ File `test/spec/test.js`:
 
 ---
 {state: main}
+{background-image: mageconf/bg-divider.png}
 # Some thoughts
 
 ???
@@ -350,6 +355,7 @@ Mocha or Jasmine might be difficult to setup, but once configured running the te
 
 ---
 {state: main}
+{background-image: mageconf/bg-divider.png}
 ### Asking the right questions
 
 ???
@@ -421,6 +427,7 @@ Interaction with DOM is hardest (or stupidiest) thing to test with unit testing.
 
 ---
 {state: main}
+{background-image: mageconf/bg-divider.png}
 ### How to test methods that are hidden using the revealing module pattern (aka data hiding)?
 
 ???
@@ -428,6 +435,7 @@ Reveal those methods anyway? What good is the revealing module pattern then? Bla
 
 ---
 {state: main}
+{background-image: mageconf/bg-divider.png}
 ### Depending on RequireJS or faking it?
 
 ---
@@ -438,6 +446,7 @@ Reveal those methods anyway? What good is the revealing module pattern then? Bla
 
 ---
 {state: main}
+{background-image: mageconf/bg-divider.png}
 ## Thanks
 ### @jissereitsma / @yireo
 
