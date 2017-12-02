@@ -6,7 +6,7 @@ namespace Yireo\Slides\Renderer;
  *
  * @package Yireo\Slides\Renderer
  */
-class Reveal implements RendererInterface
+class Reveal extends Generic implements RendererInterface
 {
     /**
      * @param string $content
@@ -15,6 +15,9 @@ class Reveal implements RendererInterface
      */
     public function render(string $content): string
     {
+        $content = $this->replaceTags($content);
+        $content= $this->replacePatterns($content);
+
         $slides = explode("\n---\n", $content);
         foreach ($slides as $slideId => $slide) {
             $slide = $this->renderSection($slide);

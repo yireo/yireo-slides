@@ -4,30 +4,42 @@
 
 body {
     font-family: Arial;
+    font-size: 28pt;
 }
 
-.main .reveal h1,
-.main .reveal h3,
-.main .reveal h2 {
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal ul,
+.reveal p {
     text-align: left;
+    line-height: 140%;
 }
 
 .reveal h1 {
-    font-size: 400%;
+    font-size: 220%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .reveal h2 {
-    font-size: 240%;
+    font-size: 130%;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #555;
 }
 
 .reveal h3 {
-    font-size: 160%;
+    font-size: 110%;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #555;
+}
+
+.reveal ul span.label {
+    font-weight: bold;
+}
+
+.reval ul span.value {
+    font-size: 80%;
 }
