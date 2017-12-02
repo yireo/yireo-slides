@@ -20,19 +20,31 @@ class Reveal implements RendererInterface
         $sectionEnd = "</textarea>\n</section>\n";
 
         foreach ($slides as $slideId => $slide) {
-            $slides[$slideId] = $this->renderSection($slide);
+            $attributes = $this->renderSection($slide);
+            $slides[$slideId] = $sectionStart . $slide . $sectionEnd;
         }
 
-        return $sectionStart.implode($sectionEnd.$sectionStart, $slides).$sectionEnd;
+        return implode('',$slides);
     }
 
     /**
      * @param string $section
      *
-     * @return string
+     * @return array
      */
-    private function renderSection(string $section) : string
+    private function renderSection(string &$section) : array
     {
-        return $section;
+        $attributes = [];
+
+        if (preg_match('/\{background-image: (.*)\}/', $section, $match)) {
+            $section = str_replace($match[0], '', $section);
+        }
+
+        if (preg_match('/\{background-image: (.*)\}/', $section, $match)) {
+            $section = str_replace($match[0], '', $section);
+        }
+
+        $section = trim($section);
+        return $attributes;
     }
 }
