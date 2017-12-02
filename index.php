@@ -1,6 +1,14 @@
 <?php
+ini_set('display_errors', 1);
+
+/** @var $slideGroups array */
 include_once 'definitions.php';
+
+// Include libraries
 include_once 'lib/Yireo/Slides/Slide.php';
+include_once 'lib/Yireo/Slides/Definition.php';
+
+$definition = new \Yireo\Slides\Definition($slideGroups);
 
 $root_url = preg_replace('/index\.php(.*)$/', '', $_SERVER['PHP_SELF']);
 $request = substr_replace($_SERVER['REQUEST_URI'], '', 0, strlen($root_url));
@@ -15,7 +23,7 @@ if (!empty($request)) {
 <html>
   <head>
     <base href="<?php echo $request; ?>">
-    <title>Yireo Slides</title>
+    <title>Yireo Slides Repository</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="<?php echo $root_url; ?>css/yireo.min.css" />
     <link rel="stylesheet" href="<?php echo $root_url; ?>css/yireo.custom.css" />
@@ -23,7 +31,7 @@ if (!empty($request)) {
   <body>
     <div class="container container-heading">
     <img src="images/yireo-logo.png" align="right" />
-    <h1>Yireo Slides <small>built with <a target="_new" href="http://remarkjs.com/#1">remark</a></small></h1>
+    <h1>Yireo Slides Repository</h1>
     </div>
     <div class="container" style="column-count: 2;">
     <?php foreach($slideGroups as $slideGroup): ?>
