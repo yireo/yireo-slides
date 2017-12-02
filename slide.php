@@ -32,20 +32,11 @@ $style = preg_replace('/([^a-zA-Z0-9\_\.\-]+)/', '', $style);
 $slide = preg_replace('/([^a-zA-Z0-9\/\_\.\-]+)/', '', $slide);
 $slide = realpath('slides/'.$slide.'.md');
 
-if(empty($slide)) die('no slide');
-if(file_exists($slide) == false) die('no slide');
+$slide = new \Yireo\Slides\Slide($slide);
 
-if(stristr($slide, __DIR__) == false) die('access denied');
 
-// Parse content
-ob_start(); 
-require_once $slide;
-$slideContent = ob_get_clean(); 
-$slideContent = str_replace('{main}', 'class: center, middle, main', $slideContent);
-$slideContent = str_replace('{center}', 'class: center, middle', $slideContent);
-$slideContent = preg_replace('/^\-\ ([a-zA-Z0-9\ \-\.]+)\:\ (.*)$/m', '- <span class="label">\1&nbsp;</span><span class="value">\2</span>', $slideContent);
-$slideContent = preg_replace('/^\~\ /m', "--\n\n- ", $slideContent);
-$slideContent = preg_replace('/^\ \ \~\ /m', "--\n\n  - ", $slideContent);
+if(!$slide->isAccessibleFromRoot(__DIR__)) die('access denied');
+
 ?>
 <!DOCTYPE html>
 <html>
