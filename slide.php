@@ -29,13 +29,7 @@ if(empty($request)) {
 
 // Security checks
 $style = preg_replace('/([^a-zA-Z0-9\_\.\-]+)/', '', $style);
-$slide = preg_replace('/([^a-zA-Z0-9\/\_\.\-]+)/', '', $slide);
-$slide = realpath('slides/'.$slide.'.md');
-
-$slide = new \Yireo\Slides\Slide($slide);
-if(!$slide->isAccessibleFromRoot(__DIR__)) die('access denied');
-$slideContent = $slide->getContent();
-
+$slide = new \Yireo\Slides\Slide(__DIR__, 'slides/'.$slide.'.md');
 ?>
 <!DOCTYPE html>
 <html>
@@ -48,7 +42,7 @@ $slideContent = $slide->getContent();
     <link rel="stylesheet" href="<?php echo $root_url; ?>font-awesome/css/font-awesome.min.css">
   </head>
   <body>
-    <textarea id="source"><?php echo $slideContent; ?></textarea>
+    <textarea id="source"><?php echo $slide->getContent(); ?></textarea>
     <script src="<?php echo $root_url; ?>js/remark-latest.min.js"></script>
     <script>
       var slideshow = remark.create({
