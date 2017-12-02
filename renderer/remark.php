@@ -15,7 +15,7 @@
 </head>
 <body>
 <textarea id="source"><?php echo $slide->getContent(); ?></textarea>
-<script src="<?php echo $rootUrl; ?>js/remark-latest.min.js"></script>
+<script src="<?php echo $rootUrl; ?>js/remark.js"></script>
 <script>
     var slideshow = remark.create({
         slideNumberFormat: '%current% of %total%',

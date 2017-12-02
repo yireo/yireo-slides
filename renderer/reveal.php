@@ -10,23 +10,21 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Alfa+Slab+One|Black+Ops+One|Bowlby+One"
           rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/reveal.css">
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/black.css">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $definition->getStyle(); ?>.css"/>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-<textarea id="source"><?php echo $slide->getContent(); ?></textarea>
-<script src="<?php echo $rootUrl; ?>js/remark-latest.min.js"></script>
+<div class="reveal">
+    <div class="slides">
+        <section>Slide 1</section>
+        <section>Slide 2</section>
+    </div>
+</div>
+<script src="<?php echo $rootUrl; ?>js/reveal.js"></script>
 <script>
-    var slideshow = remark.create({
-        slideNumberFormat: '%current% of %total%',
-        countIncrementalSlides: false,
-        highlightStyle: 'googlecode'
-    });
+    Reveal.initialize();
 </script>
-<?php if (!$definition->isShowFooter()) : ?>
-    <style>.remark-slide-number {
-            display: none;
-        }</style>
-<?php endif; ?>
 </body>
 </html>
