@@ -13,11 +13,11 @@ if (!empty($request)) {
 <!DOCTYPE html>
 <html>
   <head>
-    <base href="<?php echo $root_url; ?>">
+    <base href="<?php echo $request; ?>">
     <title>Yireo Slides</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" href="css/yireo.min.css" />
-    <link rel="stylesheet" href="css/yireo.custom.css" />
+    <link rel="stylesheet" href="<?php echo $root_url; ?>css/yireo.min.css" />
+    <link rel="stylesheet" href="<?php echo $root_url; ?>css/yireo.custom.css" />
   </head>
   <body>
     <div class="container container-heading">

@@ -50,7 +50,7 @@ $slideContent = preg_replace('/^\ \ \~\ /m', "--\n\n  - ", $slideContent);
 <!DOCTYPE html>
 <html>
   <head>
-      <base href="<?php echo $root_url; ?>">
+      <base href="<?php echo $root_url; ?><?php echo $request; ?>">
     <title><?php echo $title; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Alfa+Slab+One|Black+Ops+One|Bowlby+One" rel="stylesheet">

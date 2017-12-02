@@ -6,6 +6,7 @@ layout: true
 
 ---
 {main}
+background-image: url(../images/mageconf/bg-main4.png)
 # What to test in JS?
 
 ---
