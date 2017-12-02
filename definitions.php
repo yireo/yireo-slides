@@ -13,9 +13,9 @@ $slideGroups = [
         'group' => 'MeetMagento',
         'style' => 'meetmagento',
         'slides' => [
-            ['file' => 'yireo/js_testing', 'title' => 'What to test in JS (MageConf 2017 Ukraine)', 'public' => 1, 'style' => 'mageconf'],
-            ['file' => 'yireo/pwa_is_the_end', 'title' => 'PWA: Is this the end? (ChristMage 2017 Aachen)', 'public' => 1],
-            ['file' => 'yireo/messing_up_di', 'title' => 'Messing Up DI (MeetMagento 2017 Belgium)', 'public' => 1],
+            ['file' => 'yireo/js_testing', 'title' => 'What to test in JS (MageConf 2017 Ukraine)', 'style' => 'mageconf', 'renderer' => 'reveal'],
+            ['file' => 'yireo/pwa_is_the_end', 'title' => 'PWA: Is this the end? (ChristMage 2017 Aachen)'],
+            ['file' => 'yireo/messing_up_di', 'title' => 'Messing Up DI (MeetMagento 2017 Belgium)'],
             ['file' => 'yireo/m2_linking-components', 'title' => 'M2 Linking JS Components (MeetMagento 2017 Poland)'],
             ['file' => 'yireo/m2_private_content', 'title' => 'M2 Private Data via JS Components (MeetMagento 2017 Netherlands)'],
             ['file' => 'yireo/imagine2017_en', 'title' => 'Imagine 2017 review (EN)'],

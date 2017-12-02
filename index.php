@@ -6,6 +6,7 @@ include_once 'definitions.php';
 
 // Include libraries
 include_once 'lib/Yireo/Slides/Slide.php';
+include_once 'lib/Yireo/Slides/Definitions.php';
 include_once 'lib/Yireo/Slides/Definition.php';
 
 $rootUrl = preg_replace('/index\.php(.*)$/', '', $_SERVER['PHP_SELF']);
@@ -15,9 +16,9 @@ $request = preg_replace('/\?(.*)$/', '', $request);
 if (!empty($request)) {
     $definitions = new \Yireo\Slides\Definitions($slideGroups);
     $definition = $definitions->find($request);
-    $slide = $definition->generateSlide();
+    $slide = $definition->generateSlide(__DIR__);
 
-    include_once 'slide.php';
+    include_once 'renderer/'.$definition->getRenderer().'.php';
     exit;
 }
 ?>

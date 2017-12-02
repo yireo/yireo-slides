@@ -12,27 +12,32 @@ class Definition
     /**
      * @var string
      */
-    private $file;
+    private $file = '';
 
     /**
      * @var string
      */
-    private $style;
+    private $style = '';
 
     /**
      * @var string
      */
-    private $title;
+    private $title = '';
+
+    /**
+     * @var mixed|string
+     */
+    private $renderer = '';
 
     /**
      * @var bool
      */
-    private $showFooter;
+    private $showFooter = true;
 
     /**
      * @var bool
      */
-    private $showHeader;
+    private $showHeader = true;
 
     /**
      * Definition constructor.
@@ -42,8 +47,9 @@ class Definition
     public function __construct(array $data)
     {
         $this->file = $data['file'];
-        $this->style = (!empty($data['style'])) ? $data['style'] : $data['style'];
         $this->title = $data['title'];
+        $this->style = (!empty($data['style'])) ? $data['style'] : 'yireo';
+        $this->renderer = (!empty($data['renderer'])) ? $data['renderer'] : 'remark';
 
         if (isset($data['header'])) {
             $this->showHeader = (bool) $data['header'];
@@ -54,8 +60,15 @@ class Definition
         }
     }
 
-    public function generateSlide()
+    /**
+     * @param $rootDirectory
+     *
+     * @return Slide
+     */
+    public function generateSlide($rootDirectory) : Slide
     {
+        $slidePath = 'slides/'.$this->getFile().'.md';
+        return new Slide($rootDirectory, $slidePath);
 
     }
 
@@ -81,6 +94,14 @@ class Definition
     public function getTitle(): string
     {
         return $this->title;
+    }
+
+    /**
+     * @return string
+     */
+    public function getRenderer(): string
+    {
+        return $this->renderer;
     }
 
     /**
