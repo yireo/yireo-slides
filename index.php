@@ -1,7 +1,7 @@
 <?php
 include_once 'definitions.php';
 
-$root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
+$root_url = preg_replace('/index\.php(.*)$/', '', $_SERVER['PHP_SELF']);
 $request = substr_replace($_SERVER['REQUEST_URI'], '', 0, strlen($root_url));
 $request = preg_replace('/\?(.*)$/', '', $request);
 

@@ -6,7 +6,6 @@ $style = null;
 $slide = null;
 $footer = true;
 $header = true;
-$root_url = null;
 
 // Fetch parameters
 if(empty($request)) {
@@ -38,8 +37,6 @@ if(file_exists($slide) == false) die('no slide');
 
 if(stristr($slide, __DIR__) == false) die('access denied');
 
-$root_url = preg_replace('/index\.php$/', '', $_SERVER['PHP_SELF']);
-
 // Parse content
 ob_start(); 
 require_once $slide;
@@ -53,7 +50,7 @@ $slideContent = preg_replace('/^\ \ \~\ /m', "--\n\n  - ", $slideContent);
 <!DOCTYPE html>
 <html>
   <head>
-    <base href="<?php echo $_SERVER['REQUEST_URI']; ?>">
+      <base href="<?php echo $root_url; ?>">
     <title><?php echo $title; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Alfa+Slab+One|Black+Ops+One|Bowlby+One" rel="stylesheet">
