@@ -1,0 +1,10 @@
+/*
+ * @import 'meetmagento.css';
+ */
+@import 'meetmagento.css';
+
+.remark-slide-content {
+    background-image: url("../images/mageconf/bg-main1.png");
+    background-position: center;
+    background-size: cover;
+}
