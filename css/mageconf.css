@@ -6,6 +6,28 @@ body {
     font-family: Arial;
 }
 
+.main .reveal h1,
+.main .reveal h3,
+.main .reveal h2 {
+    text-align: left;
+}
+
 .reveal h1 {
-    font-size: 300%;
+    font-size: 400%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reveal h2 {
+    font-size: 240%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.reveal h3 {
+    font-size: 160%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #555;
 }

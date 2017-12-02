@@ -1,6 +1,8 @@
 {state: main}
 {background-image: mageconf/bg-welcome2.png}
 # What to test in JS?
+## A brief overview of JS testing techniques 
+### by Jisse Reitsma
 
 ---
 {state: speaker}
