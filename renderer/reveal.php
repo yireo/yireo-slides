@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Alfa+Slab+One|Black+Ops+One|Bowlby+One"
           rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/reveal.css">
-    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/white.css">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $definition->getStyle(); ?>.css"/>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
 </head>

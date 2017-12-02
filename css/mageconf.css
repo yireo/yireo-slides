@@ -1,8 +1,11 @@
 /*
  * @import 'meetmagento.css';
  */
-@import 'meetmagento.css';
 
-h1 {
-    font-size: 120%;
+body {
+    font-family: Arial;
+}
+
+.reveal h1 {
+    font-size: 300%;
 }
