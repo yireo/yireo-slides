@@ -16,12 +16,8 @@ class Reveal implements RendererInterface
     public function render(string $content): string
     {
         $slides = explode("\n---\n", $content);
-        $sectionStart = "<section data-markdown>\n<textarea data-template>\n";
-        $sectionEnd = "</textarea>\n</section>\n";
-
         foreach ($slides as $slideId => $slide) {
-            $attributes = $this->renderSection($slide);
-            $slides[$slideId] = $sectionStart . $slide . $sectionEnd;
+            $slides[$slideId] = $this->renderSection($slide);
         }
 
         return implode('',$slides);
@@ -30,21 +26,27 @@ class Reveal implements RendererInterface
     /**
      * @param string $section
      *
-     * @return array
+     * @return string
      */
-    private function renderSection(string &$section) : array
+    private function renderSection(string $section) : string
     {
-        $attributes = [];
+        $sectionAttributes = [];
 
         if (preg_match('/\{background-image: (.*)\}/', $section, $match)) {
             $section = str_replace($match[0], '', $section);
+            $sectionAttributes[] = 'data-background-image="images/'.$match[1].'"';
         }
 
-        if (preg_match('/\{background-image: (.*)\}/', $section, $match)) {
+        if (preg_match('/\{main\}/', $section, $match)) {
             $section = str_replace($match[0], '', $section);
+            $sectionAttributes[] = 
         }
 
-        $section = trim($section);
-        return $attributes;
+        $sectionStart = "<section data-markdown ".implode(' ', $sectionAttributes).">";
+        $sectionStart .= "\n<textarea data-template>\n";
+        $sectionEnd = "</textarea>\n</section>\n";
+
+        $section = trim($sectionStart . $section . $sectionEnd;);
+        return $section;
     }
 }

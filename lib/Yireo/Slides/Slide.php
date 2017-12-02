@@ -77,8 +77,6 @@ class Slide
     public function getContent(): string
     {
         $this->getFileContent();
-        $this->replaceTags();
-        $this->replacePatterns();
 
         if ($this->renderer instanceof RendererInterface) {
             $this->content = $this->renderer->render($this->content);
@@ -93,41 +91,6 @@ class Slide
     private function getFileContent() : string
     {
         $this->content = file_get_contents($this->filename);
-        return $this->content;
-    }
-
-    /**
-     * @return string
-     */
-    private function replacePatterns(): string
-    {
-        $patterns = [
-            '/^\-\ ([a-zA-Z0-9\ \-\.]+)\:\ (.*)$/m' => '- <span class="label">\1&nbsp;</span><span class="value">\2</span>',
-            '/^\~\ /m' => "--\n\n- ", // Automatic RemarkJS inline steps
-            '/^\ \ \~\ /m' => "--\n\n  - ", // Automatic RemarkJS inline steps (with indented points)
-        ];
-
-        foreach ($patterns as $pattern => $patternReplacement) {
-            $this->content = preg_replace($pattern, $patternReplacement, $this->content);
-        }
-
-        return $this->content;
-    }
-
-    /**
-     * @return string
-     */
-    private function replaceTags(): string
-    {
-        $tags = [
-            'main' => 'class: center, middle, main',
-            'center' => 'class: center, middle'
-        ];
-
-        foreach ($tags as $tag => $tagReplacement) {
-            $this->content = str_replace('{'.$tag.'}', $tagReplacement, $this->content);
-        }
-
         return $this->content;
     }
 }
