@@ -9,6 +9,11 @@ class Slide
     private $filename;
 
     /**
+     * @var string
+     */
+    private $content = '';
+
+    /**
      * Slide constructor.
      *
      * @param string $filename
@@ -41,7 +46,7 @@ class Slide
      *
      * @return bool
      */
-    public function isAccessibleFromRoot(string $rootDirectory)
+    public function isAccessibleFromRoot(string $rootDirectory): bool
     {
         if(stristr($this->filename, $rootDirectory) == false) {
             return false;
@@ -50,16 +55,56 @@ class Slide
         return true;
     }
 
-    public function getContent()
+    /**
+     * @return string
+     */
+    public function getContent(): string
     {
-        ob_start();
-        require_once $this->filename;
-        $slideContent = ob_get_clean();
-        $slideContent = str_replace('{main}', 'class: center, middle, main', $slideContent);
-        $slideContent = str_replace('{center}', 'class: center, middle', $slideContent);
-        $slideContent = preg_replace('/^\-\ ([a-zA-Z0-9\ \-\.]+)\:\ (.*)$/m', '- <span class="label">\1&nbsp;</span><span class="value">\2</span>', $slideContent);
-        $slideContent = preg_replace('/^\~\ /m', "--\n\n- ", $slideContent);
-        $slideContent = preg_replace('/^\ \ \~\ /m', "--\n\n  - ", $slideContent);
-        return $slideContent;
+        $this->getFileContent();
+        $this->replaceTags();
+        $this->replacePatterns();
+
+        return $this->content;
+    }
+
+    private function getFileContent() : string
+    {
+        $this->content = file_get_contents($this->filename);
+        return $this->content;
+    }
+
+    /**
+     * @return string
+     */
+    private function replacePatterns(): string
+    {
+        $patterns = [
+            '/^\-\ ([a-zA-Z0-9\ \-\.]+)\:\ (.*)$/m' => '- <span class="label">\1&nbsp;</span><span class="value">\2</span>',
+            '/^\~\ /m' => "--\n\n- ", // Automatic RemarkJS inline steps
+            '/^\ \ \~\ /m' => "--\n\n  - ", // Automatic RemarkJS inline steps (with indented points)
+        ];
+
+        foreach ($patterns as $pattern => $patternReplacement) {
+            $this->content = preg_replace($pattern, $patternReplacement, $this->content);
+        }
+
+        return $this->content;
+    }
+
+    /**
+     * @return string
+     */
+    private function replaceTags(): string
+    {
+        $tags = [
+            'main' => 'class: center, middle, main',
+            'center' => 'class: center, middle'
+        ];
+
+        foreach ($tags as $tag => $tagReplacement) {
+            $this->content = str_replace('{'.$tag.'}', $tagReplacement, $this->content);
+        }
+
+        return $this->content;
     }
 }
