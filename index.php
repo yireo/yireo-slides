@@ -8,13 +8,15 @@ include_once 'definitions.php';
 include_once 'lib/Yireo/Slides/Slide.php';
 include_once 'lib/Yireo/Slides/Definition.php';
 
-$definition = new \Yireo\Slides\Definition($slideGroups);
-
-$root_url = preg_replace('/index\.php(.*)$/', '', $_SERVER['PHP_SELF']);
-$request = substr_replace($_SERVER['REQUEST_URI'], '', 0, strlen($root_url));
+$rootUrl = preg_replace('/index\.php(.*)$/', '', $_SERVER['PHP_SELF']);
+$request = substr_replace($_SERVER['REQUEST_URI'], '', 0, strlen($rootUrl));
 $request = preg_replace('/\?(.*)$/', '', $request);
 
 if (!empty($request)) {
+    $definitions = new \Yireo\Slides\Definitions($slideGroups);
+    $definition = $definitions->find($request);
+    $slide = $definition->generateSlide();
+
     include_once 'slide.php';
     exit;
 }
@@ -25,8 +27,8 @@ if (!empty($request)) {
     <base href="<?php echo $request; ?>">
     <title>Yireo Slides Repository</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" href="<?php echo $root_url; ?>css/yireo.min.css" />
-    <link rel="stylesheet" href="<?php echo $root_url; ?>css/yireo.custom.css" />
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/yireo.min.css" />
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/yireo.custom.css" />
   </head>
   <body>
     <div class="container container-heading">

@@ -1,49 +1,22 @@
 <?php
 
 
-$title = null;
-$style = null;
-$slide = null;
-$footer = true;
-$header = true;
-
-// Fetch parameters
-if(empty($request)) {
-    $title = $_GET['title'];
-    $style = $_GET['style'];
-    $slide = $_GET['slide'];
-} else {
-    foreach($slideGroups as $slideGroup) {
-        foreach($slideGroup['slides'] as $slideSet) {
-            if($slideSet['file'] == $request) {
-                $slide = $slideSet['file'];
-                $style = (!empty($slideSet['style'])) ? $slideSet['style'] : $slideGroup['style'];
-                $title = $slideSet['title'];
-                if (isset($slideSet['header'])) $header = (bool) $slideSet['header'];
-                if (isset($slideSet['footer'])) $footer = (bool) $slideSet['footer'];
-                break;
-            }
-        }
-    }
-}
-
-// Security checks
 $style = preg_replace('/([^a-zA-Z0-9\_\.\-]+)/', '', $style);
 $slide = new \Yireo\Slides\Slide(__DIR__, 'slides/'.$slide.'.md');
 ?>
 <!DOCTYPE html>
 <html>
   <head>
-      <base href="<?php echo $root_url; ?><?php echo $request; ?>">
+      <base href="<?php echo $rootUrl; ?><?php echo $request; ?>">
     <title><?php echo $title; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Alfa+Slab+One|Black+Ops+One|Bowlby+One" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo $root_url; ?>css/<?php echo $style; ?>.css" />
-    <link rel="stylesheet" href="<?php echo $root_url; ?>font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $style; ?>.css" />
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
   </head>
   <body>
     <textarea id="source"><?php echo $slide->getContent(); ?></textarea>
-    <script src="<?php echo $root_url; ?>js/remark-latest.min.js"></script>
+    <script src="<?php echo $rootUrl; ?>js/remark-latest.min.js"></script>
     <script>
       var slideshow = remark.create({
         slideNumberFormat: '%current% of %total%',
