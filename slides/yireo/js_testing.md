@@ -1,8 +1,10 @@
 {state: main}
-{background-image: mageconf/bg-main4.png}
+{background-image: mageconf/bg-welcome2.png}
 # What to test in JS?
 
 ---
+{state: speaker}
+{background-image: mageconf/bg-speaker.png}
 # Jisse Reitsma
 - Founder of Yireo
 - Training M2 devs
@@ -29,6 +31,7 @@ Unit tests: Pure functions. Integration tests: Done with same tools as unit test
 
 ---
 {state: main}
+{background-image: mageconf/bg-divider.png}
 # Diving into the tools
 
 ---
