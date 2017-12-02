@@ -13,15 +13,17 @@ class Slide
      *
      * @param string $filename
      */
-    public function __construct(string $filename)
+    public function __construct(string $filename = '')
     {
-        $this->setFilename($filename);
+        if (!empty($filename)) {
+            $this->setFilename($filename);
+        }
     }
 
     /**
      * @param string $filename
      */
-    private function setFilename(string $filename)
+    public function setFilename(string $filename)
     {
         if (empty($filename)) {
             throw new \InvalidArgumentException('Empty filename');
@@ -31,18 +33,24 @@ class Slide
             throw new \InvalidArgumentException('Filename not found: '.$filename);
         }
 
-        
-        if(stristr($slide, __DIR__) == false)
-
         $this->filename = $filename;
     }
 
-    public function isAccessible($rootDirectory)
+    /**
+     * @param string $rootDirectory
+     *
+     * @return bool
+     */
+    public function isAccessibleFromRoot(string $rootDirectory)
     {
+        if(stristr($this->filename, $rootDirectory) == false) {
+            return false;
+        }
 
+        return true;
     }
 
-    public function output()
+    public function getContent()
     {
         ob_start();
         require_once $this->filename;

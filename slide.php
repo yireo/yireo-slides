@@ -33,9 +33,8 @@ $slide = preg_replace('/([^a-zA-Z0-9\/\_\.\-]+)/', '', $slide);
 $slide = realpath('slides/'.$slide.'.md');
 
 $slide = new \Yireo\Slides\Slide($slide);
-
-
 if(!$slide->isAccessibleFromRoot(__DIR__)) die('access denied');
+$slideContent = $slide->getContent();
 
 ?>
 <!DOCTYPE html>
