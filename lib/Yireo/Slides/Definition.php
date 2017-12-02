@@ -2,6 +2,9 @@
 
 namespace Yireo\Slides;
 
+use Yireo\Slides\Renderer\Remark;
+use Yireo\Slides\Renderer\Reveal;
+
 /**
  * Class Definition
  *
@@ -68,7 +71,17 @@ class Definition
     public function generateSlide($rootDirectory) : Slide
     {
         $slidePath = 'slides/'.$this->getFile().'.md';
-        return new Slide($rootDirectory, $slidePath);
+        $slide = new Slide($rootDirectory, $slidePath);
+
+        if ($this->getRenderer() == 'remark') {
+            $slide->setRenderer(new Remark());
+        }
+
+        if ($this->getRenderer() == 'reveal') {
+            $slide->setRenderer(new Reveal());
+        }
+
+        return $slide;
 
     }
 

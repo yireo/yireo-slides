@@ -1,6 +1,8 @@
 <?php
 namespace Yireo\Slides;
 
+use Yireo\Slides\Renderer\RendererInterface;
+
 class Slide
 {
     /**
@@ -19,6 +21,11 @@ class Slide
     private $content = '';
 
     /**
+     * @var RendererInterface
+     */
+    private $renderer;
+
+    /**
      * Slide constructor.
      *
      * @param string $filename
@@ -27,6 +34,14 @@ class Slide
     {
         $this->rootDirectory = $rootDirectory;
         $this->setFilename($filename);
+    }
+
+    /**
+     * @param RendererInterface $renderer
+     */
+    public function setRenderer(RendererInterface $renderer)
+    {
+        $this->renderer = $renderer;
     }
 
     /**
@@ -65,7 +80,9 @@ class Slide
         $this->replaceTags();
         $this->replacePatterns();
 
-
+        if ($this->renderer instanceof RendererInterface) {
+            $this->content = $this->renderer->render($this->content);
+        }
 
         return $this->content;
     }

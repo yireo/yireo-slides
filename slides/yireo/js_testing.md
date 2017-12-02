@@ -1,10 +1,3 @@
-layout: true
-<div class="slide-heading">What to test in JS</div>
-<div class="slide-footer">
-    <span>What to test in JS - Jisse Reitsma - MageConf 2017 Kiev</span>
-</div>
-
----
 {main}
 background-image: url(../images/mageconf/bg-main4.png)
 # What to test in JS?

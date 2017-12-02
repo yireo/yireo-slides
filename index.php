@@ -5,14 +5,16 @@ ini_set('display_errors', 1);
 include_once 'definitions.php';
 
 // Include libraries
-include_once 'lib/Yireo/Slides/Slide.php';
-include_once 'lib/Yireo/Slides/Definitions.php';
-include_once 'lib/Yireo/Slides/Definition.php';
+require_once 'vendor/autoload.php';
+\Yireo\Common\System\Autoloader::init();
+\Yireo\Common\System\Autoloader::addPath(__DIR__.'/lib/Yireo');
 
+// Request parsing
 $rootUrl = preg_replace('/index\.php(.*)$/', '', $_SERVER['PHP_SELF']);
 $request = substr_replace($_SERVER['REQUEST_URI'], '', 0, strlen($rootUrl));
 $request = preg_replace('/\?(.*)$/', '', $request);
 
+// Include the slide
 if (!empty($request)) {
     $definitions = new \Yireo\Slides\Definitions($slideGroups);
     $definition = $definitions->find($request);
