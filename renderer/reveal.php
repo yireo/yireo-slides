@@ -24,6 +24,8 @@
     </div>
 </div>
 <script src="<?php echo $rootUrl; ?>js/reveal.js"></script>
+<script src="<?php echo $rootUrl; ?>js/reveal/marked.js"></script>
+<script src="<?php echo $rootUrl; ?>js/reveal/markdown.js"></script>
 <script>
     Reveal.initialize();
 </script>

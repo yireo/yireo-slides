@@ -66,7 +66,11 @@ class Slide
         $this->replacePatterns();
 
         $this->slides = explode("\n---\n", $this->content);
-        
+        $sectionStart = "<section data-markdown>\n<textarea data-template>\n";
+        $sectionEnd = "</textarea>\n</section>\n";
+
+        return $sectionStart.implode($sectionEnd.$sectionStart, $this->slides).$sectionEnd;
+
 
         return $this->content;
     }
