@@ -23,6 +23,11 @@ body {
     font-size: 160%;
 }
 
+.main .reveal {
+    margin:auto;
+    text-align: center;
+}
+
 .main .reveal h1 {
     font-size: 240%;
 }
