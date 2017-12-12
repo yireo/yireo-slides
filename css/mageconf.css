@@ -17,9 +17,13 @@ body {
 }
 
 .reveal h1 {
-    font-size: 220%;
+    font-size: 120%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.main .reveal h1 {
+    font-size: 200%;
 }
 
 .reveal h2 {
