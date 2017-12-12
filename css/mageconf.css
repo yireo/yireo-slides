@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial;
-    font-size: 170%;
+    font-size: 24pt;
 }
 
 .reveal h1,
@@ -55,5 +55,5 @@ body {
 }
 
 .reveal li > code {
-    background-color: #eae5e2;
+    background-color: #f4f2f0;
 }
