@@ -46,12 +46,14 @@ body {
 }
 
 .reveal pre {
-    background-color: #eae5e2;
+    background-color: #f4efec;
     padding: 10px;
+    font-size: 90%;
 }
 
 .reveal code {
     font-family: courier, sans-serif;
+    font-size: 90%;
 }
 
 .reveal li > code {
