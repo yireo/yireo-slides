@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial;
-    font-size: 28pt;
+    font-size: 170%;
 }
 
 .reveal h1,
@@ -15,12 +15,12 @@ body {
 .reveal p {
     text-align: left;
     line-height: 140%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .reveal h1 {
     font-size: 160%;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .main .reveal h1 {
@@ -29,15 +29,11 @@ body {
 
 .reveal h2 {
     font-size: 130%;
-    margin-top: 20px;
-    margin-bottom: 20px;
     color: #555;
 }
 
 .reveal h3 {
     font-size: 110%;
-    margin-top: 20px;
-    margin-bottom: 20px;
     color: #555;
 }
 
@@ -50,10 +46,14 @@ body {
 }
 
 .reveal pre {
-    background-color: lightyellow;
+    background-color: #eae5e2;
     padding: 10px;
 }
 
-.reveal pre code {
+.reveal code {
     font-family: courier, sans-serif;
+}
+
+.reveal li > code {
+    background-color: #eae5e2;
 }
