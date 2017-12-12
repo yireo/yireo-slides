@@ -47,7 +47,7 @@ class Reveal extends Generic implements RendererInterface
 
         if (preg_match('/\{state: (.*)\}/', $section, $match)) {
             $section = str_replace($match[0], '', $section);
-            $sectionAttributes[] = 'data-state="main"';
+            $sectionAttributes[] = 'data-state="'.$match[1].'"';
         }
 
         $sectionStart = "<section data-markdown ".implode(' ', $sectionAttributes).">";
