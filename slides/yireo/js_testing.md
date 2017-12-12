@@ -445,6 +445,7 @@ Reveal those methods anyway? What good is the revealing module pattern then? Bla
 {state: divider}
 # Thanks
 ## @jissereitsma / @yireo
+### http://slides.yireo.com/yireo/js_testing
 
 ???
 sinon
