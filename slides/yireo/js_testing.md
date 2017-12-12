@@ -350,9 +350,8 @@ We have seen various test setups, where the test itself needed to be changed sli
 Mocha or Jasmine might be difficult to setup, but once configured running the tests should only involve `npm install && npm test`.
 
 ---
-{state: main}
-{background-image: mageconf/bg-divider.png}
-### Asking the right questions
+{state: divider}
+# Asking the right questions
 
 ???
 Why do we introduce testing? What do we want to know?
@@ -400,19 +399,8 @@ npm install requirejs
 
 MAJOR FAIL: `jQuery requires a window with a document`
 
----
-# Preparing test
-Installing packages:
-```bash
-npm install cheerio
-npm install jquery
-npm install requirejs
-```
-
----
-# The test (Tape)
-```js
-```
+???
+Maybe mention cheerio
 
 ---
 {state: main}
