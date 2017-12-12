@@ -399,34 +399,40 @@ npm install requirejs
 
 MAJOR FAIL: `jQuery requires a window with a document`
 
+RECOMMENDATION: Use Jasmine anyway
+
 ???
 Maybe mention cheerio
 
 ---
-{state: main}
-# Mocking jQuery or just using it?
-## 
+{state: main center}
+## Mocking jQuery or just using it?
 
 ???
 Interaction with DOM is hardest (or stupidiest) thing to test with unit testing. Perhaps end-to-end tests are what you want. The more your code evolves around business logic, the more useful it becomes.
 
 ---
-{state: main}
-# How to test methods that are hidden using the revealing module pattern (aka data hiding)?
-## Don't test them? (aka treat it as a black box)
+{state: main center}
+## How to test methods that are hidden using the revealing module pattern (aka data hiding)?
+#### Don't test them? Treat it as a black box?
 
 ???
 Reveal those methods anyway? What good is the revealing module pattern then? Black box principle?
 
 ---
-{state: main}
-# Depending on RequireJS or faking it?
+{state: main center}
+## Depending on RequireJS or faking it?
 
 ---
 # Refactoring
 - Dependency Injection (RequireJS)
-- Limit deps per JS component
-- Move anonymous functions into named functions (?)
+- Limit dependencies per JS component
+- Keep JS component small
+- Separate JS component per purpose
+    - General-purpose library
+    - Pure functions
+    - Model
+    - View
 
 ---
 {state: divider}

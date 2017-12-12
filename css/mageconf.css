@@ -39,12 +39,12 @@ body {
 
 .reveal h2 {
     font-size: 130%;
-    color: #555;
+    color: #222222;
 }
 
 .reveal h3 {
     font-size: 110%;
-    color: #555;
+    color: #3e3e3e;
 }
 
 .reveal ul {
@@ -85,6 +85,14 @@ body {
 
 .main .reveal h1 {
     font-size: 240%;
+}
+
+.center .reveal h1,
+.center .reveal h2,
+.center .reveal h3,
+.center .reveal h4 {
+    text-align: center;
+
 }
 
 .speaker .reveal section {
