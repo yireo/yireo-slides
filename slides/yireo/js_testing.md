@@ -342,9 +342,9 @@ We have seen various test setups, where the test itself needed to be changed sli
 
 ---
 # Whatever works for you
-- Tests should easy and fast
-- Pick 1 setup and stick with it
-- Keep your tests simple
+- <!-- .element: class="fragment" --> Tests should easy and fast
+- <!-- .element: class="fragment" --> Pick 1 setup and stick with it
+- <!-- .element: class="fragment" --> Keep your tests simple
 
 ???
 Mocha or Jasmine might be difficult to setup, but once configured running the tests should only involve `npm install && npm test`.
