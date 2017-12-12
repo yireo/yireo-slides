@@ -11,6 +11,10 @@ body {
     background-image: url("/images/mageconf/bg-main1.png");
 }
 
+.divider .reveal .backgrounds .slide-background {
+    background-image: url("/images/mageconf/bg-divider.png");
+}
+
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -67,9 +71,15 @@ body {
 
 .main .reveal section {
     top: 40%;
-    left: 10%;
 }
 
 .main .reveal h1 {
     font-size: 240%;
+}
+
+.divider .reveal h1,
+.divider .reveal h2,
+.divider .reveal h3,
+.divider .reveal h4 {
+    text-align: center;
 }

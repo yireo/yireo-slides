@@ -32,8 +32,7 @@
 Unit tests: Pure functions. Integration tests: Done with same tools as unit tests, but you can now use RequireJS to not load mocks but actual other libraries. We're not going to focus on end-to-end testing in this talk.
 
 ---
-{state: main}
-{background-image: mageconf/bg-divider.png}
+{state: divider}
 # Diving into the tools
 
 ---
@@ -84,8 +83,7 @@ Assertion libraries most commonly provide a `assert()` function.
 - Mockjax: Mocking AJAX requests
 
 ---
-{state: main}
-{background-image: mageconf/bg-divider.png}
+{state: divider}
 # Jasmine basics
 
 ---
@@ -176,8 +174,7 @@ $ karma start karma.conf.js
 ```
 
 ---
-{state: main}
-{background-image: mageconf/bg-divider.png}
+{state: divider}
 # Adding Mocha
 
 ---
@@ -242,8 +239,7 @@ File `test/spec/test.js`:
 Example is using NodeJS `assert`. Note that `require` is provided by the NodeJS version of RequireJS, not the browser version of RequireJS. Dependencies of this test are Jasmine, Mocha, NodeJS assert (which doesn't exist in browser) and RequireJS.
 
 ---
-{state: main}
-{background-image: mageconf/bg-divider.png}
+{state: divider}
 # Adding Chai
 
 ---
@@ -308,8 +304,7 @@ File `test/spec/test.js`:
 Dependencies are same as before, plus Chai. Only upside is that Chai does not claim global object `assert`, but adds its own namespace.
 
 ---
-{state: main}
-{background-image: mageconf/bg-divider.png}
+{state: divider}
 # From Karma to Tape
 
 ---
@@ -339,8 +334,7 @@ File `test/spec/test.js`:
 ```
 
 ---
-{state: main}
-{background-image: mageconf/bg-divider.png}
+{state: divider}
 # Some thoughts
 
 ???
@@ -430,7 +424,6 @@ Interaction with DOM is hardest (or stupidiest) thing to test with unit testing.
 
 ---
 {state: main}
-{background-image: mageconf/bg-divider.png}
 # How to test methods that are hidden using the revealing module pattern (aka data hiding)?
 ## Don't test them? (aka treat it as a black box)
 
@@ -439,7 +432,6 @@ Reveal those methods anyway? What good is the revealing module pattern then? Bla
 
 ---
 {state: main}
-{background-image: mageconf/bg-divider.png}
 # Depending on RequireJS or faking it?
 
 ---
@@ -449,8 +441,7 @@ Reveal those methods anyway? What good is the revealing module pattern then? Bla
 - Move anonymous functions into named functions (?)
 
 ---
-{state: main}
-{background-image: mageconf/bg-divider.png}
+{state: divider}
 # Thanks
 ## @jissereitsma / @yireo
 
