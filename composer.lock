@@ -1,0 +1,50 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f781afc65012e3cea2efb72af71c2b4c",
+    "packages": [
+        {
+            "name": "yireo/yireo-common-library",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.yireo.com:yireo-libraries/YireoCommonLibrary.git",
+                "reference": "f838a8fd63033b274ad8f9eae9c7d80bda508139"
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yireo\\Common\\": "Yireo/Common"
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jisse Reitsma (Yireo)",
+                    "email": "jisse@yireo.com"
+                }
+            ],
+            "description": "Library of common Yireo classes",
+            "homepage": "https://www.yireo.com/",
+            "time": "2017-06-24 14:02:03"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "yireo/yireo-common-library": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
