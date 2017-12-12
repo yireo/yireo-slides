@@ -9,6 +9,8 @@ body {
 
 .reveal .backgrounds .slide-background {
     background-image: url("/images/mageconf/bg-main1.png");
+    background-position: unset;
+    background-size: cover;
 }
 
 .divider .reveal .backgrounds .slide-background {
@@ -75,6 +77,10 @@ body {
 
 .main .reveal h1 {
     font-size: 240%;
+}
+
+.speaker .reveal section {
+    top: 20%;
 }
 
 .divider .reveal h1,
