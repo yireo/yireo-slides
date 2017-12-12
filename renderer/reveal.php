@@ -25,7 +25,7 @@
 <script src="<?php echo $rootUrl; ?>js/reveal/markdown.js"></script>
 <script>
     Reveal.initialize();
-    Reveal.configure({ slideNumber: 'c/t' });
+    Reveal.configure({slideNumber: 'c/t', history:true});
 </script>
 </body>
 </html>
