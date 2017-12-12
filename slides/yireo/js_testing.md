@@ -423,6 +423,7 @@ npm install requirejs
 ---
 {state: main}
 # Mocking jQuery or just using it?
+## 
 
 ???
 Interaction with DOM is hardest (or stupidiest) thing to test with unit testing. Perhaps end-to-end tests are what you want. The more your code evolves around business logic, the more useful it becomes.
@@ -431,6 +432,7 @@ Interaction with DOM is hardest (or stupidiest) thing to test with unit testing.
 {state: main}
 {background-image: mageconf/bg-divider.png}
 # How to test methods that are hidden using the revealing module pattern (aka data hiding)?
+## Don't test them? (aka treat it as a black box)
 
 ???
 Reveal those methods anyway? What good is the revealing module pattern then? Black box principle?
