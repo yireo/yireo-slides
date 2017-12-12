@@ -45,10 +45,15 @@ body {
     font-weight: bold;
 }
 
-.reval ul span.value {
+.reveal ul span.value {
     font-size: 80%;
 }
 
-pre {
+.reveal pre {
     background-color: lightyellow;
+    padding: 10px;
+}
+
+.reveal pre code {
+    font-family: courier, sans-serif;
 }
