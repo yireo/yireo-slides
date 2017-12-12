@@ -15,6 +15,8 @@ class Reveal extends Generic implements RendererInterface
      */
     public function render(string $content): string
     {
+        $content = preg_replace('/^\~\ /m', '- <!-- .element: class="fragment" -->', $content);
+
         $content = $this->replaceTags($content);
         $content= $this->replacePatterns($content);
 

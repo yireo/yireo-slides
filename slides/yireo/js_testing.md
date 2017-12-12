@@ -8,25 +8,25 @@
 {state: speaker}
 {background-image: mageconf/bg-speaker.png}
 # Jisse Reitsma
-- Founder of Yireo
-- Training M2 devs
-- Creator of MageTestFest & M2Seminar
-- Magento Master 2017 Mover
-- A simple Dutch boy
+~ Founder of Yireo
+~ Training M2 devs
+~ Creator of MageTestFest & M2Seminar
+~ Magento Master 2017 Mover
+~ A simple Dutch boy
 
 ---
 # Fundamentals
-- No inline JS functionality
-- All features to JS components
-- Use RequireJS to load deps
-- Pass HTML elems as configuration
+~ No inline JS functionality
+~ All features to JS components
+~ Use RequireJS to load deps
+~ Pass HTML elems as configuration
 
 ---
 # Levels
-- Unit: Jasmine, Mocha, QUnit
-- Integration: RequireJS
-- Functional tests: MFTF
-- End-to-end: Selenium, Nightwatch.js
+~ Unit: Jasmine, Mocha, QUnit
+~ Integration: RequireJS
+~ Functional tests: MFTF
+~ End-to-end: Selenium, Nightwatch.js
 
 ???
 Unit tests: Pure functions. Integration tests: Done with same tools as unit tests, but you can now use RequireJS to not load mocks but actual other libraries. We're not going to focus on end-to-end testing in this talk.
@@ -342,9 +342,9 @@ We have seen various test setups, where the test itself needed to be changed sli
 
 ---
 # Whatever works for you
-- <!-- .element: class="fragment" --> Tests should easy and fast
-- <!-- .element: class="fragment" --> Pick 1 setup and stick with it
-- <!-- .element: class="fragment" --> Keep your tests simple
+~ Tests should easy and fast
+~ Pick 1 setup and stick with it
+~ Keep your tests simple
 
 ???
 Mocha or Jasmine might be difficult to setup, but once configured running the tests should only involve `npm install && npm test`.
@@ -358,9 +358,9 @@ Why do we introduce testing? What do we want to know?
 
 ---
 # What do you want to touch?
-- Mocking the DOM (with `domjs`?)
-- Mocking jQuery
-- Spying
+~ Mocking the DOM (with `domjs`?)
+~ Mocking jQuery
+~ Spying
 
 ???
 Mocking is actually a code smell
@@ -407,14 +407,15 @@ Maybe mention cheerio
 ---
 {state: main center}
 ## Mocking jQuery or just using it?
+#### <!-- .element: class="fragment" --> Or maybe it is too hard to mock jQuery?
 
 ???
 Interaction with DOM is hardest (or stupidiest) thing to test with unit testing. Perhaps end-to-end tests are what you want. The more your code evolves around business logic, the more useful it becomes.
 
 ---
 {state: main center}
-## How to test methods that are hidden using the revealing module pattern (aka data hiding)?
-#### Don't test them? Treat it as a black box?
+## How to test methods hidden using the revealing module pattern?
+#### <!-- .element: class="fragment" --> Don't test them? Treat it as a black box?
 
 ???
 Reveal those methods anyway? What good is the revealing module pattern then? Black box principle?
@@ -422,17 +423,23 @@ Reveal those methods anyway? What good is the revealing module pattern then? Bla
 ---
 {state: main center}
 ## Depending on RequireJS or faking it?
+#### <!-- .element: class="fragment" --> Beware of the NodeJS versioning nightmare
 
 ---
 # Refactoring
-- Dependency Injection (RequireJS)
-- Limit dependencies per JS component
-- Keep JS component small
-- Separate JS component per purpose
+~ Dependency Injection (RequireJS)
+~ Limit dependencies per JS component
+~ Keep JS component small
+~ Separate JS component per purpose
     - General-purpose library
     - Pure functions
     - Model
     - View
+
+---
+{state: main center}
+## Each part has its own way of testing
+
 
 ---
 {state: divider}
