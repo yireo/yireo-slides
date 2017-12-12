@@ -11,13 +11,14 @@ body {
 .reveal h2,
 .reveal h3,
 .reveal ul,
+.reveal pre,
 .reveal p {
     text-align: left;
     line-height: 140%;
 }
 
 .reveal h1 {
-    font-size: 120%;
+    font-size: 160%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -46,4 +47,8 @@ body {
 
 .reval ul span.value {
     font-size: 80%;
+}
+
+pre {
+    background-color: lightyellow;
 }
