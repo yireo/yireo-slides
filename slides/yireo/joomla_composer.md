@@ -66,3 +66,9 @@ class: center, middle
     - Capistrano, Deployer, Phing
 - Updates
     - Joomla click-click-click versus `composer update`
+
+---
+# Tips
+- Use the Joomlatools Composer Installer
+    - https://github.com/joomlatools/joomlatools-composer
+- If you have a good composer module, dump it on Packagist
