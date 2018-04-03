@@ -8,14 +8,16 @@ class: center, middle
 
 ---
 # Composer in Joomla
-- `libraries/vendor`
+- Folder `libraries/vendor`
     - Joomla Framework packages
     - Symfony Framework packages
+    - PHP libsodium compatibility
+    - PHPMailer
     - PSR logger
     - Composer itself
 
 ---
-# Problems
+# Problems with this approach
 - No `composer.lock` or `composer.json`
 - Located in subfolder `libraries`
 - Part of Joomla core
@@ -23,8 +25,15 @@ class: center, middle
 
 ---
 class: center, middle
-# Solution
-## Use `vendor` instead
+# Solution:
+## Use folder `vendor` instead
+
+---
+# Sample Joomla project
+- `libraries/vendor`
+- `modules`
+- `plugins`
+- `vendor`
 
 ---
 class: center, middle
