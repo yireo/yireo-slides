@@ -9,6 +9,10 @@ class: center, middle
 ---
 # Composer in Joomla
 - `libraries/vendor`
+    - Joomla Framework packages
+    - Symfony Framework packages
+    - PSR logger
+    - Composer itself
 
 ---
 # Problems
@@ -18,10 +22,20 @@ class: center, middle
     - No core hacks!
 
 ---
+class: center, middle
 # Solution
-Use `vendor` instead
+## Use `vendor` instead
+
+---
+class: center, middle
+# How?
 
 ---
 # How?
 - `composer require vendor/module`
 - Load `vendor/autoload.php` file in Joomla
+- 
+
+---
+# Example: Moneybird
+
