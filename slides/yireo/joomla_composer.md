@@ -8,7 +8,7 @@ class: center, middle
 
 ---
 # Composer in Joomla
-- Folder `libraries/vendor`
+- Folder `libraries/vendor/`
     - Joomla Framework packages
     - Symfony Framework packages
     - PHP libsodium compatibility
@@ -26,14 +26,18 @@ class: center, middle
 ---
 class: center, middle
 # Solution:
-## Use folder `vendor` instead
+## Use folder `vendor/` instead
 
 ---
 # Sample Joomla project
-- `libraries/vendor`
-- `modules`
-- `plugins`
-- `vendor`
+- `components/`
+- `modules/`
+- `plugins/`
+- `templates/`
+- `libraries/vendor/`
+- `vendor/`
+- `composer.json`
+- `composer.lock`
 
 ---
 class: center, middle
@@ -41,10 +45,15 @@ class: center, middle
 
 ---
 # How?
-- `composer require vendor/module`
+- Shell command `composer require a/b`
 - Load `vendor/autoload.php` file in Joomla
-- 
+- Use `a/b` library in your code
 
 ---
+# Using composer
+- Login to a shell
+
+---
+class: center, middle
 # Example: Moneybird
 
