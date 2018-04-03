@@ -8,4 +8,5 @@ class: center, middle
 
 ---
 # Composer in Joomla
+- `libraries/vendor`
 
