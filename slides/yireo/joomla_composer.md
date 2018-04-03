@@ -57,3 +57,12 @@ class: center, middle
 class: center, middle
 # Example: Moneybird
 
+---
+# Difficulties
+- Version management
+    - `git`
+- Deployment
+    - Simple copy of files
+    - Capistrano, Deployer, Phing
+- Updates
+    - Joomla click-click-click versus `composer update`
