@@ -47,6 +47,8 @@ $slideGroups = [
         'group' => 'Yireo on Joomla',
         'style' => 'yireo',
         'slides' => [
+            ['file' => 'yireo/joomla_composer', 'title' => 'Composer in eigen Joomla projecten (JD18NL)'],
+            ['file' => 'yireo/joomla_jep', 'title' => 'Joomla Educatie Project'],
             ['file' => 'yireo/joomla_namespaces', 'title' => 'Implementing namespaces in Joomla (JD17NL)'],
             ['file' => 'yireo/joomla_plugins_workshop', 'title' => 'Joomla Plugins Workshop (JWC16)'],
             ['file' => 'yireo/joomla_hikashop', 'title' => 'Joomla, HikaShop and Yireo'],
@@ -78,7 +80,6 @@ $slideGroups = [
         'group' => 'Joomla Community',
         'style' => 'joomla',
         'slides' => [
-            ['file' => 'joomla/jep', 'title' => 'Joomla Educatie Project'],
         ],
     ],
 ];
