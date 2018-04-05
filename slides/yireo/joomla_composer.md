@@ -125,6 +125,8 @@ See: https://packagist.org/packages/knplabs/github-api
 
 ---
 # Distribution-ready composer
+@todo: composer require joomlatools/composer-helloworld^
+
 Allow others to install this extension easily:
 ```
 $ composer require yireo/joomla-github-repos`
