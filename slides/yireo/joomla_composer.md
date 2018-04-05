@@ -165,11 +165,14 @@ class: center, middle
 
 ---
 # Possible conflicts
+- Conflicts between `vendor/` and `libraries/vendor`
+    - See what happens
+    - Solve things in your own `composer.json`
 
 ---
-# Difficulties
-- Updates
-    - Joomla click-click-click versus `composer update`
+# Other difficulties
+- Joomla one-click-updates versus `composer update`
+- Composer helps developers, not non-developers
 
 ---
 # Tips
