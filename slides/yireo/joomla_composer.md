@@ -61,6 +61,18 @@ class: center, middle
 ---
 # Using composer
 - Login to a shell
+
+---
+# WARNING: You need a shell
+- SSH with a shell
+    - Bash
+    - Zsh
+    - C-shell
+- Not all hosting providers offer this for use
+
+---
+# Using composer
+- Login to a shell
 - Install a package
     - `$ composer require a/b`
 - Installing packages when `vendor/` is missing
@@ -84,16 +96,6 @@ class: center, middle
     - `knplabs/github-api`
 
 ---
-# Steps to get things working
-- Run `composer require knplabs/github-api`
-- Run `composer require php-http/guzzle6-adapter`
-- Create XML file `mod_github_repos.xml`
-- Create PHP file `mod_github_repos.php`
-- Create PHP file `helper.php`
-    - Add `require_once JPATH_ROOT.'/vendor/autoload.php';`
-    - Use library as documented
-
----
 # Usage of GitHub library
 As documented:
 ```php
@@ -110,6 +112,17 @@ $repositories = $client->api('user')->repositories('ornicar');
 ```
 
 See: https://packagist.org/packages/knplabs/github-api
+
+---
+# Steps to get things working
+- Run `composer require knplabs/github-api`
+- Run `composer require php-http/guzzle6-adapter`
+- Create XML file `mod_github_repos.xml`
+- Create PHP file `mod_github_repos.php`
+- Create PHP file `helper.php`
+    - Add `require_once JPATH_ROOT.'/vendor/autoload.php';`
+    - Use library as documented
+
 
 ---
 # File composer.json
@@ -142,7 +155,7 @@ class: center, middle
 - Version management
     - `git`
 - Deployment
-    - Simple copy of files
+    - Simple copy of files (including `vendor/`)
     - Capistrano, Deployer, Phing
 - Updates
     - Joomla click-click-click versus `composer update`
@@ -152,3 +165,7 @@ class: center, middle
 - Use the Joomlatools Composer Installer
     - https://github.com/joomlatools/joomlatools-composer
 - If you have a good composer module, dump it on Packagist
+
+---
+class: center, middle
+# Composer your own project!
