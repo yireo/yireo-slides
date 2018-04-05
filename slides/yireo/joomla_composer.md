@@ -29,7 +29,15 @@ class: center, middle
 ## Use folder `vendor/` instead
 
 ---
-# Sample Joomla project
+# Normal Joomla project
+- `components/`
+- `modules/`
+- `plugins/`
+- `templates/`
+- `libraries/vendor/`
+
+---
+# My Joomla project
 - `components/`
 - `modules/`
 - `plugins/`
@@ -39,26 +47,27 @@ class: center, middle
 - `composer.json`
 - `composer.lock`
 
----
-class: center, middle
-# How?
 
 ---
-# How?
+class: center, middle
+# How to use composer?
+
+---
+# How to use composer?
 - Shell command `composer require a/b`
-- Load `vendor/autoload.php` file in Joomla
-- Use `a/b` library in your code
+- Load `vendor/autoload.php` file in your PHP code
+- Use `a/b` library in your PHP code
 
 ---
 # Using composer
 - Login to a shell
 - Install a package
-    - `composer require a/b`
+    - `$ composer require a/b`
 - Installing packages when `vendor/` is missing
-    - `composer install`
+    - `$ composer install`
     - Uses `composer.lock` to determine exact versions
 - Updating packages regardless of what is in `vendor/`
-    - `composer update`
+    - `$ composer update`
     - Uses `composer.json` to determine non-exact versions
 
 ---
