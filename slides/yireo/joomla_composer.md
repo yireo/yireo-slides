@@ -52,6 +52,14 @@ class: center, middle
 ---
 # Using composer
 - Login to a shell
+- Install a package
+    - `composer require a/b`
+- Installing packages when `vendor/` is missing
+    - `composer install`
+    - Uses `composer.lock` to determine exact versions
+- Updating packages regardless of what is in `vendor/`
+    - `composer update`
+    - Uses `composer.json` to determine non-exact versions
 
 ---
 class: center, middle
@@ -60,10 +68,11 @@ class: center, middle
 ---
 # Example: GitHub repos
 - Yireo module `mod_github_repos`
+    - https://github.com/yireo/mod_github_repos
 - Shows a listing of GitHub repos on your frontend
 - GitHub has an API to fetch data
 - There is a composer package to make this easier
-    - 
+    -
 
 ---
 class: center, middle
