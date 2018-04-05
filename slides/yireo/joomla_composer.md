@@ -143,7 +143,6 @@ See: https://packagist.org/packages/knplabs/github-api
     "php": ">=7.0.0"
   }
 }
-
 ```
 
 ---
@@ -151,12 +150,24 @@ class: center, middle
 # Thoughts
 
 ---
+# Including vendor/
+- Through a System Plugin?
+    - Event `onAfterInitialize`?
+    - Or even in the constructor?
+- Per extension
+    - Simply add `require_once JPATH_ROOT.'/vendor/autoload.php';`
+
+---
+# Deployment
+- Simple copy of files (including `vendor/`)
+- Use of `git` version management
+- Capistrano, Deployer, Phing
+
+---
+# Possible conflicts
+
+---
 # Difficulties
-- Version management
-    - `git`
-- Deployment
-    - Simple copy of files (including `vendor/`)
-    - Capistrano, Deployer, Phing
 - Updates
     - Joomla click-click-click versus `composer update`
 
