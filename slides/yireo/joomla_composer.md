@@ -125,7 +125,7 @@ See: https://packagist.org/packages/knplabs/github-api
 
 
 ---
-# File composer.json
+# Module-file composer.json
 ```json
 {
   "name": "yireo/joomla-github-repos",
