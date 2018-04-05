@@ -55,6 +55,11 @@ class: center, middle
 
 ---
 class: center, middle
+# Example: GitHub repos
+
+
+---
+class: center, middle
 # Example: Moneybird
 
 ---
