@@ -72,7 +72,38 @@ class: center, middle
 - Shows a listing of GitHub repos on your frontend
 - GitHub has an API to fetch data
 - There is a composer package to make this easier
-    -
+    - `knplabs/github-api`
+
+---
+# Steps to get things working
+- Run `composer require knplabs/github-api`
+- Create XML file `mod_github_repos.xml`
+- Create PHP file `mod_github_repos.php`
+- Create PHP file `helper.php`
+    - Add `require_once JPATH_ROOT.'/vendor/autoload.php';`
+    - Use
+
+---
+# File composer.json
+```json
+{
+  "name": "yireo/joomla-github-repos",
+  "license": "OSL-3.0",
+  "type": "joomlatools-composer",
+  "version": "2.0.1",
+  "homepage": "https://github.com/yireo/mod_github_repos",
+  "description": "",
+  "keywords":[ "composer-installer", "joomla"],
+  "authors": [{"name": "Jisse Reitsma","email": "jisse@yireo.com"}],
+  "require": {
+    "joomlatools/composer": "*",
+    "knplabs/github-api": "*",
+    "php-http/guzzle6-adapter": "*",
+    "php": ">=7.0.0"
+  }
+}
+
+```
 
 ---
 class: center, middle
