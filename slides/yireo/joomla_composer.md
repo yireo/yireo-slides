@@ -57,10 +57,17 @@ class: center, middle
 class: center, middle
 # Example: GitHub repos
 
+---
+# Example: GitHub repos
+- Yireo module `mod_github_repos`
+- Shows a listing of GitHub repos on your frontend
+- GitHub has an API to fetch data
+- There is a composer package to make this easier
+    - 
 
 ---
 class: center, middle
-# Example: Moneybird
+# Thoughts
 
 ---
 # Difficulties
