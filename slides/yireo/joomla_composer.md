@@ -77,11 +77,30 @@ class: center, middle
 ---
 # Steps to get things working
 - Run `composer require knplabs/github-api`
+- Run `composer require php-http/guzzle6-adapter`
 - Create XML file `mod_github_repos.xml`
 - Create PHP file `mod_github_repos.php`
 - Create PHP file `helper.php`
     - Add `require_once JPATH_ROOT.'/vendor/autoload.php';`
-    - Use
+    - Use library as documented
+
+---
+# Usage of GitHub library
+As documented:
+```php
+require_once __DIR__ . '/vendor/autoload.php';
+$client = new \Github\Client();
+$repositories = $client->api('user')->repositories('ornicar');
+```
+
+In Joomla:
+```php
+require_once JPATH_ROOT . '/vendor/autoload.php';
+$client = new \Github\Client();
+$repositories = $client->api('user')->repositories('ornicar');
+```
+
+See: https://packagist.org/packages/knplabs/github-api
 
 ---
 # File composer.json
