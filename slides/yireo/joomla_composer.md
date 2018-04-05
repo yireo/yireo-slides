@@ -115,14 +115,20 @@ See: https://packagist.org/packages/knplabs/github-api
 
 ---
 # Steps to get things working
-- Run `composer require knplabs/github-api`
-- Run `composer require php-http/guzzle6-adapter`
+- Run `$ composer require knplabs/github-api`
+- Run `$ composer require php-http/guzzle6-adapter`
 - Create XML file `mod_github_repos.xml`
 - Create PHP file `mod_github_repos.php`
 - Create PHP file `helper.php`
     - Add `require_once JPATH_ROOT.'/vendor/autoload.php';`
     - Use library as documented
 
+---
+# Distribution-ready composer
+Allow others to install this extension easily:
+```
+$ composer require yireo/joomla-github-repos`
+```
 
 ---
 # Module-file composer.json
@@ -171,7 +177,7 @@ class: center, middle
 
 ---
 # Other difficulties
-- Joomla one-click-updates versus `composer update`
+- Joomla one-click-updates versus `$ composer update`
 - Composer helps developers, not non-developers
 
 ---
