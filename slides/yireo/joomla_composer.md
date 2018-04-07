@@ -115,8 +115,9 @@ See: https://packagist.org/packages/knplabs/github-api
 
 ---
 # Steps to get things working
-- Run `$ composer require knplabs/github-api`
-- Run `$ composer require php-http/guzzle6-adapter`
+- Install packages
+    - `$ composer require knplabs/github-api`
+    - `$ composer require php-http/guzzle6-adapter`
 - Create XML file `mod_github_repos.xml`
 - Create PHP file `mod_github_repos.php`
 - Create PHP file `helper.php`
@@ -124,12 +125,19 @@ See: https://packagist.org/packages/knplabs/github-api
     - Use library as documented
 
 ---
+class: center, middle
+# Managing your dependencies
+
+---
 # Distribution-ready composer
-@todo: composer require joomlatools/composer-helloworld^
+Example install:
+```shell
+$ composer require joomlatools/composer-helloworld
+```
 
 Allow others to install this extension easily:
-```
-$ composer require yireo/joomla-github-repos`
+```shell
+$ composer require yireo/joomla-github-repos
 ```
 
 ---
