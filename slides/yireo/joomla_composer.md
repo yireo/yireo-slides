@@ -211,8 +211,14 @@ class: center, middle
 
 ---
 # Deployment
+
+--
 - Simple copy of files (including `vendor/`)
+
+--
 - Use of `git` version management
+
+--
 - Capistrano, Deployer, Phing
 
 ---
@@ -220,6 +226,8 @@ class: center, middle
 - Conflicts between `vendor/` and `libraries/vendor`
     - See what happens
     - Solve things in your own `composer.json`
+--
+- Conflicts between `vendor/` and manually copied packages in 3rd party extensions
 
 ---
 # Other difficulties
