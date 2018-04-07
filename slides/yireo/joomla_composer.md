@@ -7,6 +7,18 @@ class: center, middle
 ## in custom Joomla projects
 
 ---
+# What is composer?
+
+--
+- Package manager for PHP
+
+--
+- Version management tool
+
+--
+- Awesome command-line tool for developers
+
+---
 # Composer in Joomla
 - Folder `libraries/vendor/`
     - Joomla Framework packages
@@ -18,8 +30,14 @@ class: center, middle
 
 ---
 # Problems with this approach
+
+--
 - No `composer.lock` or `composer.json`
+
+--
 - Located in subfolder `libraries`
+
+--
 - Part of Joomla core
     - No core hacks!
 
@@ -115,12 +133,17 @@ See: https://packagist.org/packages/knplabs/github-api
 
 ---
 # Steps to get things working
+--
 - Install packages
     - `$ composer require knplabs/github-api`
     - `$ composer require php-http/guzzle6-adapter`
-- Create XML file `mod_github_repos.xml`
-- Create PHP file `mod_github_repos.php`
-- Create PHP file `helper.php`
+
+--
+- Create module files
+    - XML file `mod_github_repos.xml`
+    - PHP file `mod_github_repos.php`
+    - PHP file `helper.php`
+- Add composer support to your PHP code
     - Add `require_once JPATH_ROOT.'/vendor/autoload.php';`
     - Use library as documented
 
