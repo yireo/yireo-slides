@@ -72,8 +72,14 @@ class: center, middle
 
 ---
 # How to use composer?
+
+--
 - Shell command `composer require a/b`
+
+--
 - Load `vendor/autoload.php` file in your PHP code
+
+--
 - Use `a/b` library in your PHP code
 
 ---
@@ -93,9 +99,11 @@ class: center, middle
 - Login to a shell
 - Install a package
     - `$ composer require a/b`
+--
 - Installing packages when `vendor/` is missing
     - `$ composer install`
     - Uses `composer.lock` to determine exact versions
+--
 - Updating packages regardless of what is in `vendor/`
     - `$ composer update`
     - Uses `composer.json` to determine non-exact versions
@@ -122,6 +130,7 @@ $client = new \Github\Client();
 $repositories = $client->api('user')->repositories('ornicar');
 ```
 
+--
 In Joomla:
 ```php
 require_once JPATH_ROOT . '/vendor/autoload.php';
@@ -133,16 +142,17 @@ See: https://packagist.org/packages/knplabs/github-api
 
 ---
 # Steps to get things working
+
 --
 - Install packages
     - `$ composer require knplabs/github-api`
     - `$ composer require php-http/guzzle6-adapter`
-
 --
 - Create module files
     - XML file `mod_github_repos.xml`
     - PHP file `mod_github_repos.php`
     - PHP file `helper.php`
+--
 - Add composer support to your PHP code
     - Add `require_once JPATH_ROOT.'/vendor/autoload.php';`
     - Use library as documented
@@ -190,9 +200,12 @@ class: center, middle
 
 ---
 # Including vendor/
+
+--
 - Through a System Plugin?
     - Event `onAfterInitialize`?
     - Or even in the constructor?
+--
 - Per extension
     - Simply add `require_once JPATH_ROOT.'/vendor/autoload.php';`
 
