@@ -17,9 +17,14 @@ $request = preg_replace('/\?(.*)$/', '', $request);
 // Include the slide
 if (!empty($request)) {
     $definitions = new \Yireo\Slides\Definitions($slideGroups);
-    $definition = $definitions->find($request);
-    $slide = $definition->generateSlide(__DIR__);
 
+    try {
+        $definition = $definitions->find($request);
+    } catch(Exception $e) {
+        die('Invalid input');
+    }
+
+    $slide = $definition->generateSlide(__DIR__);
     include_once 'renderer/'.$definition->getRenderer().'.php';
     exit;
 }
