@@ -4,21 +4,18 @@ class: center, middle
 #### hosted by MaxServ & Yireo
 
 ---
-# 17 mei 2018
+# Agenda 17 mei 2018
 - Welkom 
 - Ronald (MaxServe): Opening
 - Jisse (Yireo): Nieuws & Updates 
+- Wat gaan we doen?
+- Pauze
 - Remote skype call met Andrew Levine
-- Pauze 
 - Rondvraag & Borrel
 
 ---
 class: center, middle
 ### #mugwaalwijk #magento
-
----
-class: center, middle
-# Nieuws & updates
 
 ---
 # MaxServ
@@ -51,30 +48,17 @@ class: center, middle
 `MUGBRABANT_AT_MM18NL`
 
 ---
-# Ruimte beschikbaar?
-Laat het ons weten!
-
----
-# Presenteren?
-Laat het ons weten!
-
-https://goo.gl/forms/ED0wOQ56UU9z9EI13
-
----
 class: center, middle
-### Magento nieuws
+# Nieuws & updates
 
 ---
 # Magento 2
-
---
-- Magento 2.1 (huidig)
-    - 2.1.8 nu beschikbaar
-    - Veel GitHub issues
+- Magento 2.1 (vorige)
+    - Veel open issues op GitHub
     - Enorm veel devdocs
---
-- Magento 2.2 in september 2017
-    - 2.2-rc2.1 nu beschikbaar
+- Magento 2.2 (huidig)
+    - Enorm veel issues opgelost
+    - 2.2.4 nu beschikbaar
 
 ---
 # Magento
@@ -82,8 +66,8 @@ class: center, middle
 - Commerce ("Enterprise Edition")
 
 ---
-# Magento 2.2
-- B2B (Business-to-Business)
+# Magento 2.3
+- PWA (Progressive Web Apps
 - Advanced Reporting (BI)
 - Social (Shopial)
 - Shipping (Temando)
@@ -136,16 +120,8 @@ class: center, middle
     - Localisatie (?)
 
 ---
-# Agenda MUGs
-- **24 augustus = MUG Waalwijk: Content**
-- 12 september = MUG Zwolle: Migratie
-- ? oktober = MUG Tilburg (GJ-R)
-- ? november = MUG Zwolle (Primegento)
-- ? december = MUG Waalwijk (MaxServ)
-- ? januari = MUG Utrecht (TIG)
-
----
-# Andere events
+# Agenda
+- 1 juni = MeetMagento Nederland
 - 25 augustus = MageUnconference NL (Utrecht)
 - 26-27 oktober = MeetMagento BE
 - 14-18 november = MageTestFest (Yireo)
