@@ -59,6 +59,8 @@ class: center, middle
 - Magento 2.2 (huidig)
     - Enorm veel issues opgelost
     - 2.2.4 nu beschikbaar
+- Magento 2.3
+    - Q3 2018 (?)
 
 ---
 # Magento
@@ -68,12 +70,22 @@ class: center, middle
 ---
 # Magento 2.3 (generiek)
 - PWA (Progressive Web Apps)
+- Advanced CMS (*Commerce*)
+- Page Builder (*Commerce*)
+- Klarna Instant Checkout / Payment
+- Amazon Multi-Channel Fulfillment
+- Multi-Source Inventory (MSI)
 
 ---
 # Magento 2.3 (technisch)
 - PWA Studio
+- GraphQL support (catalog)
 - Declaritive schema definitions
 - Magento Functional Testing Framework (MFTF)
+- Asynchronous Web API / Bulk API
+- Rabbit MQ
+- PHP 7.2 support
+- MSI
 
 ---
 # Magento 2.4
