@@ -1,19 +1,15 @@
 class: center, middle
-# 24 augustus 2017
+# 17 mei 2018
 ### MUG Waalwijk
-#### hosted by MaxServ
+#### hosted by MaxServ & Yireo
 
 ---
-# 24 augustus 2017
-- 19:00 Welkom 
-- 19:15 Ronald (MaxServe): Opening
-- 19:16 Jisse (Yireo): Magento Inc Updates 
-- 19:30 Michiel Heijmans (Yoast): SEO practices
-- 20:00 Jamie Maria (Hatimeria): Headless Magento 
-- 20:30 Pauze 
-- 20:45 Vincent (MaxServ): MATE
-- 21:15 Mark (We/Provide): Bluefoot  
-- 21:45 Rondvraag & Borrel
+# 17 mei 2018
+- Welkom 
+- Ronald (MaxServe): Opening
+- Jisse (Yireo): Magento Inc Updates 
+- Pauze 
+- Rondvraag & Borrel
 
 ---
 class: center, middle
