@@ -66,32 +66,14 @@ class: center, middle
 - Commerce ("Enterprise Edition")
 
 ---
-# Magento 2.3
-- PWA (Progressive Web Apps
-- Advanced Reporting (BI)
-- Social (Shopial)
-- Shipping (Temando)
-- Security Scanner
+# Magento 2.3 (generiek)
+- PWA (Progressive Web Apps)
 
 ---
-# Magento 2.2 features
-- Bugfixes
-- API coverage
-    - Better `@api` coverage
-    - More PHP interfaces
-    - Less `around` Plugins
-- Deployment enhancements
-    - Pipeline deployment
-    - Faster DI compilation
-    - Faster Static View Files Deployment
-
----
-# Magento 2.3
-- Advanced CMS (Bluefoot)
-- Klarna
-- Features
-    - ORM / Query API / schema definitions
-    - Magento Testing Framework
+# Magento 2.3 (technisch)
+- PWA Studio
+- Declaritive schema definitions
+- Magento Functional Testing Framework (MFTF)
 
 ---
 # Magento 2.4
@@ -100,7 +82,6 @@ class: center, middle
     - Progressive Web Apps (PWA)
     - Full GraphQL
     - Entitlement API (Apollo)
-    - ... maybe based on React?
 
 ---
 # Community
@@ -121,12 +102,12 @@ class: center, middle
 
 ---
 # Agenda
-- 1 juni = MeetMagento Nederland
-- 25 augustus = MageUnconference NL (Utrecht)
-- 26-27 oktober = MeetMagento BE
-- 14-18 november = MageTestFest (Yireo)
-- 2018 = MageTitans NL (?)
-- ? mei 2018 = MeetMagento NL
+- 1 juni = MeetMagento Nederland (Utrecht)
+- 20 september = MUG Waalwijk: Vue StoreFront
+- 21-23 september = MageUnconference Utrecht
+- 4-5 oktober = Reacticon v2 (Eindhoven)
+- 6 oktober = MageTitans Groningen
+- 1 november = MUG Waalwijk: Extensies
 
 ---
 class: center, middle
