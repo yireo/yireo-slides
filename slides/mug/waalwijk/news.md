@@ -8,9 +8,9 @@ class: center, middle
 - Welkom 
 - Ronald (MaxServe): Opening
 - Jisse (Yireo): Nieuws & Updates 
-- Wat gaan we doen?
 - Pauze
 - Remote skype call met Andrew Levine
+- Wat gaan we doen?
 - Rondvraag & Borrel
 
 ---
@@ -52,13 +52,17 @@ class: center, middle
 # Nieuws & updates
 
 ---
-# Magento 2
+# Magento 2 versies
+
+--
 - Magento 2.1 (vorige)
     - Veel open issues op GitHub
     - Enorm veel devdocs
+--
 - Magento 2.2 (huidig)
     - Enorm veel issues opgelost
     - 2.2.4 nu beschikbaar
+--
 - Magento 2.3
     - Q3 2018 (?)
 
@@ -69,31 +73,64 @@ class: center, middle
 
 ---
 # Magento 2.3 (generiek)
+
+--
 - PWA (Progressive Web Apps)
+
+--
 - Advanced CMS (*Commerce*)
+
+--
 - Page Builder (*Commerce*)
+
+--
 - Klarna Instant Checkout / Payment
+
+--
 - Amazon Multi-Channel Fulfillment
+
+--
 - Multi-Source Inventory (MSI)
+
+--
+- Google reCAPTCHA (MageSpecialist)
+
+--
+- Two Factor Authentication (MageSpecialist)
 
 ---
 # Magento 2.3 (technisch)
+
+--
 - PWA Studio
+
+--
 - GraphQL support (catalog)
+
+--
 - Declaritive schema definitions
+
+--
 - Magento Functional Testing Framework (MFTF)
+
+--
 - Asynchronous Web API / Bulk API
+
+--
 - Rabbit MQ
+
+--
 - PHP 7.2 support
-- MSI
+
+--
+- Multi-Source Inventory (MSI)
 
 ---
 # Magento 2.4
-- Features
-    - Client-rendered frontend
-    - Progressive Web Apps (PWA)
-    - Full GraphQL
-    - Entitlement API (Apollo)
+- Client-rendered frontend
+- Progressive Web Apps (PWA)
+- Full GraphQL
+- Entitlement API (Apollo)
 
 ---
 # Community
@@ -114,11 +151,23 @@ class: center, middle
 
 ---
 # Agenda
+
+--
 - 1 juni = MeetMagento Nederland (Utrecht)
+
+--
 - 20 september = MUG Waalwijk: Vue StoreFront
+
+--
 - 21-23 september = MageUnconference Utrecht
+
+--
 - 4-5 oktober = Reacticon v2 (Eindhoven)
+
+--
 - 6 oktober = MageTitans Groningen
+
+--
 - 1 november = MUG Waalwijk: Extensies
 
 ---
