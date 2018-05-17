@@ -133,6 +133,10 @@ class: center, middle
 - Entitlement API (Apollo)
 
 ---
+class: center, middle
+### Pauze
+
+---
 # Community
 
 --
