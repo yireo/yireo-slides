@@ -7,7 +7,8 @@ class: center, middle
 # 17 mei 2018
 - Welkom 
 - Ronald (MaxServe): Opening
-- Jisse (Yireo): Magento Inc Updates 
+- Jisse (Yireo): Nieuws & Updates 
+- Remote skype call met Andrew Levine
 - Pauze 
 - Rondvraag & Borrel
 
@@ -16,50 +17,38 @@ class: center, middle
 ### #mugwaalwijk #magento
 
 ---
+class: center, middle
+# Nieuws & updates
+
+---
+# MaxServ
+- Internetbureau & Magento expert
+- Maker van MATE (Magento & Typo3)
+- Maker van Yoast SEO (Magento 2)
+- Organisator van MUGs
+
+---
 # Jisse Reitsma
 - Oprichter en lead developer Yireo
 - Developer, blogger, trainer, spreker
-- Organisator MUGs
-- Organisator Magento 2 Seminar / MageTestFest
-- Zend Z-Team Member 2015-2016
-- Magento Master "Mover" 2017
-
----
-# Magento User Groups
-* Gebruikersgroep
-    * Webwinkeliers / merchants
-    * Bouwers / implementors
-    * Developers
---
-* Samen met elkaar
-    * Door Magento fans
-    * Voor Magento fans
-
----
-# MUGs in Nederland
-
---
-- Per provincie
-
---
-- Funding door Dutchento
-
---
-- Vrij te bepalen format
-
---
-- Community in actie
+- Organisator MUGs & Reacticon & MageTestFest
+- Magento Master "Mover" 2017 & 2018
+- ExtDN board member
 
 ---
 # Dutchento
 - Officiele gezicht van NL community
 - Organisatie en funding van events
+    - MUGs
+    - MeetMagento Nederland
 - Bundeling van community effort
 - Voor ons, door ons
 
 ---
-# Idee?
-Laat het ons weten!
+class: center, middle
+# MeetMagento NL 2018
+### 1 juni 2018
+`MUGBRABANT_AT_MM18NL`
 
 ---
 # Ruimte beschikbaar?
