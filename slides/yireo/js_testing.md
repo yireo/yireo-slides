@@ -32,9 +32,14 @@
 Unit tests: Pure functions. Integration tests: Done with same tools as unit tests, but you can now use RequireJS to not load mocks but actual other libraries. We're not going to focus on end-to-end testing in this talk.
 
 ---
-{state: divider}
+{state: divider divider-center divider-bold}
 {background-image: mm18it/doors-game-show.jpg}
 # Diving into the tools
+
+---
+{state: divider divider-center divider-bold}
+{background-image: mm18it/shell-game.jpg}
+# How to make a choice?
 
 ---
 # Which environment?
@@ -84,12 +89,12 @@ Assertion libraries most commonly provide a `assert()` function.
 - Mockjax: Mocking AJAX requests
 
 ---
-{state: divider}
+{state: divider divider-center divider-bold}
 {background-image: mm18it/david-is-scared.jpg}
 # Could you repeat that?
 
 ---
-{state: divider}
+{state: divider divider-center divider-bold}
 {background-image: mm18it/traffic-in-india.png}
 # Find your way
 
