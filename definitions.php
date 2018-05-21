@@ -13,7 +13,7 @@ $slideGroups = [
         'group' => 'MeetMagento',
         'style' => 'meetmagento',
         'slides' => [
-            ['file' => 'yireo/js_testing', 'title' => 'What to test in JS (MageConf 2017 Ukraine)', 'style' => 'mageconf', 'renderer' => 'reveal'],
+            ['file' => 'yireo/js_testing', 'title' => 'What to test in JS (MageConf 2017 Ukraine)', 'style' => 'mm18it', 'renderer' => 'reveal'],
             ['file' => 'yireo/pwa_is_the_end', 'title' => 'PWA: Is this the end? (ChristMage 2017 Aachen)'],
             ['file' => 'yireo/messing_up_di', 'title' => 'Messing Up DI (MeetMagento 2017 Belgium)'],
             ['file' => 'yireo/m2_linking-components', 'title' => 'M2 Linking JS Components (MeetMagento 2017 Poland)'],
