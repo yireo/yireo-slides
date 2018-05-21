@@ -1,4 +1,5 @@
 {state: main}
+{background-image: mm18it/background-venice.jpg}
 # What to test in JS?
 ## A humble overview of JS testing techniques
 
@@ -85,7 +86,7 @@ Assertion libraries most commonly provide a `assert()` function.
 ---
 {state: divider}
 {background-image: mm18it/david-is-scared.jpg}
-# breathe in, breathe out
+# Could you repeat that?
 
 ---
 {state: divider}
