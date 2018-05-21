@@ -1,17 +1,17 @@
 {state: main}
-{background-image: mageconf/bg-welcome2.png}
+{background-image: mm18it/jisse.jpg}
 # What to test in JS?
-## A brief overview of JS testing techniques 
-### by Jisse Reitsma
+## A humble overview of JS testing techniques
 
 ---
 {state: speaker}
 {background-image: mageconf/bg-speaker.png}
 # Jisse Reitsma
 ~ Founder of Yireo
-~ Training M2 devs
-~ Creator of MageTestFest & M2Seminar
-~ Magento Master 2017 Mover
+~ Trainer of M2 devs
+~ Creator of MageTestFest & Reacticon
+~ Member of ExtDN.org
+~ Magento Master 2017 & 2018 Mover
 ~ A simple Dutch boy
 
 ---
