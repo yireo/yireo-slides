@@ -354,7 +354,7 @@ File `test/spec/test.js`:
 ```
 
 ---
-{state: divider divider-center}
+{state: divider divider-center divider-bold}
 {background-image: mm18it/einstein-robot.jpg}
 # Some thoughts
 
@@ -362,21 +362,21 @@ File `test/spec/test.js`:
 We have seen various test setups, where the test itself needed to be changed slightly.
 
 ---
-{state: divider2}
+{state: divider divider-center divider-bold}
 {background-image: mm18it/riccard-does-not-care.jpg}
-# We don't care which tool you use
+# We don't care <br/> which tool you use
 
 ---
 # Whatever works for you
 ~ Tests should easy and fast
-~ Pick 1 setup and stick with it
+~ Pick one tool & setup. Stick with it.
 ~ Keep your tests simple
 
 ???
 Mocha or Jasmine might be difficult to setup, but once configured running the tests should only involve `npm install && npm test`.
 
 ---
-{state: divider}
+{state: divider divider-center}
 # Asking the right questions
 
 ???
@@ -431,7 +431,7 @@ RECOMMENDATION: Use Jasmine anyway
 Maybe mention cheerio
 
 ---
-{state: main center}
+{state: divider divider-center}
 ## Mocking jQuery or just using it?
 #### <!-- .element: class="fragment" --> Or maybe it is too hard to mock jQuery?
 
@@ -439,7 +439,7 @@ Maybe mention cheerio
 Interaction with DOM is hardest (or stupidiest) thing to test with unit testing. Perhaps end-to-end tests are what you want. The more your code evolves around business logic, the more useful it becomes.
 
 ---
-{state: main center}
+{state: divider divider-center}
 ## How to test methods hidden using the revealing module pattern?
 #### <!-- .element: class="fragment" --> Don't test them? Treat it as a black box?
 
@@ -447,7 +447,7 @@ Interaction with DOM is hardest (or stupidiest) thing to test with unit testing.
 Reveal those methods anyway? What good is the revealing module pattern then? Black box principle?
 
 ---
-{state: main center}
+{state: divider divider-center}
 ## Depending on RequireJS or faking it?
 #### <!-- .element: class="fragment" --> Beware of the NodeJS versioning nightmare
 
@@ -463,12 +463,12 @@ Reveal those methods anyway? What good is the revealing module pattern then? Bla
     - View
 
 ---
-{state: main center}
+{state: divider divider-center}
 ## Each part has its own way of testing
 
 
 ---
-{state: divider}
+{state: divider divider-center}
 # Thanks
 ## @jissereitsma / @yireo
 #### http://slides.yireo.com/yireo/js_testing

@@ -40,12 +40,13 @@ body {
 
 .reveal h2 {
     font-size: 130%;
-    color: #222222;
+    font-weight: bold;
+    color: #d65b2b;
 }
 
 .reveal h3 {
     font-size: 110%;
-    color: #3e3e3e;
+    color: #8f8f8f;
 }
 
 .reveal ul {
@@ -113,11 +114,11 @@ body {
     top: 30%;
 }
 
-.divider-center .reveal section h1 {
+.divider-bold .reveal section h1 {
     color: white;
     font-weight: 900;
     font-size: 200%;
-    text-shadow: 11px 12px #111;
+    text-shadow: 1px 1px 10px #111;
 }
 
 .divider .reveal h1,
