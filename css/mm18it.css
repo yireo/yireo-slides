@@ -110,7 +110,7 @@ body {
 }
 
 .divider .reveal section {
-    top: 30%;
+    top: 0;
 }
 
 .divider .reveal h1,

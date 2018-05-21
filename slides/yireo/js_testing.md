@@ -90,6 +90,11 @@ Assertion libraries most commonly provide a `assert()` function.
 
 ---
 {state: divider}
+{background-image: mm18it/traffic-in-india.png}
+# Find your way
+
+---
+{state: divider}
 <div class="heading"><img src="/images/mm18it/jasmine.png" /></div>
 # Jasmine basics
 
@@ -187,6 +192,7 @@ $ karma start karma.conf.js
 
 ---
 {state: divider}
+<div class="heading"><img src="/images/mm18it/mocha.svg" /></div>
 # Adding Mocha
 
 ---
@@ -252,6 +258,7 @@ Example is using NodeJS `assert`. Note that `require` is provided by the NodeJS 
 
 ---
 {state: divider}
+<div class="heading"><img src="/images/mm18it/chai.png" /></div>
 # Adding Chai
 
 ---
@@ -317,6 +324,7 @@ Dependencies are same as before, plus Chai. Only upside is that Chai does not cl
 
 ---
 {state: divider}
+<div class="heading"><img src="/images/mm18it/tape.png" /></div>
 # From Karma to Tape
 
 ---
