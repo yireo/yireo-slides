@@ -354,11 +354,17 @@ File `test/spec/test.js`:
 ```
 
 ---
-{state: divider}
+{state: divider divider-center}
+{background-image: mm18it/einstein-robot.jpg}
 # Some thoughts
 
 ???
 We have seen various test setups, where the test itself needed to be changed slightly.
+
+---
+{state: divider2}
+{background-image: mm18it/riccard-does-not-care.jpg}
+# We don't care which tool you use
 
 ---
 # Whatever works for you

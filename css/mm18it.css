@@ -109,8 +109,15 @@ body {
     top: 20%;
 }
 
-.divider .reveal section {
-    top: 0;
+.divider-center .reveal section {
+    top: 30%;
+}
+
+.divider-center .reveal section h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 200%;
+    text-shadow: 11px 12px #111;
 }
 
 .divider .reveal h1,
