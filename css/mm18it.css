@@ -75,6 +75,15 @@ body {
     background-color: #f4f2f0;
 }
 
+.reveal div.heading {
+    text-align: center;
+    padding: 30px;
+}
+
+.reveal div.heading img {
+    max-width: 20%;
+}
+
 .main .reveal {
     margin:auto;
     text-align: center;

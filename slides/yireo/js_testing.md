@@ -90,6 +90,7 @@ Assertion libraries most commonly provide a `assert()` function.
 
 ---
 {state: divider}
+<div class="heading"><img src="/images/mm18it/jasmine.png" /></div>
 # Jasmine basics
 
 ---
@@ -113,6 +114,11 @@ Files:
 Yeoman project generator
 
 Open up HTML file to run test
+
+---
+{state: divider}
+<div class="heading"><img src="/images/mm18it/karma.svg" /></div>
+# Adding Karma
 
 ---
 # Adding Karma
