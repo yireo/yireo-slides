@@ -493,3 +493,10 @@ sinon
 What to test in JavaScript": Dealing with unit tests and integration tests; which dependencies to mock; test doubles, object replacement and spies, what not to do.
 
 uses Chai as Promised for fluent promise assertions
+
+---
+# Cat slide
+<video width="100%" height="100%" style="width:100%;height:100%;" controls>
+  <source data-src="/images/mm18it/cat.webm" type="video/webm">
+Your browser does not support the video tag.
+</video>
