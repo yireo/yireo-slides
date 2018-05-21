@@ -1,10 +1,11 @@
 {state: main}
+{background-image: mm18it/background.jpg}
 # What to test in JS?
 ## A humble overview of JS testing techniques
 
 ---
 {state: speaker}
-{background-image: mm18it/jisse.jpg}
+{background-image: mm18it/jisse2.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
 ~ Trainer of M2 devs
