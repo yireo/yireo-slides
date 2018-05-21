@@ -367,6 +367,15 @@ File `test/spec/test.js`:
 We have seen various test setups, where the test itself needed to be changed slightly.
 
 ---
+# Some thoughts
+~ Mocha or Tape for Node-based unit tests
+~ Jasmine+Karma or Mocha+Karma for browser-based tests
+~ And use Chai if you want a bit more spice
+~ Or use some other tool that suits you
+~ Or use Selenium or MFTF for functional tests
+~ Or everything at once
+
+---
 {state: divider divider-center divider-bold}
 {background-image: mm18it/riccard-does-not-care.jpg}
 # We don't care <br/> which tool you use
