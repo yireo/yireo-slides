@@ -1,5 +1,4 @@
 {state: main}
-{background-image: mm18it/background.jpg}
 # What to test in JS?
 ## A humble overview of JS testing techniques
 
@@ -16,23 +15,24 @@
 
 ---
 # Fundamentals
-~ No inline JS functionality
-~ All features to JS components
-~ Use RequireJS to load deps
-~ Pass HTML elems as configuration
+~ No inline JS code (?)
+~ Move logic to separate JS components
+~ Use RequireJS to load dependencies
+~ Pass HTML identifiers as configuration (JSON)
 
 ---
 # Levels
-~ Unit: Jasmine, Mocha, QUnit
-~ Integration: RequireJS
-~ Functional tests: MFTF
-~ End-to-end: Selenium, Nightwatch.js
+~ **Unit**: Jasmine, Mocha, QUnit
+~ **Integration**: RequireJS
+~ **Functional**: MFTF
+~ **End-to-end**: Selenium, Nightwatch.js
 
 ???
 Unit tests: Pure functions. Integration tests: Done with same tools as unit tests, but you can now use RequireJS to not load mocks but actual other libraries. We're not going to focus on end-to-end testing in this talk.
 
 ---
 {state: divider}
+{background-image: mm18it/doors-game-show.jpg}
 # Diving into the tools
 
 ---
@@ -81,6 +81,11 @@ Assertion libraries most commonly provide a `assert()` function.
 - Sinon: Mocking & spying library
 - ESLint: Linting your JS code
 - Mockjax: Mocking AJAX requests
+
+---
+{state: divider}
+{background-image: mm18it/david-is-scared.jpg}
+# breathe in, breathe out
 
 ---
 {state: divider}
