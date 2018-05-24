@@ -1,6 +1,21 @@
 <?php
 /** @var $slide \Yireo\Slides\Slide */
 /** @var $definition \Yireo\Slides\Definition */
+
+$style = $definition->getStyle();
+$imageDir = dirname(__DIR__).'/images/'.$style;
+$imageUrlPrefix = '/images/'.$style.'/';
+if (is_dir($imageDir)) {
+    $images = [];
+    $foundImages = glob($imageDir.'/*');
+    foreach ($foundImages as $foundImage) {
+        if (!preg_match('/\.(jpg|png|svg|gif)$/', $foundImage)) {
+            continue;
+        }
+        $images[] = basename($foundImage);
+    }
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -11,11 +26,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Alfa+Slab+One|Black+Ops+One|Bowlby+One"
           rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/reveal.css">
-    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $definition->getStyle(); ?>.css"/>
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $style ?>.css"/>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet"
           href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <?php foreach($images as $image) : ?>
+        <link rel="preload" href="<?= $imageUrlPrefix . $image ?>" as="image">
+    <?php endforeach; ?>
 </head>
 <body>
 <div class="reveal">
