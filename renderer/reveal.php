@@ -5,8 +5,8 @@
 $style = $definition->getStyle();
 $imageDir = dirname(__DIR__).'/images/'.$style;
 $imageUrlPrefix = '/images/'.$style.'/';
+$images = [];
 if (is_dir($imageDir)) {
-    $images = [];
     $foundImages = glob($imageDir.'/*');
     foreach ($foundImages as $foundImage) {
         if (!preg_match('/\.(jpg|png|svg|gif)$/', $foundImage)) {

@@ -13,6 +13,7 @@ $slideGroups = [
         'group' => 'MeetMagento',
         'style' => 'meetmagento',
         'slides' => [
+            ['file' => 'yireo/graphql_react', 'title' => 'Connecting GraphQL (MeetMagento UK 2018', 'style' => 'mm18uk', 'renderer' => 'reveal'],
             ['file' => 'yireo/js_testing', 'title' => 'What to test in JS (MeetMagento Italy 2018)', 'style' => 'mm18it', 'renderer' => 'reveal'],
             ['file' => 'yireo/pwa_is_the_end', 'title' => 'PWA: Is this the end? (ChristMage 2017 Aachen)'],
             ['file' => 'yireo/messing_up_di', 'title' => 'Messing Up DI (MeetMagento 2017 Belgium)'],
