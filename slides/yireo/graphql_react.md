@@ -69,6 +69,9 @@ let's not replace it with something short-sighted
 but instead use something that sticks for the upcoming years
 
 ---
+{state: blank}
+
+---
 {state: divider divider-center divider-bold}
 {background-image: mm18uk/knockout.jpg}
 
@@ -174,7 +177,7 @@ Production mode: exceptions are written to logs, which easier to debug
 - React client
     - Axios
     - Apollo
-    - Vulcan
+    - Vulcan (full-stack Meteor-based)
 
 ---
 # Shell test
