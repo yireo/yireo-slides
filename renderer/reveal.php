@@ -46,7 +46,7 @@ if (is_dir($imageDir)) {
 <script src="<?php echo $rootUrl; ?>js/reveal/markdown.js"></script>
 <script>
     Reveal.initialize();
-    Reveal.configure({slideNumber: 'c/t', history:true, center: false});
+    Reveal.configure({transitionSpeed: 'fast', slideNumber: 'c/t', history:true, center: false});
 </script>
 </body>
 </html>

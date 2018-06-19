@@ -70,7 +70,7 @@
 
 ---
 # Testing a JS component in M2
-<small>Say there is a HTML element, where `data-mage-init` leads to a RequireJS alias that leads to a JS component of which the return value is either a function or an object, while in either case, it is "executed" so that it returns value is turned into a Knockout ViewModel, which is then automagically bound to the original HTML area, so all properties can be represented using a weird KO syntax (with not 1, not 2 but 3 possible stylings), while underneath the ViewModel could be observed and modified but multiple observers, using either original KO code, or imports, or exports, or both, in a way that even the most experienced Magento developers find disturbing to say the least.</small>
+<small>Say there is a HTML element, where `data-mage-init` leads to a RequireJS alias that leads to a JS component of which the return value is either a function or an object, while in either case, it is "executed" so that it returns value is turned into a Knockout ViewModel, which is then automagically bound to the original HTML area, so all properties can be represented using a weird KO syntax (with not 1, not 2 but 3 possible stylings), while underneath the ViewModel could be observed and modified by multiple observers, using either original KO code, or imports, or exports, or both, in a way that even the most experienced Magento developers find disturbing to say the least.</small>
 
 ~ And now, how to test this?
 
@@ -452,7 +452,7 @@ We have seen various test setups, where the test itself needed to be changed sli
 ~ Or everything at once
 
 ---
-# React testing
+# BONUS: React testing
 - Use shallow component rendering
 - Compare output (from HTML back to JSX?)
 - Testing component properties
