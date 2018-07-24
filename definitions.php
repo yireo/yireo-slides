@@ -45,43 +45,4 @@ $slideGroups = [
             ['file' => 'mug/xml/magento2', 'title' => 'Magento 2 XML'],
         ],
     ],
-    [
-        'group' => 'Yireo on Joomla',
-        'style' => 'yireo',
-        'slides' => [
-            ['file' => 'yireo/joomla_composer', 'title' => 'Composer in eigen Joomla projecten (JD18NL)'],
-            ['file' => 'yireo/joomla_jep', 'title' => 'Joomla Educatie Project'],
-            ['file' => 'yireo/joomla_namespaces', 'title' => 'Implementing namespaces in Joomla (JD17NL)'],
-            ['file' => 'yireo/joomla_plugins_workshop', 'title' => 'Joomla Plugins Workshop (JWC16)'],
-            ['file' => 'yireo/joomla_hikashop', 'title' => 'Joomla, HikaShop and Yireo'],
-            ['file' => 'yireo/joomla_zray', 'title' => 'Zend Z-Ray and Joomla (JAB16)'],
-            ['file' => 'yireo/modern_php_in_joomla', 'title' => 'Modern PHP in Joomla (JAB16)'],
-            ['file' => 'yireo/php7', 'title' => 'PHP 7 (JoomlaDagen 2016)', 'public' => 1],
-            ['file' => 'yireo/plugin_patterns', 'title' => 'Joomla Plugin Concepten (JUG Utrecht)'],
-            ['file' => 'yireo/joomla_stuff', 'title' => 'Joomla Stuff (JUG Breda)'],
-            ['file' => 'yireo/custom_plugin_jwc15', 'title' => 'Joomla System Plugin Per Project (JWC15)'],
-            ['file' => 'yireo/custom_plugin', 'title' => 'Joomla System Plugin Per Project (NL)'],
-            ['file' => 'yireo/plugins', 'title' => 'Introducie tot Joomla Plugins &amp; Events (NL)'],
-            ['file' => 'yireo/ssl', 'title' => 'Joomla &amp; SSL'],
-            ['file' => 'yireo/zray_design', 'title' => 'Joomla &amp; Zend Server Z-Ray - Templaters Aid'],
-            ['file' => 'yireo/zray_plugins', 'title' => 'Joomla &amp; Zend Server Z-Ray - Plugins and Events'],
-        ],
-    ],
-    [
-        'group' => 'DJPD - Dutch Joomla PHP Developers',
-        'style' => 'djpdnl',
-        'slides' => [
-            ['file' => 'djpd/composer/composer', 'title' => 'Composer'],
-            ['file' => 'djpd/automation/phing', 'title' => 'Automation Tools - Phing'],
-            ['file' => 'djpd/automation/grunt', 'title' => 'Automation Tools - Grunt'],
-            ['file' => 'djpd/automation/gulp', 'title' => 'Automation Tools - Gulp'],
-            ['file' => 'djpd/automation/yireo', 'title' => 'Automation Tools - Yireo mojo'],
-        ],
-    ],
-    [
-        'group' => 'Joomla Community',
-        'style' => 'joomla',
-        'slides' => [
-        ],
-    ],
 ];
