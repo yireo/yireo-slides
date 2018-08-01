@@ -27,6 +27,10 @@ if (is_dir($imageDir)) {
           rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/reveal.css">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $style ?>.css"/>
+    <?php if (isset($_GET['print-pdf'])) : ?>
+        <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/print.css">
+        <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $style ?>-print.css"/>
+    <?php endif; ?>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet"
           href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -47,13 +51,6 @@ if (is_dir($imageDir)) {
 <script>
     Reveal.initialize();
     Reveal.configure({transitionSpeed: 'fast', slideNumber: 'c/t', history:true, center: false});
-</script>
-<script>
-	var link = document.createElement( 'link' );
-	link.rel = 'stylesheet';
-	link.type = 'text/css';
-	link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-	document.getElementsByTagName( 'head' )[0].appendChild( link );
 </script>
 </body>
 </html>
