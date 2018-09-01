@@ -4,7 +4,7 @@
 
 ---
 {state: speaker}
-{background-image: mm18it/jisse2.jpg}
+{background-image: mm18pl/jisse.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
 ~ Trainer of Magento 2 developers
