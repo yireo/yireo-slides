@@ -25,7 +25,7 @@
 ### an apparition or double of a living person.
 
 ---
-# Who is the good Dale Cooper?
+# Who is the evil Dale Cooper?
 <table>
 <tr>
 <td><img src="/images/mm18pl/dale-cooper-good.jpg" ></td>
@@ -34,7 +34,7 @@
 </table>
 
 ---
-# Who is the good Polish president?
+# Who is the evil Polish president?
 <table>
 <tr>
 <td><img src="/images/mm18pl/president-good.jpg" ></td>
