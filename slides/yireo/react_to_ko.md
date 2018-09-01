@@ -25,6 +25,15 @@
 ### an apparition or double of a living person.
 
 ---
+# Who is the evil Ash from Evil Dead?
+<table>
+<tr>
+<td><img src="/images/mm18pl/ash-good.jpg" ></td>
+<td><img src="/images/mm18pl/ash-bad.jpg" ></td>
+</tr>
+</table>
+
+---
 # Who is the evil Dale Cooper?
 <table>
 <tr>
