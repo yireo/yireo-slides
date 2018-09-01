@@ -22,3 +22,8 @@
 ---
 {state: main}
 # Doppelganger
+### an apparition or double of a living person.
+
+---
+{background-image: mm18pl/eye-double.jpg}
+
