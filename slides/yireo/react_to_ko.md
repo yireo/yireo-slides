@@ -12,3 +12,6 @@
 ~ Organizer of usergroups, hackathons
 ~ Magento Master 2017 & 2018 Mover
 ~ For some reason, called **Knockout Jisse**
+
+---
+{background-image: mm18pl/drinking.jpg}
