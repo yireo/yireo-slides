@@ -17,5 +17,8 @@
 {background-image: mm18pl/drinking.jpg}
 
 ---
-{state: speaker}
 {background-image: mm18pl/eye-double.jpg}
+
+---
+{state: main}
+# Doppelganger
