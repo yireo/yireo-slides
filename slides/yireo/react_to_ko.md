@@ -1,6 +1,6 @@
 {state: main}
-# What to test in JS?
-## A humble overview of JS testing techniques
+## Adding React to a Knockout frontend
+# There and back again
 
 ---
 {state: speaker}
