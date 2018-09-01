@@ -32,3 +32,12 @@
 <td><img src="/images/mm18pl/dale-cooper-bad.jpg" ></td>
 </tr>
 </table>
+
+---
+# Who is the good Polish president?
+<table>
+<tr>
+<td><img src="/images/mm18pl/president-good.jpg" ></td>
+<td><img src="/images/mm18pl/president-bad.jpg" ></td>
+</tr>
+</table>
