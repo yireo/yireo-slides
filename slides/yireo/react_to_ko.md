@@ -1,5 +1,5 @@
 {state: main}
-## Adding React to a Knockout frontend
+## Adding React to the current Knockout frontend
 # There and back again
 
 ---
@@ -7,8 +7,8 @@
 {background-image: mm18it/jisse2.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
-~ Trainer of M2 devs
+~ Trainer of Magento 2 developers
 ~ Creator of MageTestFest & Reacticon
 ~ Organizer of usergroups, hackathons
 ~ Magento Master 2017 & 2018 Mover
-~ I live in a palace
+~ For some reason, called **Knockout Jisse**
