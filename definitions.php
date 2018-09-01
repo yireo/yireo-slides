@@ -13,6 +13,7 @@ $slideGroups = [
         'group' => 'MeetMagento',
         'style' => 'meetmagento',
         'slides' => [
+            ['file' => 'yireo/react_to_ko', 'title' => 'Adding React components to current Knockout frontend (MeetMagento Poland 2018)', 'style' => 'mm18pl', 'renderer' => 'reveal'],
             ['file' => 'yireo/js_testing2', 'title' => 'What to test in JS (MeetMagento Germany 2018)', 'style' => 'mm18de', 'renderer' => 'reveal'],
             ['file' => 'yireo/graphql_react', 'title' => 'Connecting GraphQL (MeetMagento UK 2018', 'style' => 'mm18uk', 'renderer' => 'reveal'],
             ['file' => 'yireo/js_testing', 'title' => 'What to test in JS (MeetMagento Italy 2018)', 'style' => 'mm18it', 'renderer' => 'reveal'],
