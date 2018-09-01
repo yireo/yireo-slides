@@ -25,7 +25,7 @@
 ### an apparition or double of a living person.
 
 ---
-# Who is the good Dale?
+# Who is the good Dale Cooper?
 <table>
 <tr>
 <td><img src="/images/mm18pl/dale-cooper-good.jpg" ></td>
