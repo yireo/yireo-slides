@@ -25,5 +25,10 @@
 ### an apparition or double of a living person.
 
 ---
-{background-image: mm18pl/eye-double.jpg}
-
+# Who is the good Dale?
+<table>
+<tr>
+<td><img src="/images/mm18pl/dale-cooper-good.jpg" ></td>
+<td><img src="/images/mm18pl/dale-cooper-bad.jpg" ></td>
+</tr>
+</table>
