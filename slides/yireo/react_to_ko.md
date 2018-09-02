@@ -86,8 +86,10 @@
 
 ---
 # Migrate to React
-- Modern JS framework
-- 
+~ Modern JS framework
+~ Simpler to work with, once you get the hang
+~ JS, HTML, CSS - all combined in 1 single component
+~ Used by upcoming PWA techs like Magento PWA Studio
 
 ---
 # Minicart UiComponent
@@ -97,8 +99,10 @@
 ~ Copy real-life HTML from Element Inspector
 ~ Remove all KO parts
 	- Remove all KO comments (containerless bindings)
-	- Remove all element bindings (data-bind=blah)
-~ Start copying HTML to React component and make it dynamic
+	- Remove all element bindings (`data-bind=`)
+~ Start copying HTML to React component (and subcomponents)
+~ Make logic dynamic
+    - `this.props.cart` is populated from localStorage
 
 ---
 # React component
