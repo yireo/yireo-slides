@@ -23,7 +23,7 @@ if (is_dir($imageDir)) {
     <base href="<?php echo $rootUrl; ?><?php echo $request; ?>">
     <title><?php echo $definition->getTitle(); ?></title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Alfa+Slab+One|Black+Ops+One|Bowlby+One"
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script"
           rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/reveal.css">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $style ?>.css"/>
