@@ -186,5 +186,5 @@ table td img {
 .main .slides {
     background-image: url("/images/mm18pl/mm18pl.png");
     background-repeat: no-repeat;
-    background-position-x: 100%;
+    background-position: 0 100%;
 }
