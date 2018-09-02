@@ -279,5 +279,11 @@ gulp.task("build", function () {
 - No way to send state back to KO ViewModels (?)
 
 ---
+# Lessons learned
+~ Knockout sucks, React sucks less
+~ You can gradually add React components to existing frontend
+~ Once Magento 2.3 is out, start playing with GraphQL too
+
+---
 # Slides
 ## slides.yireo.com/yireo/react_to_ko
