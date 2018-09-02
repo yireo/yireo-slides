@@ -173,3 +173,11 @@ table td img {
 .reveal pre {
     white-space: pre-wrap;
 }
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align:right;
+    background-image: url("/images/mm18pl/mm18pl.png");
+}
