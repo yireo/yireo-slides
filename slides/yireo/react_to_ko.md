@@ -92,13 +92,11 @@
 ~ Used by upcoming PWA techs like Magento PWA Studio
 
 ---
-# Minicart UiComponent
-- XML layout, Block class and PHTML template generate JSON blob
-- `x-magento-init` uses JSON blob to initialize UiComponent `minicart.js`
-- UiComponent `minicart.js` creates KO ViewModel definition
-- KO ViewModel is instantiated and bound to `scope: minicart_content`
-- UiComponent calls upon child ViewModels
-- About 
+# Migration method for Minicart
+~ Copy real-life HTML from Element Inspector
+~ Remove all KO parts
+	- Remove all KO comments (containerless bindings)
+	- Remove all element bindings (`data-bind=`)
 
 ---
 # Minicart HTML
@@ -113,14 +111,28 @@ New HTML:
 ```
 
 ---
-# Migration method
-~ Copy real-life HTML from Element Inspector
-~ Remove all KO parts
+# Migration method for Minicart
+- Copy real-life HTML from Element Inspector
+- Remove all KO parts
 	- Remove all KO comments (containerless bindings)
 	- Remove all element bindings (`data-bind=`)
 ~ Start copying HTML to React component (and subcomponents)
+    - How cool: PhpStorm converts `class=` to `className=`
 ~ Make logic dynamic
     - `this.props.cart` is populated from localStorage
+
+
+---
+# Minicart UiComponent
+- XML layout, Block class and PHTML template generate JSON blob
+- `x-magento-init` uses JSON blob to initialize UiComponent `minicart.js`
+- UiComponent `minicart.js` creates KO ViewModel definition
+- KO ViewModel is instantiated and bound to `scope: minicart_content`
+- UiComponent calls upon child ViewModels
+- About 
+
+
+
 
 ---
 # Minicart React component
