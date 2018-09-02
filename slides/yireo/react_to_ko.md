@@ -132,7 +132,7 @@ New HTML:
     
 ---
 # GitHub repo
-## 
+## https://github.com/yireo-training/Yireo_ReactMinicart
 
 ---
 # Minicart React component
