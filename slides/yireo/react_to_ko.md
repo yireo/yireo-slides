@@ -101,6 +101,39 @@
 ~ Used by upcoming PWA techs like Magento PWA Studio
 
 ---
+# GitHub repo
+## https://github.com/yireo-training/Yireo_ReactMinicart
+
+---
+# Module structure (1 of 2)
+```
+registration.php
+etc/module.xml
+
+view/frontend/layout/default.xml
+view/frontend/templates/minicart.phtml
+
+view/frontend/requirejs-config.js
+
+view/frontend/web/css/source/_module.less
+```
+
+---
+# Module structure (2 of 2)
+```
+view/frontend/web/js/container.js
+
+view/frontend/web/js/react.js
+view/frontend/web/js/react-dom.js
+
+view/frontend/package.json
+view/frontend/gulpfile.js
+
+view/frontend/source/Minicart.js
+view/frontend/web/js/compiled/Minicart.js
+```
+
+---
 # Migration method for Minicart
 ~ Copy real-life HTML from Element Inspector
 ~ Remove all KO parts
@@ -131,40 +164,13 @@ New HTML:
     - `this.props.cart` is populated from localStorage
     
 ---
-# GitHub repo
-## https://github.com/yireo-training/Yireo_ReactMinicart
-
----
 # Minicart React component
 - Gulp to compile ES6+React code into plain ES5 files
 - KO listener to re-render React component when customerData.get('cart') changes
 - toggling of dropdown based on React click-handler and state, not complex UiComponent
 - simple CustomerData object to copy data from localStorage
 
----
-# Module structure (1 of 2)
-```
-registration.php
-etc/module.xml
 
-view/frontend/layout/default.xml
-view/frontend/templates/minicart.phtml
-view/frontend/requirejs-config.js
-view/frontend/web/css/source/_module.less
-```
-
----
-# Module structure (2 of 2)
-```
-view/frontend/web/js/container.js
-view/frontend/web/js/react.js
-view/frontend/web/js/react-dom.js
-
-view/frontend/package.json
-view/frontend/gulpfile.js
-view/frontend/source/Minicart.js
-view/frontend/web/js/compiled/Minicart.js
-```
 
 ---
 # gulpfile.js
