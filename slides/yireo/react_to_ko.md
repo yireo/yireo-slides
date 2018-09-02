@@ -75,6 +75,7 @@
 # Replacing the native minicart with a React component
 
 ---
+{background-image: mm18pl/knockout.jpg}
 # Summary of Knockout
 - Initial release in 2010
 - Back then, a better alternative to Angular
