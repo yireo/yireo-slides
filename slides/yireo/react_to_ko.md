@@ -129,6 +129,9 @@ New HTML:
     - How cool: PhpStorm converts HTML to JSX
 ~ Make logic dynamic
     - `this.props.cart` is populated from localStorage
+    
+---
+# 
 
 ---
 # Minicart React component
@@ -141,3 +144,7 @@ New HTML:
 # Current limitations
 - No support for text translations (yet)
 - No way to send state back to KO ViewModels (?)
+
+---
+# Slides
+## slides.yireo.com/yireo/react_to_ko
