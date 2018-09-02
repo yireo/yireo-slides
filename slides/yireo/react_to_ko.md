@@ -60,10 +60,10 @@
 </tr>
 </table>
 
+---
 {state: main}
 ## Adding React to the current Knockout frontend
-# There and back again
-
+# Replacing the native minicart with a React component
 
 ---
 # Summary of Knockout
@@ -75,3 +75,9 @@
     - Polymer
     - Web Components
 
+---
+# Summary of UiComponents
+- 
+
+---
+# Minicart UiComponent
