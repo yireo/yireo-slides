@@ -55,13 +55,17 @@
 # What is the evil component?
 <table>
 <tr>
-<td><img src="/images/mm18pl/component-good.jpg" ></td>
-<td><img src="/images/mm18pl/component-bad.jpg" ></td>
+<td><img src="/images/mm18pl/component-good.png" ></td>
+<td><img src="/images/mm18pl/component-bad.png" ></td>
 </tr>
 </table>
 
----
 {state: main}
+## Adding React to the current Knockout frontend
+# There and back again
+
+
+---
 # Summary of Knockout
 - Initial release in 2010
 - Back then, a better alternative to Angular
