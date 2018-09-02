@@ -131,7 +131,8 @@ New HTML:
     - `this.props.cart` is populated from localStorage
     
 ---
-# 
+# GitHub repo
+## 
 
 ---
 # Minicart React component
