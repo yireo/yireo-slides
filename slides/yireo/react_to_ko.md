@@ -162,6 +162,48 @@ New HTML:
     - How cool: PhpStorm converts HTML to JSX
 ~ Make logic dynamic
     - `this.props.cart` is populated from localStorage
+
+---
+# requirejs-config.js
+```js
+var config = {
+    map: {
+        '*': {
+            react: 'Yireo_ReactMinicart/js/react',
+            reactDom: 'Yireo_ReactMinicart/js/react-dom',
+            reactMinicart: 'Yireo_ReactMinicart/js/container',
+            reactMinicartComponent: 'Yireo_ReactMinicart/js/compiled/Minicart',
+            reactCustomerData: 'Yireo_ReactMinicart/js/customerData'
+        }
+    },
+    shim: {
+        reactMinicartComponent: ['react', 'reactDom']
+    }
+};
+```
+
+---
+# container.js
+```js
+define([
+    'react',
+    'reactDom',
+    'reactMinicartComponent',
+    'Magento_Customer/js/customer-data'
+], function(React, ReactDOM, MinicartComponent, customerData) {
+    'use strict';
+
+    return function(config, element) {
+        ReactDOM.render(React.createElement(MinicartComponent.default), element);
+
+        var cart = customerData.get('cart');
+        cart.subscribe(function() {
+            ReactDOM.render(React.createElement(MinicartComponent.default), element);
+        });
+    };
+});
+
+```    
     
 ---
 # Minicart React component
