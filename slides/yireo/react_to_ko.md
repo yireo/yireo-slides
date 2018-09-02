@@ -183,6 +183,16 @@ var config = {
 ```
 
 ---
+# PHTML template
+```php
+<div class="react-minicart-wrapper" data-mage-init='{"reactMinicart":{}}'>
+    <a class="action showcart" href="/checkout/cart/">
+        <span class="text"><?= __('My Cart') ?></span>
+    </a>
+</div>
+```
+
+---
 # container.js
 ```js
 define([
@@ -194,7 +204,8 @@ define([
     'use strict';
 
     return function(config, element) {
-        ReactDOM.render(React.createElement(MinicartComponent.default), element);
+        var reactElement = React.createElement(MinicartComponent.default);
+        ReactDOM.render(reactElement, element);
 
         var cart = customerData.get('cart');
         cart.subscribe(function() {
