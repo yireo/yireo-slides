@@ -81,3 +81,15 @@
 
 ---
 # Minicart UiComponent
+
+---
+# React component
+- Gulp to compile ES6+React code into plain ES5 files
+- KO listener to re-render React component when customerData.get('cart') changes
+- toggling of dropdown based on React click-handler and state, not complex UiComponent
+- simple CustomerData object to copy data from localStorage
+
+---
+# Current limitations
+- No support for text translations (yet)
+- No way to send state back to KO ViewModels (?)
