@@ -93,6 +93,10 @@
 
 ---
 # Minicart UiComponent
+- XML layout, Block class and PHTML template generate JSON blob
+- `x-magento-init` uses JSON blob to initialize UiComponent
+    - `Magento_Checkout/js/view/minicart.js` creates KO ViewModel definition
+
 
 ---
 # Migration method
