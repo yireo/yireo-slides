@@ -208,3 +208,8 @@ table td img {
     padding:5% !important;
     color: white;
 }
+
+.bordered h1, .bordered h2 {
+    text-shadow: 0 0 3px #FF0000;
+    color:white;
+}

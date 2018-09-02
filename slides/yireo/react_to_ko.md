@@ -309,5 +309,7 @@ gulp.task("build", function () {
 ~ Once Magento 2.3 is out, start playing with GraphQL too
 
 ---
+{state: bordered}
+{background-image: mm18pl/ross-kemp-folded.jpg}
 # Slides
 ## slides.yireo.com/yireo/react_to_ko
