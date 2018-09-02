@@ -90,6 +90,7 @@
 ~ `x-magento-init` uses JSON blob to initialize UiComponent `minicart.js`
 ~ UiComponent `minicart.js` creates KO ViewModel definition
 ~ KO ViewModel is instantiated and bound to `scope: minicart_content`
+~ `customerData` cart details are received from AJAX or localStorage
 ~ UiComponent calls upon child ViewModels + templates
 
 ---
