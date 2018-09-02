@@ -77,10 +77,28 @@
 
 ---
 # Summary of UiComponents
+~ Combination of technologies
+    - XML Layout + Blocks + PHTML templating
+    - RequireJS + mixins
+    - KnockoutJS + HTML templates
+    - Custom Magento logic
+~ Overly complex
+
+---
+# Migrate to React
+- Modern JS framework
 - 
 
 ---
 # Minicart UiComponent
+
+---
+# Migration method
+~ Copy real-life HTML from Element Inspector
+~ Remove all KO parts
+	- Remove all KO comments (containerless bindings)
+	- Remove all element bindings (data-bind=blah)
+~ Start copying HTML to React component and make it dynamic
 
 ---
 # React component
