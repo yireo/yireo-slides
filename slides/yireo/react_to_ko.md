@@ -63,4 +63,11 @@
 ---
 {state: main}
 # Summary of Knockout
-- Initial release of 
+- Initial release in 2010
+- Back then, a better alternative to Angular
+- Now superseeded by other solutions
+    - React
+    - Vue
+    - Polymer
+    - Web Components
+
