@@ -38,7 +38,8 @@
 
 ---
 {state: quiz}
-# Who is the evil Ash from Evil Dead?
+# Who is 
+## the evil Ash from Evil Dead?
 <table>
 <tr>
 <td><img src="/images/mm18pl/ash-good.jpg" ></td>
@@ -48,7 +49,8 @@
 
 ---
 {state: quiz}
-# Who is the evil Polish president?
+# Who is 
+## the evil Polish president?
 <table>
 <tr>
 <td><img src="/images/mm18pl/president-good.jpg" ></td>
@@ -58,7 +60,8 @@
 
 ---
 {state: quiz}
-# What is the evil component?
+# Which one is 
+## the evil UiComponent?
 <table>
 <tr>
 <td><img src="/images/mm18pl/component-good.png" ></td>

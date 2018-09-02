@@ -163,7 +163,7 @@ table {
 }
 
 table td {
-    padding: 60px !important;
+    padding: 10px 60px 60px 0px !important
 }
 
 table td img {
@@ -194,4 +194,5 @@ table td img {
 .quiz h2 {
     font-family: "Kaushan Script";
     text-align: center;
+    color: #d8593a;
 }
