@@ -1,6 +1,4 @@
 {state: main}
-<div class="header">#MM18PL</div>
-<div class="header">#MM18PL</div>
 ## Adding React to the current Knockout frontend
 # There and back again
 #### by Jisse Reitsma
