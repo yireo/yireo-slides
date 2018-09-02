@@ -106,6 +106,8 @@
 ~ `customerData` cart details are received from AJAX or localStorage
 ~ UiComponent calls upon child ViewModels + templates
 
+{background-image: mm18pl/migrate.jpg}
+
 ---
 # Migrate to React
 ~ Modern JS framework
