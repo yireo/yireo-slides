@@ -179,5 +179,12 @@ table td img {
     top: 0;
     right: 0;
     text-align:right;
+    height: 200px;
+    width: 100%;
+}
+
+.main .slides {
     background-image: url("/images/mm18pl/mm18pl.png");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
 }
