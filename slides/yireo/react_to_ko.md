@@ -237,18 +237,13 @@ export default Minicart;
 # React components
 ```js
 Minicart
-Minicart/Cart 
+Minicart/Cart
+Minicart/Cart/Actions
+Minicart/Cart/Product
+Minicart/Cart/ProductDetails
+Minicart/Cart/Subtotal
 Minicart/EmptyCart 
 ```
-    
----
-# Minicart React component
-- Gulp to compile ES6+React code into plain ES5 files
-- KO listener to re-render React component when customerData.get('cart') changes
-- toggling of dropdown based on React click-handler and state, not complex UiComponent
-- simple CustomerData object to copy data from localStorage
-
-
 
 ---
 # gulpfile.js
@@ -257,19 +252,19 @@ gulp.task("build", function () {
     return gulp
         .src(jsFiles.source)
         .pipe(sourcemaps.init())
-        .pipe(eslint({
-            baseConfig: {
-                "ecmaFeatures": {
-                    "jsx": true
-                }
-            }
-        }))
         .pipe(babel())
-        .pipe(eslint.format())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest("web/js/compiled/"));
 });
 ```
+    
+---
+# Minicart React component
+- Gulp to compile ES6+React code into plain ES5 files
+- KO listener to re-render React component when customerData.get('cart') changes
+- Dropdown based on React click-handler and state, not complex UiComponent
+- Simple CustomerData object to copy data from localStorage
+
 
 ---
 # Current limitations
