@@ -88,7 +88,7 @@
 
 ---
 {state: overlay}
-{background-image: mm18pl/knockout.jpg}
+{background-image: mm18pl/man-crying.jpg}
 # Summary of UiComponents
 ~ Combination of technologies
     - XML Layout + Blocks + PHTML templating
