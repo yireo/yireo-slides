@@ -94,9 +94,11 @@
 ---
 # Minicart UiComponent
 - XML layout, Block class and PHTML template generate JSON blob
-- `x-magento-init` uses JSON blob to initialize UiComponent
-    - `Magento_Checkout/js/view/minicart.js` creates KO ViewModel definition
-
+- `x-magento-init` uses JSON blob to initialize UiComponent `minicart.js`
+- UiComponent `minicart.js` creates KO ViewModel definition
+- KO ViewModel is instantiated and bound to `scope: minicart_content`
+- UiComponent calls upon child ViewModels
+- About 
 
 ---
 # Migration method
@@ -109,7 +111,7 @@
     - `this.props.cart` is populated from localStorage
 
 ---
-# React component
+# Minicart React component
 - Gulp to compile ES6+React code into plain ES5 files
 - KO listener to re-render React component when customerData.get('cart') changes
 - toggling of dropdown based on React click-handler and state, not complex UiComponent
