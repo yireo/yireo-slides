@@ -50,3 +50,17 @@
 <td><img src="/images/mm18pl/president-bad.jpg" ></td>
 </tr>
 </table>
+
+---
+# What is the evil component?
+<table>
+<tr>
+<td><img src="/images/mm18pl/component-good.jpg" ></td>
+<td><img src="/images/mm18pl/component-bad.jpg" ></td>
+</tr>
+</table>
+
+---
+{state: main}
+# Summary of Knockout
+- Initial release of 
