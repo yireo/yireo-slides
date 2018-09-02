@@ -106,16 +106,20 @@
 ~ `customerData` cart details are received from AJAX or localStorage
 ~ UiComponent calls upon child ViewModels + templates
 
+---
+# What if we could migrate?
 {background-image: mm18pl/migrate.jpg}
 
 ---
-# Migrate to React
+# ... to React
 ~ Modern JS framework
 ~ Simpler to work with, once you get the hang
 ~ JS, HTML, CSS - all combined in 1 single component
 ~ Used by upcoming PWA techs like Magento PWA Studio
 
 ---
+<img src="/images/mm18pl/github.png"/>
+
 # GitHub repo
 ## https://github.com/yireo-training/Yireo_ReactMinicart
 
