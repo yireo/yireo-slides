@@ -142,13 +142,22 @@ New HTML:
 - simple CustomerData object to copy data from localStorage
 
 ---
-# Module structure
+# Module structure (1 of 2)
 ```
+registration.php
 etc/module.xml
+view/frontend/layout/default.xml
+view/frontend/templates/minicart.phtml
+view/frontend/web/css/source/_module.less
+```
+
+---
+# Module structure (2 of 2)
+```
 view/frontend/package.json
 view/frontend/gulpfile.js
 view/frontend/source/Minicart.js
-
+view/frontend/web/js/compiled/Minicart.js
 ```
 
 ---
