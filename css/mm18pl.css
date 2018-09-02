@@ -179,6 +179,12 @@ table td img {
     color: #ecf3bd;
 }
 
+.main .slides h4 {
+    font-style: italic;
+    text-align:left;
+    color: #f3ceaf;
+}
+
 .reveal ul ul {
     margin-top: 0.3em;
     font-size: 80%;
