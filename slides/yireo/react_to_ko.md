@@ -284,6 +284,10 @@ gulp.task("build", function () {
   "plugins": ["transform-es2015-modules-amd"]
 }
 ```
+
+---
+# Kat in het bakkie
+{background-image: mm18pl/cat.jpg}
     
 ---
 # Minicart React component
