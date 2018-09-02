@@ -146,14 +146,20 @@ New HTML:
 ```
 registration.php
 etc/module.xml
+
 view/frontend/layout/default.xml
 view/frontend/templates/minicart.phtml
+view/frontend/requirejs-config.js
 view/frontend/web/css/source/_module.less
 ```
 
 ---
 # Module structure (2 of 2)
 ```
+view/frontend/web/js/container.js
+view/frontend/web/js/react.js
+view/frontend/web/js/react-dom.js
+
 view/frontend/package.json
 view/frontend/gulpfile.js
 view/frontend/source/Minicart.js
