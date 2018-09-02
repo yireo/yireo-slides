@@ -118,10 +118,11 @@
 ~ Used by upcoming PWA techs like Magento PWA Studio
 
 ---
-<img src="/images/mm18pl/github.png"/>
-
-# GitHub repo
-## https://github.com/yireo-training/Yireo_ReactMinicart
+<div style="text-align:center">
+<img src="/images/mm18pl/github.png" style="height:30%; width:30%;"/>
+<h1 style="text-align:center">GitHub repo</h1>
+<h3 style="text-align:center">https://github.com/yireo-training/Yireo_ReactMinicart</h3>
+</div>
 
 ---
 # Module structure (1 of 2)
