@@ -3,7 +3,7 @@
  */
 
 body {
-    font-family: Arial;
+    font-family: "Roboto Condensed", Arial;
     font-size: 150%;
 }
 
@@ -187,6 +187,7 @@ table td img {
 
 .reveal ul ul {
     margin-top: 0.3em;
+    margin-bottom: 0.2em;
     font-size: 80%;
 }
 
