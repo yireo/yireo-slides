@@ -246,16 +246,23 @@ Minicart/EmptyCart
 ```
 
 ---
-# gulpfile.js
+# Source compilation
+gulpfile.js:
 ```js
 gulp.task("build", function () {
     return gulp
         .src(jsFiles.source)
-        .pipe(sourcemaps.init())
         .pipe(babel())
-        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest("web/js/compiled/"));
 });
+```
+
+.babelrc:
+```json
+{
+  "presets": ["react", "es2015"],
+  "plugins": ["transform-es2015-modules-amd"]
+}
 ```
     
 ---
