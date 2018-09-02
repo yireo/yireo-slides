@@ -186,5 +186,12 @@ table td img {
 
 .quiz h1 {
     font-family: "Monoton";
+    font-weight: lighter;
+    text-align: center;
+    word-spacing: 0.4em;
+}
+
+.quiz h2 {
+    font-family: "Kaushan Script";
     text-align: center;
 }

@@ -27,7 +27,8 @@
 
 ---
 {state: quiz}
-# Who is the evil Dale Cooper?
+# Who is
+## the evil Dale Cooper?
 <table>
 <tr>
 <td><img src="/images/mm18pl/dale-cooper-good.jpg" ></td>
