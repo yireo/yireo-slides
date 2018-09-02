@@ -178,3 +178,8 @@ table td img {
     font-family: "Kaushan Script";
     color: #ecf3bd;
 }
+
+.reveal ul ul {
+    margin-top: 0.3em;
+    font-size: 80%;
+}
