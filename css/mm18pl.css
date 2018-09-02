@@ -173,3 +173,7 @@ table td img {
 .reveal pre {
     white-space: pre-wrap;
 }
+
+.main .slides h2 {
+    font-family: "Black Ops One";
+}
