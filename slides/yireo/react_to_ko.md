@@ -75,17 +75,20 @@
 # Replacing the native minicart with a React component
 
 ---
+{state: overlay}
 {background-image: mm18pl/knockout.jpg}
 # Summary of Knockout
-- Initial release in 2010
-- Back then, a better alternative to Angular
-- Now superseeded by other solutions
+~ Initial release in 2010
+~ Back then, a better alternative to Angular
+~ Now superseeded by other solutions
     - React
     - Vue
     - Polymer
     - Web Components
 
 ---
+{state: overlay}
+{background-image: mm18pl/knockout.jpg}
 # Summary of UiComponents
 ~ Combination of technologies
     - XML Layout + Blocks + PHTML templating
