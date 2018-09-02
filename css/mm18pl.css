@@ -183,3 +183,8 @@ table td img {
     margin-top: 0.3em;
     font-size: 80%;
 }
+
+.quiz h1 {
+    font-family: "Monoton";
+    text-align: center;
+}

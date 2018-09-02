@@ -26,6 +26,7 @@
 ### an apparition or double of a living person.
 
 ---
+{state: quiz}
 # Who is the evil Dale Cooper?
 <table>
 <tr>
@@ -35,6 +36,7 @@
 </table>
 
 ---
+{state: quiz}
 # Who is the evil Ash from Evil Dead?
 <table>
 <tr>
@@ -44,6 +46,7 @@
 </table>
 
 ---
+{state: quiz}
 # Who is the evil Polish president?
 <table>
 <tr>
@@ -53,6 +56,7 @@
 </table>
 
 ---
+{state: quiz}
 # What is the evil component?
 <table>
 <tr>
