@@ -85,6 +85,14 @@
 ~ Overly complex
 
 ---
+# Minicart UiComponent
+~ XML layout, Block class and PHTML template generate JSON blob
+~ `x-magento-init` uses JSON blob to initialize UiComponent `minicart.js`
+~ UiComponent `minicart.js` creates KO ViewModel definition
+~ KO ViewModel is instantiated and bound to `scope: minicart_content`
+~ UiComponent calls upon child ViewModels + templates
+
+---
 # Migrate to React
 ~ Modern JS framework
 ~ Simpler to work with, once you get the hang
@@ -117,22 +125,9 @@ New HTML:
 	- Remove all KO comments (containerless bindings)
 	- Remove all element bindings (`data-bind=`)
 ~ Start copying HTML to React component (and subcomponents)
-    - How cool: PhpStorm converts `class=` to `className=`
+    - How cool: PhpStorm converts HTML to JSX
 ~ Make logic dynamic
     - `this.props.cart` is populated from localStorage
-
-
----
-# Minicart UiComponent
-- XML layout, Block class and PHTML template generate JSON blob
-- `x-magento-init` uses JSON blob to initialize UiComponent `minicart.js`
-- UiComponent `minicart.js` creates KO ViewModel definition
-- KO ViewModel is instantiated and bound to `scope: minicart_content`
-- UiComponent calls upon child ViewModels
-- About 
-
-
-
 
 ---
 # Minicart React component
