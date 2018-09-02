@@ -142,6 +142,30 @@ New HTML:
 - simple CustomerData object to copy data from localStorage
 
 ---
+# Project structure
+
+---
+# gulpfile.js
+```js
+gulp.task("build", function () {
+    return gulp
+        .src(jsFiles.source)
+        .pipe(sourcemaps.init())
+        .pipe(eslint({
+            baseConfig: {
+                "ecmaFeatures": {
+                    "jsx": true
+                }
+            }
+        }))
+        .pipe(babel())
+        .pipe(eslint.format())
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest("web/js/compiled/"));
+});
+```
+
+---
 # Current limitations
 - No support for text translations (yet)
 - No way to send state back to KO ViewModels (?)
