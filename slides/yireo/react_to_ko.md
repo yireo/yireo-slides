@@ -196,24 +196,54 @@ var config = {
 # container.js
 ```js
 define([
-    'react',
-    'reactDom',
-    'reactMinicartComponent',
+    'react', 'reactDom', 'reactMinicartComponent',
     'Magento_Customer/js/customer-data'
 ], function(React, ReactDOM, MinicartComponent, customerData) {
     'use strict';
-
     return function(config, element) {
         var reactElement = React.createElement(MinicartComponent.default);
         ReactDOM.render(reactElement, element);
 
-        var cart = customerData.get('cart');
-        cart.subscribe(function() {
-            ReactDOM.render(React.createElement(MinicartComponent.default), element);
+        customerData.get('cart').subscribe(function() {
+            var reactElement = React.createElement(MinicartComponent.default);
+            ReactDOM.render(reactElement, element);
         });
     };
 });
+```
 
+---
+# React component source
+```js
+import CustomerData from './CustomerData';
+import React from 'react';
+import Cart from "./Minicart/Cart";
+import EmptyCart from "./Minicart/EmptyCart";
+
+class Minicart extends React.Component {
+    render() {
+        var cart = CustomerData.getCartFromLocalStorage();
+        var cartSummaryCount = cart.summary_count;
+        var showDropdown = this.state.showDropdown;
+
+        cart.shoppingCartUrl = window.checkout.shoppingCartUrl;
+
+        return (
+            <div>
+                <a className="action showcart" href="#" onClick={this.toggleDropdown.bind(this)}>
+                    <span className="text">My Cart</span>
+                    {cartSummaryCount > 0 &&
+                    <span className="counter qty">
+                        <span className="counter-number">{cartSummaryCount}</span>
+                        <span className="counter-label">{cartSummaryCount} items</span>
+                    </span>
+                    }
+                </a>
+            </div>
+        );
+    }
+}
+export default Minicart;
 ```    
     
 ---
