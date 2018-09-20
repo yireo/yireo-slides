@@ -48,7 +48,14 @@ class: center, middle
     - 2.2.6 nu beschikbaar
 --
 - Magento 2.3
-    - Q3 2018 (?)
+    - Q4 2018 (?)
+
+---
+# Magento 2.2.6
+- Security fixes
+- Indexing snelheid
+- Snellere `catalog:image:resize`
+- Reporting uitzetten
 
 ---
 # Magento 2.3 (generiek)
@@ -113,7 +120,7 @@ class: center, middle
 
 ---
 class: center, middle
-### Pauze
+### Afsluiting
 
 ---
 # Community
@@ -134,15 +141,6 @@ class: center, middle
 
 ---
 # Agenda
-
---
-- 1 juni = MeetMagento Nederland (Utrecht)
-
---
-- 20 september = MUG Waalwijk: Vue StoreFront
-
---
-- 21-23 september = MageUnconference Utrecht
 
 --
 - 4-5 oktober = Reacticon v2 (Eindhoven)
