@@ -134,11 +134,6 @@ class: center, middle
 --
 - Hackathons vs Contribution Days
 
---
-- Duthento werkgroepen
-    - Content (MeetMagento, MUG, MageTitans)
-    - Localisatie (?)
-
 ---
 # Agenda
 
