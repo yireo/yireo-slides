@@ -7,10 +7,9 @@ class: center, middle
 ---
 # Agenda 20 september 2018
 - Welkom 
-- Ronald (MaxServe): Opening
 - 19:30 - Remote call met Filip Rakowski
 - Pauze
-- Jisse (Yireo): Nieuws & Updates
+- Nieuws & Updates
 - Rondvraag & Borrel
 
 ---
@@ -25,27 +24,12 @@ class: center, middle
 - Organisator van MUGs
 
 ---
-# Yireo
+# Jisse Reitsma
 - Oprichter en lead developer Yireo
 - Developer, blogger, trainer, spreker
 - Organisator MUGs & Reacticon & MageTestFest
 - Magento Master "Mover" 2017 & 2018
 - ExtDN board member
-
----
-# Dutchento
-- Officiele gezicht van NL community
-- Organisatie en funding van events
-    - MUGs
-    - MeetMagento Nederland
-- Bundeling van community effort
-- Voor ons, door ons
-
----
-class: center, middle
-# MeetMagento NL 2018
-### 1 juni 2018
-`MUGBRABANT_AT_MM18NL`
 
 ---
 class: center, middle
@@ -61,15 +45,10 @@ class: center, middle
 --
 - Magento 2.2 (huidig)
     - Enorm veel issues opgelost
-    - 2.2.4 nu beschikbaar
+    - 2.2.6 nu beschikbaar
 --
 - Magento 2.3
     - Q3 2018 (?)
-
----
-# Magento
-- Open Source ("Community Edition")
-- Commerce ("Enterprise Edition")
 
 ---
 # Magento 2.3 (generiek)
