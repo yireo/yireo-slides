@@ -1,16 +1,16 @@
 class: center, middle
 # 20 september 2018
-### MUG Waalwijk
+## MUG Waalwijk
+### Vue StoreFront
 #### hosted by MaxServ & Yireo
 
 ---
 # Agenda 20 september 2018
 - Welkom 
 - Ronald (MaxServe): Opening
-- Jisse (Yireo): Nieuws & Updates
+- 19:30 - Remote call met Filip Rakowski
 - Pauze
-- Remote call met Filip Rakowski
-- 
+- Jisse (Yireo): Nieuws & Updates
 - Rondvraag & Borrel
 
 ---
@@ -25,7 +25,7 @@ class: center, middle
 - Organisator van MUGs
 
 ---
-# Jisse Reitsma
+# Yireo
 - Oprichter en lead developer Yireo
 - Developer, blogger, trainer, spreker
 - Organisator MUGs & Reacticon & MageTestFest
