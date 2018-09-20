@@ -1,16 +1,16 @@
 class: center, middle
-# 17 mei 2018
+# 20 september 2018
 ### MUG Waalwijk
 #### hosted by MaxServ & Yireo
 
 ---
-# Agenda 17 mei 2018
+# Agenda 20 september 2018
 - Welkom 
 - Ronald (MaxServe): Opening
-- Jisse (Yireo): Nieuws & Updates 
+- Jisse (Yireo): Nieuws & Updates
 - Pauze
-- Remote skype call met Andrew Levine
-- Wat gaan we doen?
+- Remote call met Filip Rakowski
+- 
 - Rondvraag & Borrel
 
 ---
