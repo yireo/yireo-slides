@@ -9,6 +9,7 @@ class: center, middle
 - Welkom 
 - 19:30 - Remote call met Filip Rakowski
 - Pauze
+- Use-case van Vue StoreFront
 - Nieuws & Updates
 - Rondvraag & Borrel
 
