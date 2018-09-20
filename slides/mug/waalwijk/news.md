@@ -7,11 +7,16 @@ class: center, middle
 ---
 # Agenda 20 september 2018
 - Welkom 
+- Nieuws & Updates
 - 19:30 - Remote call met Filip Rakowski
 - Pauze
-- Use-case van Vue StoreFront
-- Nieuws & Updates
+- Get.noticed: Use-case van Vue StoreFront
 - Rondvraag & Borrel
+
+---
+class: center, middle
+### wifi
+#### ahsoodazai
 
 ---
 class: center, middle
