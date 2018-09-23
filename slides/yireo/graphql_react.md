@@ -33,7 +33,7 @@ GraphQL predictive API, bundling numerous API requests in single call
 
 ---
 {state: divider divider-center divider-bold}
-{background-image: mm18uk/houses-of-parliament.jpg}
+{background-image: mm18hr/eu-parliament.png}
 # Monolithic Magento
 
 ???
