@@ -379,11 +379,6 @@ Once you have a Magento 2.3 development environment, <br/>you can expose catalog
 
 ---
 {state: divider divider-center divider-bold}
-{background-image: mm18uk/max-on-horse.jpg}
-# Ride GraphQL like a boss
-
----
-{state: divider divider-center divider-bold}
 {background-image: mm18uk/magneto.jpg}
 # Magento 2.3 will be there soon
 
@@ -392,6 +387,12 @@ Once you have a Magento 2.3 development environment, <br/>you can expose catalog
 {background-image: mm18uk/gamble.jpg}
 # Start playing with GraphQL
 ### @jissereitsma / jisse@yireo.com
+
+---
+# Bonus slide
+~ Reacticon (October 4th 2018)
+~ Mārtiņš Saukums: VueJS component in M2 frontend
+~ Jisse Reitsma: ReactJS component in M2 frontend
 
 ---
 # Bonus video: What we do with Knockout
