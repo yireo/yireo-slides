@@ -18,6 +18,10 @@
 My slides might have some Photoshop magic in it
 
 ---
+{state: main}
+{background-image: mm18de/extdn.jpg}
+
+---
 {state: divider divider-center divider-bold dark}
 {background-image: mm18uk/graveyard.jpg}
 # REST in peace
@@ -85,10 +89,10 @@ So let's cut her head as well
 ---
 # Current status of Magento
 ~ You are using Magento 2.1 or Magento 2.2
-~ Magento 2.3 is coming in Q3 2018 (?)
+~ Magento 2.3 is coming in Q4 2018 (?)
 ~ With GraphQL support
-~ With PWA Studio
-~ Without support for checkout / cart
+~ With PWA Studio (?)
+~ Without support for checkout / cart (?)
 ~ Magento 2.4 will include everything
 
 ---
@@ -378,6 +382,12 @@ ApolloClient uses its own Redux store underneath
 Once you have a Magento 2.3 development environment, <br/>you can expose catalog data via GraphQL and start building in React
 
 ---
+# Bonus slide
+~ Reacticon (October 4th 2018)
+~ Mārtiņš Saukums: VueJS component in M2 frontend
+~ Jisse Reitsma: [ReactJS component in M2 frontend](https://github.com/yireo-training/Yireo_ReactMinicart)
+
+---
 {state: divider divider-center divider-bold}
 {background-image: mm18uk/magneto.jpg}
 # Magento 2.3 will be there soon
@@ -387,12 +397,6 @@ Once you have a Magento 2.3 development environment, <br/>you can expose catalog
 {background-image: mm18uk/gamble.jpg}
 # Start playing with GraphQL
 ### @jissereitsma / jisse@yireo.com
-
----
-# Bonus slide
-~ Reacticon (October 4th 2018)
-~ Mārtiņš Saukums: VueJS component in M2 frontend
-~ Jisse Reitsma: ReactJS component in M2 frontend
 
 ---
 # Bonus video: What we do with Knockout
