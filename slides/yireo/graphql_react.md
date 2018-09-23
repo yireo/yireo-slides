@@ -56,11 +56,11 @@ let's not replace it with something short-sighted
 
 ---
 {state: divider divider-center divider-bold}
-{background-image: mm18uk/magneto-narayen.jpg}
+{background-image: mm18uk/magneto-asay.jpg}
 
 ???
 but instead use something that sticks for the upcoming years
-Shantanu Narayen
+Matt Asay
 
 ---
 {state: blank}
