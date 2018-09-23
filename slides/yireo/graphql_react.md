@@ -49,13 +49,6 @@ So with some Photoshop skills we can maybe improve this.
 
 ---
 {state: divider divider-center divider-bold}
-{background-image: mm18uk/queen.jpg}
-
-???
-Off with his head! says the queen
-
----
-{state: divider divider-center divider-bold}
 {background-image: mm18uk/magneto-off.jpg}
 
 ???
@@ -63,10 +56,11 @@ let's not replace it with something short-sighted
 
 ---
 {state: divider divider-center divider-bold}
-{background-image: mm18uk/magneto-trump.jpg}
+{background-image: mm18uk/magneto-narayen.jpg}
 
 ???
 but instead use something that sticks for the upcoming years
+Shantanu Narayen
 
 ---
 {state: blank}
