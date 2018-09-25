@@ -134,6 +134,8 @@ composer create-project \
     --stability=beta
 ```
 
+---
+# Magento 2.3 setup
 ~ Install Magento 2.3
 ~ Add sample data (the GitHub procedure)
 ~ Run production mode because of exception handling
