@@ -128,7 +128,10 @@ composer install
 ```
 or
 ```bash
-composer create-project --repository=https://repo.magento.com/ magento/project-community-edition=2.3.* --stability=beta
+composer create-project \
+    --repository=https://repo.magento.com/ \
+    magento/project-community-edition=2.3.* \
+    --stability=beta
 ```
 
 ~ Install Magento 2.3
