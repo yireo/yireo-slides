@@ -97,8 +97,13 @@ So let's cut her head as well
 
 ---
 # GraphQL
-~ Flexible API
-~ Predictive API
+~ No more underfetching or overfetching
+    - Ask what you want to receive
+    - Only receive what you asked for
+~ API discovery
+    - Discover the API while typing
+~ Queries & Mutations
+~ Schema stitching
 
 ---
 {state: divider divider-center divider-bold}
