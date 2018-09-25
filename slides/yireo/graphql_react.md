@@ -12,7 +12,7 @@
 ~ Creator of MageTestFest & Reacticon
 ~ Member of ExtDN.org
 ~ Magento Master 2017 & 2018 Mover
-~ Not really good at Photoshop
+~ Not really good at Adobe Photoshop
 
 ???
 My slides might have some Photoshop magic in it
@@ -125,6 +125,10 @@ git clone git@github.com:magento/magento2.git
 git checkout 2.3-develop
 cd 2.3-develop/
 composer install
+```
+or
+```bash
+composer create-project --repository=https://repo.magento.com/ magento/project-community-edition=2.3.* --stability=beta
 ```
 
 ~ Install Magento 2.3
