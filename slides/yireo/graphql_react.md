@@ -96,6 +96,11 @@ So let's cut her head as well
 ~ Magento 2.4 will include everything
 
 ---
+# GraphQL
+~ Flexible API
+~ Predictive API
+
+---
 {state: divider divider-center divider-bold}
 {background-image: mm18uk/magneto-hybrid.jpg}
 # Hybrid solutions
@@ -139,6 +144,7 @@ composer create-project \
 ~ Install Magento 2.3
 ~ Add sample data (the GitHub procedure)
 ~ Run production mode because of exception handling
+~ Run developer mode because of GraphQl Predictive API
 ~ My destination URL: https://magento23.yr
 
 ???
