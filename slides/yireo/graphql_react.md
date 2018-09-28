@@ -70,23 +70,6 @@ Matt Asay
 {state: blank}
 
 ---
-{state: divider divider-center divider-bold}
-{background-image: mm18uk/knockout.jpg}
-
-???
-So let's cut her head as well
-
----
-{state: divider divider-center divider-bold}
-{background-image: mm18uk/knockout-off.jpg}
-
-???
-... and keep the important parts (gesture with the hands) ... Whoops ....
-
----
-{state: blank}
-
----
 # Current status of Magento
 ~ You are using Magento 2.1 or Magento 2.2
 ~ Magento 2.3 is coming in Q4 2018 (?)
