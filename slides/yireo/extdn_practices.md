@@ -1,12 +1,12 @@
 layout: true
-<div class="slide-heading">ExtDN</div>
+<div class="slide-heading">Best coding practices</div>
 <div class="slide-footer">
     <span>#mm18nyc | @yireo | @jissereitsma</span>
 </div>
 
 ---
 class: center, middle
-# Extension Best Practices
+# Best coding practices
 ### according to ExtDN
 
 ---
@@ -16,13 +16,21 @@ class: center, middle
 ~ Creator of MageTestFest & Reacticon
 ~ Member of ExtDN.org
 ~ Magento Master 2017 & 2018 Mover
-~ Not really good at Adobe Photoshop
 
 
 ---
 class: center, middle
 # ExtDN
 ### https://extdn.org/
+
+---
+# 8 points
+- Do Use Composer
+- 
+
+---
+# 1. Do Use Composer
+"Use composer packages to distribute (especially commercial) extensions. For a local environment, it is fine to develop your own code under app/code. However, once you distribute your module to other environments, it should be through composer as otherwise dependencies are left unmanaged. In a production environment, the app/code folder should therefore ideally be empty."
 
 
 ---
