@@ -148,8 +148,8 @@ File `etc/module.xml`:
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Yireo_Foobar" setup_version="0.0.1">
         <sequence>
-            <module name="Magento_Backend" />
             <module name="Magento_Catalog" />
+            <module name="Magento_Backend" />
         </sequence>
     </module>
 </config>
@@ -163,8 +163,25 @@ File `etc/module.xml`:
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Yireo_Foobar" setup_version="0.0.1">
         <sequence>
-            <module name="Magento_Backend" />
             <module name="Magento_Catalog" />
+            <module name="Magento_Backend" />
+            <module name="Magento_Ui" />
+        </sequence>
+    </module>
+</config>
+```
+
+---
+# 4. Document Dependencies
+File `etc/module.xml`:
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Yireo_Foobar" setup_version="0.0.1">
+        <sequence>
+            <module name="Magento_Catalog" />
+            <module name="Magento_Backend" />
+            <module name="Magento_Ui" />
             <module name="Magento_Store" />
         </sequence>
     </module>
@@ -180,6 +197,7 @@ File `composer.json`:
     "magento/module-backend": "^101.0|^102.0",
     "magento/module-catalog": "^100.0|^101.0",
     "magento/module-store": "^100.1|^101.0",
+    "magento/module-ui": "^101.0",
     "php": ">=7.0.0"
   },
 ```
