@@ -69,7 +69,7 @@ class: center, middle
 
 ---
 class: center, middle
-# 8 points
+# 8 fold path
 ### to achieve happiness
 
 ---
@@ -99,14 +99,9 @@ class: center, middle
 
 ---
 # 1. Do Use Composer
-- Use composer packages for extensions
-- Especially commercial extensions should use composer
-- This is not a debate, this is a base requirement
-
-Moving on ...
 ~ Locally, you can use `app/code`
 ~ But with deployment, composer should be used
-~ And `app/code` should be empty
+~ And in production, `app/code` should be empty
 
 ---
 class: center, middle
