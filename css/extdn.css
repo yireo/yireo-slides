@@ -66,17 +66,15 @@ div.slide-heading {
 div.slide-footer {
     border-top: solid 1px #ccc;
     padding-top: 10px;
-    padding-left: 80px;
     position: absolute;
     bottom: 25px;
     left: 20px;
     right: 20px;
     font-size: 70%;
-    max-width:100px;
     color: #aaa;
-    text-align: left;
+    text-align: center;
     font-style: italic;
-    background: transparent url(../images/extdn-logo.png) no-repeat 0 3px;
+    background: transparent url(../images/extdn-logo-40.png) no-repeat 0 0;
 }
 
 div.slide-footer span {
