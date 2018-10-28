@@ -94,6 +94,13 @@ Moving on ...
 ~ And `app/code` should be empty
 
 ---
+# 4. Document Dependencies
+"If your module depends on other modules, make sure that both your composer file and your module.xml file reflect this. If your module only depends on the Magento framework, your module should likely be treated as a library, not a module. Your composer version constraints should respect the semantic versioning standards of Magento."
+
+---
+# 4. Document Dependencies
+
+---
 # 8. Do Check Your Code
 "Use a static analysis tool like PHP CodeSniffer (with the ExtDN and MEQP rulesets). Check whether your extension works in Production Mode. Confirm your extension works under the Magento versions that you claim compatibility with. Have a colleague or friend review your code before releasing it."
 
