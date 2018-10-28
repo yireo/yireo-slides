@@ -44,6 +44,7 @@ class: center, middle
 - Extension Quality
 - Extension Interoperability
     - Less conflicts between extensions
+    - Expectation of features
     - PWA compatibility
 - Communications
 
@@ -159,8 +160,8 @@ File `composer.json`:
 ```json
   "require": {
     "magento/framework": "^100.1|^101.0|^102.0",
-    "magento/module-backend": "^100.1|^101.0",
-    "magento/module-catalog": "^100.1|^101.0",
+    "magento/module-backend": "^101.0|^102.0",
+    "magento/module-catalog": "^100.0|^101.0",
     "magento/module-store": "^100.1|^101.0",
     "php": ">=7.0.0"
   },
