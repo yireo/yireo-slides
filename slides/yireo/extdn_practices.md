@@ -78,10 +78,18 @@ class: center, middle
 
 ---
 # 1. Do Use Composer
-~ Use composer packages
+~ Use composer packages for extensions
 ~ Especially commercial extensions should use composer
+~ This is not a debate, this is a base requirement
+
+---
+# 1. Do Use Composer
+- Use composer packages for extensions
+- Especially commercial extensions should use composer
+- This is not a debate, this is a base requirement
+
+Moving on ...
 ~ Locally, you can use `app/code`
-~ (Note that we are not talking about themes here)
 ~ But with deployment, composer should be used
 ~ And `app/code` should be empty
 
