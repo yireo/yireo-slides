@@ -11,7 +11,9 @@ class: center, middle
 
 ---
 # Jisse Reitsma
+~ From the Netherlands
 ~ Founder of Yireo
+~ Extension developer
 ~ Trainer of Magento 2 developers
 ~ Creator of MageTestFest & Reacticon
 ~ Member of ExtDN.org
@@ -155,8 +157,14 @@ File `etc/module.xml`:
 ---
 # 4. Document Dependencies
 File `composer.json`:
-```xml
-
+```json
+  "require": {
+    "magento/framework": "^100.1|^101.0|^102.0",
+    "magento/module-backend": "^100.1|^101.0",
+    "magento/module-catalog": "^100.1|^101.0",
+    "magento/module-store": "^100.1|^101.0",
+    "php": ">=7.0.0"
+  },
 ```
 
 ---
