@@ -229,6 +229,8 @@ class: center, middle
 ~ PHPStan
 ~ GrumPHP
 ~ roave/security-advisories
+~ Linting
+~ Testing (unit, integration, functional, acceptance)
 
 ---
 # 8. Do Check Your Code
@@ -236,6 +238,11 @@ Not just tools:
 - Code reviews, extension reviews
 - Pair programming, crown programming
 - Hackathons, Contribution Days
+
+---
+class: center, middle
+# ExtDN PHPCS project
+https://github.com/extdn/extdn-phpcs
 
 ---
 class: center, middle
