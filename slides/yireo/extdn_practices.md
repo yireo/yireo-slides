@@ -203,10 +203,32 @@ File `composer.json`:
 ```
 
 ---
+class: center, middle
+# 8. Do Check Your Code
+
+---
 # 8. Do Check Your Code
 "Use a static analysis tool like PHP CodeSniffer (with the ExtDN and MEQP rulesets). Check whether your extension works in Production Mode. Confirm your extension works under the Magento versions that you claim compatibility with. Have a colleague or friend review your code before releasing it."
 
+---
+# Do Check Your Code
+- PHP CodeSniffer
 
+---
+# Do Check Your Code
+- PHP CodeSniffer
+    - PSR1, PSR2
+    - Magento Extension Quality Program
+    - Magento Expert Consultancy Group
+    - ExtDN
+    - Object Calisthenics
+
+---
+# Do Check Your Code
+- PHP CodeSniffer
+- PHPStan
+- GrumPHP
+- roave/security-advisories
 
 ---
 class: center, middle
