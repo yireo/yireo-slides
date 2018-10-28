@@ -64,6 +64,15 @@ class: center, middle
 ~ More happiness
 
 ---
+class: center, middle
+# 8 points
+
+---
+class: center, middle
+# 8 points
+### to achieve happiness
+
+---
 # 8 points
 ~ Do Use Composer
 ~ Do Use Service Contracts
@@ -73,6 +82,10 @@ class: center, middle
 ~ Do Provide A User Manual
 ~ Do Use Events And Plugins
 ~ Do Check Your Code
+
+---
+class: center, middle
+# 1. Do Use Composer
 
 ---
 # 1. Do Use Composer
@@ -94,6 +107,10 @@ Moving on ...
 ~ Locally, you can use `app/code`
 ~ But with deployment, composer should be used
 ~ And `app/code` should be empty
+
+---
+class: center, middle
+# 4. Do Document Your Dependencies
 
 ---
 # 4. Document Dependencies
