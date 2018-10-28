@@ -25,13 +25,32 @@ class: center, middle
 
 ---
 # ExtDN Working Groups
-- ExtDN Extension Quality
+- Extension Quality
+- Interoperability
+- Communications
+
+---
+# ExtDN Working Groups
+- Extension Quality
     - Collaboration with Magento Marketplace
     - PHP CodeSniffer
-- ExtDN Interoperability
-    - PWA & Magento extensions
+- Interoperability
+- Communications
+    
+---
+# ExtDN Working Groups
+- Extension Quality
+- Extension Interoperability
+- Communications
+    - Talk with each other
+    - Talk with Magento & Adobe
+    - Talk with you
 
-~ ExtDN Communications
+---
+# ExtDN Working Groups
+- Extension Quality
+- Extension Interoperability
+- Communications
     - Talk with each other
     - Talk with Magento & Adobe
     - Talk with you
