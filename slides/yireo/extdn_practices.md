@@ -24,6 +24,19 @@ class: center, middle
 ### https://extdn.org/
 
 ---
+# ExtDN Working Groups
+- ExtDN Extension Quality
+    - Collaboration with Magento Marketplace
+    - PHP CodeSniffer
+- ExtDN Interoperability
+    - PWA & Magento extensions
+
+~ ExtDN Communications
+    - Talk with each other
+    - Talk with Magento & Adobe
+    - Talk with you
+
+---
 # 8 points
 ~ 1. Do Use Composer
 ~ 2. Do Use Service Contracts
