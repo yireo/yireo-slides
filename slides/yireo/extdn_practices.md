@@ -57,18 +57,24 @@ class: center, middle
 
 ---
 # 8 points
-~ 1. Do Use Composer
-~ 2. Do Use Service Contracts
-~ 3. Do Write Tests
-~ 4. Do Document Your Dependencies
-~ 5. Do Version Releases
-~ 6. Do Provide A User Manual
-~ 7. Do Use Events And Plugins
-~ 8. Do Check Your Code
+~ Do Use Composer
+~ Do Use Service Contracts
+~ Do Write Tests
+~ Do Document Your Dependencies
+~ Do Version Releases
+~ Do Provide A User Manual
+~ Do Use Events And Plugins
+~ Do Check Your Code
 
 ---
 # 1. Do Use Composer
 "Use composer packages to distribute (especially commercial) extensions. For a local environment, it is fine to develop your own code under app/code. However, once you distribute your module to other environments, it should be through composer as otherwise dependencies are left unmanaged. In a production environment, the app/code folder should therefore ideally be empty."
+
+---
+# 1. Do Use Composer
+~ Use composer packages
+~ Especially commercial extensions should use composer
+~ Locally, you can use `app/code`
 
 ---
 # 8. Do Check Your Code
