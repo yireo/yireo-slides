@@ -246,5 +246,12 @@ https://github.com/extdn/extdn-phpcs
 
 ---
 class: center, middle
+## <span style="color:#777">stop bitching</span><br/>start contributing
+
+---
+class: center, middle
+## <span style="color:#777">stop complaining</span><br/>start contributing
+
+---
+class: center, middle
 ## thanks
-### tweet me via @yireo
