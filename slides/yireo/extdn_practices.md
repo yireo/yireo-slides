@@ -56,6 +56,12 @@ class: center, middle
     - Talk with you
 
 ---
+# Some of the goals
+~ Better extension quality
+~ Less bugs, less conflicts
+~ More happiness
+
+---
 # 8 points
 ~ Do Use Composer
 ~ Do Use Service Contracts
@@ -75,6 +81,9 @@ class: center, middle
 ~ Use composer packages
 ~ Especially commercial extensions should use composer
 ~ Locally, you can use `app/code`
+~ (Note that we are not talking about themes here)
+~ But with deployment, composer should be used
+~ And `app/code` should be empty
 
 ---
 # 8. Do Check Your Code
