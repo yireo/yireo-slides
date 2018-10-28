@@ -11,14 +11,14 @@ class: center, middle
 
 ---
 # Jisse Reitsma
-~ From the Netherlands
+~ A simple Dutch boy
+~ From the Netherlands (a real country!)
 ~ Founder of Yireo
 ~ Extension developer
 ~ Trainer of Magento 2 developers
 ~ Creator of MageTestFest & Reacticon
-~ Member of ExtDN.org
 ~ Magento Master 2017 & 2018 Mover
-
+~ Member of ExtDN.org
 
 ---
 class: center, middle
@@ -43,10 +43,9 @@ class: center, middle
 # ExtDN Working Groups
 - Extension Quality
 - Extension Interoperability
+    - Less conflicts between extensions
+    - PWA compatibility
 - Communications
-    - Talk with each other
-    - Talk with Magento & Adobe
-    - Talk with you
 
 ---
 # ExtDN Working Groups
