@@ -103,12 +103,60 @@ File `etc/module.xml`:
 ```xml
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Yireo_Whoops" setup_version="0.0.11">
+    <module name="Yireo_Foobar" setup_version="0.0.1" />
+</config>
+```
+
+---
+# 4. Document Dependencies
+File `etc/module.xml`:
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Yireo_Foobar" setup_version="0.0.1">
         <sequence>
+            <module name="Magento_Catalog" />
+        </sequence>
+    </module>
+</config>
+```
+
+---
+# 4. Document Dependencies
+File `etc/module.xml`:
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Yireo_Foobar" setup_version="0.0.1">
+        <sequence>
+            <module name="Magento_Backend" />
+            <module name="Magento_Catalog" />
+        </sequence>
+    </module>
+</config>
+```
+
+---
+# 4. Document Dependencies
+File `etc/module.xml`:
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Yireo_Foobar" setup_version="0.0.1">
+        <sequence>
+            <module name="Magento_Backend" />
+            <module name="Magento_Catalog" />
             <module name="Magento_Store" />
         </sequence>
     </module>
 </config>
+```
+
+---
+# 4. Document Dependencies
+File `composer.json`:
+```xml
+
 ```
 
 ---
