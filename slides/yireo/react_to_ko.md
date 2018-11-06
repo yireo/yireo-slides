@@ -1,7 +1,7 @@
 {state: main}
 ## Adding React to the current Knockout frontend
-# There and back again
-#### by Jisse Reitsma
+# 'cause it needs to be better
+#### by Jisse Reitsma (Yireo)
 
 ---
 {state: speaker}

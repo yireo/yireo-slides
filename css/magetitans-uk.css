@@ -8,7 +8,7 @@ body {
 }
 
 .reveal .backgrounds .slide-background {
-    background-image: url("/images/mm18pl/background-mm.png");
+    background-image: url("/images/magetitans-uk/background-main.png");
     background-position: unset;
     background-size: cover;
 }
@@ -85,7 +85,7 @@ body {
 }
 
 .main body {
-    background-color: #e8513a;
+    background-color: black;
     color: white;
 }
 
@@ -176,7 +176,7 @@ table td img {
 
 .main .slides h1 {
     font-family: "Kaushan Script";
-    color: #ecf3bd;
+    color: #f3bf67;
 }
 
 .main .slides h4 {
