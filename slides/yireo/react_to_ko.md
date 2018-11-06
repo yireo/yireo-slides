@@ -76,7 +76,7 @@
 # Replacing the native minicart with a React component
 
 ---
-{state: overlay}
+{state: black}
 {background-image: mm18pl/knockout.jpg}
 # Summary of Knockout
 ~ Initial release in 2010
