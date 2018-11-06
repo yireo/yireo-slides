@@ -54,11 +54,13 @@ class Reveal extends Generic implements RendererInterface
         }
 
         if (preg_match('/\{class: (.*)\}/', $section, $match)) {
-            $class = str_replace($match[0], '', $class);
+            $class = $match[1];
             $classNames[] = $class;
         }
 
-        $sectionAttributes[] = 'class='.implode($classNames);
+        if (!empty($classNames)) {
+            $sectionAttributes[] = 'class="'.implode($classNames).'"';
+        }
 
         $sectionStart = "<section data-markdown ".implode(' ', $sectionAttributes).">";
         $sectionStart .= "\n<textarea data-template>\n";
