@@ -27,6 +27,7 @@ body {
 .reveal ul,
 .reveal pre,
 .reveal p {
+    color: white;
     text-align: left;
     line-height: 140%;
     margin-top: 20px;
@@ -124,6 +125,11 @@ body {
 
 .speaker .reveal section {
     top: 20%;
+}
+
+.reveal .backgrounds .slide-background {
+.speaker {
+    color: black;
 }
 
 .divider-center .reveal section {
