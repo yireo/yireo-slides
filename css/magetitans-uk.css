@@ -112,8 +112,14 @@ body {
     color: white;
 }
 
+.light .reveal .backgrounds .slide-background {
+    background-image: none;
+    background-color: white;
+}
+
 .dark .reveal .backgrounds .slide-background {
     background-image: none;
+    background-color: black;
 }
 
 .dark .reveal h1,
@@ -127,10 +133,6 @@ body {
 
 .dark .reveal code {
     background-color: #503417;
-}
-
-.light {
-
 }
 
 .center .reveal h1,
