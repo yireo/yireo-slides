@@ -191,6 +191,10 @@ table td img {
     font-size: 80%;
 }
 
+.quiz .reveal .backgrounds .slide-background {
+    background-image: none;
+}
+
 .quiz h1 {
     font-family: "Monoton";
     font-weight: lighter;
