@@ -54,6 +54,7 @@ class Reveal extends Generic implements RendererInterface
         }
 
         if (preg_match('/\{class: (.*)\}/', $section, $match)) {
+            $section = str_replace($match[0], '', $section);
             $class = $match[1];
             $classNames[] = $class;
         }
