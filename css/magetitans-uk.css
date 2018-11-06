@@ -121,6 +121,10 @@ body {
     color: white;
 }
 
+.dark .reveal code {
+    background-color: #503417;
+}
+
 .center .reveal h1,
 .center .reveal h2,
 .center .reveal h3,
