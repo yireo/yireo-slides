@@ -53,8 +53,8 @@
 ## the evil politician?
 <table>
 <tr>
-<td><img src="/images/mm18pl/trump.jpg" ></td>
-<td><img src="/images/mm18pl/boris.jpg" ></td>
+<td><img src="/images/magetitans-uk/trump.jpg" ></td>
+<td><img src="/images/magetitans-uk/boris.jpg" ></td>
 </tr>
 </table>
 
