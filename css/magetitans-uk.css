@@ -106,12 +106,18 @@ body {
 .main .reveal h1,
 .main .reveal h2,
 .main .reveal h3,
-.main .reveal h4 {
+.main .reveal h4,
+.main .reveal ul,
+.main .reveal li {
     color: white;
 }
 
 .dark .reveal h1,
-.dark .reveal h2 {
+.dark .reveal h2,
+.dark .reveal h3,
+.dark .reveal h4,
+.dark .reveal ul,
+.dark .reveal li {
     color: white;
 }
 
@@ -216,12 +222,6 @@ table td img {
     font-family: "Kaushan Script";
     text-align: center;
     color: #d8593a;
-}
-
-.overlay section {
-    background-color: rgba(216, 89, 58, 0.7);
-    padding: 5% !important;
-    color: white;
 }
 
 .bordered h1, .bordered h2 {

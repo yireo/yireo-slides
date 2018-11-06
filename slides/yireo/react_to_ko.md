@@ -76,7 +76,7 @@
 # Replacing the native minicart with a React component
 
 ---
-{state: black}
+{state: dark}
 {background-image: mm18pl/knockout.jpg}
 # Summary of Knockout
 ~ Initial release in 2010
@@ -88,7 +88,7 @@
     - Web Components
 
 ---
-{state: overlay}
+{state: dark}
 {background-image: mm18pl/man-crying.jpg}
 # Summary of UiComponents
 ~ Combination of technologies
