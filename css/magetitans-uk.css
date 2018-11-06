@@ -91,7 +91,7 @@ body {
 }
 
 .main .reveal {
-    margin:auto;
+    margin: auto;
     text-align: center;
 }
 
@@ -127,8 +127,12 @@ body {
     top: 20%;
 }
 
-.reveal .backgrounds .slide-background {
-.speaker {
+.speaker .reveal h1,
+.speaker .reveal h2,
+.speaker  .reveal h3,
+.speaker .reveal ul,
+.speaker .reveal pre,
+.speaker .reveal p {
     color: black;
 }
 
@@ -187,7 +191,7 @@ table td img {
 
 .main .slides h4 {
     font-style: italic;
-    text-align:left;
+    text-align: left;
     color: #f3ceaf;
 }
 
@@ -215,12 +219,12 @@ table td img {
 }
 
 .overlay section {
-    background-color: rgba(216,89,58,0.7);
-    padding:5% !important;
+    background-color: rgba(216, 89, 58, 0.7);
+    padding: 5% !important;
     color: white;
 }
 
 .bordered h1, .bordered h2 {
     text-shadow: 0 0 3px #FF0000;
-    color:white;
+    color: white;
 }
