@@ -109,6 +109,7 @@
 ~ UiComponent calls upon child ViewModels + templates
 
 ---
+{class: center}
 # What if we could migrate?
 {background-image: mm18pl/migrate.jpg}
 
@@ -131,6 +132,7 @@
 </div>
 
 ---
+{state: light}
 # Module structure (1 of 2)
 ```
 registration.php
@@ -145,6 +147,7 @@ view/frontend/web/css/source/_module.less
 ```
 
 ---
+{state: light}
 # Module structure (2 of 2)
 ```
 view/frontend/web/js/container.js
@@ -160,6 +163,7 @@ view/frontend/web/js/compiled/Minicart.js
 ```
 
 ---
+{state: light}
 # Migration method for Minicart
 ~ Copy real-life HTML from Element Inspector
 ~ Remove all KO parts
@@ -167,6 +171,7 @@ view/frontend/web/js/compiled/Minicart.js
 	- Remove all element bindings (`data-bind=`)
 
 ---
+{state: light}
 # Minicart HTML
 Old HTML:
 ```html
@@ -179,6 +184,7 @@ New HTML:
 ```
 
 ---
+{state: light}
 # Migration method for Minicart
 - Copy real-life HTML from Element Inspector
 - Remove all KO parts
