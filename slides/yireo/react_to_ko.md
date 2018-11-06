@@ -196,6 +196,7 @@ New HTML:
     - `this.props.cart` is populated from localStorage
 
 ---
+{state: light}
 # requirejs-config.js
 ```js
 var config = {
@@ -215,6 +216,7 @@ var config = {
 ```
 
 ---
+{state: light}
 # PHTML template
 ```php
 <div class="react-minicart-wrapper" data-mage-init='{"reactMinicart":{}}'>
@@ -225,6 +227,7 @@ var config = {
 ```
 
 ---
+{state: light}
 # container.js
 ```js
 define([
@@ -245,6 +248,7 @@ define([
 ```
 
 ---
+{state: light}
 # React component source
 ```js
 import CustomerData from './CustomerData';
@@ -266,6 +270,7 @@ export default Minicart;
 ```
 
 ---
+{state: light}
 # React components
 ```js
 Minicart
@@ -278,6 +283,7 @@ Minicart/EmptyCart
 ```
 
 ---
+{state: light}
 # Source compilation
 gulpfile.js:
 ```js
@@ -302,6 +308,7 @@ gulp.task("build", function () {
 {background-image: mm18pl/cat.jpg}
     
 ---
+{state: light}
 # Minicart React component
 - Gulp to compile ES6+React code into plain ES5 files
 - KO listener to re-render React component when customerData.get('cart') changes
@@ -310,11 +317,13 @@ gulp.task("build", function () {
 
 
 ---
+{state: dark}
 # Current limitations
 - No support for text translations (yet)
 - No way to send state back to KO ViewModels (?)
 
 ---
+{state: dark}
 # Lessons learned
 ~ Knockout sucks, React sucks less
 ~ You can gradually add React components to existing frontend
