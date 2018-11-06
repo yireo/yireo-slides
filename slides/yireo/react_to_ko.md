@@ -59,7 +59,7 @@
 </table>
 
 ---
-{state: quiz}
+{state: quiz center}
 # Which one is 
 ## the evil UiComponent?
 <table>
