@@ -18,7 +18,7 @@ class Reveal extends Generic implements RendererInterface
         $content = preg_replace('/^\~\ /m', '- <!-- .element: class="fragment" -->', $content);
 
         $content = $this->replaceTags($content);
-        $content= $this->replacePatterns($content);
+        $content = $this->replacePatterns($content);
 
         $slides = explode("\n---\n", $content);
         foreach ($slides as $slideId => $slide) {
@@ -37,6 +37,7 @@ class Reveal extends Generic implements RendererInterface
     private function renderSection(string $section) : string
     {
         $sectionAttributes = [];
+        $classNames = [];
 
         if ($sectionParts = explode('???', $section)) {
             $section = $sectionParts[0];
@@ -51,6 +52,13 @@ class Reveal extends Generic implements RendererInterface
             $section = str_replace($match[0], '', $section);
             $sectionAttributes[] = 'data-state="'.$match[1].'"';
         }
+
+        if (preg_match('/\{class: (.*)\}/', $section, $match)) {
+            $class = str_replace($match[0], '', $class);
+            $classNames[] = $class;
+        }
+
+        $sectionAttributes[] = 'class='.implode($classNames);
 
         $sectionStart = "<section data-markdown ".implode(' ', $sectionAttributes).">";
         $sectionStart .= "\n<textarea data-template>\n";
