@@ -50,11 +50,11 @@
 ---
 {state: quiz}
 # Who is 
-## the evil Polish president?
+## the evil politician?
 <table>
 <tr>
-<td><img src="/images/mm18pl/president-good.jpg" ></td>
-<td><img src="/images/mm18pl/president-bad.jpg" ></td>
+<td><img src="/images/mm18pl/trump.jpg" ></td>
+<td><img src="/images/mm18pl/boris.jpg" ></td>
 </tr>
 </table>
 
