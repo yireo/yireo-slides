@@ -15,6 +15,10 @@
 ~ For some reason, called **Knockout Jisse**
 
 ---
+{state: main}
+# Knockout Gate
+
+---
 {background-image: mm18pl/drinking.jpg}
 
 ---
