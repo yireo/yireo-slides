@@ -12,7 +12,7 @@
 ~ Creator of MageTestFest & Reacticon
 ~ Organizer of usergroups, hackathons
 ~ Magento Master 2017 & 2018 Mover
-~ For some reason, called **Knockout Jisse**
+~ For some reason, called **"Knockout"  Jisse**
 
 ---
 {state: main}
@@ -28,6 +28,11 @@
 {state: main}
 ## It's a hype, so here's another one
 # PWA
+
+---
+{state: main}
+## Back to
+# Knockout Jisse
 
 ---
 {background-image: mm18pl/drinking.jpg}
