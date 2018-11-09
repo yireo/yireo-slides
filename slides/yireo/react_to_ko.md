@@ -11,6 +11,7 @@
 ~ Trainer of Magento 2 developers
 ~ Creator of MageTestFest & Reacticon
 ~ Organizer of usergroups, hackathons
+~ Member of ExtDN (Magento Ext Dev Network)
 ~ Magento Master 2017 & 2018 Mover
 ~ For some reason, called **"Knockout"  Jisse**
 
