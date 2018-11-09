@@ -214,6 +214,7 @@ New HTML:
     - How cool: PhpStorm converts HTML to JSX
 ~ Make logic dynamic
     - `this.props.cart` is populated from localStorage
+    - Create dropdown with `<details>` HTML element
 
 ---
 {state: light}
