@@ -1,30 +1,30 @@
 class: center, middle
-# November 21st, Zurich
+#### November 21st, Zurich
 ## Magento Meetup Zurich
-### PWA
+### Magento PWA
 
 ---
 # Jisse Reitsma
-- Founder & extension developer Yireo
-- Developer, blogger, trainer, speaker
-- Organisor Reacticon & MageTestFest
-- Magento Master "Mover" 2017 & 2018
-- ExtDN board member
+~ Founder & extension developer Yireo
+~ Developer, blogger, trainer, speaker
+~ Organisor Reacticon & MageTestFest
+~ Magento Master "Mover" 2017 & 2018
+~ ExtDN board member
 
 ---
-# Recap of the current frontend
-- XML Layout (regular layout vs page layout)
-- Block classes (and/or ViewModel classes)
-- PHTML templates
-- RequireJS
-- KnockoutJS
-- Magento JS libraries
-- Knockout HTML templates
+# Current frontend
+~ XML Layout (regular layout vs page layout)
+~ Block classes (and/or ViewModel classes)
+~ PHTML templates
+~ RequireJS
+~ KnockoutJS
+~ Magento JS libraries
+~ Knockout HTML templates
 
 ---
 # Current state of PWA
 - GraphQL
-- Nieuws & Updates
+- PWA Studio
 - 19:30 - Remote call met Filip Rakowski
 - Pauze
 - Get.noticed: Use-case van Vue StoreFront
@@ -32,12 +32,7 @@ class: center, middle
 
 ---
 class: center, middle
-### wifi
-#### ahsoodazai
-
----
-class: center, middle
-### #mugwaalwijk #magento
+### Crossing-over strategies
 
 ---
 # MaxServ

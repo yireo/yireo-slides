@@ -23,7 +23,7 @@ $slideGroups = [
         'group' => 'Magento User Groups',
         'style' => 'mug',
         'slides' => [
-            ['file' => 'mug/zurich/pwa', 'title' => 'MUG Zurich PWA'],
+            ['file' => 'mug/zurich/pwa', 'title' => 'Magento Meetup Zurich PWA'],
             ['file' => 'mug/waalwijk/news', 'title' => 'MUG Waalwijk introduction'],
             ['file' => 'mug/buckaroo/news', 'title' => 'MUG Utrecht introduction'],
             ['file' => 'mug/localisation/main', 'title' => 'Localisatie'],
