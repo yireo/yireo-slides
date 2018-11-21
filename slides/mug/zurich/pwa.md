@@ -87,6 +87,10 @@ class: center, middle
 
 ---
 class: center, middle
+### Too early? Too late?
+
+---
+class: center, middle
 ### Crossing-over strategies
 
 ---
