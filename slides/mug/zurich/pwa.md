@@ -43,6 +43,13 @@ class: center, middle
 ### Nah, Vue is for Polish people
 
 ---
+# Why GraphQL?
+~ Introduced in Magento 2.3
+~ Better API than REST
+~ You only receive what you request
+~ Multiple queries in 1 request
+
+---
 # Current state of PWA
 ~ GraphQL
 ~ PWA Studio
@@ -55,10 +62,11 @@ class: center, middle
 
 ---
 # Magento PWA Studio
-- Venia theme
-- Peregrine components
-- Buildpack
-- Third party components
+~ Introduced in Magento 2.3
+~ Venia theme
+~ Peregrine components
+~ Buildpack
+~ Third party components
 
 ---
 # What about extensions?
