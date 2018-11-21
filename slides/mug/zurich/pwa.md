@@ -29,12 +29,20 @@ class: center, middle
 
 ---
 # Why React?
-- Most popular JS library of this moment
+~ Most popular JS library of this moment
+~ Learning curve much smaller than M2 frontend
+~ Rich community
+~ More devs available than for M2
+~ Or would Vue have been a better choice?
+
+---
+class: center, middle
+### Nah, Vue is for Polish people
 
 ---
 # Current state of PWA
-- GraphQL
-- PWA Studio
+~ GraphQL
+~ PWA Studio
 
 ---
 class: center, middle
