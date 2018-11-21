@@ -23,19 +23,18 @@ class: center, middle
 
 ---
 # New frontend: React
-- Internetbureau & Magento expert
-- Maker van MATE (Magento & Typo3)
-- Maker van Yoast SEO (Magento 2)
-- Organisator van MUGs
+~ React
+~ Redux
+~ GraphQL
+
+---
+# Why React?
+- Most popular JS library of this moment
 
 ---
 # Current state of PWA
 - GraphQL
 - PWA Studio
-- 
-- Pauze
-- Get.noticed: Use-case van Vue StoreFront
-- Rondvraag & Borrel
 
 ---
 class: center, middle
@@ -46,98 +45,16 @@ class: center, middle
 ### Crossing-over strategies
 
 ---
-# MaxServ
-- Internetbureau & Magento expert
-- Maker van MATE (Magento & Typo3)
-- Maker van Yoast SEO (Magento 2)
-- Organisator van MUGs
+# Crossing-over
+- Never
+- In 3 years time
+- Now (full PWA)
+- Now (hybrid)
 
 ---
-class: center, middle
-# Nieuws & updates
-
----
-# Magento 2 versies
-
---
-- Magento 2.1 (vorige)
-    - Veel open issues op GitHub
-    - Enorm veel devdocs
---
-- Magento 2.2 (huidig)
-    - Enorm veel issues opgelost
-    - 2.2.6 nu beschikbaar
---
-- Magento 2.3
-    - Q4 2018 (?)
-
----
-# Magento 2.2.6
-- Security fixes
-- Indexing snelheid
-- Snellere `catalog:image:resize`
-- Reporting uitzetten
-
----
-# Magento 2.3 (generiek)
-
---
-- PWA (Progressive Web Apps)
-
---
-- Advanced CMS (*Commerce*)
-
---
-- Page Builder (*Commerce*)
-
---
-- Klarna Instant Checkout / Payment
-
---
-- Amazon Multi-Channel Fulfillment
-
---
-- Multi-Source Inventory (MSI)
-
---
-- Google reCAPTCHA (MageSpecialist)
-
---
-- Two Factor Authentication (MageSpecialist)
-
----
-# Magento 2.3 (technisch)
-
---
-- PWA Studio
-
---
-- GraphQL support (catalog)
-
---
-- Declaritive schema definitions
-
---
-- Magento Functional Testing Framework (MFTF)
-
---
-- Asynchronous Web API / Bulk API
-
---
-- Rabbit MQ
-
---
-- PHP 7.2 support
-
---
-- Multi-Source Inventory (MSI)
-
----
-# Magento 2.4
-- Client-rendered frontend
-- Progressive Web Apps (PWA)
-- Full GraphQL
-- Entitlement API (Apollo)
+# Hybrid
+- Vue or React components in current frontend
+- Replace full page (CMS, catalog, checkout)
 
 ---
 class: center, middle
