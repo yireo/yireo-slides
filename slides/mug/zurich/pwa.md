@@ -52,23 +52,23 @@ class: center, middle
 ~ Commands, Queries, Mutations
 
 ---
-# Current state of PWA
-~ GraphQL ([status](https://github.com/magento/graphql-ce/wiki))
-~ PWA Studio
-~ Vue StoreFront
-~ DEITY
-
----
-class: center, middle
-### KnockoutGate
-
----
 # Magento PWA Studio
 ~ Introduced in Magento 2.3
 ~ Venia theme
 ~ Peregrine components
 ~ Buildpack
 ~ Third party components
+
+---
+# Current state of PWA
+~ PWA Studio
+~ GraphQL ([status](https://github.com/magento/graphql-ce/wiki))
+~ Vue StoreFront ([demo](https://demo.vuestorefront.io/))
+~ DEITY ([demo](https://demo.deity.io/))
+
+---
+class: center, middle
+### KnockoutGate
 
 ---
 # What about extensions?
