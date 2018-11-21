@@ -1,7 +1,7 @@
 <?php
 $slideGroups = [
     [
-        'group' => 'MeetMagento',
+        'group' => 'Magento events',
         'style' => 'meetmagento',
         'slides' => [
             ['file' => 'yireo/react_to_ko', 'title' => 'Adding React components to current Knockout frontend (MageTitans UK 2018)', 'style' => 'magetitans-uk', 'renderer' => 'reveal'],
@@ -20,9 +20,10 @@ $slideGroups = [
         ],
     ],
     [
-        'group' => 'MUG - Magento User Group',
+        'group' => 'Magento User Groups',
         'style' => 'mug',
         'slides' => [
+            ['file' => 'mug/zurich/pwa', 'title' => 'MUG Zurich PWA'],
             ['file' => 'mug/waalwijk/news', 'title' => 'MUG Waalwijk introduction'],
             ['file' => 'mug/buckaroo/news', 'title' => 'MUG Utrecht introduction'],
             ['file' => 'mug/localisation/main', 'title' => 'Localisatie'],
