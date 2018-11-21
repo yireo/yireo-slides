@@ -57,7 +57,14 @@ class: center, middle
 # Magento PWA Studio
 - Venia theme
 - Peregrine components
-- 
+- Buildpack
+- Third party components
+
+---
+# What about extensions?
+~ Offer both KO & React?
+~ GraphQL endpoint
+~ Initiatives: Reacticon, ExtDN
 
 ---
 class: center, middle
@@ -76,6 +83,8 @@ class: center, middle
 - Replace full page (CMS, catalog, checkout)
 - Examples
     - https://github.com/yireo-training/Yireo_ReactMinicart
+    - https://reacticon.org/media/martins-at-reacticon.pdf
+    - IntegerNet React checkout
 
 ---
 class: center, middle
