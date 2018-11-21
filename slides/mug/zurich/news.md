@@ -4,8 +4,26 @@ class: center, middle
 ### PWA
 
 ---
-# Agenda 20 september 2018
-- Welkom 
+# Jisse Reitsma
+- Founder & extension developer Yireo
+- Developer, blogger, trainer, speaker
+- Organisor Reacticon & MageTestFest
+- Magento Master "Mover" 2017 & 2018
+- ExtDN board member
+
+---
+# Recap of the current frontend
+- XML Layout (regular layout vs page layout)
+- Block classes (and/or ViewModel classes)
+- PHTML templates
+- RequireJS
+- KnockoutJS
+- Magento JS libraries
+- Knockout HTML templates
+
+---
+# Current state of PWA
+- GraphQL
 - Nieuws & Updates
 - 19:30 - Remote call met Filip Rakowski
 - Pauze
@@ -27,14 +45,6 @@ class: center, middle
 - Maker van MATE (Magento & Typo3)
 - Maker van Yoast SEO (Magento 2)
 - Organisator van MUGs
-
----
-# Jisse Reitsma
-- Oprichter en lead developer Yireo
-- Developer, blogger, trainer, spreker
-- Organisator MUGs & Reacticon & MageTestFest
-- Magento Master "Mover" 2017 & 2018
-- ExtDN board member
 
 ---
 class: center, middle
@@ -125,33 +135,5 @@ class: center, middle
 
 ---
 class: center, middle
-### Afsluiting
-
----
-# Community
-
---
-- Dutchento
-
---
-- Magento User Groups (MUGs)
-
---
-- Hackathons vs Contribution Days
-
----
-# Agenda
-
---
-- 4-5 oktober = Reacticon v2 (Eindhoven)
-
---
-- 6 oktober = MageTitans Groningen
-
---
-- 1 november = MUG Waalwijk: Extensies
-
----
-class: center, middle
-### ?
+### Q&A
 
