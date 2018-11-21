@@ -6,7 +6,7 @@ class: center, middle
 ---
 # Jisse Reitsma
 ~ Founder & extension developer Yireo
-~ Developer, blogger, trainer, speaker
+~ Developer, trainer, speaker, consultant
 ~ Organisor Reacticon & MageTestFest
 ~ Magento Master "Mover" 2017 & 2018
 ~ ExtDN board member
