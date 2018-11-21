@@ -24,6 +24,9 @@ class: center, middle
 ---
 # New frontend: React
 ~ React
+    - Component-based
+    - Close to native JS
+    - JSX
 ~ Redux
 ~ GraphQL
 
@@ -43,10 +46,18 @@ class: center, middle
 # Current state of PWA
 ~ GraphQL
 ~ PWA Studio
+~ Vue StoreFront
+~ DEITY
 
 ---
 class: center, middle
 ### KnockoutGate
+
+---
+# Magento PWA Studio
+- Venia theme
+- Peregrine components
+- 
 
 ---
 class: center, middle
@@ -63,6 +74,8 @@ class: center, middle
 # Hybrid
 - Vue or React components in current frontend
 - Replace full page (CMS, catalog, checkout)
+- Examples
+    - https://github.com/yireo-training/Yireo_ReactMinicart
 
 ---
 class: center, middle
