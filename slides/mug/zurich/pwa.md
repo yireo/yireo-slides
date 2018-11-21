@@ -71,6 +71,12 @@ class: center, middle
 ### KnockoutGate
 
 ---
+# KnockoutGate
+- PWA Studio is not ready yet
+- GraphQL is not ready yet
+- Old frontend is going to be deprecated
+
+---
 # What about extensions?
 ~ Offer both KO & React?
 ~ GraphQL endpoint
@@ -98,6 +104,13 @@ class: center, middle
     - https://github.com/yireo-training/Yireo_ReactMinicart
     - https://reacticon.org/media/martins-at-reacticon.pdf
     - IntegerNet React checkout
+
+---
+# My advice
+~ Base your decisions on your own experience
+~ PWA is the future, so you should experiment with it
+~ React development is a breeze compared to Knockout
+~ Perhaps a hybrid approach is the best option
 
 ---
 class: center, middle
