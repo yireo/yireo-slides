@@ -53,7 +53,7 @@ class: center, middle
 
 ---
 # Current state of PWA
-~ GraphQL
+~ GraphQL ([status](https://github.com/magento/graphql-ce/wiki))
 ~ PWA Studio
 ~ Vue StoreFront
 ~ DEITY
@@ -74,7 +74,10 @@ class: center, middle
 # What about extensions?
 ~ Offer both KO & React?
 ~ GraphQL endpoint
-~ Initiatives: Reacticon, ExtDN
+~ Initiatives
+    - Reacticon
+    - PWA Studio UPWARD specification
+    - ExtDN
 
 ---
 class: center, middle
