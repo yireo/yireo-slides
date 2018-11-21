@@ -1,15 +1,6 @@
 <?php
 $slideGroups = [
     [
-        'group' => 'Yireo on Magento',
-        'style' => 'yireo',
-        'slides' => [
-            ['file' => 'yireo/m2s_uicomponents', 'title' => 'Magento 2 KnockoutJS & RequireJS in 1 component'],
-            ['file' => 'yireo/running_m2', 'title' => 'Running Magento 2 (Magento Developers Paradise 2016)', 'public' => 1],
-            ['file' => 'yireo/leercurves', 'title' => 'Yireo Educatie - Leren samen met Yireo'],
-        ],
-    ],
-    [
         'group' => 'MeetMagento',
         'style' => 'meetmagento',
         'slides' => [
@@ -24,6 +15,8 @@ $slideGroups = [
             ['file' => 'yireo/m2_private_content', 'title' => 'M2 Private Data via JS Components (MeetMagento 2017 Netherlands)'],
             ['file' => 'yireo/imagine2017_en', 'title' => 'Imagine 2017 review (EN)'],
             ['file' => 'yireo/m2_for-all-of-us', 'title' => 'Magento 2 - for all of us', 'footer' => 0, 'header' => 0],
+            ['file' => 'yireo/m2s_uicomponents', 'title' => 'Magento 2 KnockoutJS & RequireJS in 1 component'],
+            ['file' => 'yireo/running_m2', 'title' => 'Running Magento 2 (Magento Developers Paradise 2016)', 'public' => 1],
         ],
     ],
     [
