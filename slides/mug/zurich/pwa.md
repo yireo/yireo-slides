@@ -27,6 +27,7 @@ class: center, middle
     - Component-based
     - Close to native JS
     - JSX
+
 ~ Redux
 ~ GraphQL
 
@@ -34,7 +35,7 @@ class: center, middle
 # Why React?
 ~ Most popular JS library of this moment
 ~ Learning curve much smaller than M2 frontend
-~ Rich community
+~ Rich community, many resources
 ~ More devs available than for M2
 ~ Or would Vue have been a better choice?
 
@@ -45,9 +46,10 @@ class: center, middle
 ---
 # Why GraphQL?
 ~ Introduced in Magento 2.3
-~ Better API than REST
+~ More performant/flexible than REST
 ~ You only receive what you request
-~ Multiple queries in 1 request
+~ Multiple requests in 1 HTTP request
+~ Commands, Queries, Mutations
 
 ---
 # Current state of PWA
