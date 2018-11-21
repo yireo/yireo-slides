@@ -58,6 +58,7 @@ class: center, middle
 ~ Peregrine components
 ~ Buildpack
 ~ Third party components
+~ UPWARD specification
 
 ---
 # Current state of PWA
