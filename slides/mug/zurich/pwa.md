@@ -22,13 +22,24 @@ class: center, middle
 ~ Knockout HTML templates
 
 ---
+# New frontend: React
+- Internetbureau & Magento expert
+- Maker van MATE (Magento & Typo3)
+- Maker van Yoast SEO (Magento 2)
+- Organisator van MUGs
+
+---
 # Current state of PWA
 - GraphQL
 - PWA Studio
-- 19:30 - Remote call met Filip Rakowski
+- 
 - Pauze
 - Get.noticed: Use-case van Vue StoreFront
 - Rondvraag & Borrel
+
+---
+class: center, middle
+### KnockoutGate
 
 ---
 class: center, middle
