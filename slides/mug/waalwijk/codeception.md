@@ -6,7 +6,7 @@
 - Testing framework
     - PHP, JavaScript
 - Running on Selenium
-    - Chrome Webdriver
+    - Webdriver API (Chrome, Firefox)
 - Used by MFTF
     - Magento Functional Testing Framework
 
