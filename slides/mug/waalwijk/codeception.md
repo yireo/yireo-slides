@@ -16,6 +16,8 @@
     - https://www.w3.org/TR/webdriver1/
 - Different engines for different browsers
     - ChromeDriver
+    - geckodriver
+    - Edge webdriver
 
 ---
 # Selenium
@@ -26,6 +28,7 @@
 ---
 # Codeception
 @todo
+BrowserStack
 
 ---
 # Codeception CEST example
