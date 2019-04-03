@@ -35,10 +35,29 @@
 ---
 # Codeception
 - Selenium testing for PHP
+- ... or JavaScript
+- Installable via `composer`
 
 ---
 # Codeception CEST example
 ```php
+$I->amOnPage('/');
+$I->click('Enter');
+$I->see('Welcome');
+```
+
+---
+# Getting started
+Bare minimum:
+```bash
+composer require codeception/codeception --dev
+php vendor/bin/codecept
+php vendor/bin/codecept bootstrap
+```
+
+Additional:
+```bash
+
 ```
 
 ---
