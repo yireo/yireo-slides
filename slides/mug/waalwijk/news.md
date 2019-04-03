@@ -58,14 +58,11 @@ class: center, middle
 
 ---
 # Agenda
-- 18 april: MeetMagento Nederland (Den Haag)
-- 9 mei: MUG Eindhoven: Lightning Talks
-
---
-- 6 oktober = MageTitans Groningen
-
---
-- 1 november = MUG Waalwijk: Extensies
+- 18 april - MeetMagento Nederland (Den Haag)
+- 9 mei - MUG Eindhoven: Lightning Talks (ISAAC)
+- 6 juni - MUG Deventer: VueJS hackathon (Vendic)
+- 7 juni - MageTitans Groningen (Elgentos/MediaCT)
+- september - MUG Amsterdam: ExtDN & extensies (TIG)
 
 ---
 class: center, middle
