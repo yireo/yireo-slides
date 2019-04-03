@@ -42,87 +42,19 @@ class: center, middle
 # Nieuws & updates
 
 ---
-# Magento 2 versies
+# Magento 2.3.1
 
 --
-- Magento 2.1 (vorige)
-    - Veel open issues op GitHub
-    - Enorm veel devdocs
+- Security exploit!
+    - Magento 1.9.4.1, Magento 2.2.8, Magento 2.3.1
 --
-- Magento 2.2 (huidig)
-    - Enorm veel issues opgelost
-    - 2.2.6 nu beschikbaar
---
-- Magento 2.3
-    - Q4 2018 (?)
-
----
-# Magento 2.2.6
-- Security fixes
-- Indexing snelheid
-- Snellere `catalog:image:resize`
-- Reporting uitzetten
-
----
-# Magento 2.3 (generiek)
+- PageBuilder beschikbaar
 
 --
-- PWA (Progressive Web Apps)
+- Adobe Summit 
 
 --
-- Advanced CMS (*Commerce*)
-
---
-- Page Builder (*Commerce*)
-
---
-- Klarna Instant Checkout / Payment
-
---
-- Amazon Multi-Channel Fulfillment
-
---
-- Multi-Source Inventory (MSI)
-
---
-- Google reCAPTCHA (MageSpecialist)
-
---
-- Two Factor Authentication (MageSpecialist)
-
----
-# Magento 2.3 (technisch)
-
---
-- PWA Studio
-
---
-- GraphQL support (catalog)
-
---
-- Declaritive schema definitions
-
---
-- Magento Functional Testing Framework (MFTF)
-
---
-- Asynchronous Web API / Bulk API
-
---
-- Rabbit MQ
-
---
-- PHP 7.2 support
-
---
-- Multi-Source Inventory (MSI)
-
----
-# Magento 2.4
-- Client-rendered frontend
-- Progressive Web Apps (PWA)
-- Full GraphQL
-- Entitlement API (Apollo)
+- PWA Studio nog meer stabiel
 
 ---
 class: center, middle
