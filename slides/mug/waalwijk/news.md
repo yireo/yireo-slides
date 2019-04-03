@@ -51,26 +51,10 @@ class: center, middle
 - PageBuilder beschikbaar
 
 --
-- Adobe Summit 
+- Adobe Summit Las Vegas
 
 --
 - PWA Studio nog meer stabiel
-
----
-class: center, middle
-### Afsluiting
-
----
-# Community
-
---
-- Dutchento
-
---
-- Magento User Groups (MUGs)
-
---
-- Hackathons vs Contribution Days
 
 ---
 # Agenda
