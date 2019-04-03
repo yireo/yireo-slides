@@ -1,16 +1,16 @@
 class: center, middle
-# 20 september 2018
+# Donderdag 4 april 2019
 ## MUG Waalwijk
-### Vue StoreFront
+### End-to-end testing
 #### hosted by MaxServ & Yireo
 
 ---
-# Agenda 20 september 2018
-- Welkom 
+# Agenda 4 april 2019
+- Welkom
 - Nieuws & Updates
-- 19:30 - Remote call met Filip Rakowski
+- 19:30 - Remote call met Javier Villanueva
 - Pauze
-- Get.noticed: Use-case van Vue StoreFront
+- Talk Jisse over Selenium, Codeception & MFTF
 - Rondvraag & Borrel
 
 ---
@@ -34,7 +34,7 @@ class: center, middle
 - Oprichter en lead developer Yireo
 - Developer, blogger, trainer, spreker
 - Organisator MUGs & Reacticon & MageTestFest
-- Magento Master "Mover" 2017 & 2018
+- Magento Master "Mover" 2017 & 2018 & 2019
 - ExtDN board member
 
 ---
@@ -155,4 +155,3 @@ class: center, middle
 ---
 class: center, middle
 ### ?
-
