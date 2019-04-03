@@ -57,7 +57,22 @@ php vendor/bin/codecept bootstrap
 
 Additional:
 ```bash
+composer require facebook/webdriver
+composer require me-io/selenium-appium-server
+```
 
+---
+# Setting up tests
+File `functional.suite.yml`
+```
+actor: FunctionalTester
+modules:
+    enabled:
+        - WebDriver
+    config:
+      WebDriver:
+        url: http://magento2.yr/
+        browser: chrome
 ```
 
 ---
