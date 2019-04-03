@@ -18,6 +18,8 @@
     - ChromeDriver
     - geckodriver
     - Edge webdriver
+- Different adapters for different languages
+    - PHP, python, Java, ...
 
 ---
 # Selenium
@@ -28,7 +30,6 @@
 ---
 # Codeception
 @todo
-BrowserStack
 
 ---
 # Codeception CEST example
@@ -45,3 +46,8 @@ BrowserStack
 
 ---
 # MFTF demo
+
+---
+# Other mentions
+- BrowserStack
+- Appium
