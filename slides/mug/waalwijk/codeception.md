@@ -103,6 +103,11 @@ codecept run acceptance AddToCartCest
 # Codeception demo
 
 ---
+# Best practices
+- Create StepObjects
+- Create PageObjects
+
+---
 # Magento Functional Testing Framework
 
 ---
