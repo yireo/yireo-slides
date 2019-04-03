@@ -65,6 +65,13 @@ composer require me-io/selenium-appium-server
 ```
 
 ---
+# Creating tests
+- Acceptance tests
+    - `tests/acceptance.suite.yml`
+- Functional tests
+    - `tests/functional.suite.yml`
+
+---
 # Setting up tests
 File `functional.suite.yml`
 ```
