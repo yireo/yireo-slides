@@ -18,8 +18,9 @@
     - ChromeDriver
     - geckodriver
     - Edge webdriver
+    - OperaChromiumDriver
 - Different adapters for different languages
-    - PHP, python, Java, ...
+    - PHP, python, Java, C#, Ruby, JavaScript, ...
 
 ---
 # Selenium
