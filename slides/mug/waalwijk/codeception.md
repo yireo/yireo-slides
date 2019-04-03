@@ -34,7 +34,7 @@
 
 ---
 # Codeception
-- Testing framework
+- Testing framework (BDD)
     - Selenium testing
     - API tests
     - PHPUnit tests
