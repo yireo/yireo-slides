@@ -29,14 +29,17 @@
 - Java Standalone Server
 - Client drivers
     - Java, C#, Ruby, Python, Node
+- Selenium IDE
+    - Browser plugin in Chrome and Firefox
 
 ---
 # Codeception
-@todo
+- Selenium testing for PHP
 
 ---
 # Codeception CEST example
-@todo
+```php
+```
 
 ---
 # Codeception demo
