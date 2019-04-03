@@ -34,7 +34,10 @@
 
 ---
 # Codeception
-- Selenium testing for PHP
+- Testing framework
+    - Selenium testing
+    - API tests
+    - PHPUnit tests
 - ... or JavaScript
 - Installable via `composer`
 
