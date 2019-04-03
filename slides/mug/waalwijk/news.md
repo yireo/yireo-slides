@@ -58,9 +58,8 @@ class: center, middle
 
 ---
 # Agenda
-
---
-- 4-5 oktober = Reacticon v2 (Eindhoven)
+- 18 april: MeetMagento Nederland (Den Haag)
+- 9 mei: MUG Eindhoven: Lightning Talks
 
 --
 - 6 oktober = MageTitans Groningen
