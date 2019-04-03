@@ -11,12 +11,17 @@
     - Magento Functional Testing Framework
 
 ---
-# Chrome webdriver
-@todo
+# Webdriver API
+- Part of W3C specs
+    - https://www.w3.org/TR/webdriver1/
+- Different engines for different browsers
+    - ChromeDriver
 
 ---
 # Selenium
-@todo
+- Built on top of the Webdriver API
+- Java service
+-
 
 ---
 # Codeception
