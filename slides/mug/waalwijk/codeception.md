@@ -24,9 +24,11 @@
 
 ---
 # Selenium
+- Browser Automation Framework
 - Built on top of the Webdriver API
-- Java service
--
+- Java Standalone Server
+- Client drivers
+    - Java, C#, Ruby, Python, Node
 
 ---
 # Codeception
