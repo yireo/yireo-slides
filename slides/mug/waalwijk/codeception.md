@@ -65,14 +65,14 @@ composer require me-io/selenium-appium-server
 ```
 
 ---
-# Creating tests
+# Setting up tests (1/2)
 - Acceptance tests
     - `tests/acceptance.suite.yml`
 - Functional tests
     - `tests/functional.suite.yml`
 
 ---
-# Setting up tests
+# Setting up tests (2/2)
 File `functional.suite.yml`
 ```
 actor: FunctionalTester
@@ -83,6 +83,20 @@ modules:
       WebDriver:
         url: http://magento2.yr/
         browser: chrome
+```
+
+---
+# Creating a test
+Generate test file:
+```bash
+vendor/bin/codecept g:cest acceptance AddToCart
+```
+
+Modify `tests/acceptance/AddToCartCest.php`
+
+Run tests:
+```bash
+codecept run acceptance AddToCartCest
 ```
 
 ---
