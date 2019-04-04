@@ -1,5 +1,10 @@
+class: center, middle
 # End-to-end testing
-## with Codeception
+### with Codeception and MFTF
+
+---
+class: center, middle
+# Codeception
 
 ---
 # Codeception
@@ -100,6 +105,7 @@ codecept run acceptance AddToCartCest
 ```
 
 ---
+class: center, middle
 # Codeception demo
 
 ---
@@ -107,6 +113,11 @@ codecept run acceptance AddToCartCest
 - Create StepObjects
 - Create PageObjects
 - Or maybe even include a Magento database ...?
+
+---
+class: center, middle
+# MFTF
+### Magento Functional Testing Framework
 
 ---
 # Magento Functional Testing Framework
@@ -188,6 +199,7 @@ vendor/bin/mftf run:test AdminLoginTest --remove
 ```
 
 ---
+class: center, middle
 # MFTF demo
 
 ---
