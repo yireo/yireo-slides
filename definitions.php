@@ -24,6 +24,7 @@ $slideGroups = [
         'style' => 'mug',
         'slides' => [
             ['file' => 'mug/zurich/pwa', 'title' => 'Magento Meetup Zurich PWA'],
+            ['file' => 'mug/waalwijk/codeception', 'title' => 'MUG Waalwijk - Codeception'],
             ['file' => 'mug/waalwijk/news', 'title' => 'MUG Waalwijk introduction'],
             ['file' => 'mug/buckaroo/news', 'title' => 'MUG Utrecht introduction'],
             ['file' => 'mug/localisation/main', 'title' => 'Localisatie'],
