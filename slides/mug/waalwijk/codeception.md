@@ -106,6 +106,7 @@ codecept run acceptance AddToCartCest
 # Best practices
 - Create StepObjects
 - Create PageObjects
+- Or maybe even include a Magento database ...?
 
 ---
 # Magento Functional Testing Framework
