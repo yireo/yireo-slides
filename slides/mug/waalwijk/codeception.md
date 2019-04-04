@@ -188,9 +188,6 @@ vendor/bin/mftf run:test AdminLoginTest --remove
 ```
 
 ---
-# MFTF test case
-
----
 # MFTF demo
 
 ---
