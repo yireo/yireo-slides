@@ -106,7 +106,7 @@ codecept run acceptance AddToCartCest
 
 ---
 class: center, middle
-# Codeception demo
+### Codeception demo
 
 ---
 # Best practices
@@ -120,7 +120,7 @@ class: center, middle
 ### Magento Functional Testing Framework
 
 ---
-# Magento Functional Testing Framework
+# MFTF
 - Magento Functional Testing Framework
 - Introduced in Magento 2.2
 - Stable since Magento 2.3
@@ -147,6 +147,8 @@ composer show magento/magento2-functional-testing-framework
 - `app/code/Yireo/Example/Test/Mftf`
 - `vendor/yireo/example/Test/Mftf`
 
+---
+# Structure
 Structure within `Mftf` folder:
 - `ActionGroup/`
 - `Data/`
@@ -200,7 +202,7 @@ vendor/bin/mftf run:test AdminLoginTest --remove
 
 ---
 class: center, middle
-# MFTF demo
+### MFTF demo
 
 ---
 # Other mentions
