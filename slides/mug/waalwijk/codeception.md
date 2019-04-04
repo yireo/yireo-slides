@@ -110,6 +110,82 @@ codecept run acceptance AddToCartCest
 
 ---
 # Magento Functional Testing Framework
+- Magento Functional Testing Framework
+- Introduced in Magento 2.2
+- Stable since Magento 2.3
+- Compiling XML tests to CodeCeption tests
+    - CodeCeption
+    - Selenium
+    - Allure
+
+---
+# Benefits of MFTF
+- Extensible tests to prevent conflicts
+- Covered by Magento core (2.3+)
+- Added value for 3rd party extensions
+
+---
+# Command line
+```shell
+vendor/bin/mftf --version
+composer show magento/magento2-functional-testing-framework
+```
+
+---
+# Tests in modules
+- `app/code/Yireo/Example/Test/Mftf`
+- `vendor/yireo/example/Test/Mftf`
+
+Structure within `Mftf` folder:
+- `ActionGroup/`
+- `Data/`
+- `Metadata/`
+- `Page/`
+- `Section/`
+- `Test/`
+
+---
+# Getting started (1/x)
+- Install Java, Selenium, Chrome driver and Allure CLI
+- Run Selenium Server (Java JAR)
+
+---
+# Getting started (2/x)
+Modify Magento settings:
+```shell
+magerun2 config:set cms/wysiwyg/enabled disabled
+magerun2 config:set admin/security/admin_account_sharing 1
+magerun2 config:set admin/security/use_form_key 0
+```
+
+---
+# Getting started (3/x)
+Build the project:
+```shell
+vendor/bin/mftf build:project
+vendor/bin/mftf generate:urn-catalog .idea/
+```
+
+---
+# Getting started (4/x)
+Edit `dev/tests/acceptance/.env`
+- `MAGENTO_BASE_URL`
+- `MAGENTO_BACKEND_NAME`
+- `MAGENTO_ADMIN_USERNAME`
+- `MAGENTO_ADMIN_PASSWORD`
+
+---
+# Getting started (5/x)
+There we go:
+```shell
+cp dev/tests/acceptance/.htaccess.sample dev/tests/acceptance/.htaccess
+vendor/bin/mftf generate:tests -f
+cd dev/tests/acceptance && vendor/bin/codecept run functional
+```
+
+```shell
+vendor/bin/mftf run:test AdminLoginTest --remove
+```
 
 ---
 # MFTF test case
