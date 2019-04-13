@@ -133,12 +133,17 @@
 ~ Add a sample parent component
     - Axios to make a simple GraphQl component
     - Possibly with end-to-end testing or *unit* tests
+~ Possibly integrate this into the current Knockout frontend
+    - If you want to be part of the cool kids (Jisse + 1)
+    - Example: `Yireo_ReactMinicart`
 
 ---
 {state: dark}
 # Headless changes things a lot
-- Backend logic is the same; Only the frontend changes
-- We can easily build stuff ourselves
+- Backend logic is the same
+- Only the frontend changes
+    - React or Vue
+- And we can easily build stuff ourselves within that new frontend
 
 ---
 {state: dark}
