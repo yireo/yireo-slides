@@ -160,14 +160,16 @@
     - Themes
 ~ We can easily build this stuff ourselves
     - This is why we want an easier frontend
-~ Possibly have themes available
+~ Or find ready-made Vue or React components
+~ Possibly have themes available for React & Vue
+    - It still is HTML-based
     - CSS Zen Garden (2001) anyone?
 
 ---
 {state: dark}
 # Connections with external systems
 ~ Examples:
-    - ERP, CRM, PIM, bookkeeping
+    - ERP, CRM, PIM, fraud, bookkeeping
     - Importing tools, exporting tools
 ~ Technology: Observable events & Interceptors
 ~ This should still work with the frontend
