@@ -99,7 +99,7 @@
 ~ Marked as experimental
 
 ---
-{state: main}
+{background-image: pwa/giphy-not-really.webp}
 ## Done
 
 
