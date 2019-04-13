@@ -247,6 +247,12 @@ File `src/Extensions/HelloWorld/extension.json`:
 
 ---
 {state: dark}
+# Alternative for payment providers
+- Build it yourself
+- Rely on NodeJS client of payment provider
+
+---
+{state: dark}
 # UPWARD
 - Proxy between PWA & Magento
     - Or: A middle tier service layer between browser & server
@@ -257,6 +263,15 @@ File `src/Extensions/HelloWorld/extension.json`:
 - Multiple connectors available
     - NodeJS (f.i. for React, Vue)
     - PHP (f.i. for a Laravel app)
+- Why?
+    - Reusability of components and PWA-backends
+
+---
+{state: dark}
+# What can we do NOW?
+~ Ask extension providers to support GraphQL
+~ Ask PWA providers to support UPWARD
+    - DEITY, Vue StoreFront
 
 ---
 {state: bordered}
