@@ -1,3 +1,54 @@
+.reveal .backgrounds .slide-background {
+    background-position: unset;
+    background-size: cover;
+}
+
+.divider .reveal .backgrounds .slide-background {
+    background-color: #eee;
+}
+
+.reveal {
+    padding-left: 100px;
+}
+
+.reveal h1 {
+    font-size: 160%;
+    font-weight: bold;
+}
+
+.reveal h2 {
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.reveal h3 {
+    font-size: 110%;
+    color: #8f8f8f;
+}
+
+.reveal ul {
+    margin-left: 30px;
+}
+
+.reveal ul span.label {
+    font-weight: bold;
+}
+
+.reveal ul span.value {
+    font-size: 80%;
+}
+
+.reveal pre {
+    background-color: #f4efec;
+    padding: 10px;
+    font-size: 90%;
+}
+
+.reveal code {
+    font-family: courier, sans-serif;
+    font-size: 90%;
+}
+
 .dark .reveal h1,
 .dark .reveal h2,
 .dark .reveal h3,
@@ -8,4 +59,6 @@
 .dark .reveal li {
     color: white;
 }
+
+
 
