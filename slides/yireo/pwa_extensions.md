@@ -53,5 +53,6 @@
 ---
 {state: bordered}
 {background-image: mm18pl/ross-kemp-folded.jpg}
-# Slides
-## slides.yireo.com/yireo/react_to_ko
+# Folded together for you
+## slides.yireo.com/yireo/pwa_extensions
+Kudos to Ross-Kemp-Folded
