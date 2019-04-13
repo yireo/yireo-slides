@@ -65,8 +65,12 @@
 # ... for extensions?
 
 ---
+{background-image: pwa/giphy-not-really.webp}
+
+---
 {state: dark}
 # What kind of extensions are there?
+- Themes
 - Frontend widgets
     - Product slider, Lightbox, tabs
 - Connections (event-based?)
@@ -75,7 +79,6 @@
     - Payment providers
     - Shipping providers
     - Tax calculation
-
 
 ---
 {state: dark}
