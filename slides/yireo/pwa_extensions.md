@@ -269,9 +269,14 @@ File `src/Extensions/HelloWorld/extension.json`:
 ---
 {state: dark}
 # What can we do NOW?
-~ Ask extension providers to support GraphQL
+~ Ask extension providers to:
+    - Build GraphQL endpoints for queries & mutations
+    - Supply sample React components for those endpoints
+    - Refactor monolithic module in smaller single-purpose modules
 ~ Ask PWA providers to support UPWARD
     - DEITY, Vue StoreFront
+~ Wait for some really smart Magento folks to complete the GraphQl API
+    - Or join them on Slack and GitHub!
 
 ---
 {state: bordered}
