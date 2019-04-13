@@ -1,0 +1,11 @@
+.dark .reveal h1,
+.dark .reveal h2,
+.dark .reveal h3,
+.dark .reveal h4,
+.dark .reveal div,
+.dark .reveal p,
+.dark .reveal ul,
+.dark .reveal li {
+    color: white;
+}
+

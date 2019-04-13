@@ -31,6 +31,11 @@
 {background-image: pwa/giphy-nope.webp}
 
 ---
+{state: dark}
+# What do you mean?
+An all purpose click-click PWA
+
+---
 {state: main}
 ## Is Magento PWA ready
 # ... for developers?

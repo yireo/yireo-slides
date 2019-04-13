@@ -1,6 +1,7 @@
 /*
  * @import 'meetmagento.css';
  */
+@import 'reveal/include-generic.css';
 
 body {
     font-family: "Roboto Condensed", Arial;
