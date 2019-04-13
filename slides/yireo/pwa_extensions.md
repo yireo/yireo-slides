@@ -1,6 +1,6 @@
 {state: main}
-## Adding React to the current Knockout frontend
-# 'cause it needs to be better
+## How Magento extensions will fit into PWA
+# back to the future I
 #### by Jisse Reitsma (Yireo)
 
 ---
