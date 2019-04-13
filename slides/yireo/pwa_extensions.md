@@ -145,6 +145,7 @@
 # What kind of extensions are there?
 - Frontend fluff
 - Connections with external systems
+- Marketing tools
 - Checkout-based extensions
 
 ---
@@ -152,6 +153,7 @@
 # Frontend fluff
 ~ Examples:
     - Product slider, Lightbox, tabs
+    - Social media widgets, live chat
     - Point of Sales (POS) systems
     - Themes
 ~ We can easily build this stuff ourselves
@@ -162,11 +164,21 @@
 ---
 {state: dark}
 # Connections with external systems
-- Examples:
+~ Examples:
     - ERP, CRM, PIM, bookkeeping
     - Importing tools, exporting tools
-- Technology: Observable events & Interceptors
-- This should still work with the frontend
+~ Technology: Observable events & Interceptors
+~ This should still work with the frontend
+
+---
+{state: dark}
+# Marketing tools
+- Examples:
+    - Newsletters
+    - SEO, SEM, advertizing
+- See earlier slides
+    - Either based on frontend fluff
+    - Or connections with external systems (under the hood)
 
 ---
 {state: dark}
