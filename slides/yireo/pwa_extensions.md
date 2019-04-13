@@ -5,7 +5,7 @@
 
 ---
 {state: speaker}
-{background-image: mm18pl/jisse.jpg}
+{background-image: pwa/jisse.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
 ~ Trainer of Magento 2 developers
@@ -18,6 +18,14 @@
 ---
 {state: main}
 ## Is Magento PWA ready?
+
+---
+{background-image: pwa/giphy-indian.webp}
+
+---
+{state: main}
+## Is Magento PWA ready
+# ... for developers?
 
 ---
 {background-image: pwa/giphy-okay.webp}
