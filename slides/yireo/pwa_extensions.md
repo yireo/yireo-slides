@@ -249,6 +249,7 @@ File `src/Extensions/HelloWorld/extension.json`:
 {state: dark}
 # Alternative for payment providers
 - Build it yourself
+    - Form, AJAX, callback URLs
 - Rely on NodeJS client of payment provider
 
 ---
@@ -275,6 +276,8 @@ File `src/Extensions/HelloWorld/extension.json`:
     - Refactor monolithic module in smaller single-purpose modules
 ~ Ask PWA providers to support UPWARD
     - DEITY, Vue StoreFront
+~ Ask payment providers to supply NodeJS client
+~ Ask Magento PWA Studio to re-active `extension.json`
 ~ Wait for some really smart Magento folks to complete the GraphQl API
     - Or join them on Slack and GitHub!
 
