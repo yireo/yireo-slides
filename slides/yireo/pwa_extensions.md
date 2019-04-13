@@ -64,9 +64,17 @@
 ---
 {state: dark}
 # It is easy to make a GraphQL call
-~ With React or Vue
-~ With Axios
-~ With jQuery
+~ Within React or Vue: Apollo client
+~ Within any JavaScript: Axios
+~ Within the current frontend: jQuery
+
+---
+{state: dark}
+# Strategy
+- Split up your current extension
+    - `Foobar` - Meta-package
+    - `FoobarAdmin` - UiComponents (grids, forms), `system.xml`, `view/adminhtml`
+    - `FoobarFrontend` - XML layout, Blocks, PHTML, `view/frontend`
 
 ---
 {state: bordered}
