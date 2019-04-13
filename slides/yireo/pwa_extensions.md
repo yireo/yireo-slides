@@ -188,7 +188,8 @@
     - Warehouse management, PIM
     - Importing tools, exporting tools
 ~ Technology: Observable events & Interceptors
-~ This should still work with the frontend
+~ This is backend related
+~ This should still work with the new frontend
 
 ---
 {state: dark}
@@ -209,15 +210,17 @@
     - Shipping providers
     - Tax calculation
     - Checkout enhancements
+~ ... ahm, well, yeah ...
 
 ---
 {state: dark}
 # Current state of Magento PWA Studio
-~ Venia is a PROOF OF CONCEPT
-~ REST-hacks to get things working
-~ Braintree is only payment option
-~ No selection for shipment provider
-~ GraphQL API is not complete yet
+~ Magento PWA Studio is at version 2.1.0
+~ But: Venia is a PROOF OF CONCEPT
+~ But: REST-hacks to get things working
+~ But: Braintree is only payment option
+~ But: No selection for shipment provider
+~ Reason: GraphQL API is not complete yet
 
 ---
 {state: dark}
