@@ -82,7 +82,7 @@
 
 ---
 {state: dark}
-# Headless changes
+# Headless changes a lot
 - Backend logic is the same; Only the frontend changes
 
 ---
