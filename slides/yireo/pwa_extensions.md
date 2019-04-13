@@ -235,7 +235,28 @@
 ---
 {state: dark}
 # Extensibility in PWA Studio
+File `src/Extensions/HelloWorld/extension.json`:
+```json
+[{
+  "operation": "insertAfter",
+  "targetContainer": "helloworld.wrapper",
+  "targetChild": "helloworld.title",
+  "componentPath": "./index.js"
+}]
+```
 
+---
+{state: dark}
+# UPWARD
+- Proxy between PWA & Magento
+    - Or: A middle tier service layer between browser & server
+- Unified Progressive Web App Response Definition
+    - Mapping of properties, functions & data
+    - No state
+- Defined in YAML
+- Multiple connectors available
+    - NodeJS (f.i. for React, Vue)
+    - PHP (f.i. for a Laravel app)
 
 ---
 {state: bordered}
