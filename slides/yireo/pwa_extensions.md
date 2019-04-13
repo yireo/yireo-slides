@@ -152,6 +152,8 @@
 ~ Only the frontend changes
     - React or Vue
 ~ And we can easily build stuff ourselves within that new frontend
+~ And so can extension developers
+    - Ready-made React or Vue components based on GraphQl
 
 ---
 {state: dark}
@@ -163,7 +165,7 @@
 
 ---
 {state: dark}
-# Frontend fluff
+# Extensions: Frontend fluff
 ~ Examples:
     - Product slider, Lightbox, tabs
     - Social media widgets, live chat
@@ -178,7 +180,7 @@
 
 ---
 {state: dark}
-# Connections with external systems
+# Extensions: Connections with external systems
 ~ Examples:
     - ERP, CRM, fraud, bookkeeping
     - Warehouse management, PIM
@@ -188,7 +190,7 @@
 
 ---
 {state: dark}
-# Marketing tools
+# Extensions: Marketing tools
 ~ Examples:
     - Newsletters
     - SEO, SEM, advertizing
@@ -199,7 +201,7 @@
 
 ---
 {state: dark}
-# Checkout-based extensions
+# Extensions: Checkout-based extensions
 ~ Examples:
     - Payment providers
     - Shipping providers
