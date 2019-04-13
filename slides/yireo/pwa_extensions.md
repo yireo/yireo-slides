@@ -17,23 +17,7 @@
 
 ---
 {state: main}
-## Welcome to
-# Knockout Gate
-
----
-{state: main}
-## Here is a slide on
-# PWA
-
----
-{state: main}
-## It's a hype, so here's another one
-# PWA
-
----
-{state: main}
-## Back to
-# Knockout Jisse
+## Is Magento PWA ready?
 
 ---
 {background-image: mm18pl/drinking.jpg}
