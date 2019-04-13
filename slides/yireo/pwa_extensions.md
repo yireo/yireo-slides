@@ -82,12 +82,13 @@
 
 ---
 {state: dark}
-# Headless changes a lot
+# Headless changes things a lot
 - Backend logic is the same; Only the frontend changes
+- We can easily build stuff ourselves
 
 ---
 {state: dark}
-# The GraphQL API is there
+# The GraphQL API is here
 ~ GraphQL is the future of the API
 ~ It is possible to create your own GraphQL endpoint
     - Query
@@ -132,11 +133,28 @@
 {state: dark}
 # FoobarReact
 ~ Marked as experimental
+~ React component receiving `props` from above
+    - Above = Parent component or Redux or Apollo
+~ Add a sample parent component
+    - Axios to make a simple GraphQl component
+    - Possibly with end-to-end testing or *unit* tests
+
+---
+{state: dark}
+# What kind of extensions are there?
+- Themes
+- Frontend widgets
+    - Product slider, Lightbox, tabs
+- Connections (event-based?)
+    - ERP, CRM, PIM
+- Checkout-based
+    - Payment providers
+    - Shipping providers
+    - Tax calculation
 
 ---
 {background-image: pwa/giphy-not-really.webp}
 ## Done
-
 
 ---
 {state: bordered}
