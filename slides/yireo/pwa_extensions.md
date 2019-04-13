@@ -51,6 +51,11 @@
 # Yes! PWA is ready! We are ready!
 
 ---
+{state: main}
+## Is Magento PWA ready
+# ... for extensions?
+
+---
 {state: dark}
 # The GraphQL API is there
 ~ GraphQL is the future of the API
