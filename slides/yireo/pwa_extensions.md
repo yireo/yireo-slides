@@ -228,6 +228,8 @@
 ~ Product, category, CMS, customer
 ~ Checkout slowly beginning to be covered
     - Empty cart
+    - Authentication
+    - Basic Checkout end-to-end flow
 ~ It is done when it is done
 
 ---
