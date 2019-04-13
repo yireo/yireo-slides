@@ -72,13 +72,8 @@
 # What kind of extensions are there?
 - Themes
 - Frontend widgets
-    - Product slider, Lightbox, tabs
-- Connections (event-based?)
-    - ERP, CRM, PIM
+- Connections with external systems
 - Checkout-based
-    - Payment providers
-    - Shipping providers
-    - Tax calculation
 
 ---
 {state: dark}
@@ -140,26 +135,28 @@
 ---
 {state: dark}
 # Headless changes things a lot
-- Backend logic is the same
-- Only the frontend changes
+~ Backend logic is the same
+~ Only the frontend changes
     - React or Vue
-- And we can easily build stuff ourselves within that new frontend
+~ And we can easily build stuff ourselves within that new frontend
 
 ---
 {state: dark}
 # What kind of extensions are there?
-- Frontend widgets and themes
+- Frontend fluff
 - Connections with external systems
 - Checkout-based extensions
 
 ---
 {state: dark}
-# Frontend widgets & themes
-- Examples:
+# Frontend fluff
+~ Examples:
     - Product slider, Lightbox, tabs
-- We can easily build this stuff ourselves
+    - Point of Sales (POS) systems
+    - Themes
+~ We can easily build this stuff ourselves
     - This is why we want an easier frontend
-- Possibly have themes available
+~ Possibly have themes available
     - CSS Zen Garden (2001) anyone?
 
 ---
