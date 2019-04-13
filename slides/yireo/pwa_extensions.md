@@ -30,7 +30,7 @@
 ---
 {state: dark}
 # What do you mean?
-An all purpose PWA-solution that you can generate from within the Magento Admin Panel, customize it using a magic dashboard that has all possible combinations thought out for you while still being completely understandable to any backend user?
+### An all-purpose, multi-fit, mega-cool PWA-solution that you can generate from within the Magento Admin Panel, customize it using a magic dashboard that has all possible Mickey Mouse combinations thought out for you while still being completely understandable to any backend user and extensible with any Magento extensions out there in the market?
 
 ---
 {background-image: pwa/giphy-nope.webp}
