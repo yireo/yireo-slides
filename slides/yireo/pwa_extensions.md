@@ -28,12 +28,17 @@
 # ... for merchants?
 
 ---
+{state: dark}
+# What do you mean?
+An all purpose PWA-solution that you can generate from within the Magento Admin Panel, customize it using a magic dashboard that has all possible combinations thought out for you while still being completely understandable to any backend user?
+
+---
 {background-image: pwa/giphy-nope.webp}
 
 ---
 {state: dark}
 # What do you mean?
-An all purpose click-click PWA
+### A PWA-solution that is custom built in React, Vue or Angular by some kick-ass frontend developers that know their shit?
 
 ---
 {state: main}
