@@ -14,6 +14,15 @@
 ~ Magento Master 2017-2019 Mover
 ~ Member of ExtDN (Magento Ext Dev Network)
 
+---
+{state: main}
+### The hype
+# What is PWA?
+
+---
+{state: main}
+### The hype
+# Painfully Wishful Acronyms
 
 ---
 {state: main}
