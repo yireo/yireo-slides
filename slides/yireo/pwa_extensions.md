@@ -89,6 +89,17 @@
 ---
 {state: dark}
 # It is easy to make a GraphQL call
+```json
+{
+  products(search: "Hood") {
+    items {
+      id
+      sku
+      name
+  }
+}
+```
+
 ~ Within React or Vue: Apollo client
 ~ Within any JavaScript: Axios
 ~ Within the current frontend: jQuery
@@ -169,7 +180,8 @@
 {state: dark}
 # Connections with external systems
 ~ Examples:
-    - ERP, CRM, PIM, fraud, bookkeeping
+    - ERP, CRM, fraud, bookkeeping
+    - Warehouse management, PIM
     - Importing tools, exporting tools
 ~ Technology: Observable events & Interceptors
 ~ This should still work with the frontend
@@ -195,8 +207,26 @@
     - Checkout enhancements
 
 ---
-{background-image: pwa/giphy-not-really.webp}
-## Done
+{state: dark}
+# Current state of Magento PWA Studio
+~ Venia is a PROOF OF CONCEPT
+~ REST-hacks to get things working
+~ Braintree is only payment option
+~ No selection for shipment provider
+~ GraphQL API is not complete yet
+
+---
+{state: dark}
+# Current state of GraphQL
+~ Product, category, CMS, customer
+~ Checkout slowly beginning to be covered
+    - Empty cart
+~ It is done when it is done
+
+---
+{state: dark}
+# Extensibility in PWA Studio
+
 
 ---
 {state: bordered}
