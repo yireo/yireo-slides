@@ -82,12 +82,6 @@
 
 ---
 {state: dark}
-# Headless changes things a lot
-- Backend logic is the same; Only the frontend changes
-- We can easily build stuff ourselves
-
----
-{state: dark}
 # The GraphQL API is here
 ~ GraphQL is the future of the API
 ~ It is possible to create your own GraphQL endpoint
@@ -133,6 +127,7 @@
 {state: dark}
 # FoobarReact
 ~ Marked as experimental
+~ Distributed as a NPM package (npmjs.com, ZIP)
 ~ React component receiving `props` from above
     - Above = Parent component or Redux or Apollo
 ~ Add a sample parent component
@@ -141,13 +136,40 @@
 
 ---
 {state: dark}
+# Headless changes things a lot
+- Backend logic is the same; Only the frontend changes
+- We can easily build stuff ourselves
+
+---
+{state: dark}
 # What kind of extensions are there?
-- Themes
-- Frontend widgets
+- Frontend widgets and themes
+- Connections with external systems
+- Checkout-based extensions
+
+---
+{state: dark}
+# Frontend widgets & themes
+- Examples:
     - Product slider, Lightbox, tabs
-- Connections (event-based?)
-    - ERP, CRM, PIM
-- Checkout-based
+- We can easily build this stuff ourselves
+    - This is why we want an easier frontend
+- Possibly have themes available
+    - CSS Zen Garden (2001) anyone?
+
+---
+{state: dark}
+# Connections with external systems
+- Examples:
+    - ERP, CRM, PIM, bookkeeping
+    - Importing tools, exporting tools
+- Technology: Observable events & Interceptors
+- This should still work with the frontend
+
+---
+{state: dark}
+# Checkout-based extensions
+- Examples:
     - Payment providers
     - Shipping providers
     - Tax calculation
