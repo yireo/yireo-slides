@@ -71,14 +71,27 @@
 ---
 {state: dark}
 # Strategy
-- Split up your current extension
+~ Make your code solid
+    - Document your dependencies in `composer.json` and `module.xml`
+~ Split up your current extension
     - `Foobar` - Meta-package
     - `FoobarApi` - API interfaces
     - `FoobarAdmin` - UiComponents (grids, forms), `system.xml`, `view/adminhtml`
     - `FoobarFrontend` - XML layout, Blocks, PHTML, `view/frontend`
-- Add new packages
+    - Possibly a separate PHP non-Magento library
+~ Add new packages
     - `FoobarGraphQl`
     - `FoobarReact`
+
+---
+{state: dark}
+# FoobarGraphQl
+~ Maybe not installed by default?
+    - Composer `suggests`?
+~ Depending on `Magento_GraphQl`
+    - Or possibly other modules like `Magento_CatalogGraphQl`
+~ Add simply integration tests for this
+    - PHPUnit tests with CURL to check JSON-response
 
 ---
 {state: bordered}
