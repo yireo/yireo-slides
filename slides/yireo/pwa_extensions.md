@@ -25,6 +25,14 @@
 ---
 {state: main}
 ## Is Magento PWA ready
+# ... for merchants?
+
+---
+{background-image: pwa/giphy-nope.webp}
+
+---
+{state: main}
+## Is Magento PWA ready
 # ... for developers?
 
 ---
