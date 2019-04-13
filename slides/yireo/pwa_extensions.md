@@ -94,6 +94,11 @@
     - PHPUnit tests with CURL to check JSON-response
 
 ---
+{state: dark}
+# FoobarReact
+~ Marked as experimental
+
+---
 {state: bordered}
 {background-image: mm18pl/ross-kemp-folded.jpg}
 # Folded together for you
