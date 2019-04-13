@@ -152,6 +152,7 @@
 ~ Only the frontend changes
     - React or Vue
 ~ And we can easily build stuff ourselves within that new frontend
+    - Get started and you will see
 ~ And so can extension developers
     - Ready-made React or Vue components based on GraphQl
 
@@ -173,9 +174,10 @@
     - Themes
 ~ We can easily build this stuff ourselves
     - This is why we want an easier frontend
-~ Or find ready-made Vue or React components
+~ Or have extension providers offer ready-made Vue or React components
+~ Or find ready-made Vue or React components elsewhere
 ~ Possibly have themes available for React & Vue
-    - It still is HTML-based
+    - It is just HTML, CSS and bit of JavaScript
     - CSS Zen Garden (2001) anyone?
 
 ---
