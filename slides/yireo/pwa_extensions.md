@@ -22,7 +22,7 @@
 ---
 {state: main}
 ### The hype
-# Painfully Wishful Acronyms
+# Painfully Wishful Acronym
 
 ---
 {state: main}
@@ -63,6 +63,20 @@
 {state: main}
 ## Is Magento PWA ready
 # ... for extensions?
+
+---
+{state: dark}
+# What kind of extensions are there?
+- Frontend widgets
+- Checkout-based
+    - Payment providers
+    - Shipping providers
+    - Tax calculation
+
+---
+{state: dark}
+# Headless changes
+- Backend logic is the same; Only the frontend changes
 
 ---
 {state: dark}
