@@ -51,6 +51,24 @@
 # Yes! PWA is ready! We are ready!
 
 ---
+{state: dark}
+# The GraphQL API is there
+~ GraphQL is the future of the API
+~ It is possible to create your own GraphQL endpoint
+    - Query
+    - Mutation
+~ Just add 2 files
+    - `schema.graphqls`
+    - PHP class with `resolver()` method
+
+---
+{state: dark}
+# It is easy to make a GraphQL call
+~ With React or Vue
+~ With Axios
+~ With jQuery
+
+---
 {state: bordered}
 {background-image: mm18pl/ross-kemp-folded.jpg}
 # Folded together for you
