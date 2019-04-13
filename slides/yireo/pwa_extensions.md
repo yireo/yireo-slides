@@ -68,10 +68,14 @@
 {state: dark}
 # What kind of extensions are there?
 - Frontend widgets
+    - Product slider, Lightbox, tabs
+- Connections (event-based?)
+    - ERP, CRM, PIM
 - Checkout-based
     - Payment providers
     - Shipping providers
     - Tax calculation
+
 
 ---
 {state: dark}
