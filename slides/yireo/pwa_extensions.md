@@ -34,11 +34,7 @@
 
 ---
 {background-image: pwa/giphy-nope.webp}
-
----
-{state: dark}
-# What do you mean?
-### A PWA-solution that is custom built in React, Vue or Angular by some kick-ass frontend developers that know their shit?
+# Keep dreaming, dudes, keep dreaming
 
 ---
 {state: main}
@@ -46,7 +42,13 @@
 # ... for developers?
 
 ---
+{state: dark}
+# What do you mean?
+### A PWA-solution that is custom built in React, Vue or Angular by some kick-ass frontend developers that know their Kungfu-coding shit and can custom-build any extension-like feature for you, assuming your wallet is large enough?
+
+---
 {background-image: pwa/giphy-okay.webp}
+# Yes! PWA is ready! We are ready!
 
 ---
 {state: bordered}
