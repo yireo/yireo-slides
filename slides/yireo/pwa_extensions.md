@@ -123,10 +123,12 @@
 # FoobarReact
 ~ Marked as experimental
 ~ Distributed as a NPM package (npmjs.com, ZIP)
+    - Clear `npm install` procedure
 ~ React component receiving `props` from above
     - Above = Parent component or Redux or Apollo
 ~ Add a sample parent component
     - Axios to make a simple GraphQl component
+    - Developer documentation
     - Possibly with end-to-end testing or *unit* tests
 ~ Possibly integrate this into the current Knockout frontend
     - If you want to be part of the cool kids (Jisse + 1)
@@ -173,20 +175,22 @@
 ---
 {state: dark}
 # Marketing tools
-- Examples:
+~ Examples:
     - Newsletters
     - SEO, SEM, advertizing
-- See earlier slides
+    - Rewards, loyalty, gift-cards
+~ See earlier slides
     - Either based on frontend fluff
     - Or connections with external systems (under the hood)
 
 ---
 {state: dark}
 # Checkout-based extensions
-- Examples:
+~ Examples:
     - Payment providers
     - Shipping providers
     - Tax calculation
+    - Checkout enhancements
 
 ---
 {background-image: pwa/giphy-not-really.webp}
