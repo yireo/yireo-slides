@@ -73,8 +73,12 @@
 # Strategy
 - Split up your current extension
     - `Foobar` - Meta-package
+    - `FoobarApi` - API interfaces
     - `FoobarAdmin` - UiComponents (grids, forms), `system.xml`, `view/adminhtml`
     - `FoobarFrontend` - XML layout, Blocks, PHTML, `view/frontend`
+- Add new packages
+    - `FoobarGraphQl`
+    - `FoobarReact`
 
 ---
 {state: bordered}
