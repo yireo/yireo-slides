@@ -32,6 +32,14 @@ body {
     background-image: url("/images/pwa/background-garden.png");
 }
 
+.garden2 .reveal .backgrounds .slide-background {
+    background-image: linear-gradient(#c1f8ff, #6599ff);
+}
+
+.garden2 .reveal .backgrounds .slide-background .slide-background-content {
+    background-image: url("/images/pwa/background-garden2.png");
+}
+
 .reveal li > code {
     background-color: #f4f2f0;
 }
