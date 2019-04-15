@@ -20,6 +20,19 @@
 # PWA is ready!
 
 ---
+{state: dark}
+# Magento Announces Availability of PWA Studio
+There’s no question that mobile is the most transformative force in retail today, a trend that was on full display throughout the 2018 holiday shopping season. According to the Adobe Analytics Holiday report, mobile traffic soared with more than half (51.4 percent) of traffic originating from smartphones alone yet mobile accounted for just 31 percent of revenue. This is a stark reminder that many retailers have yet to crack the code on improving mobile conversion rates and the complexity of building and optimizing experiences across channels.
+
+Today, we are excited to announce the general release of Progressive Web Applications (PWA), a suite of tools for building online stores with app-like experiences that help merchants solve the mobile conversion dilemma and delivery highly personalized cross-channel experiences, in addition, new innovations across Adobe Experience Cloud that help retailers excel in CXM across physical and digital storefronts.
+
+PWAs represent a seismic advancement in the evolution of the mobile web, similar in magnitude to the transition that happened five years ago from conventional desktop sites to responsive web design. PWAs blur the lines between mobile app and mobile site by equipping merchants and developers with a new front-end architecture that allows them to leverage open web APIs to build “app-like’ experiences directly in the browser that are fast, engaging, boost online conversions and enhance the pervasiveness of the in-store experience.
+
+When executed properly, native apps can provide an experience that is so frictionless that they provide a much better shopping experience than the desktop (think Apple or Amazon). The problem is that mobile apps are expensive to build and maintain and consumers only use apps from brands with which they regularly interact. According to Gartner, most brands cannot expect to convince even 10% of customers to download their app—meaning their mobile website handles the vast majority of customer interactions.
+
+This is where PWAs shine: they deliver fast and slick “app-like” experiences in the mobile web browser, allowing retailers to tackle multiple challenges at once:
+
+---
 {state: desert2 main center}
 ### Progressive Web Apps or 
 # Painfully Wishful Acronym
