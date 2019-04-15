@@ -262,6 +262,11 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ~ It is done when it is done
 
 ---
+{state: city main center middle}
+# It is in progress
+### but when do extensions fit in?
+
+---
 {state: dark}
 # Extensibility in PWA Studio
 File `src/Extensions/HelloWorld/extension.json`:
