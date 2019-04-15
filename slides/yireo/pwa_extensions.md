@@ -167,18 +167,18 @@ Today, we are excited to announce the general release of Progressive Web Applica
 
 ---
 {state: mountains main center middle}
-# Which extensions need to change?
-### to support PWA
+# Which extensions need to change
+### to support a PWA platform?
 
 ---
 {state: dark}
 # Headless changes things a lot
 ~ Backend logic is the same
-~ Only the frontend changes
+~ Frontend changes dramatically
     - React or Vue
 ~ And we can easily build stuff ourselves within that new frontend
-    - Get started and you will see
-~ And so can extension developers
+    - Get started and you will see how easy it is
+~ And so can extension developers build stuff
     - Ready-made React or Vue components based on GraphQl
 
 ---
