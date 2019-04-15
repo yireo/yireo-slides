@@ -146,7 +146,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
     - Composer `suggests`?
 ~ Depending on `Magento_GraphQl`
     - Or possibly other modules like `Magento_CatalogGraphQl`
-~ Add simply integration tests for this
+~ Add simple integration tests for this
     - PHPUnit tests with CURL to check JSON-response
 
 ---
@@ -167,7 +167,8 @@ Today, we are excited to announce the general release of Progressive Web Applica
 
 ---
 {state: mountains main center middle}
-# What needs to change?
+# Which extensions need to change?
+### to support PWA
 
 ---
 {state: dark}
