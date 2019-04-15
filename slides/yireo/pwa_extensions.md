@@ -42,8 +42,10 @@
 ### An all-purpose, multi-fit, mega-cool PWA-solution that you can generate from within the Magento Admin Panel, customize it using a magic dashboard that has all possible Mickey Mouse combinations thought out for you while still being completely understandable to any backend user and extensible with any Magento extensions out there in the market?
 
 ---
+{state: dark}
 {background-image: pwa/giphy-nope.webp}
-# Keep dreaming, dudes, keep dreaming
+# Keep dreaming, dudes, keep dreaming.
+### Magento PWA will not be ready, like you think it will be.
 
 ---
 {state: main}
@@ -56,8 +58,9 @@
 ### A PWA-solution that is custom built in React, Vue or Angular by some kick-ass frontend developers that know their Kungfu-coding shit and can custom-build any extension-like feature for you, assuming your wallet is large enough?
 
 ---
+{state: dark}
 {background-image: pwa/giphy-okay.webp}
-# Yes! PWA is ready! We are ready!
+# Yeah, ok. I can build you a PWA. PWA is ready.
 
 ---
 {state: main}
