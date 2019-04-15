@@ -27,12 +27,12 @@ There’s no question that mobile is the most transformative force in retail tod
 Today, we are excited to announce the general release of Progressive Web Applications (PWA), a suite of tools for building online stores with app-like experiences that help merchants solve the mobile conversion dilemma and delivery highly personalized cross-channel experiences, in addition, new innovations across Adobe Experience Cloud that help retailers excel in CXM across physical and digital storefronts. [...]
 
 ---
-{state: desert2 main center}
+{state: desert2 main center middle}
 ### Progressive Web Apps or 
 # Painfully Wishful Acronym
 
 ---
-{state: garden3 main center}
+{state: garden3 main center middle}
 ### the hype:
 # Is Magento PWA ready?
 
@@ -40,7 +40,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 {background-image: pwa/giphy-indian.webp}
 
 ---
-{state: garden3 main center}
+{state: garden3 main center middle}
 # Is Magento PWA ready
 ### ... for merchants?
 
@@ -50,13 +50,13 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ### An all-purpose, multi-fit, mega-cool PWA-solution that you can generate from within the Magento Admin Panel, customize it using a magic dashboard that has all possible Mickey Mouse combinations thought out for you while still being completely understandable to any backend user and extensible with any Magento extensions out there in the market?
 
 ---
-{state: dark}
+{state: dark center middle}
 {background-image: pwa/giphy-nope.webp}
 # Keep dreaming, dudes, keep dreaming.
-### Magento PWA will not be ready, like you think it will be.
+### Magento PWA will not be ready like you think it will be.
 
 ---
-{state: garden3 main center}
+{state: garden3 main center middle}
 # Is Magento PWA ready
 ### ... for developers?
 
@@ -66,13 +66,13 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ### A PWA-solution that is custom built in React, Vue or Angular by some kick-ass frontend developers that know their Kungfu-coding shit and can custom-build any extension-like feature for you, assuming your wallet is large enough?
 
 ---
-{state: dark}
+{state: dark center middle}
 {background-image: pwa/giphy-okay.webp}
 # Yeah, ok. I can build you a PWA. 
 ### Magento PWA is ready for anyone willing to be an early adaptor
 
 ---
-{state: garden3 main center}
+{state: garden3 main center middle}
 # Is Magento PWA ready
 ### ... for extensions?
 
