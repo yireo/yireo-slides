@@ -32,6 +32,14 @@ body {
     background-image: url("/images/pwa/background-desert.png");
 }
 
+.desert2 .reveal .backgrounds .slide-background .slide-background-content {
+    background-image: url("/images/pwa/background-desert3.png");
+}
+
+.desert2 .reveal .h1 {
+    color: black !important;
+}
+
 .garden .reveal .backgrounds .slide-background {
     background-image: linear-gradient(#c1f8ff, #6599ff);
 }

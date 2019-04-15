@@ -20,7 +20,7 @@
 # PWA is ready!
 
 ---
-{state: desert center}
+{state: desert2 main center}
 ### Progressive Web Apps or 
 # Painfully Wishful Acronym
 
