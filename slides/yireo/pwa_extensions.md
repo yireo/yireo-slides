@@ -319,10 +319,15 @@ File `src/Extensions/HelloWorld/extension.json`:
     - Build GraphQL endpoints for queries & mutations
     - Supply sample React components for those endpoints
     - Refactor monolithic module in smaller single-purpose modules
-~ Ask PWA providers to support UPWARD
-    - DEITY, Vue StoreFront
-~ Ask payment providers to supply NodeJS client
-~ Ask Magento PWA Studio to re-active `extension.json`
+~ Ask PWA providers to:
+    - Support UPWARD
+    - Examples: DEITY, Vue StoreFront
+~ Ask payment providers to:
+    - Supply NodeJS client
+    - Preferably supply sample React components
+~ Ask the Magento PWA Studio team to:
+    - Re-active `extension.json`
+    - Be clear on the extension points of Venia
 ~ Wait for some really smart Magento folks to complete the GraphQl API
     - Or join them on Slack and GitHub!
 
