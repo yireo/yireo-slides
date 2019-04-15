@@ -36,8 +36,14 @@ body {
     background-image: url("/images/pwa/background-desert3.png");
 }
 
-.desert2 .reveal .h1 {
-    color: black !important;
+.desert2 .reveal h1 {
+    font-size: 300%;
+    text-shadow: 0.07em 0 10px #020202, 0 0.07em 10px #737373, -0.07em 0 10px #020202, 0 -0.07em 10px #737373;
+}
+
+.desert2 .reveal h3 {
+    font-size: 190%;
+    text-shadow: 0.07em 0 10px #020202, 0 0.07em 10px #737373, -0.07em 0 10px #020202, 0 -0.07em 10px #737373;
 }
 
 .garden .reveal .backgrounds .slide-background {
@@ -64,7 +70,7 @@ body {
     background-image: url("/images/pwa/background-garden3.png");
 }
 
-.garden .reveal h1, .garden2 .reveal h1, .garden3 .reveal h1  {
+.garden .reveal h1, .garden2 .reveal h1, .garden3 .reveal h1 {
     font-family: 'Bangers', cursive;
     font-weight: bolder;
     font-size: 400%;
@@ -78,7 +84,6 @@ body {
     letter-spacing: 0.1em;
     text-shadow: 0.07em 0 10px #306038, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #184c18, 0 -0.07em 10px #2d8f2d;
 }
-
 
 
 .reveal li > code {
