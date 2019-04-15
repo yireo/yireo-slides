@@ -21,7 +21,7 @@
 
 ---
 {state: dark}
-# Magento Announces Availability of PWA Studio
+# Magento Announces Availability of PWA Studio (Jan 15th)
 There’s no question that mobile is the most transformative force in retail today, a trend that was on full display throughout the 2018 holiday shopping season. According to the Adobe Analytics Holiday report, mobile traffic soared with more than half (51.4 percent) of traffic originating from smartphones alone yet mobile accounted for just 31 percent of revenue. This is a stark reminder that many retailers have yet to crack the code on improving mobile conversion rates and the complexity of building and optimizing experiences across channels.
 
 Today, we are excited to announce the general release of Progressive Web Applications (PWA), a suite of tools for building online stores with app-like experiences that help merchants solve the mobile conversion dilemma and delivery highly personalized cross-channel experiences, in addition, new innovations across Adobe Experience Cloud that help retailers excel in CXM across physical and digital storefronts. [...]
@@ -93,7 +93,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 
 ---
 {state: dark}
-# The GraphQL API is here
+# GraphQL is easy (server-side)
 ~ GraphQL is the future of the API
 ~ It is possible to create your own GraphQL endpoint
     - Query
@@ -104,7 +104,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 
 ---
 {state: dark}
-# It is easy to make a GraphQL call
+# GraphQL is easy (client-side)
 ```json
 {
   products(search: "Hood") {
