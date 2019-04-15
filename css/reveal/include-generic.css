@@ -1,3 +1,7 @@
+.hljs-type, .hljs-string, .hljs-number, .hljs-selector-id, .hljs-selector-class, .hljs-quote, .hljs-template-tag, .hljs-deletion {
+    color: inherit !important;
+}
+
 .reveal .backgrounds .slide-background {
     background-position: unset;
     background-size: cover;

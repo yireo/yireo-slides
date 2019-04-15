@@ -287,9 +287,10 @@ File `src/Extensions/HelloWorld/extension.json`:
 ---
 {state: dark}
 # Alternative for payment providers
-- Build it yourself
+~ Build it yourself
     - Form, AJAX, callback URLs
-- Rely on NodeJS client of payment provider
+~ Rely on NodeJS client offered by payment provider
+    - Remote API, authentication, procedure 
 
 ---
 {state: dark}
@@ -308,7 +309,8 @@ File `src/Extensions/HelloWorld/extension.json`:
     
 ---
 {state: city main center middle}
-# And now we wait?
+# And now you wait
+### if you are only a Magento developer? 
 
 ---
 {state: dark}
