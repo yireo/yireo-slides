@@ -46,96 +46,9 @@ body {
     color: white;
 }
 
-.light .reveal .backgrounds .slide-background {
-    background-image: none;
-    background-color: white;
-}
-
-.dark .reveal .backgrounds .slide-background {
-    background-image: none;
-    background-color: black;
-}
-
-.dark .reveal h1,
-.dark .reveal h2,
-.dark .reveal h3,
-.dark .reveal h4,
-.dark .reveal ul,
-.dark .reveal li {
-    color: white;
-}
-
-.dark .reveal code {
-    background-color: #503417;
-}
-
-.center .reveal h1,
-.center .reveal h2,
-.center .reveal h3,
-.center .reveal h4 {
-    text-align: center;
-
-}
-
-.speaker .reveal section {
-    top: 20%;
-}
-
-.speaker .reveal h1,
-.speaker .reveal h2,
-.speaker  .reveal h3,
-.speaker .reveal ul,
-.speaker .reveal pre,
-.speaker .reveal p {
-    color: black;
-}
-
-.divider-center .reveal section {
-    top: 30%;
-}
-
-.divider .reveal h1,
-.divider .reveal h2,
-.divider .reveal h3,
-.divider .reveal h4 {
-    color: white;
-}
-
-.divider-bold .reveal section h1 {
-    font-weight: 900;
-    font-size: 200%;
-}
-
-.divider .reveal h1,
-.divider .reveal h2 {
-    text-align: center;
-    text-shadow: 1px 1px 10px #111;
-}
-
-.divider .reveal h3,
-.divider .reveal h4 {
-    text-align: center;
-}
-
 .blank .reveal .backgrounds .slide-background {
     background: none;
     background-color: black;
-}
-
-table {
-    width: 100%;
-}
-
-table td {
-    padding: 10px 60px 60px 0px !important
-}
-
-table td img {
-    width: 100%;
-}
-
-.reveal pre {
-    white-space: pre-wrap;
 }
 
 .main .slides h1 {
