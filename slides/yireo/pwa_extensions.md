@@ -300,6 +300,10 @@ File `src/Extensions/HelloWorld/extension.json`:
     - PHP (f.i. for a Laravel app)
 - Why?
     - Reusability of components and PWA-backends
+    
+---
+{state: city main center middle}
+# And now we wait?
 
 ---
 {state: dark}
