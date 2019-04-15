@@ -34,7 +34,7 @@ body {
 
 .garden .reveal h3 {
     font-size: 400%;
-    text-shadow: 0 0 20px #454545;
+    text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
 }
 
 .garden2 .reveal .backgrounds .slide-background {

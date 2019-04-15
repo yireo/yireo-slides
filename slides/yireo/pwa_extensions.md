@@ -15,7 +15,7 @@
 ~ Member of ExtDN (Magento Ext Dev Network)
 
 ---
-{state: garden main}
+{state: garden main center}
 ### The hype
 # What is PWA?
 
