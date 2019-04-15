@@ -40,21 +40,6 @@ body {
     background-image: url("/images/pwa/background-garden.png");
 }
 
-.garden .reveal h1, .garden2 .reveal h1 {
-    font-family: 'Bangers', cursive;
-    font-weight: bolder;
-    font-size: 400%;
-    text-shadow: 0.07em 0 10px #306038, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #184c18, 0 -0.07em 10px #2d8f2d;
-}
-
-.garden .reveal h3, .garden2 .reveal h3 {
-    font-family: 'Bangers', cursive;
-    font-weight: bolder;
-    font-size: 200%;
-    letter-spacing: 0.1em;
-    text-shadow: 0.07em 0 10px #306038, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #184c18, 0 -0.07em 10px #2d8f2d;
-}
-
 .garden2 .reveal .backgrounds .slide-background {
     background-image: linear-gradient(#c1f8ff, #6599ff);
 }
@@ -62,6 +47,31 @@ body {
 .garden2 .reveal .backgrounds .slide-background .slide-background-content {
     background-image: url("/images/pwa/background-garden2.png");
 }
+
+.garden3 .reveal .backgrounds .slide-background {
+    background-image: linear-gradient(#c1f8ff, #6599ff);
+}
+
+.garden3 .reveal .backgrounds .slide-background .slide-background-content {
+    background-image: url("/images/pwa/background-garden3.png");
+}
+
+.garden .reveal h1, .garden2 .reveal h1, .garden3 .reveal h1  {
+    font-family: 'Bangers', cursive;
+    font-weight: bolder;
+    font-size: 400%;
+    text-shadow: 0.07em 0 10px #306038, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #184c18, 0 -0.07em 10px #2d8f2d;
+}
+
+.garden .reveal h3, .garden2 .reveal h3, .garden3 .reveal h3 {
+    font-family: 'Bangers', cursive;
+    font-weight: bolder;
+    font-size: 200%;
+    letter-spacing: 0.1em;
+    text-shadow: 0.07em 0 10px #306038, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #184c18, 0 -0.07em 10px #2d8f2d;
+}
+
+
 
 .reveal li > code {
     background-color: #f4f2f0;

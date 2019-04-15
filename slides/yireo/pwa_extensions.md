@@ -21,12 +21,13 @@
 
 ---
 {state: garden2 main center}
-### the hype
+### the hype:
 # Painfully Wishful Acronym
 
 ---
-{state: garden2 main center}
-## Is Magento PWA ready?
+{state: garden3 main center}
+### the hype:
+# Is Magento PWA ready?
 
 ---
 {background-image: pwa/giphy-indian.webp}
