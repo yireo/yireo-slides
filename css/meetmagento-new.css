@@ -8,16 +8,16 @@ body {
     font-size: 150%;
 }
 
-.main .reveal .backgrounds .slide-background {
+.desert .reveal .backgrounds .slide-background {
     background: white;
 }
 
-.main .reveal .backgrounds .slide-background .slide-background-content {
+.desert .reveal .backgrounds .slide-background .slide-background-content {
     background-image: url("/images/pwa/background-desert.png");
 }
 
 .garden .reveal .backgrounds .slide-background {
-    background-image: linear-gradient(#6db9ff, #6599ff);
+    background-image: linear-gradient(#c1f8ff, #6599ff);
 }
 
 .garden .reveal .backgrounds .slide-background .slide-background-content {
