@@ -103,8 +103,7 @@
 }
 
 .dark .reveal .backgrounds .slide-background {
-    background-image: none;
-    background-color: black;
+    background-image: linear-gradient(black, #454545);
 }
 
 .dark .reveal h1,
@@ -119,7 +118,7 @@
 }
 
 .dark .reveal code {
-    background-color: #503417;
+    background-color: #3b3b3b;
 }
 
 .speaker .reveal section {
