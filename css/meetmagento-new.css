@@ -8,6 +8,14 @@ body {
     font-size: 150%;
 }
 
+.main .reveal .backgrounds .slide-background {
+    background: black;
+}
+
+.main .reveal pre {
+    background-color: black;
+}
+
 .desert .reveal .backgrounds .slide-background {
     background: white;
 }

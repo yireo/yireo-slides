@@ -1,4 +1,4 @@
-{state: main}
+{state: desert main}
 ## How Magento extensions will fit into PWA
 # the end is near
 #### by Jisse Reitsma (Yireo)
@@ -20,7 +20,7 @@
 # What is PWA?
 
 ---
-{state: main}
+{state: desert main}
 ### The hype
 # Painfully Wishful Acronym
 
