@@ -126,7 +126,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 
 ---
 {state: dark}
-# Strategy
+# Strategy of refactoring
 ~ Make your code solid
     - Document your dependencies in `composer.json` and `module.xml`
 ~ Split up your current extension
@@ -164,6 +164,10 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ~ Possibly integrate this into the current Knockout frontend
     - If you want to be part of the cool kids (Jisse + 1)
     - Example: `Yireo_ReactMinicart`
+
+---
+{state: mountains main center middle}
+# What needs to change?
 
 ---
 {state: dark}
@@ -231,6 +235,11 @@ Today, we are excited to announce the general release of Progressive Web Applica
     - Tax calculation
     - Checkout enhancements
 ~ ... ahm, well, yeah ...
+
+---
+{state: garden3 main center middle}
+### the hype:
+# Is Magento PWA ready?
 
 ---
 {state: dark}
