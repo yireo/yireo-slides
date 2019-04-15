@@ -8,12 +8,21 @@ body {
     font-size: 150%;
 }
 
-.reveal .backgrounds .slide-background {
+.main .reveal .backgrounds .slide-background {
     background: white;
 }
 
-.reveal .backgrounds .slide-background .slide-background-content {
-    background-image: url("/images/pwa/background-desert.png");
+.main .reveal .backgrounds .slide-background .slide-background-content {
+    background-image: url("/images/pwa/background-garden.png");
+}
+
+.garden .reveal .backgrounds .slide-background {
+    background-image:
+}
+
+
+.garden .reveal .backgrounds .slide-background .slide-background-content {
+    background-image: url("/images/pwa/background-garden.png");
 }
 
 .reveal h1,
