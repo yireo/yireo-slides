@@ -9,7 +9,8 @@ body {
 }
 
 .reveal .backgrounds .slide-background {
-    background-image: url("/images/magetitans-uk/background-main.png");
+    background-image: linear-gradient(red, yellow) url("/images/pwa/background-01.jpg");
+    background-image: ;
 }
 
 .reveal h1,
