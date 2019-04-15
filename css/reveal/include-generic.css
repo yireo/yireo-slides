@@ -13,7 +13,7 @@
     padding-left: 100px;
 }
 
-.reveal .slides {
+.middle .reveal .slides {
     display: flex;
     align-items: center;
     justify-content: center;
