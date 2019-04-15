@@ -246,6 +246,10 @@ Today, we are excited to announce the general release of Progressive Web Applica
 {state: dark}
 # Current state of Magento PWA Studio
 ~ Magento PWA Studio is at version 2.1.0
+    - Working catalog
+    - Working customer login
+    - Working add-to-cart
+    - Working checkout with payment and shipping
 ~ But: Venia is a PROOF OF CONCEPT
 ~ But: REST-hacks to get things working
 ~ But: Braintree is only payment option
@@ -265,7 +269,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ---
 {state: city main center middle}
 # It is in progress
-### but when do extensions fit in?
+### but where and when do extensions fit in?
 
 ---
 {state: dark}
