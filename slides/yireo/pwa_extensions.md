@@ -1,6 +1,6 @@
 {state: main}
 ## How Magento extensions will fit into PWA
-# back to the future I
+# the end is near
 #### by Jisse Reitsma (Yireo)
 
 ---
