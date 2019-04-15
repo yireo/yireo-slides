@@ -2,8 +2,8 @@
  * @import 'meetmagento.css';
  */
 @import 'reveal/include-generic.css';
-@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+@import url('https://fonts.googleapis.com/css?family=Smokum');
 
 body {
     font-family: "Roboto Condensed", Arial;
@@ -11,7 +11,7 @@ body {
 }
 
 .main .slides h1 {
-    font-family: 'Black Ops One', cursive;
+    font-family: 'Smokum', cursive;
 }
 
 .garden .slides h1 {
