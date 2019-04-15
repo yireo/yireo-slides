@@ -2,10 +2,19 @@
  * @import 'meetmagento.css';
  */
 @import 'reveal/include-generic.css';
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
 
 body {
     font-family: "Roboto Condensed", Arial;
     font-size: 150%;
+}
+
+.main .slides h1 {
+    font-family: 'Black Ops One', cursive;
+}
+
+.garden .slides h1 {
+    font-family: "Kaushan Script";
 }
 
 .main .reveal .backgrounds .slide-background {
