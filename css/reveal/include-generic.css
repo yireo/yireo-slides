@@ -13,6 +13,12 @@
     padding-left: 100px;
 }
 
+.reveal .slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .reveal h1 {
     font-size: 160%;
     font-weight: bold;
