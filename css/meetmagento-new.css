@@ -15,7 +15,6 @@ body {
 }
 
 .garden .slides h1 {
-    font-family: 'Zilla Slab Highlight', cursive;
 }
 
 .main .reveal .backgrounds .slide-background {
@@ -43,12 +42,14 @@ body {
 }
 
 .garden .reveal h1 {
+    font-family: 'Zilla Slab Highlight', cursive;
     font-weight: bolder;
     font-size: 600%;
     text-shadow: 0.07em 0 10px #2d8f2d, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #2d8f2d, 0 -0.07em 10px #2d8f2d;
 }
 
 .garden .reveal h3 {
+    font-family: 'Zilla Slab Highlight', cursive;
     font-weight: bolder;
     font-size: 400%;
     text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
