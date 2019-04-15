@@ -46,7 +46,11 @@ body {
     text-shadow: 0.07em 0 10px #020202, 0 0.07em 10px #737373, -0.07em 0 10px #020202, 0 -0.07em 10px #737373;
 }
 
-.garden .reveal .backgrounds .slide-background {
+.garden .reveal .backgrounds .slide-background,
+.garden2 .reveal .backgrounds .slide-background,
+.garden3 .reveal .backgrounds .slide-background,
+.mountains .reveal .backgrounds .slide-background,
+.city .reveal .backgrounds .slide-background {
     background-image: linear-gradient(#c1f8ff, #6599ff);
 }
 
@@ -70,13 +74,18 @@ body {
     background-image: url("/images/pwa/background-garden3.png");
 }
 
-.mountains .reveal .backgrounds .slide-background .slide-background-content {
+.city .reveal .backgrounds .slide-background .slide-background-content {
     background-image: url("/images/pwa/background-city.png");
+}
+
+.mountains .reveal .backgrounds .slide-background .slide-background-content {
+    background-image: url("/images/pwa/background-mountains1.jpg");
 }
 
 .garden .reveal h1,
 .garden2 .reveal h1,
 .garden3 .reveal h1,
+.city .reveal h1,
 .mountains .reveal h1 {
     font-family: 'Bangers', cursive;
     font-weight: bolder;
@@ -87,6 +96,7 @@ body {
 .garden .reveal h3,
 .garden2 .reveal h3,
 .garden3 .reveal h3,
+.city .reveal h3,
 .mountains .reveal h3 {
     font-family: 'Bangers', cursive;
     font-weight: bolder;

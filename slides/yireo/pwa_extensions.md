@@ -88,7 +88,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 - Checkout-based
 
 ---
-{state: mountains main center middle}
+{state: city main center middle}
 # A bit on GraphQL
 
 ---
@@ -119,6 +119,10 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ~ Within React or Vue: Apollo client
 ~ Within any JavaScript: Axios
 ~ Within the current frontend: jQuery
+
+---
+{state: city main center middle}
+# Refactor modules
 
 ---
 {state: dark}
