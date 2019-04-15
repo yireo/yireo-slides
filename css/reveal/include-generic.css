@@ -25,7 +25,6 @@
 
 .reveal h3 {
     font-size: 110%;
-    color: #8f8f8f;
 }
 
 .reveal ul {
@@ -40,8 +39,19 @@
     font-size: 80%;
 }
 
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal ul,
+.reveal pre,
+.reveal p {
+    text-align: left;
+    line-height: 140%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .reveal pre {
-    background-color: #f4efec;
     padding: 10px;
     font-size: 90%;
 }
@@ -49,6 +59,23 @@
 .reveal code {
     font-family: courier, sans-serif;
     font-size: 90%;
+}
+
+.reveal div.heading {
+    text-align: center;
+    padding: 30px;
+}
+
+.reveal div.heading img {
+    max-width: 20%;
+}
+
+.main .reveal section {
+    top: 40%;
+}
+
+.main .reveal h1 {
+    font-size: 240%;
 }
 
 .dark .reveal h1,
@@ -61,6 +88,5 @@
 .dark .reveal li {
     color: white;
 }
-
 
 

@@ -32,39 +32,10 @@ body {
     background-image: url("/images/pwa/background-garden.png");
 }
 
-.reveal h1,
-.reveal h2,
-.reveal h3,
-.reveal ul,
-.reveal pre,
-.reveal p {
-    color: black;
-    text-align: left;
-    line-height: 140%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 .reveal li > code {
     background-color: #f4f2f0;
 }
 
-.reveal div.heading {
-    text-align: center;
-    padding: 30px;
-}
-
-.reveal div.heading img {
-    max-width: 20%;
-}
-
-.main .reveal section {
-    top: 40%;
-}
-
-.main .reveal h1 {
-    font-size: 240%;
-}
 
 .main .reveal h1,
 .main .reveal h2,
