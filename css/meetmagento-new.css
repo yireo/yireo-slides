@@ -9,11 +9,11 @@ body {
 }
 
 .reveal .backgrounds .slide-background {
-    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(#5fffdf, #b4d4ff);
 }
 
 .reveal .backgrounds .slide-background .slide-background-content {
-    background-image: url("/images/pwa/background-01.jpg");
+    background-image: url("/images/pwa/background-02.png");
 }
 
 .reveal h1,
