@@ -38,7 +38,7 @@
 
 ---
 {state: dark}
-# What do you mean?
+# What do you mean with "Magento PWA" and "ready"?
 ### An all-purpose, multi-fit, mega-cool PWA-solution that you can generate from within the Magento Admin Panel, customize it using a magic dashboard that has all possible Mickey Mouse combinations thought out for you while still being completely understandable to any backend user and extensible with any Magento extensions out there in the market?
 
 ---
@@ -54,13 +54,14 @@
 
 ---
 {state: dark}
-# What do you mean?
+# What do you mean with "Magento PWA" and "ready"?
 ### A PWA-solution that is custom built in React, Vue or Angular by some kick-ass frontend developers that know their Kungfu-coding shit and can custom-build any extension-like feature for you, assuming your wallet is large enough?
 
 ---
 {state: dark}
 {background-image: pwa/giphy-okay.webp}
-# Yeah, ok. I can build you a PWA. PWA is ready.
+# Yeah, ok. I can build you a PWA. 
+### Magento PWA is ready for anyone willing to be an early adaptor
 
 ---
 {state: main}
