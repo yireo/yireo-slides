@@ -33,9 +33,9 @@
 {background-image: pwa/giphy-indian.webp}
 
 ---
-{state: main}
-## Is Magento PWA ready
-# ... for merchants?
+{state: garden3 main center}
+# Is Magento PWA ready
+### ... for merchants?
 
 ---
 {state: dark}
@@ -49,9 +49,9 @@
 ### Magento PWA will not be ready, like you think it will be.
 
 ---
-{state: main}
-## Is Magento PWA ready
-# ... for developers?
+{state: garden3 main center}
+# Is Magento PWA ready
+### ... for developers?
 
 ---
 {state: dark}
@@ -65,9 +65,9 @@
 ### Magento PWA is ready for anyone willing to be an early adaptor
 
 ---
-{state: main}
-## Is Magento PWA ready
-# ... for extensions?
+{state: garden3 main center}
+# Is Magento PWA ready
+### ... for extensions?
 
 ---
 {background-image: pwa/giphy-not-really.webp}
