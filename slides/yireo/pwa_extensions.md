@@ -17,11 +17,11 @@
 ---
 {state: garden main center}
 ### the hype:
-# What is PWA?
+# PWA is ready!
 
 ---
-{state: garden2 main center}
-### the hype:
+{state: desert center}
+### Progressive Web Apps or 
 # Painfully Wishful Acronym
 
 ---
