@@ -16,12 +16,12 @@
 
 ---
 {state: garden main center}
-### The hype
+### Meet the hype
 # What is PWA?
 
 ---
 {state: desert main}
-### The hype
+### Meet the hype
 # Painfully Wishful Acronym
 
 ---
