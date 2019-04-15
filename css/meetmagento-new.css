@@ -13,13 +13,12 @@ body {
 }
 
 .main .reveal .backgrounds .slide-background .slide-background-content {
-    background-image: url("/images/pwa/background-garden.png");
+    background-image: url("/images/pwa/background-desert.png");
 }
 
 .garden .reveal .backgrounds .slide-background {
-    background-image:
+    background-image: linear-gradient(#6db9ff, #6599ff);
 }
-
 
 .garden .reveal .backgrounds .slide-background .slide-background-content {
     background-image: url("/images/pwa/background-garden.png");
@@ -49,16 +48,6 @@ body {
 
 .reveal div.heading img {
     max-width: 20%;
-}
-
-.main body {
-    background-color: white;
-    color: black;
-}
-
-.main .reveal {
-    margin: auto;
-    text-align: center;
 }
 
 .main .reveal section {
