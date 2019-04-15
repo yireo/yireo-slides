@@ -88,6 +88,10 @@ Today, we are excited to announce the general release of Progressive Web Applica
 - Checkout-based
 
 ---
+{state: mountains main center middle}
+# A bit on GraphQL
+
+---
 {state: dark}
 # The GraphQL API is here
 ~ GraphQL is the future of the API
