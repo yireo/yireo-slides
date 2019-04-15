@@ -16,9 +16,6 @@ body {
     letter-spacing: 0.1em;
 }
 
-.garden .slides h1 {
-}
-
 .main .reveal .backgrounds .slide-background {
     background: black;
 }
@@ -43,17 +40,17 @@ body {
     background-image: url("/images/pwa/background-garden.png");
 }
 
-.garden .reveal h1 {
-    font-family: 'Bangers', cursive;
-    font-weight: bolder;
-    font-size: 600%;
-    text-shadow: 0.07em 0 10px #306038, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #184c18, 0 -0.07em 10px #2d8f2d;
-}
-
-.garden .reveal h3 {
+.garden .reveal h1, .garden2 .reveal h1 {
     font-family: 'Bangers', cursive;
     font-weight: bolder;
     font-size: 400%;
+    text-shadow: 0.07em 0 10px #306038, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #184c18, 0 -0.07em 10px #2d8f2d;
+}
+
+.garden .reveal h3, .garden2 .reveal h3 {
+    font-family: 'Bangers', cursive;
+    font-weight: bolder;
+    font-size: 200%;
     letter-spacing: 0.1em;
     text-shadow: 0.07em 0 10px #306038, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #184c18, 0 -0.07em 10px #2d8f2d;
 }

@@ -20,12 +20,12 @@
 # What is PWA?
 
 ---
-{state: desert main}
+{state: garden2 main center}
 ### the hype
 # Painfully Wishful Acronym
 
 ---
-{state: garden2 main}
+{state: garden2 main center}
 ## Is Magento PWA ready?
 
 ---
