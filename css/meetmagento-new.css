@@ -4,6 +4,7 @@
 @import 'reveal/include-generic.css';
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
 @import url('https://fonts.googleapis.com/css?family=Smokum');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
 
 body {
     font-family: "Roboto Condensed", Arial;
@@ -12,6 +13,7 @@ body {
 
 .main .slides h1 {
     font-family: 'Smokum', cursive;
+    letter-spacing: 0.1em;
 }
 
 .garden .slides h1 {
