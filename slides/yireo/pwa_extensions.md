@@ -1,6 +1,6 @@
 {state: desert main}
 ## How Magento extensions will fit into PWA
-# the end is near
+# DO YOU FEEL LUCKY
 #### by Jisse Reitsma (Yireo)
 
 ---

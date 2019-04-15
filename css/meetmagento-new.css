@@ -79,10 +79,6 @@ body {
     background-color: black;
 }
 
-.main .slides h1 {
-    font-family: "Kaushan Script";
-}
-
 .main .slides h4 {
     font-style: italic;
     text-align: left;
@@ -93,23 +89,6 @@ body {
     margin-top: 0.3em;
     margin-bottom: 0.2em;
     font-size: 80%;
-}
-
-.quiz .reveal .backgrounds .slide-background {
-    background-image: none;
-}
-
-.quiz h1 {
-    font-family: "Monoton";
-    font-weight: lighter;
-    text-align: center;
-    word-spacing: 0.4em;
-}
-
-.quiz h2 {
-    font-family: "Kaushan Script";
-    text-align: center;
-    color: #d8593a;
 }
 
 .bordered h1, .bordered h2 {
