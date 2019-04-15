@@ -3,6 +3,7 @@
  */
 @import 'reveal/include-generic.css';
 @import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
 
 body {
     font-family: "Roboto Condensed", Arial;
@@ -14,7 +15,7 @@ body {
 }
 
 .garden .slides h1 {
-    font-family: "Kaushan Script";
+    font-family: 'Zilla Slab Highlight', cursive;
 }
 
 .main .reveal .backgrounds .slide-background {
