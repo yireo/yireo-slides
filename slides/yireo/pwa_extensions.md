@@ -28,7 +28,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 
 ---
 {state: desert2 main center middle}
-### Progressive Web Apps or 
+### Progressive Web Apps or
 # Painfully Wishful Acronym
 
 ---
@@ -68,7 +68,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ---
 {state: dark center middle}
 {background-image: pwa/giphy-okay.webp}
-# Yeah, ok. I can build you a PWA. 
+# Yeah, ok. I can build you a PWA.
 ### Magento PWA is ready for anyone willing to be an early adaptor
 
 ---
@@ -273,7 +273,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 
 ---
 {state: dark}
-# Extensibility in PWA Studio
+# Extensibility in PWA Studio (?)
 File `src/Extensions/HelloWorld/extension.json`:
 ```json
 [{
@@ -290,7 +290,7 @@ File `src/Extensions/HelloWorld/extension.json`:
 ~ Build it yourself
     - Form, AJAX, callback URLs
 ~ Rely on NodeJS client offered by payment provider
-    - Remote API, authentication, procedure 
+    - Remote API, authentication, procedure
 
 ---
 {state: dark}
@@ -306,11 +306,11 @@ File `src/Extensions/HelloWorld/extension.json`:
     - PHP (f.i. for a Laravel app)
 - Why?
     - Reusability of components and PWA-backends
-    
+
 ---
 {state: city main center middle}
 # And now you wait
-### if you are only a Magento developer? 
+### if you are only a Magento developer?
 
 ---
 {state: dark}
