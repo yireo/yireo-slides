@@ -325,6 +325,7 @@ File `src/Extensions/HelloWorld/extension.json`:
 ~ Ask payment providers to:
     - Supply NodeJS client
     - Preferably supply sample React components
+    - Feature async payment for trusted customers
 ~ Ask the Magento PWA Studio team to:
     - Re-active `extension.json`
     - Be clear on the extension points of Venia
