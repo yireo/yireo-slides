@@ -204,15 +204,15 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ~ Or have extension providers offer ready-made Vue or React components
 ~ Or find ready-made Vue or React components elsewhere
 ~ And possibly have themes available for React & Vue
-    - It is just HTML, CSS and bit of JavaScript
+    - It is just HTML, CSS and bits of JavaScript to output stuff
     - CSS Zen Garden (2001) anyone?
 
 ---
 {state: dark}
 # Extensions: Connections with external systems
 ~ Examples:
-    - ERP, CRM, fraud, bookkeeping
-    - Warehouse management, PIM
+    - ERP, CRM, fraud detection, bookkeeping
+    - Warehouse management, PIM, POS
     - Importing tools, exporting tools
 ~ Technology: Observable events & Interceptors
 ~ This is backend related
