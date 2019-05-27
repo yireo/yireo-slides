@@ -28,6 +28,10 @@ body {
     background: white;
 }
 
+.dirtyharry .reveal .backgrounds .slide-background .slide-background-content {
+    background-image: url("/images/pwa/background-dirty-harry.png");
+}
+
 .desert .reveal .backgrounds .slide-background .slide-background-content {
     background-image: url("/images/pwa/background-desert.png");
 }

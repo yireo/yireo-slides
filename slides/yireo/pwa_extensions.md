@@ -1,6 +1,6 @@
 {state: dirtyharry main middle}
 ## How Magento extensions will fit into PWA
-# DO YOU FEEL LUCKY?
+# DO YOU FEEL LUCKY, PUNK?
 #### by Jisse Reitsma (Yireo)
 
 ---
