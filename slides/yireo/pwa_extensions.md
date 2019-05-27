@@ -280,20 +280,15 @@ Today, we are excited to announce the general release of Progressive Web Applica
 
 ---
 {state: dark}
-# Extensibility in PWA Studio (?)
-File `src/Extensions/HelloWorld/extension.json`:
-```json
-[{
-  "operation": "insertAfter",
-  "targetContainer": "helloworld.wrapper",
-  "targetChild": "helloworld.title",
-  "componentPath": "./index.js"
-}]
-```
+# General advice for extension providers
+~ Build GraphQL endpoints
+~ Supply sample React components
+~ Possibly supply sample Vue components
+~ Communicate your PWA readiness
 
 ---
 {state: dark}
-# Alternative for payment providers
+# Alternative for payment gateways
 ~ Build it yourself
     - Form, AJAX, callback URLs
 ~ Rely on NodeJS client offered by payment provider
