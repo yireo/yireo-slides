@@ -290,7 +290,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 {state: dark}
 # Alternative for payment gateways
 ~ Build it yourself
-    - Form, AJAX, callback URLs
+    - Form handling, AJAX exchange, callback URLs
 ~ Rely on NodeJS client offered by payment provider
     - Remote API, authentication, procedure
 
