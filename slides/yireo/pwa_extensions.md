@@ -65,7 +65,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ---
 {state: dark}
 # What do you mean with "Magento PWA" and "ready"?
-### A PWA-solution that is custom-build in React, Vue or Angular by some kick-ass frontend developers that know their Kungfu-coding shit and can custom-build any extension-like feature for you, assuming your wallet is large enough?
+### A PWA-solution that is custom-build in React, Vue, Angular or any other fancy coolkids JavaScript framework by some kick-ass frontend developers that know their Kungfu-coding shit and can custom-build any extension-like feature for you, assuming your wallet is large enough and you have the patience to guide them through whatever you were actually requiring for your project?
 
 ---
 {state: dark center middle}
@@ -134,7 +134,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ~ Split up your current extension
     - `Foobar` - Meta-package
     - `FoobarApi` - API interfaces
-    - `FoobarAdmin` - UiComponents (grids, forms), `system.xml`, `view/adminhtml`
+    - `FoobarAdminhtml` - UiComponents (grids, forms), `system.xml`, `view/adminhtml`
     - `FoobarFrontend` - XML layout, Blocks, PHTML, `view/frontend`
     - Possibly a separate PHP non-Magento library
 ~ Add new packages
