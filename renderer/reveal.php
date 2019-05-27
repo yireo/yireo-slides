@@ -16,8 +16,7 @@ if (is_dir($imageDir)) {
     }
 }
 
-print_r($images);exit;
-
+$content = $slide->getContent();
 ?>
 <!DOCTYPE html>
 <html>
@@ -42,7 +41,7 @@ print_r($images);exit;
 <body>
 <div class="reveal">
     <div class="slides">
-        <?php echo $slide->getContent(); ?>
+        <?php echo $content; ?>
     </div>
 </div>
 <script src="<?php echo $rootUrl; ?>js/reveal.js"></script>
