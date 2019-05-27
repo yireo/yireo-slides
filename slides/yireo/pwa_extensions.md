@@ -330,15 +330,15 @@ Today, we are excited to announce the general release of Progressive Web Applica
     - Supply sample React components for those endpoints
     - Refactor monolithic module in smaller single-purpose modules
 ~ Ask PWA providers to:
-    - Support UPWARD
-    - Examples: DEITY, Vue StoreFront
+    - Support UPWARD standard
+    - Examples: DEITY, Vue StoreFront, FrontCommerce
 ~ Ask payment (and shipment) providers to:
-    - Supply NodeJS client
+    - Supply NodeJS client (and samples)
     - Preferably supply sample React components
     - Feature async payment for trusted customers
 ~ Ask the Magento PWA Studio team to:
-    - Re-active `extension.json`
-    - Be clear on the extension points of Venia
+    - Re-activate `extension.json` (or something else layout-like)
+    - Be clear on the extension points (and extensibility) of Venia
 ~ Wait for some really smart Magento folks to complete the GraphQl API
     - Or join them on Slack and GitHub!
 
