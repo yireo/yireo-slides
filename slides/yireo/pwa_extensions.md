@@ -162,7 +162,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ~ Add a sample parent component
     - Axios to make a simple GraphQl component
     - Developer documentation on how to use `props` and event handlers
-    - Possibly with end-to-end testing or *unit* tests
+    - Possibly with end-to-end testing or *unit* tests or something
 ~ Possibly integrate this into the current Knockout frontend
     - If you want to be part of the cool kids (Jisse + 1)
     - Example: `Yireo_ReactMinicart`
