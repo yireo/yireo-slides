@@ -13,6 +13,8 @@
 ~ Organizer of usergroups, hackathons
 ~ Magento Master 2017-2019 Mover
 ~ Member of ExtDN (Magento Ext Dev Network)
+~ Grew tired of being called Knockout Jisse
+~ Promoter of PWA something
 
 ---
 {state: garden main center middle}
@@ -63,7 +65,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ---
 {state: dark}
 # What do you mean with "Magento PWA" and "ready"?
-### A PWA-solution that is custom built in React, Vue or Angular by some kick-ass frontend developers that know their Kungfu-coding shit and can custom-build any extension-like feature for you, assuming your wallet is large enough?
+### A PWA-solution that is custom-build in React, Vue or Angular by some kick-ass frontend developers that know their Kungfu-coding shit and can custom-build any extension-like feature for you, assuming your wallet is large enough?
 
 ---
 {state: dark center middle}
