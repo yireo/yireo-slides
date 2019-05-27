@@ -130,13 +130,13 @@ Today, we are excited to announce the general release of Progressive Web Applica
 {state: dark}
 # Strategy of refactoring
 ~ Make your code solid
-    - Document your dependencies in `composer.json` and `module.xml`
+    - Document your dependencies in `composer.json` (?) and `module.xml`
 ~ Split up your current extension
-    - `Foobar` - Meta-package
-    - `FoobarApi` - API interfaces
+    - `Foobar` - Meta-package or core package
+    - `FoobarApi` - API interfaces, extension points
     - `FoobarAdminhtml` - UiComponents (grids, forms), `system.xml`, `view/adminhtml`
-    - `FoobarFrontend` - XML layout, Blocks, PHTML, `view/frontend`
-    - Possibly a separate PHP non-Magento library
+    - `FoobarFrontend` - XML layout, Blocks, PHTML, `view/frontend`, widgets
+    - Possibly a separate PHP non-Magento library (`FoobarLibrary`)
 ~ Add new packages
     - `FoobarGraphQl`
     - `FoobarReact`
