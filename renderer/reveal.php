@@ -16,6 +16,8 @@ if (is_dir($imageDir)) {
     }
 }
 
+print_r($images);exit;
+
 ?>
 <!DOCTYPE html>
 <html>
