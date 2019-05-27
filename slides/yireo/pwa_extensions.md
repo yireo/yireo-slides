@@ -280,9 +280,17 @@ Today, we are excited to announce the general release of Progressive Web Applica
 
 ---
 {state: dark}
+# Timeline for Magento PWA Studio
+~ Build a proof-of-concept Venia theme
+~ Support for all GraphQL endpoints
+~ Move components to Peregrine library
+~ Think about extensibility
+
+---
+{state: dark}
 # General advice for extension providers
 ~ Build GraphQL endpoints
-~ Supply sample React components
+~ Supply sample React components (`create-react-app`)
 ~ Possibly supply sample Vue components
 ~ Communicate your PWA readiness
 
@@ -324,7 +332,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ~ Ask PWA providers to:
     - Support UPWARD
     - Examples: DEITY, Vue StoreFront
-~ Ask payment providers to:
+~ Ask payment (and shipment) providers to:
     - Supply NodeJS client
     - Preferably supply sample React components
     - Feature async payment for trusted customers
