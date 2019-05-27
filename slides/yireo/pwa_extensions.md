@@ -175,13 +175,13 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ---
 {state: dark}
 # Headless changes things a lot
-~ Backend logic is the same
+~ Backend logic remains the same
 ~ Frontend changes dramatically
-    - React or Vue
+    - People will use React or Vue or something else
 ~ And we can easily build stuff ourselves within that new frontend
-    - Get started and you will see how easy it is
-~ And so can extension developers build stuff
-    - Ready-made React or Vue components based on GraphQl
+    - Get started with React and/or Vue and you will see how easy it is
+~ And equally, extension developers can easily build stuff
+    - Ready-made React or Vue components based on GraphQl endpoints
 
 ---
 {state: dark}
@@ -203,7 +203,7 @@ Today, we are excited to announce the general release of Progressive Web Applica
     - This is why we want an easier frontend
 ~ Or have extension providers offer ready-made Vue or React components
 ~ Or find ready-made Vue or React components elsewhere
-~ Possibly have themes available for React & Vue
+~ And possibly have themes available for React & Vue
     - It is just HTML, CSS and bit of JavaScript
     - CSS Zen Garden (2001) anyone?
 
