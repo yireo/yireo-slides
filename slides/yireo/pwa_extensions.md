@@ -254,9 +254,10 @@ Today, we are excited to announce the general release of Progressive Web Applica
     - Working checkout with payment and shipping
 ~ But: Venia is a PROOF OF CONCEPT
 ~ But: REST-hacks to get things working
+~ But: No selection of country yet
 ~ But: Braintree is only payment option
 ~ But: No selection for shipment provider
-~ Reason: GraphQL API is not complete yet
+~ One possible reason: GraphQL API is not complete yet
 
 ---
 {state: dark}
@@ -266,6 +267,10 @@ Today, we are excited to announce the general release of Progressive Web Applica
     - Empty cart
     - Authentication
     - Basic Checkout end-to-end flow
+~ Magento 2.3.2 will give us many checkout endpoints
+~ Full coverage is expected towards Q4 2019 / Q1 2020
+    - Adding Configurable Products to cart
+    - Advanced payment gateways
 ~ It is done when it is done
 
 ---
