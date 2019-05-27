@@ -158,10 +158,10 @@ Today, we are excited to announce the general release of Progressive Web Applica
 ~ Distributed as a NPM package (npmjs.com, ZIP)
     - Clear `npm install` procedure
 ~ React component receiving `props` from above
-    - Above = Parent component or Redux or Apollo
+    - Above = Parent component or Redux or Apollo (or `data-mage-init`)
 ~ Add a sample parent component
     - Axios to make a simple GraphQl component
-    - Developer documentation
+    - Developer documentation on how to use `props` and event handlers
     - Possibly with end-to-end testing or *unit* tests
 ~ Possibly integrate this into the current Knockout frontend
     - If you want to be part of the cool kids (Jisse + 1)
