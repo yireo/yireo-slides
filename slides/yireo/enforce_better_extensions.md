@@ -58,5 +58,10 @@
 @todo: overview of extension standards
 @todo: PHPCS consolidation project
 @todo: tools: PHPCS, PHPStan
+@todo: test install M2.X, PHP7.X, di compile
+@todo: Varnish test
 @todo: Yireo Extension Checker
 @todo: security
+@todo: Marketplace: how to measure quality
+@todo: average of PHPCS rules, rating
+@todo: What to do with bad extensions?
