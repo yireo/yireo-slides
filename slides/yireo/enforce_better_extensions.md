@@ -13,11 +13,10 @@
 ~ Organizer of usergroups, hackathons
 ~ Magento Master 2017-2019 Mover
 ~ Member of ExtDN (Magento Ext Dev Network)
-~ Loves talking
-~ ... until others grow tired of me
 
 ---
 # brother of 3
+map of NL for action radius
 
 ---
 {state: light middle}
