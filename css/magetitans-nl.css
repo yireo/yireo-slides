@@ -221,22 +221,7 @@ table td img {
     font-size: 80%;
 }
 
-.quiz .reveal .backgrounds .slide-background {
-    background-image: none;
-}
 
-.quiz h1 {
-    font-family: "Monoton";
-    font-weight: lighter;
-    text-align: center;
-    word-spacing: 0.4em;
-}
-
-.quiz h2 {
-    font-family: "Kaushan Script";
-    text-align: center;
-    color: #d8593a;
-}
 
 .bordered h1, .bordered h2 {
     text-shadow: 0 0 3px #FF0000;

@@ -17,16 +17,25 @@
 ~ ... until others grow tired of me
 
 ---
-{state: white}
+{state: light middle}
 # How can we enforce better Magento extensions?
 
 ---
+{state: light middle}
 # We can't
 
 ---
+{state: light middle}
 # Name one bad extension provider
 ~ Starting with the letter `A`
 ~ With 6 letters in total
 ~ From Belarus
 ~ Ending with `ty`
 
+---
+{state: light middle}
+# Measuring quality
+~ Not complying to coding standards
+    - Not true for modern Amasty extensions
+~ No tests
+    - Amasty now busy gradually implementing unit tests (and integration tests)
