@@ -17,6 +17,9 @@
 ~ ... until others grow tired of me
 
 ---
+# brother of 3
+
+---
 {state: light middle}
 # How can we enforce better Magento extensions?
 
@@ -65,3 +68,4 @@
 @todo: Marketplace: how to measure quality
 @todo: average of PHPCS rules, rating
 @todo: What to do with bad extensions?
+@todo: Vision Adobe, headless, climate change, earthquakes
