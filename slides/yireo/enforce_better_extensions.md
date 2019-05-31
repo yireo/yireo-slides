@@ -37,5 +37,15 @@
 # Measuring quality
 ~ Not complying to coding standards
     - Not true for modern Amasty extensions
-~ No tests
+~ No automated tests
     - Amasty now busy gradually implementing unit tests (and integration tests)
+~ Bad usage of `ObjectManager`
+    - Last time I checked an Amasty extension, they did all correctly
+
+---
+{state: light middle}
+# Drop the legacy
+
+---
+{state: light middle}
+# How to drop the legacy
