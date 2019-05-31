@@ -49,3 +49,14 @@
 ---
 {state: light middle}
 # How to drop the legacy
+
+---
+@todo: What makes an extension bad?
+@todo: interoperability, conflicts, extensibility
+@todo: trustworthy extensions, reality check with ExtDN
+@todo: overview of testing
+@todo: overview of extension standards
+@todo: PHPCS consolidation project
+@todo: tools: PHPCS, PHPStan
+@todo: Yireo Extension Checker
+@todo: security
