@@ -91,6 +91,10 @@
     - Extending a class for no reason
 
 ---
+{state: light middle}
+# Rating: D
+
+---
 {state: light}
 # Why is this bad?
 - No requirements in composer, so no proper versioning
@@ -99,14 +103,6 @@
 - Hard to create theming overrides
 
 This is costing money.
-
----
-{state: light}
-# Areas
-- Conflicts
-- Extensibility
-- Interoperability
-- Security
 
 ---
 {state: light}
@@ -142,11 +138,24 @@ This is costing money.
 
 ---
 {state: light middle}
+# Rating: 87
+
+---
+{state: light middle}
 # Drop the legacy
 
 ---
 {state: light middle}
 # How to drop the legacy
+
+---
+{state: light}
+# Areas
+- Conflicts
+- Extensibility
+- Interoperability
+- Security
+
 
 ---
 {state: light}
