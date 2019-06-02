@@ -180,6 +180,17 @@ This is costing money.
 
 ---
 {state: light}
+# Different environments
+- Magento 2.1, 2.2, 2.3
+- PHP 7.0, 7.1, 7.2
+- With and without Varnish
+- In Developer Mode and Production Mode
+~ Oh and let's add this later to it as well:
+    - GraphQL
+    - ElasticSearch
+
+---
+{state: light}
 # Validation sites
 - NrJudge
 - Triplecheck.io
@@ -197,7 +208,8 @@ This is costing money.
 ~ When to rate?
     - Every time a new release is uploaded? (free CI tool)
 ~ Edge cases
-    - What about 
+    - What about 1000s of low level warnings?
+    - What about 1 major security issue?
 
 ---
 {state: light}
@@ -225,12 +237,7 @@ This is costing money.
 ---
 @todo: the good, the bad, the ugly
 @todo: trustworthy extensions, reality check with ExtDN
-@todo: test install M2.X, PHP7.X, di compile
 @todo: Yireo Extension Checker
-@todo: security
-@todo: Marketplace: how to measure quality
-@todo: average of PHPCS rules, rating
-@todo: What to do with bad extensions?
 @todo: Vision Adobe, headless, climate change, earthquakes
 
 ---
