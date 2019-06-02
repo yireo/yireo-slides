@@ -153,21 +153,23 @@ This is costing money.
 # Tools
 - Running things yourself
     - PHPCS, PHPStan
-    - Security scanners 
-- Magento Marketplace tools
+    - Security scanners
+- Magento Marketplace validation
+    - PHPCS, MFTF, Varnish tests
+- Testing
+    - Unit, integration, end-to-end, functional
+
+---
+{state: light}
+# Validation sites
+- NrJudge
+- Triplecheck.io
 
 
 ---
-@todo: NrJudge, Triplecheck.io
 @todo: the good, the bad, the ugly
-@todo: example code review
 @todo: trustworthy extensions, reality check with ExtDN
-@todo: overview of testing
-@todo: overview of extension standards
-@todo: PHPCS consolidation project
-@todo: tools: PHPCS, PHPStan
 @todo: test install M2.X, PHP7.X, di compile
-@todo: Varnish test
 @todo: Yireo Extension Checker
 @todo: security
 @todo: Marketplace: how to measure quality
