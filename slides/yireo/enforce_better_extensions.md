@@ -74,11 +74,12 @@ map of NL for action radius
 @todo: Vision Adobe, headless, climate change, earthquakes
 
 ---
+{state: light}
 # What to do next?
 ~ Do write documentation for everything;
 ~ Magecart is open revenue sharing, so great;
-~ Forget about clustering;???
-~ Focus on performance just for yourself;???
+~ Don't build your own stock keeping. Use MSI;
+~ Focus on performance just because Erwin wants it;
 ~ With headless, you don't need CI anymore;
 ~ Clients love all of you (except Bret)
 ~ React is better than Vue
