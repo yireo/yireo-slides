@@ -23,7 +23,7 @@
 # We can't
 
 ---
-{state: light middle}
+{state: light}
 # My talk
 ~ Obvious points first
 ~ Bits of psychology
@@ -32,15 +32,19 @@
 ~ A lot of bullet points like these
 
 ---
-{state: light middle}
+{state: light}
 # Obvious points
-~ Comply to the coding standards;
+~ Comply to the coding standards
+    - Magento Coding Standard (consolidation project)
 ~ Add testing
     - Unit tests, integration tests, MFTF, acceptance tests
 ~ Don't inject the ObjectManager
+    - Except in factories, proxies, builders, tests and more
+~ Don't overwrite core preferences
+    - Unless your module's purpose is exactly that
 
 ---
-{state: light middle}
+{state: light}
 # Bits of psychology
 ~ Greed
     - Extension providers want to make money;
