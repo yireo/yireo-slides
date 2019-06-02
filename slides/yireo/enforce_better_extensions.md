@@ -143,6 +143,9 @@ This is costing money.
     - Amasty is now gradually implementing unit tests (and integration tests)
 ~ Bad usage of `ObjectManager`
     - Last time I checked an Amasty extension, they did all correctly
+~ And a lot of people are happy with Amasty
+    - Amasty extensions work with Amasty extensions
+    - Fair pricing of extensions
 
 ---
 {state: light middle}
