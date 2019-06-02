@@ -85,3 +85,6 @@ map of NL for action radius
 ~ React is better than Vue
 ~ ... except for Magento 2 checkout
 ~ If you weren't at MageTestFest, you don't care about testing
+
+---
+{background-image: magetitans-nl/mic_drop.gif}
