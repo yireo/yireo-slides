@@ -92,7 +92,8 @@
     - Extending a class for no reason
 
 ---
-{state: light middle}
+{background-image: magetitans-nl/mordor.webp}
+{state: dark middle}
 # Rating: D
 
 ---
@@ -114,6 +115,7 @@ This is costing money.
 - Security
 
 ---
+{background-image: magetitans-nl/guido.jpg}
 {state: light}
 # Bits of psychology
 ~ Self-interest
