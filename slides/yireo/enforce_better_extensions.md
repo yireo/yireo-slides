@@ -113,9 +113,9 @@ This is costing money.
     ~ Developers want to go home at 17:00
     ~ Their managers want to drive Porshes 
 ~ Stubborness
-    - None of the groups above wants to change
-~ Group awareness
-    - You don't want your friends to be affected too
+    ~ None of the groups above wants to change
+    ~ You are always right. The other one is wrong.
+    ~ You don't want your friends to be bullied at.
 
 ---
 {state: light}
