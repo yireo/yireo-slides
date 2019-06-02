@@ -157,7 +157,7 @@ This is costing money.
 
 ---
 {state: light middle}
-# How to drop the legacy
+# How to drop the legacy?
 
 ---
 {state: light}
@@ -166,7 +166,6 @@ This is costing money.
 - Extensibility
 - Interoperability
 - Security
-
 
 ---
 {state: light}
