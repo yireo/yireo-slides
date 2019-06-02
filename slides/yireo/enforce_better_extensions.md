@@ -172,7 +172,7 @@ This is costing money.
 # Quality checking
 - Doing it yourself
     - PHPCS, PHPStan, PHPMD
-    - Security scanners
+    - Security scanners: mwscan, eComscan
 - Magento Marketplace validation
     - PHPCS, MFTF, Varnish tests
 - Testing
@@ -188,6 +188,8 @@ This is costing money.
 {state: light}
 # Kick extensions from Magento Marketplace
 ~ Magento Marketplace grew too quickly
+    - Replacement of MagentoConnect legacy
+    - Initial version got in, no checks for additional versions
 ~ Coding standards were not mature yet
     - Is using `json_encode` a security hazard?
     - How to check for bad usage with the Object Manager?
