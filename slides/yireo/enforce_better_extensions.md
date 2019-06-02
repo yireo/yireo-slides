@@ -127,7 +127,8 @@ This is costing money.
     ~ You don't want your friends to be bullied at.
 
 ---
-{state: light middle}
+{background-image: magetitans-nl/tough.jpg}
+{state: dark middle}
 # Conclusion: Change is hard.
 
 ---
