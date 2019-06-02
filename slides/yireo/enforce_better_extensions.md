@@ -76,10 +76,10 @@ map of NL for action radius
 ---
 # What to do next?
 ~ Do write documentation for everything;
-~ (security);
+~ Magecart is open revenue sharing, so great;
 ~ Forget about clustering;
 ~ Focus on performance just for yourself;
-~ With headless, 
+~ With headless, you don't need CI anymore;
 ~ Clients love all of you (except Bret)
 ~ React is better than Vue
 ~ You don't need testing
