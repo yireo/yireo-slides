@@ -238,14 +238,13 @@ This is costing money.
 - Rating extensions is currently being investigated
 
 ---
-{state: light}
-# The problem of rating
-
+{state: light middle}
+# The night is darkest just before the dawn. And I promise you, the dawn is coming. 
+### The Dark Knight
 
 ---
 @todo: the good, the bad, the ugly
 @todo: trustworthy extensions, reality check with ExtDN
-@todo: Yireo Extension Checker
 @todo: Vision Adobe, headless, climate change, earthquakes
 
 ---
