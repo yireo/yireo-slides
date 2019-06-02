@@ -29,8 +29,11 @@ map of NL for action radius
 ---
 {state: light middle}
 # My talk
-- Obvious points first
-- Bits of psychology
+~ Obvious points first
+~ Bits of psychology
+~ Bits of ranting
+~ Enlighted points
+~ A lot of bullet points like these
 
 ---
 {state: light middle}
