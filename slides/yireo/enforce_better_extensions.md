@@ -81,10 +81,10 @@ map of NL for action radius
 ~ Don't build your own stock keeping. Use MSI;
 ~ If you want performance, choose Shopware;
 ~ With headless, you don't need CI anymore;
-~ Clients love all of you (except Bret)
-~ React is better than Vue
-~ ... except for Magento 2 checkout
-~ If you weren't at MageTestFest, you don't care about testing
+~ Clients love everyone except Bret;
+~ React is better than Vue ...
+~ ... except for Magento 2 checkout;
+~ If you weren't at MageTestFest, you don't care about testing;
 
 ---
 {background-image: magetitans-nl/mic_drop.gif}
