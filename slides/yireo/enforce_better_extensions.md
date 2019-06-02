@@ -28,6 +28,20 @@ map of NL for action radius
 
 ---
 {state: light middle}
+# My talk
+- Obvious points first
+
+---
+{state: light middle}
+# Obvious points
+~ Comply to the coding standards;
+~ Add testing
+    - Unit tests, integration tests, MFTF, acceptance tests
+~ Don't inject the ObjectManager
+
+
+---
+{state: light middle}
 # Name one bad extension provider
 ~ Starting with the letter `A`
 ~ With 6 letters in total
@@ -72,6 +86,13 @@ map of NL for action radius
 @todo: average of PHPCS rules, rating
 @todo: What to do with bad extensions?
 @todo: Vision Adobe, headless, climate change, earthquakes
+
+---
+{state: light}
+# What to do next?
+- Send us your poor and your weak! [jisse@yireo.com](mailto:jisse@yireo.com)
+- Support ExtDN
+    - Spread flyers (thus knowledge)
 
 ---
 {state: light}
