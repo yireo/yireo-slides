@@ -52,9 +52,13 @@ map of NL for action radius
 {state: light middle}
 # How to drop the legacy
 
----
 @todo: What makes an extension bad?
 @todo: interoperability, conflicts, extensibility
+
+---
+@todo: NrJudge, Triplecheck.io
+@todo: the good, the bad, the ugly
+@todo: example code review
 @todo: trustworthy extensions, reality check with ExtDN
 @todo: overview of testing
 @todo: overview of extension standards
@@ -68,3 +72,8 @@ map of NL for action radius
 @todo: average of PHPCS rules, rating
 @todo: What to do with bad extensions?
 @todo: Vision Adobe, headless, climate change, earthquakes
+
+---
+# What to do next?
+~ Do write documentation;
+~ Security is overrated;
