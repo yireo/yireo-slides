@@ -244,31 +244,36 @@ This is costing money.
 <h4 class="fragment">Harvey Dent from "The Dark Knight" before he changes into a psychotic SoB</h4>
 
 ---
+{state: light}
 # Challenges in the market
 - Two Face Magento
     - Magento versus Adobe
     - Community versus high-end enterprise
-    - PWA versus monolithic
-~ 
+~ PWA versus monolithic
+    - Drop the Knockout legacy and go PWA
+    - Extension quality remains for backend only
+~ Market is shifting
+    - Small shop owners move elsewhere
+    - Serious shop owners spend more on custom development
+    - How do extensions fit into this new market?
 ~ Earth quakes (because we are in Groningen)
 
 ---
+{state: light middle}
 # What can we do together?
-- Help with the relevant Magento projects?
-- Help with ExtDN
-    - Spread the word on good extensions
-
----
-@todo: the good, the bad, the ugly
-@todo: trustworthy extensions, reality check with ExtDN
-@todo: Vision Adobe, headless, climate change, earthquakes
 
 ---
 {state: light}
-# What to do next?
-- Send us your poor and your weak! [jisse@yireo.com](mailto:jisse@yireo.com)
-- Support ExtDN
-    - Spread flyers (thus knowledge)
+# What can we do together?
+- Help with the relevant Magento projects
+    - Magento Coding Standard (PHPCS)
+    - Slack channels (marketplace, phpcs, testing)
+~ Help with ExtDN
+    - Spread the word on good extensions
+    - Spread our flyers on quality and standards
+~ Give us feedback
+    - Bad extension code
+    - Send us your poor and your weak! [jisse@yireo.com](mailto:jisse@yireo.com)
 
 ---
 {state: light}
