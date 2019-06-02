@@ -185,15 +185,17 @@ This is costing money.
 - With and without Varnish
 - In Developer Mode and Production Mode
 ~ Oh and let's add this later to it as well:
-    - GraphQL
-    - ElasticSearch
-    - MySQL 5.5, 5.6, 5.6
+    - GraphQL, Apollo Server, PWA
+    - ElasticSearch 5, 6
+    - MySQL 5.6, 5.7, 8 (Oracle, MariaDb, Percona)
 
 ---
 {state: light}
 # Validation sites
 - NrJudge
 - Triplecheck.io
+
+(And Magento Marketplace)
 
 ---
 {state: light}
