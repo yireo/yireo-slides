@@ -82,4 +82,5 @@ map of NL for action radius
 ~ With headless, you don't need CI anymore;
 ~ Clients love all of you (except Bret)
 ~ React is better than Vue
+~ ... except for checkouts
 ~ You don't need testing
