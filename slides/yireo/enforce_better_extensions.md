@@ -132,7 +132,8 @@ This is costing money.
 # Conclusion: Change is hard.
 
 ---
-{state: light middle}
+{background-image: magetitans-nl/panda.webp}
+{state: dark}
 # My conclusion: Change needs to be enforced.
 
 ---
@@ -142,7 +143,7 @@ This is costing money.
 ~ With 6 letters in total
 ~ From Belarus
 ~ Ending with `ty`
-~ And it is NOT `Amosty`
+~ And it is NOT `Amnesty`
 
 ---
 {state: light}
