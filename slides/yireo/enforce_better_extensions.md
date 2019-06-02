@@ -30,6 +30,7 @@ map of NL for action radius
 {state: light middle}
 # My talk
 - Obvious points first
+- Bits of psychology
 
 ---
 {state: light middle}
@@ -38,6 +39,13 @@ map of NL for action radius
 ~ Add testing
     - Unit tests, integration tests, MFTF, acceptance tests
 ~ Don't inject the ObjectManager
+
+---
+{state: light middle}
+# Bits of psychology
+~ Greed
+    - Extension providers want to make money;
+    - Merchants
 
 
 ---
