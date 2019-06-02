@@ -20,7 +20,7 @@
 
 ---
 {background-image: magetitans-nl/wecant.gif}
-{state: light middle}
+{state: dark middle}
 # We can't
 
 ---
