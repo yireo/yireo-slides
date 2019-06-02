@@ -75,8 +75,8 @@ map of NL for action radius
 
 ---
 # What to do next?
-~ Do write documentation;
-~ Security is overrated;
+~ Do write documentation for everything;
+~ ;
 ~ Forget about clustering;
 ~ Focus on performance just for yourself;
 ~ Clients love all of you (except Bret)
