@@ -169,9 +169,9 @@ This is costing money.
 
 ---
 {state: light}
-# Tools
-- Running things yourself
-    - PHPCS, PHPStan
+# Quality checking
+- Doing it yourself
+    - PHPCS, PHPStan, PHPMD
     - Security scanners
 - Magento Marketplace validation
     - PHPCS, MFTF, Varnish tests
@@ -183,6 +183,19 @@ This is costing money.
 # Validation sites
 - NrJudge
 - Triplecheck.io
+
+---
+{state: light}
+# Kick extensions from Magento Marketplace
+~ Magento Marketplace grew too quickly
+~ Coding standards were not mature yet
+    - Is using `json_encode` a security hazard?
+    - How to check for bad usage with the Object Manager?
+
+---
+{state: light}
+# Changes in Magento Marketplace
+- MFTF becomes more important
 
 
 ---
