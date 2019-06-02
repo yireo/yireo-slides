@@ -106,6 +106,14 @@ This is costing money.
 
 ---
 {state: light}
+# Areas where bad extension cost
+- Conflicts
+- Extensibility
+- Interoperability
+- Security
+
+---
+{state: light}
 # Bits of psychology
 ~ Self-interest
     ~ Extension providers want to sell extensions
@@ -158,14 +166,6 @@ This is costing money.
 ---
 {state: light middle}
 # How to drop the legacy?
-
----
-{state: light}
-# Areas
-- Conflicts
-- Extensibility
-- Interoperability
-- Security
 
 ---
 {state: light}
