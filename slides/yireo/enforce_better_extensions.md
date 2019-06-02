@@ -161,11 +161,7 @@ This is costing money.
 
 ---
 {state: light middle}
-# Drop the legacy
-
----
-{state: light middle}
-# How to drop the legacy?
+# What does "rating" mean?
 
 ---
 {state: light}
@@ -210,6 +206,18 @@ This is costing money.
 ~ Edge cases
     - What about 1000s of low level warnings?
     - What about 1 major security issue?
+
+---
+{state: light middle}
+# If extensions are rated badly, still using them is straight-out stupid. But a reality check shows that people are still using bad extensions everywhere.
+
+---
+{state: light middle}
+# Drop the legacy
+
+---
+{state: light middle}
+# How to drop the legacy?
 
 ---
 {state: light}
