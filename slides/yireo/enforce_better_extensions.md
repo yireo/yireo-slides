@@ -221,7 +221,7 @@ This is costing money.
 
 ---
 {state: light}
-# Kick extensions from Magento Marketplace
+# Legacy in the Magento Marketplace
 ~ Magento Marketplace grew too quickly
     - Replacement of MagentoConnect legacy
     - Initial version got in, no checks for additional versions
@@ -231,7 +231,7 @@ This is costing money.
 
 ---
 {state: light}
-# Bad extensions in Magento Marketplace
+# Changes in Magento Marketplace
 - MFTF becomes more important
 - Automated testing is now done on every release
 - EQP2 is going to open up tooling to the community
