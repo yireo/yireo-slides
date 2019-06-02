@@ -207,7 +207,7 @@ This is costing money.
 
 ---
 {state: light}
-# Changes in Magento Marketplace
+# Bad extensions in Magento Marketplace
 - MFTF becomes more important
 - Automated testing is now done on every release
 - EQP2 is going to open up tooling to the community
