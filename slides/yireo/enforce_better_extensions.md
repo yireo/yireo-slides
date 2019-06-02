@@ -128,6 +128,7 @@ This is costing money.
 ~ With 6 letters in total
 ~ From Belarus
 ~ Ending with `ty`
+~ And it is NOT `Amosty`
 
 ---
 {state: light}
@@ -147,7 +148,14 @@ This is costing money.
 {state: light middle}
 # How to drop the legacy
 
-@todo: interoperability, conflicts, extensibility
+---
+{state: light}
+# Tools
+- Running things yourself
+    - PHPCS, PHPStan
+    - Security scanners 
+- Magento Marketplace tools
+
 
 ---
 @todo: NrJudge, Triplecheck.io
