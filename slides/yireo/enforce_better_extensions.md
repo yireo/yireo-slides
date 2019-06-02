@@ -25,7 +25,7 @@
 ---
 {state: light}
 # My talk
-~ Obvious points first
+~ Obvious points about extension quality
 ~ Bits of psychology
 ~ Bits of ranting
 ~ Enlighted points
@@ -33,7 +33,7 @@
 
 ---
 {state: light}
-# Obvious points
+# Obvious points about extension quality
 ~ Comply to the coding standards
     - Magento Coding Standard (consolidation project)
 ~ Add testing
@@ -42,14 +42,16 @@
     - Except in factories, proxies, builders, tests and more
 ~ Don't overwrite core preferences
     - Unless your module's purpose is exactly that
+~ And so on ...
+
 
 ---
 {state: light}
 # Bits of psychology
 ~ Greed
-    - Extension providers want to make money;
-    - Merchants
-
+    - Extension providers want to make money
+    - Merchants want to safe money
+~ 
 
 ---
 {state: light middle}
