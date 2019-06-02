@@ -239,8 +239,9 @@ This is costing money.
 
 ---
 {state: light middle}
-# The night is darkest just before the dawn. <br/> And I promise you, the dawn is coming. 
-~ Harvey Dent from "The Dark Knight" before he changes into a psychotic SoB
+<h1>The night is darkest just before the dawn.</h1>
+<h1 class="fragment">And I promise you, the dawn is coming.</h1>
+<h4 class="fragment">Harvey Dent from "The Dark Knight" before he changes into a psychotic SoB</h4>
 
 ---
 @todo: the good, the bad, the ugly
