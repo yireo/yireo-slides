@@ -19,6 +19,7 @@
 # How can we enforce better Magento extensions?
 
 ---
+{background-image: magetitans-nl/wecant.gif}
 {state: light middle}
 # We can't
 
