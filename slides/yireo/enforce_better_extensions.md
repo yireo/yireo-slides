@@ -112,10 +112,18 @@ This is costing money.
     ~ Merchants want to save money where they can
     ~ Developers want to go home at 17:00
     ~ Their managers want to drive Porshes 
-~ Stubborness
+~ Stubbornness
     ~ None of the groups above wants to change
     ~ You are always right. The other one is wrong.
     ~ You don't want your friends to be bullied at.
+
+---
+{state: light middle}
+# Conclusion: Change is hard.
+
+---
+{state: light middle}
+# My conclusion: Change needs to be enforced.
 
 ---
 {state: light}
@@ -130,9 +138,9 @@ This is costing money.
 {state: light}
 # Measuring quality
 ~ Not complying to coding standards
-    - Not true for modern Amasty extensions
+    - Not true for all modern Amasty extensions
 ~ No automated tests
-    - Amasty now busy gradually implementing unit tests (and integration tests)
+    - Amasty is now gradually implementing unit tests (and integration tests)
 ~ Bad usage of `ObjectManager`
     - Last time I checked an Amasty extension, they did all correctly
 
