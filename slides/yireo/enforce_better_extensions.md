@@ -240,7 +240,7 @@ This is costing money.
 ---
 {state: light middle}
 # The night is darkest just before the dawn. <br/> And I promise you, the dawn is coming. 
-#### Harvey Dent from "The Dark Knight" before he changes into a psychotic maniac
+~ Harvey Dent from "The Dark Knight" before he changes into a psychotic SoB
 
 ---
 @todo: the good, the bad, the ugly
