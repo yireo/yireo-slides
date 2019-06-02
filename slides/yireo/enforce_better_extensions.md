@@ -15,10 +15,6 @@
 ~ Member of ExtDN (Magento Ext Dev Network)
 
 ---
-# brother of 3
-map of NL for action radius
-
----
 {state: light middle}
 # How can we enforce better Magento extensions?
 

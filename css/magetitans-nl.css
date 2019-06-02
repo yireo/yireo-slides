@@ -21,6 +21,13 @@ body {
     padding-left: 100px;
 }
 
+
+.middle .reveal .slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -149,7 +156,7 @@ body {
 
 .speaker .reveal h1,
 .speaker .reveal h2,
-.speaker  .reveal h3,
+.speaker .reveal h3,
 .speaker .reveal ul,
 .speaker .reveal pre,
 .speaker .reveal p {
@@ -220,7 +227,6 @@ table td img {
     margin-bottom: 0.2em;
     font-size: 80%;
 }
-
 
 
 .bordered h1, .bordered h2 {
