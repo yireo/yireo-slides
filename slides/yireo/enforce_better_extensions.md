@@ -186,6 +186,17 @@ This is costing money.
 
 ---
 {state: light}
+# The problem of rating
+~ How to calculate the score?
+    - Take average of X rules with Yes/No answer?
+    - Number of unique PHPCS Warnings divided by number of rules?
+    - What about false positives? Manual checking?
+~ Strike 3 and you're out?
+    - When do you stop guiding an extension developer?
+    
+
+---
+{state: light}
 # Kick extensions from Magento Marketplace
 ~ Magento Marketplace grew too quickly
     - Replacement of MagentoConnect legacy
@@ -198,6 +209,13 @@ This is costing money.
 {state: light}
 # Changes in Magento Marketplace
 - MFTF becomes more important
+- Automated testing is now done on every release
+- EQP2 is going to open up tooling to the community
+- Rating extensions is currently being investigated
+
+---
+{state: light}
+# The problem of rating
 
 
 ---
