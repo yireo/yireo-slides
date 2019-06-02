@@ -79,7 +79,7 @@ map of NL for action radius
 ~ Do write documentation for everything;
 ~ Magecart is open revenue sharing, so great;
 ~ Don't build your own stock keeping. Use MSI;
-~ Focus on performance just because Erwin wants it;
+~ If you want performance, choose Shopware;
 ~ With headless, you don't need CI anymore;
 ~ Clients love all of you (except Bret)
 ~ React is better than Vue
@@ -88,3 +88,6 @@ map of NL for action radius
 
 ---
 {background-image: magetitans-nl/mic_drop.gif}
+{state: light}
+# All right
+# Thanks
