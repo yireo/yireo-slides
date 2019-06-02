@@ -244,6 +244,21 @@ This is costing money.
 <h4 class="fragment">Harvey Dent from "The Dark Knight" before he changes into a psychotic SoB</h4>
 
 ---
+# Challenges in the market
+- Two Face Magento
+    - Magento versus Adobe
+    - Community versus high-end enterprise
+    - PWA versus monolithic
+~ 
+~ Earth quakes (because we are in Groningen)
+
+---
+# What can we do together?
+- Help with the relevant Magento projects?
+- Help with ExtDN
+    - Spread the word on good extensions
+
+---
 @todo: the good, the bad, the ugly
 @todo: trustworthy extensions, reality check with ExtDN
 @todo: Vision Adobe, headless, climate change, earthquakes
