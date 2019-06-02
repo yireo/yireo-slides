@@ -77,26 +77,36 @@
 ---
 {state: light}
 # Review of a bad extension (3 of 3)
-- Call-to-home via `controller_action_predispatch` event in backend
-- Base module that does a lot of hard work to add notifications on each backend page
-- No custom acl.xml for own backend pages and configuration settings (but still defining resources)
-- `<argument name="template" translate="true" xsi:type="string">sample.phtml</argument>` - templates are not translatable
-- Adding inline HTML into a field render class, instead of using a PHTML template
-- Overriding classes using a DI preference rewrite, instead of using plugins or composition
-- Extending a class for no reason
-- Small stuff
+- Theming stuff
     - Using helpers in General
     - Too much logic in PHTML templates
     - Adding CSS instead of LESS
+    - `<argument name="template" translate="true" xsi:type="string">sample.phtml</argument>` - templates are not translatable
+~ Small stuff
+    - Call-to-home via `controller_action_predispatch` event in backend
+    - Base module that does a lot of hard work to add notifications on each backend page
+    - No custom acl.xml for own backend pages and configuration settings (but still defining resources)
+    - Adding inline HTML into a field render class, instead of using a PHTML template
+    - Overriding classes using a DI preference rewrite, instead of using plugins or composition
+    - Extending a class for no reason
 
 ---
 {state: light}
 # Why is this bad?
-- No requirements in composer
-- Not extensible
-- More CSS loaded in head
+- No requirements in composer, so no proper versioning
+- Not extensible by other developers
+- More CSS loaded in head 
 - Hard to create theming overrides
-- When something needs fixing, the costs go up (hidden costs)
+
+This is costing money.
+
+---
+{state: light}
+# Areas
+- Conflicts
+- Extensibility
+- Interoperability
+- Security
 
 ---
 {state: light}
@@ -112,7 +122,7 @@
     - You don't want your friends to be affected too
 
 ---
-{state: light middle}
+{state: light}
 # Name one bad extension provider
 ~ Starting with the letter `A`
 ~ With 6 letters in total
@@ -120,7 +130,7 @@
 ~ Ending with `ty`
 
 ---
-{state: light middle}
+{state: light}
 # Measuring quality
 ~ Not complying to coding standards
     - Not true for modern Amasty extensions
@@ -137,7 +147,6 @@
 {state: light middle}
 # How to drop the legacy
 
-@todo: What makes an extension bad?
 @todo: interoperability, conflicts, extensibility
 
 ---
