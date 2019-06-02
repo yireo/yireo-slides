@@ -55,6 +55,8 @@
     ~ Their managers want to drive Porshes 
 ~ Stubborness
     - None of the groups above wants to change
+~ Group awareness
+    - You don't want your friends to be affected too
 
 ---
 {state: light middle}
@@ -122,6 +124,10 @@
 ~ React is better than Vue ...
 ~ ... except for Magento 2 checkout;
 ~ If you weren't at MageTestFest, you don't care about testing;
+
+---
+{state: light middle}
+# Drop the legacy
 
 ---
 {background-image: magetitans-nl/mic_drop.gif}
