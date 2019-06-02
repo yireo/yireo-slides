@@ -45,10 +45,11 @@
 ~ And so on ...
 
 ---
-# Review of a bad extension
+{state: light}
+# Review of a bad extension (1 of 3)
 ~ Dependencies
 	- No `require` dependencies with framework or modules
-	- PHP compatibility with PHP 5.5
+	- PHP compatibility with PHP 5.5 (for an Magento 2 extension)
 	- Not all dependencies are in `module.xml`
 ~ Coding standards
 	- Prefixing internal variables with an underscore
@@ -57,7 +58,8 @@
 	- More than 10 code indents in a single class (Object Calisthenics)
 
 ---
-# Review of a bad extension
+{state: light}
+# Review of a bad extension (2 of 3)
 - ObjectManager stuff
 	- Injecting ObjectManager instead of using DI properly
 	- Calling upon the ObjectManager in PHTML templates via a hidden `factory()` method
@@ -67,22 +69,28 @@
 	- Intercepting with an around() plugin where before() or after() is enough already
 	- Relying on the ObjectManager to `get()` a singleton instance, and then still writing your own singleton method
 
+---
+{state: light}
+# Review of a bad extension (3 of 3)
 - Call-to-home via `controller_action_predispatch` event in backend
 - Base module that does a lot of hard work to add notifications on each backend page
 - Manual SQL queries to write to configuration instead of using `\Magento\Framework\App\Config\Storage\WriterInterface`
 - No custom acl.xml for own backend pages and configuration settings (but still defining resources)
 - Manual SQL queries in Setup-classes
 - Inserting default configuration values via Setup-class instead of using `etc/config.xml`
-- Adding CSS instead of LESS
 - `<argument name="template" translate="true" xsi:type="string">sample.phtml</argument>` - templates are not translatable
-- Using helpers in General
-- Too much logic in PHTML templates
 - Adding inline HTML into a field render class, instead of using a PHTML template
 - Overriding classes using a DI preference rewrite, instead of using plugins or composition
 - Extending a class for no reason
 - Defining your own models & collections and then still resorting to manual SQL queries to call upon your tables
+- Small stuff
+    - Using helpers in General
+    - Too much logic in PHTML templates
+    - Adding CSS instead of LESS
 
-Why is this bad?
+---
+{state: light}
+# Why is this bad?
 - No requirements in composer
 - Not extensible
 - More CSS loaded in head
