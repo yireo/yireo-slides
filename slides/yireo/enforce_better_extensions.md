@@ -48,9 +48,11 @@
 ---
 {state: light}
 # Bits of psychology
-~ Greed
-    - Extension providers want to make money
-    - Merchants want to safe money
+~ Self-interest
+    ~ Extension providers want to sell extensions
+    ~ Merchants want to save money where they can
+    ~ Developers want to go home at 17:00
+    ~ Their managers want to drive Porshes 
 ~ 
 
 ---
