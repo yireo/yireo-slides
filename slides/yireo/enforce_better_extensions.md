@@ -187,6 +187,7 @@ This is costing money.
 ~ Oh and let's add this later to it as well:
     - GraphQL
     - ElasticSearch
+    - MySQL 5.5, 5.6, 5.6
 
 ---
 {state: light}
