@@ -53,7 +53,8 @@
     ~ Merchants want to save money where they can
     ~ Developers want to go home at 17:00
     ~ Their managers want to drive Porshes 
-~ 
+~ Stubborness
+    - None of the groups above wants to change
 
 ---
 {state: light middle}
