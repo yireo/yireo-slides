@@ -191,9 +191,13 @@ This is costing money.
     - Take average of X rules with Yes/No answer?
     - Number of unique PHPCS Warnings divided by number of rules?
     - What about false positives? Manual checking?
-~ Strike 3 and you're out?
+~ What to do with the rating?
+    - Strike 3 and you're out?
     - When do you stop guiding an extension developer?
-    
+~ When to rate?
+    - Every time a new release is uploaded? (free CI tool)
+~ Edge cases
+    - What about 
 
 ---
 {state: light}
