@@ -68,21 +68,22 @@
 	- Suddenly calling upon ObjectManager::getInstance somewhere in the code
 	- Intercepting with an around() plugin where before() or after() is enough already
 	- Relying on the ObjectManager to `get()` a singleton instance, and then still writing your own singleton method
+~ Manual database queries
+    - Manual SQL queries to write to configuration instead of using `\Magento\Framework\App\Config\Storage\WriterInterface`
+    - Defining your own models & collections and then still resorting to manual SQL queries to call upon your tables
+    - Inserting default configuration values via Setup-class instead of using `etc/config.xml`
+    - Manual SQL queries in Setup-classes
 
 ---
 {state: light}
 # Review of a bad extension (3 of 3)
 - Call-to-home via `controller_action_predispatch` event in backend
 - Base module that does a lot of hard work to add notifications on each backend page
-- Manual SQL queries to write to configuration instead of using `\Magento\Framework\App\Config\Storage\WriterInterface`
 - No custom acl.xml for own backend pages and configuration settings (but still defining resources)
-- Manual SQL queries in Setup-classes
-- Inserting default configuration values via Setup-class instead of using `etc/config.xml`
 - `<argument name="template" translate="true" xsi:type="string">sample.phtml</argument>` - templates are not translatable
 - Adding inline HTML into a field render class, instead of using a PHTML template
 - Overriding classes using a DI preference rewrite, instead of using plugins or composition
 - Extending a class for no reason
-- Defining your own models & collections and then still resorting to manual SQL queries to call upon your tables
 - Small stuff
     - Using helpers in General
     - Too much logic in PHTML templates
