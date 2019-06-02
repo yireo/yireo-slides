@@ -128,7 +128,7 @@ This is costing money.
 
 ---
 {background-image: magetitans-nl/tough.jpg}
-{state: dark middle}
+{state: dark}
 # Conclusion: Change is hard.
 
 ---
