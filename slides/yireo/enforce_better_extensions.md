@@ -116,7 +116,7 @@ This is costing money.
 
 ---
 {background-image: magetitans-nl/guido.jpg}
-{state: light}
+{state: dark}
 # Bits of psychology
 ~ Self-interest
     ~ Extension providers want to sell extensions
