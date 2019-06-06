@@ -262,6 +262,7 @@ This is costing money.
 - Automated testing is now done on every release
 - EQP2 is going to open up tooling to the community
 - Rating extensions is currently being investigated
+- Kicking out extensions is currently being investigated
 
 ---
 {state: dark}
