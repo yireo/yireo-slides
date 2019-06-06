@@ -326,15 +326,15 @@ This is costing money.
 ---
 {state: light}
 # What to do next?
-~ Do write documentation for everything ()
-~ Magecart is open revenue sharing, so great;
-~ Don't build your own stock keeping. Use MSI;
-~ If you want performance, choose Shopware;
-~ With headless, you don't need CI anymore;
+~ Do write documentation for everything, even though David says something else
+~ Magecart is open revenue sharing, so great for people like Jeroen
+~ Ivan, don't build your own stock keeping. Use MSI.
+~ Erwin, if you want performance, choose Shopware
+~ With headless, you don't need CI anymore
 ~ Clients love everyone except Bret
-~ React is better than Vue ...
-~ ... except for Magento 2 checkout;
-~ Michiel, if you weren't at MageTestFest, you don't care about testing;
+~ Sander, you know React is better than Vue ...
+~ ... except for Magento 2 checkout where Vue is better (Willem)
+~ Michiel, if you weren't at MageTestFest, you don't care about testing
 
 ---
 {state: light middle}
