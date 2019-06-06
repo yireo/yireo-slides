@@ -168,7 +168,7 @@ This is costing money.
 ---
 {background-image: magetitans-nl/minsk.jpg}
 {state: dark middle}
-# Rating: 87
+# Rating: 87.42
 
 ---
 {state: light middle}
@@ -220,6 +220,11 @@ This is costing money.
 ~ Edge cases
     - What about 1000s of low level warnings?
     - What about 1 major security issue?
+
+---
+{state: light middle}
+{background-image: magetitans-nl/puppy.webp}
+# Rating is hard
 
 ---
 {state: light middle}
