@@ -197,6 +197,14 @@ This is costing money.
 
 ---
 {state: light}
+# Validation sites
+- NrJudge
+- Triplecheck.io
+
+(And Magento Marketplace)
+
+---
+{state: light}
 # Different environments
 - Magento 2.1, 2.2, 2.3
 - PHP 7.0, 7.1, 7.2
@@ -206,14 +214,6 @@ This is costing money.
     - GraphQL, Apollo Server, PWA
     - ElasticSearch 5, 6
     - MySQL 5.6, 5.7, 8 (Oracle, MariaDb, Percona)
-
----
-{state: light}
-# Validation sites
-- NrJudge
-- Triplecheck.io
-
-(And Magento Marketplace)
 
 ---
 {state: light}
