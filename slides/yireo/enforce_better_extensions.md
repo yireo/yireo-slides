@@ -288,7 +288,11 @@ This is costing money.
     - How do extensions fit into this new market?
 ~ Earth quakes
     - Because we are in Groningen
-    - And we fired up too much gas
+    - And we let go of too much gas
+    ~ And we can't blame Arjen for that
+
+---
+{state: light}
 
 ---
 {state: light middle}
