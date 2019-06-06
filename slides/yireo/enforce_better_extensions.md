@@ -46,6 +46,11 @@
 ~ And so on ...
 
 ---
+{background-image: magetitans-nl/throwup.webp}
+{state: dark middle}
+# Review of a bad extension
+
+---
 {state: light}
 # Review of a bad extension (1 of 3)
 ~ Dependencies
