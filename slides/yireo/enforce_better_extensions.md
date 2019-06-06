@@ -166,7 +166,8 @@ This is costing money.
     - Fair pricing of extensions
 
 ---
-{state: light middle}
+{background-image: magetitans-nl/minsk.jpg}
+{state: dark middle}
 # Rating: 87
 
 ---
