@@ -222,9 +222,10 @@ This is costing money.
     - What about 1 major security issue?
 
 ---
-{state: light middle}
+{state: dark middle}
 {background-image: magetitans-nl/puppy.webp}
 # Rating is hard
+## So let's focus on the bad extensions first
 
 ---
 {state: light middle}
