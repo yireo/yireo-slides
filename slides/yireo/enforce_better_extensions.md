@@ -283,9 +283,13 @@ This is costing money.
 # What can we do together?
 
 ---
+{state: dark middle}
+{background-image: magetitans-nl/dogskissing.jpg}
+
+---
 {state: light}
 # What can we do together?
-- Help with the relevant Magento projects
+~ Help with the relevant Magento projects
     - Magento Coding Standard (PHPCS)
     - Slack channels (marketplace, phpcs, testing)
 ~ Help with ExtDN
