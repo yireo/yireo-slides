@@ -286,7 +286,9 @@ This is costing money.
     - Small shop owners move elsewhere
     - Serious shop owners spend more on custom development
     - How do extensions fit into this new market?
-~ Earth quakes (because we are in Groningen)
+~ Earth quakes
+    - Because we are in Groningen
+    - And we fired up too much gas
 
 ---
 {state: light middle}
