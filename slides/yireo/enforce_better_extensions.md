@@ -310,28 +310,31 @@ This is costing money.
 ---
 {state: light}
 # What can we do together?
+~ Drop bad extensions
+    - Stop using bad extensions, because they cost money
+    - Call out in the community for same features but good extension instead
 ~ Help with the relevant Magento projects
     - Magento Coding Standard (PHPCS)
     - Slack channels (marketplace, phpcs, testing)
 ~ Help with ExtDN
     - Spread the word on good extensions
     - Spread our flyers on quality and standards
-~ Give us feedback
-    - Bad extension code
+~ Give us (ExtDN) feedback
+    - On bad extension code or bad experiences
     - Send us your poor and your weak! [jisse@yireo.com](mailto:jisse@yireo.com)
 
 ---
 {state: light}
 # What to do next?
-~ Do write documentation for everything;
+~ Do write documentation for everything ()
 ~ Magecart is open revenue sharing, so great;
 ~ Don't build your own stock keeping. Use MSI;
 ~ If you want performance, choose Shopware;
 ~ With headless, you don't need CI anymore;
-~ Clients love everyone except Bret;
+~ Clients love everyone except Bret
 ~ React is better than Vue ...
 ~ ... except for Magento 2 checkout;
-~ If you weren't at MageTestFest, you don't care about testing;
+~ Michiel, if you weren't at MageTestFest, you don't care about testing;
 
 ---
 {state: light middle}
