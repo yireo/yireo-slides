@@ -268,6 +268,9 @@ This is costing money.
 - Rating extensions is currently being investigated
 
 ---
+{state: dark}
+
+---
 {state: light middle}
 <h1>The night is darkest just before the dawn.</h1>
 <h1 class="fragment">And I promise you, the dawn is coming.</h1>
