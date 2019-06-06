@@ -337,7 +337,7 @@ This is costing money.
 ~ Michiel, if you weren't at MageTestFest, you don't care about testing
 
 ---
-{state: light middle}
+{state: dark middle}
 # Drop the legacy
 
 ---
