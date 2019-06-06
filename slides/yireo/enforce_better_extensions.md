@@ -242,11 +242,7 @@ This is costing money.
 # If extensions are rated badly, still using them is straight-out stupid. But a reality check shows that people are still using bad extensions everywhere.
 
 ---
-{state: light middle}
-# Drop the legacy
-
----
-{state: light middle}
+{state: dark middle}
 # How to drop the legacy?
 
 ---
@@ -255,9 +251,9 @@ This is costing money.
 ~ Magento Marketplace grew too quickly
     - Replacement of MagentoConnect legacy
     - Initial version got in, no checks for additional versions
-~ Coding standards were not mature yet
+~ Coding standards were (are?) not mature yet
     - Is using `json_encode` a security hazard?
-    - How to check for bad usage with the Object Manager?
+    - How to check for bad usage with the Object Manager? Tests? Factories?
 
 ---
 {state: light}
