@@ -46,6 +46,9 @@
 ~ And so on ...
 
 ---
+{state: dark}
+
+---
 {background-image: magetitans-nl/throwup.webp}
 {state: dark middle}
 # Review of a bad extension
@@ -120,6 +123,10 @@ This is costing money.
 - Security
 
 ---
+{state: dark center middle}
+# Bits of psychology
+
+---
 {background-image: magetitans-nl/guido.jpg}
 {state: dark}
 # Bits of psychology
@@ -142,6 +149,9 @@ This is costing money.
 {background-image: magetitans-nl/panda.webp}
 {state: dark}
 # My conclusion: Change needs to be enforced.
+
+---
+{state: dark middle}
 
 ---
 {state: light}
