@@ -15,6 +15,11 @@
 ~ Member of ExtDN (Magento Ext Dev Network)
 
 ---
+{state: light center middle}
+# ExtDN
+### https://extdn.org/
+
+---
 {state: light middle}
 # How can we enforce better Magento extensions?
 
