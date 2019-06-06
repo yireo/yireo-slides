@@ -250,7 +250,7 @@ This is costing money.
 # Legacy in the Magento Marketplace
 ~ Magento Marketplace grew too quickly
     - Replacement of MagentoConnect legacy
-    - Initial version got in, no checks for additional versions
+    - Initial extension submission got in, but no checks for additional versions
 ~ Coding standards were (are?) not mature yet
     - Is using `json_encode` a security hazard?
     - How to check for bad usage with the Object Manager? Tests? Factories?
@@ -267,15 +267,15 @@ This is costing money.
 {state: dark}
 
 ---
-{state: light middle}
+{state: dark middle}
 <h1>The night is darkest just before the dawn.</h1>
 <h1 class="fragment">And I promise you, the dawn is coming.</h1>
-<h4 class="fragment">Harvey Dent from "The Dark Knight" before he changes into a psychotic SoB</h4>
+<h4 class="fragment">Harvey (Two-Face) Dent from "The Dark Knight"<br/>before he changes into a psychotic SoB</h4>
 
 ---
 {state: light}
 # Challenges in the market
-- Two Face Magento
+~ Two Face Magento
     - Magento versus Adobe
     - Community versus high-end enterprise
 ~ PWA versus monolithic
