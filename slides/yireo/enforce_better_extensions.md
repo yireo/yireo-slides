@@ -160,24 +160,15 @@ This is costing money.
 
 ---
 {state: light}
-# Name one bad extension provider
-~ Starting with the letter `A`
-~ With 6 letters in total
-~ From Belarus
-~ Ending with `ty`
-~ And it is NOT `Amnesty`
-
----
-{state: light}
-# Measuring quality
+# Measuring quality with provider X
 ~ Not complying to coding standards
-    - Not true for all modern Amasty extensions
+    - Not true for all modern X extensions
 ~ No automated tests
-    - Amasty is now gradually implementing unit tests (and integration tests)
+    - X is now gradually implementing unit tests (and integration tests)
 ~ Bad usage of `ObjectManager`
-    - Last time I checked an Amasty extension, they did all correctly
-~ And a lot of people are happy with Amasty
-    - Amasty extensions work with Amasty extensions
+    - Last time I checked an X extension, they did all correctly
+~ And a lot of people are happy with X
+    - X extensions work with X extensions
     - Fair pricing of extensions
 
 ---
