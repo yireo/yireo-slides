@@ -27,15 +27,15 @@
 
 ---
 {state: garden3 main center middle}
-### the hype:
-# Is Magento PWA ready?
+# Is Magento ready for PWA?
+### ... for merchants?
 
 ---
 {background-image: pwa/giphy-indian.webp}
 
 ---
 {state: garden3 main center middle}
-# Is Magento PWA ready
+# Is Magento ready for PWA?
 ### ... for merchants?
 
 ---
