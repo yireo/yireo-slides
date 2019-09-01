@@ -30,16 +30,12 @@
 # Is Magento ready for PWA?
 
 ---
-{background-image: pwa/giphy-indian.webp}
-
----
 {state: garden3 main center middle}
 # YES!
 
 ---
-{state: dark}
-# What do you mean with "Magento PWA" and "ready"?
-### An all-purpose, multi-fit, mega-cool PWA-solution that you can generate from within the Magento Admin Panel, customize it using a magic dashboard that has all possible Mickey Mouse combinations thought out for you while still being completely understandable to any backend user and extensible with any Magento extensions out there in the market?
+{state: dark main center}
+# But no
 
 ---
 {state: dark center middle}
