@@ -43,6 +43,7 @@
 
 ---
 {background-image: pwa/background-vicky.png}
+### Vicky Pollard - Little Britain
 
 ---
 {state: light center}
@@ -53,12 +54,17 @@
 - Offline site
 
 ---
-{state: light center}
+{state: light}
 # What does PWA mean?
-- ~~Manifest file for theming~~
-- ~~Service worker~~
-- ~~Push notifications~~
+- ~~Manifest file for theming~~ (possible in current frontend)
+- ~~Service worker~~ (possible in current frontend)
+- ~~Push notifications~~ (possible in current frontend)
 - Offline site
+
+---
+{state: light center}
+# PWA is not about merchants
+
 
 ---
 {state: dark}
