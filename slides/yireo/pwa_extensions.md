@@ -35,7 +35,7 @@
 
 ---
 {state: light center middle}
-# But no
+# But no ...
 
 ---
 {state: light center}
