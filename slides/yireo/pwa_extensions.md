@@ -62,7 +62,7 @@
 - Offline site
 
 ---
-{state: center middle}
+{state: main center}
 {background-image: pwa/background-vicky-shocked.jpg}
 # PWA is not about merchants
 
@@ -73,6 +73,11 @@
 - Redux or Vuex
 - GraphQL thanks to Apollo
 - And lots of more tech stuff
+
+---
+{state: center middle}
+{background-image: pwa/background-vicky-happy.jpg}
+# PWA is about developers
 
 ---
 {state: city main center middle}
