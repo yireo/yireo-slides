@@ -67,7 +67,7 @@
 # PWA is not about merchants
 
 ---
-{state: dark}
+{state: light}
 # PWA technology includes
 - React or Vue
 - Redux or Vuex
@@ -80,11 +80,20 @@
 # PWA is about developers
 
 ---
-{state: dark}
+{state: light}
 # Benefits of headless development
+- Modern technology
 - Separation frontend and backend team
+- Fun refactoring of React or Vue components
 - Easier output testing with GraphQL
 - Faster development time
+
+---
+{state: main center middle}
+# So why are Magento extensions not PWA ready yet?
+
+---
+{state: dark}
 
 ---
 {state: main center middle}
