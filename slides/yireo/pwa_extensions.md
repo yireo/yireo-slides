@@ -46,34 +46,14 @@
 - Offline site
 
 ---
-{state: dark center middle}
-{background-image: pwa/giphy-nope.webp}
-# Keep dreaming, dudes, keep dreaming.
-### Magento PWA will not be ready like you think it will be.
+{state: light center}
+# What does PWA mean?
+- ~~Manifest file for theming~~
+- ~~Service worker~~
+- ~~Push notifications~~
+- Offline site
 
----
-{state: garden3 main center middle}
-# Is Magento PWA ready
-### ... for developers?
 
----
-{state: dark}
-# What do you mean with "Magento PWA" and "ready"?
-### A PWA-solution that is custom-build in React, Vue, Angular or any other fancy coolkids JavaScript framework by some kick-ass frontend developers that know their Kungfu-coding shit and can custom-build any extension-like feature for you, assuming your wallet is large enough and you have the patience to guide them through whatever you were actually requiring for your project?
-
----
-{state: dark center middle}
-{background-image: pwa/giphy-okay.webp}
-# Yeah, ok. I can build you a PWA.
-### Magento PWA is ready for anyone willing to be an early adaptor
-
----
-{state: garden3 main center middle}
-# Is Magento PWA ready
-### ... for extensions?
-
----
-{background-image: pwa/giphy-not-really.webp}
 
 ---
 {state: dark}
