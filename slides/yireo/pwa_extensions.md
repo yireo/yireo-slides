@@ -68,11 +68,11 @@
 
 ---
 {state: dark}
-# What kind of extensions are there?
-- Themes
-- Frontend widgets
-- Connections with external systems
-- Checkout-based
+# PWA technology includes
+- React or Vue
+- Redux or Vuex
+- GraphQL thanks to Apollo
+- And lots of more tech stuff
 
 ---
 {state: city main center middle}
