@@ -34,7 +34,7 @@
 # YES!
 
 ---
-{state: dark main center}
+{state: light main center middle}
 # But no
 
 ---
