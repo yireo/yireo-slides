@@ -95,6 +95,7 @@
 {state: dark}
 
 ---
+{background-image: pwa/background-car.jpg}
 {state: main center middle}
 # A bit on GraphQL
 
