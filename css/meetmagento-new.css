@@ -13,7 +13,7 @@ body {
 
 .main .slides h1 {
     font-family: 'Zilla Slab Highlight', cursive;
-    letter-spacing: 0.1em;
+    font-weight: 800;
 }
 
 .main .reveal .backgrounds .slide-background {
@@ -104,7 +104,6 @@ body {
     font-family: 'Zilla Slab Highlight', cursive;
     font-weight: bolder;
     font-size: 200%;
-    letter-spacing: 0.1em;
 }
 
 
