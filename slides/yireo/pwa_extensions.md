@@ -75,12 +75,19 @@
 - And lots of more tech stuff
 
 ---
-{state: center middle}
+{state: main center}
 {background-image: pwa/background-vicky-happy.jpg}
 # PWA is about developers
 
 ---
-{state: city main center middle}
+{state: dark}
+# Benefits of headless development
+- Separation frontend and backend team
+- Easier output testing with GraphQL
+- Faster development time
+
+---
+{state: main center middle}
 # A bit on GraphQL
 
 ---
