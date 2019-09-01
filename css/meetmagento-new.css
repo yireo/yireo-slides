@@ -8,11 +8,11 @@
 
 body {
     font-family: "Roboto Condensed", Arial;
-    font-size: 150%;
+    font-size: 160%;
 }
 
 .main .slides h1 {
-    font-family: 'Smokum', cursive;
+    font-family: 'Zilla Slab Highlight', cursive;
     letter-spacing: 0.1em;
 }
 
@@ -131,7 +131,6 @@ body {
 .main .slides h4 {
     font-style: italic;
     text-align: left;
-    color: #f3ceaf;
 }
 
 .reveal ul ul {
