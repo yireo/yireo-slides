@@ -7,13 +7,14 @@
 
 body {
     font-family: "Roboto Condensed", Arial;
-    font-size: 160%;
+    font-size: 180%;
 }
 
 .main .reveal h1 {
     font-family: 'Black Ops One', cursive;
+    text-transform: uppercase;
     font-weight: 400;
-    font-size: 200%;
+    font-size: 220%;
 }
 
 .main .reveal .backgrounds .slide-background {
@@ -92,7 +93,8 @@ body {
 .city .reveal h1,
 .mountains .reveal h1 {
     font-family: 'Black Ops One', cursive;
-    font-weight: bolder;
+    text-transform: uppercase;
+    font-weight: 400;
     font-size: 400%;
 }
 
@@ -102,7 +104,8 @@ body {
 .city .reveal h3,
 .mountains .reveal h3 {
     font-family: 'Black Ops One', cursive;
-    font-weight: bolder;
+    text-transform: uppercase;
+    font-weight: 400;
     font-size: 200%;
 }
 
