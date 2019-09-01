@@ -38,6 +38,13 @@
 # But no ...
 
 ---
+{state: light center middle}
+# But yes ...
+
+---
+{background-image: pwa/background-vicky.png}
+
+---
 {state: light center}
 # What does PWA mean?
 - Manifest file for theming
@@ -52,8 +59,6 @@
 - ~~Service worker~~
 - ~~Push notifications~~
 - Offline site
-
-
 
 ---
 {state: dark}
@@ -290,31 +295,6 @@
     - PHP (f.i. for a Laravel app)
 - Why?
     - Reusability of components and PWA-backends
-
----
-{state: city main center middle}
-# And now you wait
-### if you are only a Magento developer?
-
----
-{state: dark}
-# What can we do NOW?
-~ Ask extension providers to:
-    - Build GraphQL endpoints for queries & mutations
-    - Supply sample React components for those endpoints
-    - Refactor monolithic module in smaller single-purpose modules
-~ Ask PWA providers to:
-    - Support UPWARD standard
-    - Examples: DEITY, Vue StoreFront, FrontCommerce
-~ Ask payment (and shipment) providers to:
-    - Supply NodeJS client (and samples)
-    - Preferably supply sample React components
-    - Feature async payment for trusted customers
-~ Ask the Magento PWA Studio team to:
-    - Re-activate `extension.json` (or something else layout-like)
-    - Be clear on the extension points (and extensibility) of Venia
-~ Wait for some really smart Magento folks to complete the GraphQl API
-    - Or join them on Slack and GitHub!
 
 ---
 {state: bordered}
