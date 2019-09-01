@@ -2,18 +2,18 @@
  * @import 'meetmagento.css';
  */
 @import 'reveal/include-generic.css';
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
-@import url('https://fonts.googleapis.com/css?family=Smokum');
-@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
 
 body {
     font-family: "Roboto Condensed", Arial;
     font-size: 160%;
 }
 
-.main .slides h1 {
-    font-family: 'Zilla Slab Highlight', cursive;
-    font-weight: 800;
+.main .reveal h1 {
+    font-family: 'Black Ops One', cursive;
+    font-weight: 400;
+    font-size: 200%;
 }
 
 .main .reveal .backgrounds .slide-background {
@@ -91,7 +91,7 @@ body {
 .garden3 .reveal h1,
 .city .reveal h1,
 .mountains .reveal h1 {
-    font-family: 'Zilla Slab Highlight', cursive;
+    font-family: 'Black Ops One', cursive;
     font-weight: bolder;
     font-size: 400%;
 }
@@ -101,7 +101,7 @@ body {
 .garden3 .reveal h3,
 .city .reveal h3,
 .mountains .reveal h3 {
-    font-family: 'Zilla Slab Highlight', cursive;
+    font-family: 'Black Ops One', cursive;
     font-weight: bolder;
     font-size: 200%;
 }
