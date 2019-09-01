@@ -46,7 +46,7 @@
 ### Vicky Pollard - Little Britain
 
 ---
-{state: light center}
+{state: light}
 # What does PWA mean?
 - Manifest file for theming
 - Service worker
@@ -62,7 +62,7 @@
 - Offline site
 
 ---
-{state: light center}
+{background-image: pwa/background-vicky.png}
 # PWA is not about merchants
 
 
