@@ -34,8 +34,16 @@
 # YES!
 
 ---
-{state: light main center middle}
+{state: light center middle}
 # But no
+
+---
+{state: light center}
+# What does PWA mean?
+- Manifest file for theming
+- Service worker
+- Push notifications
+- Offline site
 
 ---
 {state: dark center middle}
