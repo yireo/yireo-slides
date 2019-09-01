@@ -91,7 +91,7 @@ body {
 .garden3 .reveal h1,
 .city .reveal h1,
 .mountains .reveal h1 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Zilla Slab Highlight', cursive;
     font-weight: bolder;
     font-size: 400%;
     text-shadow: 0.07em 0 10px #306038, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #184c18, 0 -0.07em 10px #2d8f2d;
@@ -102,7 +102,7 @@ body {
 .garden3 .reveal h3,
 .city .reveal h3,
 .mountains .reveal h3 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Zilla Slab Highlight', cursive;
     font-weight: bolder;
     font-size: 200%;
     letter-spacing: 0.1em;

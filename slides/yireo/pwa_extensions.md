@@ -13,7 +13,6 @@
 ~ Organizer of usergroups, hackathons
 ~ Magento Master 2017-2019 Mover
 ~ Member of ExtDN (Magento Ext Dev Network)
-~ Grew tired of being called Knockout Jisse
 ~ Promoter of PWA something
 
 ---
