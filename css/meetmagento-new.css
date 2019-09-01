@@ -59,7 +59,7 @@ body {
 }
 
 .garden .reveal .backgrounds .slide-background .slide-background-content {
-    background-image: url("/images/pwa/background-garden.png");
+    background-image: url("/images/pwa/background-skyline2.jpg");
 }
 
 .garden2 .reveal .backgrounds .slide-background {
@@ -94,7 +94,6 @@ body {
     font-family: 'Zilla Slab Highlight', cursive;
     font-weight: bolder;
     font-size: 400%;
-    text-shadow: 0.07em 0 10px #306038, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #184c18, 0 -0.07em 10px #2d8f2d;
 }
 
 .garden .reveal h3,
@@ -106,7 +105,6 @@ body {
     font-weight: bolder;
     font-size: 200%;
     letter-spacing: 0.1em;
-    text-shadow: 0.07em 0 10px #306038, 0 0.07em 10px #2d8f2d, -0.07em 0 10px #184c18, 0 -0.07em 10px #2d8f2d;
 }
 
 
