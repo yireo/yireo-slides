@@ -13,6 +13,7 @@ body {
 .main .reveal h1 {
     font-family: 'Black Ops One', cursive;
     text-transform: uppercase;
+    text-shadow: 2px 4px 3px black;
     font-weight: 400;
     font-size: 220%;
 }
