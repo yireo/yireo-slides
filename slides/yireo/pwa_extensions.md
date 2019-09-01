@@ -129,14 +129,15 @@
 ~ Within the current frontend: jQuery
 
 ---
-{state: city main center middle}
+{background-image: pwa/background-factory.jpg}
+{state: main center middle}
 # Refactor modules
 
 ---
 {state: dark}
 # Strategy of refactoring
 ~ Make your code solid
-    - Document your dependencies in `composer.json` (?) and `module.xml`
+    - Document your dependencies in `composer.json` and `module.xml`
 ~ Split up your current extension
     - `Foobar` - Meta-package or core package
     - `FoobarApi` - API interfaces, extension points
