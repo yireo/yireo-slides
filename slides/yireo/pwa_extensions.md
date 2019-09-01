@@ -62,9 +62,9 @@
 - Offline site
 
 ---
-{background-image: pwa/background-vicky.png}
+{state: center middle}
+{background-image: pwa/background-vicky-shocked.jpg}
 # PWA is not about merchants
-
 
 ---
 {state: dark}
