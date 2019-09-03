@@ -204,8 +204,8 @@ A query is easy to put together:
 # Actionable items
 - For merchants
 - For system integrators
+- For Magento (Adobe)
 - For extension providers
-- For Adobe / Magento itself
 
 ---
 {state: dark}
@@ -219,7 +219,17 @@ A query is easy to put together:
 
 ---
 {state: dark}
-# Actionable items for 
+# Actionable items for system integrators
+- Do not promote the marketing stuff of PWA
+- 
+
+---
+{state: dark}
+# Actionable items for Magento
+- Separate logic from output
+    - Venia UI versus Redux/Apollo layer
+- Allow for extensibility
+    - Especially in the checkout
 
 ---
 {state: dark}
