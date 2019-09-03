@@ -33,7 +33,8 @@
 # Is Magento ready for PWA?
 
 ---
-{state: garden3 main center middle}
+{background-image: pwa/background-chernobyl.jpg}
+{state: main center middle}
 # YES!
 
 ---
@@ -92,8 +93,9 @@
 - Faster development time
 
 ---
-{state: main center middle}
-# So why are Magento extensions not PWA ready yet?
+{state: dark center middle}
+# So why are Magento extensions 
+# not PWA ready yet?
 
 ---
 {background-image: pwa/background-vicky.png}
