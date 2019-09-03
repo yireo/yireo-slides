@@ -274,10 +274,12 @@ A query is easy to put together:
     - If you like VueStoreFront
     - Or if you want to make money from VueStoreFront fans as well
 ~ Communicate your PWA readiness
+    - A simple `PWA.md` doc with a few comments
+    - Perhaps stating nothing is needed
 
 ---
-{state: bordered}
-{background-image: mm18pl/ross-kemp-folded.jpg}
-# Folded together for you
+{state: main dark}
+{background-image: pwa/background-new-york.jpg}
+# Because we are ready
+# for PWA
 ## slides.yireo.com/yireo/pwa_extensions
-Kudos to Ross-Kemp-Folded
