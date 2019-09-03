@@ -99,9 +99,13 @@
 {state: dark}
 
 ---
+{state: dark center middle}
+# What is needed?
+
+---
 {background-image: pwa/background-car.jpg}
 {state: main center middle}
-# What is needed?
+# Something GraphQL
 
 ---
 {state: dark}
@@ -135,7 +139,7 @@ A query is easy to put together:
 ---
 {background-image: pwa/background-factory.jpg}
 {state: main center middle}
-# Refactor modules
+# Something refactoring
 
 ---
 {state: dark}
