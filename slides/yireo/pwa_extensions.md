@@ -92,6 +92,10 @@
 # So why are Magento extensions not PWA ready yet?
 
 ---
+{background-image: pwa/background-vicky.png}
+# Dunno
+
+---
 {state: dark}
 
 ---
