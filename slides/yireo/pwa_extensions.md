@@ -235,86 +235,16 @@ A query is easy to put together:
 - Separate logic from output
     - Venia UI versus Redux/Apollo layer
 - Allow for extensibility
-    - Patterns for creating 
+    - Patterns for presentational versus 
 - Especially in the checkout
 
 ---
-{state: garden3 main center middle}
-### the hype:
-# Is Magento PWA ready?
-
----
 {state: dark}
-# Current state of Magento PWA Studio
-~ Magento PWA Studio is at version 2.1.0
-    - Working catalog
-    - Working customer login
-    - Working add-to-cart
-    - Working checkout with payment and shipping
-~ But: Venia is a PROOF OF CONCEPT
-~ But: REST-hacks to get things working
-~ But: No selection of country yet
-~ But: Braintree is only payment option
-~ But: No selection for shipment provider
-~ One possible reason: GraphQL API is not complete yet
-
----
-{state: dark}
-# Current state of GraphQL
-~ Product, category, CMS, customer
-~ Checkout slowly beginning to be covered
-    - Empty cart
-    - Authentication
-    - Basic Checkout end-to-end flow
-~ Magento 2.3.2 will give us many checkout endpoints
-~ Full coverage is expected towards Q4 2019 / Q1 2020
-    - Adding Configurable Products to cart
-    - Advanced payment gateways
-~ It is done when it is done
-
----
-{state: city main center middle}
-# It is in progress
-### but where and when do extensions fit in?
-
----
-{state: dark}
-# Timeline for Magento PWA Studio
-~ Build a proof-of-concept Venia theme
-~ Support for all GraphQL endpoints
-~ Move components to Peregrine library
-~ Think about extensibility
-
----
-{state: dark}
-# General advice for extension providers
+# Actionable items for extension vendors
 ~ Build GraphQL endpoints
-~ Supply sample React components (`create-react-app`)
-~ Possibly supply sample Vue components
+~ Supply sample React components (`create-react-app`?)
+~ Possibly supply sample Vue components (if you like VSF)
 ~ Communicate your PWA readiness
-
----
-{state: dark}
-# Alternative for payment gateways
-~ Build it yourself
-    - Form handling, AJAX exchange, callback URLs
-~ Rely on NodeJS client offered by payment provider
-    - Remote API, authentication, procedure
-
----
-{state: dark}
-# UPWARD
-- Proxy between PWA & Magento
-    - Or: A middle tier service layer between browser & server
-- Unified Progressive Web App Response Definition
-    - Mapping of properties, functions & data
-    - No state
-- Defined in YAML
-- Multiple connectors available
-    - NodeJS (f.i. for React, Vue)
-    - PHP (f.i. for a Laravel app)
-- Why?
-    - Reusability of components and PWA-backends
 
 ---
 {state: bordered}
