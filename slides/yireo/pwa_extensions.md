@@ -175,8 +175,8 @@
     - Example: `Yireo_ReactMinicart`
 
 ---
-{state: mountains main center middle}
-# Which extensions need to change
+{state: main center middle}
+### Which extensions need to change
 ### to support a PWA platform?
 
 ---
