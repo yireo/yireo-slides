@@ -203,8 +203,23 @@ A query is easy to put together:
 {state: dark}
 # Actionable items
 - For merchants
-- For 
+- For system integrators
+- For extension providers
 - For Adobe / Magento itself
+
+---
+{state: dark}
+# Actionable items for merchants
+- Understand PWA without the marketing stuff
+- Realize that the current M2 frontend is doomed
+- Realize that the new headless approach is the future
+- Determine when you want to invest
+    - The current frontend makes both extensions and custom work more expensive
+    - The new frontend requires more custom work, but is dead-easy
+
+---
+{state: dark}
+# Actionable items for 
 
 ---
 {state: dark}
