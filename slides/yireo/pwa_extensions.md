@@ -11,7 +11,7 @@
 ~ Trainer of Magento 2 developers
 ~ Creator of MageTestFest & Reacticon
 ~ Organizer of usergroups, hackathons
-~ Magento Master 2017-2019 Mover
+~ Magento Master 2017/2018/2019 Mover
 ~ Member of ExtDN (Magento Ext Dev Network)
 ~ Promoter of PWA something
 
@@ -25,8 +25,8 @@
 # Painfully Wishful Acronym
 
 ---
-{state: main center middle}
-# So why are Magento extensions not PWA ready yet?
+{state: dark center middle}
+# Is PWA ready?
 
 ---
 {state: garden3 main center middle}
@@ -187,12 +187,12 @@ A query is easy to put together:
     - Example: `Yireo_ReactMinicart`
 
 ---
-{state: main center middle}
+{state: light center middle}
 ### So, providing a GraphQL endpoint
 ### plus a React component is pretty easy
 
 ---
-{state: main center middle}
+{state: light center middle}
 ### So, then we wait
 
 ---
