@@ -93,7 +93,7 @@
 
 ---
 {background-image: pwa/background-vicky.png}
-# Dunno
+### Dunno
 
 ---
 {state: dark}
@@ -101,29 +101,29 @@
 ---
 {background-image: pwa/background-car.jpg}
 {state: main center middle}
-# A bit on GraphQL
+# What is needed?
 
 ---
 {state: dark}
-# GraphQL is easy (server-side)
+# GraphQL (server-side)
 ~ GraphQL is the future of the API
+    - Definitely when it comes to PWA solutions
 ~ It is possible to create your own GraphQL endpoint
     - Query
     - Mutation
-~ Just add 2 files
+~ Just add 2 files to your module
     - `schema.graphqls`
     - PHP class with `resolver()` method
 
 ---
 {state: dark}
-# GraphQL is easy (client-side)
+# GraphQL (client-side)
+A query is easy to put together:
 ```json
 {
   products(search: "Hood") {
     items {
-      id
-      sku
-      name
+      id, sku, name
   }
 }
 ```
