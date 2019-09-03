@@ -184,12 +184,13 @@ A query is easy to put together:
 
 ---
 {state: main center middle}
-### Which extensions need to change
-### to support a PWA platform?
+### So, providing a GraphQL endpoint
+### plus a React component is pretty easy
 
 ---
 {state: dark}
-# Headless changes things a lot
+# My vision of the future
+~ Headless will fundamentally change Magento
 ~ Backend logic remains the same
 ~ Frontend changes dramatically
     - People will use React or Vue or something else
@@ -200,11 +201,10 @@ A query is easy to put together:
 
 ---
 {state: dark}
-# What kind of extensions are there?
-- Frontend fluff
-- Connections with external systems
-- Marketing tools
-- Checkout-based extensions
+# Actionable items
+- For merchants
+- For 
+- For Adobe / Magento itself
 
 ---
 {state: dark}
