@@ -266,8 +266,13 @@ A query is easy to put together:
 {state: dark}
 # Actionable items for extension vendors
 ~ Build GraphQL endpoints
-~ Supply sample React components (`create-react-app`?)
-~ Possibly supply sample Vue components (if you like VSF)
+    - Separate module with a composer dependency for Magento 2.3
+~ Supply sample React components
+    - Stand-alone or shipped with `create-react-app`
+    - Public NPM packages or a simple ZIP
+~ Possibly supply sample Vue components
+    - If you like VueStoreFront
+    - Or if you want to make money from VueStoreFront fans as well
 ~ Communicate your PWA readiness
 
 ---
