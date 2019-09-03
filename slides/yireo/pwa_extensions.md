@@ -143,6 +143,9 @@ A query is easy to put together:
 ~ Within the current frontend: jQuery
 
 ---
+{state: dark}
+
+---
 {background-image: pwa/background-factory.jpg}
 {state: main center middle}
 # Something refactoring
@@ -189,6 +192,9 @@ A query is easy to put together:
     - Example: `Yireo_ReactMinicart`
 
 ---
+{state: dark}
+
+---
 {state: light center middle}
 ### So, providing a GraphQL endpoint
 ### plus a React component is pretty easy
@@ -213,7 +219,7 @@ A query is easy to put together:
     - Ready-made React or Vue components based on GraphQl endpoints
 
 ---
-{state: main center middle}
+{state: light center middle}
 ### How to change from passive into active?
 
 ---
@@ -261,11 +267,11 @@ A query is easy to put together:
     - Hooks for discounts, steps, etcetera
 
 ---
-{state: main center middle}
+{state: light center middle}
 ### And then the extension providers
 
 ---
-{state: main center middle}
+{state: light center middle}
 ### They are waiting
 
 ---
@@ -282,6 +288,14 @@ A query is easy to put together:
 ~ Communicate your PWA readiness
     - A simple `PWA.md` doc with a few comments
     - Perhaps stating nothing is needed
+
+---
+{state: light center middle}
+### Stop waiting
+
+---
+{state: light center middle}
+### Start playing
 
 ---
 {state: main dark center middle}
