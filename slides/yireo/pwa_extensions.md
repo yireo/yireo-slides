@@ -221,7 +221,13 @@ A query is easy to put together:
 {state: dark}
 # Actionable items for system integrators
 - Do not promote the marketing stuff of PWA
-- 
+- Be realistic about the current M2 frontend being doomed
+- Be realistic about the new headless being the future
+- Start playing with React or Vue
+- Start playing with PWA Studio, DEITY or VueStoreFront
+- Realize that you will no longer be a *Magento specialist*
+    - Because there is also React, Vue, Redis, MySQL, ElasticSearch, Varnish, RabbitMQ, etcetera
+    - You are a specialist of a broader e-commerce stack
 
 ---
 {state: dark}
