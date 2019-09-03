@@ -245,11 +245,22 @@ A query is easy to put together:
 ---
 {state: dark}
 # Actionable items for Magento
-- Separate logic from output
+~ Separate logic from output
     - Venia UI versus Redux/Apollo layer
-- Allow for extensibility
+~ Allow for extensibility
     - Patterns for presentational versus 
-- Especially in the checkout
+~ Especially in the checkout
+    - Patterns for payment providers
+    - Patterns for shipment providers
+    - Hooks for discounts, steps, etcetera
+
+---
+{state: main center middle}
+### And then the extension providers
+
+---
+{state: main center middle}
+### They are waiting
 
 ---
 {state: dark}
