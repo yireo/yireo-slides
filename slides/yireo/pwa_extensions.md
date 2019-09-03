@@ -221,22 +221,24 @@ A query is easy to put together:
 ---
 {state: dark}
 # Actionable items for merchants
-- Understand PWA without the marketing stuff
-- Realize that the current M2 frontend is doomed
-- Realize that the new headless approach is the future
-- Determine when you want to invest
+~ Understand PWA without the marketing stuff
+~ Realize that the current M2 frontend is doomed
+~ Realize that the new headless approach is the future
+~ Determine when you want to invest
     - The current frontend makes both extensions and custom work more expensive
-    - The new frontend requires more custom work, but is dead-easy
+    - The new frontend requires more custom work, but is much easier to work with
 
 ---
 {state: dark}
 # Actionable items for system integrators
-- Do not promote the marketing stuff of PWA
-- Be realistic about the current M2 frontend being doomed
-- Be realistic about the new headless being the future
-- Start playing with React or Vue
-- Start playing with PWA Studio, DEITY or VueStoreFront
-- Realize that you will no longer be a *Magento specialist*
+~ Do not promote the marketing stuff of PWA
+~ Be realistic about the current M2 frontend being doomed
+~ Be realistic about the new headless being the future
+~ Get started with headless technology
+    - Start playing with React or Vue
+    - Start playing with PWA Studio, DEITY or VueStoreFront
+    - Do not build your own PWA solution
+~ Realize that you will no longer be a "Magento specialist"
     - Because there is also React, Vue, Redis, MySQL, ElasticSearch, Varnish, RabbitMQ, etcetera
     - You are a specialist of a broader e-commerce stack
 
