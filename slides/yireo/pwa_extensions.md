@@ -188,8 +188,15 @@ A query is easy to put together:
 ### plus a React component is pretty easy
 
 ---
+{state: main center middle}
+### So, then we wait
+
+---
 {state: dark}
-# My vision of the future
+
+---
+{state: dark}
+# My personal vision of the future
 ~ Headless will fundamentally change Magento
 ~ Backend logic remains the same
 ~ Frontend changes dramatically
@@ -198,6 +205,10 @@ A query is easy to put together:
     - Get started with React and/or Vue and you will see how easy it is
 ~ And equally, extension developers can easily build stuff
     - Ready-made React or Vue components based on GraphQl endpoints
+
+---
+{state: main center middle}
+### How to change from passive into active?
 
 ---
 {state: dark}
