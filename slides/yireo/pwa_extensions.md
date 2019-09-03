@@ -25,6 +25,10 @@
 # Painfully Wishful Acronym
 
 ---
+{state: main center middle}
+# So why are Magento extensions not PWA ready yet?
+
+---
 {state: garden3 main center middle}
 # Is Magento ready for PWA?
 
@@ -278,8 +282,7 @@ A query is easy to put together:
     - Perhaps stating nothing is needed
 
 ---
-{state: main dark}
+{state: main dark center middle}
 {background-image: pwa/background-new-york.jpg}
-# Because we are ready
-# for PWA
+# We are ready for PWA
 ## slides.yireo.com/yireo/pwa_extensions
