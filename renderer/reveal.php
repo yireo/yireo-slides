@@ -31,7 +31,7 @@ $googleFonts[] = 'Open+Sans';
     <base href="<?php echo $baseHref; ?>">
     <title><?php echo $definition->getTitle(); ?></title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <link href="https://fonts.googleapis.com/css?family=<?= implode('|', $googleFonts) ?>>&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=<?= implode('|', $googleFonts) ?>&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/style.css"/>
     <?php if (isset($_GET['print-pdf'])) : ?>
         <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/print.css"/>
