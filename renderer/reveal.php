@@ -29,7 +29,6 @@ $rootUrl = '';
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/style.css"/>
     <?php if (isset($_GET['print-pdf'])) : ?>
-        <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/print.css">
         <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/print.css"/>
     <?php endif; ?>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
@@ -39,7 +38,7 @@ $rootUrl = '';
         <link rel="preload" href="<?= $imageUrlPrefix . $image ?>" as="image">
     <?php endforeach; ?>
 </head>
-<body>
+<body class="<?= $style ?>">
 <div class="reveal">
     <div class="slides">
         <?php echo $content; ?>
