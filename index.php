@@ -39,7 +39,7 @@ $rootUrl = '';
     <title>Yireo Slides Repository</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/yireo.min.css" />
-    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/yireo.custom.css" />
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/style.css" />
   </head>
   <body>
     <div class="container container-heading">
