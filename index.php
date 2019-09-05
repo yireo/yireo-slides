@@ -11,6 +11,8 @@ require_once 'vendor/autoload.php';
 
 // Request parsing
 $rootUrl = preg_replace('/index\.php(.*)$/', '', $_SERVER['PHP_SELF']);
+$rootUrl = '';
+
 $request = substr_replace($_SERVER['REQUEST_URI'], '', 0, strlen($rootUrl));
 $request = preg_replace('/\?(.*)$/', '', $request);
 
