@@ -17,6 +17,7 @@ if (is_dir($imageDir)) {
 }
 
 $content = $slide->getContent();
+$baseHref = '';
 ?>
 <!DOCTYPE html>
 <html>

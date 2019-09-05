@@ -11,7 +11,6 @@ require_once 'vendor/autoload.php';
 
 // Request parsing
 $rootUrl = preg_replace('/index\.php(.*)$/', '', $_SERVER['PHP_SELF']);
-$rootUrl = '';
 
 $request = substr_replace($_SERVER['REQUEST_URI'], '', 0, strlen($rootUrl));
 $request = preg_replace('/\?(.*)$/', '', $request);
@@ -30,11 +29,13 @@ if (!empty($request)) {
     include_once 'renderer/'.$definition->getRenderer().'.php';
     exit;
 }
+
+$rootUrl = '';
 ?>
 <!DOCTYPE html>
 <html>
   <head>
-    <base href="<?php echo $request; ?>">
+    <base href="/">
     <title>Yireo Slides Repository</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/yireo.min.css" />
