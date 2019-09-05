@@ -10,7 +10,7 @@ gulp.task('less', function () {
 });
 
 gulp.task('watch', function() {
-    gulp.watch('./*.less', ['less']);
+    return gulp.watch('./*.less', ['less']);
 });
 
-gulp.task('default', ['watch']);
+gulp.task('default', ['less', 'watch']);
