@@ -32,8 +32,8 @@ $rootUrl = '';
         <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/print.css"/>
     <?php endif; ?>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/others/highlight-js.min.css">
-    <script src="<?php echo $rootUrl; ?>js/others/highlight.min.js"></script>
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/highlight-js.min.css">
+    <script src="<?php echo $rootUrl; ?>js/highlight.min.js"></script>
     <?php foreach($images as $image) : ?>
         <link rel="preload" href="<?= $imageUrlPrefix . $image ?>" as="image">
     <?php endforeach; ?>
