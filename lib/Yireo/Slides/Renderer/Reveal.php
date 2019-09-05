@@ -45,7 +45,7 @@ class Reveal extends Generic implements RendererInterface
 
         if (preg_match('/\{background-image: (.*)\}/', $section, $match)) {
             $section = str_replace($match[0], '', $section);
-            $sectionAttributes[] = 'data-background-image="/images/'.$match[1].'"';
+            $sectionAttributes[] = 'data-background-image="images/'.$match[1].'"';
         }
 
         if (preg_match('/\{state: (.*)\}/', $section, $match)) {

@@ -31,9 +31,8 @@ $content = $slide->getContent();
         <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $style ?>-print.css"/>
     <?php endif; ?>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet"
-          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/others/highlight-js.min.css">
+    <script src="<?php echo $rootUrl; ?>js/others/highlight.min.js"></script>
     <?php foreach($images as $image) : ?>
         <link rel="preload" href="<?= $imageUrlPrefix . $image ?>" as="image">
     <?php endforeach; ?>
