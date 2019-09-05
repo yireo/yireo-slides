@@ -17,12 +17,14 @@ if (is_dir($imageDir)) {
 }
 
 $content = $slide->getContent();
-$baseHref = '';
+$baseHref = $rootUrl . $request;
+$baseHref = '/';
+$rootUrl = '';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <base href="<?php echo $rootUrl; ?><?php echo $request; ?>">
+    <base href="<?php echo $baseHref; ?>">
     <title><?php echo $definition->getTitle(); ?></title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/reveal.css">
