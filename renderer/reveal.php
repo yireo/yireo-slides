@@ -27,11 +27,10 @@ $rootUrl = '';
     <base href="<?php echo $baseHref; ?>">
     <title><?php echo $definition->getTitle(); ?></title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/reveal.css">
-    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $style ?>.css"/>
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/style.css"/>
     <?php if (isset($_GET['print-pdf'])) : ?>
         <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/print.css">
-        <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/<?php echo $style ?>-print.css"/>
+        <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/print.css"/>
     <?php endif; ?>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/others/highlight-js.min.css">
