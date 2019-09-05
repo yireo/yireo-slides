@@ -22,7 +22,7 @@ $baseHref = '/';
 $rootUrl = '';
 ?>
 <!DOCTYPE html>
-<html>
+<html class="<?= $style ?>">
 <head>
     <base href="<?php echo $baseHref; ?>">
     <title><?php echo $definition->getTitle(); ?></title>
@@ -38,7 +38,7 @@ $rootUrl = '';
         <link rel="preload" href="<?= $imageUrlPrefix . $image ?>" as="image">
     <?php endforeach; ?>
 </head>
-<body class="<?= $style ?>">
+<body>
 <div class="reveal">
     <div class="slides">
         <?php echo $content; ?>
