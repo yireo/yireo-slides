@@ -4,9 +4,12 @@ $slideGroups = [
         'group' => 'Magento events',
         'style' => 'meetmagento',
         'slides' => [
-            ['file' => 'yireo/pwa_extensions', 'title' => 'How Magento extensions fit into PWA (MeetMagento NYC)', 'style' => 'meetmagento-new', 'renderer' => 'reveal'],
+            ['file' => 'yireo/pwa_extensions-mm19pl', 'title' => 'How Magento extensions fit into PWA (MeetMagento Poland 2019)', 'style' => 'mm19pl', 'renderer' => 'reveal'],
+            ['file' => 'yireo/pwa_extensions', 'title' => 'How Magento extensions fit into PWA (MeetMagento NYC 2019)', 'style' => 'meetmagento-new', 'renderer' => 'reveal'],
             ['file' => 'yireo/enforce_better_extensions', 'title' => 'How can we enforce better Magento extensions?
- (MageTitans NL)', 'style' => 'magetitans-nl', 'renderer' => 'reveal'],
+ (MageTitans 2019 NL)', 'style' => 'magetitans-nl', 'renderer' => 'reveal'],
+            ['file' => 'yireo/enforce_better_extensions', 'title' => 'How can we enforce better Magento extensions?
+ (MageX 2019 Austin)', 'style' => 'magex19', 'renderer' => 'reveal'],
             ['file' => 'yireo/react_to_ko', 'title' => 'Adding React components to current Knockout frontend (MageTitans UK 2018)', 'style' => 'magetitans-uk', 'renderer' => 'reveal'],
             ['file' => 'yireo/extdn_practices', 'style' => 'extdn', 'title' => 'Extension Best Practices (according to ExtDN)'],
             ['file' => 'yireo/js_testing2', 'title' => 'What to test in JS (MeetMagento Germany 2018)', 'style' => 'mm18de', 'renderer' => 'reveal'],
