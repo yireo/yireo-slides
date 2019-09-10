@@ -230,11 +230,11 @@ This is costing money.
 {state: dark middle}
 {background-image: magetitans-nl/puppy.webp}
 # Rating is hard
-## So let's focus on the bad extensions first
+## So let's focus on the really really bad extensions first
 
 ---
 {state: light middle}
-# If extensions are rated badly, still using them is straight-out stupid. But a reality check shows that people are still using bad extensions everywhere.
+# If really really bad extensions are rated so badly, still using them is straight-out stupid. But a reality check shows that people are still using bad extensions everywhere.
 
 ---
 {state: dark middle}
