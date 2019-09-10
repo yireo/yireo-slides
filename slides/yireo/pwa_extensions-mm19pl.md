@@ -1,4 +1,4 @@
-{state: opening main middle}
+{state: main middle}
 {background-image: mm19pl/cinderella.jpg}
 # How Magento extensions will fit into PWA
 ## A magical dark fairy tale
@@ -6,7 +6,7 @@
 
 ---
 {state: speaker}
-{background-image: pwa/jisse.jpg}
+{background-image: generic/jisse.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
 ~ Trainer of Magento 2 developers
@@ -17,7 +17,8 @@
 ~ Promoter of PWA something
 
 ---
-{state: garden main center middle}
+{background-image: mm19pl/garden.jpg}
+{state: main center middle}
 # PWA is ready!
 
 ---
