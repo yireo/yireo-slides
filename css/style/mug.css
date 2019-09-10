@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+div.remark-slides-area {
+  background: white url(../images/mug073-bg.png) no-repeat;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.remark-slide-content {
+  font-size: 175%;
+  line-height: 170%;
+}
+pre,
+.remark-code,
+.remark-inline-code {
+  background-color: #fde9c1 !important;
+  font-size: 80%;
+  word-break: break-all;
+}
+.hljs-googlecode .hljs {
+  font-size: 80%;
+  line-height: 140%;
+  background-color: #fde9c1 !important;
+  word-break: break-all;
+}
+li li {
+  font-size: 80%;
+}
