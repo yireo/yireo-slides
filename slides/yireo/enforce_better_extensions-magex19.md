@@ -164,7 +164,8 @@ This is costing money.
 ~ Not complying to coding standards
     - Not true for all modern X extensions
 ~ No automated tests
-    - X is now gradually implementing unit tests (and integration tests)
+    - X is now gradually implementing unit tests and integration tests
+    - X is also one of the leading 
 ~ Bad usage of `ObjectManager`
     - Last time I checked an X extension, they did all correctly
 ~ And a lot of people are happy with X
