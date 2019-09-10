@@ -1,6 +1,7 @@
 {state: opening main middle}
+{background-image: mm19pl/cinderella.jpg}
 # How Magento extensions will fit into PWA
-## aka: What are we waiting for?
+## A magical dark fairy tale
 #### by Jisse Reitsma (Yireo)
 
 ---
