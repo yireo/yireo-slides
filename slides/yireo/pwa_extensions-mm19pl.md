@@ -1,6 +1,6 @@
-{state: dirtyharry main middle}
+{state: opening main middle}
 # How Magento extensions will fit into PWA
-## aka: Do you like magic tricks? 
+## aka: What are we waiting for?
 #### by Jisse Reitsma (Yireo)
 
 ---
