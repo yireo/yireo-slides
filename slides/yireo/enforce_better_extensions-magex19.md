@@ -107,7 +107,7 @@
 ---
 {background-image: magetitans-nl/mordor.webp}
 {state: dark middle}
-# Rating: D
+# Rating: D (Mordor)
 
 ---
 {state: light}

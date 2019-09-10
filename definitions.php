@@ -12,6 +12,13 @@ $slideGroups = [
                 'renderer' => 'reveal'
             ],
             [
+                'file' => 'yireo/enforce_better_extensions-magex19',
+                'title' => 'How can we enforce better Magento extensions?
+ (MageX 2019 Austin)',
+                'style' => 'magex19',
+                'renderer' => 'reveal'
+            ],
+            [
                 'file' => 'yireo/pwa_extensions',
                 'title' => 'How Magento extensions fit into PWA (MeetMagento NYC 2019)',
                 'style' => 'meetmagento-new',
@@ -22,13 +29,6 @@ $slideGroups = [
                 'title' => 'How can we enforce better Magento extensions?
  (MageTitans 2019 NL)',
                 'style' => 'magetitans-nl',
-                'renderer' => 'reveal'
-            ],
-            [
-                'file' => 'yireo/enforce_better_extensions',
-                'title' => 'How can we enforce better Magento extensions?
- (MageX 2019 Austin)',
-                'style' => 'magex19',
                 'renderer' => 'reveal'
             ],
             [
