@@ -165,7 +165,7 @@ This is costing money.
     - Not true for all modern X extensions
 ~ No automated tests
     - X is now gradually implementing unit tests and integration tests
-    - X is also one of the leading 
+    - X is also one of the first extension vendors implementing MFTF
 ~ Bad usage of `ObjectManager`
     - Last time I checked an X extension, they did all correctly
 ~ And a lot of people are happy with X
