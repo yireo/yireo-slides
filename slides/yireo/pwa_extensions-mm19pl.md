@@ -32,7 +32,7 @@
 # Is PWA ready?
 
 ---
-{state: main center middle}
+{state: main center}
 {background-image: mm19pl/we-need-you.jpg}
 # Is Magento ready for PWA?
 
