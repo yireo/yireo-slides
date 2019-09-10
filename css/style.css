@@ -2320,6 +2320,193 @@ html.meetmagento ul {
 html.meetmagento ul li span.value {
   font-size: 60%;
 }
+body.magex19 {
+  font-family: "Roboto Condensed", Arial;
+  font-size: 150%;
+}
+body.magex19 .reveal .backgrounds .slide-background {
+  background-image: url("/images/magetitans-uk/background-main.png");
+  background-position: unset;
+  background-size: cover;
+}
+body.magex19 .divider .reveal .backgrounds .slide-background {
+  background-color: #eee;
+}
+body.magex19 .reveal {
+  padding-left: 100px;
+}
+body.magex19 .middle .reveal .slides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body.magex19 .reveal h1,
+body.magex19 .reveal h2,
+body.magex19 .reveal h3,
+body.magex19 .reveal ul,
+body.magex19 .reveal pre,
+body.magex19 .reveal p {
+  color: black;
+  text-align: left;
+  line-height: 140%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body.magex19 .reveal h1 {
+  font-size: 160%;
+  font-weight: bold;
+}
+body.magex19 .reveal h2 {
+  font-size: 130%;
+  font-weight: bold;
+}
+body.magex19 .reveal h3 {
+  font-size: 110%;
+  color: #8f8f8f;
+}
+body.magex19 .reveal ul {
+  margin-left: 30px;
+}
+body.magex19 .reveal ul span.label {
+  font-weight: bold;
+}
+body.magex19 .reveal ul span.value {
+  font-size: 80%;
+}
+body.magex19 .reveal pre {
+  background-color: #f4efec;
+  padding: 10px;
+  font-size: 90%;
+}
+body.magex19 .reveal code {
+  font-family: courier, sans-serif;
+  font-size: 90%;
+}
+body.magex19 .reveal li > code {
+  background-color: #f4f2f0;
+}
+body.magex19 .reveal div.heading {
+  text-align: center;
+  padding: 30px;
+}
+body.magex19 .reveal div.heading img {
+  max-width: 20%;
+}
+body.magex19 .main body {
+  background-color: black;
+  color: white;
+}
+body.magex19 .main .reveal {
+  margin: auto;
+  text-align: center;
+}
+body.magex19 .main .reveal section {
+  top: 40%;
+}
+body.magex19 .main .reveal h1 {
+  font-size: 240%;
+}
+body.magex19 .main .reveal h1,
+body.magex19 .main .reveal h2,
+body.magex19 .main .reveal h3,
+body.magex19 .main .reveal h4,
+body.magex19 .main .reveal ul,
+body.magex19 .main .reveal li {
+  color: white;
+}
+body.magex19 .light .reveal .backgrounds .slide-background {
+  background-image: none;
+  background-color: white;
+}
+body.magex19 .dark .reveal .backgrounds .slide-background {
+  background-image: none;
+  background-color: black;
+}
+body.magex19 .dark .reveal h1,
+body.magex19 .dark .reveal h2,
+body.magex19 .dark .reveal h3,
+body.magex19 .dark .reveal h4,
+body.magex19 .dark .reveal ul,
+body.magex19 .dark .reveal li {
+  color: white;
+}
+body.magex19 .dark .reveal code {
+  background-color: #503417;
+}
+body.magex19 .center .reveal h1,
+body.magex19 .center .reveal h2,
+body.magex19 .center .reveal h3,
+body.magex19 .center .reveal h4 {
+  text-align: center;
+}
+body.magex19 .speaker .reveal section {
+  top: 20%;
+}
+body.magex19 .speaker .reveal h1,
+body.magex19 .speaker .reveal h2,
+body.magex19 .speaker .reveal h3,
+body.magex19 .speaker .reveal ul,
+body.magex19 .speaker .reveal pre,
+body.magex19 .speaker .reveal p {
+  color: black;
+}
+body.magex19 .divider-center .reveal section {
+  top: 30%;
+}
+body.magex19 .divider .reveal h1,
+body.magex19 .divider .reveal h2,
+body.magex19 .divider .reveal h3,
+body.magex19 .divider .reveal h4 {
+  color: white;
+}
+body.magex19 .divider-bold .reveal section h1 {
+  font-weight: 900;
+  font-size: 200%;
+}
+body.magex19 .divider .reveal h1,
+body.magex19 .divider .reveal h2 {
+  text-align: center;
+  text-shadow: 1px 1px 10px #111;
+}
+body.magex19 .divider .reveal h3,
+body.magex19 .divider .reveal h4 {
+  text-align: center;
+}
+body.magex19 .blank .reveal .backgrounds .slide-background {
+  background: none;
+  background-color: black;
+}
+body.magex19 table {
+  width: 100%;
+}
+body.magex19 table td {
+  padding: 10px 60px 60px 0px !important;
+}
+body.magex19 table td img {
+  width: 100%;
+}
+body.magex19 .reveal pre {
+  white-space: pre-wrap;
+}
+body.magex19 .main .slides h1 {
+  font-family: "Kaushan Script";
+  color: #f3bf67;
+}
+body.magex19 .main .slides h4 {
+  font-style: italic;
+  text-align: left;
+  color: #f3ceaf;
+}
+body.magex19 .reveal ul ul {
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+  font-size: 80%;
+}
+body.magex19 .bordered h1,
+body.magex19 .bordered h2 {
+  text-shadow: 0 0 3px #FF0000;
+  color: white;
+}
 html.mm19pl body {
   font-family: "Roboto Condensed", Arial;
   font-size: 180%;
