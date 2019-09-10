@@ -53,7 +53,7 @@ $googleFonts[] = 'Handlee';
     </div>
     <?php if ($footer) : ?>
     <div class="footer">
-        <?php echo $content; ?>
+        <?php echo $footer; ?>
     </div>
     <?php endif; ?>
 </div>
