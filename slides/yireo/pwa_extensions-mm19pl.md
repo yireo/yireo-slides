@@ -3,6 +3,7 @@
 # How Magento extensions will fit into PWA
 ## A magical dark fairy tale
 #### by Jisse Reitsma (Yireo)
+<img src="images/mm19pl/mm19pl.png"/>
 
 ---
 {state: speaker}
