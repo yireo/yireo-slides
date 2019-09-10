@@ -1,6 +1,6 @@
 {state: dark main middle}
-## How can we enforce better Magento extensions?
-# Drop the legacy
+# How can we enforce better Magento extensions?
+## and get rid of the weak
 #### by Jisse Reitsma (Yireo)
 
 ---

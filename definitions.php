@@ -13,8 +13,8 @@ $slideGroups = [
             ],
             [
                 'file' => 'yireo/enforce_better_extensions-magex19',
-                'title' => 'How can we enforce better Magento extensions?
- (MageX 2019 Austin)',
+                'title' => 'How can we enforce better Magento extensions? (MageX 2019 Austin)',
+                'footer' => 'MageX Austin 2019 - How can we enforce better Magento extensions?',
                 'style' => 'magex19',
                 'renderer' => 'reveal'
             ],
