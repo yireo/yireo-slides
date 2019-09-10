@@ -17,11 +17,10 @@
 
 ---
 {state: light center middle}
-# ExtDN
-### https://extdn.org/
+<img src="images/generic/extdn-large.png"/>
 
 ---
-{state: light middle}
+{state: light middle center}
 # How can we enforce better Magento extensions?
 
 ---
