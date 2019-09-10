@@ -113,7 +113,7 @@
 # What is needed?
 
 ---
-{background-image: pwa/background-car.jpg}
+{background-image: mm19pl/wizard.jpg}
 {state: main center middle}
 # Something GraphQL
 
@@ -150,7 +150,7 @@ A query is easy to put together:
 {state: dark}
 
 ---
-{background-image: pwa/background-factory.jpg}
+{background-image: mm19pl/book.jpg}
 {state: main center middle}
 # Something refactoring
 
