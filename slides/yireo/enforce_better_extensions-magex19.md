@@ -308,7 +308,7 @@ This is costing money.
     - Slack channels (marketplace, phpcs, testing)
     - Promote MFTF, Integration Testing, Unit Testing and other code quality tools
     - Send comments on bad extensions to the Magento Marketplace team
-~ Help with ExtDN 
+~ Help ExtDN do its real work
     - Spread the word on good extensions
     - Spread our flyers on quality and standards
     - Feedback: Send us your poor and your weak! [jisse@yireo.com](mailto:jisse@yireo.com)
