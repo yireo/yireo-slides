@@ -277,6 +277,7 @@ This is costing money.
 ~ PWA versus monolithic
     - Drop the Knockout legacy and go PWA
     - Extension quality remains for backend only
+    - It is unsure how Magento extensions should extend React/Vue behaviour
 ~ Market is shifting
     - Small shop owners move elsewhere (Shopware, BigCommerce)
     - Serious shop owners spend more on custom development ($$$)
@@ -301,15 +302,16 @@ This is costing money.
 ~ Drop bad extensions
     - Stop using bad extensions, because they cost money
     - Call out in the community for same features but good extension instead
+    - Promote knowledge on why bad extensions are bad
 ~ Help with the relevant Magento projects
     - Magento Coding Standard (PHPCS)
     - Slack channels (marketplace, phpcs, testing)
-~ Help with ExtDN
+    - Promote MFTF, Integration Testing, Unit Testing and other code quality tools
+    - Send comments on bad extensions to the Magento Marketplace team
+~ Help with ExtDN 
     - Spread the word on good extensions
     - Spread our flyers on quality and standards
-~ Give us (ExtDN) feedback
-    - On bad extension code or bad experiences
-    - Send us your poor and your weak! [jisse@yireo.com](mailto:jisse@yireo.com)
+    - Feedback: Send us your poor and your weak! [jisse@yireo.com](mailto:jisse@yireo.com)
 
 ---
 {state: dark middle}
