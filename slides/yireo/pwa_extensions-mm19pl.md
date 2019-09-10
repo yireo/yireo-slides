@@ -303,6 +303,6 @@ A query is easy to put together:
 
 ---
 {state: main dark center middle}
-{background-image: pwa/background-new-york.jpg}
+{background-image: mm19pl/heman.jpg}
 # We are ready for PWA
-## slides.yireo.com/yireo/pwa_extensions
+## slides.yireo.com/yireo/pwa_extensions-mm19pl
