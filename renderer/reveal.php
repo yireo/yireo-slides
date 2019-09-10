@@ -25,6 +25,7 @@ $googleFonts = [];
 $googleFonts[] = 'Black+Ops+One';
 $googleFonts[] = 'Open+Sans';
 $googleFonts[] = 'Raleway';
+$googleFonts[] = 'Handlee';
 ?>
 <!DOCTYPE html>
 <html class="<?= $style ?>">

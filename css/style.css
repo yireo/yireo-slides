@@ -2317,7 +2317,7 @@ html.mm19pl body {
   font-size: 180%;
 }
 html.mm19pl.main .reveal h1 {
-  font-family: 'Black Ops One', cursive;
+  font-family: 'Handlee', cursive;
   text-transform: uppercase;
   text-shadow: 0 0 10px black;
   font-weight: 400;
@@ -2331,9 +2331,6 @@ html.mm19pl.main .reveal pre {
 }
 html.mm19pl.desert .reveal .backgrounds .slide-background {
   background: white;
-}
-html.mm19pl.opening .reveal .backgrounds .slide-background .slide-background-content {
-  background-image: url("/images/pwa/background-skyline.jpg");
 }
 html.mm19pl.desert .reveal .backgrounds .slide-background .slide-background-content {
   background-image: url("/images/pwa/background-desert.png");
@@ -2382,7 +2379,7 @@ html.mm19pl.garden2 .reveal h1,
 html.mm19pl.garden3 .reveal h1,
 html.mm19pl.city .reveal h1,
 html.mm19pl.mountains .reveal h1 {
-  font-family: 'Black Ops One', cursive;
+  font-family: 'Satisfy', cursive;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 400%;
@@ -2392,7 +2389,7 @@ html.mm19plhtml.mm19pl.garden2 .reveal h3,
 html.mm19pl.garden3 .reveal h3,
 html.mm19pl.city .reveal h3,
 html.mm19pl.mountains .reveal h3 {
-  font-family: 'Black Ops One', cursive;
+  font-family: 'Satisfy', cursive;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 200%;
