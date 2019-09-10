@@ -16,6 +16,7 @@ if (is_dir($imageDir)) {
     }
 }
 
+$footer = $definition->getFooter();
 $content = $slide->getContent();
 $baseHref = $rootUrl . $request;
 $baseHref = '/';

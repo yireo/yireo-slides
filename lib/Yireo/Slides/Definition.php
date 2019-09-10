@@ -28,6 +28,11 @@ class Definition
     private $title = '';
 
     /**
+     * @var string
+     */
+    private $footer = '';
+
+    /**
      * @var mixed|string
      */
     private $renderer = '';
@@ -51,6 +56,7 @@ class Definition
     {
         $this->file = $data['file'];
         $this->title = $data['title'];
+        $this->footer = (!empty($data['footer'])) ? $data['footer'] : '';
         $this->style = (!empty($data['style'])) ? $data['style'] : 'yireo';
         $this->renderer = (!empty($data['renderer'])) ? $data['renderer'] : 'remark';
 
@@ -107,6 +113,14 @@ class Definition
     public function getTitle(): string
     {
         return $this->title;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFooter(): string
+    {
+        return $this->footer;
     }
 
     /**
