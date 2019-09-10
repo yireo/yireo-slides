@@ -278,13 +278,11 @@ This is costing money.
     - Drop the Knockout legacy and go PWA
     - Extension quality remains for backend only
 ~ Market is shifting
-    - Small shop owners move elsewhere
-    - Serious shop owners spend more on custom development
-    - How do extensions fit into this new market?
-~ Earth quakes
-    - Because we are in Groningen
-    - And we let go of too much gas
-    ~ And we can't blame Arjen for that
+    - Small shop owners move elsewhere (Shopware, BigCommerce)
+    - Serious shop owners spend more on custom development ($$$)
+    - And how do extensions fit into this new market?
+~ Brexit
+    - Mwoahahaha
 
 ---
 {state: light}
@@ -312,19 +310,6 @@ This is costing money.
 ~ Give us (ExtDN) feedback
     - On bad extension code or bad experiences
     - Send us your poor and your weak! [jisse@yireo.com](mailto:jisse@yireo.com)
-
----
-{state: light}
-# What to do next?
-~ Do write documentation for everything, even though David says something else
-~ Magecart is open revenue sharing, Jeroen will just spread fake news
-~ Ivan, don't build your own stock keeping. Use MSI.
-~ Erwin, if you want performance, choose Shopware
-~ Sergii, you know that with headless, you don't need CI anymore
-~ Clients love everybody but they hate Bret
-~ Sander, you know React is better than Vue ...
-~ ... except for Magento 2 checkout where Vue is better (Willem)
-~ Michiel, if you weren't at MageTestFest, you don't care about testing
 
 ---
 {state: dark middle}
