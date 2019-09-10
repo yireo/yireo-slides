@@ -2344,7 +2344,8 @@ html.mm19pl.main .reveal h2,
 html.mm19pl.main .reveal h3,
 html.mm19pl.main .reveal h4,
 html.mm19pl.main .reveal ul,
-html.mm19pl.main .reveal li {
+html.mm19pl.main .reveal li,
+html.mm19pl.main .footer {
   color: white;
 }
 html.mm19pl.blank .reveal .backgrounds .slide-background {

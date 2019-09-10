@@ -7,7 +7,7 @@ $slideGroups = [
             [
                 'file' => 'yireo/pwa_extensions-mm19pl',
                 'title' => 'How Magento extensions fit into PWA (MeetMagento Poland 2019)',
-                'footer' => 'MeetMagento Poland 2019 - Katowice',
+                'footer' => '#MM19PL - Katowice',
                 'style' => 'mm19pl',
                 'renderer' => 'reveal'
             ],
