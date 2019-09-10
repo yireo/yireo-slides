@@ -4,25 +4,77 @@ $slideGroups = [
         'group' => 'Magento events',
         'style' => 'meetmagento',
         'slides' => [
-            ['file' => 'yireo/pwa_extensions-mm19pl', 'title' => 'How Magento extensions fit into PWA (MeetMagento Poland 2019)', 'style' => 'mm19pl', 'renderer' => 'reveal'],
-            ['file' => 'yireo/pwa_extensions', 'title' => 'How Magento extensions fit into PWA (MeetMagento NYC 2019)', 'style' => 'meetmagento-new', 'renderer' => 'reveal'],
-            ['file' => 'yireo/enforce_better_extensions', 'title' => 'How can we enforce better Magento extensions?
- (MageTitans 2019 NL)', 'style' => 'magetitans-nl', 'renderer' => 'reveal'],
-            ['file' => 'yireo/enforce_better_extensions', 'title' => 'How can we enforce better Magento extensions?
- (MageX 2019 Austin)', 'style' => 'magex19', 'renderer' => 'reveal'],
-            ['file' => 'yireo/react_to_ko', 'title' => 'Adding React components to current Knockout frontend (MageTitans UK 2018)', 'style' => 'magetitans-uk', 'renderer' => 'reveal'],
-            ['file' => 'yireo/extdn_practices', 'style' => 'extdn', 'title' => 'Extension Best Practices (according to ExtDN)'],
-            ['file' => 'yireo/js_testing2', 'title' => 'What to test in JS (MeetMagento Germany 2018)', 'style' => 'mm18de', 'renderer' => 'reveal'],
-            ['file' => 'yireo/graphql_react', 'title' => 'Connecting GraphQL (MeetMagento HR 2018', 'style' => 'mm18uk', 'renderer' => 'reveal'],
-            ['file' => 'yireo/js_testing', 'title' => 'What to test in JS (MeetMagento Italy 2018)', 'style' => 'mm18it', 'renderer' => 'reveal'],
+            [
+                'file' => 'yireo/pwa_extensions-mm19pl',
+                'title' => 'How Magento extensions fit into PWA (MeetMagento Poland 2019)',
+                'footer' => 'MeetMagento Poland 2019 - Katowice',
+                'style' => 'mm19pl',
+                'renderer' => 'reveal'
+            ],
+            [
+                'file' => 'yireo/pwa_extensions',
+                'title' => 'How Magento extensions fit into PWA (MeetMagento NYC 2019)',
+                'style' => 'meetmagento-new',
+                'renderer' => 'reveal'
+            ],
+            [
+                'file' => 'yireo/enforce_better_extensions',
+                'title' => 'How can we enforce better Magento extensions?
+ (MageTitans 2019 NL)',
+                'style' => 'magetitans-nl',
+                'renderer' => 'reveal'
+            ],
+            [
+                'file' => 'yireo/enforce_better_extensions',
+                'title' => 'How can we enforce better Magento extensions?
+ (MageX 2019 Austin)',
+                'style' => 'magex19',
+                'renderer' => 'reveal'
+            ],
+            [
+                'file' => 'yireo/react_to_ko',
+                'title' => 'Adding React components to current Knockout frontend (MageTitans UK 2018)',
+                'style' => 'magetitans-uk',
+                'renderer' => 'reveal'
+            ],
+            [
+                'file' => 'yireo/extdn_practices',
+                'style' => 'extdn',
+                'title' => 'Extension Best Practices (according to ExtDN)'
+            ],
+            [
+                'file' => 'yireo/js_testing2',
+                'title' => 'What to test in JS (MeetMagento Germany 2018)',
+                'style' => 'mm18de',
+                'renderer' => 'reveal'
+            ],
+            [
+                'file' => 'yireo/graphql_react',
+                'title' => 'Connecting GraphQL (MeetMagento HR 2018',
+                'style' => 'mm18uk',
+                'renderer' => 'reveal'
+            ],
+            [
+                'file' => 'yireo/js_testing',
+                'title' => 'What to test in JS (MeetMagento Italy 2018)',
+                'style' => 'mm18it',
+                'renderer' => 'reveal'
+            ],
             ['file' => 'yireo/pwa_is_the_end', 'title' => 'PWA: Is this the end? (ChristMage 2017 Aachen)'],
             ['file' => 'yireo/messing_up_di', 'title' => 'Messing Up DI (MeetMagento 2017 Belgium)'],
             ['file' => 'yireo/m2_linking-components', 'title' => 'M2 Linking JS Components (MeetMagento 2017 Poland)'],
-            ['file' => 'yireo/m2_private_content', 'title' => 'M2 Private Data via JS Components (MeetMagento 2017 Netherlands)'],
+            [
+                'file' => 'yireo/m2_private_content',
+                'title' => 'M2 Private Data via JS Components (MeetMagento 2017 Netherlands)'
+            ],
             ['file' => 'yireo/imagine2017_en', 'title' => 'Imagine 2017 review (EN)'],
             ['file' => 'yireo/m2_for-all-of-us', 'title' => 'Magento 2 - for all of us', 'footer' => 0, 'header' => 0],
             ['file' => 'yireo/m2s_uicomponents', 'title' => 'Magento 2 KnockoutJS & RequireJS in 1 component'],
-            ['file' => 'yireo/running_m2', 'title' => 'Running Magento 2 (Magento Developers Paradise 2016)', 'public' => 1],
+            [
+                'file' => 'yireo/running_m2',
+                'title' => 'Running Magento 2 (Magento Developers Paradise 2016)',
+                'public' => 1
+            ],
         ],
     ],
     [

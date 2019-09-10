@@ -50,6 +50,11 @@ $googleFonts[] = 'Handlee';
     <div class="slides">
         <?php echo $content; ?>
     </div>
+    <?php if ($footer) : ?>
+    <div class="footer">
+        <?php echo $content; ?>
+    </div>
+    <?php endif; ?>
 </div>
 <script src="<?php echo $rootUrl; ?>js/reveal.js"></script>
 <script src="<?php echo $rootUrl; ?>js/reveal/marked.js"></script>
