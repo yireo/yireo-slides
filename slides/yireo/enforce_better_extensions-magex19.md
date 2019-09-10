@@ -1,4 +1,5 @@
 {state: dark main middle}
+{background-image: magex19/opening.jpg}
 # How can we enforce better Magento extensions?
 ## and get rid of the weak
 #### by Jisse Reitsma (Yireo)
