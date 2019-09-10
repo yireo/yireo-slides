@@ -22,7 +22,8 @@
 # PWA is ready!
 
 ---
-{state: desert2 main center middle}
+{state: main center middle}
+{background-image: mm19pl/evil-castle.jpg}
 ### Progressive Web Apps or
 # Painfully Wishful Acronym
 
