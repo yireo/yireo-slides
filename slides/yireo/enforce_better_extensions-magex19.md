@@ -6,7 +6,7 @@
 
 ---
 {state: speaker}
-{background-image: pwa/jisse.jpg}
+{background-image: generic/jisse.jpg}
 # );sse Reitsma
 ~ Founder of Yireo
 ~ Trainer of Magento 2 developers
