@@ -156,6 +156,10 @@ A query is easy to put together:
 # Something refactoring
 
 ---
+# Pasta reference
+
+
+---
 {state: dark}
 # Strategy of refactoring
 ~ Make your code solid
