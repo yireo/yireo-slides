@@ -161,12 +161,12 @@ A query is easy to put together:
 
 ---
 # Pasta reference
-- Spaghetti: coding
-- Lasagna: monolith
-- ...: isolated services
+- Spaghetti - coding
+- Lasagna - monolith
+- ... - isolated services
 
 ---
-{background-image: mm19pl/pasta.jpg}
+{background-image: mm19pl/pasta.png}
 
 ---
 {state: dark}
