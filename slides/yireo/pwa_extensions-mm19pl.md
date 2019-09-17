@@ -18,6 +18,10 @@
 ~ Promoter of PWA something
 
 ---
+{state: dark center middle}
+# Something PWA
+
+---
 {background-image: mm19pl/garden.jpg}
 {state: main center middle}
 # PWA is ready!
@@ -157,9 +161,12 @@ A query is easy to put together:
 
 ---
 # Pasta reference
-- Spaghetti coding
-- Lasagna monolith
-- 
+- Spaghetti: coding
+- Lasagna: monolith
+- ...: isolated services
+
+---
+{background-image: mm19pl/pasta.jpg}
 
 ---
 {state: dark}
