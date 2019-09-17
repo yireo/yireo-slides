@@ -160,7 +160,7 @@ A query is easy to put together:
 # Strategy of refactoring
 ~ Make your code solid
     - Document your dependencies in `composer.json` and `module.xml`
-~ Split up your current extension
+~ Split up your current extension (modulegeddon)
     - `Foobar` - Meta-package or core package
     - `FoobarApi` - API interfaces, extension points
     - `FoobarAdminhtml` - UiComponents (grids, forms), `system.xml`, `view/adminhtml`
