@@ -60,7 +60,7 @@ p {
   overflow: hidden !important;
 }
 .reveal .slides {
-  display:block !important;
+  display: block !important;
   position: static;
   width: 100% !important;
   height: auto !important;
@@ -70,7 +70,6 @@ p {
   margin: 0 !important;
   padding: 0 !important;
   overflow: visible;
-  display: block;
   perspective: none;
   perspective-origin: 50% 50%;
 }
