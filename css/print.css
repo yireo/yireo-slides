@@ -60,6 +60,7 @@ p {
   overflow: hidden !important;
 }
 .reveal .slides {
+  display:block !important;
   position: static;
   width: 100% !important;
   height: auto !important;
