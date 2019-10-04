@@ -149,6 +149,7 @@ p {
   font-size: 14px;
 }
 
-.has-dark-background {
-  
+.has-dark-background .slide-background {
+  background-color: #333;
+  color: white;
 }
