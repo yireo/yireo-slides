@@ -37,6 +37,8 @@ $googleFonts[] = 'Handlee';
     <link href="https://fonts.googleapis.com/css?family=<?= implode('|', $googleFonts) ?>&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/style.css"/>
     <?php if (isset($_GET['print-pdf'])) : ?>
+        <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/pdf.css"/>
+        <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/print.css"/>
         <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/print.css"/>
     <?php endif; ?>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
