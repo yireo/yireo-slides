@@ -58,6 +58,7 @@ p {
   width: auto !important;
   height: auto !important;
   overflow: hidden !important;
+  padding-left: 0 !important;
 }
 .reveal .slides {
   display: block !important;
