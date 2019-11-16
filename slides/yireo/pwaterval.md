@@ -52,13 +52,20 @@
     - Frontend devs need to know less about their backend application
 ~ Magento as a remote API instead of a monolith
     - Magento always sucked in some places, especially its CMS and frontend
-~ 
+~ Option for an unopinionated middleware layer
+    - Connections with Magento, Shopware, CMS-es
 
 ---
 {state: dark}
 # So what choices to make?
+~ JavaScript or PHP?
 ~ Vue or React?
-~ 
+~ VueStoreFront or Magento PWA Studio or DEITY or ...?
+
+---
+{state: dark}
+# React options
+- Magento PWA Studio
 
 ---
 {state: main dark center middle}
