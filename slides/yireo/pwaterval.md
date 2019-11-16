@@ -49,7 +49,8 @@
 # What is headless development?
 ~ Decoupling frontend from backend
     - Independent progress in separate teams (backend dev, frontend dev)
-~ Magento as a remote API, instead of a monolith
+    - Frontend devs need to know less about their backend application
+~ Magento as a remote API instead of a monolith
     - Magento always sucked in some places, especially its CMS and frontend
 ~ 
 
