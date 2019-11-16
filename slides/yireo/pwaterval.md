@@ -62,6 +62,8 @@
 ~ Vue or React?
 ~ VueStoreFront or Magento PWA Studio or DEITY or ...?
 
+~### https://www.yireo.com/blog/2019-10-29-react-or-vue
+
 ---
 {state: dark}
 # Vue options
@@ -85,6 +87,8 @@
     - https://github.com/yireo-training/react-duka-playground
 ~ Developed in less than 40 hours
 ~ Still on the roadmap
+    - Product options; Product gallery
+    - Full cart behaviour; Checkout
 ~ Only meant as an educational prototype
 
 ---
@@ -93,7 +97,7 @@
 
 ---
 {state: dark}
-# The real revolution is headless
+# 
 
 ---
 {state: main dark center middle}
