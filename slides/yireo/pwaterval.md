@@ -20,15 +20,19 @@
 # How to choose a PWA strategy?
 
 ---
-{background-image: mm19pl/garden.jpg}
 {state: main center middle}
-# PWA is ready!
+{background-image: mug076/friends.webp}
+### Good question!
 
 ---
-{state: main center middle}
-{background-image: mm19pl/evil-castle.jpg}
-### Progressive Web Apps or
-# Painfully Wishful Acronym
+{state: dark center middle}
+# First things first
+
+---
+# What is PWA?
+- Progressively adding features to a website
+    - Service worker (push notifications)
+    - Service worker ()
 
 ---
 {state: dark center middle}
