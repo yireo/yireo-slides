@@ -64,8 +64,26 @@
 
 ---
 {state: dark}
+# Vue options
+~ VueStoreFront
+~ Bluebird Day
+
+---
+{state: dark}
 # React options
 - Magento PWA Studio
+~ DEITY
+~ Front Commerce
+~ Neo StoreFront
+~ ScandiPWA
+~ Duka
+
+---
+{state: dark}
+# Duka for React
+- Built by Yireo last summer
+    - https://github.com/yireo-training/react-duka-playground
+- In 4 weeks time
 
 ---
 {state: main dark center middle}
