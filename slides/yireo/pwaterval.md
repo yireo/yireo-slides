@@ -128,10 +128,15 @@
 ---
 # Custom built option
 ~ Vue or React?
-~ 
+~ GraphQL (with Apollo) or REST?
+~ Middleware or not?
+
+---
+# Why middleware?
+
 
 ---
 {state: main dark center middle}
 {background-image: mm19pl/heman.jpg}
-# We are ready for PWA
-## slides.yireo.com/yireo/pwa_extensions-mm19pl
+# Choose the stack that fits YOU
+## slides.yireo.com/yireo/pwaterval
