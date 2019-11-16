@@ -65,6 +65,7 @@
 # Vue options
 ~ VueStoreFront
 ~ Bluebird Day
+~ Custom built
 
 ---
 # React options
@@ -74,6 +75,7 @@
 ~ Neo StoreFront
 ~ ScandiPWA
 ~ Duka
+~ Custom built
 
 ---
 # Duka for React
@@ -94,12 +96,32 @@
 ---
 # What are you looking for?
 ~ Faster development, easier scaffolding, lower costs
-~ 
+~ Completely customizable technology that fits your specific needs
 
 ---
 # Which solution are you looking for?
 - Ready-made solution
 - Custom-made solution
+
+---
+# Vue options
+~ VueStoreFront
+    - VueJS, REST, middleware
+~ Bluebird Day
+    - VueJS, GraphQL
+~ Custom built
+
+---
+# React options
+- Magento PWA Studio
+    - ReactJS, GraphQL
+~ DEITY
+    - ReactJS, REST, 
+~ Front Commerce
+~ Neo StoreFront
+~ ScandiPWA
+~ Duka
+~ Custom built
 
 ---
 {state: main dark center middle}
