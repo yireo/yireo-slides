@@ -22,8 +22,8 @@
 ---
 {state: main center middle}
 {background-image: mug076/friends.webp}
-### Good question!
-~ But wrong
+# Good question!
+~# But wrong
 
 ---
 {state: dark center middle}

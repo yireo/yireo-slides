@@ -15,7 +15,10 @@ class Reveal extends Generic implements RendererInterface
      */
     public function render(string $content): string
     {
-        $content = preg_replace('/^/', '\1- <!-- .element: class="fragment" -->', $content);
+        $content = preg_replace('/\~#\ /', '<h1 class="fragment">', $content);
+        $content = preg_replace('/\~##\ /', '<h2 class="fragment">', $content);
+        $content = preg_replace('/\~###\ /', '<h3 class="fragment">', $content);
+        $content = preg_replace('/\~####\ /', '<h4 class="fragment">', $content);
         $content = preg_replace('/^([\ ]{0,10})\~\ /m', '\1- <!-- .element: class="fragment" -->', $content);
 
         $content = $this->replaceTags($content);
