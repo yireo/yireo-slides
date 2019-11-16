@@ -2541,21 +2541,25 @@ html.mm19pl .bordered h2 {
 html.mug076 body {
   font-family: "Roboto Condensed", Arial;
   font-size: 180%;
+  color: white;
+}
+html.mug076 .reveal h1,
+html.mug076 .reveal h2,
+html.mug076 .reveal h3,
+html.mug076 .reveal h4,
+html.mug076 .reveal h5,
+html.mug076 .reveal ul,
+html.mug076 .reveal li,
+html.mug076 .reveal a,
+html.mug076 .reveal p {
+  color: white;
+}
+html.mug076 .reveal a {
+  color: #74ecff;
 }
 html.mug076 .reveal .backgrounds .slide-background {
   color: white;
-  background: black;
-}
-html.mug076 .reveal .backgrounds .slide-background h1,
-html.mug076 .reveal .backgrounds .slide-background h2,
-html.mug076 .reveal .backgrounds .slide-background h3,
-html.mug076 .reveal .backgrounds .slide-background h4,
-html.mug076 .reveal .backgrounds .slide-background h5,
-html.mug076 .reveal .backgrounds .slide-background ul,
-html.mug076 .reveal .backgrounds .slide-background li,
-html.mug076 .reveal .backgrounds .slide-background a,
-html.mug076 .reveal .backgrounds .slide-background p {
-  color: white;
+  background: #0e0e0e;
 }
 html.mug076.main .reveal h1 {
   font-family: 'Quantico', cursive;
