@@ -108,20 +108,27 @@
 ~ VueStoreFront
     - VueJS, REST, middleware
 ~ Bluebird Day
-    - VueJS, GraphQL
-~ Custom built
+    - VueJS, Apollo/GraphQL
 
 ---
 # React options
 - Magento PWA Studio
-    - ReactJS, GraphQL
+    - ReactJS, GraphQL, no middleware
 ~ DEITY
-    - ReactJS, REST, 
+    - ReactJS, REST/GraphQL, middleware
 ~ Front Commerce
+    - ReactJS, Apollo/GraphQL, middleware
 ~ Neo StoreFront
+    - ReactJS, GraphQL, no middleware
 ~ ScandiPWA
+    - ReactJS, GraphQL, no middleware
 ~ Duka
-~ Custom built
+    - ReactJS, GraphQL, no middleware
+
+---
+# Custom built option
+~ Vue or React?
+~ 
 
 ---
 {state: main dark center middle}
