@@ -1,5 +1,5 @@
 {state: main middle}
-{background-image: mm19pl/cinderella.jpg}
+{background-image: mug076/frustration.jpg}
 # Pwaterval
 ## How to choose a PWA strategy
 #### by Jisse Reitsma (Yireo)

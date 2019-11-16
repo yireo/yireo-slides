@@ -2547,3 +2547,50 @@ html.mm19pl .bordered h2 {
   text-shadow: 0 0 3px #FF0000;
   color: white;
 }
+html.mug076 body {
+  font-family: "Roboto Condensed", Arial;
+  font-size: 180%;
+}
+html.mug076.main .reveal h1 {
+  font-family: 'Handlee', cursive;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px black;
+  font-weight: 400;
+  font-size: 220%;
+}
+html.mug076.main .reveal .backgrounds .slide-background {
+  background: black;
+}
+html.mug076.main .reveal pre {
+  background-color: black;
+}
+html.mug076.reveal li > code {
+  background-color: #f4f2f0;
+}
+html.mug076.main .reveal h1,
+html.mug076.main .reveal h2,
+html.mug076.main .reveal h3,
+html.mug076.main .reveal h4,
+html.mug076.main .reveal ul,
+html.mug076.main .reveal li,
+html.mug076.main .footer {
+  color: white;
+}
+html.mug076.blank .reveal .backgrounds .slide-background {
+  background: none;
+  background-color: black;
+}
+html.mug076.main .slides h4 {
+  font-style: italic;
+  text-align: left;
+}
+html.mug076 .reveal ul ul {
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+  font-size: 80%;
+}
+html.mug076 .bordered h1,
+html.mug076 .bordered h2 {
+  text-shadow: 0 0 3px #FF0000;
+  color: white;
+}
