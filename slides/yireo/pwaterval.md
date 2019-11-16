@@ -16,24 +16,29 @@
 ~ Member of ExtDN (Magento Ext Dev Network)
 
 ---
-{state: dark center middle}
+{state: main center middle}
 # How to choose a PWA strategy?
 
 ---
 {state: main center middle}
 {background-image: mug076/friends.webp}
-# Good question!
+## Good question!
 ~# But wrong
 
 ---
-{state: dark center middle}
+{state: main center middle}
 # First things first
 
 ---
+{state: dark}
 # What is PWA?
 - Progressively adding features to a website
-    - Service worker (push notifications)
-    - Service worker ()
+    - Add-to-homescreen option (manifest.json)
+    - Offline shopping ()
+
+~### You can do this with the current frontend of Magento 2 too
+
+~### ... except for offline shopping
 
 ---
 {state: dark center middle}
