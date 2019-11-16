@@ -1876,14 +1876,6 @@ body {
 .speaker .reveal section {
   top: 20%;
 }
-.speaker .reveal h1,
-.speaker .reveal h2,
-.speaker .reveal h3,
-.speaker .reveal ul,
-.speaker .reveal pre,
-.speaker .reveal p {
-  color: black;
-}
 .divider-center .reveal section {
   top: 30%;
 }
@@ -2549,6 +2541,21 @@ html.mm19pl .bordered h2 {
 html.mug076 body {
   font-family: "Roboto Condensed", Arial;
   font-size: 180%;
+}
+html.mug076 .reveal .backgrounds .slide-background {
+  color: white;
+  background: black;
+}
+html.mug076 .reveal .backgrounds .slide-background h1,
+html.mug076 .reveal .backgrounds .slide-background h2,
+html.mug076 .reveal .backgrounds .slide-background h3,
+html.mug076 .reveal .backgrounds .slide-background h4,
+html.mug076 .reveal .backgrounds .slide-background h5,
+html.mug076 .reveal .backgrounds .slide-background ul,
+html.mug076 .reveal .backgrounds .slide-background li,
+html.mug076 .reveal .backgrounds .slide-background a,
+html.mug076 .reveal .backgrounds .slide-background p {
+  color: white;
 }
 html.mug076.main .reveal h1 {
   font-family: 'Quantico', cursive;

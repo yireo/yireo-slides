@@ -115,14 +115,6 @@
 .speaker .reveal section {
   top: 20%;
 }
-.speaker .reveal h1,
-.speaker .reveal h2,
-.speaker .reveal h3,
-.speaker .reveal ul,
-.speaker .reveal pre,
-.speaker .reveal p {
-  color: black;
-}
 .divider-center .reveal section {
   top: 30%;
 }
