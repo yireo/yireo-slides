@@ -2435,14 +2435,6 @@ html.meetmagento ul li span.value {
 .magex19 .speaker .reveal section {
   top: 20%;
 }
-.magex19 .speaker .reveal h1,
-.magex19 .speaker .reveal h2,
-.magex19 .speaker .reveal h3,
-.magex19 .speaker .reveal ul,
-.magex19 .speaker .reveal pre,
-.magex19 .speaker .reveal p {
-  color: black;
-}
 .magex19 .divider-center .reveal section {
   top: 30%;
 }
