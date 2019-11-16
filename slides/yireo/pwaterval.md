@@ -1,21 +1,19 @@
 {state: main middle}
 {background-image: mm19pl/cinderella.jpg}
-# How Magento extensions will fit into PWA
-## A magical dark fairy tale
+# Pwaterval
+## How to choose a PWA strategy
 #### by Jisse Reitsma (Yireo)
-<img src="images/mm19pl/mm19pl.png"/>
 
 ---
 {state: speaker}
 {background-image: generic/jisse.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
-~ Trainer of Magento 2 developers
+~ Trainer in M2, VSF, React
 ~ Creator of MageTestFest & Reacticon
 ~ Organizer of usergroups, hackathons
 ~ Magento Master 2017/2018/2019 Mover
 ~ Member of ExtDN (Magento Ext Dev Network)
-~ Promoter of PWA something
 
 ---
 {state: dark center middle}
