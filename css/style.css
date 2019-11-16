@@ -2547,12 +2547,19 @@ html.mm19pl .bordered h2 {
   text-shadow: 0 0 3px #FF0000;
   color: white;
 }
+@font-face {
+  font-family: 'Quantico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Quantico'), local('Quantico-Regular'), url(https://fonts.gstatic.com/s/quantico/v9/rax-HiSdp9cPL3KIF7xrJDg.ttf) format('truetype');
+}
 html.mug076 body {
   font-family: "Roboto Condensed", Arial;
   font-size: 180%;
 }
 html.mug076.main .reveal h1 {
-  font-family: 'Handlee', cursive;
+  font-family: 'Quantico', cursive;
   text-transform: uppercase;
   text-shadow: 0 0 10px black;
   font-weight: 400;

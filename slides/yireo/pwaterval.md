@@ -9,15 +9,15 @@
 {background-image: generic/jisse.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
-~ Trainer in M2, VSF, React
-~ Creator of MageTestFest & Reacticon
+~ Trainer in Magento 2, VueStoreFront, React
+~ Creator of MageTestFest & Reacticon (and v3)
 ~ Organizer of usergroups, hackathons
 ~ Magento Master 2017/2018/2019 Mover
 ~ Member of ExtDN (Magento Ext Dev Network)
 
 ---
 {state: dark center middle}
-# Something PWA
+# How to choose a PWA strategy?
 
 ---
 {background-image: mm19pl/garden.jpg}
