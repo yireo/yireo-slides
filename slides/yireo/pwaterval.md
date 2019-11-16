@@ -1,7 +1,7 @@
 {state: main middle}
 {background-image: mug076/frustration.jpg}
 # Pwaterval
-## How to choose a PWA strategy
+## How to choose a headless strategy
 #### by Jisse Reitsma (Yireo)
 
 ---
@@ -23,6 +23,7 @@
 {state: main center middle}
 {background-image: mug076/friends.webp}
 ### Good question!
+~ But wrong
 
 ---
 {state: dark center middle}
