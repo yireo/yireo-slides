@@ -81,9 +81,19 @@
 ---
 {state: dark}
 # Duka for React
-- Built by Yireo last summer
+~ Built by Yireo last summer
     - https://github.com/yireo-training/react-duka-playground
-- In 4 weeks time
+~ Developed in less than 40 hours
+~ Still on the roadmap
+~ Only meant as an educational prototype
+
+---
+{state: main center middle}
+# What are you looking for?
+
+---
+{state: dark}
+# The real revolution is headless
 
 ---
 {state: main dark center middle}
