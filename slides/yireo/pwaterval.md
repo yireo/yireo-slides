@@ -5,8 +5,8 @@
 #### by Jisse Reitsma (Yireo)
 
 ---
-{state: speaker}
-{background-image: generic/jisse.jpg}
+{state: speaker dark}
+{background-image: mug076/jisse.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
 ~ Trainer in Magento 2, VueStoreFront, React
@@ -30,7 +30,6 @@
 # First things first
 
 ---
-{state: dark}
 # What is PWA?
 ~ Add-to-homescreen option (manifest.json)
 ~ Push notifications (service worker)
@@ -45,7 +44,6 @@
 # The real revolution is headless
 
 ---
-{state: dark}
 # What is headless development?
 ~ Decoupling frontend from backend
     - Independent progress in separate teams (backend dev, frontend dev)
@@ -56,7 +54,6 @@
     - Connections with Magento, Shopware, CMS-es
 
 ---
-{state: dark}
 # So what choices to make?
 ~ JavaScript or PHP?
 ~ Vue or React?
@@ -65,13 +62,11 @@
 ~### https://www.yireo.com/blog/2019-10-29-react-or-vue
 
 ---
-{state: dark}
 # Vue options
 ~ VueStoreFront
 ~ Bluebird Day
 
 ---
-{state: dark}
 # React options
 - Magento PWA Studio
 ~ DEITY
@@ -81,7 +76,6 @@
 ~ Duka
 
 ---
-{state: dark}
 # Duka for React
 ~ Built by Yireo last summer
     - https://github.com/yireo-training/react-duka-playground
@@ -96,7 +90,6 @@
 # What are you looking for?
 
 ---
-{state: dark}
 # 
 
 ---
