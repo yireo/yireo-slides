@@ -22,8 +22,8 @@
 ---
 {state: main center middle}
 {background-image: mug076/friends.webp}
-## Good question!
-~# But wrong
+## Good question
+~## but wrong
 
 ---
 {state: main center middle}
@@ -32,10 +32,9 @@
 ---
 {state: dark}
 # What is PWA?
-- Progressively adding features to a website
-    - Add-to-homescreen option (manifest.json)
-    - Push notifications (service worker)
-    - Offline shopping (service worker)
+~ Add-to-homescreen option (manifest.json)
+~ Push notifications (service worker)
+~ Offline shopping (service worker)
 
 ~### You can do this with the current frontend of Magento 2 too
 
@@ -48,8 +47,11 @@
 ---
 {state: dark}
 # What is headless development?
-~ Independent frontend
+~ Decoupling frontend from backend
+    - Independent progress in separate teams (backend dev, frontend dev)
 ~ Magento as a remote API, instead of a monolith
+    - Magento always sucked in some places, especially its CMS and frontend
+~ 
 
 ---
 {state: dark}
