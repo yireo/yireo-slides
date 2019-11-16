@@ -58,10 +58,8 @@ p {
   width: auto !important;
   height: auto !important;
   overflow: hidden !important;
-  padding-left: 0 !important;
 }
 .reveal .slides {
-  display: block !important;
   position: static;
   width: 100% !important;
   height: auto !important;
@@ -71,6 +69,7 @@ p {
   margin: 0 !important;
   padding: 0 !important;
   overflow: visible;
+  display: block;
   perspective: none;
   perspective-origin: 50% 50%;
 }
@@ -147,9 +146,4 @@ p {
   display: block;
   position: absolute;
   font-size: 14px;
-}
-
-.has-dark-background .slide-background {
-  background-color: #333;
-  color: white;
 }

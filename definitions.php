@@ -6,8 +6,8 @@ $slideGroups = [
         'slides' => [
             [
                 'file' => 'yireo/pwaterval',
-                'title' => 'Choosing a ',
-                'footer' => '#MM19PL - How Magento extensions fit into PWA',
+                'title' => 'Choosing a Magento / React strategy (MUG076)',
+                'footer' => '#MUG076 - Meetup hosted by Bluebird Day',
                 'style' => 'mug076',
                 'renderer' => 'reveal'
             ],
