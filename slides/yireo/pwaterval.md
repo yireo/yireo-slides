@@ -77,6 +77,8 @@
 
 ---
 # Duka for React
+~ Modern JavaScript stack
+    - React, Redux, Apollo / GraphQL, Bootstrap 4
 ~ Built by Yireo last summer
     - https://github.com/yireo-training/react-duka-playground
 ~ Developed in less than 40 hours
@@ -90,7 +92,14 @@
 # What are you looking for?
 
 ---
-# 
+# What are you looking for?
+~ Faster development, easier scaffolding, lower costs
+~ 
+
+---
+# Which solution are you looking for?
+- Ready-made solution
+- Custom-made solution
 
 ---
 {state: main dark center middle}
