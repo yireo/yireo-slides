@@ -154,18 +154,18 @@
     - PHP versus NodeJS
     - Caching abilities
 ~ Awesome stuff
+    - Server Side Rendering
     - GraphQL Schema Stitching
 
 ---
 # Take your pick
-~ VueStoreFront
-~ Bluebird Day
+- VueStoreFront
 - Magento PWA Studio
-~ DEITY
-~ Front Commerce
-~ Neo StoreFront
-~ ScandiPWA
-~ Custom built
+- DEITY
+- Front Commerce
+- Neo StoreFront
+- ScandiPWA
+- Custom built
 
 ---
 {state: main dark center middle}
