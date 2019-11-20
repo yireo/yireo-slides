@@ -147,7 +147,25 @@
 
 ---
 # Why middleware?
-~ Backend-agnostic 
+~ Backend-agnostic architecture
+    - Magento, Shopware, Shopify, BigCommerce, WooCommerce
+    - PIM, ERP, CRM, ...
+~ Better performance
+    - PHP versus NodeJS
+    - Caching abilities
+~ Awesome stuff
+    - GraphQL Schema Stitching
+
+---
+# Take your pick
+~ VueStoreFront
+~ Bluebird Day
+- Magento PWA Studio
+~ DEITY
+~ Front Commerce
+~ Neo StoreFront
+~ ScandiPWA
+~ Custom built
 
 ---
 {state: main dark center middle}
