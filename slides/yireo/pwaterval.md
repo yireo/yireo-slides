@@ -106,8 +106,16 @@
 ---
 # Which solution are you looking for?
 - Ready-made solution
-    - 
+    - The more scenarios are covered, the more complex it becomes
+    - Perhaps some extensions are available
 - Custom-made solution
+
+---
+# Which solution are you looking for?
+- Ready-made solution
+- Custom-made solution
+    - Does exactly what you want, no fluff
+    - Forget about extensions ... on the client-side
 
 ---
 # Vue options
@@ -139,7 +147,7 @@
 
 ---
 # Why middleware?
-
+~ Backend-agnostic 
 
 ---
 {state: main dark center middle}
