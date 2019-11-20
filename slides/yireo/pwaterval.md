@@ -104,6 +104,12 @@
 - Custom-made solution
 
 ---
+# Which solution are you looking for?
+- Ready-made solution
+    - 
+- Custom-made solution
+
+---
 # Vue options
 ~ VueStoreFront
     - VueJS, REST, middleware
