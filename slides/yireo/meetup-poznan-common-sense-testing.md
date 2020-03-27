@@ -89,11 +89,13 @@ Smoke testing: Simple integration tests that simply check if the system under te
 ---
 @todo: Show example of Magento 2 unit test being too complex
 @todo: Show same example with integration test
+@todo: MFTF for agencies? ExtDN
 @todo: Stupid test: $assertInstanceOf(...) - add PHP7 type hinting
 @todo: Run PHPCS (Object Calisthenthics, Magento Coding Standard, PSR-12?, PHPStan)
 @todo: Where to start? Unit testing or end-to-end. Where it hurts.
 @todo: Fix bugs with a test
 @todo: Refactor constantly
+
 
 ---
 {state: main dark center middle}
