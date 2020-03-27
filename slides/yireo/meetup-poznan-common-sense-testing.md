@@ -1,9 +1,8 @@
 {state: main middle}
 {background-image: meetup-poznan/cinderella.jpg}
-# How Magento extensions will fit into PWA
-## A magical dark fairy tale
+# Common sense in testing
+## Don't trust what the gurus tell you
 #### by Jisse Reitsma (Yireo)
-<img src="images/mm19pl/mm19pl.png"/>
 
 ---
 {state: speaker}
