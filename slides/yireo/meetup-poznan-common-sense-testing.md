@@ -9,12 +9,27 @@
 {background-image: generic/jisse.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
+~ Trainer of developers
+    - Magento frontend & backend development
+    - React (PWA Studio)
+    - Vue (Vue Storefront)
+
+---
+{state: dark center middle}
+# Currently working on remote training
+### Because of the Corona crisis
+
+---
+{state: speaker}
+{background-image: generic/jisse.jpg}
+# Jisse Reitsma
+~ Founder of Yireo
 ~ Trainer of Magento 2 developers
-~ Creator of MageTestFest & Reacticon
-~ Organizer of usergroups, hackathons
+~ Creator of MageTestFest
+~ Creator of Reacticon v3 (June 2020)
 ~ Magento Master 2017/2018/2019 Mover
 ~ Member of ExtDN (Magento Ext Dev Network)
-~ Promoter of PWA something
+~ Doing some stuff with PWA
 
 ---
 {state: dark center middle}
