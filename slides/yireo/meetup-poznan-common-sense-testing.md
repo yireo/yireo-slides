@@ -16,24 +16,40 @@
 
 ---
 {state: dark center middle}
-# Currently working on remote training
+# Working on remote training sessions
 ### Because of the Corona crisis
 
 ---
 {state: speaker}
 {background-image: generic/jisse.jpg}
 # Jisse Reitsma
-~ Founder of Yireo
-~ Trainer of Magento 2 developers
-~ Creator of MageTestFest
+- Founder of Yireo
+- Trainer of developers
+- Creator of MageTestFest (2017, 2018)
+~ Creator of Reacticon (2018 x2)
 ~ Creator of Reacticon v3 (June 2020)
-~ Magento Master 2017/2018/2019 Mover
-~ Member of ExtDN (Magento Ext Dev Network)
-~ Doing some stuff with PWA
 
 ---
 {state: dark center middle}
-# Something PWA
+# Reacticon v3 is postponed to October 2020
+### Because of the Corona crisis
+
+---
+{state: speaker}
+{background-image: generic/jisse.jpg}
+# Jisse Reitsma
+- Founder of Yireo
+- Trainer of developers
+- Creator of MageTestFest (2017, 2018)
+- Creator of Reacticon (2018 x2)
+- Creator of Reacticon v3 (June 2020)
+- Magento Master 2017/2018/2019 Mover
+~ Member of ExtDN (Magento Ext Dev Network)
+~ Doing some stuff where testing makes sense
+
+---
+{state: dark center middle}
+# Do stuff where testing makes sense
 
 ---
 {background-image: mm19pl/garden.jpg}
