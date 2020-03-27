@@ -58,8 +58,14 @@
 ~ Integration testing
 ~ Functional testing
 ~ End-to-end testing
-~ 
+~ Property-based testing
 
+---
+@todo: Show example of Magento 2 unit test being too complex
+@todo: Show same example with integration test
+@todo: Stupid test: $assertInstanceOf(...) - add PHP7 type hinting
+@todo: Run PHPCS (Object Calisthenthics, Magento Coding Standard, PSR-12?, PHPStan)
+@todo: Where to start? Unit testing or end-to-end
 
 ---
 {state: main dark center middle}
