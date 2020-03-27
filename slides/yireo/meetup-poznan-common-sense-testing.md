@@ -72,6 +72,13 @@ Unit testing: Testing of a single point of functionality (a method, a class, a m
 Smoke testing: Simple integration tests that simply check if the system under test (Magento) is behaving correctly.
 
 ---
+{state: dark center middle}
+# Where to begin?
+
+---
+# Unit test
+
+---
 # Concepts
 - Mocking
 - Stubbing
