@@ -64,9 +64,24 @@
 ~ Property-based testing
 
 ???
-Unit testing: Testing of a single point of functionality (a method, a class, a module)
+Unit testing: Testing of a single point of functionality (a method, a class, a module), with all of its outside-world dependencies being replaced with stubs and/or mocks.
 
 Smoke testing: Simple integration tests that simply check if the system under test (Magento) is behaving correctly.
+
+---
+# Concepts
+- Mocking
+- Stubbing
+
+---
+# Running Magento Integration Tests
+@todo
+
+---
+# Making Magento Integration Tests performant
+- @todo: MySQL tmpfs database
+- @todo: Replace unneeded Magento modules (like bundled extensions nobody uses)
+- @todo: 
 
 ---
 @todo: Show example of Magento 2 unit test being too complex
