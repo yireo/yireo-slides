@@ -58,7 +58,10 @@
 ~ Integration testing
 ~ Functional testing
 ~ End-to-end testing
+~ Regression testing
+~ Performance testing
 ~ Property-based testing
+
 
 ---
 @todo: Show example of Magento 2 unit test being too complex
