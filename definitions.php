@@ -7,7 +7,7 @@ $slideGroups = [
             [
                 'file' => 'yireo/meetup-poznan-common-sense-testing',
                 'title' => 'Common Sense in Testing (Poznan Meetup - April 2020)',
-                'footer' => '#MM19PL - Magento Meetup @Snodog',
+                'footer' => 'Magento Meetup - @Snowdog',
                 'style' => 'mm19pl',
                 'renderer' => 'reveal'
             ],
