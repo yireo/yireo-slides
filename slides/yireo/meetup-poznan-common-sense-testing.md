@@ -44,7 +44,7 @@
 - Creator of Reacticon (2018 x2)
 - Creator of Reacticon v3 (June 2020)
 - Magento Master 2017/2018/2019 Mover
-~ Member of ExtDN (Magento Ext Dev Network)
+~ Member of ExtDN (Magento Extension Developer Network)
 ~ Doing some stuff where testing makes sense
 
 ---
@@ -58,10 +58,15 @@
 ~ Integration testing
 ~ Functional testing
 ~ End-to-end testing
+~ Smoke testing (sanity checks)
 ~ Regression testing
 ~ Performance testing
 ~ Property-based testing
 
+???
+Unit testing: Testing of a single point of functionality (a method, a class, a module)
+
+Smoke testing: Simple integration tests that simply check if the system under test (Magento) is behaving correctly.
 
 ---
 @todo: Show example of Magento 2 unit test being too complex
