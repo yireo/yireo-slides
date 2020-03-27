@@ -57,6 +57,7 @@
 ~ Unit testing
 ~ Integration testing
 ~ Functional testing
+~ Acceptance test
 ~ End-to-end testing
 ~ Smoke testing (sanity checks)
 ~ Regression testing
@@ -65,6 +66,8 @@
 
 ???
 Unit testing: Testing of a single point of functionality (a method, a class, a module), with all of its outside-world dependencies being replaced with stubs and/or mocks.
+
+@todo: Add definition for all
 
 Smoke testing: Simple integration tests that simply check if the system under test (Magento) is behaving correctly.
 
@@ -81,14 +84,16 @@ Smoke testing: Simple integration tests that simply check if the system under te
 # Making Magento Integration Tests performant
 - @todo: MySQL tmpfs database
 - @todo: Replace unneeded Magento modules (like bundled extensions nobody uses)
-- @todo: 
+- @todo: ReachDigital Quick Integration Framework
 
 ---
 @todo: Show example of Magento 2 unit test being too complex
 @todo: Show same example with integration test
 @todo: Stupid test: $assertInstanceOf(...) - add PHP7 type hinting
 @todo: Run PHPCS (Object Calisthenthics, Magento Coding Standard, PSR-12?, PHPStan)
-@todo: Where to start? Unit testing or end-to-end
+@todo: Where to start? Unit testing or end-to-end. Where it hurts.
+@todo: Fix bugs with a test
+@todo: Refactor constantly
 
 ---
 {state: main dark center middle}
