@@ -101,11 +101,13 @@ class DataTest extends TestCase {
 }
 ```
 
+Next, run `phpunit ./Test/Unit/DataTest.php` and party.
+
 ---
 # Concepts
 - Mocking & Stubbing
 - Code coverage
-    - And 100% code coverage is the end goal
+    - Is 100% code coverage the end goal?
 - Test Driven Development
     - Red-Green-Refactor
 
@@ -190,10 +192,12 @@ In overview:
 ---
 # What is wrong with this example?
 ~ Do not use helper classes
-    - Refactor this to `Config` class
+    - The word "Helper" doesn't properly describe the function of a class
+    - Suggestion: Refactor this to `Config` class
 ~ Only talk to your immediate friends
-    - Only talk to your immediate friends (Law of Demeter, part of SOLID)
-    - Get rid of parent classes; Refactor so that your dependencies are simple
+    - Aka: Law of Demeter, part of SOLID
+    - My helper talks to `Context` which talks to `ScopeConfig`.
+    - Get rid of parent classes and refactor so that your dependencies are simple
 
 ---
 # Tip: Better example
@@ -320,7 +324,7 @@ class DataTest extends TestCase {
     public function testIsDisabled() {
         $this->assertFalse($this->getHelper()->isEnabled());
     }
-    private function getHelper() {
+    private function getHelper(): Data {
         $objectManager = Bootstrap::getObjectManager();
         return $objectManager->create(Data::class);
     }
@@ -328,19 +332,26 @@ class DataTest extends TestCase {
 ```
 
 ---
+{state: dark center middle}
 # Personal opinion: I don't believe in 100% code coverage
 
 ---
 # Running Magento Integration Tests
-@todo
+- Install Magento 2
+- Setup an empty test database
+- Configure `dev/tests/integration/etc/install-config-mysql.php`
+- Configure your test-suite in `dev/tests/integration/phpunit.xml`
+- Run `cd dev/tests/integration && ../../../vendor/bin/phpunit -c ./phpunit.xml`
+    - Or `bin/magento dev:tests:run integration`
 
 ---
 # Tip: Making Magento Integration Tests run fast
-- @todo: MySQL tmpfs database
-- @todo: Replace unneeded Magento modules (like bundled extensions nobody uses)
-- @todo: ReachDigital Quick Integration Framework
+- Keep toggling `TESTS_CLEANUP`
+- Run MySQL in tmpfs (easier with a separate Docker instance)
+- Replace unneeded Magento modules (like bundled extensions nobody uses)
+- Use the ReachDigital Quick Integration Framework
 
-https://www.yireo.com/blog/2019-05-04-faster-magento2-integration-tests
+See: https://www.yireo.com/blog/2019-05-04-faster-magento2-integration-tests
 
 ---
 # My own `ExampleDealers` module-set
