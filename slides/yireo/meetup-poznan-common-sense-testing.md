@@ -199,7 +199,7 @@ class Config {
 ```
 
 ---
-# Better example
+# Best example
 ```php
 declare(strict_types=1);
 namespace Yireo\Example\Config;
@@ -228,19 +228,17 @@ class Config {
     - Perhaps an integration test is easier
 
 ---
-# Real-life integration test (1/2)
+# Real-life integration test (1)
 ```php
-namespace Yireo\Example\Test\Unit\Helper;
+namespace Yireo\Example\Test\Integration\Helper;
 use Yireo\Example\Helper\Data;
 use PHPUnit\Framework\TestCase;
 use Magento\TestFramework\Helper\Bootstrap;
-
 class DataTest extends TestCase {
     /**
      * @magentoConfigFixture current_store foo/settings/enabled 1
      */
     public function testIsEnabled() {
-        ...
         $objectManager = Bootstrap::getObjectManager();
         $helper = $objectManager->create(Data::class);
         $this->assertTrue($helper->isEnabled());
@@ -249,7 +247,7 @@ class DataTest extends TestCase {
 ```
 
 ---
-# Real-life integration test (2/2)
+# Real-life integration test (2)
 ```php
 namespace Yireo\Example\Test\Unit\Helper;
 use Yireo\Example\Helper\Data;
@@ -260,11 +258,54 @@ class DataTest extends TestCase {
     /**
      * @magentoConfigFixture current_store foo/settings/enabled 0
      */
-    public function testIsEnabled() {
-        ...
+    public function testIsDisabled() {
         $objectManager = Bootstrap::getObjectManager();
         $helper = $objectManager->create(Data::class);
         $this->assertFalse($helper->isEnabled());
+    }
+}
+```
+
+---
+# Real-life integration test (3)
+```php
+    /**
+     * @magentoConfigFixture current_store foo/settings/enabled 0
+     */
+    public function testIsEnabled() {
+        $objectManager = Bootstrap::getObjectManager();
+        $helper = $objectManager->create(Data::class);
+        $this->assertFalse($helper->isEnabled());
+    }
+    /**
+     * @magentoConfigFixture current_store foo/settings/enabled 0
+     */
+    public function testIsDisabled() {
+        $objectManager = Bootstrap::getObjectManager();
+        $helper = $objectManager->create(Data::class);
+        $this->assertFalse($helper->isEnabled());
+    }
+}
+```
+
+---
+# Real-life integration test (4)
+```php
+    /**
+     * @magentoConfigFixture current_store foo/settings/enabled 0
+     */
+    public function testIsEnabled() {
+        $this->assertFalse($this->getHelper()->isEnabled());
+    }
+    /**
+     * @magentoConfigFixture current_store foo/settings/enabled 0
+     */
+    public function testIsDisabled() {
+        $this->assertFalse($this->getHelper()->isEnabled());
+    }
+    private function getHelper() {
+        $objectManager = Bootstrap::getObjectManager();
+        return $objectManager->create(Data::class);
     }
 }
 ```
@@ -275,15 +316,38 @@ class DataTest extends TestCase {
 @todo
 
 ---
-# Making Magento Integration Tests performant
+# Making Magento Integration Tests run fast
 - @todo: MySQL tmpfs database
 - @todo: Replace unneeded Magento modules (like bundled extensions nobody uses)
 - @todo: ReachDigital Quick Integration Framework
 
+https://www.yireo.com/blog/2019-05-04-faster-magento2-integration-tests
+
 ---
-@todo: Show example of Magento 2 unit test being too complex
-@todo: Show same example with integration test
+# What about functional tests?
+
+---
+# Functional tests
+- Integration Tests with real-life Magento instance
+- Functional tests based on MFTF
+
 @todo: MFTF for agencies? ExtDN
+
+---
+
+---
+# Guaranteeing code quality
+~ Run PHP CodeSniffer rules regularly
+    - Magento Coding Standard
+    - PSR-1, PSR-2, PSR-12
+    - Object Calisthenics
+~ Run static analysis tools
+    - PHPStan
+~ Use PHP 7 type hinting
+    - `declare_strict_types=1`
+    - Return typing, argument hinting
+
+
 @todo: Stupid test: $assertInstanceOf(...) - add PHP7 type hinting
 @todo: Run PHPCS (Object Calisthenthics, Magento Coding Standard, PSR-12?, PHPStan)
 @todo: Where to start? Unit testing or end-to-end. Where it hurts.
@@ -295,5 +359,6 @@ class DataTest extends TestCase {
 ---
 {state: main dark center middle}
 {background-image: mm19pl/heman.jpg}
-# We are ready for PWA
-## slides.yireo.com/yireo/pwa_extensions-mm19pl
+# Your common is most important
+## when writing tests
+#### slides.yireo.com/yireo/meetup-poznan-common-sense-testing
