@@ -67,9 +67,15 @@
 ???
 Unit testing: Testing of a single point of functionality (a method, a class, a module), with all of its outside-world dependencies being replaced with stubs and/or mocks.
 
-@todo: Add definition for all
+Integration testing: Testing your own code in combination with other code (that is already unit tested) to test the functionality of a greater whole.
+
+Functional testing:
 
 Smoke testing: Simple integration tests that simply check if the system under test (Magento) is behaving correctly.
+
+@todo: Add definition for all
+@todo: Personal opinion: I don't believe in 100% code coverage because of this
+@todo: Use a mix of all testing.
 
 ---
 {state: dark center middle}
@@ -88,9 +94,11 @@ class DataTest extends TestCase {
 
 ---
 # Concepts
-- Mocking
-- Stubbing
-
+- Mocking & Stubbing
+- Code coverage
+    - And 100% code coverage is the end goal
+- Test Driven Development
+    - Red-Green-Refactor
 
 ---
 # Some helper class
@@ -179,7 +187,7 @@ In overview:
     - Get rid of parent classes; Refactor so that your dependencies are simple
 
 ---
-# Better example
+# Tip: Better example
 ```php
 namespace Yireo\Example\Config;
 use Magento\Store\Model\ScopeInterface;
@@ -199,7 +207,7 @@ class Config {
 ```
 
 ---
-# Best example
+# Tip: Best example
 ```php
 declare(strict_types=1);
 namespace Yireo\Example\Config;
