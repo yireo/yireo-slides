@@ -87,6 +87,12 @@ class DataTest extends TestCase {
 ```
 
 ---
+# Concepts
+- Mocking
+- Stubbing
+
+
+---
 # Real-life unit test?
 ```php
 namespace Yireo\Example\Helper;
@@ -138,13 +144,12 @@ class DataTest extends TestCase {
         ...
 ```
 
+---
+# Real-life unit test?
 ```php
-use Magento\Framework\App\Helper\Context;
-
-class DataTest extends TestCase
-{
-    public function testIsEnabled()
-    {
+...
+class DataTest extends TestCase {
+    public function testIsEnabled() {
         ...
         $context = $this->getMockBuilder(Context::class)
             ->disableOriginalConstructor()
@@ -158,9 +163,54 @@ class DataTest extends TestCase
 ```
 
 ---
-# Concepts
-- Mocking
-- Stubbing
+# What is wrong with this example?
+~ Do not use helper classes
+~ Only talk to your immediate friends
+    - Only talk to your immediate friends (Law of Demeter, part of SOLID)
+~ Too much test code for something that mostly works fine anyway
+
+---
+# Real-life integration test (1/2)
+```php
+namespace Yireo\Example\Test\Unit\Helper;
+use Yireo\Example\Helper\Data;
+use PHPUnit\Framework\TestCase;
+use Magento\TestFramework\Helper\Bootstrap;
+
+class DataTest extends TestCase {
+    /**
+     * @magentoConfigFixture current_store foo/settings/enabled 1
+     */
+    public function testIsEnabled() {
+        ...
+        $objectManager = Bootstrap::getObjectManager();
+        $helper = $objectManager->create(Data::class);
+        $this->assertTrue($helper->isEnabled());
+    }
+}
+```
+
+---
+# Real-life integration test (2/2)
+```php
+namespace Yireo\Example\Test\Unit\Helper;
+use Yireo\Example\Helper\Data;
+use PHPUnit\Framework\TestCase;
+use Magento\TestFramework\Helper\Bootstrap;
+
+class DataTest extends TestCase {
+    /**
+     * @magentoConfigFixture current_store foo/settings/enabled 0
+     */
+    public function testIsEnabled() {
+        ...
+        $objectManager = Bootstrap::getObjectManager();
+        $helper = $objectManager->create(Data::class);
+        $this->assertFalse($helper->isEnabled());
+    }
+}
+```
+
 
 ---
 # Running Magento Integration Tests
@@ -181,6 +231,7 @@ class DataTest extends TestCase
 @todo: Where to start? Unit testing or end-to-end. Where it hurts.
 @todo: Fix bugs with a test
 @todo: Refactor constantly
+@todo: Dealers example, split up in modules
 
 
 ---
