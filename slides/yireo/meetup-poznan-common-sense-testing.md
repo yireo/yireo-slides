@@ -385,7 +385,7 @@ class DataTest extends TestCase
 ---
 {state: center middle}
 # Type hinting also gives confidence
-## Just like testing
+### Just like testing does
 
 ---
 {state: center middle}
@@ -418,8 +418,29 @@ See: https://www.yireo.com/blog/2019-05-04-faster-magento2-integration-tests
     - `ExampleDealersFrontend`: Frontend access
     - `ExampleDealersGraphQl`: GraphQL access
 - Tests per module
+    - Some unit tests
+    - Mostly integration tests
+    - Hopefully more to come
 
 See: https://github.com/yireo-training and search for *Dealers*
+
+---
+# Example repository testing
+```php
+$items = $this->repository->getAll();
+$originalCount = count($items);
+$dealer = $this->createDealer('Kermit', 'Frog Street 1');
+$dealers = $this->repository->getAll();
+$this->assertCount($originalCount + 1, $dealers);
+$newDealer = $this->repository->getById((int)$dealer->getId());
+$this->assertSame($dealer->getId(), $newDealer->getId());
+$this->assertSame('Kermit', $newDealer->getName());
+$this->assertSame('Frog Street 1', $newDealer->getAddress());
+$newDealer->setName('Kormot');
+$newDealer->setAddress('Sesame Street 42');
+$this->repository->save($newDealer);
+...
+```
 
 ---
 {state: center middle}
@@ -429,7 +450,7 @@ See: https://github.com/yireo-training and search for *Dealers*
 # Functional tests
 ~ Integration Tests with real-life Magento instance
     - Development, staging or production (yikes)
-~ Functional tests based on MFTF)
+~ Functional tests based on MFTF
     - Important for extension developers (like with ExtDN)
     - Not yet important for agencies
 
@@ -451,6 +472,7 @@ See: https://github.com/yireo-training and search for *Dealers*
 ~ Coding standards
     - Object Calisthenics
     - SOLID, DRY
+~ E_ALL error reporting
 
 ---
 # What not to test?
@@ -458,7 +480,10 @@ See: https://github.com/yireo-training and search for *Dealers*
     - Add PHP7 type hinting instead
 - Private methods
     - Because they are private
-- Exception messages
+- Methods with fixed values
+    - `function getSecret() { return 42; }`
+- Code already tested by another means
+    - If an integration test already covers it, a unit test is less needed
 
 ---
 # End-to-end testing
