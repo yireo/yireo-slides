@@ -143,6 +143,18 @@ class Data extends AbstractHelper
 ```
 
 ---
+# ... and its parent
+```php
+abstract class AbstractHelper
+{
+    public function __construct(Context $context)
+    {
+        $this->scopeConfig = $context->getScopeConfig();
+    }
+}
+```
+
+---
 {state: center middle}
 # So let's  create a test for this
 
@@ -168,7 +180,7 @@ class DataTest extends TestCase
 # Some unit test? (2)
 ```php
 /* @todo: Create a mock called $context */
-...
+
 $helper = new Data($context);
 $this->assertTrue($helper->isEnabled());
 $this->assertSame($helper->isEnabled(), true);
@@ -203,10 +215,8 @@ $scopeConfig->expects($this->any())
     ->with('foobar/settings/enabled')
     ->returnValue(1);
 
-// @todo: Create a mock called $scopeConfig
+/* The rest of the code we already had */
 ```
-
-
 
 ---
 # Unit test in overview
@@ -214,7 +224,32 @@ In overview:
 
 - We mock `Context`
 - We mock `ScopeConfig` and add it to `Context`
-- We instantiate `Helper` with `Context` mock
+- We instantiate `Helper` with `Context` mock as a constructor argument
+
+---
+# So we test the following code:
+```php
+return (bool) $this->scopeConfig->getValue(
+    'foobar/settings/enabled',
+    ScopeInterface::SCOPE_STORE
+);
+```
+
+---
+# With this:
+```php
+$scopeConfig = $this->getMockBuilder(ScopeConfigInterface::class)
+    ->disableOriginalConstructor()->getMock();
+$scopeConfig->expects($this->any())->method('getValue')
+    ->with('foobar/settings/enabled')->returnValue(1);
+$context = $this->getMockBuilder(Context::class)
+    ->disableOriginalConstructor()->getMock();
+$context->expects($this->any())->method('getScopeConfig')
+    ->will($this->returnValue($scopeConfig));
+$helper = new Data($context);
+$this->assertTrue($helper->isEnabled());
+$this->assertSame($helper->isEnabled(), true);
+```
 
 ---
 # What is wrong with this example?
