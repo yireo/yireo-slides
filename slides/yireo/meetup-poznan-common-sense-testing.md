@@ -324,6 +324,10 @@ class DataTest extends TestCase {
 https://www.yireo.com/blog/2019-05-04-faster-magento2-integration-tests
 
 ---
+# Nice example: Dealers
+@todo: Dealers example, split up in modules
+
+---
 # What about functional tests?
 
 ---
@@ -346,15 +350,42 @@ https://www.yireo.com/blog/2019-05-04-faster-magento2-integration-tests
 ~ Use PHP 7 type hinting
     - `declare_strict_types=1`
     - Return typing, argument hinting
+- Coding standards
+    - Object Calisthenics
+    - SOLID, DRY
 
-
+---
+# What not to test?
 @todo: Stupid test: $assertInstanceOf(...) - add PHP7 type hinting
-@todo: Run PHPCS (Object Calisthenthics, Magento Coding Standard, PSR-12?, PHPStan)
-@todo: Where to start? Unit testing or end-to-end. Where it hurts.
-@todo: Fix bugs with a test
-@todo: Refactor constantly
-@todo: Dealers example, split up in modules
 
+---
+# End-to-end testing
+- Selenium, Codeception
+- Cypress.io
+
+
+
+---
+# Where to start?
+
+---
+# Unit testing? Integration testing? End-to-end testing?
+
+---
+# Start where it hurts
+
+---
+# Fix your next bug via a test
+
+---
+# Fix your next bug via a test
+- Proof the bug using a test
+    - Unit, integration, functional, end-to-end, whatever
+- Run the test so it fails
+- Fix the bug
+- Run the test so it success
+- Keep running the test(s) every time again and again
+    - So it will never fail again
 
 ---
 {state: main dark center middle}
