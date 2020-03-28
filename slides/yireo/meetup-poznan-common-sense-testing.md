@@ -93,7 +93,7 @@ class DataTest extends TestCase {
 
 
 ---
-# Real-life unit test?
+# Some helper class
 ```php
 namespace Yireo\Example\Helper;
 use Magento\Framework\App\Helper\AbstractHelper;
@@ -110,7 +110,7 @@ class Data extends AbstractHelper {
 ```
 
 ---
-# Real-life unit test?
+# Real-life unit test? (1)
 ```php
 namespace Yireo\Example\Test\Unit\Helper;
 use Yireo\Example\Helper\Data;
@@ -128,7 +128,7 @@ class DataTest extends TestCase {
 ```
 
 ---
-# Real-life unit test?
+# Real-life unit test? (2)
 ```php
 ...
 class DataTest extends TestCase {
@@ -145,7 +145,7 @@ class DataTest extends TestCase {
 ```
 
 ---
-# Real-life unit test?
+# Real-life unit test? (3)
 ```php
 ...
 class DataTest extends TestCase {
@@ -163,11 +163,69 @@ class DataTest extends TestCase {
 ```
 
 ---
+# Unit test in overview
+In overview:
+
+- We mock `Context`
+- We mock `ScopeConfig` and add it to `Context`
+- We instantiate `Helper` with `Context` mock
+
+---
 # What is wrong with this example?
 ~ Do not use helper classes
+    - Refactor this to `Config` class
 ~ Only talk to your immediate friends
     - Only talk to your immediate friends (Law of Demeter, part of SOLID)
+    - Get rid of parent classes; Refactor so that your dependencies are simple
+
+---
+# Better example
+```php
+namespace Yireo\Example\Config;
+use Magento\Store\Model\ScopeInterface;
+use Magento\Framework\App\Config\ScopeConfigInterface;
+class Config {
+    public function __construct(ScopeConfigInterface $scopeConfig) {
+        $this->scopeConfig = $scopeConfig;
+    }
+
+    public function isEnabled() {
+        return (bool) $this->scopeConfig->getValue(
+            'foobar/settings/enabled',
+            ScopeInterface::SCOPE_STORE
+        );
+    }
+}
+```
+
+---
+# Better example
+```php
+declare(strict_types=1);
+namespace Yireo\Example\Config;
+use Magento\Framework\App\Config\ScopeConfigInterface;
+class Config {
+    public function __construct(ScopeConfigInterface $scopeConfig) {
+        $this->scopeConfig = $scopeConfig;
+    }
+
+    public function isEnabled(): bool {
+        return (bool) $this->scopeConfig->getValue(
+            'foobar/settings/enabled'
+        );
+    }
+}
+```
+
+---
+# What is wrong with this example?
+- Do not use helper classes
+    - Refactor this to `Config` class
+- Only talk to your immediate friends
+    - Only talk to your immediate friends (Law of Demeter, part of SOLID)
+    - Get rid of parent classes; Refactor so that your dependencies are simple
 ~ Too much test code for something that mostly works fine anyway
+    - Perhaps an integration test is easier
 
 ---
 # Real-life integration test (1/2)
