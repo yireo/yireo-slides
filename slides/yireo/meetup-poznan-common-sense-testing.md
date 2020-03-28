@@ -45,6 +45,7 @@
 - Creator of Reacticon v3 (June 2020)
 - Magento Master 2017/2018/2019 Mover
 ~ Member of ExtDN (Magento Extension Developer Network)
+~ I'm not a testing guru
 ~ Doing some stuff where testing makes sense
 
 ---
@@ -465,17 +466,18 @@ See: https://github.com/yireo-training and search for *Dealers*
 
 ---
 {state: center middle}
-### Ok, I get it. Unit tests, integration tests, functional tests, end-to-end tests - they are all helpful and I should use them all.
+# Ok, I get it.
+### Unit tests, integration tests, functional tests, end-to-end tests - they are all helpful and I should use them all.
 
 ---
 {state: center middle}
 # Where to start?
+### Unit testing? Integration testing? End-to-end testing?
 
 ---
-# Unit testing? Integration testing? End-to-end testing?
-
----
-# My advice: Start where it hurts
+{state: center middle}
+### My advice:
+# Start where it hurts
 
 ---
 # Where does it hurt?
@@ -484,30 +486,53 @@ See: https://github.com/yireo-training and search for *Dealers*
 ~ Pushing new code while not being totally confident of it
 
 ---
-# If you don't understand it, create a test for it
+{state: center middle}
+### My advice:
+# If you don't understand the code,
+# create a test for it
 
 ---
 # Learn by testing
-~ Create simple tests
+~ Create simple tests about the system
     - Integration tests to find out about Magento internals
     - Tape to learn language concepts of NodeJS
+~ Create advanced tests about the functionality
+    - Functional tests to guarantee output
+    - Or call them regression tests
+    - Or whatever
 
 ---
+{state: center middle}
+### My advice:
 # Fix your next bug via a test
 
 ---
 # Fix your next bug via a test
-- Proof the bug using a test
+~ Proof the bug using a test
     - Unit, integration, functional, end-to-end, whatever
-- Run the test so it fails
-- Fix the bug
-- Run the test so it success
-- Keep running the test(s) every time again and again
+~ Run the test so it fails
+~ Fix the bug
+~ Run the test so it success
+~ Keep running the test(s) every time again and again
     - So it will never fail again
 
 ---
-{state: main dark center middle}
-{background-image: mm19pl/heman.jpg}
-# Your common sense is most important
-## when writing tests
+{state: center middle}
+### My advice:
+# If you start fresh, try TDD
+
+---
+# When you start fresh
+- Stand-alone PHP microservice
+- Stand-alone PHP classes in Magento 2
+- Separate React or Vue component
+
+---
+{state: center middle}
+### When writing tests
+# your common sense is most important
+
+---
+{state: center middle}
+# Thanks
 #### slides.yireo.com/yireo/meetup-poznan-common-sense-testing
