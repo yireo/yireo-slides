@@ -63,6 +63,7 @@
 ~ Regression testing
 ~ Performance testing
 ~ Property-based testing
+~ Or actually a good mix of all of the above
 
 ???
 Show of hands: How many of you have worked with which type of tests?
@@ -71,15 +72,19 @@ Unit testing: Testing of a single point of functionality (a method, a class, a m
 
 Integration testing: Testing your own code in combination with other code (that is already unit tested) to test the functionality of a greater whole.
 
-Functional testing:
+Functional testing: A combination of modules or the entire application is tested for the functionality described in a certain scenario. Instead of testing the individual code parts using integration tests, the overall functionality is tested for.
 
-Smoke testing: Simple integration tests that simply check if the system under test (Magento) is behaving correctly.
+Acceptance testing: Same as functional testing, but by thinking about the functionality as the end-customer and not as the developer.
+
+End-to-end testing: Same as with acceptance testing, but often done by non-developers.
+
+Smoke testing: Simple integration tests that simply check if the system under test (Magento) is behaving correctly. This can be accomplished by other tests from above, because it is more a procedure than a specific way to write tests.
+
+Regression testing: Tests to confirm that a change in code is not having unexpected effects elsewhere. This can be accomplished by other tests from above, because it is more a procedure than a specific way to write tests.
+
+Performance testing: Tests that measure whether performance metrics are still acceptable. Examples are loading times, the number of SQL queries, responses from microservices, memory usage. Tests could be written as functional tests or integration tests, or external tools like Blackfire could be used.
 
 Property-based testing: Ask Vinai Kopp.
-
-@todo: Add definition for all
-@todo: Personal opinion: I don't believe in 100% code coverage because of this
-@todo: Use a mix of all testing.
 
 ---
 {state: dark center middle}
@@ -322,6 +327,8 @@ class DataTest extends TestCase {
 }
 ```
 
+---
+# Personal opinion: I don't believe in 100% code coverage
 
 ---
 # Running Magento Integration Tests
