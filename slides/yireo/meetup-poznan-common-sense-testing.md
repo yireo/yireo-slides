@@ -115,6 +115,10 @@ Next, run `phpunit ./Test/Unit/DataTest.php` and see what is wrong.
     - Red-Green-Refactor
 
 ---
+{state: center middle}
+# Personal opinion: I don't believe in 100% code coverage
+
+---
 # Some helper class (1)
 ```php
 namespace Yireo\Example\Helper;
@@ -183,7 +187,6 @@ class DataTest extends TestCase
 
 $helper = new Data($context);
 $this->assertTrue($helper->isEnabled());
-$this->assertSame($helper->isEnabled(), true);
 ```
 
 ---
@@ -248,8 +251,11 @@ $context->expects($this->any())->method('getScopeConfig')
     ->will($this->returnValue($scopeConfig));
 $helper = new Data($context);
 $this->assertTrue($helper->isEnabled());
-$this->assertSame($helper->isEnabled(), true);
 ```
+
+---
+{state: center middle}
+# What is wrong with this example?
 
 ---
 # What is wrong with this example?
@@ -265,45 +271,46 @@ $this->assertSame($helper->isEnabled(), true);
 # Tip: Better example
 ```php
 namespace Yireo\Example\Config;
-class Config {
-    public function __construct(ScopeConfigInterface $scopeConfig) {
+
+use Magento\Framework\App\Config\ScopeConfigInterface;
+use Magento\Store\Model\ScopeInterface;
+
+class Config
+{
+    public function __construct(ScopeConfigInterface $scopeConfig)
+    {
         $this->scopeConfig = $scopeConfig;
     }
 
-    public function isEnabled() {
-        return (bool) $this->scopeConfig->getValue(
-            'foobar/settings/enabled',
-            ScopeInterface::SCOPE_STORE
-        );
-    }
+    public function isEnabled() { /* same as before */ }
 }
 ```
 
 ---
-# Tip: Even better example
+# Tip: Add type hinting
 ```php
 declare(strict_types=1);
 namespace Yireo\Example\Config;
-class Config {
-    public function __construct(ScopeConfigInterface $scopeConfig) {
-        $this->scopeConfig = $scopeConfig;
-    }
 
-    public function isEnabled(): bool {
-        return (bool) $this->scopeConfig->getValue(
-            'foobar/settings/enabled'
-        );
-    }
+use Magento\Framework\App\Config\ScopeConfigInterface;
+use Magento\Store\Model\ScopeInterface;
+
+class Config
+{
+    public function __construct() { /* same as before */ }
+
+    public function isEnabled(): bool {/* same as before */ }
 }
 ```
 
 ---
-# What is wrong with this example?
+{state: center middle}
+# What is still wrong with this example?
+
+---
+# What is still wrong with this example?
 - Do not use helper classes
-    - Refactor this to `Config` class
 - Only talk to your immediate friends
-    - Only talk to your immediate friends (Law of Demeter, part of SOLID)
-    - Get rid of parent classes; Refactor so that your dependencies are simple
 ~ Too much test code for something that mostly works fine anyway
     - If the unit test becomes too complex, because the unit is too complex?
     - Perhaps an integration test is easier?
@@ -325,41 +332,15 @@ class DataTest extends TestCase
 ---
 # Real-life integration test (2)
 ```php
-namespace Yireo\Example\Test\Integration\Helper;
-
-use Yireo\Example\Helper\Data;
-use PHPUnit\Framework\TestCase;
-use Magento\TestFramework\Helper\Bootstrap;
-class DataTest extends TestCase {
     /**
      * @magentoConfigFixture current_store foo/settings/enabled 1
      */
-    public function testIsEnabled() {
+    public function testIsEnabled()
+    {
         $objectManager = Bootstrap::getObjectManager();
         $helper = $objectManager->create(Data::class);
         $this->assertTrue($helper->isEnabled());
     }
-}
-```
-
----
-# Real-life integration test (2)
-```php
-namespace Yireo\Example\Test\Unit\Helper;
-use Yireo\Example\Helper\Data;
-use PHPUnit\Framework\TestCase;
-use Magento\TestFramework\Helper\Bootstrap;
-
-class DataTest extends TestCase {
-    /**
-     * @magentoConfigFixture current_store foo/settings/enabled 0
-     */
-    public function testIsDisabled() {
-        $objectManager = Bootstrap::getObjectManager();
-        $helper = $objectManager->create(Data::class);
-        $this->assertFalse($helper->isEnabled());
-    }
-}
 ```
 
 ---
@@ -368,21 +349,18 @@ class DataTest extends TestCase {
     /**
      * @magentoConfigFixture current_store foo/settings/enabled 0
      */
-    public function testIsEnabled() {
-        $objectManager = Bootstrap::getObjectManager();
-        $helper = $objectManager->create(Data::class);
-        $this->assertFalse($helper->isEnabled());
-    }
-    /**
-     * @magentoConfigFixture current_store foo/settings/enabled 0
-     */
-    public function testIsDisabled() {
+    public function testIsDisabled()
+    {
         $objectManager = Bootstrap::getObjectManager();
         $helper = $objectManager->create(Data::class);
         $this->assertFalse($helper->isEnabled());
     }
 }
 ```
+
+---
+{state: center middle}
+# Slight refactoring: Add type hinting
 
 ---
 # Real-life integration test (4)
@@ -390,16 +368,13 @@ class DataTest extends TestCase {
     /**
      * @magentoConfigFixture current_store foo/settings/enabled 0
      */
-    public function testIsEnabled() {
+    public function testIsEnabled()
+    {
         $this->assertFalse($this->getHelper()->isEnabled());
     }
-    /**
-     * @magentoConfigFixture current_store foo/settings/enabled 0
-     */
-    public function testIsDisabled() {
-        $this->assertFalse($this->getHelper()->isEnabled());
-    }
-    private function getHelper(): Data {
+
+    private function getHelper(): Data
+    {
         $objectManager = Bootstrap::getObjectManager();
         return $objectManager->create(Data::class);
     }
@@ -407,8 +382,7 @@ class DataTest extends TestCase {
 ```
 
 ---
-{state: dark center middle}
-# Personal opinion: I don't believe in 100% code coverage
+{state: center middle}
 
 ---
 # Running Magento Integration Tests
