@@ -456,8 +456,9 @@ See: https://github.com/yireo-training and search for *Dealers*
 # What not to test?
 - Using `assertInstanceOf()` often is silly
     - Add PHP7 type hinting instead
-
-@todo: Add more
+- Private methods
+    - Because they are private
+- Exception messages
 
 ---
 # End-to-end testing
