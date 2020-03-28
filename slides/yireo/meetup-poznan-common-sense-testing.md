@@ -360,7 +360,7 @@ class DataTest extends TestCase
 
 ---
 {state: center middle}
-# Slight refactoring: Add type hinting
+# Slight refactoring
 
 ---
 # Real-life integration test (4)
@@ -383,6 +383,12 @@ class DataTest extends TestCase
 
 ---
 {state: center middle}
+# Type hinting also gives confidence
+## Just like testing
+
+---
+{state: center middle}
+# Let's run integration tests
 
 ---
 # Running Magento Integration Tests
@@ -390,11 +396,11 @@ class DataTest extends TestCase
 - Setup an empty test database
 - Configure `dev/tests/integration/etc/install-config-mysql.php`
 - Configure your test-suite in `dev/tests/integration/phpunit.xml`
-- Run `cd dev/tests/integration && ../../../vendor/bin/phpunit -c ./phpunit.xml`
+- Run `cd dev/tests/integration && ../../../vendor/bin/phpunit -c ./phpunit.xml --testsuite Custom`
     - Or `bin/magento dev:tests:run integration`
 
 ---
-# Tip: Making Magento Integration Tests run fast
+# Tip: Making Integration Tests run fast
 - Keep toggling `TESTS_CLEANUP`
 - Run MySQL in tmpfs (easier with a separate Docker instance)
 - Replace unneeded Magento modules (like bundled extensions nobody uses)
@@ -404,19 +410,31 @@ See: https://www.yireo.com/blog/2019-05-04-faster-magento2-integration-tests
 
 ---
 # My own `ExampleDealers` module-set
-@todo: Dealers example, split up in modules
+- Separate modules
+    - `ExampleDealers`: Core database functionality
+    - `ExampleDealersCli`: Command-line access
+    - `ExampleDealersAdminhtml`: Adminhtml access
+    - `ExampleDealersFrontend`: Frontend access
+    - `ExampleDealersGraphQl`: GraphQL access
+- Tests per module
+
+See: https://github.com/yireo-training and search for *Dealers*
 
 ---
+{state: center middle}
 # What about functional tests?
 
 ---
 # Functional tests
-- Integration Tests with real-life Magento instance
-- Functional tests based on MFTF
-
-@todo: MFTF for agencies? ExtDN
+~ Integration Tests with real-life Magento instance
+    - Development, staging or production (yikes)
+~ Functional tests based on MFTF)
+    - Important for extension developers (like with ExtDN)
+    - Not yet important for agencies
 
 ---
+{state: center middle}
+# There are more ways to check for code quality
 
 ---
 # Guaranteeing code quality
@@ -429,22 +447,28 @@ See: https://www.yireo.com/blog/2019-05-04-faster-magento2-integration-tests
 ~ Use PHP 7 type hinting
     - `declare_strict_types=1`
     - Return typing, argument hinting
-- Coding standards
+~ Coding standards
     - Object Calisthenics
     - SOLID, DRY
 
 ---
 # What not to test?
-@todo: Stupid test: $assertInstanceOf(...) - add PHP7 type hinting
+- Using `assertInstanceOf()` often is silly
+    - Add PHP7 type hinting instead
+
+@todo: Add more
 
 ---
 # End-to-end testing
 - Selenium, Codeception
 - Cypress.io
 
-
+---
+{state: center middle}
+### Ok, I get it. Unit tests, integration tests, functional tests, end-to-end tests - they are all helpful and I should use them all.
 
 ---
+{state: center middle}
 # Where to start?
 
 ---
