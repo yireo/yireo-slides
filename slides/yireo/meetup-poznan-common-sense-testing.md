@@ -94,14 +94,17 @@ Property-based testing: Ask Vinai Kopp.
 # Unit test
 ```php
 use PHPUnit\Framework\TestCase;
-class DataTest extends TestCase {
-    public function testWhetherTestWorks() {
+
+class DataTest extends TestCase
+{
+    public function testWhetherTestWorks()
+    {
         $this->assertTrue(false);
     }
 }
 ```
 
-Next, run `phpunit ./Test/Unit/DataTest.php` and party.
+Next, run `phpunit ./Test/Unit/DataTest.php` and see what is wrong.
 
 ---
 # Concepts
@@ -112,14 +115,25 @@ Next, run `phpunit ./Test/Unit/DataTest.php` and party.
     - Red-Green-Refactor
 
 ---
-# Some helper class
+# Some helper class (1)
 ```php
 namespace Yireo\Example\Helper;
+
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Store\Model\ScopeInterface;
 
-class Data extends AbstractHelper {
-    public function isEnabled() {
+class Data extends AbstractHelper
+{
+}
+```
+
+---
+# Some helper class (2)
+```php
+class Data extends AbstractHelper
+{
+    public function isEnabled()
+    {
         return (bool) $this->scopeConfig->getValue(
             'foobar/settings/enabled',
             ScopeInterface::SCOPE_STORE
@@ -129,57 +143,70 @@ class Data extends AbstractHelper {
 ```
 
 ---
-# Real-life unit test? (1)
+{state: center middle}
+# So let's  create a test for this
+
+---
+# Some unit test? (1)
 ```php
 namespace Yireo\Example\Test\Unit\Helper;
+
 use Yireo\Example\Helper\Data;
 use PHPUnit\Framework\TestCase;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
-class DataTest extends TestCase {
-    public function testIsEnabled() {
-        ...
-        $helper = new Data($context);
-        $this->assertTrue($helper->isEnabled());
-        $this->assertSame($helper->isEnabled(), true);
+class DataTest extends TestCase
+{
+    public function testIsEnabled()
+    {
+        // @todo: Test whether the enabled flag is true
     }
 }
 ```
 
 ---
-# Real-life unit test? (2)
+# Some unit test? (2)
 ```php
+/* @todo: Create a mock called $context */
 ...
-class DataTest extends TestCase {
-    public function testIsEnabled() {
-        $scopeConfig = $this->getMockBuilder(ScopeConfigInterface::class)
-            ->disableOriginalConstructor()
-            ->getMock();
-
-        $scopeConfig->expects($this->any())
-            ->method('getValue')
-            ->with('foobar/settings/enabled')
-            ->returnValue(1);
-        ...
+$helper = new Data($context);
+$this->assertTrue($helper->isEnabled());
+$this->assertSame($helper->isEnabled(), true);
 ```
 
 ---
-# Real-life unit test? (3)
+# Some unit test? (3)
 ```php
-...
-class DataTest extends TestCase {
-    public function testIsEnabled() {
-        ...
-        $context = $this->getMockBuilder(Context::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+/* @todo: Create a mock called $scopeConfig */
 
-        $context->expects($this->any())
-            ->method('getScopeConfig')
-            ->will($this->returnValue($scopeConfig)
-        );
-        ...
+$context = $this->getMockBuilder(Context::class)
+    ->disableOriginalConstructor()
+    ->getMock();
+
+$context->expects($this->any())
+    ->method('getScopeConfig')
+    ->will($this->returnValue($scopeConfig)
+);
+
+/* The rest of the code we already had */
 ```
+
+---
+# Some unit test? (4)
+```php
+$scopeConfig = $this->getMockBuilder(ScopeConfigInterface::class)
+    ->disableOriginalConstructor()
+    ->getMock();
+
+$scopeConfig->expects($this->any())
+    ->method('getValue')
+    ->with('foobar/settings/enabled')
+    ->returnValue(1);
+
+// @todo: Create a mock called $scopeConfig
+```
+
+
 
 ---
 # Unit test in overview
@@ -203,8 +230,6 @@ In overview:
 # Tip: Better example
 ```php
 namespace Yireo\Example\Config;
-use Magento\Store\Model\ScopeInterface;
-use Magento\Framework\App\Config\ScopeConfigInterface;
 class Config {
     public function __construct(ScopeConfigInterface $scopeConfig) {
         $this->scopeConfig = $scopeConfig;
@@ -224,7 +249,6 @@ class Config {
 ```php
 declare(strict_types=1);
 namespace Yireo\Example\Config;
-use Magento\Framework\App\Config\ScopeConfigInterface;
 class Config {
     public function __construct(ScopeConfigInterface $scopeConfig) {
         $this->scopeConfig = $scopeConfig;
@@ -246,12 +270,28 @@ class Config {
     - Only talk to your immediate friends (Law of Demeter, part of SOLID)
     - Get rid of parent classes; Refactor so that your dependencies are simple
 ~ Too much test code for something that mostly works fine anyway
-    - Perhaps an integration test is easier
+    - If the unit test becomes too complex, because the unit is too complex?
+    - Perhaps an integration test is easier?
 
 ---
 # Real-life integration test (1)
 ```php
 namespace Yireo\Example\Test\Integration\Helper;
+
+use Yireo\Example\Helper\Data;
+use PHPUnit\Framework\TestCase;
+use Magento\TestFramework\Helper\Bootstrap;
+
+class DataTest extends TestCase
+{
+}
+```
+
+---
+# Real-life integration test (2)
+```php
+namespace Yireo\Example\Test\Integration\Helper;
+
 use Yireo\Example\Helper\Data;
 use PHPUnit\Framework\TestCase;
 use Magento\TestFramework\Helper\Bootstrap;
