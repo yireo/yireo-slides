@@ -79,6 +79,75 @@ Smoke testing: Simple integration tests that simply check if the system under te
 # Unit test
 
 ---
+# Example unit test
+```php
+namespace \Yireo\Example\Helper;
+
+use Magento\Framework\App\Helper\AbstractHelper;
+use Magento\Store\Model\ScopeInterface;
+
+class Data extends AbstractHelper
+{
+    public function isEnabled()
+    {
+        return (bool) $this->scopeConfig->getValue(
+            'foobar/settings/enabled',
+            ScopeInterface::SCOPE_STORE
+        );
+    }
+}
+```
+
+```php
+class DataTest extends \PHPUnit\Framework\TestCase
+{
+    public function testIsEnabled()
+        ...
+        $helper = new \Yireo\Example\Helper\Data($context);
+        $this->assertTrue($helper->isEnabled());
+        $this->assertSame($helper->isEnabled(), true);
+    }
+}
+```
+
+---
+# Example unit test
+```php
+class DataTest extends \PHPUnit\Framework\TestCase
+{
+    public function testIsEnabled()
+    {
+        $scopeConfig = $this->getMockBuilder->createMock('Magento\Framework\App\Config\ScopeConfigInterface');
+
+        $scopeConfig->expects($this->any())
+            ->method('getValue')
+            ->with('foobar/settings/enabled')
+            ->returnValue(1);
+
+        ...
+```
+
+```php
+        ...
+        $context = $this->getMock(
+            'Magento\Framework\App\Helper\Context',
+            [],
+            [],
+            '',
+            false,
+            false
+            );
+
+        $context->expects($this->any())
+            ->method('getScopeConfig')
+            ->will($this->returnValue($scopeConfig)
+        );
+        ...
+```
+
+
+
+---
 # Concepts
 - Mocking
 - Stubbing
