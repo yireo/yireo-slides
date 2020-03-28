@@ -450,39 +450,42 @@ $this->repository->save($newDealer);
 # Functional tests
 ~ Integration Tests with real-life Magento instance
     - Development, staging or production (yikes)
+    - A simple Guzzle fetch or more advanced browser-based testing
 ~ Functional tests based on MFTF
+    - MFTF uses Codeception / Selenium (with JavaScript-support)
     - Important for extension developers (like with ExtDN)
     - Not yet important for agencies
 
 ---
 {state: center middle}
-# There are more ways to check for code quality
+# Remember this:
+### There are more ways to check for code quality
 
 ---
 # Guaranteeing code quality
+~ `E_ALL` error reporting
+~ Use PHP 7 type hinting
+    - `declare_strict_types=1`
+    - Return typing, argument hinting
 ~ Run PHP CodeSniffer rules regularly
     - Magento Coding Standard
     - PSR-1, PSR-2, PSR-12
     - Object Calisthenics
 ~ Run static analysis tools
-    - PHPStan
-~ Use PHP 7 type hinting
-    - `declare_strict_types=1`
-    - Return typing, argument hinting
-~ Coding standards
+    - PHP Stan, PHPLint, Psalm, Phan
+~ Apply coding philosophies
     - Object Calisthenics
     - SOLID, DRY
-~ E_ALL error reporting
 
 ---
 # What not to test?
-- Using `assertInstanceOf()` often is silly
-    - Add PHP7 type hinting instead
-- Private methods
+~ Using `assertInstanceOf()` often is silly
+    - Add PHP7 return type hinting instead
+~ Private methods
     - Because they are private
-- Methods with fixed values
+~ Methods with fixed values
     - `function getSecret() { return 42; }`
-- Code already tested by another means
+~ Code already tested by another means
     - If an integration test already covers it, a unit test is less needed
 
 ---
