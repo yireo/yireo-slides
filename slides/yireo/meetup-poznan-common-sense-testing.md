@@ -1,5 +1,5 @@
 {state: main middle}
-{background-image: meetup-poznan/cinderella.jpg}
+{background-image: meetup-poznan/saddhu.jpg}
 # Common sense in testing
 ## Don't trust what the gurus tell you
 #### by Jisse Reitsma (Yireo)
@@ -65,6 +65,8 @@
 ~ Property-based testing
 
 ???
+Show of hands: How many of you have worked with which type of tests?
+
 Unit testing: Testing of a single point of functionality (a method, a class, a module), with all of its outside-world dependencies being replaced with stubs and/or mocks.
 
 Integration testing: Testing your own code in combination with other code (that is already unit tested) to test the functionality of a greater whole.
@@ -72,6 +74,8 @@ Integration testing: Testing your own code in combination with other code (that 
 Functional testing:
 
 Smoke testing: Simple integration tests that simply check if the system under test (Magento) is behaving correctly.
+
+Property-based testing: Ask Vinai Kopp.
 
 @todo: Add definition for all
 @todo: Personal opinion: I don't believe in 100% code coverage because of this
@@ -207,7 +211,7 @@ class Config {
 ```
 
 ---
-# Tip: Best example
+# Tip: Even better example
 ```php
 declare(strict_types=1);
 namespace Yireo\Example\Config;
@@ -324,7 +328,7 @@ class DataTest extends TestCase {
 @todo
 
 ---
-# Making Magento Integration Tests run fast
+# Tip: Making Magento Integration Tests run fast
 - @todo: MySQL tmpfs database
 - @todo: Replace unneeded Magento modules (like bundled extensions nobody uses)
 - @todo: ReachDigital Quick Integration Framework
@@ -332,7 +336,7 @@ class DataTest extends TestCase {
 https://www.yireo.com/blog/2019-05-04-faster-magento2-integration-tests
 
 ---
-# Nice example: Dealers
+# My own `ExampleDealers` module-set
 @todo: Dealers example, split up in modules
 
 ---
@@ -380,7 +384,22 @@ https://www.yireo.com/blog/2019-05-04-faster-magento2-integration-tests
 # Unit testing? Integration testing? End-to-end testing?
 
 ---
-# Start where it hurts
+# My advice: Start where it hurts
+
+---
+# Where does it hurt?
+~ Going live with untested code
+~ Seeing the same bug occur multiple times in your life
+~ Pushing new code while not being totally confident of it
+
+---
+# If you don't understand it, create a test for it
+
+---
+# Learn by testing
+~ Create simple tests
+    - Integration tests to find out about Magento internals
+    - Tape to learn language concepts of NodeJS
 
 ---
 # Fix your next bug via a test
@@ -398,6 +417,6 @@ https://www.yireo.com/blog/2019-05-04-faster-magento2-integration-tests
 ---
 {state: main dark center middle}
 {background-image: mm19pl/heman.jpg}
-# Your common is most important
+# Your common sense is most important
 ## when writing tests
 #### slides.yireo.com/yireo/meetup-poznan-common-sense-testing
