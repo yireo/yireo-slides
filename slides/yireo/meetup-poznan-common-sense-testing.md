@@ -77,19 +77,24 @@ Smoke testing: Simple integration tests that simply check if the system under te
 
 ---
 # Unit test
+```php
+use PHPUnit\Framework\TestCase;
+class DataTest extends TestCase {
+    public function testWhetherTestWorks() {
+        $this->assertTrue(false);
+    }
+}
+```
 
 ---
-# Example unit test
+# Real-life unit test?
 ```php
-namespace \Yireo\Example\Helper;
-
+namespace Yireo\Example\Helper;
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Store\Model\ScopeInterface;
 
-class Data extends AbstractHelper
-{
-    public function isEnabled()
-    {
+class Data extends AbstractHelper {
+    public function isEnabled() {
         return (bool) $this->scopeConfig->getValue(
             'foobar/settings/enabled',
             ScopeInterface::SCOPE_STORE
@@ -98,12 +103,18 @@ class Data extends AbstractHelper
 }
 ```
 
+---
+# Real-life unit test?
 ```php
-class DataTest extends \PHPUnit\Framework\TestCase
-{
-    public function testIsEnabled()
+namespace Yireo\Example\Test\Unit\Helper;
+use Yireo\Example\Helper\Data;
+use PHPUnit\Framework\TestCase;
+use Magento\Framework\App\Config\ScopeConfigInterface;
+
+class DataTest extends TestCase {
+    public function testIsEnabled() {
         ...
-        $helper = new \Yireo\Example\Helper\Data($context);
+        $helper = new Data($context);
         $this->assertTrue($helper->isEnabled());
         $this->assertSame($helper->isEnabled(), true);
     }
@@ -111,32 +122,33 @@ class DataTest extends \PHPUnit\Framework\TestCase
 ```
 
 ---
-# Example unit test
+# Real-life unit test?
 ```php
-class DataTest extends \PHPUnit\Framework\TestCase
-{
-    public function testIsEnabled()
-    {
-        $scopeConfig = $this->getMockBuilder->createMock('Magento\Framework\App\Config\ScopeConfigInterface');
+...
+class DataTest extends TestCase {
+    public function testIsEnabled() {
+        $scopeConfig = $this->getMockBuilder(ScopeConfigInterface::class)
+            ->disableOriginalConstructor()
+            ->getMock();
 
         $scopeConfig->expects($this->any())
             ->method('getValue')
             ->with('foobar/settings/enabled')
             ->returnValue(1);
-
         ...
 ```
 
 ```php
+use Magento\Framework\App\Helper\Context;
+
+class DataTest extends TestCase
+{
+    public function testIsEnabled()
+    {
         ...
-        $context = $this->getMock(
-            'Magento\Framework\App\Helper\Context',
-            [],
-            [],
-            '',
-            false,
-            false
-            );
+        $context = $this->getMockBuilder(Context::class)
+            ->disableOriginalConstructor()
+            ->getMock();
 
         $context->expects($this->any())
             ->method('getScopeConfig')
@@ -144,8 +156,6 @@ class DataTest extends \PHPUnit\Framework\TestCase
         );
         ...
 ```
-
-
 
 ---
 # Concepts
