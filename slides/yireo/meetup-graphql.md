@@ -18,6 +18,17 @@
 
 ---
 {state: dark center middle}
+# Remote online training
+- Magento PWA Studio development
+- Vue Storefront development
+- GraphQL API microservice development (PHP)
+- React / Redux / Apollo
+- Vue / Vuex / Apollo
+
+https://yireo.com/events
+
+---
+{state: dark center middle}
 # GraphQL, Magento and React
 
 ---
@@ -255,15 +266,69 @@ github.com/yireo/Yireo_AdditionalEndpointsGraphQl
 - BigCommerce: Native
 - Shopify: Native
 - Sylius: No
-- WordPress / WooCommerce: 3rd party plugin
+- WooCommerce: No
 - Strapi: Native
 
 ---
 # CMS platforms supporting GQL
 - Contentful: Native
+- GraphCMS: Native
+- WordPress: 3rd party plugin
+- Drupal: 3rd party plugin
+- Prismic: Native
+- (Gatsby)
 
 ---
 # Other APIs supporting GQL
 - GitHub
 - GitLab
 - FaunaDB
+
+---
+# Your own microservice
+- Node
+  - Apollo, Relay, Prisma
+- PHP
+  - GraphQLite, Webonyx GraphQL
+- Java, Ruby, Python, Go
+- ...
+
+---
+# E-commerce services
+- ElasticSearch
+  - Third party project: GraphQL proxy
+  - Do not use Magento to wrap ElasticSearch!
+- PIMs
+- ERP
+
+---
+# More options
+- Price calculation
+- Alternative inventory & stock
+- VAT verification
+- Email verification
+- Dealers / retailer information
+- Complex product options
+- Promos and advertizing
+- Image optimization
+- Product image provider
+
+---
+{state: dark center middle}
+# GraphQL Mesh
+
+---
+# Challenges
+- Bundling multiple APIs into single API
+  - Schema stitching, schema proxies
+- Maintaining all APIs across multiple networks
+  - Versioning, client-management, proxies
+
+---
+{state: dark center middle}
+# Conclusion: Wrap all APIs with GraphQL
+
+---
+@todo: LoTR picture
+{state: dark center middle}
+# One API to rule them all
