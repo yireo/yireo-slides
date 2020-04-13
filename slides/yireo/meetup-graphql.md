@@ -22,8 +22,8 @@
 - Magento PWA Studio development
 - Vue Storefront development
 - GraphQL API microservice development (PHP)
-- React / Redux / Apollo
-- Vue / Vuex / Apollo
+- React / Redux / Apollo / SSR
+- Vue / Vuex / Apollo / SSR
 
 https://yireo.com/events
 
@@ -157,6 +157,10 @@ https://yireo.com/events
 
 ---
 {state: dark center middle}
+# GraphQL provides the neck in headless
+
+---
+{state: dark center middle}
 # Magento in a few minutes
 
 ---
@@ -169,6 +173,7 @@ https://yireo.com/events
   - Magento 1 reaches End-Of-Life in June 2020
 ~ Taken over by Adobe
   - Commercial product renamed to Adobe Commerce (Cloud)
+  - Focused on enterprise, which is leading to market shift
 
 ---
 {state: dark}
@@ -240,7 +245,11 @@ class Hello implements ResolverInterface
 github.com/yireo/Yireo_AdditionalEndpointsGraphQl
 
 ---
-# Clients
+{state: dark center middle}
+# Client-side GraphQL
+
+---
+# GraphQL clients
 - GraphiQL
   - ChromeiQL, GraphiQL web-version, desktop apps
 - Shell
@@ -258,6 +267,26 @@ github.com/yireo/Yireo_AdditionalEndpointsGraphQl
   - And thus in original Magento 2 frontend with Knockout & Require
 - PHP client
   - Guzzle HttpClient, for instance in WordPress, Laravel or Symfony
+
+---
+# Vue example
+```vue
+export default {
+  apollo: {
+    cmsPage() {
+      return {
+        query: CMS_PAGE_QUERY,
+        variables() {
+          return { id: this.cmsPageId };
+        }
+        result (result) {
+          this.updateCmsPage(result.data.cmsPage);
+        }}}}}
+```
+
+---
+{state: dark center middle}
+# Beyond Magento
 
 ---
 # E-commerce platforms supporting GQL
@@ -285,7 +314,19 @@ github.com/yireo/Yireo_AdditionalEndpointsGraphQl
 - FaunaDB
 
 ---
+{state: dark center middle}
+# Microservices
+
+---
 # Your own microservice
+- Pick a programming language
+- Pick a problem subset
+- Write your own logic for this
+  - DDD, TDD
+- Wrap this in an GraphQL API
+
+---
+# Programming language
 - Node
   - Apollo, Relay, Prisma
 - PHP
@@ -323,6 +364,17 @@ github.com/yireo/Yireo_AdditionalEndpointsGraphQl
   - Schema stitching, schema proxies
 - Maintaining all APIs across multiple networks
   - Versioning, client-management, proxies
+- Performance
+  - Caching (client-side, server-side), cache invalidation
+  - Server Side Rendering
+
+@todo: Picture of network (M2, ES, middleware, Contentful, inventory microservice)
+
+---
+# Apollo
+- Apollo Client
+- Apollo Server
+- Apollo Federation
 
 ---
 {state: dark center middle}
