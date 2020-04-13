@@ -5,6 +5,13 @@ $slideGroups = [
         'style' => 'meetmagento',
         'slides' => [
             [
+                'file' => 'yireo/meetup-graphql',
+                'title' => 'GraphQL, Magento and React (Laravel Groningen Meetup - April 2020)',
+                'footer' => 'Magento Meetup - @beeproger',
+                'style' => 'mm19pl',
+                'renderer' => 'reveal'
+            ],
+            [
                 'file' => 'yireo/meetup-poznan-common-sense-testing',
                 'title' => 'Common Sense in Testing (Poznan Meetup - April 2020)',
                 'footer' => 'Magento Meetup - @Snowdog',
