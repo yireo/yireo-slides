@@ -33,6 +33,10 @@
 ### Because GraphQL is da bomb
 
 ---
+{state: dark center middle}
+# GraphQL in a few minutes
+
+---
 {state: dark}
 # GraphQL in short
 - Queries, mutations & fragments
@@ -68,12 +72,31 @@
 - Underfetching instead of overfetching
 
 ---
-# Underfetching
+# Underfetching (1/2)
 ```graphql
 {
-  cmsPage(id:2) {
-    title
-    content
+  products(search: "Hood") {
+    items {
+      id
+      sku
+      name
+      meta_title
+      meta_keyword
+    }
+  }
+}
+```
+
+---
+# Underfetching (2/2)
+```graphql
+{
+  products(search: "Hood") {
+    items {
+      id
+      sku
+      name
+    }
   }
 }
 ```
@@ -85,6 +108,41 @@
 - Underfetching instead of overfetching
 - Multiple subqueries
 
+---
+{state: dark}
+# Multiple subqueries (1/2)
+```graphql
+{
+  products(search: "Hood") {
+    items {
+      categories {
+        products {
+          items {
+            sku
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+---
+{state: dark}
+# Multiple subqueries (2/2)
+```graphql
+{
+  products(search: "Hood") {
+    items {
+      sku
+    }
+  }
+  cmsPage(id:2) {
+    title
+    content
+  }
+}
+```
 
 ---
 {state: dark}
