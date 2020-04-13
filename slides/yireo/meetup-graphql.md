@@ -215,6 +215,16 @@ class Hello implements ResolverInterface
 ```
 
 ---
+# Total opportunities
+- Add new endpoints
+- Extending the Store Configuration
+- Modify existing endpoints
+  - DI interceptor plugins
+- Testing
+  - Integration tests
+  - API Functional tests
+
+---
 {state: dark center middle}
 github.com/yireo/Yireo_AdditionalEndpointsGraphQl
 
@@ -222,3 +232,38 @@ github.com/yireo/Yireo_AdditionalEndpointsGraphQl
 # Clients
 - GraphiQL
   - ChromeiQL, GraphiQL web-version, desktop apps
+- Shell
+  - curl, GraphQL CLI
+- JavaScript
+  - Axios, Apollo Client, Prisma, Apollo
+
+---
+# Usage of GraphQL
+- React
+  - Magento PWA Studio, FrontCommerce, DEITY, React Storefront, Reaction
+- Vue
+  - Vue Storefront
+- jQuery
+  - And thus in original Magento 2 frontend with Knockout & Require
+- PHP client
+  - Guzzle HttpClient, for instance in WordPress, Laravel or Symfony
+
+---
+# E-commerce platforms supporting GQL
+- Shopware: 3rd party plugin
+- CommerceTools: Native
+- BigCommerce: Native
+- Shopify: Native
+- Sylius: No
+- WordPress / WooCommerce: 3rd party plugin
+- Strapi: Native
+
+---
+# CMS platforms supporting GQL
+- Contentful: Native
+
+---
+# Other APIs supporting GQL
+- GitHub
+- GitLab
+- FaunaDB
