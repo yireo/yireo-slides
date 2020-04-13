@@ -1,7 +1,7 @@
 {state: main middle}
 {background-image: meetup-poznan/saddhu.jpg}
 # GraphQL, Magento and React
-## Entering a bright new world
+## Because GraphQL is da bomb
 #### by Jisse Reitsma (Yireo)
 
 ---
@@ -18,8 +18,30 @@
 
 ---
 {state: dark center middle}
-# Do stuff where testing makes sense
+# GraphQL, Magento and React
 
 ---
 {state: dark}
-# Testing stuff
+# Because GraphQL is da bomb
+
+---
+{state: dark}
+# Because GraphQL is viral
+
+---
+{state: dark}
+# Because GraphQL is da bomb
+
+---
+{state: dark}
+# GraphQL in short
+
+---
+{state: dark}
+# Magento 2 in short
+- Magento 1 and Magento 2 are different products
+- Most popular open source cart of today
+  - Maybe not tomorrow
+- Taken over by Adobe
+- Magento PWA Studio development stack (since Magento 2.3)
+- Magento GraphQL API (since Magento 2.3)
