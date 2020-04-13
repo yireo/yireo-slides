@@ -145,12 +145,80 @@
 ```
 
 ---
+{state: dark center middle}
+# Magento in a few minutes
+
+---
 {state: dark}
-# Magento 2 in short
-- Magento 1 and Magento 2 are different products
-  - Magento 1
-- Most popular open source cart of today
-  - Maybe not tomorrow
-- Taken over by Adobe
-- Magento PWA Studio development stack (since Magento 2.3)
-- Magento GraphQL API (since Magento 2.3)
+# Magento 2 in short (1/2)
+~ Popular open source cart
+  - Most popular today, maybe not tomorrow
+  - Known for its modularity, extensibility & bizar complexity
+~ Magento 1 and Magento 2 are different products
+  - Magento 1 reaches End-Of-Life in June 2020
+~ Taken over by Adobe
+  - Commercial product renamed to Adobe Commerce (Cloud)
+
+---
+{state: dark}
+# Magento 2 in short (2/2)
+~ Magento PWA Studio development stack
+  - Introduced with Magento 2.3
+  - Buildpack, Peregrine, Venia Concept, Venia UI, UPWARD
+~ Magento GraphQL API
+  - Introduced Magento 2.3
+  - Complete coverage expected with Magento 2.4
+  - Extensible using Magento 2 extensions
+
+---
+# Sample custom query
+```graphql
+{
+  hello(name:"World") {
+  	name
+	  result
+  }
+}
+```
+
+---
+# Magento 2 `etc/schema.graphqls`
+```js
+type Query {
+    hello (
+        name: String @doc(description: "Who to greet?")
+    ): Hello
+    @resolver(class: "Yireo\\ExampleGraphQl\\Model\\Resolver\\Hello")
+    @doc(description: "Simple Hello World example")
+}
+type Hello @doc(description: "Hello answer") {
+    name: String @doc(description: "Original input")
+    result: String @doc(description: "Result")
+}
+```
+
+---
+# Magento 2 Resolver class
+```php
+namespace Yireo\ExampleGraphQl\Model\Resolver;
+use /** **/;
+class Hello implements ResolverInterface
+{
+    public function resolve(Field $field, $context, ResolveInfo $info, array $value = null, array $args = null)
+    {
+        return [
+            'name' => $args['name'],
+            'result' => 'Hello, ' . ucfirst($args['name'])
+        ];
+    }
+}
+```
+
+---
+{state: dark center middle}
+github.com/yireo/Yireo_AdditionalEndpointsGraphQl
+
+---
+# Clients
+- GraphiQL
+  - ChromeiQL, GraphiQL web-version, desktop apps
