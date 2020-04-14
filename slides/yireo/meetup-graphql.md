@@ -209,13 +209,21 @@ Link: yireo.com/events
 ```
 
 ---
+# Magento 2 module
+- `etc/module.xml`
+- `registration.php`
+- `composer.json`
+- `etc/schema.graphqls`
+- `Model/Resolver/Hello.php`
+
+---
 # Magento 2 `etc/schema.graphqls`
 ```js
 type Query {
     hello (
         name: String @doc(description: "Who to greet?")
     ): Hello
-    @resolver(class: "Yireo\\ExampleGraphQl\\Model\\Resolver\\Hello")
+    @resolver(class: "Yireo\\Example\\Model\\Resolver\\Hello")
     @doc(description: "Simple Hello World example")
 }
 type Hello @doc(description: "Hello answer") {
@@ -227,7 +235,7 @@ type Hello @doc(description: "Hello answer") {
 ---
 # Magento 2 Resolver class
 ```php
-namespace Yireo\ExampleGraphQl\Model\Resolver;
+namespace Yireo\Example\Model\Resolver;
 use /** **/;
 class Hello implements ResolverInterface
 {
@@ -242,10 +250,11 @@ class Hello implements ResolverInterface
 ```
 
 ---
-# Total opportunities
+# Extending Magento 2 GraphQL
 - Add new endpoints
 - Extending the Store Configuration
-- Modify existing endpoints
+- Modifying / extending existing endpoints
+  - Your own `etc/schema.graphqls`
   - DI interceptor plugins
 - Testing
   - Integration tests
@@ -253,11 +262,22 @@ class Hello implements ResolverInterface
 
 ---
 {state: dark center middle}
-github.com/yireo/Yireo_AdditionalEndpointsGraphQl
+## Examples
+#### github.com/yireo/Yireo_AdditionalEndpointsGraphQl/
+#### github.com/yireo-training/
 
 ---
 {state: dark center middle}
 # Client-side GraphQL
+
+---
+# GraphQL clients
+- GraphiQL
+  - ChromeiQL, GraphiQL web-version, desktop apps
+
+---
+{background-image: graphiql-screenshot.png}
+<img src="/images/slides/" />
 
 ---
 # GraphQL clients
