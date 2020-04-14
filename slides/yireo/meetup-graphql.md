@@ -481,7 +481,8 @@ Client fetches data from middleware that communicates with Magento and ElasticSe
 
 <img src="/images/meetup-graphql/network-magento-es-middleware2.png" />
 
-
+---
+{background-image: meetup-graphql/dwarf.jpg}
 
 ---
 {state: dark center middle}
