@@ -385,6 +385,7 @@ Laravel fetches data from Magento using GraphQL and then processes this using PH
 <img src="/images/meetup-graphql/simple-php-query.png" />
 
 ---
+{background-image: meetup-graphql/shire.jpg}
 {state: dark center middle}
 ## Headless means freedom of choice
 
