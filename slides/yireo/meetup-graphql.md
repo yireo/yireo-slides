@@ -405,6 +405,7 @@ Laravel fetches data from Magento using GraphQL and then processes this using PH
 # E-commerce platforms supporting GQL
 
 <table>
+<tbody>
 <tr><td>Magento</td><td>Native</td></tr>
 <tr><td>CommerceTools</td><td>Native</td></tr>
 <tr><td>BigCommerce</td><td>Native</td></tr>
@@ -413,12 +414,14 @@ Laravel fetches data from Magento using GraphQL and then processes this using PH
 <tr><td>Sylius</td><td>No</td></tr>
 <tr><td>WooCommerce</td><td>No</td></tr>
 <tr><td>...</td><td></td></tr>
+</tbody>
 </table>
 
 ---
 # CMS platforms supporting GQL
 
 <table>
+<tbody>
 <tr><td>Contentful</td><td>Native</td></tr>
 <tr><td>GraphCMS</td><td>Native</td></tr>
 <tr><td>Strapi</td><td>Native</td></tr>
@@ -427,6 +430,7 @@ Laravel fetches data from Magento using GraphQL and then processes this using PH
 <tr><td>WordPress</td><td>3rd party plugin</td></tr>
 <tr><td>Drupal</td><td>3rd party plugin</td></tr>
 <tr><td>...</td><td></td></tr>
+</tbody>
 </table>
 
 ---

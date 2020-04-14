@@ -37,8 +37,15 @@ h3 {
   font-size: 85% !important;
 }
 table {
+  border: 1px solid #ccc;
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
   display: table;
+}
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+table .w3-table-all tr:nth-child(even) {
+  background-color: #f1f1f1;
 }
