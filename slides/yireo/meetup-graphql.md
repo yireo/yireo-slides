@@ -291,7 +291,7 @@ class Hello implements ResolverInterface
   - curl, GraphQL CLI
 
 ---
-<img src="/images/meetup-graphql/graphql-cli.gif" />
+<img src="/images/meetup-graphql/graphql-cli.gif" class="stretch" />
 
 
 ---
@@ -314,6 +314,10 @@ class Hello implements ResolverInterface
   - And thus in original Magento 2 frontend with Knockout & Require
 - PHP client
   - Guzzle HttpClient, for instance in WordPress, Laravel or Symfony
+
+---
+{state: dark center middle}
+# Some examples
 
 ---
 # React example
