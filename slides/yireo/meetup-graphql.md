@@ -327,6 +327,7 @@ const ProductContainer = ({ props }) => {
 }
 ```
 ---
+## React connecting to Magento 2 using GraphQL
 <img src="/images/meetup-graphql/simple-react-query.png" />
 
 ---
@@ -346,6 +347,7 @@ export default {
 ```
 
 ---
+## Vue connecting to Magento 2 using GraphQL
 <img src="/images/meetup-graphql/simple-vue-query.png" />
 
 ---
@@ -364,6 +366,7 @@ echo $response->getBody()->getContents();
 ```
 
 ---
+## Laravel as a middleware
 <img src="/images/meetup-graphql/simple-php-query.png" />
 
 ---
