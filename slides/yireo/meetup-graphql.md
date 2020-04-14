@@ -515,7 +515,10 @@ Client fetches data from middleware that communicates with Magento and ElasticSe
 - Product image provider
 
 ---
-@todo: Picture of CMS, E-commerce, stock inventory, image processing, React/Vue, ElasticSearch with GQL microservice
+## Example GraphQL-based infrastructure
+
+<img src="/images/meetup-graphql/network-microservices.png" />
+
 
 ---
 {state: dark center middle}
