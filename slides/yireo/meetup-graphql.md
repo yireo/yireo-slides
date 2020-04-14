@@ -311,37 +311,58 @@ class Hello implements ResolverInterface
   - Guzzle HttpClient, for instance in WordPress, Laravel or Symfony
 
 ---
-# Vue example
-```vue
-export default {
-  apollo: {
-    cmsPage() {
-      return {
-        query: CMS_PAGE_QUERY,
-        variables() {
-          return { id: this.cmsPageId };
-        }
-        result (result) {
-          this.updateCmsPage(result.data.cmsPage);
-        }}}}}
-```
-
----
 # React example
 ```js
 import gql from 'graphql-tag';
 import { useQuery } from '@apollo/react-hooks';
-import GET_DOGS from 'queries/get_dogs.graphql';
+import PRODUCT_QUERY from 'queries/product_info.graphql';
 
-const Dogs = ({ onDogSelected }) => {
-  const { loading, error, data } = useQuery(GET_DOGS);
+const ProductContainer = ({ props }) => {
+  const { loading, error, data } = useQuery(PRODUCT_QUERY, props);
   if (loading) return 'Loading...';
   if (error) return `Error! ${error.message}`;
   return (
-    <ShowDogs dogs={data}/>
+    <ProductView product={data}/>
   );
 }
 ```
+
+
+---
+# Vue example
+```vue
+export default {
+  apollo: {
+    productPage() {
+      return {
+        query: PRODUCT_QUERY,
+        variables() {
+          return { id: this.productId };
+        }
+        result (result) {
+          this.updateProductPage(result.data.product);
+        }}}}}
+```
+
+---
+# PHP example
+```php
+$response = $this->client->post('/graphql', [
+        'form_params' => [
+            'query' => PRODUCT_QUERY,
+            'variables' => [
+                'id' => $productId
+            ]
+        ]
+    ]);
+
+echo $response->getBody()->getContents();
+```
+
+---
+{state: dark center middle}
+## Headless means freedom
+#### Any frontend could be made capable for consuming GraphQL APIs
 
 ---
 {state: dark center middle}
