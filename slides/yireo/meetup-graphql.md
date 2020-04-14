@@ -440,6 +440,37 @@ One client communicating with Magento via GraphQL and with WordPress also via Gr
 <img src="/images/meetup-graphql/network-magento-cms.png" />
 
 ---
+# Magento GraphQL query
+```graphql
+{
+  products(search: "Hood") {
+    items {
+      id
+      sku
+      name
+    }
+  }
+}
+```
+
+---
+# WordPress GraphQL query
+```graphql
+{
+  products(search: "Hood") {
+    items {
+      id
+      sku
+      name
+    }
+  }
+}
+```
+
+<small>Link: github.com/wp-graphql/wp-graphql</small>
+
+
+---
 ## Wordpress / Magento combo with middleware
 One client communicating with middleware via GraphQL and middleware communicating with Magento and  WordPress also via GraphQL
 
