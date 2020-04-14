@@ -326,7 +326,8 @@ const ProductContainer = ({ props }) => {
   );
 }
 ```
-
+---
+<img src="/images/meetup-graphql/graphiql-screenshot.png" />
 
 ---
 # Vue example
