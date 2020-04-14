@@ -64,7 +64,12 @@ $googleFonts[] = 'Handlee';
 <script src="<?php echo $rootUrl; ?>js/reveal/markdown.js"></script>
 <script>
     Reveal.initialize();
-    Reveal.configure({transitionSpeed: 'fast', slideNumber: 'c/t', history:true, center: false});
+    Reveal.configure({
+        transitionSpeed: 'fast', slideNumber: 'c/t', history:true, center: false,
+        dependencies: [
+            { src: '<?php echo $rootUrl; ?>js/reveal/highlight.js', async: true }
+        ]
+    });
 </script>
 </body>
 </html>
