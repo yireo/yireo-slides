@@ -156,8 +156,18 @@ Link: yireo.com/events
 ```
 
 ---
+# GraphQL
+- A flexible way
+  - (developer-oriented, performant, easy-to-understand)
+~ ... to fetch data
+  - (assuming that the server-side API supports GraphQL)
+~ ... and use these JSON data
+  - (in client-side environments, based on whatever you want)
+
+---
 {state: dark center middle}
 # GraphQL provides the neck in headless
+#### (Magento is the body, the frontend is the head)
 
 ---
 {state: dark center middle}
@@ -180,7 +190,8 @@ Link: yireo.com/events
 # Magento 2 in short (2/2)
 ~ Magento PWA Studio development stack
   - Introduced with Magento 2.3
-  - Buildpack, Peregrine, Venia Concept, Venia UI, UPWARD
+  - Based on React, Redux, Apollo Client and GraphQL
+  - Offering Buildpack, Peregrine, Venia Concept, Venia UI, UPWARD
 ~ Magento GraphQL API
   - Introduced Magento 2.3
   - Complete coverage expected with Magento 2.4
