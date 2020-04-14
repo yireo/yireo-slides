@@ -419,12 +419,6 @@ Laravel fetches data from Magento using GraphQL and then processes this using PH
 </table>
 
 ---
-# Other APIs supporting GQL
-- GitHub
-- GitLab
-- FaunaDB
-
----
 ## Simple Wordpress / Magento combo
 One client communicating with Magento via GraphQL and with WordPress also via GraphQL (or theoretically something else)
 
@@ -437,14 +431,22 @@ One client communicating with middleware via GraphQL and middleware communicatin
 <img src="/images/meetup-graphql/network-magento-cms-middleware.png" />
 
 ---
+# Other APIs supporting GQL
+- GitHub
+- GitLab
+- FaunaDB
+- ...
+
+---
 # APIs not supporting GQL
 - ElasticSearch
+- ...
 
 ---
 ## Magento in front of ElasticSearch
-Do not put Magento in front of ElasticSearch, because ES performs extremely better than Magento
+WARNING: Do not put Magento in front of ElasticSearch, because ES performs extremely better than Magento
 
-<img src="/images/meetup-graphql/network-magento-es.png" />
+<img src="/images/meetup-graphql/network-magento-front-es.png" />
 
 ---
 ## ElasticSearch / Magento combo
