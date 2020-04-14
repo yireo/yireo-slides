@@ -17,6 +17,7 @@
 - Member of ExtDN (Magento Extension Developer Network)
 
 ---
+{background-image: meetup-graphql/wizard.jpg}
 {state: dark middle}
 # Remote online training
 - Magento PWA Studio development
@@ -36,6 +37,7 @@ Link: yireo.com/events
 ### Because GraphQL is da bomb
 
 ---
+{background-image: meetup-graphql/hobbit-afraid.jpg}
 {state: dark center middle}
 ### Because GraphQL is viral
 
