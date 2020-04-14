@@ -634,11 +634,18 @@ See: graphql-mesh.com
 ---
 # Apollo
 - Apollo Client
-- Apollo Server
+- **Apollo Server**
+- **Apollo Gateway**
 - Apollo Graph Manager
 - **Apollo Federation**
 
 See also principledgraphql.com
+
+---
+## Apollo Federation architecture
+
+<img src="/images/meetup-graphql/federation.png" />
+
 
 ---
 {state: dark center middle}
