@@ -476,10 +476,10 @@ WARNING: Do not expose ElasticSearch directly to the internet!
 <img src="/images/meetup-graphql/network-magento-es.png" />
 
 ---
-## ElasticSearch / Magento combo
-WARNING: Do not expose ElasticSearch directly to the internet!
+## ElasticSearch / Magento with middleware
+Client fetches data from Magento using GraphQL and queries ElasticSearch via middleware
 
-<img src="/images/meetup-graphql/network-magento-es.png" />
+<img src="/images/meetup-graphql/network-magento-es-middleware.png" />
 
 ---
 # Or build your own microservice
