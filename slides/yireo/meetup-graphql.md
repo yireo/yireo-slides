@@ -173,6 +173,7 @@ Link: yireo.com/events
 #### (Magento is the body, the frontend is the head)
 
 ---
+{background-image: meetup-graphql/ork.jpg}
 {state: dark center middle}
 # Magento in a few minutes
 
