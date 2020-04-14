@@ -568,11 +568,13 @@ See: graphql-mesh.com
 - Apollo Graph Manager
 - **Apollo Federation**
 
+See also principledgraphql.com
+
 ---
 {state: dark center middle}
 # Turn everything into GraphQL
 
 ---
-@todo: LoTR picture
+{background-image: meetup-graphql/the-ring.jpg}
 {state: dark center middle}
 # One API to rule them all
