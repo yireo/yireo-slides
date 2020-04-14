@@ -36,7 +36,6 @@ $googleFonts[] = 'Handlee';
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <link href="https://fonts.googleapis.com/css?family=<?= implode('|', $googleFonts) ?>&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/style.css"/>
-    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/monokai.css"/>
     <?php if (isset($_GET['print-pdf'])) : ?>
         <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/pdf.css"/>
         <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/print.css"/>
@@ -44,6 +43,7 @@ $googleFonts[] = 'Handlee';
     <?php endif; ?>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
     <!--
+        <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/monokai.css"/>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/highlight-js.min.css">
     <script src="<?php echo $rootUrl; ?>js/highlight.min.js"></script>
     -->
