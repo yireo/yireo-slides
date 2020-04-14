@@ -460,6 +460,13 @@ Client fetches data from Magento using GraphQL and queries ElasticSearch via mid
 
 <img src="/images/meetup-graphql/network-magento-es-middleware.png" />
 
+---
+## ElasticSearch / Magento with middleware (2)
+Client fetches data from middleware that communicates with Magento and ElasticSearch
+
+<img src="/images/meetup-graphql/network-magento-es-middleware2.png" />
+
+
 
 ---
 {state: dark center middle}
