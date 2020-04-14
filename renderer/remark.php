@@ -28,5 +28,6 @@
             display: none;
         }</style>
 <?php endif; ?>
+<script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
