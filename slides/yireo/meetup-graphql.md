@@ -413,34 +413,38 @@ echo $response->getBody()->getContents();
 
 ---
 # Your own microservice
-- Pick a programming language
-- Pick a problem subset
-- Write your own logic for this (using DDD, TDD?)
-- Wrap this in an GraphQL API
+~ Pick a programming language
+~ Pick a problem subset (service)
+~ Write your own logic for this (using DDD, TDD?)
+~ Wrap this in an GraphQL API
 
 ---
-# Programming language
-- Node
+# Pick a programming language
+~ Node
   - Apollo, Relay, Prisma
-- PHP
+~ PHP
   - GraphQLite, Webonyx GraphQL
-- Or any language
+~ Or any language
   - Java, Ruby, Python, Go, ...
 
 ---
-# E-commerce services
-- ElasticSearch
+# Pick a service to add as microservice
+~ ElasticSearch
   - Third party project: GraphQL proxy
-  - Do not use Magento to wrap ElasticSearch!
-- PIMs
-- ERP
+  - Do not use Magento to wrap ElasticSearch because its slow
+~ Product Information Management (PIM)
+  - Handy in managing product information
+  - Often slow in access
+~ Enterprise Resource Planning (ERP)
+  - Handy in managing all kinds of information
+  - Often slow in access
 
 ---
-### Ask yourself:
-## Is GraphQL required? Or is REST just fine?
+@todo: Picture M2 with ElasticSearch and feed to React/Vue
 
 ---
-# More options
+# Or build your own microservice
+- Caching service
 - Price calculation
 - Alternative inventory & stock
 - VAT verification
@@ -452,20 +456,38 @@ echo $response->getBody()->getContents();
 - Product image provider
 
 ---
-{state: dark center middle}
-# GraphQL Mesh
+### Ask yourself:
+## Is GraphQL required? Or is REST just fine?
 
 ---
-# Challenges
-- Bundling multiple APIs into single API
-  - Schema stitching, schema proxies
-- Maintaining all APIs across multiple networks
+@todo: Picture of CMS, E-commerce, stock inventory, image processing, React/Vue, ElasticSearch with GQL microservice
+
+---
+{state: dark center middle}
+# Introducing GraphQL Mesh
+
+---
+# GraphQL Mesh
+- Created by The Guild
+
+See: https://graphql-mesh.com/
+
+---
+@todo: Picture of network (M2, ES, middleware, Contentful, inventory microservice) and GraphQL Mesh
+
+---
+@todo: Picture of CMS, E-commerce, stock inventory, image processing, React/Vue
+
+---
+# Challenges with microservice management
+~ Bundling multiple APIs into single API
+  - GraphQL schema stitching, GraphQL schema proxies
+~ Maintaining all APIs across multiple networks
   - Versioning, client-management, proxies
-- Performance
+~ Performance
   - Caching (client-side, server-side), cache invalidation
   - Server Side Rendering
 
-@todo: Picture of network (M2, ES, middleware, Contentful, inventory microservice)
 
 ---
 # Apollo
