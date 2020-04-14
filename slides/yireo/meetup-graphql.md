@@ -367,6 +367,8 @@ echo $response->getBody()->getContents();
 
 ---
 ## Laravel as a middleware
+Laravel fetches data from Magento using GraphQL and then processes this using PHP server-side rendering (Blade, Twig, etc)
+
 <img src="/images/meetup-graphql/simple-php-query.png" />
 
 ---
@@ -419,9 +421,13 @@ echo $response->getBody()->getContents();
 - FaunaDB
 
 ---
+## Simple Wordpress / Magento combo
+One client communicating with Magento via GraphQL and with WordPress also via GraphQL (or theoretically something else)
+
 <img src="/images/meetup-graphql/network-magento-cms.png" />
 
 ---
+
 <img src="/images/meetup-graphql/network-magento-cms-middleware.png" />
 
 ---
