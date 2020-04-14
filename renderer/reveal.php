@@ -65,6 +65,7 @@ $googleFonts[] = 'Handlee';
 <script src="<?php echo $rootUrl; ?>js/reveal.js"></script>
 <script src="<?php echo $rootUrl; ?>js/reveal/marked.js"></script>
 <script src="<?php echo $rootUrl; ?>js/reveal/markdown.js"></script>
+<script src="<?php echo $rootUrl; ?>js/reveal/highlight.js"></script>
 <script>
     Reveal.initialize();
     Reveal.configure({

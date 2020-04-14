@@ -480,7 +480,7 @@ One client communicating with middleware via GraphQL and middleware communicatin
 
 ---
 # Combined GraphQL query
-<pre><code class="graphql">
+```graphql
 {
   products(search: "Hood") {
     items {
@@ -496,7 +496,7 @@ One client communicating with middleware via GraphQL and middleware communicatin
     }
   }
 }
-</code></pre>
+```
 
 ---
 # Other APIs supporting GQL
