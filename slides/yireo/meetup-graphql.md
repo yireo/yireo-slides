@@ -34,18 +34,19 @@ Link: yireo.com/events
 
 ---
 {state: dark center middle}
-### Because GraphQL is da bomb
+# Because GraphQL is da bomb
 
 ---
 {background-image: meetup-graphql/hobbit-afraid.jpg}
-{state: dark center middle}
-### Because GraphQL is viral
+{state: dark center}
+# Because GraphQL goes viral
 
 ---
 {state: dark center middle}
-### Because GraphQL is da bomb
+# Because GraphQL is da bomb
 
 ---
+{background-image: meetup-graphql/frodo-reading.jpg}
 {state: dark center middle}
 # GraphQL in a few minutes
 
