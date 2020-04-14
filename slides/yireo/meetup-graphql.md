@@ -344,6 +344,8 @@ export default {
         }}}}}
 ```
 
+@todo: Picture of Browser (React/Vue) and server
+
 ---
 # PHP example
 ```php
@@ -359,10 +361,18 @@ $response = $this->client->post('/graphql', [
 echo $response->getBody()->getContents();
 ```
 
+@todo: Picture of PHP client, browser and server
+
 ---
 {state: dark center middle}
-## Headless means freedom
-#### Any frontend could be made capable for consuming GraphQL APIs
+## Headless means freedom of choice
+
+---
+{state: dark}
+# Freedom of choice
+~ To make any frontend capable of consuming GraphQL APIs
+~ To replace parts of Magento with other services
+~ To replace Magento
 
 ---
 {state: dark center middle}
@@ -370,28 +380,32 @@ echo $response->getBody()->getContents();
 
 ---
 # E-commerce platforms supporting GQL
-- Shopware: 3rd party plugin
 - CommerceTools: Native
 - BigCommerce: Native
 - Shopify: Native
+- Shopware: 3rd party plugin
 - Sylius: No
 - WooCommerce: No
-- Strapi: Native
+- ...
 
 ---
 # CMS platforms supporting GQL
 - Contentful: Native
 - GraphCMS: Native
+- Strapi: Native
+- Prismic: Native
+- Gatsby: Native
 - WordPress: 3rd party plugin
 - Drupal: 3rd party plugin
-- Prismic: Native
-- (Gatsby)
+- ...
 
 ---
 # Other APIs supporting GQL
 - GitHub
 - GitLab
 - FaunaDB
+
+@todo: Picture of CMS, E-commerce, React/Vue
 
 ---
 {state: dark center middle}
