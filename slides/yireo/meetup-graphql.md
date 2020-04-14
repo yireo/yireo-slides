@@ -397,6 +397,7 @@ Laravel fetches data from Magento using GraphQL and then processes this using PH
 ~ To replace Magento
 
 ---
+{background-image: meetup-graphql/rohan.jpg}
 {state: dark center middle}
 # Beyond Magento
 

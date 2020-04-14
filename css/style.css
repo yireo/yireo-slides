@@ -1945,6 +1945,12 @@ h3 {
   z-index: 100;
   font-size: 85% !important;
 }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+}
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
