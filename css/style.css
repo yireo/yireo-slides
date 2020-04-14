@@ -1945,18 +1945,22 @@ h3 {
   z-index: 100;
   font-size: 85% !important;
 }
-table {
-  border: 1px solid #ccc;
+table.striped {
+  border: 1px solid #ccc !important;
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
   display: table;
+  font-size: 80%;
 }
-table tr:nth-child(odd) {
-  background-color: #fff;
+table.striped tr:nth-child(odd) {
+  background-color: #fff !important;
 }
-table .w3-table-all tr:nth-child(even) {
-  background-color: #f1f1f1;
+table.striped tr:nth-child(even) {
+  background-color: #e4e4e4 !important;
+}
+table.striped td {
+  padding: 20px !important;
 }
 @font-face {
   font-family: 'Open Sans';

@@ -404,7 +404,7 @@ Laravel fetches data from Magento using GraphQL and then processes this using PH
 ---
 # E-commerce platforms supporting GQL
 
-<table>
+<table class="striped">
 <tbody>
 <tr><td>Magento</td><td>Native</td></tr>
 <tr><td>CommerceTools</td><td>Native</td></tr>
@@ -420,7 +420,7 @@ Laravel fetches data from Magento using GraphQL and then processes this using PH
 ---
 # CMS platforms supporting GQL
 
-<table>
+<table class="striped">
 <tbody>
 <tr><td>Contentful</td><td>Native</td></tr>
 <tr><td>GraphCMS</td><td>Native</td></tr>
