@@ -1,7 +1,7 @@
 {state: main middle}
 {background-image: meetup-graphql/the-ring.jpg}
-# GraphQL, Magento and React
-## There and back again
+# There and back again
+## GraphQL, Magento and React
 #### by Jisse Reitsma (Yireo)
 
 ---
