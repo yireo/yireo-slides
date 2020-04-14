@@ -7,7 +7,7 @@ $slideGroups = [
             [
                 'file' => 'yireo/meetup-graphql',
                 'title' => 'GraphQL, Magento and React (Laravel Groningen Meetup - April 2020)',
-                'footer' => 'Magento Meetup - @beeproger',
+                'footer' => 'Laravel Groningen Meetup (@beeproger) - @yireo / @jissereitsma',
                 'style' => 'mm19pl',
                 'renderer' => 'reveal'
             ],

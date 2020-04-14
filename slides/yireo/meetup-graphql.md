@@ -644,7 +644,7 @@ See also principledgraphql.com
 ---
 ## Apollo Federation architecture
 
-<img src="/images/meetup-graphql/federation.png" />
+<img src="/images/meetup-graphql/federation.png" class="stretch" />
 
 
 ---
