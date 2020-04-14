@@ -276,8 +276,18 @@ class Hello implements ResolverInterface
   - ChromeiQL, GraphiQL web-version, desktop apps
 
 ---
-{background-image: graphiql-screenshot.png}
-<img src="/images/slides/" />
+<img src="/images/meetup-graphql/graphiql-screenshot.png" />
+
+---
+# GraphQL clients
+- GraphiQL
+  - ChromeiQL, GraphiQL web-version, desktop apps
+- Shell
+  - curl, GraphQL CLI
+
+---
+<img src="/images/meetup-graphql/graphql-cli.gif" />
+
 
 ---
 # GraphQL clients
@@ -287,6 +297,7 @@ class Hello implements ResolverInterface
   - curl, GraphQL CLI
 - JavaScript
   - Axios, Apollo Client, Prisma, Apollo
+
 
 ---
 # Usage of GraphQL
@@ -313,6 +324,23 @@ export default {
         result (result) {
           this.updateCmsPage(result.data.cmsPage);
         }}}}}
+```
+
+---
+# React example
+```js
+import gql from 'graphql-tag';
+import { useQuery } from '@apollo/react-hooks';
+import GET_DOGS from 'queries/get_dogs.graphql';
+
+const Dogs = ({ onDogSelected }) => {
+  const { loading, error, data } = useQuery(GET_DOGS);
+  if (loading) return 'Loading...';
+  if (error) return `Error! ${error.message}`;
+  return (
+    <ShowDogs dogs={data}/>
+  );
+}
 ```
 
 ---
