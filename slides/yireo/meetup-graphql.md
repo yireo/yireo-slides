@@ -437,6 +437,29 @@ One client communicating with middleware via GraphQL and middleware communicatin
 <img src="/images/meetup-graphql/network-magento-cms-middleware.png" />
 
 ---
+# APIs not supporting GQL
+- ElasticSearch
+
+---
+## Magento in front of ElasticSearch
+Do not put Magento in front of ElasticSearch, because ES performs extremely better than Magento
+
+<img src="/images/meetup-graphql/network-magento-es.png" />
+
+---
+## ElasticSearch / Magento combo
+WARNING: Do not expose ElasticSearch directly to the internet!
+
+<img src="/images/meetup-graphql/network-magento-es.png" />
+
+---
+## ElasticSearch / Magento with middleware
+Client fetches data from Magento using GraphQL and queries ElasticSearch via middleware
+
+<img src="/images/meetup-graphql/network-magento-es-middleware.png" />
+
+
+---
 {state: dark center middle}
 # Microservices
 
@@ -468,18 +491,6 @@ One client communicating with middleware via GraphQL and middleware communicatin
   - Handy in managing all kinds of information
   - Often slow in access
 
-.
----
-## ElasticSearch / Magento combo
-WARNING: Do not expose ElasticSearch directly to the internet!
-
-<img src="/images/meetup-graphql/network-magento-es.png" />
-
----
-## ElasticSearch / Magento with middleware
-Client fetches data from Magento using GraphQL and queries ElasticSearch via middleware
-
-<img src="/images/meetup-graphql/network-magento-es-middleware.png" />
 
 ---
 # Or build your own microservice
