@@ -415,7 +415,11 @@ echo $response->getBody()->getContents();
 - GitLab
 - FaunaDB
 
-@todo: Picture of CMS, E-commerce, React/Vue
+---
+<img src="/images/meetup-graphql/network-magento-cms.png" />
+
+---
+<img src="/images/meetup-graphql/network-magento-cms-middleware.png" />
 
 ---
 {state: dark center middle}
