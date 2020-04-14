@@ -57,7 +57,7 @@ Link: yireo.com/events
 
 ---
 # A simple GraphQL query
-```graphql
+```js
 {
   cmsPage(id:2) {
     title
@@ -68,7 +68,7 @@ Link: yireo.com/events
 
 ---
 # A simple JSON response
-```json
+```js
 {
   "data": {
     "cmsPage": {
@@ -87,7 +87,7 @@ Link: yireo.com/events
 
 ---
 # Underfetching (1/2)
-```graphql
+```js
 {
   products(search: "Hood") {
     items {
@@ -103,7 +103,7 @@ Link: yireo.com/events
 
 ---
 # Underfetching (2/2)
-```graphql
+```js
 {
   products(search: "Hood") {
     items {
@@ -125,7 +125,7 @@ Link: yireo.com/events
 ---
 {state: dark}
 # Multiple subqueries (1/2)
-```graphql
+```js
 {
   products(search: "Hood") {
     items {
@@ -144,7 +144,7 @@ Link: yireo.com/events
 ---
 {state: dark}
 # Multiple subqueries (2/2)
-```graphql
+```js
 {
   products(search: "Hood") {
     items {
@@ -203,7 +203,7 @@ Link: yireo.com/events
 
 ---
 # Sample custom query
-```graphql
+```js
 {
   hello(name:"World") {
   	name
@@ -343,7 +343,7 @@ JavaScript in browser (React) fetches data from Magento via AJAX call with Graph
 
 ---
 # Vue example
-```vue
+```js
 export default {
   apollo: {
     productPage() {
@@ -441,7 +441,7 @@ One client communicating with Magento via GraphQL and with WordPress also via Gr
 
 ---
 # Magento GraphQL query
-```graphql
+```js
 {
   products(search: "Hood") {
     items {
@@ -455,7 +455,7 @@ One client communicating with Magento via GraphQL and with WordPress also via Gr
 
 ---
 # WordPress GraphQL query
-```graphql
+```js
 {
   posts {
     edges {
@@ -480,7 +480,7 @@ One client communicating with middleware via GraphQL and middleware communicatin
 
 ---
 # Combined GraphQL query
-```graphql
+```js
 {
   products(search: "Hood") {
     items {
