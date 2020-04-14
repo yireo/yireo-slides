@@ -25,7 +25,7 @@
 - React / Redux / Apollo / SSR
 - Vue / Vuex / Apollo / SSR
 
-https://yireo.com/events
+Link: yireo.com/events
 
 ---
 {state: dark center middle}
@@ -321,8 +321,7 @@ export default {
 # Your own microservice
 - Pick a programming language
 - Pick a problem subset
-- Write your own logic for this
-  - DDD, TDD
+- Write your own logic for this (using DDD, TDD?)
 - Wrap this in an GraphQL API
 
 ---
@@ -331,8 +330,8 @@ export default {
   - Apollo, Relay, Prisma
 - PHP
   - GraphQLite, Webonyx GraphQL
-- Java, Ruby, Python, Go
-- ...
+- Or any language
+  - Java, Ruby, Python, Go, ...
 
 ---
 # E-commerce services
@@ -341,6 +340,10 @@ export default {
   - Do not use Magento to wrap ElasticSearch!
 - PIMs
 - ERP
+
+---
+### Ask yourself:
+## Is GraphQL required? Or is REST just fine?
 
 ---
 # More options
