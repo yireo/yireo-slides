@@ -565,6 +565,7 @@ See: graphql-mesh.com
 # Apollo
 - Apollo Client
 - Apollo Server
+- Apollo Graph Manager
 - **Apollo Federation**
 
 ---
