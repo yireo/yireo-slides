@@ -281,7 +281,7 @@ class Hello implements ResolverInterface
   - ChromeiQL, GraphiQL web-version, desktop apps
 
 ---
-<img src="/images/meetup-graphql/graphiql-screenshot.png" />
+<img src="/images/meetup-graphql/graphiql-screenshot.png" class="stretch" />
 
 ---
 # GraphQL clients
