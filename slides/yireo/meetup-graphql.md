@@ -271,6 +271,7 @@ class Hello implements ResolverInterface
 #### github.com/yireo-training/
 
 ---
+{background-image: meetup-graphql/elf.jpg}
 {state: dark center middle}
 # Client-side GraphQL
 
