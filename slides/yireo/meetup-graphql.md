@@ -328,6 +328,8 @@ const ProductContainer = ({ props }) => {
 ```
 ---
 ## React connecting to Magento 2 using GraphQL
+JavaScript in browser (React) fetches data from Magento via AJAX call with GraphQL query
+
 <img src="/images/meetup-graphql/simple-react-query.png" />
 
 ---
@@ -348,6 +350,8 @@ export default {
 
 ---
 ## Vue connecting to Magento 2 using GraphQL
+JavaScript in browser (Vue) fetches data from Magento via AJAX call with GraphQL query
+
 <img src="/images/meetup-graphql/simple-vue-query.png" />
 
 ---
@@ -427,6 +431,8 @@ One client communicating with Magento via GraphQL and with WordPress also via Gr
 <img src="/images/meetup-graphql/network-magento-cms.png" />
 
 ---
+## Wordpress / Magento combo with middleware
+One client communicating with middleware via GraphQL and middleware communicating with Magento and  WordPress also via GraphQL
 
 <img src="/images/meetup-graphql/network-magento-cms-middleware.png" />
 
