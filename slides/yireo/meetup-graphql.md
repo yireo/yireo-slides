@@ -531,15 +531,14 @@ Client fetches data from middleware that communicates with Magento and ElasticSe
   - Swagger, OpenAPI, json-schema, SOAP, Federated GraphQL, etc
 - Turns it into plain GraphQL
 
-See: https://graphql-mesh.com/
+See: graphql-mesh.com
 
 ---
-@todo: Picture of network (M2, ES, middleware, Contentful, inventory microservice) and GraphQL Mesh
+{state: dark center middle}
+# Mesh or mess?
 
 ---
-@todo: Picture of CMS, E-commerce, stock inventory, image processing, React/Vue
-
----
+{state: dark center middle}
 ### Ask yourself:
 ## Is GraphQL required? Or is REST just fine?
 
