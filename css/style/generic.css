@@ -53,3 +53,7 @@ table.striped tr:nth-child(even) {
 table.striped td {
   padding: 20px !important;
 }
+.reveal code {
+  font-size: 70%;
+  font-weight: 400;
+}
