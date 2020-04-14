@@ -468,8 +468,18 @@ One client communicating with middleware via GraphQL and middleware communicatin
   - Handy in managing all kinds of information
   - Often slow in access
 
+.
 ---
-@todo: Picture M2 with ElasticSearch and feed to React/Vue
+## ElasticSearch / Magento combo
+WARNING: Do not expose ElasticSearch directly to the internet!
+
+<img src="/images/meetup-graphql/network-magento-es.png" />
+
+---
+## ElasticSearch / Magento combo
+WARNING: Do not expose ElasticSearch directly to the internet!
+
+<img src="/images/meetup-graphql/network-magento-es.png" />
 
 ---
 # Or build your own microservice
