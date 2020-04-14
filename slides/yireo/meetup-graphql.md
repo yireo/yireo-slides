@@ -345,7 +345,8 @@ export default {
         }}}}}
 ```
 
-@todo: Picture of Browser (React/Vue) and server
+---
+<img src="/images/meetup-graphql/simple-vue-query.png" />
 
 ---
 # PHP example
@@ -362,7 +363,8 @@ $response = $this->client->post('/graphql', [
 echo $response->getBody()->getContents();
 ```
 
-@todo: Picture of PHP client, browser and server
+---
+<img src="/images/meetup-graphql/simple-php-query.png" />
 
 ---
 {state: dark center middle}
