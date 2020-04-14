@@ -380,24 +380,31 @@ echo $response->getBody()->getContents();
 
 ---
 # E-commerce platforms supporting GQL
-- CommerceTools: Native
-- BigCommerce: Native
-- Shopify: Native
-- Shopware: 3rd party plugin
-- Sylius: No
-- WooCommerce: No
-- ...
+
+<table>
+<tr><td>Magento</td><td>Native</td></tr>
+<tr><td>CommerceTools</td><td>Native</td></tr>
+<tr><td>BigCommerce</td><td>Native</td></tr>
+<tr><td>Shopify</td><td>Native</td></tr>
+<tr><td>Shopware</td><td>3rd party plugin</td></tr>
+<tr><td>Sylius</td><td>No</td></tr>
+<tr><td>WooCommerce</td><td>No</td></tr>
+<tr><td>...</td><td></td></tr>
+</table>
 
 ---
 # CMS platforms supporting GQL
-- Contentful: Native
-- GraphCMS: Native
-- Strapi: Native
-- Prismic: Native
-- Gatsby: Native
-- WordPress: 3rd party plugin
-- Drupal: 3rd party plugin
-- ...
+
+<table>
+<tr><td>Contentful</td><td>Native</td></tr>
+<tr><td>GraphCMS</td><td>Native</td></tr>
+<tr><td>Strapi</td><td>Native</td></tr>
+<tr><td>Prismic</td><td>Native</td></tr>
+<tr><td>Gatsby</td><td>Native</td></tr>
+<tr><td>WordPress</td><td>3rd party plugin</td></tr>
+<tr><td>Drupal</td><td>3rd party plugin</td></tr>
+<tr><td>...</td><td></td></tr>
+</table>
 
 ---
 # Other APIs supporting GQL
@@ -456,10 +463,6 @@ echo $response->getBody()->getContents();
 - Product image provider
 
 ---
-### Ask yourself:
-## Is GraphQL required? Or is REST just fine?
-
----
 @todo: Picture of CMS, E-commerce, stock inventory, image processing, React/Vue, ElasticSearch with GQL microservice
 
 ---
@@ -469,6 +472,9 @@ echo $response->getBody()->getContents();
 ---
 # GraphQL Mesh
 - Created by The Guild
+- Automatic discovery of backend API type
+  - Swagger, OpenAPI, json-schema, SOAP, Federated GraphQL, etc
+- Turns it into plain GraphQL
 
 See: https://graphql-mesh.com/
 
@@ -477,6 +483,19 @@ See: https://graphql-mesh.com/
 
 ---
 @todo: Picture of CMS, E-commerce, stock inventory, image processing, React/Vue
+
+---
+### Ask yourself:
+## Is GraphQL required? Or is REST just fine?
+
+---
+# Why use GraphQL everywhere?
+~ Consolidate API syntax
+  - All systems offer the same API language (GraphQL)
+~ Real headless frontends
+  - No knowledge needed on backend service
+~ Easier refactoring
+  - Well, at least in theory
 
 ---
 # Challenges with microservice management
@@ -488,16 +507,15 @@ See: https://graphql-mesh.com/
   - Caching (client-side, server-side), cache invalidation
   - Server Side Rendering
 
-
 ---
 # Apollo
 - Apollo Client
 - Apollo Server
-- Apollo Federation
+- **Apollo Federation**
 
 ---
 {state: dark center middle}
-# Conclusion: Wrap all APIs with GraphQL
+# Turn everything into GraphQL
 
 ---
 @todo: LoTR picture
