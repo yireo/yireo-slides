@@ -1,7 +1,7 @@
 {state: main middle}
-{background-image: meetup-poznan/saddhu.jpg}
+{background-image: meetup-graphql/the-ring.jpg}
 # GraphQL, Magento and React
-## Because GraphQL is da bomb
+## There and back again
 #### by Jisse Reitsma (Yireo)
 
 ---
@@ -17,7 +17,7 @@
 - Member of ExtDN (Magento Extension Developer Network)
 
 ---
-{state: dark center middle}
+{state: dark middle}
 # Remote online training
 - Magento PWA Studio development
 - Vue Storefront development
