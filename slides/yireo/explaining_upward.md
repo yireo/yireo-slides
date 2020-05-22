@@ -342,5 +342,15 @@ class: center, middle
 ### Is it useful in development?
 
 ---
+# UPWARD in development
+- Buildpack creates a dynamic hostname + SSL
+- The same domain name is serving all requests
+- No issues with CORS
+
+---
+class: center, middle
+### Is it useful in development?
+
+---
 class: center, middle
 ### My personal opinion: Do not use UPWARD in production, but use Nginx for this instead
