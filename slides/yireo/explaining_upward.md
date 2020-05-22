@@ -358,4 +358,12 @@ class: center, middle
 
 ---
 class: center, middle
-### My personal opinion: Do not use UPWARD in production, but use Nginx for this instead
+### My personal opinion: You do not even need UPWARD in development, if you are solving the CORS problem differently
+
+---
+class: center, middle
+### Disclaimer: This is just me speaking
+
+---
+class: center, middle
+### Disclaimer: I'm not going to be a Magento Master 2020>
