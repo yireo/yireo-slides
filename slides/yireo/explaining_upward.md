@@ -310,31 +310,25 @@ Remember that UPWARD has *no state*, so no caching
 Remember that UPWARD has *no state*, so no caching
 
 ---
-class: center, middle
-### My personal opinion: Do not use UPWARD in production, but use Nginx for this instead
-
-
----
-class: center, middle
-### Other points
-
----
 # Running Venia without UPWARD
 - Configure webserver to route directly to all static files
 - Make sure Magento is running on HTTPS
 - Edit `index.js`
     - `const apiBase = new URL('https://m2.vega.yr/graphql').toString();`
 - Cleanup
-    - `server.js`, `upward.yml`
+    - Remove `server.js`, `upward.yml`
 
-???
-In a live environment, you could decide to drop UPWARD and simply connect the PWA directly to Magento. If you would like a middleware layer with caching abilities, use Apollo Server (or something similar instead).
 
 ---
-# Alternatives to UPWARD
-- Express Server
-  - Connect other services (WordPress, ElasticSearch)
-- Apollo Server
-  - Connect other GraphQL resources (schema stitching)
+class: center, middle
+### My personal opinion: Do not use UPWARD in production, but use Nginx for this instead
 
-^^Or combine add both UPWARD and Apollo to your custom Express server
+---
+class: center, middle
+### Is it useful in development?
+
+
+.
+---
+class: center, middle
+### My personal opinion: Do not use UPWARD in production, but use Nginx for this instead
