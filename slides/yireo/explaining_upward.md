@@ -300,6 +300,15 @@ Remember that UPWARD has *no state*, so no caching
 Remember that UPWARD has *no state*, so no caching
 
 ---
+class: center, middle
+### If UPWARD is a proxy in between the browser and static files, and if this proxy is not caching anything, performance is better if you remove the proxy.
+
+---
+class: center, middle
+### If UPWARD is a proxy in between the browser and static files, and if this proxy is not caching anything, performance is better if you remove the proxy.
+
+
+---
 # UPWARD and GraphQL requests
 - PWA in browser requests a JS file
 - Request is forwarded from Nginx to UPWARD
@@ -308,6 +317,10 @@ Remember that UPWARD has *no state*, so no caching
 - Response is sent back from Nginx to browser
 
 Remember that UPWARD has *no state*, so no caching
+
+---
+class: center, middle
+### If UPWARD is a proxy in between the browser and Magento
 
 ---
 # Running Venia without UPWARD
