@@ -319,6 +319,15 @@ Remember that UPWARD has *no state*, so no caching
 
 ---
 class: center, middle
+### If a proxy in between the browser and GraphQL is not caching anything, performance is better if you remove the proxy.
+
+---
+class: center, middle
+### In short: Do not use UPWARD for GraphQL, but use Magento directly
+
+
+---
+class: center, middle
 ### If UPWARD is a proxy in between the browser and Magento
 
 ---
