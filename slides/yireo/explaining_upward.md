@@ -65,7 +65,13 @@ class: center, middle
   - Or via PHP (recommended)
 
 ---
-# Via Node standalone
+# Development
+```bash
+yarn dev
+```
+
+---
+# Production: Via Node standalone
 Install globally:
 ```bash
 npm install -g @magento/upward-js
@@ -82,7 +88,7 @@ upward-js-server
 ^^You can guarantee that `upward-js-server` remains running by using PM2
 
 ---
-# Via Node in Express
+# Production: Via Node in Express
 Create a new project (`yarn init`) and add to it:
 ```bash
 yarn add @magento/upward-js express
@@ -118,7 +124,7 @@ node example-server.js
 ^^You can guarantee that `example-server.js` remains running by using PM2
 
 ---
-# UPWARD PHP for Magento 2
+# Production: Magento module
 - Install and enable the module
     - `composer require magento/module-upward-connector`
     - `bin/magento module:enable Magento_UpwardConnector`
