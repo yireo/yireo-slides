@@ -270,7 +270,17 @@ class: center, middle
 ### So in short, UPWARD uses its own specifications in YAML to jump from one part to another to do what ...?
 
 ---
-# UPWARD and static requests
+# UPWARD and CSS requests
+- PWA in browser requests a CSS file
+- Request is forwarded from Nginx to UPWARD
+- Request is handled by UPWARD
+- Response is sent back from UPWARD to Nginx
+- Response is sent back from Nginx to browser
+
+Remember that UPWARD has *no state*, so no caching
+
+---
+# UPWARD and JS requests
 - PWA in browser requests a JS file
 - Request is forwarded from Nginx to UPWARD
 - Request is handled by UPWARD
@@ -281,14 +291,13 @@ Remember that UPWARD has *no state*, so no caching
 
 ---
 # UPWARD and static requests
-- PWA in browser requests a JS file
+- PWA in browser requests any static file
 - Request is forwarded from Nginx to UPWARD
 - Request is handled by UPWARD
 - Response is sent back from UPWARD to Nginx
 - Response is sent back from Nginx to browser
 
 Remember that UPWARD has *no state*, so no caching
-
 
 ---
 # UPWARD and GraphQL requests
@@ -301,13 +310,9 @@ Remember that UPWARD has *no state*, so no caching
 Remember that UPWARD has *no state*, so no caching
 
 ---
-# UPWARD and SSR
-- FileResolver
-	- Generate static files for all pages
-	- Serve static files via UPWARD
-- TemplateResolver
-	- Generate dynamic files based on Mustache (`*.mts`)
-- Not using UPWARD, but using Nginx
+class: center, middle
+### My personal opinion: Do not use UPWARD in production, but use Nginx for this instead
+
 
 ---
 class: center, middle
