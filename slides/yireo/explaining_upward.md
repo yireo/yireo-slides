@@ -352,10 +352,9 @@ class: center, middle
 # Other CORS solutions
 - Yireo CorsHack module
   - https://github.com/yireo-training/magento2-corshack
-
----
-class: center, middle
-### Is it useful in development?
+- SplashLab CorsRequests
+  - https://github.com/splashlab/magento-2-cors-requests
+- Heroku CORS Anywhere app
 
 ---
 class: center, middle
