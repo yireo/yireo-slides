@@ -85,7 +85,7 @@ class: center, middle
 # Development
 ```bash
 yarn create @magento/pwa
-yarn dev
+yarn watch
 ```
 
 ---
