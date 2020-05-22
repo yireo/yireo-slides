@@ -308,7 +308,7 @@ class: center, middle
 ### In short: Do not use UPWARD for static files, but use Nginx instead
 
 ---
-# UPWARD and GraphQL requests
+# UPWARD & GraphQL requests
 - PWA in browser requests a JS file
 - Request is forwarded from Nginx to UPWARD
 - Request is handled by UPWARD
@@ -325,15 +325,8 @@ class: center, middle
 class: center, middle
 ### In short: Do not use UPWARD for GraphQL, but use Magento directly
 
-
 ---
-class: center, middle
-### If UPWARD is a proxy in between the browser and Magento
-
----
-# Running Venia without UPWARD
-- Configure webserver to route directly to all static files
-- Make sure Magento is running on HTTPS
+# Venia without UPWARD
 - Edit `index.js`
     - `const apiBase = new URL('https://m2.vega.yr/graphql').toString();`
 - Cleanup
@@ -348,8 +341,6 @@ class: center, middle
 class: center, middle
 ### Is it useful in development?
 
-
-.
 ---
 class: center, middle
 ### My personal opinion: Do not use UPWARD in production, but use Nginx for this instead
