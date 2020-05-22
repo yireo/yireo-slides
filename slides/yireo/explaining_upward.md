@@ -60,9 +60,10 @@ class: center, middle
 - Development
   - Part of Buildpack
 - Production
-  - Via Node standalone
-  - Or via Node in Express (recommended)
-  - Or via PHP (recommended)
+  - Node / UPWARD standalone
+  - Node / Express
+  - PHP / Magento module
+  - PHP / something else
 
 ---
 # Development
@@ -71,7 +72,7 @@ yarn dev
 ```
 
 ---
-# Production: Via Node standalone
+# Production: Node standalone
 Install globally:
 ```bash
 npm install -g @magento/upward-js
@@ -85,10 +86,10 @@ UPWARD_JS_LOG_URL=1 \
 upward-js-server
 ```
 
-^^You can guarantee that `upward-js-server` remains running by using PM2
+You can guarantee that `upward-js-server` remains running by using PM2
 
 ---
-# Production: Via Node in Express
+# Production: Node in Express
 Create a new project (`yarn init`) and add to it:
 ```bash
 yarn add @magento/upward-js express
@@ -112,7 +113,7 @@ async function serve() {
 serve();
 ```
 
-^^Note that there only needs to be 1 file in this new repository
+Note that there only needs to be 1 file in this new repository
 
 ---
 # Running the Express server
