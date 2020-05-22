@@ -31,13 +31,10 @@ class: center, middle
 - Defined in YAML
 
 ---
-class: center, middle
-### Overview
-
-- Multiple connectors available
-    - NodeJS (for instance React or Vue)
-    - [Magento module](https://github.com/magento-research/magento2-upward-connector)
-    - Standalone PHP (for instance, Laravel or Symfony)
+# UPWARD connectors
+- NodeJS (for instance React or Vue)
+- Magento UPWARD module
+- Standalone PHP (for instance, Laravel or Symfony)
 
 ---
 # Benefits of UPWARD
