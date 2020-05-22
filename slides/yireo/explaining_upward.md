@@ -34,11 +34,6 @@ class: center, middle
 - No state
 - Defined in YAML
 
----
-# UPWARD connectors
-- NodeJS (for instance React or Vue)
-- Magento UPWARD module
-- Standalone PHP (for instance, Laravel or Symfony)
 
 ---
 # Benefits of UPWARD
@@ -58,6 +53,12 @@ class: center, middle
 ---
 class: center, middle
 ### Running UPWARD
+
+---
+# UPWARD connectors
+- NodeJS (for instance React or Vue)
+- Magento UPWARD module
+- Standalone PHP (for instance, Laravel or Symfony)
 
 ---
 # Running UPWARD
@@ -340,6 +341,14 @@ class: center, middle
 ---
 class: center, middle
 ### My personal opinion: Do not use UPWARD in production, but use Nginx for this instead
+
+---
+class: center, middle
+### Unless you want to do SSR (Server Side Rendering) with UPWARD
+
+---
+class: center, middle
+### Is it useful in development?
 
 ---
 class: center, middle
