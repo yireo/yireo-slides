@@ -1,5 +1,5 @@
 layout: true
-<div class="slide-heading">Explaining UPWARD</div>
+<div class="slide-heading">Explaining UPWARD properly - Ahmedabad Magento Meetup</div>
 <div class="slide-footer"><span>Yireo - Opening Up Technology</span></div>
 
 ---
@@ -19,10 +19,7 @@ class: center, middle
 
 ---
 class: center, middle
-### GraphQL Basics
----
-class: center, middle
-### Overview
+### So ... UPWARD
 
 ---
 # UPWARD
@@ -32,6 +29,11 @@ class: center, middle
 - Mapping of properties, functions & data
 - No state
 - Defined in YAML
+
+---
+class: center, middle
+### Overview
+
 - Multiple connectors available
     - NodeJS (for instance React or Vue)
     - [Magento module](https://github.com/magento-research/magento2-upward-connector)
