@@ -4,8 +4,8 @@ layout: true
 
 ---
 class: center, middle
-# Explaining UPWARD
-### Apparently a part of Magento PWA Studio
+# Explaining UPWARD properly
+### a Magento PWA Studio saga
 
 ---
 # Jisse Reitsma
