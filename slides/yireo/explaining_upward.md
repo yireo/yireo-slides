@@ -122,10 +122,15 @@ Usage:
 node example-server.js
 ```
 
-^^You can guarantee that `example-server.js` remains running by using PM2
+You can guarantee that `example-server.js` remains running by using PM2
 
 ---
 # Production: Magento module
+- Install and enable the module
+- Configure the specification
+
+---
+# Install and enable
 - Install and enable the module
     - `composer require magento/module-upward-connector`
     - `bin/magento module:enable Magento_UpwardConnector`
@@ -133,16 +138,15 @@ node example-server.js
     - **Stores > Configuration > General > Web > UPWARD PWA Configuration**
     - Example config: `/path/to/pwastudio/packages/venia-concept/dist/upward.yml`
     - Make sure to build the PWA first (`yarn build`) and deploy it to production
-- Technical working
-    - Adds a new area `pwa`
-    - Plugs into `AreaList::getCodeByFrontname()` to change the area into `pwa`
 
-???
-`Magento\Framework\App\AreaList::getCodeByFrontname` determines the `area` code (`adminhtml`, `frontend` and now also `pwa`) by inspecting the `frontName`. This is used by `Magento\Framework\App\Http::launch()` to set the current area code in the global state (`Magento\Framework\App\State`) and to load all DI preferences from it, resulting in area-specific routes, controllers, observers and everything. The plugin rewrite sets the area to `pwa` for all routes (excluding some that you can configure yourself).
+---
+# Configuring things
+    - **Stores > Configuration > General > Web > UPWARD PWA Configuration**
+    - Example config: `/path/to/pwastudio/packages/venia-concept/dist/upward.yml`
+    - Make sure to build the PWA first (`yarn build`) and deploy it to production
 
-Next, in the `pwa` area the regular Front Controller is rewritten (using a preference override) to an UPWARD Front Controller (`Magento\UpwardConnector\Controller\Upward`). This new Front Controller dispatches every request (including static resources) to an UPWARD controller `Magento\Upward\Controller`, that is initialized using the YAML file configured in the Magento Store Configuration. This UPWARD controller resolves the UPWARD definition from YAML and handles it correspondingly via resolvers (`Magento\Upward\Resolver`): Direct files are read , Mustache templates are parsed, proxies fetch remote content, etcetera.
 
-And the final result from any resolver is sent back to the client.
+
 
 ---
 class: center, middle
