@@ -181,7 +181,7 @@ resource:
           template: '../venia-ui/templates/cmspage-shell.mst'
 ```
 
-^^See https://www.czettner.com/2020/02/14/magento-2-pwa-studio-ssr.html
+See https://www.czettner.com/2020/02/14/magento-2-pwa-studio-ssr.html
 
 ---
 # Mustache templates (1)
@@ -192,6 +192,8 @@ resource:
 - `close-document.mst`
 	- Closing of `<body>`
 
+---
+# Mustache templates (2)
 Usage in other file (`example.mst`):
 ```html
 {{> templates/open-document}}
@@ -202,7 +204,7 @@ Usage in other file (`example.mst`):
 ```
 
 ---
-# Mustache templates (2)
+# Mustache templates (3)
 File `venia-ui/templates/cmspage-shell.mst`:
 ```js
 {{> templates/open-document}}
@@ -219,11 +221,27 @@ File `venia-ui/templates/cmspage-shell.mst`:
 ```
 
 ---
-# Mustache templates (3)
+# Mustache templates (4)
 - `venia-ui/templates/generic-shell.mst`
 - `venia-ui/templates/cmspage-shell.mst`
 - `venia-ui/templates/product-shell.mst`
 - `venia-ui/templates/category-shell.mst`
+
+---
+# FileResolver
+Example snipper from UPWARD YAML:
+```yaml
+query:
+  resolver: file
+  file:
+    resolver: inline
+    inline: './productDetail.graphql'
+  encoding:
+    resolver: inline
+    inline: 'utf-8'
+```
+
+^^The property `query` is filled with the contents of the GraphQL file
 
 ---
 # UPWARD Resolvers (1)
@@ -247,21 +265,6 @@ File `venia-ui/templates/cmspage-shell.mst`:
 - UrlResolver
 	- Building URLs
 
----
-# FileResolver
-Example snipper from UPWARD YAML:
-```yaml
-query:
-  resolver: file
-  file:
-    resolver: inline
-    inline: './productDetail.graphql'
-  encoding:
-    resolver: inline
-    inline: 'utf-8'
-```
-
-^^The property `query` is filled with the contents of the GraphQL file
 
 ---
 # UPWARD and SSR
