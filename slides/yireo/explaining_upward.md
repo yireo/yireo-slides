@@ -34,6 +34,9 @@ class: center, middle
 - No state
 - Defined in YAML
 
+---
+class: center, middle
+### Benefits & downsides
 
 ---
 # Benefits of UPWARD
@@ -144,6 +147,10 @@ You can guarantee that `example-server.js` remains running by using PM2
 - **Stores > Configuration > General > Web > UPWARD PWA Configuration**
   - Example config: `/path/to/pwastudio/packages/venia-concept/dist/upward.yml`
 - Make sure to build the PWA first (`yarn build`) and deploy it to production
+
+---
+class: center, middle
+### But what is doing UPWARD?
 
 ---
 class: center, middle
@@ -344,11 +351,11 @@ class: center, middle
 
 ---
 class: center, middle
-### Unless you want to do SSR (Server Side Rendering) with UPWARD
+### Unless you want to do SSR (Server Side Rendering) with UPWARD ...
 
 ---
 class: center, middle
-### Is it useful in development?
+### but there are other better solutions maybe for that.
 
 ---
 class: center, middle
