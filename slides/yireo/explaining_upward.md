@@ -22,6 +22,10 @@ class: center, middle
 ### So ... UPWARD
 
 ---
+class: center, middle
+### Unified Progressive Web App Response Definition
+
+---
 # UPWARD
 - Proxy between PWA & Magento
     - Or: A middle tier service layer between browser & server
@@ -367,3 +371,7 @@ class: center, middle
 ---
 class: center, middle
 ### Disclaimer: I'm not going to be a Magento Master 2020>
+
+---
+class: center, middle
+### Thanks
