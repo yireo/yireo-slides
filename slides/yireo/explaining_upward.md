@@ -36,6 +36,10 @@ class: center, middle
 
 ---
 class: center, middle
+### But what is doing UPWARD?
+
+---
+class: center, middle
 ### Benefits & downsides
 
 ---
@@ -52,6 +56,10 @@ class: center, middle
     - Resources are routed through UPWARD (including static files)
     - Potential fixes using webserver configuration
 - Complexer to understand
+
+---
+class: center, middle
+### But what is doing UPWARD?
 
 ---
 class: center, middle
@@ -280,6 +288,10 @@ query:
 ---
 class: center, middle
 ### So in short, UPWARD uses its own specifications in YAML to jump from one part to another to do what ...?
+
+---
+class: center, middle
+### But what is doing UPWARD?
 
 ---
 # UPWARD and CSS requests
