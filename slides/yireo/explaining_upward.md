@@ -346,6 +346,12 @@ class: center, middle
 - Buildpack creates a dynamic hostname + SSL
 - The same domain name is serving all requests
 - No issues with CORS
+  - Cross-Origin Resource Sharing
+
+---
+# Other CORS solutions
+- Yireo CorsHack module
+  - https://github.com/yireo-training/magento2-corshack
 
 ---
 class: center, middle
