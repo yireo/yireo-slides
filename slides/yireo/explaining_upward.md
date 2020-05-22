@@ -131,22 +131,14 @@ You can guarantee that `example-server.js` remains running by using PM2
 
 ---
 # Install and enable
-- Install and enable the module
-    - `composer require magento/module-upward-connector`
-    - `bin/magento module:enable Magento_UpwardConnector`
-- Configure the specification
-    - **Stores > Configuration > General > Web > UPWARD PWA Configuration**
-    - Example config: `/path/to/pwastudio/packages/venia-concept/dist/upward.yml`
-    - Make sure to build the PWA first (`yarn build`) and deploy it to production
+- `composer require magento/module-upward-connector`
+- `bin/magento module:enable Magento_UpwardConnector`
 
 ---
 # Configuring things
-    - **Stores > Configuration > General > Web > UPWARD PWA Configuration**
-    - Example config: `/path/to/pwastudio/packages/venia-concept/dist/upward.yml`
-    - Make sure to build the PWA first (`yarn build`) and deploy it to production
-
-
-
+- **Stores > Configuration > General > Web > UPWARD PWA Configuration**
+  - Example config: `/path/to/pwastudio/packages/venia-concept/dist/upward.yml`
+- Make sure to build the PWA first (`yarn build`) and deploy it to production
 
 ---
 class: center, middle
