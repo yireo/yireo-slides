@@ -301,12 +301,11 @@ Remember that UPWARD has *no state*, so no caching
 
 ---
 class: center, middle
-### If UPWARD is a proxy in between the browser and static files, and if this proxy is not caching anything, performance is better if you remove the proxy.
+### If a proxy in between the browser and static files is not caching anything, performance is better if you remove the proxy.
 
 ---
 class: center, middle
-### If UPWARD is a proxy in between the browser and static files, and if this proxy is not caching anything, performance is better if you remove the proxy.
-
+### In short: Do not use UPWARD for static files, but use Nginx instead
 
 ---
 # UPWARD and GraphQL requests
