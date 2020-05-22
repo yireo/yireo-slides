@@ -84,6 +84,7 @@ class: center, middle
 ---
 # Development
 ```bash
+yarn create @magento/pwa
 yarn dev
 ```
 
@@ -367,7 +368,7 @@ class: center, middle
 
 ---
 class: center, middle
-### but there are other better solutions maybe for that.
+### but there are other better solutions maycbe for that.
 
 ---
 class: center, middle
