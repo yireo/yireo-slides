@@ -265,6 +265,9 @@ query:
 - UrlResolver
 	- Building URLs
 
+---
+class: center, middle
+### So in short, UPWARD uses its own specifications in YAML to jump from one part to another to do what ...?
 
 ---
 # UPWARD and SSR
