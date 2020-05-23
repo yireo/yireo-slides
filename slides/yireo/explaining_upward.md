@@ -27,12 +27,8 @@ class: center, middle
 ---
 # PWA Studio
 - Buildpack
-  - Wrapper for Webpack
-- Venia Concept
-  - Template for your own React source
-- Venia UI components
-  - Redux state management
-  - Apollo client for GraphQL
+- Venia Concept theme
+- Venia UI component library
 - Peregrine
 - UPWARD
 
@@ -40,12 +36,13 @@ class: center, middle
 # PWA Studio
 - Buildpack
   - Wrapper for Webpack
-- Venia Concept
+- Venia Concept theme
   - Template for your own React source
-- Venia UI components
+- Venia UI component library
   - Redux state management
   - Apollo client for GraphQL
 - Peregrine
+  - Collection of hooks and more
 - UPWARD
 
 ---
