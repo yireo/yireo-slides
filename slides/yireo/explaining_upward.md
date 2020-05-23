@@ -18,6 +18,22 @@ class: center, middle
 ~ Member of ExtDN.org
 
 ---
+# React
+- Create React App / Webpack
+- React source
+- Redux state management
+- Apollo client for GraphQL
+
+---
+# PWA Studio
+- Buildpack
+- Venia Concept + Venia UI
+  - Redux state management
+  - Apollo client for GraphQL
+- Peregrine
+- UPWARD
+
+---
 class: center, middle
 ### So ... UPWARD
 
