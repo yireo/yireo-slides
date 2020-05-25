@@ -18,13 +18,14 @@
 # Magento legacy
 ~ Monolithic architecture
   - Magento 1 and Magento 2 were designed as full service applications
+  - Frontend, backend, API, CLI - all part of the same system
 ~ Frontending in Magento 2 is horrible
   - KnockoutJS, RequireJS, jQuery, all mixed in a deadly cocktail
   - Frontend is slowly becoming deprecated
 ~ Magento 2.4 introduces SOA
   - SOA: Service Oriented Architecture
   - Not necessarily microservice, but more like independent services
-  - Still a long way to go
+  - This will take a long time to implement, even longer to get rid of the legacy
 ~ Magento is now owned by Adobe
   - Adobe is not making money of open source shops
   - Most effort goes into adding new advanced features, instead of cleaning up old stuff
