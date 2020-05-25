@@ -1,3 +1,5 @@
+{state: main}
+{background-image: mm18uk/background-mm.png}
 # Magento in an Apollo Federation
 
 ---
@@ -20,7 +22,7 @@
   - React, Redux, Apollo Client, GraphQL
 - Competitors are busy as well
   - Vue Storefront, FrontCommerce, DEITY, ScandiPWA
-  
+
 ---
 # Breaking up a monolith
 - Catalog
@@ -52,7 +54,7 @@
 - Let a frontend talk GraphQL too
   - Vue, React, Angular
   - Apollo, Relay, Axios
-- Use Apollo Gateway 
+- Use Apollo Gateway
 
 ---
 # The federation
@@ -77,5 +79,3 @@
 - Slowly migrate responsibility away from Magento 2
   - Using theory of Principled GraphQL
   - Maybe not a goal on itself, but at least something to consider
-
-
