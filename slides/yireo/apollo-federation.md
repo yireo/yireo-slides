@@ -57,6 +57,7 @@
 ---
 # The GraphQL story
 - Try to have all microservices talk GraphQL
+  - We don't need a Universal Translator
 - Different languages, different server packages
   - Node: Apollo, Relay
   - PHP: Webonyx, GraphQLite
