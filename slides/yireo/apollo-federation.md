@@ -48,23 +48,23 @@
 {background-image: apollo/picard-clapping.gif}
 
 ---
+# Direct benefits of headless
+- Easier frontend development
+- Better performance
+- Use a proper CMS for content
+- Breaking up application is smaller pieces
+
+---
 # Breaking up an e-commerce monolith
 - Catalog
 - Inventory
 - Checkout
 - Sales Processing
 - Image management
-- Content management
+- Content management (CMS)
 - Marketing rules
 - SEO
 - ...
-
----
-# Direct benefits of headless
-- Easier frontend development
-- Better performance
-- Use a proper CMS for content
-- Faster inventory management
 
 ---
 # Potential other microservices
