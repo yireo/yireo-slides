@@ -114,15 +114,16 @@
 ~ Connect frontend to Apollo Gateway
 ~ Apollo Gateway connects to Magento
 ~ Slowly migrate responsibility away from Magento 2
-  - Using theory of Principled GraphQL
+~ Apply theory of Principled GraphQL
 
 ---
 {state: main middle dark}
 {background-image: apollo/picard-funny.gif}
-## Maybe not a goal on itself
-## but at least something to consider
+# Maybe not a goal on itself
+# but at least something to consider
 
+---
 {state: main middle dark}
 {background-image: apollo/bg-startrek.png}
 # Thanks
-### @jissereitsma / @yireo
+## Contact me via @jissereitsma or @yireo
