@@ -1,18 +1,18 @@
-{state: main}
+{state: main middle}
 {background-image: mm18uk/background-mm.png}
 # Magento in an Apollo Federation
 
 ---
 # Magento legacy
-- Monolithic architecture
+~ Monolithic architecture
   - Magento 1 and Magento 2 were designed as full service applications
-- Frontending in Magento 2 is horrible
+~ Frontending in Magento 2 is horrible
   - KnockoutJS, RequireJS, jQuery, all mixed in a deadly cocktail
   - Frontend is slowly becoming deprecated
-- Magento 2.4 introduces SOA
+~ Magento 2.4 introduces SOA
   - SOA: Service Oriented Architecture
   - Not necessarily microservice, but more like independent services
-- Magento is now owned by Adobe
+~ Magento is now owned by Adobe
   - Adobe is not making money of open source shops
 
 ---
