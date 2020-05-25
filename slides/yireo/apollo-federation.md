@@ -1,5 +1,5 @@
 {state: main middle}
-{background-image: mm18uk/background-mm.png}
+{background-image: apollo/background-mm.png}
 # Magento in an Apollo Federation
 
 ---
