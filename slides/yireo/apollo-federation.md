@@ -43,13 +43,16 @@
 {background-image: apollo/picard-clapping.gif}
 
 ---
-# Breaking up a monolith
+# Breaking up an e-commerce monolith
 - Catalog
 - Inventory
 - Checkout
 - Sales Processing
 - Image management
 - Content management
+- Marketing rules
+- SEO
+- ...
 
 ---
 # Direct benefits of headless
