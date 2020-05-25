@@ -82,15 +82,15 @@
 
 ---
 # The GraphQL story
-- Try to have all microservices talk GraphQL
+~ Make all microservices talk GraphQL
   - We don't need a Universal Translator
-- Different languages, different server packages
+~ Different languages, different server packages
   - Node: Apollo, Relay
   - PHP: Webonyx, GraphQLite
-- Let a frontend talk GraphQL too
+~ Let a frontend talk GraphQL too
   - Vue, React, Angular
   - Apollo, Relay, Axios
-- Use Apollo Gateway
+~ Use Apollo Gateway and Apollo Federation
 
 ---
 # The federation
@@ -105,7 +105,7 @@
 - Easily merge schemas into single federated graph
 - Slowly migrate backend sources from one service to another
   - Modifying requests and responses
-  - Maintain schema registry within Apollo Graph Manager
+  - Maintain schema registry within Apollo Graph Manager or by yourself
 
 ---
 # Scenario with Magento
