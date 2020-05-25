@@ -5,6 +5,12 @@ $slideGroups = [
         'style' => 'meetmagento',
         'slides' => [
             [
+                'file' => 'yireo/apollo-federation',
+                'title' => 'Magento in an Apollo Federation (LeanJS Meetup - May 2020)',
+                'style' => 'yireo',
+                'renderer' => 'remark'
+            ],
+            [
                 'file' => 'yireo/explaining_upward',
                 'title' => 'Explaining UPWARD properly (Ahmedabad Magento Meetup - May 2020)',
                 'style' => 'yireo',
