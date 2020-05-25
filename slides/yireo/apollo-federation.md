@@ -17,10 +17,11 @@
 
 ---
 # Magento goes headless
-- Magento 2.3 introduced GraphQL API
-- Magento is working on its own PWA Studio toolbox
+~ Magento 2.3 introduced GraphQL API
+  - Support for catalog, checkout, customer, etc
+~ Magento is working on its own PWA Studio toolbox
   - React, Redux, Apollo Client, GraphQL
-- Competitors are busy as well
+~ Competitors are busy as well
   - Vue Storefront, FrontCommerce, DEITY, ScandiPWA
 
 ---
@@ -35,9 +36,9 @@
 ---
 # Direct benefits of headless
 - Easier frontend development
+- Better performance
 - Use a proper CMS for content
 - Faster inventory management
-@todo
 
 ---
 # Potential other microservices
