@@ -16,6 +16,9 @@
   - Adobe is not making money of open source shops
 
 ---
+{background-image: apollo/picard-laughing.png}
+
+---
 # Magento goes headless
 ~ Magento 2.3 introduced GraphQL API
   - Support for catalog, checkout, customer, etc
@@ -23,6 +26,9 @@
   - React, Redux, Apollo Client, GraphQL
 ~ Competitors are busy as well
   - Vue Storefront, FrontCommerce, DEITY, ScandiPWA
+
+---
+{background-image: apollo/picard-clapping.png}
 
 ---
 # Breaking up a monolith
@@ -89,3 +95,6 @@
 - Slowly migrate responsibility away from Magento 2
   - Using theory of Principled GraphQL
   - Maybe not a goal on itself, but at least something to consider
+
+---
+{background-image: apollo/picard-funny.png}
