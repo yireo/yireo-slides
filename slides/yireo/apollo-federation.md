@@ -24,8 +24,10 @@
 ~ Magento 2.4 introduces SOA
   - SOA: Service Oriented Architecture
   - Not necessarily microservice, but more like independent services
+  - Still a long way to go
 ~ Magento is now owned by Adobe
   - Adobe is not making money of open source shops
+  - Most effort goes into adding new advanced features, instead of cleaning up old stuff
 
 ---
 {background-image: apollo/picard-laughing.gif}
