@@ -28,7 +28,7 @@
   - Adobe is not making money of open source shops
 
 ---
-{background-image: apollo/picard-laughing.png}
+{background-image: apollo/picard-laughing.gif}
 
 ---
 # Magento goes headless
