@@ -19,8 +19,9 @@
 ~ Monolithic architecture
   - Magento 1 and Magento 2 were designed as full service applications
   - Frontend, backend, API, CLI - all part of the same system
+  - Modularity was not always designed properly with heavy coupling as a result
 ~ Frontending in Magento 2 is horrible
-  - KnockoutJS, RequireJS, jQuery, all mixed in a deadly cocktail
+  - XML, PHTML, KnockoutJS, RequireJS, jQuery, custom JS - all mixed in a deadly cocktail
   - Frontend is slowly becoming deprecated
 ~ Magento 2.4 introduces SOA
   - SOA: Service Oriented Architecture
