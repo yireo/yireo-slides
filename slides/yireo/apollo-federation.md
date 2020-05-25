@@ -33,7 +33,9 @@
   - Most effort goes into adding new advanced features, instead of cleaning up old stuff
 
 ---
+{state: main middle dark}
 {background-image: apollo/picard-laughing.gif}
+# Ha ha, those Magento people
 
 ---
 # Magento goes headless
@@ -45,7 +47,9 @@
   - Vue Storefront, FrontCommerce, DEITY, ScandiPWA
 
 ---
+{state: main middle dark}
 {background-image: apollo/picard-clapping.gif}
+# Kudos to those Magento people
 
 ---
 # Direct benefits of headless
