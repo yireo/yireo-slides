@@ -103,16 +103,17 @@
 ---
 # Why Apollo Federation?
 - Easily merge schemas into single federated graph
+  - Schema stitching simplified
 - Slowly migrate backend sources from one service to another
   - Modifying requests and responses
   - Maintain schema registry within Apollo Graph Manager or by yourself
 
 ---
 # Scenario with Magento
-- Build headless shop with Magento 2
-- Connect frontend to Apollo Gateway
-- Apollo Gateway connects to Magento
-- Slowly migrate responsibility away from Magento 2
+~ Build headless shop with Magento 2
+~ Connect frontend to Apollo Gateway
+~ Apollo Gateway connects to Magento
+~ Slowly migrate responsibility away from Magento 2
   - Using theory of Principled GraphQL
 
 ---
