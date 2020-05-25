@@ -1,5 +1,5 @@
-{state: main middle}
-{background-image: apollo/background-mm.png}
+{state: main middle dark}
+{background-image: apollo/bg-startrek.png}
 # Magento in an Apollo Federation
 
 ---
@@ -28,7 +28,7 @@
   - Vue Storefront, FrontCommerce, DEITY, ScandiPWA
 
 ---
-{background-image: apollo/picard-clapping.png}
+{background-image: apollo/picard-clapping.gif}
 
 ---
 # Breaking up a monolith
@@ -97,4 +97,4 @@
   - Maybe not a goal on itself, but at least something to consider
 
 ---
-{background-image: apollo/picard-funny.png}
+{background-image: apollo/picard-funny.gif}
