@@ -42,9 +42,17 @@
 
 ---
 # Potential other microservices
-- Image processing
 - Product Information Management (PIM)
-@todo
+- Caching service
+- Price calculation
+- Alternative inventory & stock
+- VAT verification
+- Email verification
+- Dealers / retailer information
+- Complex product options
+- Promos and advertizing
+- Image optimization
+- Product image provider
 
 ---
 # The GraphQL story
