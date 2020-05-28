@@ -17,6 +17,7 @@
 ~ Magento Master 2017/2018/2019 Mover
 ~ Member of ExtDN (Magento Extension Developer Network)
 ~ And I love pizza with pineapple. Proper pizza!
+~ And I can make bad jokes too. It's not just Igor.
 
 ---
 {state: main middle dark}
