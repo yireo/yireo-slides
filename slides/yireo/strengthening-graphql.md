@@ -137,33 +137,33 @@ Potential issue when query queries across multiple endpoints
 ---
 ```graphql
 {
-  products(filter: {price: {from: "0.01"}}) {
+  products(filter: {name: {match: "jacket"}}) {
     items {
-      attribute_set_id
-      canonical_url
-      video_file
-      url_suffix
-      url_rewrites {
-        parameters {
-          name
-          value
-        }
-      }
-      id
+      sku
       categories {
-        children_count
-        id
         products {
           items {
-            attribute_set_id
-            canonical_url
-            video_file
-            url_suffix
-            url_rewrites {
-              parameters {
-                name
-                value
+            sku
+            categories {
+              products {
+                items {
+                  sku
+                  categories {
+                    products {
+                      items {
+                        sku
+                      }
+                    }
+                  }
+                }
               }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 ```
 
 ---
@@ -182,12 +182,17 @@ Potential issue when query queries across multiple endpoints
 ~ Throttling
 
 ---
-# Module `Yireo_GraphQlRateLimiting`
-- Repo: https://github.com/yireo/Yireo_GraphQlRateLimiting
+# Query depth
 
 ---
 # Module `Yireo_CustomGraphQlQueryLimiter`
 - Repo: https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter
+
+---
+# Module `Yireo_GraphQlRateLimiting`
+- Repo: https://github.com/yireo/Yireo_GraphQlRateLimiting
+
+
 
 ---
 # The Apollo way
