@@ -24,6 +24,7 @@
 @todo: Coverage of endpoints
 @todo: Roadmap
 @todo: Is it possible to build a PWA with it? Downsides?
+@todo: https://www.apollographql.com/blog/securing-your-graphql-api-from-malicious-queries-16130a324a6b
 
 ---
 # What is still missing?
