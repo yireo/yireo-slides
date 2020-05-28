@@ -119,6 +119,7 @@ Potential issue when query queries across multiple endpoints
 {state: main middle dark}
 {background-image: heman/heman-skeletor.webp}
 # Is that your phone?
+# Or are you happy?
 
 ---
 {state: main middle}
@@ -193,8 +194,8 @@ Potential issue when query queries across multiple endpoints
 
 ---
 {state: main middle dark}
-{background-image: heman/heman-skeletor.webp}
-# Is that your phone?
+{background-image: heman/heman-struggling.gif}
+# Give it to me
 
 ---
 # The Apollo way
