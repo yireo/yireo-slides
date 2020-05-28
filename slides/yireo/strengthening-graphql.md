@@ -33,11 +33,12 @@
 - Customer mutations, addressbook
 - Support for Configurable Products, swatches
 - Add-to-cart, product options, gift cards
+- Inventory
 
 ---
-# Still fuzzy or missing
+# Still fuzzy or missing or incomplete?
 - Proper implementation of payment endpoints by extension providers
-- VAT validation, 
+- VAT validation, quote estimation
 
 ---
 # Current state
