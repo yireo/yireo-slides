@@ -43,3 +43,16 @@
 
 ---
 # Strengthening GraphQL security
+
+---
+# No headless shop?
+- Make sure to disable all GraphQL modules
+  - `bin/magento module:disable $(bin/magento module:list --enabled | grep -i graphql)`
+- Or even better, remove these modules
+  - See https://github.com/yireo/magento2-replace-graphql
+
+---
+{state: main middle dark}
+{background-image: apollo/bg-startrek.png}
+# Thanks
+## Contact me via @jissereitsma or @yireo
