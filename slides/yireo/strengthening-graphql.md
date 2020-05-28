@@ -39,6 +39,7 @@
 # Still fuzzy or missing or incomplete?
 - Proper implementation of payment endpoints by extension providers
 - VAT validation, quote estimation
+- Server-side query caching (?)
 
 ---
 # Current state
@@ -51,13 +52,14 @@
 ---
 {state: main middle dark}
 {background-image: heman/heman-skeletor.webp}
-# Current state 
+# Are you feeling fuzzy?
 
 ---
 # Reflection on PWA
 - GraphQL forms the glue between a PWA and Magento-as-a-Backend (MaaB)
 
 @todo: Is it possible to build a PWA with it? Downsides?
+
 
 ---
 # What is still missing?
