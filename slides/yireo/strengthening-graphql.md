@@ -25,8 +25,11 @@
 
 ---
 # Current state
-@todo: Coverage of endpoints
-@todo: Roadmap
+- Coverage of endpoints is nearing completion
+    - Support for Configurable Products, swatches, PageBuilder
+    - Customer mutations
+- Fuzzy roadmap
+
 @todo: Is it possible to build a PWA with it? Downsides?
 
 ---
