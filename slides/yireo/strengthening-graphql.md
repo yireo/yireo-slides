@@ -139,12 +139,6 @@ Potential issue when query queries across multiple endpoints
 ~ Limiting total query size
   - Calculating string length and throwing exceptions if needed
   - Tune hosting: `memory_limit`, `max_execution_time`, `max_input_nesting_level`, etc
-~ Whitelisting queries
-  - Only allow those endpoints used by your PWA (like `cmsPage`)
-  - See `apollographql/persistgraphql`
-~ Query depth
-~ Query complexity
-~ Throttling
 
 ---
 ```graphql
@@ -179,9 +173,26 @@ Potential issue when query queries across multiple endpoints
 ```
 
 ---
+# GraphQL security
+- Prevent exploits of GraphQL endpoints
+  - Limiting input arguments (type definition, validation)
+  - Limiting output data (maximum of items, blacklist fields)
+- Limiting total query size
+  - Calculating string length and throwing exceptions if needed
+  - Tune hosting: `memory_limit`, `max_execution_time`, `max_input_nesting_level`, etc
+~ Whitelisting queries
+  - Only allow those endpoints used by your PWA (like `cmsPage`)
+  - See `apollographql/persistgraphql`
+~ Query depth
+~ Query complexity
+~ Throttling
+
+---
+# Module `Yireo_GraphQlRateLimiting`
 @todo: https://github.com/yireo/Yireo_GraphQlRateLimiting
 
 ---
+# Module `Yireo_CustomGraphQlQueryLimiter`
 @todo: https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter
 
 ---
