@@ -16,6 +16,7 @@
 ~ Creator of Reacticon v3 or v4 (June 2021)
 ~ Magento Master 2017/2018/2019 Mover
 ~ Member of ExtDN (Magento Extension Developer Network)
+~ And I love pizza with pineapple. Proper pizza!
 
 ---
 {state: main middle dark}
