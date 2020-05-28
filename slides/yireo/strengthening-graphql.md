@@ -56,7 +56,7 @@
 
 ---
 {state: main middle dark}
-{background-image: heman/heman-skeletor.webp}
+{background-image: heman/orko1.jpg}
 # Are you feeling fuzzy?
 
 ---
