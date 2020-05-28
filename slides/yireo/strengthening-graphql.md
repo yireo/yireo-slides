@@ -87,10 +87,11 @@
 
 ---
 {state: main middle dark}
-# @todo: Something smart
+{background-image: heman/power.gif}
+# We have the power
 
 ---
 {state: main middle dark}
-{background-image: apollo/bg-startrek.png}
+{background-image: heman/heman-shera.jpg}
 # Thanks
 ## Contact me via @jissereitsma or @yireo
