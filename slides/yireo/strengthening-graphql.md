@@ -78,7 +78,8 @@
 ---
 {state: main middle dark}
 {background-image: heman/skeletor2.jpg}
-# It's not Magento! It is YOU!
+# It's not me! 
+# It is YOU!
 
 ---
 {state: main middle dark}
@@ -126,7 +127,7 @@ Potential issue when query queries across multiple endpoints
 {state: main middle dark}
 {background-image: heman/heman-skeletor.webp}
 # Is that your phone?
-# Or are you happy?
+# Or are you happy to see me?
 
 ---
 {state: main middle}
