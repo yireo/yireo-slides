@@ -82,8 +82,7 @@
 {state: main middle dark}
 {background-image: heman/greyskull1.jpg}
 # What about 
-# performance 
-# and security?
+# performance?
 
 ---
 {state: main middle}
