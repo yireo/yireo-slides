@@ -79,12 +79,14 @@
 
 ---
 {state: main middle dark}
-{background-image: heman/heman-skeletor.webp}
-# What about performance and security?
+{background-image: heman/greyskull1.jpg}
+# What about 
+# performance 
+# and security?
 
 ---
 {state: main middle dark}
-{background-image: heman/heman-skeletor.webp}
+{background-image: heman/greyskull1.jpg}
 # Strengthening GraphQL performance
 
 ---
