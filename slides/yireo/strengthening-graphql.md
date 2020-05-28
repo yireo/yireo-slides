@@ -115,6 +115,7 @@ Potential issue when query queries across multiple endpoints
 
 ---
 # Using Apollo Server
+- Using `@cacheControl(maxAge: 42)` in schema
 - Support for partial query result caching
 
 ---
