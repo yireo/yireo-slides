@@ -135,6 +135,10 @@ Potential issue when query queries across multiple endpoints
 # GraphQL security
 - Exploits of GraphQL endpoints
   - Input arguments, output of data
+- Limiting total query size
+  - Calculating string length
+- Whitelisting queries
+  - Only 
 - Query depth
 - Query complexity
 - Throttling
