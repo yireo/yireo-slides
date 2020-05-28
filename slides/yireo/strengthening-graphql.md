@@ -37,14 +37,16 @@
 
 ---
 # Still fuzzy or missing or incomplete?
-- Proper implementation of payment endpoints by extension providers
-- VAT validation, quote estimation
+- Proper implementation of payment endpoints by extension providers (?)
+- VAT validation, quote estimation (?)
 - Server-side query caching (?)
 
 ---
 # Current state
 - Coverage is nearing completion
-~ All that is there is stable
+~ All that is there is, stable
+    - Quick responses, even without caching
+    - Extensible by third party extensions
     - I guess
 ~ Fuzzy roadmap
     - https://github.com/magento/graphql-ce/wiki/Roadmap
