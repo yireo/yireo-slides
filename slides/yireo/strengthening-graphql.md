@@ -257,7 +257,7 @@ This configured the PHP library `webonyx/graphql-php` and adds `DocumentValidato
 ---
 # Module `Yireo_CustomGraphQlQueryLimiter`
 - Repo: https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter
-- Set complexity to level `7`
+- Set depth to level `7` and play around with complexity
 
 ```json
 {
