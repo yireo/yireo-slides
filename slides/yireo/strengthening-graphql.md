@@ -25,7 +25,7 @@
 
 ---
 # Current state
-- Coverage is nearing completion
+~ Coverage is nearing completion
 
 ---
 # GraphQL coverage
@@ -37,9 +37,14 @@
 - Missing endpoints (?)
     - Wishlist mutations
     - Generic approach for payment & shipment providers
+    - VAT validation
 
-- All that is there is stable
-- Fuzzy roadmap
+---
+# Current state
+- Coverage is nearing completion
+~ All that is there is stable
+    - I guess
+~ Fuzzy roadmap
     - https://github.com/magento/graphql-ce/wiki/Roadmap
 
 ---
