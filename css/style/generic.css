@@ -57,3 +57,7 @@ table.striped td {
   font-size: 70%;
   font-weight: 400;
 }
+ul ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
