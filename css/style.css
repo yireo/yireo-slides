@@ -2633,14 +2633,14 @@ html.mug076 .bordered h2 {
   color: white;
 }
 @font-face {
-  font-family: 'Bungee Inline';
+  font-family: 'Bungee Shade';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Bungee Inline'), local('BungeeInline-Regular'), url(https://fonts.gstatic.com/s/bungeeinline/v5/Gg8zN58UcgnlCweMrih332VuDGI.ttf) format('truetype');
+  src: local('Bungee Shade'), local('BungeeShade-Regular'), url(https://fonts.gstatic.com/s/bungeeshade/v5/DtVkJxarWL0t2KdzK3oI_jks7g.ttf) format('truetype');
 }
 html.heman h1,
 html.heman h2,
 html.heman h3 {
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Bungee Shade', cursive;
 }
