@@ -286,7 +286,13 @@ Now, repeat this 10 million times.
 # Module `Yireo_GraphQlRateLimiting`
 - Repo: https://github.com/yireo/Yireo_GraphQlRateLimiting
 - Based on `sunspikes/php-ratelimiter`
-- Set 
+- Settings
+    - Enabled: Yes
+    - Limit Queries: Yes
+    - Limit Mutations: Yes
+    - Maximum Queries: 3
+    - Maximum Mutations: 
+    - Timeframe: 10
 
 ---
 # The Apollo way
