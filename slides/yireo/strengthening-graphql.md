@@ -219,6 +219,29 @@ Potential issue when query queries across multiple endpoints
 Query depth is 10
 
 ---
+# Query depth
+```graphql
+{
+  products(filter: {name: {match: "jacket"}}) {
+    items {
+      sku
+      categories {
+        products {
+          items {
+            sku
+            categories {
+              products {
+                items {
+                  sku
+                  categories {
+                    products {
+                      items {
+                        sku
+```
+
+Query depth is 15
+
+---
 # Magento `QueryComplexityLimiter`
 ```xml
 <type name="Magento\Framework\GraphQl\Query\QueryComplexityLimiter">
@@ -232,6 +255,20 @@ Query depth is 10
 ---
 # Module `Yireo_CustomGraphQlQueryLimiter`
 - Repo: https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter
+- Set complexity to level `7`
+
+```json
+{
+  "errors": [
+    {
+      "message": "Max query depth should be 7 but got 10.",
+      "extensions": {
+        "category": "graphql"
+      }
+    }
+  ]
+}
+``` 
 
 ---
 # Module `Yireo_GraphQlRateLimiting`
