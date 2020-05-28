@@ -1,5 +1,5 @@
 {state: main middle dark}
-{background-image: apollo/bg-startrek.png}
+{background-image: heman/heman-rainbow.jpg}
 # Strengthening the GraphQL API
 ### with the power of Greyskull
 
