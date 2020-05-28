@@ -85,8 +85,7 @@
 # and security?
 
 ---
-{state: main middle dark}
-{background-image: heman/greyskull1.jpg}
+{state: main middle}
 # Strengthening GraphQL performance
 
 ---
@@ -95,6 +94,8 @@
   - Currently non-existent
 - Varnish-based FPC
 - Middleware-based FPC
+  - Apollo Server
+  - Relay Server
 
 ---
 # Using Varnish
