@@ -133,15 +133,16 @@ Potential issue when query queries across multiple endpoints
 
 ---
 # GraphQL security
-- Exploits of GraphQL endpoints
+~ Exploits of GraphQL endpoints
   - Input arguments, output of data
-- Limiting total query size
+~ Limiting total query size
   - Calculating string length
-- Whitelisting queries
-  - Only 
-- Query depth
-- Query complexity
-- Throttling
+~ Whitelisting queries
+  - Only allow those endpoints used by your PWA
+  - See `apollographql/persistgraphql`
+~ Query depth
+~ Query complexity
+~ Throttling
 
 ---
 @todo: https://github.com/yireo/Yireo_GraphQlRateLimiting
