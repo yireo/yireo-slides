@@ -37,9 +37,10 @@
 
 ---
 # Still fuzzy or missing or incomplete?
-- Proper implementation of payment endpoints by extension providers (?)
-- VAT validation, quote estimation (?)
-- Server-side query caching (?)
+~ Proper implementation of payment endpoints by extension providers (?)
+~ VAT validation, quote estimation (?)
+~ Better ideas for extensibility of checkout (?)
+~ Server-side query caching (?)
 
 ---
 # Current state
