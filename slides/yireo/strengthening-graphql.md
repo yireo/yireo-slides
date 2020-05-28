@@ -27,11 +27,19 @@
 - Security?
 
 ---
+# Strengthening GraphQL performance
+
+---
 # Full Page Cache for GraphQL
 - Magento-based FPC for GraphQL endpoints
   - Currently non-existent
+- Varnish-based FPC
+- Middleware-based FPC
 
 ---
 # Using Varnish
 @todo: What needs to be configured
 @todo: Downsides & upsides
+
+---
+# Strengthening GraphQL security
