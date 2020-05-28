@@ -2640,7 +2640,6 @@ html.mug076 .bordered h2 {
   src: local('Bungee Shade'), local('BungeeShade-Regular'), url(https://fonts.gstatic.com/s/bungeeshade/v5/DtVkJxarWL0t2KdzK3oI_jks7g.ttf) format('truetype');
 }
 html.heman h1,
-html.heman h2,
-html.heman h3 {
+html.heman h2 {
   font-family: 'Bungee Shade', cursive;
 }

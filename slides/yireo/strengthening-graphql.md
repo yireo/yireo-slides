@@ -2,6 +2,7 @@
 {background-image: heman/heman-rainbow.jpg}
 # Strengthening the GraphQL API
 ## with the power of Greyskull
+### Narrated by Jisse Reitsma
 
 ---
 {state: speaker}
@@ -19,7 +20,8 @@
 ---
 {state: main middle dark}
 {background-image: heman/greyskull.jpg}
-# Current state of Magento GraphQL
+# Current state 
+# of Magento GraphQL
 
 ---
 # Current state
