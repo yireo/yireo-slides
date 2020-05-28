@@ -75,11 +75,6 @@
 
 ---
 {state: main middle dark}
-{background-image: heman/heman-skeletor.webp}
-# Is that your phone?
-
----
-{state: main middle dark}
 {background-image: heman/greyskull1.jpg}
 # What about 
 # performance?
@@ -119,6 +114,11 @@ Potential issue when query queries across multiple endpoints
 - Support for partial query result caching
 - Additional benefits
     - Server Side Rendering could be handled by same Apollo Server
+
+---
+{state: main middle dark}
+{background-image: heman/heman-skeletor.webp}
+# Is that your phone?
 
 ---
 {state: main middle}
@@ -191,7 +191,10 @@ Potential issue when query queries across multiple endpoints
 # Module `Yireo_GraphQlRateLimiting`
 - Repo: https://github.com/yireo/Yireo_GraphQlRateLimiting
 
-
+---
+{state: main middle dark}
+{background-image: heman/heman-skeletor.webp}
+# Is that your phone?
 
 ---
 # The Apollo way
