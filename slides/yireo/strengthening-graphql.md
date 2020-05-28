@@ -20,7 +20,9 @@
 
 ---
 # Current state
-@todo: Coverage
+@todo: Coverage of endpoints
+@todo: Roadmap
+@todo: Is it possible to build a PWA with it? Downsides?
 
 ---
 # What is still missing?
