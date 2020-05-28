@@ -44,12 +44,14 @@
 ---
 # Current state
 - Coverage is nearing completion
-~ All that is there is, stable
+~ What you need is there
     - Quick responses, even without caching
     - Extensible by third party extensions
-    - I guess
+    - Extensible by any Magento backend developer
+    - Stable, I guess
 ~ Fuzzy roadmap
     - https://github.com/magento/graphql-ce/wiki/Roadmap
+    - Not updated since Sept 18, 2019
 
 ---
 {state: main middle dark}
