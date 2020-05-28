@@ -109,6 +109,8 @@
 - Caching is skipped on specific endpoints
     - GraphQL annotation `@cache(cacheable: false)`
 
+^^Issue
+
 ---
 # Using Apollo Server
 @todo: caching
@@ -120,6 +122,7 @@
 @todo: Set PHP timeout and memory_limit (at least for GraphQL queries) relatively low (separate PHP-FPM)
 
 ---
+{state: main middle}
 # Strengthening GraphQL security
 
 ---
