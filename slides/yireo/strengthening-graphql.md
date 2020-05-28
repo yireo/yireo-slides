@@ -273,6 +273,16 @@ This configured the PHP library `webonyx/graphql-php` and adds `DocumentValidato
 ``` 
 
 ---
+# Simple mutation
+```graphql
+mutation {
+  createEmptyCart
+}
+```
+
+Now, repeat this 10 million times.
+
+---
 # Module `Yireo_GraphQlRateLimiting`
 - Repo: https://github.com/yireo/Yireo_GraphQlRateLimiting
 
