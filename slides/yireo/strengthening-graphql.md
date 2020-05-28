@@ -1,6 +1,7 @@
 {state: main middle dark}
 {background-image: apollo/bg-startrek.png}
 # Strengthening the GraphQL API
+### with the power of Greyskull
 
 ---
 {state: speaker}
@@ -50,6 +51,10 @@
   - `bin/magento module:disable $(bin/magento module:list --enabled | grep -i graphql)`
 - Or even better, remove these modules
   - See https://github.com/yireo/magento2-replace-graphql
+
+---
+{state: main middle dark}
+#
 
 ---
 {state: main middle dark}
