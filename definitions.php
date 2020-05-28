@@ -6,7 +6,7 @@ $slideGroups = [
         'slides' => [
             [
                 'file' => 'yireo/strengthening-graphql',
-                'title' => '(Magento Association - May 2020)',
+                'title' => 'Strenthening the GraphQL API (Magento Association Connect - May 2020)',
                 'style' => 'yireo',
                 'renderer' => 'reveal'
             ],
