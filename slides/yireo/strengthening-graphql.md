@@ -188,6 +188,7 @@ Potential issue when query queries across multiple endpoints
 ~ Query depth
 ~ Query complexity
 ~ Throttling
+~ And some stuff I created for you
 
 ---
 {state: main middle dark}
@@ -196,6 +197,26 @@ Potential issue when query queries across multiple endpoints
 
 ---
 # Query depth
+```graphql
+{
+  products(filter: {name: {match: "jacket"}}) {
+    items {
+      sku
+      categories {
+        products {
+          items {
+            sku
+            categories {
+              products {
+                items {
+                  sku
+                  categories {
+                    products {
+                      items {
+                        sku
+```
+
+Query depth is 10
 
 ---
 # Module `Yireo_CustomGraphQlQueryLimiter`
