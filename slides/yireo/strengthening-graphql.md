@@ -67,8 +67,16 @@
 ~ Magento PWA Studio is not a PWA, it is a studio
 ~ Maybe the GraphQL API is nearing complete covera, PWA Studio is not
 ~ Who cares? React is easy as hell and you can rapidly develop features with it
+~ The point of headless is to separate the frontend from the backend
+~ The point is not to be scared of anything that is not developed by Magento itself
 ~ Can you build a PWA with the current Magento PWA Studio and GraphQL API?
 ~ Yes! Assuming that you understand its implications.
+
+
+---
+{state: main middle dark}
+{background-image: heman/heman-skeletor.webp}
+# Are you feeling fuzzy?
 
 ---
 # What is still missing?
