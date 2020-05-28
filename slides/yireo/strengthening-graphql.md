@@ -79,13 +79,13 @@
 # Are you feeling fuzzy?
 
 ---
-# What is still missing?
-- Support for payment gateways
-- @todo
-- Performance?
-- Security?
+{state: main middle dark}
+{background-image: heman/heman-skeletor.webp}
+# What about performance and security?
 
 ---
+{state: main middle dark}
+{background-image: heman/heman-skeletor.webp}
 # Strengthening GraphQL performance
 
 ---
