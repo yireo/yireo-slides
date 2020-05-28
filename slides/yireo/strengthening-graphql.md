@@ -138,7 +138,7 @@ Potential issue when query queries across multiple endpoints
   - Limiting output data (maximum of items, blacklist fields)
 ~ Limiting total query size
   - Calculating string length and throwing exceptions if needed
-  - Tune hosting: `memory_limit`, timeouts, 
+  - Tune hosting: `memory_limit`, `max_execution_time`, `max_input_nesting_level`, etc
 ~ Whitelisting queries
   - Only allow those endpoints used by your PWA (like `cmsPage`)
   - See `apollographql/persistgraphql`
