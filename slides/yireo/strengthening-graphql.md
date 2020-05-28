@@ -25,7 +25,11 @@
 
 ---
 # Current state
-- Coverage of endpoints is nearing completion
+- Coverage is nearing completion
+
+---
+# GraphQL coverage
+
     - URL resolving, categories, products, CMS, PageBuilder
     - Customer mutations, addressbook
     - Support for Configurable Products, swatches
