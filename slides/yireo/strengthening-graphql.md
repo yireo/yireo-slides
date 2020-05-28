@@ -65,10 +65,10 @@
 ~ A PWA can be created using frontend tech of your choice
 ~ For instance, you could use React, like some Magento PWA Studio people did
 ~ Magento PWA Studio is not a PWA, it is a studio
-~ Maybe the GraphQL API is 
-
-@todo: Is it possible to build a PWA with it? Downsides?
-
+~ Maybe the GraphQL API is nearing complete covera, PWA Studio is not
+~ Who cares? React is easy as hell and you can rapidly develop features with it
+~ Can you build a PWA with the current Magento PWA Studio and GraphQL API?
+~ Yes! Assuming that you understand its implications.
 
 ---
 # What is still missing?
