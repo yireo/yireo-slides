@@ -77,6 +77,11 @@
 
 ---
 {state: main middle dark}
+{background-image: heman/skeletor2.jpg}
+# It's not Magento! It is YOU!
+
+---
+{state: main middle dark}
 {background-image: heman/greyskull1.jpg}
 # What about 
 # performance?
