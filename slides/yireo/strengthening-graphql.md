@@ -219,7 +219,7 @@ Potential issue when query queries across multiple endpoints
 Query depth is 10
 
 ---
-# Query depth
+# Query complexity
 ```graphql
 {
   products(filter: {name: {match: "jacket"}}) {
@@ -251,6 +251,8 @@ Query depth is 15
     </arguments>
 </type>
 ``` 
+
+This configured the PHP library `webonyx/graphql-php` and adds `DocumentValidator` rules.
 
 ---
 # Module `Yireo_CustomGraphQlQueryLimiter`
