@@ -109,9 +109,6 @@
 - Caching is skipped on specific endpoints
     - GraphQL annotation `@cache(cacheable: false)`
 
-@todo: What needs to be configured
-@todo: Downsides & upsides
-
 ---
 # Using Apollo Server
 @todo: caching
