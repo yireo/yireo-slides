@@ -102,8 +102,9 @@
 
 ---
 # Using Varnish
-- Varnish calculates hash per 
+- Varnish calculates hash per:
     - HTTP headers `Store` and `Content-Currency`
+    - Potentially other unique info that you add to your own VCL
 - Cache is skipped when `Bearer` token is set
     - With customer sessions and such
 - Caching is skipped on specific endpoints
