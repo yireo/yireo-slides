@@ -290,13 +290,16 @@ Now, repeat this 10 million times.
     - Enabled: Yes
     - Limit Queries: Yes
     - Limit Mutations: Yes
-    - Maximum Queries: 3
-    - Maximum Mutations: 
+    - Maximum Queries: 100
+    - Maximum Mutations: 10
     - Timeframe: 10
 
 ---
-# The Apollo way
-@todo: GraphQL limiting with Apollo Gateway?
+# Final thoughts
+~ Spend time on making sure GraphQL doesn't cause issues
+    - Module configuration, hosting environment
+~ Consider a middleware server if Varnish feels too restricting
+~ No headless shop?
 
 ---
 # No headless shop?
@@ -304,12 +307,6 @@ Now, repeat this 10 million times.
   - `bin/magento module:disable $(bin/magento module:list --enabled | grep -i graphql)`
 ~  Or even better, remove these modules
   - See https://github.com/yireo/magento2-replace-graphql
-
----
-# Final thoughts
-~ Spend time on making sure GraphQL doesn't cause issues
-    - Module configuration, hosting environment
-~ Consider a middleware server if Varnish feels too restricting
 
 ---
 {state: main middle dark}
