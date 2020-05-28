@@ -134,16 +134,48 @@ Potential issue when query queries across multiple endpoints
 ---
 # GraphQL security
 ~ Prevent exploits of GraphQL endpoints
-  - Limiting input arguments (type definition, )
+  - Limiting input arguments (type definition, validation)
   - Limiting output data (maximum of items, blacklist fields)
 ~ Limiting total query size
-  - Calculating string length
+  - Calculating string length and throwing exceptions if needed
 ~ Whitelisting queries
   - Only allow those endpoints used by your PWA
   - See `apollographql/persistgraphql`
 ~ Query depth
 ~ Query complexity
 ~ Throttling
+
+---
+```graphql
+{
+  products(filter: {price: {from: "0.01"}}) {
+    items {
+      attribute_set_id
+      canonical_url
+      video_file
+      url_suffix
+      url_rewrites {
+        parameters {
+          name
+          value
+        }
+      }
+      id
+      categories {
+        children_count
+        id
+        products {
+          items {
+            attribute_set_id
+            canonical_url
+            video_file
+            url_suffix
+            url_rewrites {
+              parameters {
+                name
+                value
+              }
+```
 
 ---
 @todo: https://github.com/yireo/Yireo_GraphQlRateLimiting
