@@ -1,7 +1,7 @@
 {state: main middle dark}
 {background-image: heman/heman-rainbow.jpg}
 # Strengthening the GraphQL API
-### with the power of Greyskull
+## with the power of Greyskull
 
 ---
 {state: speaker}
@@ -17,6 +17,8 @@
 ~ Member of ExtDN (Magento Extension Developer Network)
 
 ---
+{state: main middle dark}
+{background-image: heman/greyskull.jpg}
 # Current state of Magento GraphQL
 
 ---
