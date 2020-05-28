@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Bungee Shade';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Bungee Shade'), local('BungeeShade-Regular'), url(https://fonts.gstatic.com/s/bungeeshade/v5/DtVkJxarWL0t2KdzK3oI_jks7g.ttf) format('truetype');
+}
+html.heman section[data-state~="dark"] h1,
+html.heman section[data-state~="dark"] h2 {
+  font-family: 'Bungee Shade', cursive;
+  text-shadow: 1px 0px #000;
+}
