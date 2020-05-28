@@ -2632,3 +2632,15 @@ html.mug076 .bordered h2 {
   text-shadow: 0 0 3px #FF0000;
   color: white;
 }
+@font-face {
+  font-family: 'Bungee Inline';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Bungee Inline'), local('BungeeInline-Regular'), url(https://fonts.gstatic.com/s/bungeeinline/v5/Gg8zN58UcgnlCweMrih332VuDGI.ttf) format('truetype');
+}
+html.heman h1,
+html.heman h2,
+html.heman h3 {
+  font-family: 'Bungee Inline', cursive;
+}
