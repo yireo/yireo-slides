@@ -109,11 +109,11 @@
 - Caching is skipped on specific endpoints
     - GraphQL annotation `@cache(cacheable: false)`
 
-^^Issue
+Potential issue when query queries across multiple endpoints
 
 ---
 # Using Apollo Server
-@todo: caching
+- Support for partial query result caching
 
 ---
 # Other points
