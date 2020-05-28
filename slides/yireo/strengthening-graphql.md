@@ -54,6 +54,8 @@
     - https://github.com/magento/graphql-ce/wiki/Roadmap
     - Not updated since Sept 18, 2019
     - Repository itself is archived and merged 
+~ Fuzzy
+~ Fuzzy
 
 ---
 {state: main middle dark}
