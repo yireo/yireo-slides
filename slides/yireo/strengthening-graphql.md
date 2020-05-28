@@ -219,6 +219,17 @@ Potential issue when query queries across multiple endpoints
 Query depth is 10
 
 ---
+# Magento `QueryComplexityLimiter`
+```xml
+<type name="Magento\Framework\GraphQl\Query\QueryComplexityLimiter">
+    <arguments>
+        <argument name="queryDepth" xsi:type="number">20</argument>
+        <argument name="queryComplexity" xsi:type="number">300</argument>
+    </arguments>
+</type>
+``` 
+
+---
 # Module `Yireo_CustomGraphQlQueryLimiter`
 - Repo: https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter
 
