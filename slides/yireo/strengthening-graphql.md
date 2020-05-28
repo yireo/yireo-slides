@@ -122,12 +122,6 @@ Potential issue when query queries across multiple endpoints
     - Server Side Rendering could be handled by same Apollo Server
 
 ---
-# Other points
-@todo: https://www.apollographql.com/blog/securing-your-graphql-api-from-malicious-queries-16130a324a6b
-@todo: https://www.howtographql.com/advanced/4-security/
-@todo: Set PHP timeout and memory_limit (at least for GraphQL queries) relatively low (separate PHP-FPM)
-
----
 {state: main middle}
 # Strengthening GraphQL security
 
@@ -189,11 +183,11 @@ Potential issue when query queries across multiple endpoints
 
 ---
 # Module `Yireo_GraphQlRateLimiting`
-@todo: https://github.com/yireo/Yireo_GraphQlRateLimiting
+- Repo: https://github.com/yireo/Yireo_GraphQlRateLimiting
 
 ---
 # Module `Yireo_CustomGraphQlQueryLimiter`
-@todo: https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter
+- Repo: https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter
 
 ---
 # The Apollo way
@@ -201,16 +195,16 @@ Potential issue when query queries across multiple endpoints
 
 ---
 # No headless shop?
-- Make sure to disable all GraphQL modules
+~ Make sure to disable all GraphQL modules
   - `bin/magento module:disable $(bin/magento module:list --enabled | grep -i graphql)`
-- Or even better, remove these modules
+~  Or even better, remove these modules
   - See https://github.com/yireo/magento2-replace-graphql
 
 ---
 # Final thoughts
-- Spend time on making sure GraphQL doesn't cause issues
+~ Spend time on making sure GraphQL doesn't cause issues
     - Module configuration, hosting environment
-- Consider a middleware server if Varnish feels too restri
+~ Consider a middleware server if Varnish feels too restricting
 
 ---
 {state: main middle dark}
