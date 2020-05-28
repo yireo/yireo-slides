@@ -92,7 +92,7 @@
 ---
 # Full Page Cache for GraphQL
 ~ Magento-based FPC for GraphQL endpoints
-  - Currently non-existent
+  - Currently implemented per module
 ~ Varnish-based FPC
 ~ Middleware-based FPC
   - Apollo Server, Apollo Engine
