@@ -46,6 +46,15 @@
 # Strengthening GraphQL security
 
 ---
+@todo: https://github.com/yireo/Yireo_GraphQlRateLimiting
+
+---
+@todo: https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter
+
+---
+# The Apollo way
+
+---
 # No headless shop?
 - Make sure to disable all GraphQL modules
   - `bin/magento module:disable $(bin/magento module:list --enabled | grep -i graphql)`
