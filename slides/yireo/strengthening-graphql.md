@@ -8,10 +8,11 @@
 {background-image: generic/jisse.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
-~ Trainer of developers
+~ Trainer of backend and frontend developers
+  - Magento 2 React, PWA Studio, Vue Storefront, GraphQL
 ~ Creator of MageTestFest (2017, 2019)
 ~ Creator of Reacticon (2018 x2)
-~ Creator of Reacticon v3 (June 2021)
+~ Creator of Reacticon v3 or v4 (June 2021)
 ~ Magento Master 2017/2018/2019 Mover
 ~ Member of ExtDN (Magento Extension Developer Network)
 
@@ -26,6 +27,8 @@
 
 ---
 # What is still missing?
+- Support for payment gateways
+- @todo
 - Performance?
 - Security?
 
@@ -55,6 +58,7 @@
 
 ---
 # The Apollo way
+@todo: GraphQL limiting with Apollo Gateway?
 
 ---
 # No headless shop?
