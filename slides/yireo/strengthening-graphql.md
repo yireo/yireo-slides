@@ -75,7 +75,7 @@
 ---
 {state: main middle dark}
 {background-image: heman/heman-skeletor.webp}
-# It is all good now
+# Is that your phone?
 
 ---
 {state: main middle dark}
