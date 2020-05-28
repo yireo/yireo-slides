@@ -139,7 +139,7 @@ Potential issue when query queries across multiple endpoints
 ~ Limiting total query size
   - Calculating string length and throwing exceptions if needed
 ~ Whitelisting queries
-  - Only allow those endpoints used by your PWA
+  - Only allow those endpoints used by your PWA (like `cmsPage`)
   - See `apollographql/persistgraphql`
 ~ Query depth
 ~ Query complexity
