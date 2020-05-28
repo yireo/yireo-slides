@@ -133,8 +133,9 @@ Potential issue when query queries across multiple endpoints
 
 ---
 # GraphQL security
-~ Exploits of GraphQL endpoints
-  - Input arguments, output of data
+~ Prevent exploits of GraphQL endpoints
+  - Limiting input arguments (type definition, )
+  - Limiting output data (maximum of items, blacklist fields)
 ~ Limiting total query size
   - Calculating string length
 ~ Whitelisting queries
@@ -149,8 +150,6 @@ Potential issue when query queries across multiple endpoints
 
 ---
 @todo: https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter
-
-
 
 ---
 # The Apollo way
