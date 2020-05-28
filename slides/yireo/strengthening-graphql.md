@@ -207,6 +207,12 @@ Potential issue when query queries across multiple endpoints
   - See https://github.com/yireo/magento2-replace-graphql
 
 ---
+# Final thoughts
+- Spend time on making sure GraphQL doesn't cause issues
+    - Module configuration, hosting environment
+- Consider a middleware server if Varnish feels too restri
+
+---
 {state: main middle dark}
 {background-image: heman/power.gif}
 # We have the power
