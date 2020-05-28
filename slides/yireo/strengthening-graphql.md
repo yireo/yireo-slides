@@ -100,6 +100,7 @@
 
 ---
 # Using Varnish
+- 
 @todo: What needs to be configured
 @todo: Downsides & upsides
 
