@@ -61,7 +61,11 @@
 
 ---
 # Reflection on PWA
-- GraphQL forms the glue between a PWA and Magento-as-a-Backend (MaaB)
+~ GraphQL forms the glue between a PWA and Magento-as-a-Backend (MaaB)
+~ A PWA can be created using frontend tech of your choice
+~ For instance, you could use React, like some Magento PWA Studio people did
+~ Magento PWA Studio is not a PWA, it is a studio
+~ Maybe the GraphQL API is 
 
 @todo: Is it possible to build a PWA with it? Downsides?
 
