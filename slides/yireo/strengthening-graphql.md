@@ -182,6 +182,11 @@ Potential issue when query queries across multiple endpoints
 ~ Throttling
 
 ---
+{state: main middle dark}
+{background-image: heman/heman-struggling.gif}
+# Yeah, give it to me
+
+---
 # Query depth
 
 ---
@@ -192,10 +197,7 @@ Potential issue when query queries across multiple endpoints
 # Module `Yireo_GraphQlRateLimiting`
 - Repo: https://github.com/yireo/Yireo_GraphQlRateLimiting
 
----
-{state: main middle dark}
-{background-image: heman/heman-struggling.gif}
-# Give it to me
+
 
 ---
 # The Apollo way
