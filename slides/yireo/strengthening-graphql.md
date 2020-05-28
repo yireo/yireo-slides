@@ -26,8 +26,11 @@
 ---
 # Current state
 - Coverage of endpoints is nearing completion
+    - URL resolving, 
     - Support for Configurable Products, swatches, PageBuilder
     - Customer mutations
+    - Add-to-cart, product options
+- All that is there is stable
 - Fuzzy roadmap
 
 @todo: Is it possible to build a PWA with it? Downsides?
