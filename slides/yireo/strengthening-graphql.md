@@ -55,10 +55,18 @@
 # Other points
 @todo: https://www.apollographql.com/blog/securing-your-graphql-api-from-malicious-queries-16130a324a6b
 @todo: https://www.howtographql.com/advanced/4-security/
-@todo: Set PHP timeout and memory_limit (at least for GraphQL queries) relatively low
+@todo: Set PHP timeout and memory_limit (at least for GraphQL queries) relatively low (separate PHP-FPM)
 
 ---
 # Strengthening GraphQL security
+
+---
+# GraphQL security
+- Exploits of GraphQL endpoints
+  - Input arguments, output of data
+- Query depth
+- Query complexity
+- Throttling
 
 ---
 @todo: https://github.com/yireo/Yireo_GraphQlRateLimiting
