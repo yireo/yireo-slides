@@ -1967,11 +1967,8 @@ table.striped td {
   font-weight: 400;
 }
 ul ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-body {
-  display: none;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 @font-face {
   font-family: 'Open Sans';
