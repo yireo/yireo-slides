@@ -105,9 +105,9 @@
 - Varnish calculates hash per 
     - HTTP headers `Store` and `Content-Currency`
 - Cache is skipped when `Bearer` token is set
-    - With custom 
+    - With customer sessions and such
 - Caching is skipped on specific endpoints
-    - Using HTTP headers from Magento
+    - GraphQL annotation `@cache(cacheable: false)`
 
 @todo: What needs to be configured
 @todo: Downsides & upsides
