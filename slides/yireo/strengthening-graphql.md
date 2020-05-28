@@ -29,14 +29,15 @@
 
 ---
 # GraphQL coverage
-- Existing endpoints
-    - URL resolving, categories, products, CMS, PageBuilder
-    - Customer mutations, addressbook
-    - Support for Configurable Products, swatches
-    - Add-to-cart, product options
+- URL resolving, categories, products, CMS, PageBuilder
+- Customer mutations, addressbook
+- Support for Configurable Products, swatches
+- Add-to-cart, product options, gift cards
+
+# Still fuzzy or missing
 - Missing endpoints (?)
     - Wishlist mutations
-    - Generic approach for payment & shipment providers
+
     - VAT validation
 
 ---
