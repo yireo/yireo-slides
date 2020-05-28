@@ -32,6 +32,11 @@
     - Add-to-cart, product options
 - All that is there is stable
 - Fuzzy roadmap
+    - https://github.com/magento/graphql-ce/wiki/Roadmap
+
+---
+# Reflection on PWA
+- GraphQL forms the glue between a PWA and Magento-as-a-Backend (MaaB)
 
 @todo: Is it possible to build a PWA with it? Downsides?
 
