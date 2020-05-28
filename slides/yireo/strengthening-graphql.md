@@ -115,8 +115,11 @@ Potential issue when query queries across multiple endpoints
 
 ---
 # Using Apollo Server
-- Using `@cacheControl(maxAge: 42)` in schema
+- Intermediate Node-based proxy with caching support
+    - Using `@cacheControl(maxAge: 42)` in schema or via resolver logic
 - Support for partial query result caching
+- Additional benefits
+    - Server Side Rendering could be handled by same Apollo Server
 
 ---
 # Other points
