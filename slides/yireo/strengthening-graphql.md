@@ -34,11 +34,10 @@
 - Support for Configurable Products, swatches
 - Add-to-cart, product options, gift cards
 
+---
 # Still fuzzy or missing
-- Missing endpoints (?)
-    - Wishlist mutations
-
-    - VAT validation
+- Proper implementation of payment endpoints by extension providers
+- VAT validation, 
 
 ---
 # Current state
@@ -47,6 +46,11 @@
     - I guess
 ~ Fuzzy roadmap
     - https://github.com/magento/graphql-ce/wiki/Roadmap
+
+---
+{state: main middle dark}
+{background-image: heman/heman-skeletor.webp}
+# Current state 
 
 ---
 # Reflection on PWA
