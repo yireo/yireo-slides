@@ -1,115 +1,122 @@
 .hljs-type, .hljs-string, .hljs-number, .hljs-selector-id, .hljs-selector-class, .hljs-quote, .hljs-template-tag, .hljs-deletion {
-    color: inherit !important;
-}
-
-.reveal .backgrounds .slide-background {
-    background-position: unset;
-    background-size: cover;
-}
-
-.divider .reveal .backgrounds .slide-background {
-    background-color: #eee;
+  color: inherit !important;
 }
 
 .reveal {
-    margin: auto;
-    text-align: center;
-    padding-left: 100px;
+  margin: auto;
+  text-align: center;
+  padding-left: 100px;
+
+  .backgrounds {
+    .slide-background {
+      background-position: unset;
+      background-size: cover;
+    }
+  }
+
+  h1 {
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 130%;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 110%;
+  }
+
+     h1,
+     h2,
+     h3,
+     ul,
+     pre,
+     p {
+        text-align: left;
+        line-height: 140%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+  ul {
+      margin-left: 30px;
+
+      span.label {
+          font-weight: bold;
+      }
+
+      span.value {
+          font-size: 80%;
+      }
+  }
+
+     pre {
+        padding: 10px;
+        font-size: 90%;
+        white-space: pre-wrap;
+    }
+
+     code {
+        font-family: courier, sans-serif;
+        font-size: 90%;
+    }
+
+     div.heading {
+        text-align: center;
+        padding: 30px;
+
+          img {
+             max-width: 20%;
+         }
+    }
+
+
+}
+
+.divider .reveal .backgrounds .slide-background {
+  background-color: #eee;
 }
 
 .middle .reveal .slides {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.reveal h1 {
-    font-size: 180%;
-    font-weight: bold;
-}
 
-.reveal h2 {
-    font-size: 130%;
-    font-weight: bold;
-}
 
-.reveal h3 {
-    font-size: 110%;
-}
 
-.reveal ul {
-    margin-left: 30px;
-}
 
-.reveal ul span.label {
-    font-weight: bold;
-}
-
-.reveal ul span.value {
-    font-size: 80%;
-}
-
-.reveal h1,
-.reveal h2,
-.reveal h3,
-.reveal ul,
-.reveal pre,
-.reveal p {
-    text-align: left;
-    line-height: 140%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.reveal pre {
-    padding: 10px;
-    font-size: 90%;
-    white-space: pre-wrap;
-}
-
-.reveal code {
-    font-family: courier, sans-serif;
-    font-size: 90%;
-}
-
-.reveal div.heading {
-    text-align: center;
-    padding: 30px;
-}
-
-.reveal div.heading img {
-    max-width: 20%;
-}
 
 .main {
-    .reveal {
-        h1 {
-            font-size: 260%;
-        }
-
-        h2 {
-            font-size: 200%;
-        }
-
-        h3 {
-            font-size: 180%;
-        }
+  .reveal {
+    h1 {
+      font-size: 260%;
     }
+
+    h2 {
+      font-size: 200%;
+    }
+
+    h3 {
+      font-size: 180%;
+    }
+  }
 }
-
-
 
 
 .center .reveal h1,
 .center .reveal h2,
 .center .reveal h3,
 .center .reveal h4 {
-    text-align: center;
+  text-align: center;
 }
 
 .light .reveal .backgrounds .slide-background {
-    background-image: none;
-    background-color: white;
+  background-image: none;
+  background-color: white;
 }
 
 .light .reveal h1,
@@ -120,11 +127,11 @@
 .light .reveal p,
 .light .reveal ul,
 .light .reveal li {
-    color: black;
+  color: black;
 }
 
 .dark .reveal .backgrounds .slide-background {
-    background-image: linear-gradient(black, #454545);
+  background-image: linear-gradient(black, #454545);
 }
 
 .dark .reveal h1,
@@ -136,52 +143,52 @@
 .dark .reveal ul,
 .dark .reveal li,
 .dark .footer {
-    color: white;
+  color: white;
 }
 
 .dark .reveal code {
-    background-color: #3b3b3b;
+  background-color: #3b3b3b;
 }
 
 .speaker .reveal section {
-    top: 20%;
+  top: 20%;
 }
 
 .divider-center .reveal section {
-    top: 30%;
+  top: 30%;
 }
 
 .divider .reveal h1,
 .divider .reveal h2,
 .divider .reveal h3,
 .divider .reveal h4 {
-    color: white;
+  color: white;
 }
 
 .divider-bold .reveal section h1 {
-    font-weight: 900;
-    font-size: 200%;
+  font-weight: 900;
+  font-size: 200%;
 }
 
 .divider .reveal h1,
 .divider .reveal h2 {
-    text-align: center;
-    text-shadow: 1px 1px 10px #111;
+  text-align: center;
+  text-shadow: 1px 1px 10px #111;
 }
 
 .divider .reveal h3,
 .divider .reveal h4 {
-    text-align: center;
+  text-align: center;
 }
 
 table {
-    width: 100%;
+  width: 100%;
 }
 
 table td {
-    padding: 10px 60px 60px 0px !important
+  padding: 10px 60px 60px 0px !important
 }
 
 table td img {
-    width: 100%;
+  width: 100%;
 }

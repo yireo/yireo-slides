@@ -1769,22 +1769,14 @@ body {
 .hljs-deletion {
   color: inherit !important;
 }
-.reveal .backgrounds .slide-background {
-  background-position: unset;
-  background-size: cover;
-}
-.divider .reveal .backgrounds .slide-background {
-  background-color: #eee;
-}
 .reveal {
   margin: auto;
   text-align: center;
   padding-left: 100px;
 }
-.middle .reveal .slides {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.reveal .backgrounds .slide-background {
+  background-position: unset;
+  background-size: cover;
 }
 .reveal h1 {
   font-size: 180%;
@@ -1797,15 +1789,6 @@ body {
 .reveal h3 {
   font-size: 110%;
 }
-.reveal ul {
-  margin-left: 30px;
-}
-.reveal ul span.label {
-  font-weight: bold;
-}
-.reveal ul span.value {
-  font-size: 80%;
-}
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -1816,6 +1799,15 @@ body {
   line-height: 140%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.reveal ul {
+  margin-left: 30px;
+}
+.reveal ul span.label {
+  font-weight: bold;
+}
+.reveal ul span.value {
+  font-size: 80%;
 }
 .reveal pre {
   padding: 10px;
@@ -1832,6 +1824,14 @@ body {
 }
 .reveal div.heading img {
   max-width: 20%;
+}
+.divider .reveal .backgrounds .slide-background {
+  background-color: #eee;
+}
+.middle .reveal .slides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main .reveal h1 {
   font-size: 260%;
