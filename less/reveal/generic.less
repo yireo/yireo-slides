@@ -15,12 +15,12 @@
   }
 
   h1 {
-    font-size: 180%;
+    font-size: 220%;
     font-weight: bold;
   }
 
   h2 {
-    font-size: 130%;
+    font-size: 180%;
     font-weight: bold;
   }
 
@@ -28,51 +28,44 @@
     font-size: 110%;
   }
 
-     h1,
-     h2,
-     h3,
-     ul,
-     pre,
-     p {
-        text-align: left;
-        line-height: 140%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-  ul {
-      margin-left: 30px;
-
-      span.label {
-          font-weight: bold;
-      }
-
-      span.value {
-          font-size: 80%;
-      }
+  h1, h2, h3, ul, pre, p {
+    text-align: left;
+    line-height: 140%;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
-     pre {
-        padding: 10px;
-        font-size: 90%;
-        white-space: pre-wrap;
+  ul {
+    margin-left: 30px;
+
+    span.label {
+      font-weight: bold;
     }
 
-     code {
-        font-family: courier, sans-serif;
-        font-size: 90%;
+    span.value {
+      font-size: 80%;
     }
+  }
 
-     div.heading {
-        text-align: center;
-        padding: 30px;
+  pre {
+    padding: 10px;
+    font-size: 90%;
+    white-space: pre-wrap;
+  }
 
-          img {
-             max-width: 20%;
-         }
+  code {
+    font-family: courier, sans-serif;
+    font-size: 90%;
+  }
+
+  div.heading {
+    text-align: center;
+    padding: 30px;
+
+    img {
+      max-width: 20%;
     }
-
-
+  }
 }
 
 .divider .reveal .backgrounds .slide-background {
@@ -84,11 +77,6 @@
   align-items: center;
   justify-content: center;
 }
-
-
-
-
-
 
 .main {
   .reveal {
@@ -106,49 +94,47 @@
   }
 }
 
-
-.center .reveal h1,
-.center .reveal h2,
-.center .reveal h3,
-.center .reveal h4 {
-  text-align: center;
+.center {
+  .reveal {
+    h1, h2, h3, h4 {
+      text-align: center;
+    }
+  }
 }
 
-.light .reveal .backgrounds .slide-background {
-  background-image: none;
-  background-color: white;
+.light {
+  .reveal {
+    .backgrounds .slide-background {
+      background-image: none;
+      background-color: white;
+    }
+
+    h1, h2, h3, h4, div, p, ul, li {
+      color: black;
+    }
+  }
 }
 
-.light .reveal h1,
-.light .reveal h2,
-.light .reveal h3,
-.light .reveal h4,
-.light .reveal div,
-.light .reveal p,
-.light .reveal ul,
-.light .reveal li {
-  color: black;
+.dark {
+  .reveal {
+    .backgrounds .slide-background {
+      background-image: linear-gradient(black, #454545);
+    }
+
+    h1, h2, h3, h4, div, p, ul, li {
+      color: white;
+    }
+
+    code {
+      background-color: #3b3b3b;
+    }
+  }
+
+  .footer {
+    color: white;
+  }
 }
 
-.dark .reveal .backgrounds .slide-background {
-  background-image: linear-gradient(black, #454545);
-}
-
-.dark .reveal h1,
-.dark .reveal h2,
-.dark .reveal h3,
-.dark .reveal h4,
-.dark .reveal div,
-.dark .reveal p,
-.dark .reveal ul,
-.dark .reveal li,
-.dark .footer {
-  color: white;
-}
-
-.dark .reveal code {
-  background-color: #3b3b3b;
-}
 
 .speaker .reveal section {
   top: 20%;

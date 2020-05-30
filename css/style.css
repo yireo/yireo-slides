@@ -1779,11 +1779,11 @@ body {
   background-size: cover;
 }
 .reveal h1 {
-  font-size: 180%;
+  font-size: 220%;
   font-weight: bold;
 }
 .reveal h2 {
-  font-size: 130%;
+  font-size: 180%;
   font-weight: bold;
 }
 .reveal h3 {
@@ -1872,12 +1872,14 @@ body {
 .dark .reveal div,
 .dark .reveal p,
 .dark .reveal ul,
-.dark .reveal li,
-.dark .footer {
+.dark .reveal li {
   color: white;
 }
 .dark .reveal code {
   background-color: #3b3b3b;
+}
+.dark .footer {
+  color: white;
 }
 .speaker .reveal section {
   top: 20%;
