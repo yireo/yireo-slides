@@ -12,21 +12,22 @@
   margin: auto;
   text-align: center;
   padding-left: 100px;
+  font-size: 140%;
 }
 .reveal .backgrounds .slide-background {
   background-position: unset;
   background-size: cover;
 }
 .reveal h1 {
-  font-size: 220%;
+  font-size: 150%;
   font-weight: bold;
 }
 .reveal h2 {
-  font-size: 180%;
+  font-size: 140%;
   font-weight: bold;
 }
 .reveal h3 {
-  font-size: 150%;
+  font-size: 130%;
 }
 .reveal h1,
 .reveal h2,
@@ -73,13 +74,13 @@
   justify-content: center;
 }
 .main .reveal h1 {
-  font-size: 260%;
-}
-.main .reveal h2 {
   font-size: 200%;
 }
-.main .reveal h3 {
+.main .reveal h2 {
   font-size: 180%;
+}
+.main .reveal h3 {
+  font-size: 160%;
 }
 .center .reveal h1,
 .center .reveal h2,
