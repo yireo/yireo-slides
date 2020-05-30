@@ -1835,13 +1835,13 @@ body {
   justify-content: center;
 }
 .main .reveal h1 {
-  font-size: 200%;
-}
-.main .reveal h2 {
   font-size: 180%;
 }
-.main .reveal h3 {
+.main .reveal h2 {
   font-size: 160%;
+}
+.main .reveal h3 {
+  font-size: 140%;
 }
 .center .reveal h1,
 .center .reveal h2,
