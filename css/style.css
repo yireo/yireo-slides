@@ -1787,7 +1787,7 @@ body {
   justify-content: center;
 }
 .reveal h1 {
-  font-size: 160%;
+  font-size: 180%;
   font-weight: bold;
 }
 .reveal h2 {
@@ -1834,7 +1834,7 @@ body {
   max-width: 20%;
 }
 .main .reveal h1 {
-  font-size: 240%;
+  font-size: 260%;
 }
 .center .reveal h1,
 .center .reveal h2,
