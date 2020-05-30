@@ -2640,7 +2640,7 @@ html.mug076 .bordered h2 {
   src: local('Bungee Shade'), local('BungeeShade-Regular'), url(https://fonts.gstatic.com/s/bungeeshade/v5/DtVkJxarWL0t2KdzK3oI_jks7g.ttf) format('truetype');
 }
 html.heman .main .reveal h1 {
-  font-size: 300%;
+  font-size: 300% !important;
 }
 html.heman section[data-state~="dark"] h1,
 html.heman section[data-state~="dark"] h2 {
