@@ -123,15 +123,13 @@ In headless philosophy, this produces one thing: GraphQL output
 # No, I don't think so
 
 ---
-
 {state: middle}
-### To a merchant-friendly toolbox where themes can be sold easily and where the merchant is control of the frontend development part?
-# No, I don't think so
-
+### To a developer-oriented enterprise stack where the budget allows for a custom-made frontend with only those features that are actually needed?
+# Yes, I think so
 
 ---
 {state: main middle dark}
-{background-image: heman/heman-shera.jpg}
+{background-image: kiel/zebra.jpg}
 # Don't forget about Reacticon v3 Online
 ### October 13th-15th (free attendance)
 
