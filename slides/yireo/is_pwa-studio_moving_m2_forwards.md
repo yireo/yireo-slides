@@ -39,7 +39,18 @@
 ~ Best practices still need to arise
 ~ Many people are doubting its success
 ~ Many people are doubting its use
-~ Many people are doubting whether there
+~ Many people are doubting whether there is any benefit from moving over to PWA at all
+
+---
+# Benefits of PWA
+~ Easier ways to accomplish higher scores on Lighthouse
+	- Bundling JSS and CSS
+	- Critical CSS
+~ Better adoptation of new browser features
+	- Offline and network information
+	- Push notifications
+	- Battery API
+
 
 ---
 {state: main middle dark}
