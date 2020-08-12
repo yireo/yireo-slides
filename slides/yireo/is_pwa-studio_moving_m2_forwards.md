@@ -69,6 +69,9 @@
 ~ Headless means that you can build what you want
 	- Different mindset in agency, different roles
 	- Magento gets a smaller role in the total stack
+~ You do NOT need the help of the Magento company to build a SPA yourself
+	- They can provide help and guidance, they can provide tools
+	- But they are not solely responsible for the frontend we build
 
 ---
 # Backend stack
