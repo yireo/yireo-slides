@@ -135,6 +135,6 @@ In headless philosophy, this produces one thing: GraphQL output
 
 ---
 {state: main middle dark}
-{background-image: heman/heman-shera.jpg}
+{background-image: kiel/jisse2.jpg}
 # Thanks
 ## Contact me via @jissereitsma or @yireo
