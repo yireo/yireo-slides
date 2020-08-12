@@ -108,6 +108,28 @@ In headless philosophy, this produces one thing: GraphQL output
 - Spend 80% of the time on the customization, not the troubleshooting
 
 ---
+{state: middle}
+# Is PWA Studio moving Magento 2 forward ...
+### to where?
+
+---
+{state: middle}
+### To an all-purpose click-together SPA where 10.000 extensions are installable within seconds?
+# No, I don't think so
+
+---
+{state: middle}
+### To a merchant-friendly toolbox where themes can be sold easily and where the merchant is control of the frontend development part?
+# No, I don't think so
+
+---
+
+{state: middle}
+### To a merchant-friendly toolbox where themes can be sold easily and where the merchant is control of the frontend development part?
+# No, I don't think so
+
+
+---
 {state: main middle dark}
 {background-image: heman/heman-shera.jpg}
 # Don't forget about Reacticon v3 Online
