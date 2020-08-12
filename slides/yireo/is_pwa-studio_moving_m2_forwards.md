@@ -24,9 +24,17 @@
 # Is PWA Studio moving Magento 2 forward?
 
 ---
+# PWA
+- Progressive Web Apps
+- Tools
+	- Serviceworker
+	- Manifest file
+	- Skeleton HTML to load JavaScript as quickly as possible (app shell)
+
+---
 # PWA Studio
 ~ Headless toolbox created by Magento
-~ Using React, Redux, Apollo Client, GraphQL
+~ SPA using React, Redux, Apollo Client, GraphQL
 ~ Consisting of Venia, Peregrine, UPWARD and Buildpack
 ~ PWA Studio 7 is out with extensibility
 ~ It is ready to build projects with
@@ -46,11 +54,18 @@
 ~ Easier ways to accomplish higher scores on Lighthouse
 	- Bundling JSS and CSS
 	- Critical CSS
+	- Prefetching resources dynamically
+	- Optimizing DOM structure
 ~ Better adoptation of new browser features
 	- Offline and network information
 	- Push notifications
 	- Battery API
 
+
+---
+# Misconceptions
+- SPA is not PWA
+- The revolution is not PWA, but headless
 
 ---
 {state: main middle dark}
