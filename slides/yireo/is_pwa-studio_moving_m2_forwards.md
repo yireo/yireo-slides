@@ -94,5 +94,11 @@ In headless philosophy, this produces one thing: GraphQL output
 ---
 {state: main middle dark}
 {background-image: heman/heman-shera.jpg}
+# Don't forget about Reacticon v3 Online
+### October 13th-15th (free attendance)
+
+---
+{state: main middle dark}
+{background-image: heman/heman-shera.jpg}
 # Thanks
 ## Contact me via @jissereitsma or @yireo
