@@ -60,7 +60,7 @@
 	- Offline and network information
 	- Push notifications
 	- Battery API
-
+	- ...
 
 ---
 # Misconceptions
@@ -76,13 +76,17 @@
 - PHP-FPM & Nginx
 - Redis
 - ElasticSearch
+- Rabbit MQ
 
 In headless philosophy, this produces one thing: GraphQL output
 
 ---
 # Frontend stack
-- Vue or React (with their own development environment)
-- Proxying GraphQL requests (UPWARD, Varnish, custom proxy)
+- Vue or React
+	- Each with their own development environment
+- GraphQL backend
+	- Proxying GraphQL requests (UPWARD, Varnish, custom proxy)?
+- SSR (Rendertron) service
 
 ---
 {state: main middle dark}
