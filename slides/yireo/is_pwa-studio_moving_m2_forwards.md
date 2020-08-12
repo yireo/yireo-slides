@@ -129,7 +129,7 @@ In headless philosophy, this produces one thing: GraphQL output
 
 ---
 {state: main middle dark}
-{background-image: kiel/zebra.jpg}
+{background-image: kiel/zebra.webp}
 # Don't forget about Reacticon v3 Online
 ### October 13th-15th (free attendance)
 
