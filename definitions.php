@@ -5,6 +5,12 @@ $slideGroups = [
         'style' => 'meetmagento',
         'slides' => [
             [
+                'file' => 'yireo/is_pwa-studio_moving_m2_forwards',
+                'title' => 'Is (Magento Stammtisch Kiel - August 2020)',
+                'style' => 'kiel',
+                'renderer' => 'reveal'
+            ],
+            [
                 'file' => 'yireo/strengthening-graphql',
                 'title' => 'Strenthening the GraphQL API (Magento Association Connect - May 2020)',
                 'style' => 'heman',
