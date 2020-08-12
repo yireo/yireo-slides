@@ -28,10 +28,15 @@
 ~ Headless toolbox created by Magento
 ~ Using React, Redux, Apollo Client, GraphQL
 ~ Consisting of Venia, Peregrine, UPWARD and Buildpack
+~ PWA Studio 7 is out with extensibility
+~ It is ready to build projects with
+~ Or is it?
 
 ---
-# Current state of PWA Studio
-~ PWA Studio 7 is out with extensibility
+# Current state of PWA Studio in community
+~ Not that many projects have been built on top of PWA Studio
+~ Some projects that have been built on top of PWA Studio are only using little code of Venia
+~ Best practices still need to arise
 ~ Many people are doubting its success
 ~ Many people are doubting its use
 ~ Many people are doubting whether there
