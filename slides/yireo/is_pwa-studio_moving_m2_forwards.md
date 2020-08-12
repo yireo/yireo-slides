@@ -24,8 +24,14 @@
 # Is PWA Studio moving Magento 2 forward?
 
 ---
-# Current state
-~ PWA Studio 7 is out
+# PWA Studio
+~ PWA is great and wonderful
+~
+
+---
+# Current state of PWA Studio
+~ PWA Studio 7 is out with extensibility
+~ Many people are doubting
 
 ---
 # GraphQL coverage
