@@ -6,7 +6,7 @@ $slideGroups = [
         'slides' => [
             [
                 'file' => 'yireo/is_pwa-studio_moving_m2_forwards',
-                'title' => 'Is (Magento Stammtisch Kiel - August 2020)',
+                'title' => 'Is PWA Studio moving Magento 2 forwards? (Magento Stammtisch Kiel - August 2020)',
                 'style' => 'kiel',
                 'renderer' => 'reveal'
             ],
