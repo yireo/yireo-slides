@@ -1,4 +1,4 @@
-{state: main middle}
+{state: main middle dark}
 {background-image: kiel/crossroads.jpg}
 # Is PWA Studio moving Magento 2 forward?
 ## Or not?
