@@ -92,6 +92,22 @@ In headless philosophy, this produces one thing: GraphQL output
 - SSR (Rendertron) service
 
 ---
+# How you built a project with Luma?
+- Get a default theme
+	- Luma, Blank, Snowdog, ThemeForrest
+- Apply the graphical design
+	- Hack the CSS where possible
+- Spend 80% of the time on troubleshooting JavaScript issues
+
+---
+# How you build a project with React?
+- Get a styletyle + UI library up & running
+	- Custom CSS code, Storybook collection
+- Build your own React components
+	- Integrate them using hooks into PWA Studio logic
+- Spend 80% of the time on the customization, not the troubleshooting
+
+---
 {state: main middle dark}
 {background-image: heman/heman-shera.jpg}
 # Don't forget about Reacticon v3 Online
