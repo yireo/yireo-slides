@@ -1,5 +1,5 @@
-{state: main middle dark}
-{background-image: heman/heman-rainbow.jpg}
+{state: main middle}
+{background-image: kiel/crossroads.jpg}
 # Is PWA Studio moving Magento 2 forward?
 ## Or not?
 ### Coined by Jisse Reitsma
@@ -21,7 +21,7 @@
 ---
 {state: main middle dark}
 {background-image: heman/greyskull.jpg}
-# Current state 
+# Current state
 # of Magento GraphQL
 
 ---
@@ -54,7 +54,7 @@
 ~ Fuzzy roadmap
     - https://github.com/magento/graphql-ce/wiki/Roadmap
     - Not updated since Sept 18, 2019
-    - Repository itself is archived and merged 
+    - Repository itself is archived and merged
 ~ Fuzzy
 ~ Fuzzy
 
@@ -79,13 +79,13 @@
 ---
 {state: main middle dark}
 {background-image: heman/skeletor2.jpg}
-# It's not me! 
+# It's not me!
 # It is YOU!
 
 ---
 {state: main middle dark}
 {background-image: heman/greyskull1.jpg}
-# What about 
+# What about
 # performance?
 
 ---
@@ -251,7 +251,7 @@ Query depth is 15
         <argument name="queryComplexity" xsi:type="number">300</argument>
     </arguments>
 </type>
-``` 
+```
 
 This configured the PHP library `webonyx/graphql-php` and adds `DocumentValidator` rules.
 
@@ -271,7 +271,7 @@ This configured the PHP library `webonyx/graphql-php` and adds `DocumentValidato
     }
   ]
 }
-``` 
+```
 
 ---
 # Simple mutation
