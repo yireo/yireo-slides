@@ -20,13 +20,12 @@
 
 ---
 {state: main middle dark}
-{background-image: heman/greyskull.jpg}
-# Current state
-# of Magento GraphQL
+{background-image: kiel/doubts.webp}
+# Is PWA Studio moving Magento 2 forward?
 
 ---
 # Current state
-~ Coverage is nearing completion
+~ PWA Studio 7 is out
 
 ---
 # GraphQL coverage
