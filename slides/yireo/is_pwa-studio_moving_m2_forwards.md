@@ -64,8 +64,25 @@
 
 ---
 # Misconceptions
-- SPA is not PWA
-- The revolution is not PWA, but headless
+~ SPA is not PWA
+~ The revolution is not PWA, but headless
+~ Headless means that you can build what you want
+	- Different mindset in agency, different roles
+	- Magento gets a smaller role in the total stack
+
+---
+# Backend stack
+- Magento
+- PHP-FPM & Nginx
+- Redis
+- ElasticSearch
+
+In headless philosophy, this produces one thing: GraphQL output
+
+---
+# Frontend stack
+- Vue or React (with their own development environment)
+- Proxying GraphQL requests (UPWARD, Varnish, custom proxy)
 
 ---
 {state: main middle dark}
