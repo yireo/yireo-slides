@@ -38,16 +38,28 @@
 # Removing modules
 
 ---
-# Removing specific modules
+# Disable specific modules
 ```bash
 bin/magento Foo_Bar
 ```
 
 ---
-# Removing specific modules
+# Disable unneeded modules
 ```bash
-bin/magento Magento_AdvancedPricingImportExport Magento_AdminNotification Magento_Authorizenet Magento_Braintree Magento_Bundle Magento_BundleImportExport Magento_CacheInvalidate Magento_Captcha Magento_CatalogRuleConfigurable Magento_CatalogWidget Magento_CheckoutAgreements Magento_ConfigurableImportExport Magento_ConfigurableProduct Magento_Cookie Magento_CurrencySymbol Magento_CustomerImportExport Magento_Deploy Magento_Dhl Magento_DownloadableImportExport Magento_EncryptionKey Magento_Fedex Magento_GoogleAdwords Magento_GoogleAnalytics Magento_GoogleOptimizer Magento_GroupedImportExport Magento_LayeredNavigation Magento_Marketplace Magento_Multishipping 
+bin/magento bin/magento Magento_AdvancedPricingImportExport Magento_AdminNotification Magento_Authorizenet Magento_Braintree Magento_Bundle Magento_BundleImportExport Magento_CacheInvalidate Magento_Captcha Magento_CatalogRuleConfigurable Magento_CatalogWidget Magento_CheckoutAgreements Magento_ConfigurableImportExport Magento_ConfigurableProduct Magento_Cookie Magento_CurrencySymbol Magento_CustomerImportExport Magento_Deploy Magento_Dhl Magento_DownloadableImportExport Magento_EncryptionKey Magento_Fedex Magento_GoogleAdwords Magento_GoogleAnalytics Magento_GoogleOptimizer Magento_GroupedImportExport Magento_LayeredNavigation Magento_Marketplace Magento_Multishipping 
 Magento_NewRelicReporting Magento_OfflinePayments Magento_OfflineShipping Magento_Paypal Magento_Persistent Magento_ProductVideo Magento_SalesInventory Magento_SendFriend Magento_Sitemap Magento_Swagger Magento_Swatches Magento_SwatchesLayeredNavigation Magento_TaxImportExport Magento_Ups Magento_Usps Magento_Vault Magento_Version Magento_Webapi Magento_WebapiSecurity Magento_Weee
 ```
 
-^^Reference https://www.integer-net.com/why-and-how-to-disable-magento-2-core-modules-improve-performance/
+Reference https://www.integer-net.com/why-and-how-to-disable-magento-2-core-modules-improve-performance/
+
+---
+# Disable GraphQl modules
+```bash
+bin/magento module:disable `bin/magento module:status | grep -i graphql`
+```
+
+---
+# Better way
+
+---
+# What don't you need
