@@ -241,6 +241,6 @@ var config = {
 
 ---
 {state: main middle dark}
-{background-image: heman/greyskull2.jpg}
+{background-image: mageid/clogs.jpg}
 # Thanks
 ## @jissereitsma / @yireo
