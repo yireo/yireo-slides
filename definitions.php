@@ -5,6 +5,12 @@ $slideGroups = [
         'style' => 'meetmagento',
         'slides' => [
             [
+                'file' => 'yireo/downsizing-magento2',
+                'title' => 'Downsizing Magento 2 (Meet Magento Indonesia - September 2020)',
+                'style' => 'mageid',
+                'renderer' => 'reveal'
+            ],
+            [
                 'file' => 'yireo/is_pwa-studio_moving_m2_forwards',
                 'title' => 'Is PWA Studio moving Magento 2 forwards? (Magento Stammtisch Kiel - August 2020)',
                 'style' => 'kiel',
