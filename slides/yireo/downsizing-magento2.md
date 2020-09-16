@@ -1,5 +1,5 @@
 {state: main middle dark}
-{background-image: heman/heman-rainbow.jpg}
+{background-image: heman/heman-rainbow2.jpg}
 # Downsizing Magento 2
 ## because less is more
 ### Presented to you by Jisse Reitsma
@@ -21,7 +21,7 @@
 
 ---
 {state: main middle dark}
-{background-image: heman/greyskull.jpg}
+{background-image: heman/greyskull2.jpg}
 # Magento of today
 # in technical numbers
 
@@ -52,7 +52,7 @@ Numbers of Magento 2.4.0
 
 ---
 {state: main middle dark}
-{background-image: heman/greyskull.jpg}
+{background-image: heman/greyskull2.jpg}
 # Removing modules
 
 ---
