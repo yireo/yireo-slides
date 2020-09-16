@@ -40,26 +40,5 @@
 ---
 # Removing specific modules
 ```bash
-bin/magento Magento_AdvancedPricingImportExport Magento_AdminNotification Magento_Authorizenet Magento_Braintree Magento_Bundle Magento_BundleImportExport Magento_CacheInvalidate
-            Magento_Captcha
-            Magento_CatalogRuleConfigurable
-            Magento_CatalogWidget
-            Magento_CheckoutAgreements
-            Magento_ConfigurableImportExport
-            Magento_ConfigurableProduct
-            Magento_Cookie
-            Magento_CurrencySymbol
-            Magento_CustomerImportExport
-            Magento_Deploy
-            Magento_Dhl
-            Magento_DownloadableImportExport
-            Magento_EncryptionKey
-            Magento_Fedex
-            Magento_GoogleAdwords
-            Magento_GoogleAnalytics
-            Magento_GoogleOptimizer
-            Magento_GroupedImportExport
-            Magento_LayeredNavigation
-            Magento_Marketplace
-            Magento_Multishipping
+bin/magento Magento_AdvancedPricingImportExport Magento_AdminNotification Magento_Authorizenet Magento_Braintree Magento_Bundle Magento_BundleImportExport Magento_CacheInvalidate Magento_Captcha Magento_CatalogRuleConfigurable Magento_CatalogWidget Magento_CheckoutAgreements Magento_ConfigurableImportExport Magento_ConfigurableProduct Magento_Cookie Magento_CurrencySymbol Magento_CustomerImportExport Magento_Deploy Magento_Dhl Magento_DownloadableImportExport Magento_EncryptionKey Magento_Fedex Magento_GoogleAdwords Magento_GoogleAnalytics Magento_GoogleOptimizer Magento_GroupedImportExport Magento_LayeredNavigation Magento_Marketplace Magento_Multishipping
 ```
