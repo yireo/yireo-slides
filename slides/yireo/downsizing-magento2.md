@@ -229,7 +229,7 @@ var config = {
 
 ---
 {state: main middle dark}
-{background-image: heman/greyskull2.jpg}
+{background-image: mageid/orangutan.jpg}
 # The Magento frontend sucks
 ## But you can make it suck less
 
