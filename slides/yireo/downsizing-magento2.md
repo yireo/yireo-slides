@@ -28,7 +28,7 @@
 ---
 # Magento core of today
 ~ 519 composer packages
-~ 347 modules
+~ 346 modules
 ~ Numerous features that you might not need
 
 Numbers of Magento 2.4.0
