@@ -1,8 +1,8 @@
 {state: main middle dark}
 {background-image: heman/heman-rainbow.jpg}
-# Strengthening the GraphQL API
-## with the power of Greyskull
-### Narrated by Jisse Reitsma
+# Downsizing Magento 2
+## because less is more
+### Presented to you by Jisse Reitsma
 
 ---
 {state: speaker}
@@ -13,7 +13,8 @@
   - Magento, React, PWA Studio, Vue Storefront, GraphQL
 ~ Creator of MageTestFest (2017, 2019)
 ~ Creator of Reacticon (2018 x2)
-~ Creator of Reacticon v3 or v4 (June 2021)
+~ Creator of Reacticon v4 (October 2021)
+~ Creator of Reacticon v3 (June 2021)
 ~ Magento Master 2017/2018/2019 Mover
 ~ Member of ExtDN (Magento Extension Developer Network)
 ~ And I love pizza with pineapple. Proper pizza!
