@@ -73,4 +73,26 @@ File `composer.json`:
 ```
 
 ---
+# Common things to replace
+File `composer.json`:
+```json
+"replace": {
+        "amzn/amazon-pay-and-login-magento-2-module": "*",
+        "amzn/amazon-pay-and-login-with-amazon-core-module": "*",
+        "amzn/amazon-pay-module": "*",
+        "amzn/amazon-pay-sdk-php": "*",
+        "amzn/login-with-amazon-module": "*",
+        "astock/stock-api-libphp": "*",
+        "braintree/braintree": "*",
+        "braintree/braintree_php": "*",
+        "dotmailer/dotmailer-magento2-extension": "*",
+        "dotmailer/dotmailer-magento2-extension-chat": "*",
+        "dotmailer/dotmailer-magento2-extension-enterprise": "*",
+        "dotmailer/dotmailer-magento2-extension-package": "*",
+        ...
+```
+
+---
 # What don't you need
+- GraphQL if you don't have a PWA shop
+
