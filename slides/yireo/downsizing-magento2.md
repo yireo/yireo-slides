@@ -111,18 +111,24 @@ File `composer.json`:
 
 ---
 # What don't you need
-- Core bundled extensions if you don't use them
+- Core extensions if you don't use them
+- Bundled extensions if you don't use them
 - GraphQL if you don't have a PWA shop
 - MSI if you want to use the legacy
+- ...
 
 ---
 # Yireo composer packages
-yireo/magento2-replace-bundled
-yireo/magento2-replace-content-staging
-yireo/magento2-replace-core
-yireo/magento2-replace-graphql
-yireo/magento2-replace-inventory
-yireo/magento2-replace-sample-data
-yireo/magento2-replace-all
+```bash
+composer require yireo/magento2-replace-bundled
+composer require yireo/magento2-replace-content-staging
+composer require yireo/magento2-replace-core
+composer require yireo/magento2-replace-graphql
+composer require yireo/magento2-replace-inventory
+composer require yireo/magento2-replace-sample-data
+composer require yireo/magento2-replace-all
+```
+
+Don't just use all of this, especially `yireo/magento2-replace-all`
 
 See https://github.com/yireo/magento2-replace-tools
