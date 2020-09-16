@@ -1,5 +1,5 @@
 {state: main middle dark}
-{background-image: heman/heman-rainbow2.jpg}
+{background-image: mageid/fingers.jpg}
 # Downsizing Magento 2
 ## because less is more
 ### Presented to you by Jisse Reitsma
