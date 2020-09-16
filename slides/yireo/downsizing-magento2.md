@@ -216,7 +216,7 @@ var config = {
     - 10-60% reduction in size
 
 ---
-# Reacticon
+# Reacticon v3.1
 ~ Purely focused on frontend development
     - Especially headless & PWA
 ~ October 13th-15th
@@ -243,3 +243,4 @@ var config = {
 {state: main middle dark}
 {background-image: heman/greyskull2.jpg}
 # Thanks
+## @jissereitsma / @yireo
