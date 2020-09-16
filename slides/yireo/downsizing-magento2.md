@@ -187,7 +187,23 @@ XML layout:
 ```
 
 ---
+# Replacing unneeded JavaScript
+```js
+var config = {
+    paths: {
+        'mage/calendar': 'js/zero',
+        'Magento_Ui/js/grid/filters/range': 'js/zero',
+        'mage/polyfill': 'js/zero',
+        'mage/translate-inline': 'js/zero',
+        'Magento_Captcha/js/model/captcha': 'js/zero',
+    },
+    skipDataMain: true
+};
+```
+
+---
 # Todo
+- Upgrades of jQuery, Knockout, RequireJS
 - Replace CSS/JS default menu with simple CSS-only menu
 - Replace JS-driven breadcrumbs with plain HTML-only
 
