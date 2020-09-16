@@ -26,7 +26,7 @@
 # of Magento GraphQL
 
 ---
-# Current state
+# Magento of today
 ~ Coverage is nearing completion
 
 ---
