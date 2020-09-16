@@ -187,6 +187,11 @@ XML layout:
 ```
 
 ---
+# Todo
+- Replace CSS/JS default menu with simple CSS-only menu
+- Replace JS-driven breadcrumbs with plain HTML-only
+
+---
 # Downsizing images
 ~ Yireo_Webp2
     - Converting JPG & PNG into WebP
