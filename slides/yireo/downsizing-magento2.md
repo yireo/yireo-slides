@@ -153,7 +153,34 @@ Regular HTML source:
 ```
 
 XML layout:
+```xml
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks" />
+    <head>
+        <remove src='mage/calendar.css'/>
+    </head>
+</page>
+```
 
+---
+# Removing more
+```xml
+XML layout:
+```xml
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks" />
+    <head>
+        <remove src='mage/calendar.css'/>
+        <remove src='mage/gallery/gallery.css'/>
+    </head>
+
+    <body>
+        <referenceBlock name="yotpo_widget_script" remove="true" />
+    </body>
+</page>
+```
 
 ---
 # Downsizing images
