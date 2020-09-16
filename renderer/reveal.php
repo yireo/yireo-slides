@@ -43,6 +43,7 @@ $googleFonts[] = 'Handlee';
     <?php endif; ?>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/highlight-js.min.css">
+    <script src="<?php echo $rootUrl; ?>js/highlight.min.js"></script>
     <!--
         <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/monokai.css"/>
 
