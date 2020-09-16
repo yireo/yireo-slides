@@ -22,17 +22,19 @@
 ---
 {state: main middle dark}
 {background-image: heman/greyskull.jpg}
-# Current state 
-# of Magento GraphQL
+# Magento of today
+# in technical numbers
 
 ---
 # Magento of today
-~ Coverage is nearing completion
+~ XYZ modules in the core
+~ XYZ lines of code
+~ Numerous features that you might not need
 
 ---
-# GraphQL coverage
-- URL resolving, categories, products, CMS, PageBuilder
-- Customer mutations, addressbook
-- Support for Configurable Products, swatches
-- Add-to-cart, product options, gift cards
-- Inventory
+{state: main middle dark}
+{background-image: heman/greyskull.jpg}
+# Removing modules
+
+---
+# Removing specific modules
