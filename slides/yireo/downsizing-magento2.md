@@ -94,5 +94,8 @@ File `composer.json`:
 
 ---
 # What don't you need
+- Core bundled extensions if you don't use them
 - GraphQL if you don't have a PWA shop
 
+---
+# Bundled extensions
