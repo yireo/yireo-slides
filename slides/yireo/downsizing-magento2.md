@@ -232,4 +232,5 @@ var config = {
 ---
 {state: main middle dark}
 {background-image: heman/greyskull2.jpg}
-# Removing other stuff
+# Don't just use what Magento offers you
+## Customize so it fits your needs
