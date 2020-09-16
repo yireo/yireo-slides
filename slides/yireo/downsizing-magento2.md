@@ -153,3 +153,12 @@ Regular HTML source:
 ```
 
 XML layout:
+
+
+---
+# Downsizing images
+~ Yireo_Webp2
+    - Converting JPG & PNG into WebP
+    - 
+~ Coming up: Yireo_NextGenImages
+    - Support
