@@ -199,3 +199,8 @@ XML layout:
 ~ Coming up: Yireo_NextGenImages
     - Support for Webp, AVIF, JPEG2000, ...
     - 10-60% reduction in size
+
+---
+# Reacticon
+- October 13th-15th
+- 
