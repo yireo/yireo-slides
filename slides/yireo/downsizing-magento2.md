@@ -26,8 +26,9 @@
 # in technical numbers
 
 ---
-# Magento of today
-~ XYZ modules in the core
+# Magento core of today
+~ XYZ composer packages
+~ XYZ modules
 ~ XYZ lines of code
 ~ Numerous features that you might not need
 
