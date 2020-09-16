@@ -42,10 +42,10 @@ $googleFonts[] = 'Handlee';
         <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/print.css"/>
     <?php endif; ?>
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/highlight-js.min.css">
     <!--
         <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/reveal/monokai.css"/>
-    <link rel="stylesheet" href="<?php echo $rootUrl; ?>css/highlight-js.min.css">
-    <script src="<?php echo $rootUrl; ?>js/highlight.min.js"></script>
+
     -->
     <?php foreach($images as $image) : ?>
         <link rel="preload" href="<?= $imageUrlPrefix . $image ?>" as="image">
