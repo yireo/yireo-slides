@@ -34,6 +34,13 @@
 Numbers of Magento 2.4.0
 
 ---
+# Core features
+- GraphQL API
+- Multi Source Inventory (MSI)
+- Bundled extensions
+
+
+---
 # Bundled extensions
 - Amazon
 - Braintree
@@ -41,14 +48,7 @@ Numbers of Magento 2.4.0
 - Klarna
 - Temando
 - Vertex
-- Yotpot
-
----
-# Core features
-- GraphQL API
-- Multi Source Inventory (MSI)
-- Bund
-
+- Yotpo
 
 ---
 {state: main middle dark}
@@ -113,5 +113,16 @@ File `composer.json`:
 # What don't you need
 - Core bundled extensions if you don't use them
 - GraphQL if you don't have a PWA shop
+- MSI if you want to use the legacy 
 
+---
+# Yireo composer packages
+yireo/magento2-replace-bundled
+yireo/magento2-replace-content-staging
+yireo/magento2-replace-core
+yireo/magento2-replace-graphql
+yireo/magento2-replace-inventory
+yireo/magento2-replace-sample-data
+yireo/magento2-replace-all
 
+See https://github.com/yireo/magento2-replace-tools
