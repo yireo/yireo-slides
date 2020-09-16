@@ -203,4 +203,5 @@ XML layout:
 ---
 # Reacticon
 - October 13th-15th
-- 
+- Join now via Slack
+- Live-streamed to YouTube
