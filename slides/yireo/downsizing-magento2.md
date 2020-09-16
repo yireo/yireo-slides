@@ -132,3 +132,11 @@ composer require yireo/magento2-replace-all
 Don't just use all of this, especially `yireo/magento2-replace-all`
 
 See https://github.com/yireo/magento2-replace-tools
+
+---
+# Removing unneeded theming
+```html
+<link  rel="stylesheet" type="text/css"  media="all" href="http://m2.sirius.yr/static/frontend/Yireo/ExampleTheme/en_US/mage/calendar.css" />
+
+```
+
