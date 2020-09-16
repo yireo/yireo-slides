@@ -196,8 +196,7 @@ var config = {
         'mage/polyfill': 'js/zero',
         'mage/translate-inline': 'js/zero',
         'Magento_Captcha/js/model/captcha': 'js/zero',
-    },
-    skipDataMain: true
+    }
 };
 ```
 
@@ -206,6 +205,8 @@ var config = {
 - Upgrades of jQuery, Knockout, RequireJS
 - Replace CSS/JS default menu with simple CSS-only menu
 - Replace JS-driven breadcrumbs with plain HTML-only
+
+See https://github.com/yireo-training/Yireo_OptimizedTheme but do NOT apply it 
 
 ---
 # Downsizing images
