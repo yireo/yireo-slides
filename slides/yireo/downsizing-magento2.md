@@ -228,3 +228,8 @@ var config = {
 ~ Join now via Slack because devs love Slack
 ~ Free attendance, live-streamed to YouTube
 ~ https://reacticon.org/
+
+---
+{state: main middle dark}
+{background-image: heman/greyskull2.jpg}
+# Removing other stuff
