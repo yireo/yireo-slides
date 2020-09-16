@@ -202,6 +202,12 @@ XML layout:
 
 ---
 # Reacticon
-- October 13th-15th
-- Join now via Slack
-- Live-streamed to YouTube
+~ Purely focused on frontend development
+    - Especially headless & PWA
+~ October 13th-15th
+    - October 13th: Vue
+    - October 14th: React
+    - October 15th: Other stuff
+~ Join now via Slack because devs love Slack
+~ Free attendance, live-streamed to YouTube
+~ https://reacticon.org/
