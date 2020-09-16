@@ -59,7 +59,17 @@ bin/magento module:disable `bin/magento module:status | grep -i graphql`
 ```
 
 ---
-# Better way
+# Replacing it with nothing
+File `composer.json`:
+```json
+{
+    ...
+    "replace": {
+        "magento/module-marketplace": "*"
+    },
+    ...
+}
+```
 
 ---
 # What don't you need
