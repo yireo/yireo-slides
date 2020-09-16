@@ -135,7 +135,8 @@ See https://github.com/yireo/magento2-replace-tools
 
 ---
 # Todo
-- 
+- Replace ElasticSearch as well (with nothing)
+- Feel free to add more ideas as **Issues** on GitHub
 
 ---
 {state: main middle dark}
