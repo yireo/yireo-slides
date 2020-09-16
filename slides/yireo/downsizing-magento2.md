@@ -235,7 +235,7 @@ var config = {
 
 ---
 {state: main middle dark}
-{background-image: heman/greyskull2.jpg}
+{background-image: mageid/offering.jpg}
 # Don't just use what Magento offers you
 ## Customize it, so it fits your needs
 
