@@ -202,11 +202,11 @@ var config = {
 
 ---
 # Todo
-- Upgrades of jQuery, Knockout, RequireJS
-- Replace CSS/JS default menu with simple CSS-only menu
-- Replace JS-driven breadcrumbs with plain HTML-only
-
-See https://github.com/yireo-training/Yireo_OptimizedTheme but do NOT apply it 
+~ Upgrades of jQuery, Knockout, RequireJS
+~ Replace CSS/JS default menu with simple CSS-only menu
+~ Replace JS-driven breadcrumbs with plain HTML-only
+~ See https://github.com/yireo-training/Yireo_OptimizedTheme
+    - But do NOT apply it. Use its ideas, not its source.
 
 ---
 # Downsizing images
