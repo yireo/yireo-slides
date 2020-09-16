@@ -37,7 +37,6 @@
 - Multi Source Inventory (MSI)
 - Bundled extensions
 
-
 ---
 # Bundled extensions
 - Amazon
@@ -211,6 +210,7 @@ var config = {
 ~ Yireo_Webp2
     - Converting JPG & PNG into WebP
     - 10-30% reduction in size
+    - https://github.com/yireo/Yireo_Webp2
 ~ Coming up: Yireo_NextGenImages
     - Support for Webp, AVIF, JPEG2000, ...
     - 10-60% reduction in size
@@ -223,8 +223,8 @@ var config = {
     - October 13th: Vue
     - October 14th: React
     - October 15th: Other stuff
-~ Join now via Slack because devs love Slack
 ~ Free attendance, live-streamed to YouTube
+~ Join now via Slack because devs love Slack
 ~ https://reacticon.org/
 
 ---
