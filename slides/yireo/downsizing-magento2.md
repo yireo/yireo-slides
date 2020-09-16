@@ -34,6 +34,23 @@
 Numbers of Magento 2.4.0
 
 ---
+# Bundled extensions
+- Amazon
+- Braintree
+- Dotmailer
+- Klarna
+- Temando
+- Vertex
+- Yotpot
+
+---
+# Core features
+- GraphQL API
+- Multi Source Inventory (MSI)
+- Bund
+
+
+---
 {state: main middle dark}
 {background-image: heman/greyskull.jpg}
 # Removing modules
@@ -97,5 +114,4 @@ File `composer.json`:
 - Core bundled extensions if you don't use them
 - GraphQL if you don't have a PWA shop
 
----
-# Bundled extensions
+
