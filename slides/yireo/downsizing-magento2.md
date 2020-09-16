@@ -240,3 +240,8 @@ var config = {
 {background-image: heman/greyskull2.jpg}
 # Don't just use what Magento offers you
 ## Customize it, so it fits your needs
+
+---
+{state: main middle dark}
+{background-image: heman/greyskull2.jpg}
+# Thanks
