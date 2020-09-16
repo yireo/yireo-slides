@@ -165,7 +165,6 @@ XML layout:
 
 ---
 # Removing more
-```xml
 XML layout:
 ```xml
 <?xml version="1.0"?>
