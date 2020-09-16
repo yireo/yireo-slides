@@ -159,6 +159,7 @@ XML layout:
 # Downsizing images
 ~ Yireo_Webp2
     - Converting JPG & PNG into WebP
-    - 
+    - 10-30% reduction in size
 ~ Coming up: Yireo_NextGenImages
-    - Support
+    - Support for Webp, AVIF, JPEG2000, ...
+    - 10-60% reduction in size
