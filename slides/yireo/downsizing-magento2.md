@@ -136,7 +136,7 @@ See https://github.com/yireo/magento2-replace-tools
 - Feel free to add more ideas as **Issues** on GitHub
 
 ---
-{state: main middle dark}
+{state: main middle}
 {background-image: mageid/luma-blurred.png}
 # Removing other stuff
 
