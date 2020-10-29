@@ -230,18 +230,6 @@ var config = {
     - 10-60% reduction in size
 
 ---
-# Reacticon v3.1
-~ Purely focused on frontend development
-    - Especially headless & PWA
-~ October 13th-15th
-    - October 13th: Vue
-    - October 14th: React
-    - October 15th: Other stuff
-~ Free attendance, live-streamed to YouTube
-~ Join now via Slack because devs love Slack
-~ https://reacticon.org/
-
----
 {state: main middle dark}
 {background-image: mageid/orangutan.jpg}
 # The Magento frontend sucks
