@@ -6,7 +6,7 @@ $slideGroups = [
         'slides' => [
             [
                 'file' => 'yireo/downsizing-magento2',
-                'title' => 'Downsizing Magento 2 (Meet Magento Indonesia - September 2020)',
+                'title' => 'Downsizing Magento 2 (MeetMagento Indonesia, MeetMagento New York)',
                 'style' => 'mageid',
                 'renderer' => 'reveal'
             ],

@@ -17,7 +17,6 @@
 ~ Creator of Reacticon v4 (June 2021)
 ~ Magento Master 2017/2018/2019 Mover
 ~ Member of ExtDN (Magento Extension Developer Network)
-~ Saya suka segalanya di Indonesia
 
 ---
 {state: main middle dark}
@@ -129,6 +128,9 @@ composer require yireo/magento2-replace-all
 Don't just use all of this, especially `yireo/magento2-replace-all`
 
 See https://github.com/yireo/magento2-replace-tools
+
+---
+# ReplaceSearch
 
 ---
 # Todo
