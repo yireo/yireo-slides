@@ -131,6 +131,11 @@ See https://github.com/yireo/magento2-replace-tools
 
 ---
 # ReplaceSearch
+- Magento 2.4 enforces the use of ElasticSearch
+- Even if you don't want to use a traditional search
+- Yireo_RemoveSearch removes all search (ES, MySQL, everything)
+
+See https://github.com/yireo/Yireo_RemoveSearch
 
 ---
 # Todo
