@@ -206,9 +206,15 @@ var config = {
 ~ Replace CSS/JS default menu with simple CSS-only menu
 ~ Replace JS-driven breadcrumbs with plain HTML-only
 ~ See https://github.com/yireo-training/Yireo_OptimizedTheme
+    - Removing various scripts that appear not to be needed.
     - But do NOT apply it. Use its ideas, not its source.
-~ Coming up https://github.com/yireo/Yireo_FasterScriptLoader
+~ See https://github.com/yireo/Yireo_FasterScriptLoader
+    - Replacing
     - Do NOT use it. This is not adding any benefits yet.
+~ Compare all of this with new frontends
+    - Vue Storefront
+    - Magento PWA Studio
+    - Hyvä (hyva.io)
 
 ---
 # Downsizing images
