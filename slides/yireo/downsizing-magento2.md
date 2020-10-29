@@ -207,6 +207,8 @@ var config = {
 ~ Replace JS-driven breadcrumbs with plain HTML-only
 ~ See https://github.com/yireo-training/Yireo_OptimizedTheme
     - But do NOT apply it. Use its ideas, not its source.
+~ Coming up https://github.com/yireo/Yireo_FasterScriptLoader
+    - Do NOT use it. This is not adding any benefits yet.
 
 ---
 # Downsizing images
