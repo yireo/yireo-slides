@@ -203,13 +203,16 @@ var config = {
 ---
 # Todo
 ~ Upgrades of jQuery, Knockout, RequireJS
+    - Currently adding in size, not reducing it
 ~ Replace CSS/JS default menu with simple CSS-only menu
+    - We don't need JS for this anymore. But I'm not a CSS expert.
 ~ Replace JS-driven breadcrumbs with plain HTML-only
+    - Who cares about the JS logic here?
 ~ See https://github.com/yireo-training/Yireo_OptimizedTheme
     - Removing various scripts that appear not to be needed.
     - But do NOT apply it. Use its ideas, not its source.
 ~ See https://github.com/yireo/Yireo_FasterScriptLoader
-    - Replacing
+    - Replacing all `data-mage-init` and `x-magento-init` with `require()`
     - Do NOT use it. This is not adding any benefits yet.
 ~ Compare all of this with new frontends
     - Vue Storefront
