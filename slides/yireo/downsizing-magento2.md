@@ -18,6 +18,10 @@
 ~ Magento Master 2017/2018/2019 Mover
 ~ Member of ExtDN (Magento Extension Developer Network)
  
+---
+{state: light center middle}
+<h1>whereby.com/extdn</h1>
+<img src="images/generic/extdn-large.png"/>
 
 ---
 {state: main middle dark}
