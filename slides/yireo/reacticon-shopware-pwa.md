@@ -20,20 +20,31 @@
 # Some slogan
 
 ---
-# Shopware 6 plugin (1/2)
+# Shopware 6 plugin (1/3)
 - `composer.json`
 - `src/SwagTrainingPwaCms.php`
 - `src/Resources/config/services.xml`
 
 ---
-# Shopware 6 plugin (2/2)
+# Shopware 6 plugin (2/3)
 - `src/Resources/config/config.xml`
+- `src/Config/Config.php`
+-
+
+---
+# Shopware 6 plugin (3/3)
+
 - `src/Resources/app/pwa/config.json`
 - `src/Resources/app/pwa/account-cms-page.vue`
 
 ---
+#
+
+---
 # Service declaration
-- New service 
+- New service for `config`
+
+^^See sources @todo
 
 ---
 # Overriding `SwPersonalInfo`
