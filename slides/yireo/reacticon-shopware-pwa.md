@@ -17,7 +17,14 @@
 ---
 {state: main middle dark}
 {background-image: apollo/picard-laughing.gif}
-# Ha ha, those Magento people
+# Some slogan
+
+---
+# Shopware 6 plugin
+- `composer.json`
+- `src/SwagTrainingPwaCms.php`
+- `src/Resources/config/services.xml`
+- `src/Resources/config/config.xml`
 
 ---
 # Overriding `SwPersonalInfo`
