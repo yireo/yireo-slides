@@ -73,6 +73,8 @@ class Config extends Struct
 }
 ```
 
+^^Note that `$cmsPageUuid` is protected, not private
+
 ---
 # Service declaration
 ```xml
@@ -129,6 +131,8 @@ class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
     }
 }
 ```
+
+^^This should be visible with GET request towards `store-api/context` (with valid access token)
 
 ---
 # Shopware 6 plugin (3/3)
