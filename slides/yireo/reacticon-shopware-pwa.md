@@ -20,3 +20,25 @@
 # Ha ha, those Magento people
 
 ---
+# Overriding `SwPersonalInfo`
+```vue
+<template>
+  <div>
+    <SwPluginSlot name="account-cms-page"/>
+    <OriginalSwPersonalInfo />
+  </div>
+</template>
+
+<script>
+import OriginalSwPersonalInfo from "@theme/components/forms/SwPersonalInfo.vue";
+import SwPluginSlot from "sw-plugins/SwPluginSlot.vue";
+
+export default {
+  name: "NewSwPersonalInfo",
+  components: {
+    OriginalSwPersonalInfo,
+    SwPluginSlot
+  }
+}
+</script>
+```
