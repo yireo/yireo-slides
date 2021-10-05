@@ -77,13 +77,11 @@ class Config extends Struct
 # Service declaration
 ```xml
 <?xml version="1.0" ?>
-<container xmlns="http://symfony.com/schema/dic/services"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+<container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
-      <service id="SwagTraining\PwaCms\Config\Config">
-          <argument type="service" id="Shopware\Core\System\SystemConfig\SystemConfigService"/>
-      </service>
+        <service id="SwagTraining\PwaCms\Config\Config">
+            <argument type="service" id="Shopware\Core\System\SystemConfig\SystemConfigService"/>
+        </service>
 
         <service id="SwagTraining\PwaCms\Decorator\ExtendedSalesChannelContextFactory" decorates="Shopware\Core\System\SalesChannel\Context\SalesChannelContextFactory">
             <argument type="service" id=".inner"/>
@@ -91,6 +89,45 @@ class Config extends Struct
         </service>
     </services>
 </container>
+```
+
+---
+# Service decorator
+```php
+declare(strict_types=1);
+
+namespace SwagTraining\PwaCms\Decorator;
+
+use Shopware\Core\System\SalesChannel\Context\AbstractSalesChannelContextFactory;
+use Shopware\Core\System\SalesChannel\Context\SalesChannelContextFactory;
+use Shopware\Core\System\SalesChannel\SalesChannelContext;
+use SwagTraining\PwaCms\Config\Config;
+
+class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
+{
+    private Config $config;
+    private SalesChannelContextFactory $salesChannelContextFactory;
+
+    public function __construct(
+        SalesChannelContextFactory $salesChannelContextFactory,
+        Config $config
+    ) {
+        $this->salesChannelContextFactory = $salesChannelContextFactory;
+        $this->config = $config;
+    }
+
+    public function create(string $token, string $salesChannelId, array $options = []): SalesChannelContext
+    {
+        $salesChannelContext = $this->salesChannelContextFactory->create($token, $salesChannelId, $options);
+        $salesChannelContext->addExtension('swagTrainingPwaCmsConfig', $this->config);
+        return $salesChannelContext;
+    }
+
+    public function getDecorated(): AbstractSalesChannelContextFactory
+    {
+        return $this->salesChannelContextFactory;
+    }
+}
 ```
 
 ---
