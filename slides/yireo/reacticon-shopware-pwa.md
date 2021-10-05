@@ -29,7 +29,52 @@
 # Shopware 6 plugin (2/3)
 - `src/Resources/config/config.xml`
 - `src/Config/Config.php`
--
+- `src/Decorator/ExtendedSalesChannelContextFactory.php`
+
+---
+# `config.xml`
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>SwagTrainingPwaCms Configuration</title>
+        <component name="sw-entity-single-select">
+            <name>cmsPageUuid</name>
+            <label>CMS Page</label>
+            <entity>cms_page</entity>
+        </component>
+    </card>
+</config>
+```
+
+---
+# `Config.php`
+```php
+namespace SwagTraining\PwaCms\Config;
+
+use Shopware\Core\Framework\Struct\Struct;
+use Shopware\Core\System\SystemConfig\SystemConfigService;
+
+class Config extends Struct
+{
+    protected string $cmsPageUuid = '';
+
+    public function __construct(
+        SystemConfigService $systemConfigService
+    ) {
+        $config = $systemConfigService->get('SwagTrainingPwaCms');
+        $this->cmsPageUuid = $config['config']['cmsPageUuid'];
+    }
+
+    public function getCmsPageUuid(): string
+    {
+        return $this->cmsPageUuid;
+    }
+}
+```
+
+---
+# Service decorator (1/2)
 
 ---
 # Shopware 6 plugin (3/3)
