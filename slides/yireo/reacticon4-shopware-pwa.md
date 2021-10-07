@@ -74,7 +74,20 @@ class Config extends Struct
 ^^Note that `$cmsPageUuid` is protected, not private
 
 ---
-# Service declaration
+# Service declaration (1/2)
+```xml
+<?xml version="1.0" ?>
+<container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <service id="SwagTraining\PwaCms\Config\Config">
+            <argument type="service" id="Shopware\Core\System\SystemConfig\SystemConfigService"/>
+        </service>
+    </services>
+</container>
+```
+
+---
+# Service declaration (2/2)
 ```xml
 <?xml version="1.0" ?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
@@ -92,7 +105,7 @@ class Config extends Struct
 ```
 
 ---
-# Service decorator
+# Service decorator (1/2)
 ```php
 declare(strict_types=1);
 
