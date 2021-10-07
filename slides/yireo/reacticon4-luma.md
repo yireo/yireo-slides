@@ -3,9 +3,7 @@
 # Optimizing Luma legacy anyway
 
 ---
-# Optimizations
-
----
+{state: main middle dark}
 # Luma dissected
 
 ---
