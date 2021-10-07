@@ -5,6 +5,18 @@ $slideGroups = [
         'style' => 'meetmagento',
         'slides' => [
             [
+                'file' => 'yireo/reacticon-shopware-pwa',
+                'title' => 'Creating supercharged Shopping Experiences in Shopware PWA',
+                'style' => 'mageid',
+                'renderer' => 'reveal'
+            ],
+            [
+                'file' => 'yireo/reacticon4-luma',
+                'title' => 'Downsizing Magento 2 (MeetMagento Indonesia, MeetMagento New York)',
+                'style' => 'mageid',
+                'renderer' => 'reveal'
+            ],
+            [
                 'file' => 'yireo/downsizing-magento2',
                 'title' => 'Downsizing Magento 2 (MeetMagento Indonesia, MeetMagento New York)',
                 'style' => 'mageid',
