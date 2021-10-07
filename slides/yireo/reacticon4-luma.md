@@ -21,17 +21,8 @@
 - Use XDebug only On-Demand
 - Enable Zend OPC
 - Use Redis for caching
-
----
-# Caching architecture
-- Caching frontends
-  - Tags, types
-- Caching backends
-  - Filesystem, database, Redis, memcached
-- Reverse proxies / CDNs
-  - Full Page Cache via Varnish
-
-^^Beware of `cacheable=true`
+- Test for Full Page Cache
+  - Beware of `cacheable=true`
 
 ---
 # Luma stack (client-based)
@@ -40,7 +31,7 @@
 - jQuery
 - LESS-based CSS
 
-^^So how does this perform?
+So how does this perform?
 
 ---
 # Core Web Vitals
