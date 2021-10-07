@@ -14,6 +14,13 @@
 ~ Member of ExtDN (Magento Extension Developer Network)
 
 ---
+# About Shopping Experiences
+- Also known as the Shopware "CMS"
+  - Managed via Administration
+- Modular approach
+  - CMS pages, sections, blocks and elements
+
+---
 {state: main middle dark}
 {background-image: apollo/picard-laughing.gif}
 # Let's build a simple Shopware 6 plugin
