@@ -169,7 +169,7 @@ class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
 - `src/Resources/app/pwa/account-cms-page.vue`
 
 ---
-# Vue component (1/2)
+# Vue component (1/4)
 ```vue
 <template>
   <div>
@@ -177,14 +177,22 @@ class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
     <CmsPage :content="cmsPage" />
   </div>
 </template>
+```
 
+---
+# Vue component (2/4)
+```vue
 <script>
 import { useSessionContext } from "@shopware-pwa/composables"
 import { getApplicationContext } from "@shopware-pwa/composables"
 import { invokeGet } from "@shopware-pwa/shopware-6-client"
 import { defineComponent, watch, onMounted, ref } from "@vue/composition-api"
 import CmsPage from "sw-cms/CmsPage"
+```
 
+---
+# Vue component (3/4)
+```vue
 const loadCmsPage = (root, sessionContext, cmsPage) => {
   const cmsPageId =
     sessionContext.value.extensions.swagTrainingPwaCmsConfig.cmsPageUuid
@@ -203,7 +211,11 @@ const loadCmsPage = (root, sessionContext, cmsPage) => {
     console.error("SwagExample:onMounted", error)
   }
 }
+```
 
+---
+# Vue component (4/4)
+```vue
 export default defineComponent({
   components: { CmsPage },
   setup(props, { root }) {
