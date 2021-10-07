@@ -206,7 +206,7 @@ magepack generate --cms-url="http://magento.local" --category-url="http://magent
 magepack bundle
 ```
 
-^^Refer to [github](https://github.com/magesuite/magepack)
+Refer to [magesuite/magepack](https://github.com/magesuite/magepack)
 
 ---
 # Webp2
@@ -255,4 +255,8 @@ Next, navigate to your theme configuration and enable Breeze
 - Addition of [turbolinks](https://github.com/turbolinks/turbolinks)
 - Also see [devdocs](https://docs.swissuplabs.com/m2/extensions/breeze/devdocs/)
 
-^^But: For this to work, your own JS needs to be converted to the Breeze structure ([docs](https://docs.swissuplabs.com/m2/extensions/breeze/devdocs/theme-js/))
+But: For this to work, your own JS needs to be converted to the Breeze structure ([docs](https://docs.swissuplabs.com/m2/extensions/breeze/devdocs/theme-js/))
+
+---
+# Conclusion
+- Maybe this is not really worth it
