@@ -59,9 +59,7 @@ class Config extends Struct
 {
     protected string $cmsPageUuid = '';
 
-    public function __construct(
-        SystemConfigService $systemConfigService
-    ) {
+    public function __construct(SystemConfigService $systemConfigService) {
         $config = $systemConfigService->get('SwagTrainingPwaCms');
         $this->cmsPageUuid = $config['config']['cmsPageUuid'];
     }
