@@ -107,8 +107,6 @@ class Config extends Struct
 ---
 # Service decorator (1/2)
 ```php
-declare(strict_types=1);
-
 namespace SwagTraining\PwaCms\Decorator;
 
 use Shopware\Core\System\SalesChannel\Context\AbstractSalesChannelContextFactory;
@@ -128,6 +126,17 @@ class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
         $this->salesChannelContextFactory = $salesChannelContextFactory;
         $this->config = $config;
     }
+
+    ...
+}
+```
+
+---
+# Service decorator (2/2)
+```php
+class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
+{
+    ...
 
     public function create(string $token, string $salesChannelId, array $options = []): SalesChannelContext
     {
