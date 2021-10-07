@@ -177,12 +177,15 @@ class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
     <CmsPage :content="cmsPage" />
   </div>
 </template>
+
+<script>
+...
+</script>
 ```
 
 ---
 # Vue component (2/4)
-```vue
-<script>
+```js
 import { useSessionContext } from "@shopware-pwa/composables"
 import { getApplicationContext } from "@shopware-pwa/composables"
 import { invokeGet } from "@shopware-pwa/shopware-6-client"
@@ -192,7 +195,7 @@ import CmsPage from "sw-cms/CmsPage"
 
 ---
 # Vue component (3/4)
-```vue
+```js
 const loadCmsPage = (root, sessionContext, cmsPage) => {
   const cmsPageId =
     sessionContext.value.extensions.swagTrainingPwaCmsConfig.cmsPageUuid
@@ -215,7 +218,7 @@ const loadCmsPage = (root, sessionContext, cmsPage) => {
 
 ---
 # Vue component (4/4)
-```vue
+```js
 export default defineComponent({
   components: { CmsPage },
   setup(props, { root }) {
@@ -223,21 +226,16 @@ export default defineComponent({
     const cmsPage = ref({})
 
     onMounted(async () => {
-      if (sessionContext.value) {
-        loadCmsPage(root, sessionContext, cmsPage)
-      }
+      if (sessionContext.value) { loadCmsPage(root, sessionContext, cmsPage) }
     })
 
     watch(sessionContext, (root, cmsPage) => {
       loadCmsPage(root, sessionContext, cmsPage)
     })
 
-    return {
-      cmsPage,
-    }
-  },
+    return { cmsPage }
+  }
 })
-</script>
 ```
 
 ---
