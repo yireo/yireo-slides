@@ -169,7 +169,7 @@ class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
 - `src/Resources/app/pwa/account-cms-page.vue`
 
 ---
-# Vue component
+# Vue component (1/2)
 ```vue
 <template>
   <div>
