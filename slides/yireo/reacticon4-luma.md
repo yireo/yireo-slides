@@ -133,6 +133,29 @@ And LESS is old
 Note that this is all experimental
 
 ---
+# RequireJS replacements
+```js
+var config = {
+    paths: {
+        //'knockoutjs/knockout-fast-foreach': 'js/zero',
+        //'knockoutjs/knockout-es5': 'js/zero',
+        'mage/calendar': 'js/zero',
+        'Magento_Ui/js/grid/filters/range': 'js/zero',
+        'mage/polyfill': 'js/zero',
+        //'mage/menu': 'js/zero', // Enable if you have a CSS menu
+        'mage/translate-inline': 'js/zero',
+        'Magento_Captcha/js/model/captcha': 'js/zero',
+        //'jquery/jquery-migrate': 'js/zero', // This breaks the JS-driven menu currently
+        //'Magento_Ui/js/lib/logger/logger': 'js/zero',
+        //'Magento_Ui/js/lib/logger/formatter': 'js/zero',
+        //'Magento_Ui/js/lib/logger/console-logger': 'js/zero',
+        //'Magento_Ui/js/lib/logger/console-output-handler': 'js/zero',
+        //'Magento_Ui/js/lib/logger/entry-factory': 'js/zero',
+    }
+};
+```
+
+---
 # Proven optimizations
 - Bundle JS with Magepack
 - Replace Fotorama (with Notorama)
