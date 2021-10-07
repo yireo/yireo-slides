@@ -70,7 +70,7 @@ So how does this perform?
 ---
 # The problem of RequireJS
 - Async loading
-  - Waterfall mess
+  - Enormous waterfall of resources
 - Too many resources
   - And you benefit less/little from HTTP2
 

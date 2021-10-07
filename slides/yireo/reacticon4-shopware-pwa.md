@@ -7,11 +7,10 @@
 {background-image: generic/jisse.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
-~ Trainer of developers
-~ Creator of MageTestFest (2017, 2019)
-~ Creator of Reacticon (2018 x2)
-~ Creator of Reacticon v3 (June 2021)
+~ Creator of MageTestFest
+~ Creator of Reacticon 1 to 4
 ~ Magento Master 2017/2018/2019 Mover
+~ Trainer of developers in Magento and Shopware
 ~ Member of ExtDN (Magento Extension Developer Network)
 
 ---
