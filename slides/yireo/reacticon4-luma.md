@@ -60,7 +60,7 @@ So how does this perform?
 - Too many resources
   - And you benefit less/little from HTTP2
 
-^^And it is old
+And it is old
 
 ---
 # The problem of KnockoutJS
@@ -68,7 +68,8 @@ So how does this perform?
 - No VirtualDOM
 - Magento made a mess of it
 
-^^And it is old
+And it is old
+
 ---
 # The problem of jQuery
 - jQuery 3 is not supported (yet)
@@ -76,7 +77,7 @@ So how does this perform?
 - jQuery UI modularization is not supported by all extensions
   - So we are using jQuery UI in full which is huge
 
-^^And it is old
+And it is old
 
 ---
 # jQuery UI modularization
@@ -96,7 +97,7 @@ define([
 ], function() { ... });
 ```
 
-^^See `lib/web/jquery/compat.js`
+See `lib/web/jquery/compat.js`
 
 ---
 # The problem of LESS/CSS
@@ -104,7 +105,7 @@ define([
 - Badly organized
 - Too many files
 
-^^And LESS is old
+And LESS is old
 
 ---
 # Let's fix this
