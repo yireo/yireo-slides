@@ -17,7 +17,7 @@
 ---
 {state: main middle dark}
 {background-image: apollo/picard-laughing.gif}
-# Some slogan
+# Let's build a simple Shopware 6 plugin
 
 ---
 # Shopware 6 plugin (1/3)
@@ -151,8 +151,6 @@ class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
     }
 }
 ```
-
-^^This should be visible with GET request towards `store-api/context` (with valid access token)
 
 ---
 # Shopware 6 plugin (3/3)
