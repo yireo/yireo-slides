@@ -25,6 +25,18 @@
   - Beware of `cacheable=true`
 
 ---
+# Quick tips for production
+- Enable all caching
+  - Including Full Page Cache
+- Disable XDebug
+- Enable Zend OPC
+- Use Redis for caching
+- Tune MySQL
+- Compress everything
+- Downsize images
+- Serve fonts locally
+
+---
 # Luma stack (client-based)
 - RequireJS
 - KnockoutJS
@@ -111,23 +123,14 @@ And LESS is old
 # Let's fix this
 
 ---
-# Basic optimization
-- Enable caching
-- Run Production Mode
-- Use up-to-date PHP
-- Enable Zend OPC, disable Xdebug
-- Tune MySQL
-- Compress everything
-- Downsize images
-- Serve fonts locally
-
----
 # My own experimental optimizations
 - [yireo-training/Yireo_OptimizedTheme](https://github.com/yireo-training/Yireo_OptimizedTheme)
   - Removing unneeded things like `calendar.css` and others
   - Knockout replacements
 - [yireo-training/magento2-example-jquery-upgrade](https://github.com/yireo-training/magento2-example-jquery-upgrade)
   - Upgrade jQuery 1 to jQuery 3
+
+Note that this is all experimental
 
 ---
 # Proven optimizations
