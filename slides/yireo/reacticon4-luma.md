@@ -129,6 +129,9 @@ And LESS is old
   - Knockout replacements
 - [yireo-training/magento2-example-jquery-upgrade](https://github.com/yireo-training/magento2-example-jquery-upgrade)
   - Upgrade jQuery 1 to jQuery 3
+- [yireo/Yireo_FasterScriptLoader](https://github.com/yireo/Yireo_FasterScriptLoader)
+  - Replacing all `data-mage-init` and `x-magento-init` with `require()`
+  - Do NOT use it. This is not adding any benefits yet.
 
 Note that this is all experimental
 
@@ -176,13 +179,10 @@ var config = {
     - We don't need JS for this anymore. But I'm not a CSS expert.
 ~ Replace JS-driven breadcrumbs with plain HTML-only
     - Who cares about the JS logic here?
-~ See https://github.com/yireo/Yireo_FasterScriptLoader
-    - Replacing all `data-mage-init` and `x-magento-init` with `require()`
-    - Do NOT use it. This is not adding any benefits yet.
 ~ Compare all of this with new frontends
     - Vue Storefront
     - Magento PWA Studio
-    - Hyvä (hyva.io)
+    - Hyvä Themes
 
 ---
 # Proven optimizations
@@ -190,9 +190,6 @@ var config = {
 - Replace Fotorama (with Notorama)
 - Add Webp2 images
 - Hack with SwissupLabs Breeze
-- Enable Full Page Cache with or without Varnish
-
-^^And backend optizations like composer replacements, database tuning, external search engines, etc
 
 ---
 # Magepack
