@@ -159,6 +159,11 @@ class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
 ```
 
 ---
+{state: main middle dark}
+{background-image: apollo/picard-laughing.gif}
+# Let's create a Vue component in the Shopware PWA, via this very same Shopware 6 plugin
+
+---
 # Shopware 6 plugin (3/3)
 - `src/Resources/app/pwa/config.json`
 - `src/Resources/app/pwa/account-cms-page.vue`
