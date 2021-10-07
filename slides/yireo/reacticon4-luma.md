@@ -133,7 +133,22 @@ And LESS is old
 Note that this is all experimental
 
 ---
+# Remove silly CSS
+Layout file `default.xml`:
+```xml
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks" />
+    <head>
+        <remove src='mage/calendar.css'/>
+        <remove src='mage/gallery/gallery.css'/>
+    </head>
+</page>
+```
+
+---
 # RequireJS replacements
+File `requirejs-config.js`
 ```js
 var config = {
     paths: {
@@ -142,10 +157,10 @@ var config = {
         'mage/calendar': 'js/zero',
         'Magento_Ui/js/grid/filters/range': 'js/zero',
         'mage/polyfill': 'js/zero',
-        //'mage/menu': 'js/zero', // Enable if you have a CSS menu
+        //'mage/menu': 'js/zero',
         'mage/translate-inline': 'js/zero',
         'Magento_Captcha/js/model/captcha': 'js/zero',
-        //'jquery/jquery-migrate': 'js/zero', // This breaks the JS-driven menu currently
+        //'jquery/jquery-migrate': 'js/zero',
         //'Magento_Ui/js/lib/logger/logger': 'js/zero',
         //'Magento_Ui/js/lib/logger/formatter': 'js/zero',
         //'Magento_Ui/js/lib/logger/console-logger': 'js/zero',
