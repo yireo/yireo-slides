@@ -38,10 +38,12 @@
 
 ---
 # Luma stack (client-based)
-- RequireJS
-- KnockoutJS
-- jQuery
-- LESS-based CSS
+- JavaScript
+  - RequireJS
+  - KnockoutJS
+  - jQuery
+- CSS
+  - Generated via LESS
 
 So how does this perform?
 
