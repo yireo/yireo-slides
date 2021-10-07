@@ -25,6 +25,12 @@
 - `src/SwagTrainingPwaCms.php`
 - `src/Resources/config/services.xml`
 
+
+---
+{state: main middle dark}
+{background-image: apollo/picard-laughing.gif}
+# Let's add a plugin configuration that is added to the JSON output of `GET store-api/context` (with valid access token)
+
 ---
 # Shopware 6 plugin (2/3)
 - `src/Resources/config/config.xml`
