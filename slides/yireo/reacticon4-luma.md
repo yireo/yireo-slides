@@ -11,7 +11,8 @@
 Or: Any theme that is based on XML layout, PHTML templates, Block classes, LESS-based CSS, RequireJS, KnockoutJS, jQuery and the rest of the blob
 
 ---
-{state: main middle dark}
+{state: main middle dark opacity}
+{background-image: reacticon4/monkeys-grooming.jpg}
 # Luma dissected
 
 ---
