@@ -1916,6 +1916,9 @@ table td {
 table td img {
   width: 100%;
 }
+html.opacity div.slide-background-content {
+  opacity: 0.2;
+}
 div.container-heading {
   padding-top: 20px;
   height: 120px;
@@ -1983,7 +1986,8 @@ ul ul {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+  font-stretch: normal;
+  src: url(http://fonts.gstatic.com/s/opensans/v26/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
 }
 html.extdn body {
   font-family: 'Open Sans', sans-serif;
@@ -2573,7 +2577,7 @@ html.mm19pl .bordered h2 {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Quantico'), local('Quantico-Regular'), url(https://fonts.gstatic.com/s/quantico/v9/rax-HiSdp9cPL3KIF7xrJDg.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/quantico/v10/rax-HiSdp9cPL3KIF7xrJDg.ttf) format('truetype');
 }
 html.mug076 body {
   font-family: "Roboto Condensed", Arial;
@@ -2646,7 +2650,7 @@ html.mug076 .bordered h2 {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Bungee Shade'), local('BungeeShade-Regular'), url(https://fonts.gstatic.com/s/bungeeshade/v5/DtVkJxarWL0t2KdzK3oI_jks7g.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/bungeeshade/v6/DtVkJxarWL0t2KdzK3oI_jks7g.ttf) format('truetype');
 }
 html.heman section[data-state~="dark"] h1,
 html.heman section[data-state~="dark"] h2 {

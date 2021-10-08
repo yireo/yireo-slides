@@ -1,4 +1,4 @@
-{state: main middle dark}
+{state: main middle dark opacity}
 {background-image: reacticon4/monkey-group.jpg}
 # Optimizing Luma legacy anyway
 
@@ -24,7 +24,7 @@ Or: Any theme that is based on XML layout, PHTML templates, Block classes, LESS-
 So how does this perform?
 
 ---
-{state: main middle dark}
+{state: main middle dark opacity}
 {background-image: reacticon4/happy-gibbon.gif}
 # With the right tuning: Excellent
 

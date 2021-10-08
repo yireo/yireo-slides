@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Quantico'), local('Quantico-Regular'), url(https://fonts.gstatic.com/s/quantico/v9/rax-HiSdp9cPL3KIF7xrJDg.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/quantico/v10/rax-HiSdp9cPL3KIF7xrJDg.ttf) format('truetype');
 }
 html.mug076 body {
   font-family: "Roboto Condensed", Arial;
