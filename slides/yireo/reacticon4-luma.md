@@ -63,6 +63,7 @@ So how does this perform?
 
 ---
 {state: main middle dark}
+{background-image: reacticon4/sad-gibbon.gif}
 # With the right tuning: Okayish
 
 ---
