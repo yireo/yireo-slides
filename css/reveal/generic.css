@@ -73,6 +73,9 @@
   align-items: center;
   justify-content: center;
 }
+.middle .reveal .slides h1 {
+  text-align: center;
+}
 .main .reveal h1 {
   font-size: 180%;
 }
