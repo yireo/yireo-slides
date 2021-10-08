@@ -1,5 +1,5 @@
 {state: main middle dark}
-{background-image: apollo/bg-startrek.png}
+{background-image: reacticon4/monkey-group.jpg}
 # Optimizing Luma legacy anyway
 
 ---
