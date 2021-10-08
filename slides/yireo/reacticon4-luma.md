@@ -25,6 +25,7 @@ So how does this perform?
 
 ---
 {state: main middle dark}
+{background-image: reacticon4/happy-gibbon.gif}
 # With the right tuning: Excellent
 
 ---
