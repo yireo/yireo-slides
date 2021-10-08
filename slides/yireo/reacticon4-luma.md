@@ -62,6 +62,10 @@ So how does this perform?
 So how does this perform?
 
 ---
+{state: main middle dark}
+# With the right tuning: Okayish
+
+---
 # Core Web Vitals
 - First Input Delay (FID)
   - Measures interactivity
