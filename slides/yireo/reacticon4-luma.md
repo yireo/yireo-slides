@@ -25,7 +25,7 @@ So how does this perform?
 
 ---
 {state: main middle dark}
-# With the right tuning: Pretty well
+# With the right tuning: Excellent
 
 ---
 # Quick tips for development
