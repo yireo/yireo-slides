@@ -115,8 +115,8 @@ And it is old
 
 ---
 {state: main middle dark}
-{background-image: apollo/bg-startrek.png}
-# Optimizing Luma legacy anyway
+{background-image: reacticon4/monkeying.gif}
+# So let's optimize Luma legacy anyway
 
 ---
 # jQuery UI modularization
