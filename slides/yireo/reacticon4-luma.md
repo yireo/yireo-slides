@@ -2,6 +2,8 @@
 {background-image: apollo/bg-startrek.png}
 # Optimizing Luma legacy anyway
 
+
+
 ---
 {state: main middle dark}
 # Luma dissected
@@ -12,6 +14,8 @@
 - Block classes
 - ViewModel classes
 - PHTML templates
+
+So how does this perform?
 
 ---
 # Quick tips for development
