@@ -4,7 +4,9 @@
 
 ---
 # What is Luma legacy?
-- 
+- `Magento/luma` theme
+- `Magento/blank` theme
+- Any other legacy theme that does not 
 
 Or: Any theme that is based on XML layout, PHTML templates, Block classes, LESS-based CSS,
 
