@@ -24,6 +24,10 @@ Or: Any theme that is based on XML layout, PHTML templates, Block classes, LESS-
 So how does this perform?
 
 ---
+{state: main middle dark}
+# With the right tuning: Pretty well
+
+---
 # Quick tips for development
 - Enable all caching
   - Except Full Page Cache
@@ -37,7 +41,7 @@ So how does this perform?
 ---
 # Quick tips for production
 - Enable all caching
-  - Including Full Page Cache
+  - Including Full Page Cache, ideally via Varnish
 - Disable XDebug
 - Enable Zend OPC
 - Use Redis for caching
