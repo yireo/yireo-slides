@@ -114,6 +114,11 @@ And it is old
 And it is old
 
 ---
+{state: main middle dark}
+{background-image: apollo/bg-startrek.png}
+# Optimizing Luma legacy anyway
+
+---
 # jQuery UI modularization
 Bad:
 ```js
