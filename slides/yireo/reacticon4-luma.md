@@ -115,11 +115,6 @@ And it is old
 And it is old
 
 ---
-{state: main middle dark opacity}
-{background-image: reacticon4/monkeying.gif}
-# So let's optimize Luma legacy anyway
-
----
 # jQuery UI modularization
 Bad:
 ```js
@@ -148,7 +143,9 @@ See `lib/web/jquery/compat.js`
 And LESS is old
 
 ---
-# Let's fix this
+{state: main middle dark opacity}
+{background-image: reacticon4/monkeying.gif}
+# So let's optimize Luma legacy anyway
 
 ---
 # My own experimental optimizations
