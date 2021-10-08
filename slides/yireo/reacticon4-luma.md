@@ -2,7 +2,11 @@
 {background-image: apollo/bg-startrek.png}
 # Optimizing Luma legacy anyway
 
+---
+# What is Luma legacy?
+- 
 
+Or: Any theme that is based on XML layout, PHTML templates, Block classes, LESS-based CSS,
 
 ---
 {state: main middle dark}
