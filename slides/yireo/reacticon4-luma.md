@@ -63,7 +63,7 @@ So how does this perform?
 So how does this perform?
 
 ---
-{state: main middle dark}
+{state: main middle dark opacity}
 {background-image: reacticon4/sad-gibbon.gif}
 # With the right tuning: Okayish
 
@@ -114,7 +114,7 @@ And it is old
 And it is old
 
 ---
-{state: main middle dark}
+{state: main middle dark opacity}
 {background-image: reacticon4/monkeying.gif}
 # So let's optimize Luma legacy anyway
 
