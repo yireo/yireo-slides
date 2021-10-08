@@ -154,6 +154,7 @@ And LESS is old
   - Knockout replacements
 - [yireo-training/magento2-example-jquery-upgrade](https://github.com/yireo-training/magento2-example-jquery-upgrade)
   - Upgrade jQuery 1 to jQuery 3
+  - Do NOT use it. The jQuery UI library shipped is too large.
 - [yireo/Yireo_FasterScriptLoader](https://github.com/yireo/Yireo_FasterScriptLoader)
   - Replacing all `data-mage-init` and `x-magento-init` with `require()`
   - Do NOT use it. This is not adding any benefits yet.
@@ -166,7 +167,6 @@ Layout file `default.xml`:
 ```xml
 <?xml version="1.0"?>
 <page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <update handle="default_head_blocks" />
     <head>
         <remove src='mage/calendar.css'/>
         <remove src='mage/gallery/gallery.css'/>
