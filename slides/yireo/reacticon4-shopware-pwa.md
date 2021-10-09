@@ -15,16 +15,14 @@
 
 ---
 # Meet Shopware 6 Shopping Experiences
-- Also known as the Shopware "CMS"
-  - Managed via Administration
+- Also known as the Shopware "CMS", managed via Administration
 - Modular approach
   - CMS pages, sections, blocks and elements
   - Fully extensible with third party extensions
 
 ---
 # Meet Shopware PWA
-- Also known as Vue Storefront 2
-  - But tailored specifically for Shopware 6
+- Also known as Vue Storefront 2, but tailored specifically for Shopware 6
 - Modular approach
   - Vue components, Vue plugins, Nuxt plugins, Vue Storefront modules
   - And Shopware 6 plugins!
@@ -120,7 +118,7 @@ class Config extends Struct
 - Entities are often extensible via structs
   - Like the `SalesChannelContext` which is used in the GET request `store-api/context`
 
-^^Note that `$cmsPageUuid` is protected, not private. Otherwise it is not properly picked up by the `Struct`.
+Note that `$cmsPageUuid` is protected, not private. Otherwise it is not properly picked up by the `Struct`.
 
 ---
 # Service declaration (1/2)
