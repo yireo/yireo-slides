@@ -300,7 +300,7 @@ Note that this slot does not exist by default
 
 ---
 # Overriding `SwPersonalInfo` (1/2)
-```vue
+```js
 <template>
   <div>
     <SwPluginSlot name="account-cms-page"/>
