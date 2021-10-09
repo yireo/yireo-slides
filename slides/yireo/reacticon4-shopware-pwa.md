@@ -1,4 +1,4 @@
-{state: main middle dark}
+{state: main middle dark opacity}
 {background-image: reacticon4/waterbears.jpg}
 # Creating supercharged Shopping Experiences in Shopware PWA
 
