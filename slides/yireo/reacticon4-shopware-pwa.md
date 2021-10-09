@@ -54,7 +54,13 @@ These files are skipped in the following slides
 ---
 {state: main middle dark opacity}
 {background-image: reacticon4/octopus2.jpg}
-# Let's add a plugin configuration that is added to the JSON output of `GET store-api/context` (with valid access token)
+# Let's add a plugin configuration that is added to the JSON output of `GET store-api/context`
+
+---
+# About the Store API
+- Acts as an API for headless setups, like with Shopware PWA
+- Any client request requires an access token
+- Endpoint `store-api/context` offers global information
 
 ---
 # Shopware 6 plugin (2/3)
