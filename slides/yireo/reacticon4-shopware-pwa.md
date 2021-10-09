@@ -38,8 +38,8 @@
 - Rebuild the PWA (because of SSR)
 
 ---
-{state: main middle dark octopus}
-{background-image: apollo/picard-laughing.gif}
+{state: main middle dark opacity}
+{background-image: reacticon4/octopus.jpg}
 # Let's build a simple Shopware 6 plugin
 
 ---
