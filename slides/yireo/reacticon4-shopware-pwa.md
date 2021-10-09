@@ -22,6 +22,14 @@
   - Fully extensible with third party extensions
 
 ---
+# Meet Shopware PWA
+- Also known as Vue Storefront 2
+  - But tailored specifically for Shopware 6
+- Modular approach
+  - Vue components, Vue plugins, Nuxt plugins, Vue Storefront modules
+  - And Shopware 6 plugins!
+
+---
 {state: main middle dark}
 {background-image: apollo/picard-laughing.gif}
 # Let's build a simple Shopware 6 plugin
