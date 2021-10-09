@@ -48,6 +48,8 @@
 - `src/SwagTrainingPwaCms.php`
 - `src/Resources/config/services.xml`
 
+These files are skipped in the following slides
+
 
 ---
 {state: main middle dark opacity}
@@ -100,8 +102,7 @@ class Config extends Struct
         $this->cmsPageUuid = $config['config']['cmsPageUuid'];
     }
 
-    public function getCmsPageUuid(): string
-    {
+    public function getCmsPageUuid(): string {
         return $this->cmsPageUuid;
     }
 }
