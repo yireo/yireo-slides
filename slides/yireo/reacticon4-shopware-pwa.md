@@ -166,14 +166,10 @@ class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
     private Config $config;
     private SalesChannelContextFactory $salesChannelContextFactory;
 
-    public function __construct(
-        SalesChannelContextFactory $salesChannelContextFactory,
-        Config $config
-    ) {
+    public function __construct(SalesChannelContextFactory $salesChannelContextFactory, Config $config) {
         $this->salesChannelContextFactory = $salesChannelContextFactory;
         $this->config = $config;
     }
-
     ...
 }
 ```
@@ -184,7 +180,6 @@ class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
 class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
 {
     ...
-
     public function create(string $token, string $salesChannelId, array $options = []): SalesChannelContext
     {
         $salesChannelContext = $this->salesChannelContextFactory->create($token, $salesChannelId, $options);
