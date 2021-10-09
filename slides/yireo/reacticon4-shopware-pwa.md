@@ -143,10 +143,7 @@ Note that `$cmsPageUuid` is protected, not private. Otherwise it is not properly
 <?xml version="1.0" ?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
-        <service id="SwagTraining\PwaCms\Config\Config">
-            <argument type="service" id="Shopware\Core\System\SystemConfig\SystemConfigService"/>
-        </service>
-
+        ...
         <service id="SwagTraining\PwaCms\Decorator\ExtendedSalesChannelContextFactory" decorates="Shopware\Core\System\SalesChannel\Context\SalesChannelContextFactory">
             <argument type="service" id=".inner"/>
             <argument type="service" id="SwagTraining\PwaCms\Config\Config"/>
