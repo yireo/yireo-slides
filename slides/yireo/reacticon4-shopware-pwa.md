@@ -111,6 +111,7 @@ class Config extends Struct
 # About `Config` struct
 - Any public getter exposes data
 - Entities are often extensible via structs
+  - Like the `SalesChannelContext` which is used in the GET request `store-api/context`
 
 ^^Note that `$cmsPageUuid` is protected, not private. Otherwise it is not properly picked up by the `Struct`.
 
