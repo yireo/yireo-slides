@@ -30,7 +30,15 @@
   - And Shopware 6 plugins!
 
 ---
-{state: main middle dark}
+# Combining both
+- Manage content via Shopping Experiences
+- Expose content via Store API
+- Load content via AJAX into PWA
+- Display content in Vue with CMS components
+- Rebuild the PWA (because of SSR)
+
+---
+{state: main middle dark octopus}
 {background-image: apollo/picard-laughing.gif}
 # Let's build a simple Shopware 6 plugin
 
