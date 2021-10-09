@@ -300,19 +300,20 @@ Note that this slot does not exist by default
 
 ---
 # Overriding `SwPersonalInfo` (1/2)
-```js
+```html
 <template>
   <div>
     <SwPluginSlot name="account-cms-page"/>
     <OriginalSwPersonalInfo />
   </div>
 </template>
+
+<script>...</script>
 ```
 
 ---
 # Overriding `SwPersonalInfo` (2/2)
-```vue
-<script>
+```js
 import OriginalSwPersonalInfo from "@theme/components/forms/SwPersonalInfo.vue";
 import SwPluginSlot from "sw-plugins/SwPluginSlot.vue";
 
@@ -323,5 +324,4 @@ export default {
     SwPluginSlot
   }
 }
-</script>
 ```
