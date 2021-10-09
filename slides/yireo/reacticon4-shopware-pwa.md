@@ -77,6 +77,13 @@
 ```
 
 ---
+# About `config.xml`
+- Adjustable via Shopware 6 Administration
+- Via `component`, you can reuse any global Vue components
+  - Check Shopware API Stoplight for core components
+  - Or build your own
+
+---
 # `Config.php`
 ```php
 namespace SwagTraining\PwaCms\Config;
@@ -100,7 +107,10 @@ class Config extends Struct
 }
 ```
 
-^^Note that `$cmsPageUuid` is protected, not private
+---
+# About `Config` struct
+
+^^Note that `$cmsPageUuid` is protected, not private. Otherwise it is not properly picked up by the `Struct`.
 
 ---
 # Service declaration (1/2)
