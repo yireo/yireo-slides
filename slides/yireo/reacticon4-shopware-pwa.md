@@ -50,8 +50,8 @@
 
 
 ---
-{state: main middle dark}
-{background-image: apollo/picard-laughing.gif}
+{state: main middle dark opacity}
+{background-image: reacticon4/octopus2.jpg}
 # Let's add a plugin configuration that is added to the JSON output of `GET store-api/context` (with valid access token)
 
 ---
