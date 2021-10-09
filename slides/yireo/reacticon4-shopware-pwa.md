@@ -322,3 +322,14 @@ export default {
   }
 }
 ```
+
+---
+# Conclusion
+- Via new slots, we can extend the PWA via custom SW6 plugins
+- Via SW6 plugins, you can unlock any content from Shopware 6
+- Including the CMS
+
+---
+{state: main middle dark opacity}
+{background-image: reacticon4/waterbears.jpg}
+# Creating supercharged Shopping Experiences in Shopware PWA
