@@ -279,6 +279,11 @@ export default defineComponent({
 ```
 
 ---
+# About this Vue component
+- Probably better to create custom Vue composable
+- Perhaps this Vue composable `loadCmsPage` could be added to Shopware PWA
+
+---
 # `config.json`
 ```json
 {
@@ -291,8 +296,10 @@ export default defineComponent({
 }
 ```
 
+Note that this slot does not exist by default
+
 ---
-# Overriding `SwPersonalInfo`
+# Overriding `SwPersonalInfo` (1/2)
 ```vue
 <template>
   <div>
@@ -300,7 +307,11 @@ export default defineComponent({
     <OriginalSwPersonalInfo />
   </div>
 </template>
+```
 
+---
+# Overriding `SwPersonalInfo` (2/2)
+```vue
 <script>
 import OriginalSwPersonalInfo from "@theme/components/forms/SwPersonalInfo.vue";
 import SwPluginSlot from "sw-plugins/SwPluginSlot.vue";
