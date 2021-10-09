@@ -14,6 +14,10 @@
 ~ Member of ExtDN (Magento Extension Developer Network)
 
 ---
+# About this talk
+Demonstrating flexibility of both Shopware PWA and Shopware CMS
+
+---
 # Meet Shopware 6 Shopping Experiences
 - Also known as the Shopware "CMS", managed via Administration
 - Modular approach
@@ -196,7 +200,7 @@ class ExtendedSalesChannelContextFactory extends SalesChannelContextFactory
 
 ---
 {state: main middle dark opacity}
-{background-image: reacticon4/octopus2.jpg}
+{background-image: reacticon4/octopus3.jpg}
 # Let's create a Vue component in the Shopware PWA, via this very same Shopware 6 plugin
 
 ---
