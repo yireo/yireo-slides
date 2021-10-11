@@ -204,10 +204,6 @@ var config = {
     - We don't need JS for this anymore. But I'm not a CSS expert.
 ~ Replace JS-driven breadcrumbs with plain HTML-only
     - Who cares about the JS logic here?
-~ Compare all of this with new frontends
-    - Vue Storefront
-    - Magento PWA Studio
-    - Hyvä Themes
 
 ---
 # Proven optimizations
@@ -377,7 +373,7 @@ It’s a good option if you don't have to many 3rd party Extension and Need opti
 ---
 # All in all, what we can do
 - Tune the hell out of the backend
-- Add Breeze, Magepack, WebP,
+- Add Breeze, Magepack, WebP, Notorama
 
 And contemplate on what is next in the future
 
