@@ -257,7 +257,7 @@ It's an alternative JavaScript frontend for Magento 2 that boosts the default Lu
 - Redis cache enabled
 - Lighthouse Mobile test results
 
-<img src=""
+<img src="" />
 
 
 
