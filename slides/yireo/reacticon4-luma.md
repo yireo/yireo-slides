@@ -251,6 +251,43 @@ What is Swissup Breeze? And how does it work?
 It's an alternative JavaScript frontend for Magento 2 that boosts the default Luma theme performance by replacing all scripts with simplified and/or updated versions
 
 ---
+# SwissupLabs Breeze setup
+Run the following commands
+```bash
+composer require swissup/module-marketplace
+bin/magento setup:upgrade
+bin/magento marketplace:channel:enable swissuplabs
+composer require swissup/breeze
+bin/magento module:enable Swissup_Breeze
+```
+
+Next, navigate to your theme configuration and enable Breeze
+
+???
+```json
+{
+    "http-basic": {
+        "ci.swissuplabs.com": {
+            "username": "m2.sirius.yr",
+            "password": "c3dpc3N1cGxhYnMuY29t:cZiJMmnGAGIoIg/R9hvcqzmpmVGJ3aRw:"
+        }
+    }
+}
+```
+
+---
+# Breeze features
+- Removing pointless CSS
+  - `mage/calendar.css`
+  - `mage/gallery/gallery.css`
+- Replaces numerous Magento JS core scripts
+  - Updates of numerous 3rd party libraries
+  - Better product gallery
+  - Better swatch renderer
+  - See `view/frontend/layout/breeze_default.xml`
+- Addition of [turbolinks](https://github.com/turbolinks/turbolinks)
+
+---
 # Homepage without Breeze
 
 <img src="images/reacticon4/slide-2.jpg" style="float:right;width:50%" />
@@ -330,48 +367,9 @@ See http://docs.swissuplabs.com/m2/extensions/breeze/devdocs/
 
 ---
 # Pros & Cons of Breeze combined
-Conclusion
-
-
----
-# SwissupLabs Breeze setup
-Run the following commands
-```bash
-composer require swissup/module-marketplace
-bin/magento setup:upgrade
-bin/magento marketplace:channel:enable swissuplabs
-composer require swissup/breeze
-bin/magento module:enable Swissup_Breeze
-```
-
-Next, navigate to your theme configuration and enable Breeze
-
-???
-```json
-{
-    "http-basic": {
-        "ci.swissuplabs.com": {
-            "username": "m2.sirius.yr",
-            "password": "c3dpc3N1cGxhYnMuY29t:cZiJMmnGAGIoIg/R9hvcqzmpmVGJ3aRw:"
-        }
-    }
-}
-```
-
----
-# Breeze features
-- Removing pointless CSS
-  - `mage/calendar.css`
-  - `mage/gallery/gallery.css`
-- Replaces numerous Magento JS core scripts
-  - Updates of numerous 3rd party libraries
-  - Better product gallery
-  - Better swatch renderer
-  - See `view/frontend/layout/breeze_default.xml`
-- Addition of [turbolinks](https://github.com/turbolinks/turbolinks)
-- Also see [devdocs](https://docs.swissuplabs.com/m2/extensions/breeze/devdocs/)
-
-But: For this to work, your own JS needs to be converted to the Breeze structure ([docs](https://docs.swissuplabs.com/m2/extensions/breeze/devdocs/theme-js/))
+A nice initiatief to update the Luma stack with newer and faster scripts, making the Magento 2 front-end faster, but…
+Next to your Theme, you need to change and administer your extensions to be Breeze compatible.
+It’s a good option if you don't have to many 3rd party Extension and Need optimisation voor a Luma based Magento 2 Theme.
 
 ---
 # Conclusion
