@@ -257,7 +257,16 @@ It's an alternative JavaScript frontend for Magento 2 that boosts the default Lu
 - Redis cache enabled
 - Lighthouse Mobile test results
 
-<img src="" />
+<img src="images/reacticon4/slide-2.jpg" />
+
+---
+# Homepage with Breeze
+- Magento 2.3.4 clean install
+- Sample data
+- Redis cache enabled
+- Lighthouse Mobile test results
+
+<img src="images/reacticon4/slide-3.jpg" />
 
 
 
