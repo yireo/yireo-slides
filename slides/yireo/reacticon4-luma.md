@@ -303,7 +303,16 @@ It's an alternative JavaScript frontend for Magento 2 that boosts the default Lu
 ---
 # Result from actual site with Luma-based theme
 
-<img src="images/reacticon4/slide-7.jpg" style="float:right;width:50%" />
+<img src="images/reacticon4/slide-7.jpg" style="width:90%" />
+
+---
+# Result from actual site with Snowdog-based theme
+
+<img src="images/reacticon4/slide-8.jpg" style="width:90%" />
+
+---
+# Pros
+
 
 ---
 # SwissupLabs Breeze setup
