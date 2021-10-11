@@ -246,6 +246,20 @@ bin/magento config:set yireo_webp2/settings/enabled 1
 # Swissup Breeze
 ### A fresh wind for your Magento Frontend
 
+What is Swissup Breeze? And how does it work?
+
+It's an alternative JavaScript frontend for Magento 2 that boosts the default Luma theme performance by replacing all scripts with simplified and/or updated versions
+
+---
+# Homepage without Breeze
+- Magento 2.3.4 clean install
+- Sample data
+- Redis cache enabled
+- Lighthouse Mobile test results
+
+<img src=""
+
+
 
 
 
