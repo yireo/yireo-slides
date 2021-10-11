@@ -2661,6 +2661,5 @@ html.heman section[data-state~="dark"] h2 {
   text-shadow: 1px 0px #000;
 }
 html.reacticon4 body {
-  font-family: Arial;
-  font-size: 150%;
+  font-family: Handlee;
 }
