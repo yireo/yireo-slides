@@ -252,30 +252,33 @@ It's an alternative JavaScript frontend for Magento 2 that boosts the default Lu
 
 ---
 # Homepage without Breeze
+
+<img src="images/reacticon4/slide-2.jpg" style="float:right;width:50%" />
+
 - Magento 2.3.4 clean install
 - Sample data
 - Redis cache enabled
 - Lighthouse Mobile test results
-
-<img src="images/reacticon4/slide-2.jpg" align="left" />
 
 ---
 # Homepage with Breeze
+
+<img src="images/reacticon4/slide-3.jpg" style="float:right;width:50%" />
+
 - Magento 2.3.4 clean install
 - Sample data
 - Redis cache enabled
 - Lighthouse Mobile test results
-
-<img src="images/reacticon4/slide-3.jpg" />
 
 ---
 # Category page without Breeze
+
+<img src="images/reacticon4/slide-4.jpg" style="float:right;width:50%" />
+
 - Magento 2.3.4 clean install
 - Sample data
 - Redis cache enabled
 - Lighthouse Mobile test results
-
-<img src="images/reacticon4/slide-4.jpg" />
 
 ---
 # Category page with Breeze
