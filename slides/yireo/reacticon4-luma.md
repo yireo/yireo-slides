@@ -282,23 +282,28 @@ It's an alternative JavaScript frontend for Magento 2 that boosts the default Lu
 
 ---
 # Category page with Breeze
+
+<img src="images/reacticon4/slide-5.jpg" style="float:right;width:50%" />
+
 - Magento 2.3.4 clean install
 - Sample data
 - Redis cache enabled
 - Lighthouse Mobile test results
-
-<img src="images/reacticon4/slide-5.jpg" />
 
 ---
 # Product page with Breeze
+
+<img src="images/reacticon4/slide-6.jpg" style="float:right;width:50%" />
+
 - Magento 2.3.4 clean install
 - Sample data
 - Redis cache enabled
 - Lighthouse Mobile test results
 
-<img src="images/reacticon4/slide-6.jpg" />
+---
+# Result from actual site with Luma-based theme
 
-
+<img src="images/reacticon4/slide-7.jpg" style="float:right;width:50%" />
 
 ---
 # SwissupLabs Breeze setup
