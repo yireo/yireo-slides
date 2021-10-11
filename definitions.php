@@ -7,13 +7,13 @@ $slideGroups = [
             [
                 'file' => 'yireo/reacticon4-shopware-pwa',
                 'title' => 'Creating supercharged Shopping Experiences in Shopware PWA (Reacticon 4)',
-                'style' => 'mageid',
+                'style' => 'reacticon4',
                 'renderer' => 'reveal'
             ],
             [
                 'file' => 'yireo/reacticon4-luma',
                 'title' => 'Optimizing Luma legacy anyway (Reacticon 4)',
-                'style' => 'mageid',
+                'style' => 'reacticon4',
                 'renderer' => 'reveal'
             ],
             [
