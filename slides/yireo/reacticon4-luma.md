@@ -312,17 +312,25 @@ It's an alternative JavaScript frontend for Magento 2 that boosts the default Lu
 
 ---
 # Pros of using Breeze
-- Replaces “old” Magento scripts, with simplified and updated versions
+Replaces “old” Magento scripts, with simplified and updated versions
 
 Library	Replacement :
 - jQuery => Cash - https://github.com/fabiospampinato/cash
 - Underscore => Newest Underscore Version - https://underscorejs.org/
 - Knockout => Newest Knockout Version - https://knockoutjs.com/
 
-See http://docs.swissuplabs.com/m2/extensions/breeze/devdocs/js-stack/ for more details about removed-updated and added scripts
+See http://docs.swissuplabs.com/m2/extensions/breeze/devdocs/js-stack/
 
 ---
 # Cons of using Breeze
+You need to make your theme and extensions “Breeze-friendly”. Since the Breeze replaces javascript code with its own version,
+you will need to write separate Breeze-compatible version of your javascript code.
+
+See http://docs.swissuplabs.com/m2/extensions/breeze/devdocs/
+
+---
+# Pros & Cons of Breeze combined
+Conclusion
 
 
 ---
