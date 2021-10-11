@@ -339,10 +339,11 @@ Next, navigate to your theme configuration and enable Breeze
 # Pros of using Breeze (1/3)
 Replaces “old” Magento scripts, with simplified and updated versions
 
-Library	Replacement :
+Library	replacements & additions:
 - jQuery => Cash - https://github.com/fabiospampinato/cash
 - Underscore => Newest Underscore Version - https://underscorejs.org/
 - Knockout => Newest Knockout Version - https://knockoutjs.com/
+- [turbolinks](https://github.com/turbolinks/turbolinks)
 
 See http://docs.swissuplabs.com/m2/extensions/breeze/devdocs/js-stack/
 
@@ -355,12 +356,10 @@ Removing pointless CSS
 ---
 # Pros of using Breeze (3/3)
 Replaces numerous Magento JS core scripts
-  - Updates of numerous 3rd party libraries
-  - Better product gallery
-  - Better swatch renderer
-  - See `view/frontend/layout/breeze_default.xml`
-- Addition of [turbolinks](https://github.com/turbolinks/turbolinks)
 
+- Better product gallery
+- Better swatch renderer
+- See `view/frontend/layout/breeze_default.xml`
 
 ---
 # Cons of using Breeze
@@ -374,6 +373,13 @@ See http://docs.swissuplabs.com/m2/extensions/breeze/devdocs/
 A nice initiatief to update the Luma stack with newer and faster scripts, making the Magento 2 front-end faster, but…
 Next to your Theme, you need to change and administer your extensions to be Breeze compatible.
 It’s a good option if you don't have to many 3rd party Extension and Need optimisation voor a Luma based Magento 2 Theme.
+
+---
+# All in all, what we can do
+- Tune the hell out of the backend
+- Add Breeze, Magepack, WebP,
+
+And contemplate on what is next in the future
 
 ---
 # Conclusion
