@@ -365,10 +365,10 @@ you will need to write separate Breeze-compatible version of your javascript cod
 See http://docs.swissuplabs.com/m2/extensions/breeze/devdocs/
 
 ---
-# Pros & Cons of Breeze combined
-A nice initiatief to update the Luma stack with newer and faster scripts, making the Magento 2 front-end faster, but…
-Next to your Theme, you need to change and administer your extensions to be Breeze compatible.
-It’s a good option if you don't have to many 3rd party Extension and Need optimisation voor a Luma based Magento 2 Theme.
+# Conclusion on Breeze
+A nice alternative to update the Luma stack with newer and faster scripts, making the Magento 2 front-end faster, but…
+
+Next to your theme, you need to change and administer your extensions to be Breeze compatible. It’s a good option if you don't have to many 3rd party Extension and Need optimisation voor a Luma based Magento 2 Theme.
 
 ---
 # All in all, what we can do
