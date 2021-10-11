@@ -276,18 +276,6 @@ Next, navigate to your theme configuration and enable Breeze
 ```
 
 ---
-# Breeze features
-- Removing pointless CSS
-  - `mage/calendar.css`
-  - `mage/gallery/gallery.css`
-- Replaces numerous Magento JS core scripts
-  - Updates of numerous 3rd party libraries
-  - Better product gallery
-  - Better swatch renderer
-  - See `view/frontend/layout/breeze_default.xml`
-- Addition of [turbolinks](https://github.com/turbolinks/turbolinks)
-
----
 # Homepage without Breeze
 
 <img src="images/reacticon4/slide-2.jpg" style="float:right;width:50%" />
@@ -348,7 +336,7 @@ Next, navigate to your theme configuration and enable Breeze
 <img src="images/reacticon4/slide-8.jpg" style="width:90%" />
 
 ---
-# Pros of using Breeze
+# Pros of using Breeze (1/3)
 Replaces “old” Magento scripts, with simplified and updated versions
 
 Library	Replacement :
@@ -357,6 +345,22 @@ Library	Replacement :
 - Knockout => Newest Knockout Version - https://knockoutjs.com/
 
 See http://docs.swissuplabs.com/m2/extensions/breeze/devdocs/js-stack/
+
+---
+# Pros of using Breeze (2/3)
+Removing pointless CSS
+- `mage/calendar.css`
+- `mage/gallery/gallery.css`
+
+---
+# Pros of using Breeze (3/3)
+Replaces numerous Magento JS core scripts
+  - Updates of numerous 3rd party libraries
+  - Better product gallery
+  - Better swatch renderer
+  - See `view/frontend/layout/breeze_default.xml`
+- Addition of [turbolinks](https://github.com/turbolinks/turbolinks)
+
 
 ---
 # Cons of using Breeze
