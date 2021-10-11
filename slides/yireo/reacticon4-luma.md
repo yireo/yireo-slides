@@ -243,6 +243,13 @@ bin/magento config:set yireo_webp2/settings/enabled 1
 ```
 
 ---
+# Swissup Breeze
+### A fresh wind for your Magento Frontend
+
+
+
+
+---
 # SwissupLabs Breeze setup
 Run the following commands
 ```bash
