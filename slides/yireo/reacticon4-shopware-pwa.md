@@ -22,14 +22,14 @@ Demonstrating flexibility of both Shopware PWA and Shopware CMS
 - Also known as the Shopware "CMS", managed via Administration
 - Modular approach
   - CMS pages, sections, blocks and elements
-  - Fully extensible with third party extensions
+  - Fully extensible with 3rd party Shopware 6 plugins
 
 ---
 # Meet Shopware PWA
 - Also known as Vue Storefront 2, but tailored specifically for Shopware 6
 - Modular approach
   - Vue components, Vue plugins, Nuxt plugins, Vue Storefront modules
-  - And Shopware 6 plugins!
+  - And extensible with 3rd party Shopware 6 plugins
 
 ---
 # Combining both
