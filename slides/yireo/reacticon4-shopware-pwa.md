@@ -333,3 +333,4 @@ export default {
 {state: main middle dark opacity}
 {background-image: reacticon4/waterbears.jpg}
 # Thanks
+### [yireo-shopware6/swag-training-pwa-cms](https://github.com/yireo-shopware6/swag-training-pwa-cms)
