@@ -80,16 +80,17 @@ Thanks to all contributors making Vue Storefront and more specifically Vue Store
 # Requirements
 - Node 16
 - Magento 2.4.3
-  - GraphQL API enabled - don't use https://github.com/yireo/magento2-replace-graphql
-  - Changed query complexity and query depth
-
-Use [Caravel_GraphQlConfig](https://github.com/caravelx/module-graphql-config) or [Yireo_CustomGraphQlQueryLimiter](https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter)
+  - GraphQL API enabled
+    - Don't use [yireo/magento2-replace-graphql](https://github.com/yireo/magento2-replace-graphql)
+  - Change query complexity and query depth
+    - Use [Caravel_GraphQlConfig](https://github.com/caravelx/module-graphql-config)
+    - Or [Yireo_CustomGraphQlQueryLimiter](https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter)
 
 ---
 # Development tools
 - Vue Devtools
 - VSCode or some other editor
-- GraphiQL tool like ChromeiQL
+- GraphiQL tool like ChromeiQL or Altair
 
 ---
 # Installation
@@ -101,7 +102,7 @@ And then run:
 vsf init magento2-demo
 ```
 
-^^In the wizard, choose `Magento 2`
+In the wizard, choose `Magento 2`
 
 ---
 # Up and running
