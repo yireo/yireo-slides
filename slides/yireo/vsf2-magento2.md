@@ -33,16 +33,18 @@
 # Vue Storefront 1
 - Tight integration with Magento 1 & Magento 2
 - Requirement for Node middleware
+- Tough customization and SSR
 - Legacy code
 
 ---
 # Vue Storefront 2
 - Based on NuxtJS
+- Requirement for Node middleware
 - Depending on Vue composables
 - Fresh start
 
 ---
-# Concepts
+# Concepts of component architecture
 - Build your own, instead of inheriting legacy
 - Composition over inheritance
 - Composables over parent/child theming
@@ -246,7 +248,7 @@ module.exports = {
 - Webpack alias, Webpack plugins
 
 ---
-# Concepts
+# Remember the concepts
 - Build your own, instead of inheriting legacy
 - Composition over inheritance
 - Composables over parent/child theming
