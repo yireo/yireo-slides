@@ -84,6 +84,12 @@ Thanks to all contributors making Vue Storefront and more specifically Vue Store
 ^^Use [Caravel_GraphQlConfig](https://github.com/caravelx/module-graphql-config) or [Yireo_CustomGraphQlQueryLimiter](https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter)
 
 ---
+# Development tools
+- Vue Devtools
+- VSCode or some other editor
+- GraphiQL tool like ChromeiQL
+
+---
 # Installation
 ```bash
 npm i -g @vue-storefront/cli
@@ -148,6 +154,106 @@ File `config/dev.json`
 }
 ```
 
+# Customization of code
+
+---
+# Customization of code
+- Overriding pages
+- Overriding components
+- Overriding CSS
+- Overriding composables
+- Overriding GraphQL queries & mutations
+
+^^All with as little core hacks as possible
+
+---
+# Overriding pages
+- Modify `routes.js`
+- Or customize the original `pages/*`
+- Or create a Nuxt middleware to extend router
+
+---
+# Overriding layouts
+- Modify `routes.js` to refer to a new layout
+- Or customize the original `layouts/*`
+- Or create a Nuxt middleware to extend router
+
+---
+# Overriding components
+- Customize the original `components/*`
+- Or override via Webpack ...
+
+```js
+export default {
+  build: {
+    extend(config) {
+      config.resolve.plugins = [
+        new Vsf2ThemeInheritancePlugin({
+          originalPath: path.resolve(__dirname, 'components'),
+          newPath: path.resolve(__dirname, 'custom-components')
+        })
+      ]
+    }
+  }
+}
+```
+
+^^See https://github.com/yireo/vsf2-webpack-inheritance-plugin
+
+
+---
+# Overriding CSS
+- Just edit the `assets/styles.scss` file. It is empty.
+
+---
+# Overriding composables
+- Don't override composables.
+
+---
+# Overriding GraphQL calls
+
+---
+# Customizing a query file
+- Create folder `queries/` (or simialar)
+- Copy file from `api-client/` to `queries/`
+  - Example `productList.ts`
+
+---
+# Registering the custom query file
+File `middleware.config.js`:
+```js
+import productsQuery from './queries/productList';
+
+module.exports = {
+  integrations: {
+    magento: {
+      productsQuery: {
+        products: ({ query, variables }) => {
+          return { query: productsQuery, variables };
+        },
+      },
+      ...
+    },
+  },
+};
+```
+
+---
+# Adding new attributes
+- Extend upon GraphQL API with custom Magento module
+  - `etc/schema.graphqls`
+- Override query as mentioned before
+
+---
+# More customization tricks
+- Nuxt plugins, Nuxt middleware, Vue plugins
+- Webpack alias, Webpack plugins
+
+---
+# Concepts
+- Build your own, instead of inheriting legacy
+- Composition over inheritance
+- Composables over parent/child theming
 
 ---
 # Other topics
