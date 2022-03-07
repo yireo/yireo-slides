@@ -213,13 +213,13 @@ See https://github.com/yireo/vsf2-webpack-inheritance-plugin
 
 ---
 # Overriding composables
-- Don't override composables.
+- Don't override composables
+- Compose your own composables out of existing composables instead
 
 ---
-# Customizing a query file
+# Overriding GraphQL queries
 - Create folder `queries/` (or simialar)
-- Copy file from `api-client/` to `queries/`
-  - Example `productList.ts`
+- Copy file from `api-client/` to `queries/` (for example `productList.ts`)
 
 ---
 # Registering the custom query file
