@@ -121,11 +121,13 @@ File `.env`:
 ```env
 NUXT_APP_ENV=development
 NUXT_APP_PORT=3000
+
 MAGENTO_GRAPHQL=http://magento.local/graphql
+MAGENTO_BASE_URL=http://magento.local/
 MAGENTO_EXTERNAL_CHECKOUT=false
 MAGENTO_EXTERNAL_CHECKOUT_URL=http://magento.local/checkout
 MAGENTO_EXTERNAL_CHECKOUT_SYNC_PATH=/vue/cart/sync
-MAGENTO_BASE_URL=http://magento.local/
+
 IMAGE_PROVIDER=ipx
 IMAGE_PROVIDER_BASE_URL=
 ```
@@ -137,7 +139,7 @@ File `.env`:
 STORE_ENV=dev
 ```
 
-^^Variable `STORE_ENV` points to `dev`, which leads to configuration file `config/dev.json`
+Variable `STORE_ENV` points to `dev`, which leads to configuration file `config/dev.json`
 
 
 ---
@@ -157,6 +159,8 @@ File `config/dev.json`
 }
 ```
 
+---
+{state: main middle}
 # Customization of code
 
 ---
