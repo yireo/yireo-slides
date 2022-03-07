@@ -17,6 +17,34 @@
   ~ Magento Master 2017/2018/2019 Mover
   ~ Member of ExtDN (Magento Extension Developer Network)
 
+---
+# Vue Storefront 2 is green
+
+@todo
+[ukraine flag] = [green logo]
+
+---
+# My Vue Storefront story
+- First meet with Filip at Reacticon 1
+- Vue Storefront 1 live training
+- VSF1 consults and coding experiments
+- Visits in Wrocław, Poland
+- Vue Storefront 1 on-demand training
+- Vue Storefront 2 on-demand training (Q2)
+
+---
+# Kudos
+
+Thanks to all contributors making Vue Storefront and more specifically Vue Storefront 2 for Magento 2 possible
+
+
+---
+# Other topics
+- SSR and server-side optimization
+- Image providers
+- Languages & internationalization
+- GraphQL customization
+- Performance
 
 
 ---
