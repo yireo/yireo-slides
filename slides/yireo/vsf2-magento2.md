@@ -246,9 +246,10 @@ module.exports = {
 
 ---
 # More customization
+- Custom Vue / Nuxt / VSF2 composables
 - Nuxt plugins, Nuxt middleware, Vue plugins
 - Webpack alias, Webpack plugins
-- And modifying the GraphQL 
+- And modifying the GraphQL API in Magento 2
 
 ---
 # Remember the concepts
@@ -260,7 +261,6 @@ module.exports = {
 # Other topics
 - SSR and server-side optimization
 - Image providers
-- Languages & internationalization
 - GraphQL customization
 - Performance
 
@@ -269,4 +269,4 @@ module.exports = {
 {state: main middle dark}
 {background-image: mageid/clogs.jpg}
 # Thanks
-## @jissereitsma / @yireo
+# @jissereitsma / @yireo
