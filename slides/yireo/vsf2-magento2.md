@@ -245,15 +245,10 @@ module.exports = {
 ```
 
 ---
-# Adding new attributes
-- Extend upon GraphQL API with custom Magento module
-  - `etc/schema.graphqls`
-- Override query as mentioned before
-
----
-# More customization tricks
+# More customization
 - Nuxt plugins, Nuxt middleware, Vue plugins
 - Webpack alias, Webpack plugins
+- And modifying the GraphQL 
 
 ---
 # Remember the concepts
