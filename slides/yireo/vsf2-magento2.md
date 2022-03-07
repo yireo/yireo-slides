@@ -249,6 +249,7 @@ module.exports = {
 - Custom Vue / Nuxt / VSF2 composables
 - Nuxt plugins, Nuxt middleware, Vue plugins
 - Webpack alias, Webpack plugins
+- Image providers
 - And modifying the GraphQL API in Magento 2
 
 ---
@@ -256,14 +257,6 @@ module.exports = {
 - Build your own, instead of inheriting legacy
 - Composition over inheritance
 - Composables over parent/child theming
-
----
-# Other topics
-- SSR and server-side optimization
-- Image providers
-- GraphQL customization
-- Performance
-
 
 ---
 {state: main middle dark}
