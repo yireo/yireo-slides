@@ -50,7 +50,7 @@
 - Composables over parent/child theming
 
 ---
-# Current status of M2 integration
+# Current status of Magento 2 integration
 - Beta and not ready for production usage
 - Most product types supported
   - Simple, Grouped, Configurable, Bundled = ok
@@ -59,7 +59,7 @@
 - Minicart working, no standalone cart page yet
 - Customer account features still in progress
 
-^^See https://docs.vuestorefront.io/magento/guide/functional-catalog.html
+See https://docs.vuestorefront.io/magento/guide/functional-catalog.html
 
 ---
 # Kudos
@@ -71,7 +71,10 @@ Thanks to all contributors making Vue Storefront and more specifically Vue Store
 - Caravelx
 - And many individual developers
 
-# Installing Vue Storefront 2 for Magento 2
+---
+{state: main middle}
+# Installing Vue Storefront 2
+# for Magento 2
 
 ---
 # Requirements
