@@ -1,5 +1,5 @@
-{state: main middle dark}
-{background-image: vsf2/vsf2bus.jpg}
+{state: main middle}
+{background-image: vsf2/vsf2-logo.webp}
 # Getting started
 # with Vue Storefront 2
 # for Magento 2
@@ -19,10 +19,9 @@
   ~ Member of ExtDN (Magento Extension Developer Network)
 
 ---
+{state: main middle dark}
+{background-image: vsf2/vsf2bus.jpg}
 # Vue Storefront 2 is green
-
-@todo
-[ukraine flag] = [green logo]
 
 ---
 # My Vue Storefront story
