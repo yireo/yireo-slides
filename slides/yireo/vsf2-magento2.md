@@ -8,7 +8,7 @@
 # Jisse Reitsma
 ~ Founder of Yireo
 ~ Trainer of backend and frontend developers
-- Magento, React, PWA Studio, Vue Storefront, GraphQL
+- Magento, React, PWA Studio, Shopware 6, Vue Storefront, GraphQL
   ~ Creator of MageTestFest (2017, 2019)
   ~ Creator of Reacticon (2018 x2)
   ~ Creator of Reacticon v3 (October 2020)

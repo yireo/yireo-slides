@@ -5,6 +5,12 @@ $slideGroups = [
         'style' => 'meetmagento',
         'slides' => [
             [
+                'file' => 'yireo/vsf2-magento2',
+                'title' => 'Vue Storefront 2 for Magento 2 (VSF Meetup by Aureate Labs',
+                'style' => 'mageid',
+                'renderer' => 'reveal'
+            ],
+            [
                 'file' => 'yireo/reacticon4-shopware-pwa',
                 'title' => 'Creating supercharged Shopping Experiences in Shopware PWA (Reacticon 4)',
                 'style' => 'reacticon4',
