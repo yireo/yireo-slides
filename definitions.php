@@ -7,7 +7,7 @@ $slideGroups = [
             [
                 'file' => 'yireo/vsf2-magento2',
                 'title' => 'Vue Storefront 2 for Magento 2 (VSF Conference India 2022)',
-                'style' => 'mageid',
+                'style' => 'vsf2m2',
                 'renderer' => 'reveal'
             ],
             [
