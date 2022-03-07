@@ -1,4 +1,5 @@
 {state: main middle dark}
+{background-image: generic/jisse.jpg}
 # Getting started
 # with Vue Storefront 2
 # for Magento 2
