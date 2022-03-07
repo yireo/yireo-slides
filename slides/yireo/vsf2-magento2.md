@@ -171,7 +171,7 @@ File `config/dev.json`
 - Overriding composables
 - Overriding GraphQL queries & mutations
 
-^^All with as little core hacks as possible
+All with as little core hacks as possible
 
 ---
 # Overriding pages
@@ -184,6 +184,10 @@ File `config/dev.json`
 - Modify `routes.js` to refer to a new layout
 - Or customize the original `layouts/*`
 - Or create a Nuxt middleware to extend router
+
+---
+# Overriding CSS
+- Just edit the `assets/styles.scss` file. It is empty.
 
 ---
 # Overriding components
@@ -205,12 +209,7 @@ export default {
 }
 ```
 
-^^See https://github.com/yireo/vsf2-webpack-inheritance-plugin
-
-
----
-# Overriding CSS
-- Just edit the `assets/styles.scss` file. It is empty.
+See https://github.com/yireo/vsf2-webpack-inheritance-plugin
 
 ---
 # Overriding composables
