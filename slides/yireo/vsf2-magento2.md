@@ -1,4 +1,4 @@
-{state: main middle}
+{state: main middle dark}
 {background-image: vsf2/vsf2-logo.webp}
 # Getting started
 # with Vue Storefront 2
