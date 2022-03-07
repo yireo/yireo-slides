@@ -1,6 +1,7 @@
 {state: main middle dark}
-# Getting started with Vue Storefront 2
-## for Magento 2
+# Getting started
+# with Vue Storefront 2
+# for Magento 2
 
 ---
 {state: speaker}
