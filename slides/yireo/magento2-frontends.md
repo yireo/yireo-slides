@@ -364,14 +364,20 @@ yarn create @magento/pwa
 yarn watch
 ```
 
-Magento sample-data (Venia):
-```bash
-git clone https://github.com/magento-research/pwa-studio.git
-cp pwa-studio/packages/venia-concept/deployVeniaSampleData.sh .
-chmod 755 deployVeniaSampleData.sh
-./deployVeniaSampleData.sh --yes
-```
+---
+{state: main middle}
+# Quick GraphQL rundown
 
+---
+# Main PWA Studio pilars
+- Venia Concept theme
+- Venia UI component library
+- Peregrine hook library
+- Buildpack
+- Interception API
+- UPWARD for SSR
+
+---
 # Extending Venia
 - Tree replacement
 - Webpack-based replacements
