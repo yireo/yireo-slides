@@ -369,6 +369,18 @@ chmod 755 deployVeniaSampleData.sh
 - Targetables
 
 ---
+# Tree replacement
+- Let's add `Example` to `Main`
+- Override `Main`
+- Override `App`
+- Override `index.js`
+
+---
+# Webpack-based replacements
+- Foomans Override Resolver
+- 
+
+---
 # Key take-aways
 - Venia is a Concept Theme
 - Target Interception allows for extensibility
