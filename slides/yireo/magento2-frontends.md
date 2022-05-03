@@ -468,6 +468,23 @@ yarn dev
 ```
 
 ---
+# Example override
+```js
+export default {
+  build: {
+    extend(config) {
+      config.resolve.plugins = [
+        new Vsf2ThemeInheritancePlugin({
+          originalPath: path.resolve(__dirname, 'components'),
+          newPath: path.resolve(__dirname, 'custom-components')
+        })
+      ]
+    }
+  }
+}
+```
+
+---
 # Key concept
 - Vue components with composables
 - Vue composable state
