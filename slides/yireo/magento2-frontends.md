@@ -2,6 +2,17 @@
 # Magento 2 Frontends
 # in 2022
 
+
+---
+{state: speaker}
+{background-image: generic/jisse.jpg}
+# Jisse Reitsma
+~ Founder of Yireo
+~ Creator of MageTestFest (2017, 2019)
+~ Creator of Reacticon (2018 x2, 2020, 2021)
+~ Magento Master 2017/2018/2019 Mover
+~ Trainer of backend and frontend developers
+
 ---
 # Magento 2 frontends in 2022
 - Magento Blank & Magento Luma
