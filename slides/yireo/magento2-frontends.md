@@ -348,6 +348,11 @@ bin/magento cache:enable full_page
     - React uses Apollo Client to connect
 
 ---
+# Getting started with React
+Create React App:
+
+
+---
 # PWA Studio quick start
 PWA setup:
 ```bash
@@ -378,13 +383,20 @@ chmod 755 deployVeniaSampleData.sh
 ---
 # Webpack-based replacements
 - Foomans Override Resolver
-- 
+- Lars Roettig his method
+- Custom Webpack solution
+- ...
+
+---
+# Targetables
+
 
 ---
 # Key take-aways
-- Venia is a Concept Theme
-- Target Interception allows for extensibility
+- Venia is a Concept Theme, not a parent theme
+- Target Interception allows for extensibility but makes things complex as well
 - UPWARD will be phased out, React SSR will be used instead
+- Why use 
 
 ---
 {state: main middle}
