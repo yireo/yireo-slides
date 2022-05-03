@@ -332,6 +332,7 @@ bin/magento cache:enable full_page
 
 ---
 {state: main middle}
+# ~~Magento PWA Studio~~
 # Adobe PWA Studio
 
 ---
