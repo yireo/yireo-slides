@@ -273,11 +273,12 @@ bin/magento cache:enable full_page
     + *Advanced > System > Full Page Cache*
 
 ---
+{state: main middle}
 # This is all trying to fix something that is broken from the start
 
 ---
 {state: main middle}
-# Luma hasn't been modernized in 5 years time
+# Luma hasn't been modernized in 6 years time
 
 ---
 {state: main middle}
