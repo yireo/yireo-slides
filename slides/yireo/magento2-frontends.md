@@ -401,6 +401,9 @@ yarn watch
 # Target interception
 - Trick in Webpack
 - Features
+  - Create routes
+  - Offer rich content renderers (for PageBuilder)
+  - Wrapping talons
 - Targetables
 
 ---
