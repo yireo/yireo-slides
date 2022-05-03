@@ -451,7 +451,13 @@ module.exports = targets => {
 # Getting started
 ```bash
 npm i -g @vue-storefront/cli
+vsf init vsf2demo
+```
 
+```bash
+cd vsf2demo
+yarn install
+yarn dev
 ```
 
 ---
