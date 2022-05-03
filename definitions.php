@@ -8,7 +8,7 @@ $slideGroups = [
                 'file' => 'yireo/magento2-frontends',
                 'title' => 'Magento 2 frontends in 2022',
                 'style' => 'multisafepay',
-                'footer' => 'Laravel Groningen Meetup (@beeproger) - @yireo / @jissereitsma',
+                'footer' => '<div class="logo"><img src="images/MultiSafepay-logo-color.png"/><img src="images/yireo-logo.png"/></div>',
                 'renderer' => 'reveal'
             ],
             [
