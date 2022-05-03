@@ -430,8 +430,7 @@ module.exports = targets => {
 - Venia is a Concept Theme, not a parent theme
 - Target Interception allows for extensibility but makes things complex as well
 - UPWARD will be phased out, React SSR will be used instead
-- Why use 
-
+- Why use Buildpack?
 
 ---
 {state: main middle}
@@ -447,6 +446,9 @@ module.exports = targets => {
     - CMS, ElasticSearch, ERPs, etc
 
 ^^Vue Storefront 2 connector for Magento 2 is almost done
+
+---
+# Getting started
 
 ---
 # Key concept
