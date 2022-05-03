@@ -426,11 +426,18 @@ module.exports = targets => {
 ```
 
 ---
+# SSR
+~ Currently supported via UPWARD
+~ UPWARD PHP is dead-slow
+~ UPWARD YAML is horrible to read
+~ UPWARD is going to be deprecated
+
+---
 # Key take-aways
-- Venia is a Concept Theme, not a parent theme
-- Target Interception allows for extensibility but makes things complex as well
-- UPWARD will be phased out, React SSR will be used instead
-- Why use Buildpack?
+~ Venia is a Concept Theme, not a parent theme
+~ Target Interception allows for extensibility but makes things complex as well
+~ UPWARD will be phased out, React SSR will be used instead
+~ Why use Buildpack?
 
 ---
 {state: main middle}
