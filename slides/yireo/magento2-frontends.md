@@ -339,7 +339,7 @@ bin/magento cache:enable full_page
 # Adobe PWA Studio
 - React components and hooks
     - Venia theme
-    - Peregrine
+    - Peregrine hooks (talons)
 - Webpack environment
     - Buildpack with Google Workbox
     - UPWARD proxy
@@ -350,7 +350,11 @@ bin/magento cache:enable full_page
 ---
 # Getting started with React
 Create React App:
-
+```bash
+npx create-react-app my-app
+cd my-app
+yarn start
+```
 
 ---
 # PWA Studio quick start
