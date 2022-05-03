@@ -389,10 +389,10 @@ yarn watch
 
 ---
 # Tree replacement
-- Let's add `Example` to `Main`
-- Override `Main`
-- Override `App`
-- Override `index.js`
+- Let's add `Example` component to `Main` component
+- Override `Main` component
+- Override `App` component
+- Override `index.js` component
 
 ---
 # Webpack-based replacements
