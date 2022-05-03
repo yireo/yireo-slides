@@ -474,6 +474,7 @@ yarn dev
 - Vue components with composables
 - Vue composable state
 - Apollo Client for GraphQL calls
+- SSR built into (thanks to Nuxt)
 - Overriding components is not supported
 
 ^^Perhaps building your own component tree and then adding Vue Storefront 2 elements is an option?
