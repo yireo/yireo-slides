@@ -366,8 +366,8 @@ chmod 755 deployVeniaSampleData.sh
 ---
 # Key take-aways
 - Venia is a Concept Theme
-- Target Interception API
-- ~~UPWARD for custom SSR solution~~
+- Target Interception allows for extensibility
+- UPWARD will be phased out, React SSR will be used instead
 
 ---
 {state: main middle}
