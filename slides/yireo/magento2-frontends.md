@@ -432,6 +432,7 @@ module.exports = targets => {
 - UPWARD will be phased out, React SSR will be used instead
 - Why use 
 
+
 ---
 {state: main middle}
 # Vue Storefront 2
@@ -442,7 +443,7 @@ module.exports = targets => {
 - NuxtJS
 - Modular architecture
     - Shopify
-- Or other bakend systems
+- Or other backend systems
     - CMS, ElasticSearch, ERPs, etc
 
 ^^Vue Storefront 2 connector for Magento 2 is almost done
@@ -452,6 +453,10 @@ module.exports = targets => {
 - Vue components with composables
 - Vue composable state
 - Apollo Client for GraphQL calls
+
+---
+{state: main middle}
+# GraphCommerce
 
 ---
 {state: main middle}
