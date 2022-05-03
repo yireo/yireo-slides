@@ -10,6 +10,7 @@ class Generic
     protected function replacePatterns($content): string
     {
         $patterns = [
+            '/^^^(.*)$/m', '<span class="notice">\1</span>',
             '/^\-\ ([a-zA-Z0-9\ \-\.]+)\:\ (.*)$/m' => '- <span class="label">\1&nbsp;</span><span class="value">\2</span>',
             '/^\~\ /m' => "--\n\n- ", // Automatic RemarkJS inline steps
             '/^\ \ \~\ /m' => "--\n\n  - ", // Automatic RemarkJS inline steps (with indented points)

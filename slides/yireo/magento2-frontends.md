@@ -363,6 +363,15 @@ chmod 755 deployVeniaSampleData.sh
 ```
 
 ---
+# Key concepts
+- React components & hooks
+- React Context API for global state
+- Apollo Client for GraphQL
+- Venia Concept Theme
+- Target Interception API
+- ~~UPWARD for custom SSR solution~~
+
+---
 {state: main middle}
 # Vue Storefront 2
 
@@ -376,6 +385,12 @@ chmod 755 deployVeniaSampleData.sh
     - CMS, ElasticSearch, ERPs, etc
 
 ^^Vue Storefront 2 connector for Magento 2 is almost done
+
+---
+# Key concept
+- Vue components with composables
+- Vue composable state
+- Apollo Client for GraphQL calls
 
 ---
 {state: main middle}
@@ -455,14 +470,14 @@ chmod 755 deployVeniaSampleData.sh
 - Don't refer to Luma as **THE** Magento 2 frontend anymore
 - Hyvä is a fierce competitor
     - For Magento developers
-- Magento PWA Studio is a fierce competitor
+- Adobe PWA Studio is a fierce competitor
     - For React developers
 - Vue Storefront 2 is a fierce competitor
     - For Vue developers
 
 ---
 # Magento 2 backending in 2022
-- Magento 2.5 brings more Service Oriented Architecture
+- Magento 2.5 would bring more Service Oriented Architecture
     - gRPC, isolated services, composable commerce
 - Adobe will downsize Magento (according to Jisse)
     - E-commerce is meant for Adobe Experience Cloud
