@@ -8,10 +8,19 @@
 {background-image: generic/jisse.jpg}
 # Jisse Reitsma
 ~ Founder of Yireo
+~ Member of ExtDN
 ~ Creator of MageTestFest (2017, 2019)
 ~ Creator of Reacticon (2018 x2, 2020, 2021)
 ~ Magento Master 2017/2018/2019 Mover
 ~ Trainer of backend and frontend developers
+
+---
+# My Magento story
+- Built first shop with Magento 1.0
+- Build first shop with Magento 1.1
+- Became a Magento extension provider
+- Became a Magento trainer
+- Became disappointed with Magento Luma in 2015
 
 ---
 # Magento 2 frontends in 2022
