@@ -469,6 +469,7 @@ yarn dev
 
 ---
 # Example override
+File `nuxt.config.js`:
 ```js
 export default {
   build: {
