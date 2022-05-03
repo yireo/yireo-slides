@@ -352,6 +352,7 @@ bin/magento cache:enable full_page
 PWA setup:
 ```bash
 yarn create @magento/pwa
+yarn watch
 ```
 
 Magento sample-data (Venia):
@@ -363,11 +364,8 @@ chmod 755 deployVeniaSampleData.sh
 ```
 
 ---
-# Key concepts
-- React components & hooks
-- React Context API for global state
-- Apollo Client for GraphQL
-- Venia Concept Theme
+# Key take-aways
+- Venia is a Concept Theme
 - Target Interception API
 - ~~UPWARD for custom SSR solution~~
 
