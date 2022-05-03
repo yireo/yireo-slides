@@ -357,6 +357,10 @@ yarn start
 ```
 
 ---
+{state: main middle}
+# Let's create a React counter
+
+---
 # PWA Studio quick start
 PWA setup:
 ```bash
@@ -404,10 +408,12 @@ yarn watch
   - Create routes
   - Offer rich content renderers (for PageBuilder)
   - Wrapping talons
+  - Add custom Webpack transformations
+  - Transform UPWARD
 - Targetables
 
 ---
-# Example
+# Example targetable
 ```js
 const { Targetables } = require('@magento/pwa-buildpack')
 module.exports = targets => {
