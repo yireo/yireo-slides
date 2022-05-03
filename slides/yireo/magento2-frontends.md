@@ -363,6 +363,11 @@ chmod 755 deployVeniaSampleData.sh
 ./deployVeniaSampleData.sh --yes
 ```
 
+# Extending Venia
+- Tree replacement
+- Webpack-based replacements
+- Targetables
+
 ---
 # Key take-aways
 - Venia is a Concept Theme
