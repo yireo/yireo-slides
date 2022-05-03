@@ -29,6 +29,7 @@
 - Snowdog Alpaca
 - Vue Storefront 1 or 2
 - Magento / Adobe PWA Studio
+- GraphCommerce
 - Hyvä
 - ...
 
