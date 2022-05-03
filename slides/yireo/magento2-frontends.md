@@ -13,6 +13,7 @@
 - ...
 
 ---
+{state: main middle}
 # Luma dissected
 
 ---
@@ -87,7 +88,7 @@
 - Magento made a mess of it
 
 ^^And it is old
-s
+
 ---
 # The problem of jQuery
 - jQuery 3 is not supported (yet)
@@ -126,6 +127,7 @@ define([
 ^^And LESS is old
 
 ---
+{state: main middle}
 # Let's fix this
 
 ---
@@ -253,9 +255,11 @@ bin/magento cache:enable full_page
 # This is all trying to fix something that is broken from the start
 
 ---
+{state: main middle}
 # Luma hasn't been modernized in 5 years time
 
 ---
+{state: main middle}
 # AMP vs PWA vs SPA
 
 ---
@@ -301,10 +305,15 @@ bin/magento cache:enable full_page
 ^^Or build an SPA with React or Vue
 
 ---
+{state: main middle}
 # Magento PWA Studio
 
 ---
-# Magento PWA Studio
+{state: main middle}
+# Adobe PWA Studio
+
+---
+# Adobe PWA Studio
 - React components and hooks
     - Venia theme
     - Peregrine
@@ -331,6 +340,7 @@ chmod 755 deployVeniaSampleData.sh
 ```
 
 ---
+{state: main middle}
 # Vue Storefront 2
 
 ---
@@ -345,6 +355,7 @@ chmod 755 deployVeniaSampleData.sh
 ^^Vue Storefront 2 connector for Magento 2 is almost done
 
 ---
+{state: main middle}
 # Headless?
 
 ---
@@ -355,6 +366,7 @@ chmod 755 deployVeniaSampleData.sh
     - Microservices, microfrontends, composable commerce
 
 ---
+{state: main middle}
 # Hyvä
 
 ---
@@ -398,6 +410,7 @@ chmod 755 deployVeniaSampleData.sh
     - Tailwind, Alpine, custom logic
 
 ---
+{state: main middle}
 # Summary
 
 ---
@@ -434,4 +447,5 @@ chmod 755 deployVeniaSampleData.sh
     - Magento Association should become more prominent
 
 ---
+{state: main middle}
 # Questions
