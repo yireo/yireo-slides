@@ -449,6 +449,10 @@ module.exports = targets => {
 
 ---
 # Getting started
+```bash
+npm i -g @vue-storefront/cli
+
+```
 
 ---
 # Key concept
