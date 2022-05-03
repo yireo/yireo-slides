@@ -2580,7 +2580,7 @@ html.mm19pl .bordered h2 {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/quantico/v13/rax-HiSdp9cPL3KIF7xrJDg.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/quantico/v15/rax-HiSdp9cPL3KIF7xrJDg.ttf) format('truetype');
 }
 html.mug076 body {
   font-family: "Roboto Condensed", Arial;
@@ -2653,7 +2653,7 @@ html.mug076 .bordered h2 {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/bungeeshade/v9/DtVkJxarWL0t2KdzK3oI_jks7g.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/bungeeshade/v11/DtVkJxarWL0t2KdzK3oI_jks7g.ttf) format('truetype');
 }
 html.heman section[data-state~="dark"] h1,
 html.heman section[data-state~="dark"] h2 {
@@ -2667,6 +2667,14 @@ html.reacticon4 h1,
 html.reacticon4 h2,
 html.reacticon4 h3 {
   font-family: 'Handlee';
+}
+html.vsf2m2 body {
+  font-family: 'Open Sans';
+}
+html.vsf2m2 h1,
+html.vsf2m2 h2,
+html.vsf2m2 h3 {
+  font-family: 'Open Sans';
 }
 html.vsf2m2 body {
   font-family: 'Open Sans';
