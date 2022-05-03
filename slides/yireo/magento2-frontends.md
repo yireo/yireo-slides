@@ -2,7 +2,6 @@
 # Magento 2 Frontends
 # in 2022
 
-
 ---
 {state: speaker}
 {background-image: generic/jisse.jpg}
