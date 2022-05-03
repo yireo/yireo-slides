@@ -439,6 +439,8 @@ module.exports = targets => {
 ~ UPWARD will be phased out, React SSR will be used instead
 ~ Why use Buildpack?
 
+^^Perhaps building your own component tree and then adding PWA Studio elements is an option?
+
 ---
 {state: main middle}
 # Vue Storefront 2
@@ -468,6 +470,15 @@ yarn dev
 ```
 
 ---
+# Key concept
+- Vue components with composables
+- Vue composable state
+- Apollo Client for GraphQL calls
+- Overriding components is not supported
+
+^^Perhaps building your own component tree and then adding Vue Storefront 2 elements is an option?
+
+---
 # Example override
 File `nuxt.config.js`:
 ```js
@@ -485,11 +496,7 @@ export default {
 }
 ```
 
----
-# Key concept
-- Vue components with composables
-- Vue composable state
-- Apollo Client for GraphQL calls
+^^See https://github.com/yireo/vsf2-webpack-inheritance-plugin
 
 ---
 {state: main middle}
