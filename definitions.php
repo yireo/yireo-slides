@@ -5,6 +5,12 @@ $slideGroups = [
         'style' => 'meetmagento',
         'slides' => [
             [
+                'file' => 'yireo/vsf2-magento2-vs-shopware',
+                'title' => 'Vue Storefront 2: Magento 2 vs Shopware 6 (VSF Meetup June 2022)',
+                'style' => 'vsf2m2',
+                'renderer' => 'reveal'
+            ],
+            [
                 'file' => 'yireo/magento2-frontends',
                 'title' => 'Magento 2 frontends in 2022',
                 'style' => 'multisafepay',
