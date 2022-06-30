@@ -102,6 +102,207 @@
 ---
 # Current milestones (June 2022)
 - Nuxt 3 RC4
+- Shopware PWA v1.5.0
+- Vue 2 EOL in 2023
+
+---
+# Current status of Magento 2 integration
+- Most product types supported
+  - Simple, Grouped, Configurable, Bundled = ok
+  - Virtual, Downloadable = partial
+- CMS Pages & Blocks supported, but not PageBuilder
+- Minicart working, no standalone cart page yet
+- Customer account features still in progress
+
+See https://docs.vuestorefront.io/magento/guide/functional-catalog.html
+
+---
+# Kudos
+
+Thanks to all contributors making Vue Storefront and more specifically Vue Storefront 2 for Magento 2 possible
+
+- Cyberfuze
+- Leonex
+- Caravelx
+- And many individual developers
+
+---
+# Repositories
+- [vuestorefront/magento2](https://github.com/vuestorefront/magento2) (`@vue-storefront/magento`)
+- [vuestorefront/vue-storefront](https://github.com/vuestorefront/vue-storefront)
+
+^^Do not use [vuestorefront/mage2vuestorefront](https://github.com/vuestorefront/mage2vuestorefront) which belongs to VSF1
+
+---
+{state: main middle}
+# Installing Vue Storefront 2
+# for Magento 2
+
+---
+# Requirements
+- Node 16+
+- Magento 2.4.3
+  - Changed query complexity and query depth
+  - Served via HTTPS
+
+^^Use [Caravel_GraphQlConfig](https://github.com/caravelx/module-graphql-config) or [Yireo_CustomGraphQlQueryLimiter](https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter) to set complexity to 1500 and depth to 20
+
+---
+# Installation
+```bash
+npm i -g @vue-storefront/cli
+```
+And then run:
+```bash
+cli generate store
+```
+
+^^In the wizard, choose a name and select `Magento 2`
+
+---
+# Up and running
+```bash
+cd magento2-demo/
+yarn install
+```
+And once it finishes:
+```bash
+yarn dev
+```
+
+---
+# Environment settings
+File `.env`:
+```env
+VSF_NUXT_APP_ENV=development
+VSF_NUXT_APP_PORT=3000
+
+VSF_MAGENTO_BASE_URL=http://magento.local/
+VSF_MAGENTO_GRAPHQL_URL=http://magento.local/graphql
+VSF_MAGENTO_EXTERNAL_CHECKOUT=false
+VSF_MAGENTO_EXTERNAL_CHECKOUT_URL=http://magento.local/checkout
+VSF_MAGENTO_EXTERNAL_CHECKOUT_SYNC_PATH=/vue/cart/sync
+
+VSF_IMAGE_PROVIDER=ipx
+VSF_IMAGE_PROVIDER_BASE_URL=
+```
+
+---
+# Using self-signed certificates
+Add to `.env`:
+```init
+NODE_TLS_REJECT_UNAUTHORIZED=0
+```
+
+- Or theoretically add your certificate file to `NODE_EXTRA_CA_CERTS`
+- Or use LetsEncrypt
+
+---
+{state: main middle}
+# Customization of code
+
+---
+# Customization of code
+- Overriding pages
+- Overriding components
+- Overriding CSS
+- Overriding composables
+- Overriding GraphQL queries & mutations
+
+All with as little core hacks as possible
+
+---
+# Overriding pages
+- Modify `routes.js`
+- Or customize the original `pages/*`
+- Or create a Nuxt middleware to extend router
+
+---
+# Overriding layouts
+- Modify `routes.js` to refer to a new layout
+- Or customize the original `layouts/*`
+- Or create a Nuxt middleware to extend router
+
+---
+# Overriding CSS
+- Just edit the `assets/styles.scss` file. It is empty.
+
+---
+# Overriding components
+- Customize the original `components/*`
+- Or override via Webpack ...
+
+```js
+export default {
+  build: {
+    extend(config) {
+      config.resolve.plugins = [
+        new Vsf2ThemeInheritancePlugin({
+          originalPath: path.resolve(__dirname, 'components'),
+          newPath: path.resolve(__dirname, 'custom-components')
+        })
+      ]
+    }
+  }
+}
+```
+
+See https://github.com/yireo/vsf2-webpack-inheritance-plugin
+
+---
+# Overriding composables
+- Don't override composables
+- Compose your own composables out of existing composables instead
+
+---
+# Overriding GraphQL queries
+- Create folder `queries/` (or simialar)
+- Copy file from `api-client/` to `queries/` (for example `productList.ts`)
+
+---
+# Registering the custom query file
+File `middleware.config.js`:
+```js
+import productsQuery from './queries/productList';
+
+module.exports = {
+  integrations: {
+    magento: {
+      productsQuery: {
+        products: ({ query, variables }) => {
+          return { query: productsQuery, variables };
+        },
+      },
+      ...
+    },
+  },
+};
+```
+
+---
+# More customization
+- Custom Vue / Nuxt / VSF2 composables
+- Nuxt plugins, Nuxt middleware, Vue plugins
+- Webpack alias, Webpack plugins
+- Image providers
+- And modifying the GraphQL API in Magento 2
+
+---
+# Remember the concepts
+- Build your own, instead of inheriting legacy
+- Composition over inheritance
+- Composables over parent/child theming
+
+???????????????????????????????????????????????????????
+
+---
+# Vue Storefront 2 for Magento 2
+- Magento 2 GraphQL API
+- Pinia for state management
+
+---
+# Current milestones (June 2022)
+- Nuxt 3 RC4
 - VSF2 for M2 RC9
 - Vue 2 EOL in 2023
 
