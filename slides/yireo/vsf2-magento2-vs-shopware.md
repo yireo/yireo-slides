@@ -9,9 +9,9 @@
 
 # Jisse Reitsma
 ~ Founder of Yireo
-~ Creator of MageTestFest (2017, 2019)
-~ Creator of Reacticon (2018 x2, 2020, 2021)
-~ Magento Master 2017/2018/2019 Mover
+~ Creator of 2x MageTestFest (2017, 2019)
+~ Creator of 4x Reacticon (2018, 2018, 2020, 2021)
+~ 3x Magento Master 2017/2018/2019 Mover
 ~ Trainer of backend and frontend developers
 
 ---
@@ -23,10 +23,13 @@
 - Adobe PWA Studio Development (12h)
 - Vue Storefront 1 (9h)
 - Shopware PWA (5h)
-- Upcoming
-  - Shopware App videos via Shopware
-  - Magento 2 Backend Development II
-  - Magento 2 Backend Development III
+
+---
+# Upcoming On-Demand courses
+- Shopware App videos via Shopware
+- Magento 2 Backend Development II
+- Magento 2 Backend Development III
+- Vue Storefront 2 for Magento 2?
 
 ---
 {state: main middle dark}
