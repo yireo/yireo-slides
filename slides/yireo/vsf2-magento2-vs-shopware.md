@@ -146,31 +146,14 @@ yarn dev
 ```
 
 ---
-# Environment settings
-File `.env`:
-```env
-VSF_NUXT_APP_ENV=development
-VSF_NUXT_APP_PORT=3000
-
-VSF_MAGENTO_BASE_URL=http://magento.local/
-VSF_MAGENTO_GRAPHQL_URL=http://magento.local/graphql
-VSF_MAGENTO_EXTERNAL_CHECKOUT=false
-VSF_MAGENTO_EXTERNAL_CHECKOUT_URL=http://magento.local/checkout
-VSF_MAGENTO_EXTERNAL_CHECKOUT_SYNC_PATH=/vue/cart/sync
-
-VSF_IMAGE_PROVIDER=ipx
-VSF_IMAGE_PROVIDER_BASE_URL=
+# PWA configuration
+File `shopware-pwa.config.js`:
+```js
+module.exports = {
+  shopwareEndpoint: "https://shopware6-demo.vuestorefront.io",
+  shopwareAccessToken: "SWSCVJJET0RQAXFNBMTDZTV1OQ"
+};
 ```
-
----
-# Using self-signed certificates
-Add to `.env`:
-```init
-NODE_TLS_REJECT_UNAUTHORIZED=0
-```
-
-- Or theoretically add your certificate file to `NODE_EXTRA_CA_CERTS`
-- Or use LetsEncrypt
 
 ---
 {state: main middle}
