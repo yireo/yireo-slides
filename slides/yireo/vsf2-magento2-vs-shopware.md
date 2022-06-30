@@ -89,7 +89,8 @@
 - Composables over parent/child theming
 
 ---
-{state: main middle}
+{state: main middle dark}
+{background-image: vsf2/battle-starwars.jpg}
 # Magento 2 vs Shopware 6
 
 ---
