@@ -301,6 +301,9 @@ module.exports = {
 - Composables over parent/child theming
 
 ---
+# Ready or not?
+
+---
 {state: main middle dark}
 {background-image: mageid/clogs.jpg}
 # Thanks
