@@ -1,0 +1,27 @@
+{
+  "name": "yireo-slides",
+  "version": "1.0.0",
+  "description": "Yireo repository of slides for various events. Slides are contained in the subfolder `/slides/` and are in [Markdown](highlight syntax) format.",
+  "main": "gulpfile.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yireo/yireo-slides.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yireo/yireo-slides/issues"
+  },
+  "homepage": "https://github.com/yireo/yireo-slides#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^5.0.0"
+  }
+}

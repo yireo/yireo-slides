@@ -297,11 +297,6 @@ Thanks to all contributors making Vue Storefront and more specifically Vue Store
 ^^Do not use [vuestorefront/mage2vuestorefront](https://github.com/vuestorefront/mage2vuestorefront) which belongs to VSF1
 
 ---
-{state: main middle}
-# Installing Vue Storefront 2
-# for Magento 2
-
----
 # Requirements
 - Node 16+
 - Magento 2.4.3
@@ -359,10 +354,6 @@ NODE_TLS_REJECT_UNAUTHORIZED=0
 
 - Or theoretically add your certificate file to `NODE_EXTRA_CA_CERTS`
 - Or use LetsEncrypt
-
----
-{state: main middle}
-# Customization of code
 
 ---
 # Customization of code
@@ -457,6 +448,7 @@ module.exports = {
 - Composables over parent/child theming
 
 ---
+{state: main middle}
 # Ready or not?
 
 ---
