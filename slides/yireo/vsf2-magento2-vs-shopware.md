@@ -240,8 +240,15 @@ apiDefaults()
 ---
 # Shopware PWA plugins
 - Loaded via local `sw-plugins/` folder
-- Or
+- Or via remote Shopware backend plugins
 - Hooking into Vue slots via `SwPluginSlot` component
+
+---
+# Shopware CMS system
+- Every product, category or homepage is a CMS page
+- CMS is composed out of pages, sections, blocks and elements
+- In the Shopware backend, this can be extended
+- Via Shopware PWA plugins, the PWA can be extended too
 
 ---
 # More customization
