@@ -93,6 +93,8 @@
 
 ---
 # Current status of Shopware 6 integration
+- Most product features are supported
+  - Products, 
 
 ---
 # Shopware PWA
