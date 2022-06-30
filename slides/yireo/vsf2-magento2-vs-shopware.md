@@ -170,25 +170,14 @@ module.exports = {
 All with as little core hacks as possible
 
 ---
-# Overriding pages
-- Modify `routes.js`
-- Or customize the original `pages/*`
-- Or create a Nuxt middleware to extend router
-
----
-# Overriding layouts
-- Modify `routes.js` to refer to a new layout
-- Or customize the original `layouts/*`
-- Or create a Nuxt middleware to extend router
-
----
-# Overriding CSS
-- Just edit the `assets/styles.scss` file. It is empty.
-
----
 # Overriding components
-- Customize the original `components/*`
-- Or override via Webpack ...
+- Regular components, pages, layouts, views, ...
+- Run `yarn shopware-pwa override`
+- Or copy manually from `.shopware/source/` into `src/`
+
+---
+# Overriding Storefront UI components
+- Override via Webpack ...
 
 ```js
 export default {
