@@ -39,13 +39,13 @@
 
 ---
 # My Vue Storefront story
-- First meet with Filip at Reacticon 1
-- Vue Storefront 1 live training
-- VSF1 consults and coding experiments
-- Visits in Wrocław, Poland
-- Vue Storefront 1 on-demand training
-- Shopware PWA on-demand training (Q2)
-- Vue Storefront 2 on-demand training (Q?)
+- First meet with Filip at Reacticon 1 (2018)
+- Vue Storefront 1 live training (2019)
+- VSF1 consults and coding experiments (2019)
+- Visits in Wrocław, Poland (Q1 2020)
+- Vue Storefront 1 on-demand training (Q4 2020)
+- Shopware PWA on-demand training (Q2 2022)
+- Vue Storefront 2 on-demand training (?)
 
 ---
 # Vue Storefront 1
