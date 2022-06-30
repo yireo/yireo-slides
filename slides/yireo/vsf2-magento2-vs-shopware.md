@@ -1,12 +1,12 @@
 {state: main middle dark}
 {background-image: vsf2/vsf2-logo.webp}
-# Getting started
-# with Vue Storefront 2
-# for Magento 2
+# Vue Storefront 2
+# Magento 2 versus Shopware 6
 
 ---
 {state: speaker}
 {background-image: generic/jisse.jpg}
+
 # Jisse Reitsma
 ~ Founder of Yireo
 ~ Creator of MageTestFest (2017, 2019)
@@ -16,11 +16,14 @@
 
 ---
 # Yireo On-Demand courses
-- Magento 2 Luma Frontend Development
-- Magento 2 Luma JavaScript Development
-- Magento 2 Backend Development I
-- Vue Storefront 1
-- Shopware PWA
+- Magento 2 Luma Frontend Development (12h)
+- Magento 2 Luma JavaScript Development (14h)
+- Magento 2 Hyva Development (10h)
+- Magento 2 Backend Development I (16h)
+- Adobe PWA Studio Development (12h)
+- Vue Storefront 1 (9h)
+- Shopware PWA (5h)
+- ...
 
 ---
 {state: main middle dark}
