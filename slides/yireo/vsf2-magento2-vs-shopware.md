@@ -77,7 +77,11 @@
 ---
 # Lessons learned of VSF1
 - Don't build SSR yourself
+  - Nuxt
 - Create a clean UI component library
+  - Storefront UI
+- Write modular code only
+  - Plugins, modules, middleware, ...
 
 ---
 # Current status of Magento 2 integration
