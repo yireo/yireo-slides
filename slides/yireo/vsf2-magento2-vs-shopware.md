@@ -27,7 +27,7 @@
 ~ Shopware PWA (5h)
 
 ---
-# Upcoming On-Demand courses
+# Upcoming On-Demand courses in 2022
 - Free Shopware App videos via Shopware (6h+)
 - Magento 2 Backend Development II (12h+)
 - Magento 2 Backend Development III (12h+)
@@ -67,6 +67,8 @@
 - Shopware
 - CommerceTools
 - Shopify
+- Elastic Path
+- BigCommerce
 - Magento 2
 
 ---
