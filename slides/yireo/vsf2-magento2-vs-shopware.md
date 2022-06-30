@@ -92,16 +92,6 @@
 # Magento 2 vs Shopware 6
 
 ---
-# Current status of Shopware 6 integration
-- Most product features are supported
-  - Products, properties, custom fields, ...
-- CMS is fully supported
-- Functional cart and checkout
-- Some less used features still in progress
-
-^^See https://shopware-pwa-docs.vuestorefront.io/landing/resources/roadmap.html
-
----
 # Shopware PWA
 - Shopware 6 Store API (and Admin API)
 - Composables for state management
@@ -113,30 +103,19 @@
 - Vue 2 EOL in 2023
 
 ---
-# Current status of Magento 2 integration
-- Most product types supported
-  - Simple, Grouped, Configurable, Bundled = ok
-  - Virtual, Downloadable = partial
-- CMS Pages & Blocks supported, but not PageBuilder
-- Minicart working, no standalone cart page yet
-- Customer account features still in progress
+# Current status of Shopware 6 integration
+- Most product features are supported
+  - Products, properties, custom fields, ...
+- CMS is fully supported
+- Functional cart and checkout
+- Some less used features still in progress
 
-See https://docs.vuestorefront.io/magento/guide/functional-catalog.html
-
----
-# Kudos
-
-Thanks to all contributors making Vue Storefront and more specifically Vue Storefront 2 for Magento 2 possible
-
-- Cyberfuze
-- Leonex
-- Caravelx
-- And many individual developers
+^^See https://shopware-pwa-docs.vuestorefront.io/landing/resources/roadmap.html
 
 ---
 # Repositories
-- [vuestorefront/magento2](https://github.com/vuestorefront/magento2) (`@vue-storefront/magento`)
-- [vuestorefront/vue-storefront](https://github.com/vuestorefront/vue-storefront)
+- [vuestorefront/shopware-pwa](https://github.com/vuestorefront/shopware-pwa)
+- ~~[vuestorefront/vue-storefront](https://github.com/vuestorefront/vue-storefront)~~
 
 ^^Do not use [vuestorefront/mage2vuestorefront](https://github.com/vuestorefront/mage2vuestorefront) which belongs to VSF1
 
