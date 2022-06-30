@@ -72,12 +72,6 @@
 - Magento 2
 
 ---
-# Concepts of component architecture
-- Build your own, instead of inheriting legacy
-- Composition over inheritance
-- Composables over parent/child theming
-
----
 # Lessons learned of VSF1
 - Don't build SSR yourself
   - Nuxt
@@ -85,6 +79,14 @@
   - Storefront UI
 - Write modular code only
   - Plugins, modules, middleware, ...
+- Separate components from logic
+  - A new component architecture
+
+---
+# Concepts of component architecture
+- Build your own, instead of inheriting legacy
+- Composition over inheritance
+- Composables over parent/child theming
 
 ---
 # Current status of Magento 2 integration
