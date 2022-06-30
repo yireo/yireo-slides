@@ -119,7 +119,7 @@ body {
 }
 body {
   position: relative;
-  line-height: 2em;
+  line-height: 1;
   background-color: #fff;
   color: #000;
 }
@@ -616,7 +616,7 @@ body {
   z-index: 31;
   font-family: Helvetica, sans-serif;
   font-size: 12px;
-  line-height: 1em;
+  line-height: 1;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 5px;
@@ -1619,7 +1619,7 @@ body {
  *********************************************/
 .reveal .roll {
   display: inline-block;
-  line-height: 1.2em;
+  line-height: 1.2;
   overflow: hidden;
   vertical-align: top;
   -webkit-perspective: 400px;
@@ -1679,7 +1679,7 @@ body {
   padding: 14px 18px 14px 18px;
   z-index: 1;
   font-size: 18px;
-  line-height: 1.4em;
+  line-height: 1.4;
   border: 1px solid rgba(0, 0, 0, 0.05);
   color: #222;
   background-color: #f5f5f5;
@@ -2009,7 +2009,7 @@ span.notice {
   font-style: normal;
   font-weight: 400;
   font-stretch: normal;
-  src: url(http://fonts.gstatic.com/s/opensans/v28/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
+  src: url(http://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
 }
 html.extdn body {
   font-family: 'Open Sans', sans-serif;
@@ -2045,7 +2045,7 @@ html.extdn code {
   background-color: #d2e8f8;
 }
 html.extdn li {
-  line-height: 2em;
+  line-height: 190%;
 }
 html.extdn li li {
   font-size: 80%;
