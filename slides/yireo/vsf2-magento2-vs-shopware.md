@@ -94,6 +94,10 @@
 # Magento 2 vs Shopware 6
 
 ---
+{state: main middle}
+# Shopware PWA
+
+---
 # Shopware PWA
 - Shopware 6 Store API (and Admin API)
 - Composables for state management

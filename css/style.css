@@ -2704,5 +2704,6 @@ html.multisafepay h3 {
   font-family: 'Open Sans';
 }
 code {
-  line-height: 1.3em !important;
+  line-height: 1.4em !important;
+  font-size: 1.3em;
 }
