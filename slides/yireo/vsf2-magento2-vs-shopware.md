@@ -23,13 +23,14 @@
 ~ Magento 2 Backend Development I (16h)
 ~ Adobe PWA Studio Development (12h)
 ~ Vue Storefront 1 for Magento 1 and 2 (9h)
+~ Free Shopware videos for developers (24h)
 ~ Shopware PWA (5h)
 
 ---
 # Upcoming On-Demand courses
-- Shopware App videos via Shopware
-- Magento 2 Backend Development II
-- Magento 2 Backend Development III
+- Free Shopware App videos via Shopware (6h+)
+- Magento 2 Backend Development II (12h+)
+- Magento 2 Backend Development III (12h+)
 - Vue Storefront 2 for Magento 2?
 
 ---
