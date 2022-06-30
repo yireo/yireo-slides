@@ -55,11 +55,18 @@
 - Legacy code
 
 ---
-# Vue Storefront 2
+# Vue Storefront 2 for ...
 - Based on NuxtJS
 - Requirement for Node middleware
 - Depending on Vue composables
 - Fresh start
+
+---
+# Integrations
+- Shopware
+- CommerceTools
+- Shopify
+- Magento 2
 
 ---
 # Concepts of component architecture
@@ -68,11 +75,9 @@
 - Composables over parent/child theming
 
 ---
-# Integrations
-- Shopware
-- CommerceTools
-- Shopify
-- Magento 2
+# Lessons learned of VSF1
+- Don't build SSR yourself
+- Create a clean UI component library
 
 ---
 # Current status of Magento 2 integration
