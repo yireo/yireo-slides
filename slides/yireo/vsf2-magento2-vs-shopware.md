@@ -176,6 +176,26 @@ All with as little core hacks as possible
 - Or copy manually from `.shopware/source/` into `src/`
 
 ---
+# Wrapping component (the Jisse way)
+File `src/components/SwFooter.vue`:
+```vue
+<template>
+    <OriginalSwFooter columns="3" />
+</template>
+
+<script>
+import OriginalSwFooter from '@theme/components/SwFooter.vue';
+
+export default {
+    name: "NewSwFooter",
+    components: {
+        OriginalSwFooter
+    }
+}
+</script>
+```
+
+---
 # Overriding Storefront UI components
 - Override via Webpack ...
 
@@ -202,7 +222,7 @@ See https://github.com/yireo/vsf2-webpack-inheritance-plugin
 - Compose your own composables out of existing composables instead
 
 ---
-# Overriding GraphQL queries
+# Overriding API calls
 - Create folder `queries/` (or simialar)
 - Copy file from `api-client/` to `queries/` (for example `productList.ts`)
 
