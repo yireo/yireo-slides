@@ -89,6 +89,7 @@
 - Composables over parent/child theming
 
 ---
+{state: main middle}
 # Magento 2 vs Shopware 6
 
 ---
@@ -117,12 +118,11 @@
 - [vuestorefront/shopware-pwa](https://github.com/vuestorefront/shopware-pwa)
 - ~~[vuestorefront/vue-storefront](https://github.com/vuestorefront/vue-storefront)~~
 
-^^Do not use [vuestorefront/mage2vuestorefront](https://github.com/vuestorefront/mage2vuestorefront) which belongs to VSF1
+^^See Shopware PWA as a clone of the original Vue Storefront
 
 ---
 {state: main middle}
-# Installing Vue Storefront 2
-# for Magento 2
+# Installing Shopware PWA
 
 ---
 # Requirements
