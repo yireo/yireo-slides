@@ -164,7 +164,7 @@ All with as little core hacks as possible
 ---
 # Wrapping component (the Jisse way)
 File `src/components/SwFooter.vue`:
-```vue
+```
 <template>
     <OriginalSwFooter columns="3" />
 </template>
