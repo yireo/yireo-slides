@@ -23,7 +23,10 @@
 - Adobe PWA Studio Development (12h)
 - Vue Storefront 1 (9h)
 - Shopware PWA (5h)
-- ...
+- Upcoming
+  - Shopware App videos via Shopware
+  - Magento 2 Backend Development II
+  - Magento 2 Backend Development III
 
 ---
 {state: main middle dark}
