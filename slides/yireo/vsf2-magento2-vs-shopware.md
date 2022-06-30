@@ -249,6 +249,7 @@ apiDefaults()
 - Composables over parent/child theming
 
 ---
+{state: main middle}
 # Vue Storefront 2 for Magento 2
 
 ---
