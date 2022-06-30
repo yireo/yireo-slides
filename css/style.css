@@ -1679,7 +1679,7 @@ body {
   padding: 14px 18px 14px 18px;
   z-index: 1;
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.4em;
   border: 1px solid rgba(0, 0, 0, 0.05);
   color: #222;
   background-color: #f5f5f5;
@@ -1797,7 +1797,7 @@ body {
 .reveal pre,
 .reveal p {
   text-align: left;
-  line-height: 140%;
+  line-height: 2em;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -2045,7 +2045,7 @@ html.extdn code {
   background-color: #d2e8f8;
 }
 html.extdn li {
-  line-height: 190%;
+  line-height: 2em;
 }
 html.extdn li li {
   font-size: 80%;
