@@ -140,19 +140,12 @@ Thanks to all contributors making Vue Storefront and more specifically Vue Store
 
 ---
 # Requirements
-- Node 16
+- Node 16+
 - Magento 2.4.3
-  - GraphQL API enabled
-    - Don't use [yireo/magento2-replace-graphql](https://github.com/yireo/magento2-replace-graphql)
-  - Change query complexity and query depth
-    - Use [Caravel_GraphQlConfig](https://github.com/caravelx/module-graphql-config)
-    - Or [Yireo_CustomGraphQlQueryLimiter](https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter)
+  - Changed query complexity and query depth
+  - Served via HTTPS
 
----
-# Development tools
-- Vue Devtools
-- VSCode or some other editor
-- GraphiQL tool like ChromeiQL or Altair
+^^Use [Caravel_GraphQlConfig](https://github.com/caravelx/module-graphql-config) or [Yireo_CustomGraphQlQueryLimiter](https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter) to set complexity to 1500 and depth to 20
 
 ---
 # Installation
@@ -161,10 +154,10 @@ npm i -g @vue-storefront/cli
 ```
 And then run:
 ```bash
-vsf init magento2-demo
+cli generate store
 ```
 
-In the wizard, choose `Magento 2`
+^^In the wizard, choose a name and select `Magento 2`
 
 ---
 # Up and running
@@ -181,45 +174,28 @@ yarn dev
 # Environment settings
 File `.env`:
 ```env
-NUXT_APP_ENV=development
-NUXT_APP_PORT=3000
+VSF_NUXT_APP_ENV=development
+VSF_NUXT_APP_PORT=3000
 
-MAGENTO_GRAPHQL=http://magento.local/graphql
-MAGENTO_BASE_URL=http://magento.local/
-MAGENTO_EXTERNAL_CHECKOUT=false
-MAGENTO_EXTERNAL_CHECKOUT_URL=http://magento.local/checkout
-MAGENTO_EXTERNAL_CHECKOUT_SYNC_PATH=/vue/cart/sync
+VSF_MAGENTO_BASE_URL=http://magento.local/
+VSF_MAGENTO_GRAPHQL_URL=http://magento.local/graphql
+VSF_MAGENTO_EXTERNAL_CHECKOUT=false
+VSF_MAGENTO_EXTERNAL_CHECKOUT_URL=http://magento.local/checkout
+VSF_MAGENTO_EXTERNAL_CHECKOUT_SYNC_PATH=/vue/cart/sync
 
-IMAGE_PROVIDER=ipx
-IMAGE_PROVIDER_BASE_URL=
+VSF_IMAGE_PROVIDER=ipx
+VSF_IMAGE_PROVIDER_BASE_URL=
 ```
 
 ---
-# Or
-File `.env`:
-```env
-STORE_ENV=dev
+# Using self-signed certificates
+Add to `.env`:
+```init
+NODE_TLS_REJECT_UNAUTHORIZED=0
 ```
 
-Variable `STORE_ENV` points to `dev`, which leads to configuration file `config/dev.json`
-
-
----
-# Configuration file
-File `config/dev.json`
-```json
-{
-  "magentoGraphQl": "http://magento.local/graphql",
-  "enableMagentoExternalCheckout": false,
-  "externalCheckoutUrl": "http://magento.local/checkout",
-  "externalCheckoutSyncPath": "/vue/cart/sync",
-  "nuxtAppEnvironment": "development",
-  "nuxtAppPort": 3000,
-  "imageProvider": "ipx",
-  "magentoBaseUrl": "http://magento.local/",
-  "imageProviderBaseUrl": ""
-}
-```
+- Or theoretically add your certificate file to `NODE_EXTRA_CA_CERTS`
+- Or use LetsEncrypt
 
 ---
 {state: main middle}
