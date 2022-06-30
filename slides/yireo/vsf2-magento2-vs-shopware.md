@@ -17,13 +17,13 @@
 
 ---
 # Yireo On-Demand courses
-- Magento 2 Luma Frontend Development (12h)
-- Magento 2 Luma JavaScript Development (14h)
-- Magento 2 Hyva Development (10h)
-- Magento 2 Backend Development I (16h)
-- Adobe PWA Studio Development (12h)
-- Vue Storefront 1 (9h)
-- Shopware PWA (5h)
+~ Magento 2 Luma Frontend Development (12h)
+~ Magento 2 Luma JavaScript Development (14h)
+~ Magento 2 Hyva Development (10h)
+~ Magento 2 Backend Development I (16h)
+~ Adobe PWA Studio Development (12h)
+~ Vue Storefront 1 for Magento 1 and 2 (9h)
+~ Shopware PWA (5h)
 
 ---
 # Upcoming On-Demand courses
