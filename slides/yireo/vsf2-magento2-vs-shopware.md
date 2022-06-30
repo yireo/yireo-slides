@@ -89,8 +89,14 @@
 - Composables over parent/child theming
 
 ---
+# Magento 2 vs Shopware 6
+
+---
+# Current status of Shopware 6 integration
+
+---
 # Current status of Magento 2 integration
-- Beta and not ready for production usage
+- RC9 and not ready for production usage
 - Most product types supported
   - Simple, Grouped, Configurable, Bundled = ok
   - Virtual, Downloadable = partial
