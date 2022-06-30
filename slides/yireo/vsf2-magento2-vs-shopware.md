@@ -48,7 +48,7 @@
 - Vue Storefront 2 on-demand training (?)
 
 ---
-# Vue Storefront 1
+# Vue Storefront 1 for Magento
 - Tight integration with Magento 1 & Magento 2
 - Requirement for Node middleware
 - Tough customization and SSR
@@ -66,6 +66,13 @@
 - Build your own, instead of inheriting legacy
 - Composition over inheritance
 - Composables over parent/child theming
+
+---
+# Integrations
+- Shopware
+- CommerceTools
+- Shopify
+- Magento 2
 
 ---
 # Current status of Magento 2 integration
