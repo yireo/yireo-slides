@@ -94,7 +94,12 @@
 ---
 # Current status of Shopware 6 integration
 - Most product features are supported
-  - Products, 
+  - Products, properties, custom fields, ...
+- CMS is fully supported
+- Functional cart and checkout
+- Some less used features still in progress
+
+^^See https://shopware-pwa-docs.vuestorefront.io/landing/resources/roadmap.html
 
 ---
 # Shopware PWA
