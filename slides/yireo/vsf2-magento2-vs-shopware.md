@@ -127,32 +127,21 @@
 ---
 # Requirements
 - Node 16+
-- Magento 2.4.3
-  - Changed query complexity and query depth
-  - Served via HTTPS
+- Shopware 6.4
+  - `SwagShopwarePwa` plugin
 
-^^Use [Caravel_GraphQlConfig](https://github.com/caravelx/module-graphql-config) or [Yireo_CustomGraphQlQueryLimiter](https://github.com/yireo/Yireo_CustomGraphQlQueryLimiter) to set complexity to 1500 and depth to 20
+^^Check supported versions on https://github.com/vuestorefront/shopware-pwa
 
 ---
 # Installation
 ```bash
-npm i -g @vue-storefront/cli
+npx @shopware-pwa/cli init
 ```
-And then run:
-```bash
-cli generate store
-```
-
-^^In the wizard, choose a name and select `Magento 2`
 
 ---
 # Up and running
 ```bash
-cd magento2-demo/
-yarn install
-```
-And once it finishes:
-```bash
+cd sw6pwa
 yarn dev
 ```
 
