@@ -114,17 +114,6 @@
 ^^See https://shopware-pwa-docs.vuestorefront.io/landing/resources/roadmap.html
 
 ---
-# Repositories
-- [vuestorefront/shopware-pwa](https://github.com/vuestorefront/shopware-pwa)
-- ~~[vuestorefront/vue-storefront](https://github.com/vuestorefront/vue-storefront)~~
-
-^^See Shopware PWA as a clone of the original Vue Storefront
-
----
-{state: main middle}
-# Installing Shopware PWA
-
----
 # Requirements
 - Node 16+
 - Shopware 6.4
@@ -154,10 +143,6 @@ module.exports = {
   shopwareAccessToken: "SWSCVJJET0RQAXFNBMTDZTV1OQ"
 };
 ```
-
----
-{state: main middle}
-# Customization of code
 
 ---
 # Customization of code
@@ -255,8 +240,7 @@ apiDefaults()
 - Custom Vue / Nuxt / VSF2 composables
 - Nuxt plugins, Nuxt middleware, Vue plugins
 - Webpack alias, Webpack plugins
-- Image providers
-- And modifying the GraphQL API in Magento 2
+- And modifying the Store API in Shopware
 
 ---
 # Remember the concepts
@@ -264,7 +248,8 @@ apiDefaults()
 - Composition over inheritance
 - Composables over parent/child theming
 
-???????????????????????????????????????????????????????
+---
+# Vue Storefront 2 for Magento 2
 
 ---
 # Vue Storefront 2 for Magento 2
