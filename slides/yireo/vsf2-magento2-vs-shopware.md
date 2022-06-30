@@ -95,9 +95,9 @@
 # Current status of Shopware 6 integration
 
 ---
-# Vue Storefront 2 for Magento 2
-- Magento 2 GraphQL API
-- Pinia for state management
+# Shopware PWA
+- Shopware 6 Store API (and Admin API)
+- Composables for state management
 
 ---
 # Current milestones (June 2022)
