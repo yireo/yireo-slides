@@ -223,28 +223,25 @@ See https://github.com/yireo/vsf2-webpack-inheritance-plugin
 
 ---
 # Overriding API calls
-- Create folder `queries/` (or simialar)
-- Copy file from `api-client/` to `queries/` (for example `productList.ts`)
+File `shopware-pwa.config.js`:
+```js
+const apiDefaults = require("@shopware-pwa/nuxt-module/api-defaults").default;
+
+apiDefaults()
+.add("useListing.includes.product", "productNumber")
+.add("useListing.includes.product", "cheapestPriceContainer")
+.replace("useListing.includes", includes)
+.add("useCms.includes.product", "productNumber")
+.add("useCms.includes.product", "cheapestPriceContainer")
+.replace("useCms.limit", 12)
+.add("useNavigation.includes.category", "linkNewTab");
+```
 
 ---
-# Registering the custom query file
-File `middleware.config.js`:
-```js
-import productsQuery from './queries/productList';
-
-module.exports = {
-  integrations: {
-    magento: {
-      productsQuery: {
-        products: ({ query, variables }) => {
-          return { query: productsQuery, variables };
-        },
-      },
-      ...
-    },
-  },
-};
-```
+# Shopware PWA plugins
+- Loaded via local `sw-plugins/` folder
+- Or
+- Hooking into Vue slots via `SwPluginSlot` component
 
 ---
 # More customization
