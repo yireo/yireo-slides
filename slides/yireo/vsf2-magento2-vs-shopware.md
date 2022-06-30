@@ -95,8 +95,18 @@
 # Current status of Shopware 6 integration
 
 ---
+# Vue Storefront 2 for Magento 2
+- Magento 2 GraphQL API
+- Pinia for state management
+
+---
+# Current milestones (June 2022)
+- Nuxt 3 RC4
+- VSF2 for M2 RC9
+- Vue 2 EOL in 2023
+
+---
 # Current status of Magento 2 integration
-- RC9 and not ready for production usage
 - Most product types supported
   - Simple, Grouped, Configurable, Bundled = ok
   - Virtual, Downloadable = partial
@@ -115,6 +125,13 @@ Thanks to all contributors making Vue Storefront and more specifically Vue Store
 - Leonex
 - Caravelx
 - And many individual developers
+
+---
+# Repositories
+- [vuestorefront/magento2](https://github.com/vuestorefront/magento2) (`@vue-storefront/magento`)
+- [vuestorefront/vue-storefront](https://github.com/vuestorefront/vue-storefront)
+
+^^Do not use [vuestorefront/mage2vuestorefront](https://github.com/vuestorefront/mage2vuestorefront) which belongs to VSF1
 
 ---
 {state: main middle}
