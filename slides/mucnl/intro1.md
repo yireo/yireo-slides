@@ -73,8 +73,8 @@ If you find yourself in a situation where you are not contributing or learning, 
 - 13:00 - 14:30 Lunch
 - 14:30 - 15:10 Timeslot 4
 - 15:25 - 16:05 Timeslot 5
-- 14:30 - 15:10 Timeslot 6
-- 17:00: Wrap up the day
+- 16:20 - 17:00 Timeslot 6
+- 17:15- 
 - 17:30: Snooze
 - 19:00: Party with food
 
