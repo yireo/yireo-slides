@@ -3,7 +3,7 @@
 /** @var $definition \Yireo\Slides\Definition */
 ?>
 <!DOCTYPE html>
-<html>
+<html class="<?= $style ?>">
 <head>
     <base href="<?php echo $rootUrl; ?><?php echo $request; ?>">
     <title><?php echo $definition->getTitle(); ?></title>

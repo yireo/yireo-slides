@@ -2,12 +2,13 @@
 $slideGroups = [
     [
         'group' => 'MageUnconference',
-        'style' => 'mageunconference',
+        'style' => 'mucnl',
         'slides' => [
             [
                 'file' => 'mucnl/intro1',
                 'title' => 'MageUnconference day 1',
-                'renderer' => 'reveal'
+                'renderer' => 'reveal',
+                'style' => 'mucnl',
             ],
         ]
     ],
