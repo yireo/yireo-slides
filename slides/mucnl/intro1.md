@@ -23,6 +23,10 @@
 # What is an unconference?
 
 ---
+# What is an unconference?
+"a loosely structured conference emphasizing the informal exchange of information and ideas between participants, rather than following a conventionally structured programme of events"
+
+---
 # Unconference rules
 1. Whoever shows up are the right people
 2. Whatever happens is fine
@@ -32,6 +36,10 @@
 ---
 # Law of two feet
 If you find yourself in a situation where you are not contributing or learning, move somewhere where you can.
+
+---
+# The shirt:
+## I have spoken
 
 ---
 # Extreme conferencing
