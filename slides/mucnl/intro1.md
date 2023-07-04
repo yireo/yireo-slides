@@ -82,8 +82,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 # Rules
-- Rooms D & F are personal spaces
-    - Keys are handed out with trust
+- Rooms D, E & F are . Keys are handed out with trust
 - Waterpistols and laptops not in the same space
 - Only pee in the bathrooms
     - Or you'll get eaten by a dianoga
