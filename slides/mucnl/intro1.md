@@ -17,8 +17,8 @@
 ---
 # Why are we here?
 ~ Dutch Magento community revival (Mage-OS NL)
-~ Mage-OS meets Magento meets Adobe
-~ To collaborate and to have fun
+~ Mage-OS meets Magento meets Adobe meets you
+~ To collaborate, to brainstorm, to have fun
 
 ---
 {state: main middle black}
