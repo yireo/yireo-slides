@@ -72,9 +72,9 @@ If you find yourself in a situation where you are not contributing or learning, 
 - Alderaan (A): Main Hall
 - Bespin (B)
 - Coruscant (C): Access denied
-- Dagobah (D): 
-- Endor (E):
-- Ferrix (F): 
+- Dagobah (D1 + D2): Small rooms
+- Endor (E): Larger room
+- Ferrix (F): Larger room
 - Romney: Tent outside
 - ...
 
