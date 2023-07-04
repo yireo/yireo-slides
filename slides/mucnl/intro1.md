@@ -43,15 +43,16 @@
 If you find yourself in a situation where you are not contributing or learning, move somewhere where you can.
 
 ---
+{state: main middle}
 # The shirt:
 ## I have spoken
 
 ---
-# Extreme conferencing
-- The venue helps
-- Chaos agents help too
-- The team helps
-- You can help too
+# Extreme unconferencing
+~ The venue helps
+~ Chaos agents help too
+~ The team helps
+~ You can help too
 
 ---
 # Program
@@ -81,7 +82,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 # Sessions
 - Take notes of sessions & send them to the team
-    - Sharing via CodiMD online?
+    - Sharing via CodiMD online @todo?
 - Keep the unconference rules in mind
 
 ---
