@@ -2,7 +2,7 @@
 
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" />
 
-### \#mucnl
+### \#mucnl | @MageUnconfNl
 
 ---
 {state: main middle black}
@@ -11,7 +11,7 @@
 
 ---
 # Why are we here?
-~ Magento community revival
+~ Dutch Magento community revival (Mage-OS NL)
 ~ Mage-OS meets Magento meets Adobe
 ~ To collaborate
 ~ To have fun
