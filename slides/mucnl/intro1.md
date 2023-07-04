@@ -75,32 +75,32 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 # Forbidden topics
-- Future of Magento Open Source and Adobe Commerce
-- Magento versus Shopware
-- Hyvä versus Luma
+~ Future of Magento Open Source and Adobe Commerce
+~ Magento versus Shopware
+~ Hyvä versus Luma
 
 ---
 # Sessions
-- Take notes of sessions & send them to the team
-    - Sharing via CodiMD online @todo?
-- Keep the unconference rules in mind
+~ Take notes of sessions & send them to the team
+~ Keep the unconference rules in mind
+~ You are responsible for time management
 
 ---
 # The rooms
-- Alderaan (A): Main hall
-- Bespin (B): Restaurant
-- ~~Coruscant (C): Access denied~~
-- Dagobah (D1 + D2): Small rooms
-- Endor (E): Larger room
-- Ferrix (F): Larger room
-- Romney (O): Tent in the outer rim
-- ...
+~ Alderaan (A): Main hall
+~ Bespin (B): Restaurant
+~ ~~Coruscant (C): Access denied~~
+~ Dagobah (D1 + D2): Small rooms
+~ Endor (E): Larger room
+~ Ferrix (F): Larger room
+~ Romney (O): Tent in the outer rim
+~ ...
 
 ---
 # Rules
-- Rooms D, E & F contain personal belongings.<br/>Keys are handed out with trust
-- Waterpistols and laptops not in the same space.
-- Only pee in the bathrooms or you'll get eaten by a dianoga
+~ Rooms D, E & F contain personal belongings.<br/>Keys are handed out with trust
+~ Waterpistols and laptops not in the same space.
+~ Only pee in the bathrooms or you'll get eaten by a dianoga
 
 ---
 {state: main middle black}
