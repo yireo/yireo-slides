@@ -2610,7 +2610,19 @@ html.meetmagento ul li span.value {
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/unbounded/v6/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG67H2040.ttf) format('truetype');
 }
-html.mucnl {
+html.mucnl body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+html.mucnl body h1 {
+  font-family: 'Unbounded', cursive;
+  font-weight: 900;
+}
+html.mucnl body h2 {
+  font-family: 'Unbounded', cursive;
+  font-weight: 700;
+}
+html.mucnl body.red {
   background-color: red;
 }
 html.mm19pl body {
