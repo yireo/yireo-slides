@@ -65,7 +65,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 - 10:30: Sessions
 - 13:00: Lunch
 - 14:00: Sessions
-- 17:30: Rest
+- 17:30: Snooze
 - 19:00: Party with food
 
 ---
@@ -82,6 +82,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ~ Future of Magento Open Source and Adobe Commerce
 ~ Magento versus Shopware
 ~ Hyvä versus Luma
+~ 
 
 ---
 # Sessions
