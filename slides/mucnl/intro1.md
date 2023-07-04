@@ -43,7 +43,7 @@
 If you find yourself in a situation where you are not contributing or learning, move somewhere where you can.
 
 ---
-{state: main middle}
+{state: main middle red}
 # The shirt:
 ## I have spoken
 
