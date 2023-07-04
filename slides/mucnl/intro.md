@@ -9,7 +9,11 @@
 - Mage-OS meets Magento meets Adobe @todo
 
 ---
-# Why the Mandalorian
+# MageUnconference
+### The saga continues
+
+---
+# Why the Mandalorian?
 - Magento
 - Magneto
 - Maldonorian
@@ -27,11 +31,11 @@
 
 ---
 # Law of two feet
-@todo
-
+If you find yourself in a situation where you are not contributing or learning, move somewhere where you can.
 
 ---
 # Extreme conferencing
+- The venue helps
 - Chaos agents
 
 
@@ -42,9 +46,7 @@
 - Sessions
 - Lunch
 - Sessions
-- Afterparty with food
-
-@todo: rijsttafel
+- Party with food
 
 ---
 # Voting on topics
