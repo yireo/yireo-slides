@@ -1,7 +1,7 @@
 {state: main middle black}
 
-# MageUnconference
-# Netherlands 2023
+<img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" />
+
 ### This is the day
 
 ---
