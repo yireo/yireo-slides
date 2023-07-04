@@ -66,7 +66,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 # Sessions
 - Take notes of sessions & send them to the team
-    - Sharing via digital garbage collector
+    - Sharing via CodiMD online?
 - Keep the unconference rules in mind
 
 ---
