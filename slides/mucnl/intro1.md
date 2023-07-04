@@ -7,7 +7,12 @@
 ---
 {state: main middle black}
 # Mage Unconf NL
-### This is the day \#1
+### This is the day
+
+---
+{state: main middle black}
+# Mage Unconf NL
+### This is Thursday
 
 ---
 # Why are we here?
