@@ -6,8 +6,10 @@
 
 ---
 # Why are we here?
-- Magento community revival
-- Mage-OS meets Magento meets Adobe @todo
+~Magento community revival
+~ Mage-OS meets Magento meets Adobe
+~ To collaborate
+~ To have fun
 
 ---
 # MageUnconference
