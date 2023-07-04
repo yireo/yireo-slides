@@ -3,6 +3,7 @@
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" />
 
 ### This is the day
+### `#mucnl`
 
 ---
 # Why are we here?
