@@ -69,11 +69,14 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 # The rooms
-- Hall A (Alderaan)
-- Hall B (Bespin)
-- Hall C (Coruscant)
-- Hall D ()
-- Romney
+- Alderaan (A): Main Hall
+- Bespin (B)
+- Coruscant (C): Access denied
+- Dagobah (D): 
+- Endor (E):
+- Ferrix (F): 
+- Romney: Tent outside
+- ...
 
 ---
 # Rules
