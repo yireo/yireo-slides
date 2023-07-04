@@ -2638,6 +2638,9 @@ html.mucnl.black body {
   background-color: black;
   color: white;
 }
+html.mucnl.black body h3 {
+  color: #ff2e2e;
+}
 html.mucnl.red body {
   background-color: red;
   color: white;
