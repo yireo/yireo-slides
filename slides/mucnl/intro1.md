@@ -18,10 +18,10 @@
 
 ---
 # Why the Mandalorian?
-- Magento
-- Magneto
-- Maldonorian
-- Mandalorian
+~ Magento
+~ Magneto
+~ Maldonorian
+~ Mandalorian
 
 ---
 {state: main middle black}
