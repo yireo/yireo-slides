@@ -13,8 +13,7 @@
 # Why are we here?
 ~ Dutch Magento community revival (Mage-OS NL)
 ~ Mage-OS meets Magento meets Adobe
-~ To collaborate
-~ To have fun
+~ To collaborate and to have fun
 
 ---
 {state: main middle black}
@@ -34,7 +33,7 @@
 
 ---
 # What is an unconference?
-"a loosely structured conference emphasizing the informal exchange of information and ideas between participants, rather than following a conventionally structured programme of events"
+"A loosely structured conference emphasizing the informal exchange of information and ideas between participants, rather than following a conventionally structured programme of events."
 
 ---
 # Unconference rules
