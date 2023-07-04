@@ -82,10 +82,9 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 # Rules
-- Rooms D, E & F are . Keys are handed out with trust
-- Waterpistols and laptops not in the same space
-- Only pee in the bathrooms
-    - Or you'll get eaten by a dianoga
+- Rooms D, E & F contain personal belongings. Keys are handed out with trust
+- Waterpistols and laptops not in the same space.
+- Only pee in the bathrooms or you'll get eaten by a dianoga
 
 ---
 # Thank you to our sponsors
