@@ -41,7 +41,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 # Program
 - 09:30: Opening
-- Voting
+- 10:00 Voting
 - 10:30: Sessions
 - Lunch
 - Sessions
