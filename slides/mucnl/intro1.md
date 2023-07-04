@@ -41,11 +41,12 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 # Program
 - 09:30: Opening
-- 10:00 Voting
+- 10:00: Voting
 - 10:30: Sessions
-- Lunch
-- Sessions
-- 19:00 Party with food
+- 13:00: Lunch
+- 14:00: Sessions
+- 17:30: Rest
+- 19:00: Party with food
 
 ---
 # Voting on topics
