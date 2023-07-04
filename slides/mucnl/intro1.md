@@ -45,7 +45,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 {state: main middle red}
 # The shirt:
-## I have spoken
+### I have spoken
 
 ---
 # Extreme unconferencing
@@ -98,7 +98,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 # Rules
-- Rooms D, E & F contain personal belongings. Keys are handed out with trust
+- Rooms D, E & F contain personal belongings.<br/>Keys are handed out with trust
 - Waterpistols and laptops not in the same space.
 - Only pee in the bathrooms or you'll get eaten by a dianoga
 
