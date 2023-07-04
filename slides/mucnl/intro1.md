@@ -44,7 +44,9 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 # Extreme conferencing
 - The venue helps
-- Chaos agents
+- Chaos agents help too
+- The team helps
+- You can help too
 
 ---
 # Program
