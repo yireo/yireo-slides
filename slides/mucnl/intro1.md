@@ -2,8 +2,13 @@
 
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" />
 
-### This is the day
 ### `#mucnl`
+
+---
+{state: main middle black}
+# Mage<span>Unconference</span>
+## Netherlands 2023
+### This is the day
 
 ---
 # Why are we here?
