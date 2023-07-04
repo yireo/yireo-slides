@@ -103,10 +103,15 @@ If you find yourself in a situation where you are not contributing or learning, 
 - Only pee in the bathrooms or you'll get eaten by a dianoga
 
 ---
+{state: main middle black}
 # Thank you to our sponsors
+### I have sponsored
 
 ---
+{state: main middle black}
 # Have fun at this unconference
+### This is our creed
 
 ---
+{state: main middle black}
 # This is the way
