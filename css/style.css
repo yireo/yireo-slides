@@ -2616,11 +2616,13 @@ html.mucnl body {
 html.mucnl body h1 {
   font-family: 'Unbounded', cursive;
   font-weight: 900;
+  text-transform: uppercase;
 }
 html.mucnl body h2,
 html.mucnl body h3 {
-  font-family: 'Unbounded', cursive;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
 }
 html.mucnl.black body {
   background-color: black;
