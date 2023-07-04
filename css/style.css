@@ -2009,7 +2009,7 @@ span.notice {
   font-style: normal;
   font-weight: 400;
   font-stretch: normal;
-  src: url(http://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
+  src: url(http://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
 }
 html.extdn body {
   font-family: 'Open Sans', sans-serif;
@@ -2546,6 +2546,9 @@ html.meetmagento ul li span.value {
 .magex19 .bordered h2 {
   text-shadow: 0 0 3px #FF0000;
   color: white;
+}
+html.mucnl {
+  background-color: red;
 }
 html.mm19pl body {
   font-family: "Roboto Condensed", Arial;
