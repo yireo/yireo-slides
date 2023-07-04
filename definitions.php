@@ -1,6 +1,18 @@
 <?php
 $slideGroups = [
     [
+        'group' => 'MageUnconference',
+        'style' => 'mageunconference',
+        'slides' => [
+            [
+                'file' => 'muc/intro',
+                'title' => 'Vue Storefront 2: Magento 2 vs Shopware 6 (VSF Meetup June 2022)',
+                'style' => 'vsf2m2',
+                'renderer' => 'reveal'
+            ],
+        ]
+    ],
+    [
         'group' => 'Magento events',
         'style' => 'meetmagento',
         'slides' => [
