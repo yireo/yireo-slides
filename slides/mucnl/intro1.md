@@ -78,11 +78,11 @@ If you find yourself in a situation where you are not contributing or learning, 
 - Rewind
 
 ---
-# Forbidden topics
+# Forbidden
 ~ Future of Magento Open Source and Adobe Commerce
 ~ Magento versus Shopware
 ~ Hyvä versus Luma
-~ 
+~ Say that anything is forbidden
 
 ---
 # Sessions
@@ -102,10 +102,10 @@ If you find yourself in a situation where you are not contributing or learning, 
 ~ ...
 
 ---
-# Rules
+# Housekeeping rules
 ~ Rooms D, E & F contain personal belongings.<br/>Keys are handed out with trust
 ~ Waterpistols and laptops not in the same space.
-~ Only pee in the bathrooms or you'll get eaten by a dianoga
+~ Have fun or you'll get eaten by a dianoga
 
 ---
 {state: main middle black}
