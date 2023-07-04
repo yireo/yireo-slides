@@ -2615,6 +2615,7 @@ html.mucnl .reveal .slides {
 }
 html.mucnl body {
   font-family: 'Raleway', sans-serif;
+  font-size: 140%;
 }
 html.mucnl body h1 {
   font-family: 'Unbounded', cursive;
