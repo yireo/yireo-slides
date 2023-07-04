@@ -50,11 +50,12 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 # Voting on topics
-- Topic proposal via topic papers
-- Voting of topics via stickers
-- Merging of topics
-- Room assignment
-- Add to scheduling wall
+- Topic proposal (you)
+- Voting via stickers (you)
+- Merging of topics (team)
+- Room assignment (team)
+- Add to scheduling wall (team)
+- Rewind
 
 ---
 # Forbidden topics
