@@ -2628,6 +2628,9 @@ html.mucnl body h3 {
   font-weight: 700;
   text-transform: uppercase;
 }
+html.mucnl body li {
+  line-height: 160%;
+}
 html.middle {
   text-align: center;
 }
