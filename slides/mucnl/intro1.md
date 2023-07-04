@@ -6,12 +6,13 @@
 
 ---
 # Why are we here?
-~Magento community revival
+~ Magento community revival
 ~ Mage-OS meets Magento meets Adobe
 ~ To collaborate
 ~ To have fun
 
 ---
+{state: main middle black}
 # MageUnconference
 ### The saga continues
 
@@ -23,6 +24,7 @@
 - Mandalorian
 
 ---
+{state: main middle black}
 # What is an unconference?
 
 ---
