@@ -2610,6 +2610,9 @@ html.meetmagento ul li span.value {
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/unbounded/v6/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG67H2040.ttf) format('truetype');
 }
+html.mucnl .reveal .slides {
+  text-align: left;
+}
 html.mucnl body {
   font-family: 'Raleway', sans-serif;
 }
