@@ -67,9 +67,14 @@ If you find yourself in a situation where you are not contributing or learning, 
 # Program
 - 09:30 - 10:00 Opening
 - 10:00 - 10:25 Voting
-- 10:30 - : Timeslot 1
-- 13:00: Lunch
-- 14:00: Sessions
+- 10:30 - 11:10 Timeslot 1
+- :30 - 11:10 Timeslot 1
+- 12:20 - 13:00 Timeslot 1
+- 13:00 - 14:30 Lunch
+- 14:30 - 15:10 Timeslot 4
+- 15:25 - 16:05 Timeslot 5
+- 14:30 - 15:10 Timeslot 6
+
 - 17:00: Wrap up the day
 - 17:30: Snooze
 - 19:00: Party with food
