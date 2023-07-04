@@ -65,9 +65,9 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 # Program
-- 09:30: Opening
-- 10:00: Voting
-- 10:30: Sessions
+- 09:30 - 10:00 Opening
+- 10:00 - 10:25 Voting
+- 10:30 - : Timeslot 1
 - 13:00: Lunch
 - 14:00: Sessions
 - 17:00: Wrap up the day
