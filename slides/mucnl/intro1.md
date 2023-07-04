@@ -7,7 +7,7 @@
 ---
 {state: main middle black}
 # Mage Unconf NL
-### This is the day
+### This is the day \#1
 
 ---
 # Why are we here?
@@ -65,6 +65,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 - 10:30: Sessions
 - 13:00: Lunch
 - 14:00: Sessions
+- 17:00: Wrap up the day
 - 17:30: Snooze
 - 19:00: Party with food
 
