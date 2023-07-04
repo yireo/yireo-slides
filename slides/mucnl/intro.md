@@ -38,7 +38,6 @@ If you find yourself in a situation where you are not contributing or learning, 
 - The venue helps
 - Chaos agents
 
-
 ---
 # Program
 - 09:30: Opening
