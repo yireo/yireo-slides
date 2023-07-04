@@ -2622,11 +2622,11 @@ html.mucnl body h3 {
   font-family: 'Unbounded', cursive;
   font-weight: 700;
 }
-html.mucnl section[data-state="black"] {
+html.mucnl.black body {
   background-color: black;
   color: white;
 }
-html.mucnl section[data-state="red"] {
+html.mucnl.red body {
   background-color: red;
   color: white;
 }
