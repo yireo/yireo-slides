@@ -9,12 +9,10 @@
 # Mage Unconf NL
 ### This was a day
 
-
 ---
-# Why are we here?
-~ Dutch Magento community revival (Mage-OS NL)
-~ Mage-OS meets Magento meets Adobe meets you
-~ To collaborate, to brainstorm, to have fun
+# What else?
+~ After-party
+~ Another unconference day
 
 ---
 {state: main middle black}
@@ -22,8 +20,8 @@
 ### The saga continues
 
 ---
-# Why the Mandalorian?
-~ Magento
+# Upcoming events
+~ Magento 2 / Mage-OS Hackathon 
 ~ Magneto
 ~ Maldonorian
 ~ Mandalorian
