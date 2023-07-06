@@ -12,12 +12,14 @@
 ---
 # What else?
 ~ After-party
+~ Sleep
+~ Breakfast
 ~ Another unconference day
 
 ---
 {state: main middle black}
 # MageUnconference
-### The saga continues
+### Wait, there is more
 
 ---
 # Upcoming events
