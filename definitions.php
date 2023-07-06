@@ -11,7 +11,7 @@ $slideGroups = [
                 'style' => 'mucnl',
             ],
             [
-                'file' => 'mucnl/intro1',
+                'file' => 'mucnl/closing1',
                 'title' => 'MageUnconference day 1 Closing',
                 'renderer' => 'reveal',
                 'style' => 'mucnl',
@@ -23,7 +23,7 @@ $slideGroups = [
                 'style' => 'mucnl',
             ],
             [
-                'file' => 'mucnl/intro2',
+                'file' => 'mucnl/closing2',
                 'title' => 'MageUnconference day 2 Closing',
                 'renderer' => 'reveal',
                 'style' => 'mucnl',
