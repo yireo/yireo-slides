@@ -21,8 +21,8 @@
 
 ---
 # Upcoming events
-~ Magento 2 / Mage-OS Hackathon 
-~ MageUnconference DE
+~ Magento 2 Hackathon (9 sept, Baarn) 
+~ MageUnconference DE (29 sept, Köln)
 ~ Meet Magento NL (2 nov, Amsterdam)
 
 ---
