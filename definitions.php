@@ -6,7 +6,25 @@ $slideGroups = [
         'slides' => [
             [
                 'file' => 'mucnl/intro1',
-                'title' => 'MageUnconference day 1',
+                'title' => 'MageUnconference day 1 Opening',
+                'renderer' => 'reveal',
+                'style' => 'mucnl',
+            ],
+            [
+                'file' => 'mucnl/intro1',
+                'title' => 'MageUnconference day 1 Closing',
+                'renderer' => 'reveal',
+                'style' => 'mucnl',
+            ],
+            [
+                'file' => 'mucnl/intro2',
+                'title' => 'MageUnconference day 2 Opening',
+                'renderer' => 'reveal',
+                'style' => 'mucnl',
+            ],
+            [
+                'file' => 'mucnl/intro2',
+                'title' => 'MageUnconference day 2 Closing',
                 'renderer' => 'reveal',
                 'style' => 'mucnl',
             ],
