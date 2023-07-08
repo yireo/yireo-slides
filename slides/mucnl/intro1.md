@@ -121,6 +121,17 @@ If you find yourself in a situation where you are not contributing or learning, 
 # @todo Pacman rule
 
 ---
+# The team
+- Ruud van Zuidam
+- Sean van Zuidam
+- Len Lorijn
+- Pim Hofman
+- Jeroen Boersma
+- Janet Iljas
+- Ruben Creemers
+- Jisse Reitsma
+
+---
 {state: main middle black}
 # Thank you to our sponsors
 ### I have sponsored
