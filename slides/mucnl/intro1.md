@@ -106,14 +106,14 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 
-# Voting on topics
+# Voting process
 
-- Topic proposal (you)
-- Voting via stickers (you)
-- Merging of topics (team)
-- Room assignment (team)
-- Add to scheduling wall (team)
-- Rewind
+~ Topic proposal (you)
+~Voting via stickers (you)
+~ Merging of topics (team)
+~ Room assignment (team)
+~ Add to scheduling wall (team)
+~ Session time!
 
 ---
 
