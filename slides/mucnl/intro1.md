@@ -155,7 +155,9 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 
-# @todo Pacman rule
+# Pacman rule
+
+<img class="img-responsive" src="/images/mucnl/pacman.jpg" />
 
 ---
 
