@@ -29,7 +29,12 @@
 
 ---
 {state: main middle black}
-# How long did Jisse take to put this together?
+### How long did Jisse take to put this together?
+
+---
+### How long did Jisse take to put this together?
+
+# 82 minutes
 
 ---
 {state: main middle black}
