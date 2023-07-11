@@ -147,7 +147,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 # Housekeeping rules
 
-~ Rooms D, E & F contain personal belongings.<br/>Keys are handed out with trust
+~ Rooms D1, D2 & E contain personal belongings.<br/>Keys are handed out with trust
 ~ Waterpistols and laptops not in the same space.
 ~ Have fun or you'll get eaten by a dianoga
 
@@ -172,7 +172,6 @@ If you find yourself in a situation where you are not contributing or learning, 
 # The team today
 - Sean van Zuidam
 - Len Lorijn
-- Pim Hofman 
 - Jeroen Boersma
 - Jisse Reitsma
 - Ruud van Zuidam
