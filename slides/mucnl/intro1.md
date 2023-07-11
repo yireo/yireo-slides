@@ -20,7 +20,7 @@
 
 ---
 # What happened before?
-~ MageUnconference NL 2016
+~ MageUnconference NL 2016 & 2017
 ~ Dutch Magento community revival (Mage-OS NL)
 ~ Mage-OS meets Magento meets Adobe meets you
 
