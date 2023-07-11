@@ -2612,7 +2612,7 @@ html.meetmagento ul li span.value {
 }
 @font-face {
   font-family: Mandalore;
-  src: url("../fonts/mandalorecond.otf") format("opentype");
+  src: url("../fonts/mandalore.otf") format("opentype");
 }
 html.mucnl .reveal .slides {
   text-align: left;
@@ -2623,9 +2623,10 @@ html.mucnl body {
 }
 html.mucnl body h1 {
   font-family: 'Mandalore', 'Unbounded', cursive;
-  font-size: 190%;
+  font-size: 290%;
   font-weight: 900;
   text-transform: uppercase;
+  letter-spacing: 6px;
 }
 html.mucnl body h2,
 html.mucnl body h3 {
