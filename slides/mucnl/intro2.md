@@ -16,7 +16,7 @@
 
 # Mage Unconference
 
-### This is Thursday
+### This is Friday
 
 ---
 # What happened before?
