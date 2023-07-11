@@ -161,17 +161,13 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 # The team
 
-- Organizers (Jisse Reitsma & Janet Iljas)
-- Design (R)
-
-- Ruud van Zuidam
+- Jisse Reitsma & Janet Iljas: Organizers 
+- Ruben Creemers: Design work
+- Ruud van Zuidam: Additional management
 - Sean van Zuidam
 - Len Lorijn
 - Pim Hofman
 - Jeroen Boersma
-- Janet Iljas
-- Ruben Creemers
-- Jisse Reitsma
 
 ---
 {state: main middle black}
