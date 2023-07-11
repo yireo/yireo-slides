@@ -19,11 +19,15 @@
 ### This is Thursday
 
 ---
+# What happened before?
+~ MageUnconference NL 2018?
+~ Dutch Magento community revival (Mage-OS NL)
+~ Mage-OS meets Magento meets Adobe meets you
+
+---
 
 # Why are we here?
 
-~ Dutch Magento community revival (Mage-OS NL)
-~ Mage-OS meets Magento meets Adobe meets you
 ~ To collaborate, to brainstorm, to have fun
 
 ---
