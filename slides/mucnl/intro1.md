@@ -163,8 +163,8 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 - Jisse Reitsma: Organizer 
 - Janet Iljas: Scheduler
-- Ruben Creemers: Designer
-- Ruud van Zuidam: Spirit
+- Ruben Creemers: Art work
+- Ruud van Zuidam: Midichlorians
 - Sean van Zuidam: Team
 - Len Lorijn: Team
 - Pim Hofman: Team
