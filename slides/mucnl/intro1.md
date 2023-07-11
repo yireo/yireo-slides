@@ -66,7 +66,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 # Program day 1
 
-<div class="foobar">
+<div style="">
 
 - 09:30 - 10:00 Opening
 - 10:00 - 10:25 Voting
