@@ -23,6 +23,7 @@
 ~ MageUnconference NL (16 & 17)
 ~ MageUnconference DE (15-19 & 22 & 23)
 ~ Dutch Magento community  (Mage-OS NL) revival (22 & 23)
+~ The first MageUnconference day (yesterday)
 ~ Mage-OS meets Magento meets Adobe meets you (today)
 
 ---
@@ -94,7 +95,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 
-# Program day 1
+# Program day 2
 
 <ul style="column-count: 2">
 <li>09:30 - 10:00 Opening</li>
@@ -138,7 +139,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ~ Dagobah 1 (D1): Small room
 ~ Dagobah 2 (D2): Small room
 ~ Endor (E): Larger room
-~ Ferrix (F): Larger room
+~ ~~Ferrix (F): Larger room~~
 ~ Romney (O): Tent in the outer rim
 ~ ...
 
