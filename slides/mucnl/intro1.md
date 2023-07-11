@@ -65,6 +65,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 # Program day 1
+
 - 09:30 - 10:00 Opening
 - 10:00 - 10:25 Voting
 - 10:30 - 11:10 Timeslot 1
