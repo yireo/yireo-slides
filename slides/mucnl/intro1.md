@@ -20,15 +20,17 @@
 
 ---
 # What happened before?
-~ MageUnconference NL 2016 & 2017
-~ Dutch Magento community revival (Mage-OS NL)
-~ Mage-OS meets Magento meets Adobe meets you
+~ MageUnconference NL (2016 & 2017)
+~ Dutch Magento community  (Mage-OS NL) revival (2022 & 2023)
+~ Mage-OS meets Magento meets Adobe meets you (today)
 
 ---
 
 # Why are we here?
 
-~ To collaborate, to brainstorm, to have fun
+~ To collaborate
+~ To brainstorm
+~ To have fun
 
 ---
 {state: main middle black}
