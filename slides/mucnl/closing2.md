@@ -22,9 +22,10 @@
 ### Wait, there is more
 
 ---
+{state: main middle black}
 # Mandalego
 
-<img class="img-responsive" src="/images/mucnl/mando-lego.webp" />
+<img class="img-responsive" src="/images/mucnl/mando-lego.webp" style="display:block; margin:auto"/>
 
 ---
 {state: main middle black}
