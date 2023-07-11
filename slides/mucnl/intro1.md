@@ -20,9 +20,9 @@
 
 ---
 # What happened before?
-~ MageUnconference NL (2016 & 2017)
-~ MageUnconference DE (2015-2019 & 2022 & 2023
-~ Dutch Magento community  (Mage-OS NL) revival (2022 & 2023)
+~ MageUnconference NL (16 & 17)
+~ MageUnconference DE (15-19 & 22 & 23)
+~ Dutch Magento community  (Mage-OS NL) revival (22 & 23)
 ~ Mage-OS meets Magento meets Adobe meets you (today)
 
 ---
