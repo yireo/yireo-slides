@@ -24,7 +24,7 @@
 ---
 ### Mandalego
 
-<img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" />
+<img class="img-responsive" src="/images/mucnl/mando-lego.webp" />
 
 
 ---
