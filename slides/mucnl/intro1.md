@@ -154,6 +154,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ~ Have fun or you'll get eaten by a dianoga
 
 ---
+{state: black}
 
 # Pacman rule
 
