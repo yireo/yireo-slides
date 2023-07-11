@@ -137,8 +137,8 @@ If you find yourself in a situation where you are not contributing or learning, 
 # The rooms
 
 ~ Alderaan (A): Main hall
-~ Bespin (B): Restaurant
-~ ~~Coruscant (C): Access denied~~
+~ ~~Bespin (B): Restaurant~~
+~ ~~Coruscant (C): Storage~~
 ~ Dagobah (D1 + D2): Small rooms
 ~ Endor (E): Larger room
 ~ Ferrix (F): Larger room
