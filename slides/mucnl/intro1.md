@@ -14,13 +14,14 @@
 ---
 {state: main middle black}
 
-# Mage Unconf NL
+# Mage Unconference
 
 ### This is Thursday
 
 ---
 # What happened before?
 ~ MageUnconference NL (2016 & 2017)
+~ MageUnconference DE (2015 & 2016 & 2017 & 2018 & 2019 & 2022 & 2023)
 ~ Dutch Magento community  (Mage-OS NL) revival (2022 & 2023)
 ~ Mage-OS meets Magento meets Adobe meets you (today)
 
