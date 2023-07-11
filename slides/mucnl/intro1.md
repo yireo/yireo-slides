@@ -161,6 +161,9 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 # The team
 
+- Organizers (Jisse Reitsma & Janet Iljas)
+- Design (R)
+
 - Ruud van Zuidam
 - Sean van Zuidam
 - Len Lorijn
