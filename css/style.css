@@ -2623,7 +2623,7 @@ html.mucnl body {
 }
 html.mucnl body h1 {
   font-family: 'Mandalore', 'Unbounded', cursive;
-  font-size: 290%;
+  font-size: 290% !important;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 6px;
