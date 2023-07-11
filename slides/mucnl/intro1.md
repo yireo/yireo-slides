@@ -7,7 +7,7 @@
 ---
 {state: main middle black}
 
-# Mage Unconf NL
+# Mage Unconference
 
 ### This is the day
 
