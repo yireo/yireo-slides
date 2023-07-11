@@ -135,9 +135,8 @@ If you find yourself in a situation where you are not contributing or learning, 
 # The rooms
 
 ~ Alderaan (A): Main hall
-~ ~~Bespin (B): Restaurant~~
-~ ~~Coruscant (C): Storage~~
-~ Dagobah (D1 + D2): Small rooms
+~ Dagobah 1 (D1): Small room
+~ Dagobah 2 (D2): Small room
 ~ Endor (E): Larger room
 ~ Ferrix (F): Larger room
 ~ Romney (O): Tent in the outer rim
