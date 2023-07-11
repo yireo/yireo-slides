@@ -66,6 +66,8 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 # Program day 1
 
+<div class="foobar">
+
 - 09:30 - 10:00 Opening
 - 10:00 - 10:25 Voting
 - 10:30 - 11:10 Timeslot 1
@@ -78,6 +80,8 @@ If you find yourself in a situation where you are not contributing or learning, 
 - 17:15 - 17:45 Closing + Quiz
 - 17:45 - 19:00 Snooze
 - 19:00 - 22:00 Party with food
+
+</div>
 
 ---
 # Voting on topics
