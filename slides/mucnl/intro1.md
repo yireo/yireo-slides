@@ -165,10 +165,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 - Janet Iljas: Scheduler
 - Ruben Creemers: Art work
 - Ruud van Zuidam: Midichlorians
-- Sean van Zuidam: Team
-- Len Lorijn: Team
-- Pim Hofman: Team
-- Jeroen Boersma: Team
+- And: Sean van Zuidam, Len Lorijn, Pim Hofman & Jeroen Boersma
 
 ---
 {state: main middle black}
