@@ -14,12 +14,18 @@
 ~ After-party
 ~ Sleep
 ~ Breakfast
-~ Another unconference day
+~ Another regular day
 
 ---
 {state: main middle black}
 # MageUnconference
 ### Wait, there is more
+
+---
+### Mandalego
+
+<img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" />
+
 
 ---
 # Upcoming events
