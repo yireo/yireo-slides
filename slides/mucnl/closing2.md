@@ -22,10 +22,14 @@
 ### Wait, there is more
 
 ---
-### Mandalego
+# Mandalego
 
 <img class="img-responsive" src="/images/mucnl/mando-lego.webp" />
 
+---
+{state: main middle black}
+# MageUnconference
+### Wait, there is more
 
 ---
 # Upcoming events
