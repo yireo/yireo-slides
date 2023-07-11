@@ -158,7 +158,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 # Pacman rule
 
-<img class="img-responsive" src="/images/mucnl/pacman.jpg" />
+<img class="img-responsive" src="/images/mucnl/pacman.jpg" style="margin:auto; display:block;" />
 
 ---
 
