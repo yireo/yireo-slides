@@ -95,6 +95,11 @@ If you find yourself in a situation where you are not contributing or learning, 
 ~ You can help too
 
 ---
+{state: main middle black}
+
+# Practicalities
+
+---
 {state: red}
 
 # Program day 1
