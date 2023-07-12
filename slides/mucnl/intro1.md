@@ -2,9 +2,8 @@
 
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
-<div style="position:relative">
-<div style="float:left">#mucnl</div>
-<div style="float:right">@MageUnconfNL<div>
+<div style="text-align:center; font-size: 70%; color: #ccc;">
+#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL
 </div>
 
 ---
@@ -214,6 +213,6 @@ See the map on your lanyard
 
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
-<div style="text-align:center; font-size: 70%; color: #eee;">
+<div style="text-align:center; font-size: 70%; color: #ccc;">
 #mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL
 </div>
