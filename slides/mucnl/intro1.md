@@ -234,7 +234,9 @@ See the map on your lanyard
 
 # Merging
 
-### Beware of merge conflicts
+### Solving merge conflicts
+### Assigning padawans
+### Updating the Jedi archives
 
 ---
 {state: main middle black}
