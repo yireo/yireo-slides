@@ -1834,7 +1834,12 @@ body {
   align-items: center;
   justify-content: center;
 }
-.middle .reveal .slides h1 {
+.middle .reveal .slides h1,
+.middle .reveal .slides h2,
+.middle .reveal .slides h3,
+.middle .reveal .slides h4,
+.middle .reveal .slides h5,
+.middle .reveal .slides h6 {
   text-align: center;
 }
 .main .reveal h1 {
@@ -1855,7 +1860,9 @@ body {
 .center .reveal h1,
 .center .reveal h2,
 .center .reveal h3,
-.center .reveal h4 {
+.center .reveal h4,
+.center .reveal h5,
+.center .reveal h6 {
   text-align: center;
 }
 .light .reveal .backgrounds .slide-background {
