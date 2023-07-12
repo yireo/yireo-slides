@@ -128,7 +128,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 </ul>
 
 <p style="font-size:80%">
-See: <a>mageunconference.nl/schedule-wall</a>
+The topics are going to be online at <a>mageunconference.nl</a> &raquo; "Schedule Wall"
 </p>
 
 ---
@@ -252,4 +252,4 @@ See the map on your lanyard
 
 ### First session starts at 10:30
 
-###### (The site will be updated soon for all other sessions)
+###### (The schedule will be updated soon for all other sessions)
