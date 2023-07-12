@@ -243,9 +243,9 @@ See the map on your lanyard
 ---
 {state: main middle black}
 
-# Merging
+# Merging ...
 
-### Solving merge conflicts, assigning padawans, updating the Jedi archives
+### Solving merge conflicts, assigning chaos agents, updating the Jedi archives, aligning the force
 
 ---
 {state: main middle black}
