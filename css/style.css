@@ -2640,7 +2640,6 @@ html.mucnl body li {
 html.mucnl body blockquote {
   font-family: 'Mandalore', 'Unbounded', cursive;
   font-size: 180%;
-  border-left: 5px solid gray;
   padding-left: 20px;
 }
 html.mucnl body blockquote cite {
@@ -2651,8 +2650,11 @@ html.mucnl body blockquote cite {
 html.middle {
   text-align: center;
 }
+html.middle h1,
 html.middle h2,
-html.middle h3 {
+html.middle h3,
+html.middle blockquote,
+html.middle p {
   text-align: center;
 }
 html.mucnl.black body {
