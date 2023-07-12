@@ -73,7 +73,6 @@ $googleFonts[] = 'Handlee';
     });
     Reveal.configure({
         transitionSpeed: 'fast',
-        transition: 'concave',
         slideNumber: 'c/t',
         history:true,
         center: false
