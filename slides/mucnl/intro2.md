@@ -174,7 +174,8 @@ See the map on your lanyard
 - Janet Iljas: Scheduler
 - Ruben Creemers: Art work
 - Ruud van Zuidam: Midichlorians
-
+- Mage-OS Nederland: Backing up
+ 
 ---
 
 # The team today
