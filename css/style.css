@@ -2644,6 +2644,7 @@ html.mucnl body blockquote {
   padding-left: 20px;
 }
 html.mucnl body blockquote cite {
+  padding-left: 200px;
   font-style: italic;
   font-size: 70%;
 }

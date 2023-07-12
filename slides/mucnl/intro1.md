@@ -179,7 +179,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 {state: middle black}
 
-> This is where the fun begins
+> "This is where the fun begins"
 >
 > <cite>Dark Fader</cite>
 
