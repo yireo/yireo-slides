@@ -229,14 +229,23 @@ See the map on your lanyard
 
 # Topic proposal
 
+### Until
+
+---
+{state: main middle black}
+
+### Next up
+
+# Topic proposal
+
+### Until
+
 ---
 {state: main middle black}
 
 # Merging
 
-### Solving merge conflicts
-### Assigning padawans
-### Updating the Jedi archives
+### Solving merge conflicts, assigning padawans, updating the Jedi archives
 
 ---
 {state: main middle black}
