@@ -181,12 +181,21 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 > "This is where the fun begins"
 >
-> <cite>Dark Fader</cite>
+> <cite></cite>
 
 ---
 {state: main middle black}
 
-# Have fun at this unconference
+# "This is where 
+# the fun begins"
+
+### quote by Dark Fader
+
+
+---
+{state: main middle black}
+
+# Learn from each other
 
 ### This is our creed
 
