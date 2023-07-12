@@ -232,11 +232,9 @@ See the map on your lanyard
 ---
 {state: main middle black}
 
-### Next up
-
 # Voting
 
-#### until 10:15
+### until 10:10
 
 ---
 {state: main middle black}
