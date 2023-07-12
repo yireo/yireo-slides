@@ -36,6 +36,15 @@
 
 ---
 
+# Why the Mandalorian?
+
+~ Magento
+~ Magneto
+~ Maldonorian
+~ Mandalorian
+
+---
+
 # Why are we here?
 
 ~ To collaborate
@@ -43,20 +52,11 @@
 ~ To have fun
 
 ---
-{state: main middle black}
+{state: middle black}
 
-# MageUnconference
+# Pacman rule
 
-### The saga continues
-
----
-
-# Why the Mandalorian?
-
-~ Magento
-~ Magneto
-~ Maldonorian
-~ Mandalorian
+<img class="img-responsive" src="/images/mucnl/pacman.jpg" style="margin:auto; display:block;" />
 
 ---
 {state: main middle red}
@@ -102,12 +102,17 @@ If you find yourself in a situation where you are not contributing or learning, 
 ~ You can help too
 
 ---
+{state: main middle black}
+
+# Practicalities
+
+---
 
 # Program day 2
 
 <ul style="column-count: 2">
 <li>09:30 - 10:00 Opening</li>
-<li>10:00 - 10:25 Voting</li>
+<li>10:00 - 10:15 Voting</li>
 <li>10:30 - 11:10 Timeslot 1</li>
 <li>11:25 - 12:05 Timeslot 2</li>
 <li>12:20 - 13:00 Timeslot 3</li>
@@ -120,12 +125,16 @@ If you find yourself in a situation where you are not contributing or learning, 
 <li>19:00 - 22:00 Party with food</li>
 </ul>
 
+<p style="font-size:80%">
+See also mageunconference.nl &raquo; "Program" &amp; "Schedule Wall"
+</p>
+
 ---
 
 # Voting process
 
 ~ Topic proposal (you)
-~Voting via stickers (you)
+~ Voting via stickers (you)
 ~ Merging of topics (team)
 ~ Room assignment (team)
 ~ Add to scheduling wall (team)
@@ -142,6 +151,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 
 # The rooms
+{state: red}
 
 ~ Alderaan (A): Main hall
 ~ Dagobah 1 (D1): Small room
@@ -151,20 +161,9 @@ If you find yourself in a situation where you are not contributing or learning, 
 ~ Romney (O): Tent in the outer rim
 ~ ...
 
----
-
-# Housekeeping rules
-
-~ Rooms D1, D2 & E contain personal belongings.<br/>Keys are handed out with trust
-~ Waterpistols and laptops not in the same space.
-~ Have fun or you'll get eaten by a dianoga
-
----
-{state: middle black}
-
-# Pacman rule
-
-<img class="img-responsive" src="/images/mucnl/pacman.jpg" style="margin:auto; display:block;" />
+<p style="font-size:80%">
+See the map on your lanyard
+</p>
 
 ---
 

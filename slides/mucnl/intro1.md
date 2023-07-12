@@ -58,7 +58,6 @@
 
 <img class="img-responsive" src="/images/mucnl/pacman.jpg" style="margin:auto; display:block;" />
 
-
 ---
 {state: main middle red}
 
@@ -136,7 +135,7 @@ See also mageunconference.nl &raquo; "Program" &amp; "Schedule Wall"
 # Voting process
 
 ~ Topic proposal (you)
-~Voting via stickers (you)
+~ Voting via stickers (you)
 ~ Merging of topics (team)
 ~ Room assignment (team)
 ~ Add to scheduling wall (team)
