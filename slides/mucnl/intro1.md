@@ -254,4 +254,4 @@ See the map on your lanyard
 
 ### First session starts at 10:30
 
-##### The site will be updated soon for all other sessions
+###### (The site will be updated soon for all other sessions)

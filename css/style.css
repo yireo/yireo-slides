@@ -1857,6 +1857,9 @@ body {
 .main .reveal h5 {
   font-size: 110%;
 }
+.main .reveal h6 {
+  font-size: 90%;
+}
 .center .reveal h1,
 .center .reveal h2,
 .center .reveal h3,
