@@ -1,8 +1,10 @@
 {state: main middle black}
 
-<img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" />
+<img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
-### \#mucnl | @MageUnconfNl
+<div style="text-align:center; font-size: 70%; color: #ccc;">
+#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL
+</div>
 
 ---
 {state: main middle black}
