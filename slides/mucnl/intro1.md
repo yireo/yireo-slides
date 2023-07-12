@@ -184,6 +184,9 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ### I have sponsored
 
+
+
+
 ---
 {state: main middle black}
 
