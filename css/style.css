@@ -2639,13 +2639,15 @@ html.mucnl body li {
 }
 html.mucnl body blockquote {
   font-family: 'Mandalore', 'Unbounded', cursive;
-  font-size: 180%;
-  padding-left: 20px;
+  font-size: 280%;
 }
 html.mucnl body blockquote cite {
   font-family: 'Raleway', sans-serif;
   padding-left: 200px;
+  font-weight: 700;
+  text-transform: uppercase;
   font-size: 70%;
+  color: #ff2e2e;
 }
 html.middle {
   text-align: center;
