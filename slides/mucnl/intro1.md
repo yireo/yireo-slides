@@ -178,12 +178,11 @@ See the map on your lanyard
 - Ruud van Zuidam
 
 ---
-{state: main middle black}
+{state: main middle red}
 
-# Thank you 
-# to our sponsors
+### Thank you to our sponsors
 
-### I have sponsored
+# I have sponsored
 
 ---
 {state: middle black}
