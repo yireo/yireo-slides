@@ -181,15 +181,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 > "This is where the fun begins"
 >
-> <cite></cite>
-
----
-{state: main middle black}
-
-# "This is where 
-# the fun begins"
-
-### quote by Dark Fader
+> <cite>quote by Dark Fader</cite>
 
 
 ---
