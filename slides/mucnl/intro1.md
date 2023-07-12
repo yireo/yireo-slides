@@ -179,9 +179,9 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 {state: main middle black}
 
-# This is where the fun begins
-
-### Dark Fader
+> This is where the fun begins
+>
+> -- <cite>Dark Fader</cite>
 
 ---
 {state: main middle black}
