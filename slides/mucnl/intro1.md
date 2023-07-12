@@ -114,7 +114,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 <ul style="column-count: 2">
 <li>09:30 - 10:00 Opening</li>
-<li>10:00 - 10:25 Voting</li>
+<li>10:00 - 10:15 Voting</li>
 <li>10:30 - 11:10 Timeslot 1</li>
 <li>11:25 - 12:05 Timeslot 2</li>
 <li>12:20 - 13:00 Timeslot 3</li>
@@ -229,14 +229,14 @@ See the map on your lanyard
 
 # Topic proposal
 
-### until 09:50
+### until 09:55
 
 ---
 {state: main middle black}
 
 # Voting
 
-### until 10:10
+### until 10:15
 
 ---
 {state: main middle black}
