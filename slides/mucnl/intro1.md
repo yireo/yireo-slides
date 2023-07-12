@@ -93,6 +93,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ~ You can help too
 
 ---
+{state: red}
 
 # Program day 1
 
@@ -110,6 +111,8 @@ If you find yourself in a situation where you are not contributing or learning, 
 <li>17:45 - 19:00 Snooze</li>
 <li>19:00 - 22:00 Party with food</li>
 </ul>
+
+See also https://mageunconference.nl
 
 ---
 
@@ -133,6 +136,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 ---
 
 # The rooms
+{state: red}
 
 ~ Alderaan (A): Main hall
 ~ Dagobah 1 (D1): Small room
