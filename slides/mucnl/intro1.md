@@ -52,6 +52,14 @@
 ~ To have fun
 
 ---
+{state: middle black}
+
+# Pacman rule
+
+<img class="img-responsive" src="/images/mucnl/pacman.jpg" style="margin:auto; display:block;" />
+
+
+---
 {state: main middle red}
 
 # What is an unconference?
@@ -159,12 +167,6 @@ See: <a>mageunconference.nl/schedule-wall</a>
 See the map on your lanyard
 </p>
 
----
-{state: middle black}
-
-# Pacman rule
-
-<img class="img-responsive" src="/images/mucnl/pacman.jpg" style="margin:auto; display:block;" />
 
 ---
 
