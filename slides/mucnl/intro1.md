@@ -122,8 +122,8 @@ If you find yourself in a situation where you are not contributing or learning, 
 <li>15:25 - 16:05 Timeslot 5</li>
 <li>16:20 - 17:00 Timeslot 6</li>
 <li>17:15 - 17:45 Quiz + Closing</li>
-<li>17:45 - 19:00 Snooze</li>
-<li>19:00 - 22:00 Party with food</li>
+<li>17:45 - 18:30 Snooze</li>
+<li>18:30 - 22:00 Party with food</li>
 </ul>
 
 <p style="font-size:80%">
