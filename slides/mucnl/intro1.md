@@ -112,7 +112,9 @@ If you find yourself in a situation where you are not contributing or learning, 
 <li>19:00 - 22:00 Party with food</li>
 </ul>
 
-See also <a>mageunconference.nl/schedule-wall</a>
+<p style="font-size:80%">
+See: <a>mageunconference.nl/schedule-wall</a>
+</p>
 
 ---
 
@@ -146,6 +148,9 @@ See also <a>mageunconference.nl/schedule-wall</a>
 ~ Romney (O): Tent in the outer rim
 ~ ...
 
+<p style="font-size:80%">
+See the map on your lanyard
+</p>
 
 ---
 {state: middle black}
