@@ -25,6 +25,7 @@
 ~ MageUnconference NL (16 & 17)
 ~ MageUnconference DE (15-19 & 22 & 23)
 ~ Founding of Mage-OS NL association (22 & 23)
+~ Thursday (first MageUnconference day)
 ~ Mage-OS meets Magento meets Adobe meets you (today)
 
 ---
@@ -184,17 +185,24 @@ See the map on your lanyard
 - Ruud van Zuidam
 
 ---
-{state: main middle black}
+{state: main middle red}
 
-# Thank you 
-# to our sponsors
+### Thank you to our sponsors
 
-### I have sponsored
+# I have sponsored
+
+---
+{state: middle black}
+
+> "This is where the fun begins"
+>
+> <cite>Dark Fader</cite>
+
 
 ---
 {state: main middle black}
 
-# Have fun at this unconference
+# Learn from each other
 
 ### This is our creed
 
@@ -202,3 +210,44 @@ See the map on your lanyard
 {state: main middle black}
 
 # This is the way
+
+### This is the way
+
+---
+{state: main middle black}
+
+<img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
+
+<div style="text-align:center; font-size: 70%; color: #ccc;">
+#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL
+</div>
+
+---
+{state: main middle black}
+
+# Topic proposal
+
+### until 09:55
+
+---
+{state: main middle black}
+
+# Voting
+
+### until 10:15
+
+---
+{state: main middle black}
+
+# Merging ...
+
+### Solving merge conflicts, assigning chaos agents, updating the Jedi archives, aligning the force
+
+---
+{state: main middle black}
+
+# May the farce be with you
+
+### First session starts at 10:30
+
+###### (The schedule will be updated soon for all other sessions)
