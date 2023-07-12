@@ -253,3 +253,5 @@ See the map on your lanyard
 # May the farce be with you
 
 ### First session starts at 10:30
+
+##### The site will be updated soon for all other sessions

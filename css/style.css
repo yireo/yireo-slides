@@ -1846,6 +1846,12 @@ body {
 .main .reveal h3 {
   font-size: 140%;
 }
+.main .reveal h4 {
+  font-size: 120%;
+}
+.main .reveal h5 {
+  font-size: 110%;
+}
 .center .reveal h1,
 .center .reveal h2,
 .center .reveal h3,
