@@ -2643,8 +2643,8 @@ html.mucnl body blockquote {
   padding-left: 20px;
 }
 html.mucnl body blockquote cite {
+  font-family: 'Raleway', sans-serif;
   padding-left: 200px;
-  font-style: italic;
   font-size: 70%;
 }
 html.middle {

@@ -181,7 +181,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 > "This is where the fun begins"
 >
-> <cite>quote by Dark Fader</cite>
+> <cite>Dark Fader</cite>
 
 
 ---
