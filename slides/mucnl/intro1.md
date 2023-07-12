@@ -225,11 +225,9 @@ See the map on your lanyard
 ---
 {state: main middle black}
 
-### Next up
-
 # Topic proposal
 
-### Until 09:50
+### until 09:50
 
 ---
 {state: main middle black}
@@ -238,7 +236,7 @@ See the map on your lanyard
 
 # Voting
 
-### Until 10:15
+#### until 10:15
 
 ---
 {state: main middle black}
