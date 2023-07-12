@@ -227,5 +227,18 @@ See the map on your lanyard
 
 ### Next up
 
-# Learn from each other
+# Topic proposal
 
+---
+{state: main middle black}
+
+### Next up
+
+# Merging (cross-fingers)
+
+---
+{state: main middle black}
+
+### Next up
+
+# Session time
