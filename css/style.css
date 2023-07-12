@@ -2637,6 +2637,10 @@ html.mucnl body h3 {
 html.mucnl body li {
   line-height: 160%;
 }
+html.mucnl body blockquote {
+  font-size: 120%;
+  border-left: 5px solid gray;
+}
 html.middle {
   text-align: center;
 }
