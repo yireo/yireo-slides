@@ -31,7 +31,10 @@
 
 ---
 {state: main middle black}
-### How long did Jisse take 
+
+# Use the force
+
+### How much time did Jisse need 
 ### to put this together?
 
 ---
@@ -62,3 +65,5 @@
 ---
 {state: main middle black}
 # May The Farce Be With You
+
+### Diner & party start at 18:30
