@@ -232,13 +232,13 @@ See the map on your lanyard
 ---
 {state: main middle black}
 
-### Next up
+# Merging
 
-# Merging (cross-fingers)
+### Beware of merge conflicts
 
 ---
 {state: main middle black}
 
-# Go go go
+# May the farce be with you
 
 ### First session starts at 10:30
