@@ -28,14 +28,6 @@
 ~ Mage-OS meets Magento meets Adobe meets you (today)
 
 ---
-
-# Why are we here?
-
-~ To collaborate
-~ To brainstorm
-~ To have fun
-
----
 {state: main middle black}
 
 # MageUnconference
@@ -50,6 +42,14 @@
 ~ Magneto
 ~ Maldonorian
 ~ Mandalorian
+
+---
+
+# Why are we here?
+
+~ To collaborate
+~ To brainstorm
+~ To have fun
 
 ---
 {state: main middle red}
