@@ -177,11 +177,11 @@ If you find yourself in a situation where you are not contributing or learning, 
 ### I have sponsored
 
 ---
-{state: main middle black}
+{state: middle black}
 
 > This is where the fun begins
 >
-> -- <cite>Dark Fader</cite>
+> <cite>Dark Fader</cite>
 
 ---
 {state: main middle black}

@@ -2640,6 +2640,10 @@ html.mucnl body li {
 html.mucnl body blockquote {
   font-size: 120%;
   border-left: 5px solid gray;
+  padding-left: 20px;
+}
+html.mucnl body blockquote cite {
+  font-style: italic;
 }
 html.middle {
   text-align: center;
