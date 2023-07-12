@@ -221,3 +221,11 @@ See the map on your lanyard
 <div style="text-align:center; font-size: 70%; color: #ccc;">
 #mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL
 </div>
+
+---
+{state: main middle black}
+
+### Next up
+
+# Learn from each other
+
