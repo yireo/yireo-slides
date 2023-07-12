@@ -3,7 +3,7 @@
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
 <div style="text-align:center; font-size: 70%; color: #ccc;">
-#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL
+#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL &nbsp;&nbsp; - &nbsp;&nbsp; @yireo 
 </div>
 
 ---
@@ -219,7 +219,7 @@ See the map on your lanyard
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
 <div style="text-align:center; font-size: 70%; color: #ccc;">
-#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL
+#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL &nbsp;&nbsp; - &nbsp;&nbsp; @yireo 
 </div>
 
 ---
