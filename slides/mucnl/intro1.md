@@ -239,6 +239,6 @@ See the map on your lanyard
 ---
 {state: main middle black}
 
-### Next up
+# Go go go
 
-# Session time
+### First session starts at 10:30
