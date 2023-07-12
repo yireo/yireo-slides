@@ -128,7 +128,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 </ul>
 
 <p style="font-size:80%">
-The topics are going to be online at <a>mageunconference.nl</a> &raquo; "Schedule Wall"
+See also mageunconference.nl &raquo; "Program" &amp; "Schedule Wall"
 </p>
 
 ---
