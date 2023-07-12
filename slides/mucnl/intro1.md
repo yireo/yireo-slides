@@ -184,8 +184,12 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ### I have sponsored
 
+---
+{state: main middle black}
 
+# This is where the fun begins
 
+### Dark Vader
 
 ---
 {state: main middle black}
