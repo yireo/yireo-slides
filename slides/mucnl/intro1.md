@@ -171,7 +171,6 @@ If you find yourself in a situation where you are not contributing or learning, 
 # The team today
 - Sean van Zuidam
 - Len Lorijn
-- Pim Hofman
 - Jeroen Boersma
 - Jisse Reitsma
 - Ruud van Zuidam
