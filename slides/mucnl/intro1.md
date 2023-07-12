@@ -142,13 +142,6 @@ If you find yourself in a situation where you are not contributing or learning, 
 ~ Romney (O): Tent in the outer rim
 ~ ...
 
----
-
-# Housekeeping rules
-
-~ Rooms D1, D2 & E contain personal belongings.<br/>Keys are handed out with trust
-~ Waterpistols and laptops not in the same space.
-~ Have fun or you'll get eaten by a dianoga
 
 ---
 {state: middle black}
