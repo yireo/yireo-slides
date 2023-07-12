@@ -24,7 +24,7 @@
 # What happened before?
 ~ MageUnconference NL (16 & 17)
 ~ MageUnconference DE (15-19 & 22 & 23)
-~ Dutch Magento community  (Mage-OS NL) revival (22 & 23)
+~ Founding of Mage-OS NL association (22 & 23)
 ~ Mage-OS meets Magento meets Adobe meets you (today)
 
 ---
