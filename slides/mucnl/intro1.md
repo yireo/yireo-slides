@@ -3,11 +3,9 @@
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
 <div style="position:relative">
-<div style="">#mucnl</div>
-<div>@MageUnconfNl<div>
+<div style="float:left">#mucnl</div>
+<div style="float:right">@MageUnconfNL<div>
 </div>
-#### \#mucnl
-#### @MageUnconfNl
 
 ---
 {state: main middle black}
@@ -210,3 +208,13 @@ See the map on your lanyard
 # This is the way
 
 ### This is the way
+
+---
+{state: main middle black}
+
+<img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
+
+<div style="position:relative">
+<div style="float:left">#mucnl</div>
+<div style="float:right">@MageUnconfNL<div>
+</div>
