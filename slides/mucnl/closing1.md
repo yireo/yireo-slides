@@ -8,7 +8,7 @@
 
 ---
 {state: main middle black}
-# Mage Unconf NL
+# MageUnconfence NL
 ### Dang Farrik, this was a day
 
 ---
@@ -37,3 +37,5 @@
 ---
 {state: main middle black}
 # May The Farce Be With You
+
+### Diner & party start at 18:30
