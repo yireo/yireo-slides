@@ -112,7 +112,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 <li>19:00 - 22:00 Party with food</li>
 </ul>
 
-See also https://mageunconference.nl
+See also <a>mageunconference.nl/schedule-wall</a>
 
 ---
 

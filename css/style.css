@@ -2672,6 +2672,11 @@ html.mucnl.red body {
   background-color: #a20000;
   color: white;
 }
+html.mucnl.red a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
 html.mm19pl body {
   font-family: "Roboto Condensed", Arial;
   font-size: 180%;
