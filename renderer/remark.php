@@ -1,6 +1,8 @@
 <?php
 /** @var $slide \Yireo\Slides\Slide */
 /** @var $definition \Yireo\Slides\Definition */
+
+if (empty($style)) $style = 'yireo';
 ?>
 <!DOCTYPE html>
 <html class="<?= $style ?>">
