@@ -16,6 +16,10 @@
 ~ Board member of Mage-OS Nederland
 
 ---
+# Disclaimer on Mage-OS Nederland
+- I'm not representing the 
+
+---
 {state: main middle dark}
 {background-image: vsf2/vsf2bus.jpg}
 # Magento: Love and hate
@@ -41,7 +45,12 @@
 ---
 # Magento and Adobe
 @todo
-- Adobe 
+- Adobe Experience Manager (AEM)
+- Adobe Commerce
+
+---
+{state: main middle}
+# Magento is now Adobe Commerce
 
 ---
 {state: main middle dark}
