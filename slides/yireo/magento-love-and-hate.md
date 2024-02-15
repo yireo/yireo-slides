@@ -75,7 +75,8 @@
 # "Magento is now Adobe Commerce"
 
 ---
-# 
+# Current state
+- Increased 
 
 
 ---
