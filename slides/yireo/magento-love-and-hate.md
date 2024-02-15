@@ -124,10 +124,12 @@
 - Everyone is willing, things will become friendly
 
 ---
-# 
+# A smaller Magento
+- Use Mage-OS
+- Use composer replacements (for instance, via yireo)
+- Use Hyva or something else non-PWA and non-KnockoutJS
 
-@todo Hyva
-@todo Share best practices
+@todo: Magechat
 
 ---
 {state: main middle dark}
