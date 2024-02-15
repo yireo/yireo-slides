@@ -53,12 +53,14 @@
 - eBay acquired Magento in 2011 (X-commerce and the Fabric)
 - Yoav left Magento (and started Oro)
 - In 2015, Permira took over Magento from eBay
+- Magento Enterprise was renamed to Magento Commerce
 
 ---
 # Magento and Adobe
 - In 2018, Adobe acquired Magento
 - Magento Commerce was renamed to Adobe Commerce
-- Adobe Commerce integrated into 
+- Adobe Commerce integrated into Adobe Experience Cloud
+- The Magento Open Source roadmap stalled
 
 ---
 {state: main middle}
