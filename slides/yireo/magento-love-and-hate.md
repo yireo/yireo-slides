@@ -72,7 +72,7 @@
 
 ---
 {state: main middle}
-# Magento is now Adobe Commerce
+# "Magento is now Adobe Commerce"
 
 ---
 # 
