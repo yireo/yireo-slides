@@ -108,11 +108,6 @@
 - Contributions back to Magento Open Source
 
 ---
-# Current state
-- Increased collaboration between Magento Association and Adobe
-  - Strategic meetings, better communications
-
----
 # Current balance
 - Adobe Commerce: Enterprise clients
 - Magento Association: Promote Magento brand
