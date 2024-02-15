@@ -16,8 +16,9 @@
 ~ Board member of Mage-OS Nederland
 
 ---
-# Disclaimer on Mage-OS Nederland
-- I'm not representing the 
+# Disclaimer on Mage-OS NL
+~ I'm not representing the official view of Mage-OS NL
+~ Mage-OS NL is not Mage-OS worldwide
 
 ---
 {state: main middle dark}
