@@ -64,8 +64,14 @@
 - The Magento Open Source roadmap stalled
 
 ---
+# Magento and Magento Association
+- Announced in 2018 to become 
+
+---
 {state: main middle}
 # Magento is now Adobe Commerce
+
+
 
 ---
 {state: main middle dark}
