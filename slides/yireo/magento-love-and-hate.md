@@ -74,9 +74,23 @@
 {state: main middle}
 # "Magento is now Adobe Commerce"
 
+
+
 ---
 # Current state
-- Increased 
+- Increased collaboration between Magento Association and Adobe
+  - Strategic meetings, better communications
+
+---
+# Current balance
+- Adobe Commerce: Enterprise clients
+- Magento Association: Promote Magento brand
+- Mage-OS: Build new stuff
+
+---
+# "Poke the bear"
+- Reorientation
+- Everyone is willing, things will become friendly
 
 
 ---
