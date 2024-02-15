@@ -52,8 +52,9 @@
 
 ---
 # Magento and Adobe
-@todo
-- Adobe Experience Manager (AEM)
+- Adobe built its own cloud with various products
+  - Adobe Experience Manager (AEM)
+- In 2018, Adobe acquired Magento
 - Adobe Commerce
 
 ---
