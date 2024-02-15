@@ -67,7 +67,8 @@
 # Magento and Magento Association
 - Announced in 2018 to become bridge between community & Adobe
 - Setup by Smithbucklin
-
+- Initiative: Organize Meet Magento
+- Initiative: Magento Open Source Task Force
 
 ---
 {state: main middle}
