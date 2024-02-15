@@ -40,13 +40,15 @@
 # Magento and Varien Inc
 - Varien Inc was founded in 2001 in Los Angeles by Roy and Yoav
 - Magento was released in 2007
+- I started playing with Magento 0.9999 which had issues
 
 ---
 # Magento and eBay
 - Bob became president of Varien
 - Varienc Inc was rebranded as Magento
 - eBay acquired Magento in 2011 (X-commerce and the Fabric)
-- Yoav left 
+- Yoav left Magento (and started Oro)
+- In 2015, Permira took over Magento from eBay
 
 ---
 # Magento and Adobe
