@@ -7,13 +7,13 @@
 {state: speaker}
 {background-image: generic/jisse.jpg}
 # Jisse Reitsma
-~ Founder of Yireo
+~ Man of Yireo
+~ Trainer of backend and frontend developers
 ~ Creator of MageTestFest (2017, 2019)
 ~ Creator of Reacticon (2018 x2, 2020, 2021)
 ~ Creator of MageUnconference NL (2023, 2025)
 ~ Magento Master 2017/2018/2019 Mover
 ~ Board member of Mage-OS Nederland
-~ Trainer of backend and frontend developers
 
 ---
 {state: main middle dark}
