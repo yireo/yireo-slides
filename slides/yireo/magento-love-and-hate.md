@@ -61,19 +61,21 @@
 - In 2018, Adobe acquired Magento
 - Magento Commerce was renamed to Adobe Commerce
 - Adobe Commerce integrated into Adobe Experience Cloud
-- The Magento Open Source roadmap stalled
+- The Magento Open Source roadmap stalled ...
 
 ---
 # Magento and Magento Association
 - Announced in 2018 to become bridge between community & Adobe
 - Setup by Smithbucklin
-- Initiative: Organize Meet Magento
-- Initiative: Magento Open Source Task Force
+- Initiative of re-organizing Meet Magento
+- Initiative of Magento Open Source Task Force
 
 ---
 {state: main middle}
 # Magento is now Adobe Commerce
 
+---
+# 
 
 
 ---
