@@ -91,10 +91,12 @@
 ---
 # Magento Association updates
 - In 2022, Mathias Schreiber joined as executive director
+- Ties with Smithbucklin were broken
+- Adobe remains its funding to 
 
 ---
 # Adobe updates
-- In 2022, Mathias Schreiber joined as executive director
+- Magento Open Source Community Prioritization Process
 
 ---
 # Mage-OS updates
@@ -113,7 +115,7 @@
 # Current balance
 - Adobe Commerce: Enterprise clients
 - Magento Association: Promote Magento brand
-- Mage-OS: Build new stuff
+- Mage-OS: Build new stuff (Magento Community Council)
 
 ---
 # "Poke the bear"
