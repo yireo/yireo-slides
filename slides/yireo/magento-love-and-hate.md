@@ -40,8 +40,11 @@
 # Magento and Varien Inc
 - Varien Inc was founded in 2001 in Los Angeles by Roy and Yoav
 - Magento was released in 2007
-- I started playing with Magento 0.9999 which had issues
-- - 
+- Various versions came out
+  - Magento Community Edition
+  - Magento Enterprise
+  - Magento Go (2011)
+  - Magento Professional
 
 ---
 # Magento and eBay
@@ -54,7 +57,7 @@
 ---
 # Magento and Adobe
 - In 2018, Adobe acquired Magento
-- Magento Commerce 
+- Magento Commerce was renamed to Adobe Commerce
 - Adobe Commerce integrated into 
 
 ---
