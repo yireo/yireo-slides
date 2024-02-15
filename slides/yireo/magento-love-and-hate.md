@@ -96,7 +96,8 @@
 ---
 # Adobe updates
 - Magento Open Source Community Prioritization Process
-- Regular updates to Adobe Commerce / Magento
+- Regular software updates to Adobe Commerce / Magento
+- Better communications with Magento Association and Mage-OS
 - Adobe stopped advertizing with "Magento is now Adobe Commerce"
 
 ---
