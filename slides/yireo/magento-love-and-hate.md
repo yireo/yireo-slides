@@ -75,11 +75,9 @@
 # "Magento is now Adobe Commerce"
 
 ---
-# The letter
-@todo
-
----
 # Founding of Mage-OS
+- In 2017, a group of people wrote a letter
+- - 
 
 ---
 # The confusion
