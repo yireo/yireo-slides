@@ -19,7 +19,7 @@
 # Disclaimer on Mage-OS NL
 ~ I'm not representing the official view of Mage-OS NL
 ~ Mage-OS NL is not Mage-OS worldwide
-~ I talked to Vinai (president of Mage-OS worldwide) 
+~ I talked to Vinai Kopp (president of Mage-OS worldwide) 
 ~ But I am bad in replicating words literally
 
 ---
@@ -39,7 +39,7 @@
 
 ---
 # Magento and Varien Inc
-- Varien Inc was founded in 2001 in Los Angeles by Roy and Yoav
+- Varien Inc was founded in 2001 in Los Angeles by Roy Ruben and Yoav Kutner
 - Magento was released in 2007
 - Various versions came out
   - Magento Community Edition
@@ -74,7 +74,8 @@
 {state: main middle}
 # "Magento is now Adobe Commerce"
 
-
+# Magento Association updates
+- In 2022, Mathias Schreiber joined 
 
 ---
 # Current state
