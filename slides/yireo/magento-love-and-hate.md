@@ -92,7 +92,9 @@
 # Magento Association updates
 - In 2022, Mathias Schreiber joined as executive director
 - Ties with Smithbucklin were broken
-- Adobe remains its funding to 
+- Adobe remains its funding to the Magento Association
+- Right to use brands "Magento Open Source" and "Meet Magento"
+- Adobe Board Liaisons are increasingly active (Ritesh Somani and Parul Sinha)
 
 ---
 # Adobe updates
