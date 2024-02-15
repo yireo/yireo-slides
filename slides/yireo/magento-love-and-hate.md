@@ -1,8 +1,7 @@
 {state: main middle dark}
-{background-image: magento-love-and-hate/vsf2-logo.webp}
-# Getting started
-# with Vue Storefront 2
-# for Magento 2
+{background-image: magento-love-and-hate/thor.jpg}
+# Magento
+# Love and Hate
 
 ---
 {state: speaker}
