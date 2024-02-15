@@ -41,6 +41,7 @@
 - Varien Inc was founded in 2001 in Los Angeles by Roy and Yoav
 - Magento was released in 2007
 - I started playing with Magento 0.9999 which had issues
+- - 
 
 ---
 # Magento and eBay
@@ -52,10 +53,9 @@
 
 ---
 # Magento and Adobe
-- Adobe built its own cloud with various products
-  - Adobe Experience Manager (AEM)
 - In 2018, Adobe acquired Magento
-- Adobe Commerce
+- Magento Commerce 
+- Adobe Commerce integrated into 
 
 ---
 {state: main middle}
