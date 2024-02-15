@@ -19,6 +19,7 @@
 # Disclaimer on Mage-OS NL
 ~ I'm not representing the official view of Mage-OS NL
 ~ Mage-OS NL is not Mage-OS worldwide
+~ I talked to Vinai but am bad in replicating words literally
 
 ---
 {state: main middle dark}
@@ -26,7 +27,7 @@
 # Magento: Love and hate
 
 ---
-# Magento?
+# What is Magento?
 ~ Magento Open Source?
 ~ Adobe Commerce?
 ~ Mage-OS?
@@ -37,7 +38,8 @@
 
 ---
 # Magento and Varien
-@todo
+- Founded in 2001 in Los Angeles
+- 
 
 ---
 # Magento and eBay
