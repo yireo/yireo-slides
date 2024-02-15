@@ -49,7 +49,7 @@
 
 ---
 # Magento and eBay
-- Bob became president of Varien
+- Bob Schwartz became president of Varien
 - Varienc Inc was rebranded as Magento
 - eBay acquired Magento in 2011 (X-commerce and the Fabric)
 - Yoav left Magento (and started Oro)
@@ -74,8 +74,21 @@
 {state: main middle}
 # "Magento is now Adobe Commerce"
 
+---
+# The letter
+@todo
+
+---
+# Founding of Mage-OS
+
+---
+# The confusion
+- What is Magento?
+- Magento Open Source, Adobe Commerce or Mage-OS?
+
+---
 # Magento Association updates
-- In 2022, Mathias Schreiber joined 
+- In 2022, Mathias Schreiber joined as executive director
 
 ---
 # Current state
