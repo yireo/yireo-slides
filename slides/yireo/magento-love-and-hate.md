@@ -126,6 +126,8 @@
 - Reorientation
 - Everyone is willing, things will become friendly
 
+@todo Hyva
+@todo Share best practices
 
 ---
 {state: main middle dark}
