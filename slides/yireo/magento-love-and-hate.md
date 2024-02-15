@@ -1,5 +1,5 @@
 {state: main middle dark}
-{background-image: vsf2/vsf2-logo.webp}
+{background-image: magento-love-and-hate/vsf2-logo.webp}
 # Getting started
 # with Vue Storefront 2
 # for Magento 2
