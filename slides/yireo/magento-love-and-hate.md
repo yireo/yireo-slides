@@ -65,7 +65,7 @@
 
 ---
 # Magento and Magento Association
-- Announced in 2018 to become 
+- Announced in 2018 to become bridge between community & Adobe
 
 ---
 {state: main middle}
