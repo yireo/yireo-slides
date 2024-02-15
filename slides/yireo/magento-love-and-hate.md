@@ -86,9 +86,23 @@
 - What is Magento?
 - Magento Open Source, Adobe Commerce or Mage-OS?
 
+
+
 ---
 # Magento Association updates
 - In 2022, Mathias Schreiber joined as executive director
+
+---
+# Adobe updates
+- In 2022, Mathias Schreiber joined as executive director
+
+---
+# Mage-OS updates
+- Cool stuff is coming
+  - New Admin UI
+  - ChatGPT product data
+  - Admin assistant
+- Contributions back to Magento Open Source
 
 ---
 # Current state
