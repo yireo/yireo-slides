@@ -83,7 +83,7 @@
 ---
 # The confusion
 - What is Magento?
-- Magento Open Source, Adobe Commerce or Mage-OS
+- Magento Open Source, Adobe Commerce or Mage-OS?
 
 ---
 # Magento Association updates
@@ -122,6 +122,9 @@
 # "Poke the bear"
 - Reorientation
 - Everyone is willing, things will become friendly
+
+---
+# 
 
 @todo Hyva
 @todo Share best practices
