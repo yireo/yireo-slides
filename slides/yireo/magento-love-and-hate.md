@@ -37,9 +37,10 @@
 # Some history
 
 ---
-# Magento and Varien
-- Founded in 2001 in Los Angeles
-- 
+# Magento and Varien Inc
+- Varien Inc was founded in 2001 in Los Angeles by Roy and Yoav
+- Magento was released in 2007
+
 
 ---
 # Magento and eBay
