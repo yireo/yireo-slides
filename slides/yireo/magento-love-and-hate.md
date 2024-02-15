@@ -19,7 +19,8 @@
 # Disclaimer on Mage-OS NL
 ~ I'm not representing the official view of Mage-OS NL
 ~ Mage-OS NL is not Mage-OS worldwide
-~ I talked to Vinai but am bad in replicating words literally
+~ I talked to Vinai (president of Mage-OS worldwide) 
+~ But I am bad in replicating words literally
 
 ---
 {state: main middle dark}
