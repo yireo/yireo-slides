@@ -41,10 +41,12 @@
 - Varien Inc was founded in 2001 in Los Angeles by Roy and Yoav
 - Magento was released in 2007
 
-
 ---
 # Magento and eBay
-@todo
+- Bob became president of Varien
+- Varienc Inc was rebranded as Magento
+- eBay acquired Magento in 2011 (X-commerce and the Fabric)
+- Yoav left 
 
 ---
 # Magento and Adobe
