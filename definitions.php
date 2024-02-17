@@ -37,7 +37,7 @@ $slideGroups = [
             [
                 'file' => 'yireo/magento-love-and-hate',
                 'title' => 'Magento: Love and Hate (Mollie Meetup February 2024)',
-                'style' => 'vsf2m2',
+                'style' => 'm2lovehate',
                 'renderer' => 'reveal'
             ],
             [
