@@ -24,7 +24,7 @@
 
 ---
 {state: main middle dark}
-{background-image: vsf2/vsf2bus.jpg}
+{background-image: m2lovehate/thor-fighting.webp}
 # Magento
 ## Love and hate
 
