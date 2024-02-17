@@ -1,7 +1,7 @@
 {state: main middle dark}
 {background-image: magento-love-and-hate/thor.jpg}
 # Magento
-# Love and Hate
+## Love and Hate
 
 ---
 {state: speaker}
