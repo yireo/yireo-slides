@@ -25,7 +25,8 @@
 ---
 {state: main middle dark}
 {background-image: vsf2/vsf2bus.jpg}
-# Magento: Love and hate
+# Magento
+## Love and hate
 
 ---
 # What is Magento?
