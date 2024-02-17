@@ -109,6 +109,11 @@
 - Initiative of Magento Open Source Task Force
 
 ---
+{state: main middle dark}
+{background-image: m2lovehate/charlie-happy.gif}
+# Magento was saved
+
+---
 {state: main middle}
 ### "Magento is now Adobe Commerce"
 
