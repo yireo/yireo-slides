@@ -148,7 +148,7 @@
 ---
 {state: main middle dark}
 {background-image: m2lovehate/charlie-chaplin-playing.gif}
-# Back to Magento
+# We are Magento
 
 ---
 # The confusion
@@ -182,7 +182,7 @@
 # Current balance
 - Adobe Commerce: Enterprise clients
 - Magento Association: Promote Magento brand
-- Mage-OS: Build new stuff (Magento Community Council)
+- Mage-OS: Focuses on innovation
 
 ---
 # "Poke the bear"
