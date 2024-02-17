@@ -185,10 +185,11 @@
 - Everyone is willing, things will become friendly
 
 ---
-# A smaller Magento
-- Use Mage-OS
+# Modern Magento 2
+- Use Mage-OS or Magento Open Source or Adobe Commerce
 - Use composer replacements (for instance, via yireo)
 - Use Hyva or something else non-PWA and non-KnockoutJS
+
 
 @todo: Magechat
 @todo: member meeting 29 feb
