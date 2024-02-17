@@ -83,6 +83,13 @@
 - Yoav left Magento (and started Oro)
 - In 2015, Permira took over Magento from eBay
 - Magento Enterprise was renamed to Magento Commerce
+- Magento 2 came out
+
+---
+# Magento 2 stack
+- Composer-based
+- Modern PHP stack
+- Knockout, RequireJS, 
 
 ---
 # Magento and Adobe
