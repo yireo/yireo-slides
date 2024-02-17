@@ -2844,13 +2844,25 @@ html.vsf2m2 h2,
 html.vsf2m2 h3 {
   font-family: 'Open Sans';
 }
+@font-face {
+  font-family: 'Protest Guerrilla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/protestguerrilla/v2/Qw3HZR5PDSL6K3irtrY-VJB2YzARHV0k.ttf) format('truetype');
+}
 html.m2lovehate body {
   font-family: 'Open Sans';
 }
 html.m2lovehate h1,
 html.m2lovehate h2,
 html.m2lovehate h3 {
-  font-family: 'Open Sans';
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html.m2lovehate h1 {
+  font-size: 300%;
 }
 html.multisafepay body {
   font-family: 'Open Sans';
