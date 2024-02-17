@@ -187,15 +187,20 @@
 ---
 # "Poke the bear"
 - Reorientation
+- Steps towards a community council
 - Everyone is willing, things will become friendly
 
 ---
-# Modern Magento 2
+# Modern Magento 2 stack
 - Use Mage-OS or Magento Open Source or Adobe Commerce
 - Use composer replacements (for instance, via yireo)
 - Use Hyva or something else non-PWA and non-KnockoutJS
 
-
+---
+# Magento community news
+- Jump online at Magechat or Mage-OS discord
+- 29 Feb: Mage-OS Nederland member meeting (Utrecht)
+- 
 @todo: Magechat
 @todo: member meeting 29 feb
 @todo MageTitans, Meet Magento NL, MageUnconference
