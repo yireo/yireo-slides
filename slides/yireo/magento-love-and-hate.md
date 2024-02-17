@@ -146,6 +146,11 @@
 - In 2023, Mage-OS 1.0 was released
 
 ---
+{state: main middle dark}
+{background-image: m2lovehate/charlie-chaplin-playing.gif}
+# Back to Magento
+
+---
 # The confusion
 - What is Magento?
 - Magento Open Source, Adobe Commerce or Mage-OS?
