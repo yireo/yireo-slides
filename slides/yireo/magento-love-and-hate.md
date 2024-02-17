@@ -89,9 +89,12 @@
 
 ---
 {state: main middle}
+### "Magento is now Adobe Commerce"
+
+---
+{state: main middle dark}
 {background-image: m2lovehate/charlie-speechless.gif}
-## "Magento is now 
-## Adobe Commerce"
+### "Magento is now Adobe Commerce"
 
 ---
 # Founding of Mage-OS
