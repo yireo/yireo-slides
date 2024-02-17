@@ -36,6 +36,7 @@
 
 ---
 {state: main middle}
+{background-image: m2lovehate/vsf2bus.jpg}
 # Some history
 
 ---
