@@ -200,10 +200,9 @@
 # Magento community news
 - Jump online at Magechat or Mage-OS discord
 - 29 Feb: Mage-OS Nederland member meeting (Utrecht)
-- 
-@todo: Magechat
-@todo: member meeting 29 feb
-@todo MageTitans, Meet Magento NL, MageUnconference
+- 13 Sep: MageTitans NL (Groningen)
+- 31 Oct: MeetMagento NL (Amsterdam)
+- 26-27 Jun 2025: MageUnconference NL (Utrecht)
 
 ---
 {state: main middle dark}
