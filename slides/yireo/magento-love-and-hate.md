@@ -51,8 +51,8 @@
 
 ---
 {state: main middle dark}
-{background-image: m2lovehate/charlie-wow.gif}
-# Magento was awesome
+{background-image: m2lovehate/charlie-dancing.gif}
+# Magento was loved
 
 ---
 # Magento and eBay
@@ -62,6 +62,11 @@
 - Yoav left Magento (and started Oro)
 - In 2015, Permira took over Magento from eBay
 - Magento Enterprise was renamed to Magento Commerce
+
+---
+{state: main middle dark}
+{background-image: m2lovehate/charlie-wow.gif}
+# Magento was surprising
 
 ---
 # Magento and Adobe
