@@ -36,7 +36,7 @@
 
 ---
 {state: main middle dark}
-{background-image: m2lovehate/charlie-chaplin-camera.gif}
+{background-image: m2lovehate/charlie-chaplin-smile.gif}
 # Some history
 
 ---
@@ -66,7 +66,7 @@
 ---
 {state: main middle dark}
 {background-image: m2lovehate/charlie-wow.gif}
-# Magento was surprising
+# Magento changed
 
 ---
 # Magento and Adobe
@@ -74,6 +74,11 @@
 - Magento Commerce was renamed to Adobe Commerce
 - Adobe Commerce integrated into Adobe Experience Cloud
 - The Magento Open Source roadmap stalled ...
+
+---
+{state: main middle dark}
+{background-image: m2lovehate/charlie-chaplin-camera.gif}
+# Magento was hated
 
 ---
 # Magento and Magento Association
