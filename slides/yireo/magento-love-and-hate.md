@@ -99,7 +99,7 @@
 ---
 {state: main middle dark}
 {background-image: m2lovehate/charlie-chaplin-camera.gif}
-# Magento was hated
+# Adobe was hated
 
 ---
 # Magento and Magento Association
