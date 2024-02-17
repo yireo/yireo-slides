@@ -1,5 +1,5 @@
 {state: main middle dark}
-{background-image: magento-love-and-hate/thor.jpg}
+{background-image: m2lovehate/thor-love-and-hate.png}
 # Magento
 ## Love and Hate
 
