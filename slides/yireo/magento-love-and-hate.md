@@ -77,6 +77,11 @@
 
 ---
 {state: main middle dark}
+{background-image: m2lovehate/charlie-dictator.gif}
+# Adobe was feared
+
+---
+{state: main middle dark}
 {background-image: m2lovehate/charlie-chaplin-camera.gif}
 # Magento was hated
 
