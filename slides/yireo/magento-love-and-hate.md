@@ -55,6 +55,17 @@
 # Magento was loved
 
 ---
+{state: main middle dark}
+{background-image: m2lovehate/charlie-whatever.gif}
+# Most of the time
+
+---
+# Magento 1 stack
+- Zend Framework
+- Prototype / Scriptaculous
+- PEAR packages
+
+---
 # Magento and eBay
 - Bob Schwartz became president of Varien
 - Varienc Inc was rebranded as Magento
