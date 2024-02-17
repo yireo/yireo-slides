@@ -51,7 +51,7 @@
 
 ---
 {state: main middle dark}
-{background-image: m2lovehate/charlie-dancing.gif}
+{background-image: m2lovehate/charlie-chaplin-dancing.gif}
 # Magento was loved
 
 ---

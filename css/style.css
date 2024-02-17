@@ -2880,6 +2880,7 @@ html.m2lovehate.middle .reveal h1 {
   color: #ff5eb4;
   font-size: 300% !important;
   text-transform: uppercase;
+  box-shadow: 1px white;
 }
 html.m2lovehate.middle .reveal h2 {
   font-size: 300% !important;
