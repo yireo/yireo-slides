@@ -2861,7 +2861,7 @@ html.m2lovehate h3 {
   font-weight: 400;
   font-style: normal;
 }
-html.m2lovehate .reveal h1 {
+html.m2lovehate.middle .reveal h1 {
   font-size: 300% !important;
   text-transform: uppercase;
 }
