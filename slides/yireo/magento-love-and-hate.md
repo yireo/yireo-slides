@@ -69,7 +69,9 @@
 # Magento and eBay
 - Bob Schwartz became president of Varien
 - Varienc Inc was rebranded as Magento
-- eBay acquired Magento in 2011 (X-commerce and the Fabric)
+- eBay acquired Magento in 2011
+- X-commerce and the Fabric were introduced
+- And nobody understood
 
 ---
 {state: main middle dark}
@@ -77,10 +79,7 @@
 # Magento changed
 
 ---
-# Magento 
-- Bob Schwartz became president of Varien
-- Varienc Inc was rebranded as Magento
-- eBay acquired Magento in 2011 (X-commerce and the Fabric)
+# Magento at drift
 - Yoav left Magento (and started Oro)
 - In 2015, Permira took over Magento from eBay
 - Magento Enterprise was renamed to Magento Commerce
