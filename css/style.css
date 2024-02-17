@@ -2844,6 +2844,14 @@ html.vsf2m2 h2,
 html.vsf2m2 h3 {
   font-family: 'Open Sans';
 }
+html.m2lovehate body {
+  font-family: 'Open Sans';
+}
+html.m2lovehate h1,
+html.m2lovehate h2,
+html.m2lovehate h3 {
+  font-family: 'Open Sans';
+}
 html.multisafepay body {
   font-family: 'Open Sans';
 }
