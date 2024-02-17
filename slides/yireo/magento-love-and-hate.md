@@ -126,6 +126,8 @@
 - Use Hyva or something else non-PWA and non-KnockoutJS
 
 @todo: Magechat
+@todo: member meeting 29 feb
+@todo MageTitans, Meet Magento NL, MageUnconference
 
 ---
 {state: main middle dark}
