@@ -35,8 +35,8 @@
 ~ Mage-OS?
 
 ---
-{state: main middle}
-{background-image: m2lovehate/vsf2bus.jpg}
+{state: main middle dark}
+{background-image: m2lovehate/charlie-chaplin-camera.gif}
 # Some history
 
 ---
@@ -48,6 +48,11 @@
   - Magento Enterprise
   - Magento Go (2011)
   - Magento Professional
+
+---
+{state: main middle dark}
+{background-image: m2lovehate/charlie-wow.gif}
+# Magento was awesome
 
 ---
 # Magento and eBay
