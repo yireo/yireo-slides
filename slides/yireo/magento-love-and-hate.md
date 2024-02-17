@@ -93,6 +93,15 @@
 - Knockout, RequireJS, jQuery, LESS
 
 ---
+# Magento 2 enhancements
+- More stability, more performance
+- MSI (Multi Source Inventory)
+- GraphQL API
+- PageBuilder
+- ElasticSearch
+- ...
+
+---
 # Magento and Adobe
 - In 2018, Adobe acquired Magento
 - Magento Commerce was renamed to Adobe Commerce
