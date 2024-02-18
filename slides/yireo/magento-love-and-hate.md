@@ -222,6 +222,6 @@
 
 ---
 {state: main middle dark}
-{background-image: m2lovehate/chaplin-real.jpg}
+{background-image: m2lovehate/thor-home.jpg}
 # Thanks
 ## @jissereitsma / @yireo
