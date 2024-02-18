@@ -176,6 +176,12 @@
 - Contributions back to Magento Open Source
 
 ---
+{state: main middle dark}
+{background-image: m2lovehate/chaplin-smooth.gif}
+# More love than hate
+
+
+---
 # Current balance
 - Adobe Commerce: Enterprise cloud
 - Magento Association: Promote Magento brand
