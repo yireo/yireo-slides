@@ -139,7 +139,8 @@
 
 ---
 # Founding of Mage-OS
-- In 2021, a group of people wrote a letter
+- In 2021, a group of people wrote a letter which addressed struggle
+- If Adobe is not going to save Magento Open Source, we are
 - Mage-OS was announced as a fork, then a distribution
 - In 2023, Mage-OS 1.0 was released
 
