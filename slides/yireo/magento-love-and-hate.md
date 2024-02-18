@@ -218,6 +218,6 @@
 
 ---
 {state: main middle dark}
-{background-image: mageid/clogs.jpg}
+{background-image: m2lovehate/chaplin-real.jpg}
 # Thanks
 ## @jissereitsma / @yireo
