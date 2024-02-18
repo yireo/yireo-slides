@@ -189,10 +189,15 @@
 - Everyone is willing, things will become friendly
 
 ---
-# Modern Magento 2 stack
+# Up-to-date Magento 2 overview
 - Mage-OS or Magento Open Source or Adobe Commerce
-- Composer, strict typing, Hyva, Magewire
+- Composer, strict typing, Hyvä, Magewire
 - Strange core decisions, bad extensions
+
+---
+# Tips for a better stack
+- Less JS & CSS (like with Hyvä)
+- 
 
 ---
 # Magento community news
