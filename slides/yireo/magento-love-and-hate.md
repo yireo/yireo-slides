@@ -191,13 +191,15 @@
 ---
 # Up-to-date Magento 2 overview
 - Mage-OS or Magento Open Source or Adobe Commerce
+- 
 - Composer, strict typing, Hyvä, Magewire
 - Strange core decisions, bad extensions
 
 ---
 # Tips for a better stack
-- Less JS & CSS (like with Hyvä)
-- 
+- Less JS & CSS (like with Hyvä or a PWA)
+- Use composer replacements to skin down 
+- Dive into Magewire because it is fun
 
 ---
 # Magento community news
