@@ -60,10 +60,9 @@
 # Most of the time
 
 ---
-# Magento 1 stack
-- Zend Framework
-- Prototype / Scriptaculous
-- PEAR packages
+# Magento 1 overview
+- Zend Framework, Prototype / Scriptaculous, PEAR packages
+- Strange core structures, bad extensions
 
 ---
 # Magento and eBay
