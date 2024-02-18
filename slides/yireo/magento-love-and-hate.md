@@ -104,6 +104,7 @@
 - In 2018, Adobe acquired Magento
 - Magento Commerce was renamed to Adobe Commerce
 - Adobe Commerce integrated into Adobe Experience Cloud
+- The Adobe Commerce roadmap progressed (GraphQL, gRPC)
 - The Magento Open Source roadmap stalled ...
 
 ---
