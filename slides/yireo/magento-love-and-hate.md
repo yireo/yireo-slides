@@ -194,6 +194,11 @@
 - Everyone is willing, things will become friendly
 
 ---
+{state: main middle dark}
+{background-image: m2lovehate/chaplin-real.jpg}
+# 
+
+---
 # Up-to-date Magento 2 stack
 - Mage-OS or Magento Open Source or Adobe Commerce
 - Luma or Hyvä or PWA Studio or ScandiPWA or Breeze
