@@ -191,15 +191,17 @@
 ---
 # Up-to-date Magento 2 overview
 - Mage-OS or Magento Open Source or Adobe Commerce
-- 
-- Composer, strict typing, Hyvä, Magewire
+- Luma or Hyvä or PWA Studio or ScandiPWA or Breeze
+- Composer, strict typing, Magewire, testing
 - Strange core decisions, bad extensions
 
 ---
 # Tips for a better stack
 - Less JS & CSS (like with Hyvä or a PWA)
-- Use composer replacements to skin down 
+- Use composer replacements to skin down Magento
 - Dive into Magewire because it is fun
+- Carefully choose your 3rd party extensions
+- Carefully choose to build it your own or not
 
 ---
 # Magento community news
