@@ -188,10 +188,10 @@
 - Everyone is willing, things will become friendly
 
 ---
-# Up-to-date Magento 2 overview
+# Up-to-date Magento 2 stack
 - Mage-OS or Magento Open Source or Adobe Commerce
 - Luma or Hyvä or PWA Studio or ScandiPWA or Breeze
-- Composer, strict typing, Magewire, testing
+- Composer patches, strict typing, Magewire, proper testing
 - Strange core decisions, bad extensions
 
 ---
