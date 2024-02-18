@@ -86,11 +86,9 @@
 
 ---
 # Magento 2 stack
-- Composer, namespaces, DI configur
-- A lot of decouplement (but not yet everything)
+- Composer, namespaces, DI configurations, decouplement
 - Knockout, RequireJS, jQuery, LESS
 - Strange core decisions, bad extensions
-
 
 ---
 # Magento 2 enhancements
@@ -192,9 +190,9 @@
 
 ---
 # Modern Magento 2 stack
-- Use Mage-OS or Magento Open Source or Adobe Commerce
-- Use composer replacements (for instance, via yireo)
-- Use Hyva or something else non-PWA and non-KnockoutJS
+- Mage-OS or Magento Open Source or Adobe Commerce
+- Composer, strict typing, Hyva, Magewire
+- Strange core decisions, bad extensions
 
 ---
 # Magento community news
