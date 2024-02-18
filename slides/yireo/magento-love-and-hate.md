@@ -196,14 +196,12 @@
 ---
 {state: main middle dark}
 {background-image: m2lovehate/chaplin-real.jpg}
-# 
+# The choice is yours
 
 ---
-# Up-to-date Magento 2 stack
+# Choices to make
 - Mage-OS or Magento Open Source or Adobe Commerce
 - Luma or Hyvä or PWA Studio or ScandiPWA or Breeze
-- Composer patches, strict typing, Magewire, proper testing
-- Strange core decisions, bad extensions
 
 ---
 # Tips for a better stack
@@ -212,6 +210,7 @@
 - Dive into Magewire because it is fun
 - Carefully choose your 3rd party extensions
 - Carefully choose to build it your own or not
+- Beware of strange core decisions, bad extensions
 
 ---
 # Magento community news
