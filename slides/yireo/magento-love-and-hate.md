@@ -62,7 +62,7 @@
 ---
 # Magento 1 overview
 - Zend Framework, Prototype / Scriptaculous, PEAR packages
-- Strange core structures, bad extensions
+- Strange core decisions, bad extensions
 
 ---
 # Magento and eBay
@@ -86,10 +86,11 @@
 
 ---
 # Magento 2 stack
-- Modern PHP stack (composer, namespaces)
-- Flexible Dependency Injection architecture
+- Composer, namespaces, DI configur
 - A lot of decouplement (but not yet everything)
 - Knockout, RequireJS, jQuery, LESS
+- Strange core decisions, bad extensions
+
 
 ---
 # Magento 2 enhancements
