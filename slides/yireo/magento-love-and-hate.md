@@ -171,15 +171,12 @@
 
 ---
 # Mage-OS updates
-- Cool stuff is coming
-  - New Admin UI
-  - ChatGPT product data
-  - Admin assistant
+- Cool stuff is coming (Admin UI, ChatGPT product data, Admin assistant)
 - Contributions back to Magento Open Source
 
 ---
 # Current balance
-- Adobe Commerce: Enterprise clients
+- Adobe Commerce: Enterprise cloud
 - Magento Association: Promote Magento brand
 - Mage-OS: Focuses on innovation
 
