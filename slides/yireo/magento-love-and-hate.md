@@ -5,7 +5,7 @@
 
 ---
 {state: speaker}
-{background-image: generic/jisse.jpg}
+{background-image: generic/jisse-standing.jpg}
 # Jisse Reitsma
 ~ Man of Yireo
 ~ Trainer of backend and frontend developers
