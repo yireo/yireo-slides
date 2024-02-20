@@ -162,13 +162,14 @@
 ~ Adobe remains its funding to the Magento Association
 ~ Right to use brands "Magento Open Source" and "Meet Magento"
 ~ Adobe Board Liaisons are increasingly active (Ritesh Somani and Parul Sinha)
+~ magento-opensource.com is coming
 
 ---
 # Adobe updates
-- Magento Open Source Community Prioritization Process
-- Regular software updates to Adobe Commerce / Magento
-- Better communications with Magento Association and Mage-OS
-- Adobe stopped advertizing with "Magento is now Adobe Commerce"
+~ Magento Open Source Community Prioritization Process
+~ Regular software updates to Adobe Commerce / Magento
+~ Better communications with Magento Association and Mage-OS
+~ Adobe stopped advertizing with "Magento is now Adobe Commerce"
 
 ---
 # Mage-OS updates
