@@ -202,11 +202,11 @@
 ---
 # Choices to make
 - Mage-OS or Magento Open Source or Adobe Commerce
-- Luma or Hyvä or PWA Studio or ScandiPWA or Breeze
+- Luma or Hyvä or Breeze or VSF2 or PWA Studio or ScandiPWA
 
 ---
 # Tips for a better stack
-- Less JS & CSS (like with Hyvä or a PWA)
+- Focus on fewer JS & CSS (like with Hyvä or a PWA)
 - Use composer replacements to skin down Magento
 - Dive into Magewire because it is fun
 - Carefully choose your 3rd party extensions
