@@ -140,10 +140,10 @@
 
 ---
 # Founding of Mage-OS
-- In 2021, a group of people wrote a letter which addressed struggle
-- If Adobe is not going to save Magento Open Source, we are
-- Mage-OS was announced as a fork, then a distribution
-- In 2023, Mage-OS 1.0 was released
+~ In 2021, a group of people wrote a letter which addressed struggle
+~ If Adobe is not going to save Magento Open Source, we are
+~ Mage-OS was announced as a fork, then a distribution
+~ In October 2023, Mage-OS 1.0 was released
 
 ---
 {state: main middle dark}
@@ -206,12 +206,12 @@
 
 ---
 # Tips for a better stack
-- Focus on fewer JS & CSS (like with Hyvä or a PWA)
-- Use composer replacements to skin down Magento
-- Dive into Magewire because it is fun
-- Carefully choose your 3rd party extensions
-- Carefully choose to build it your own or not
-- Beware of strange core decisions, bad extensions
+~ Focus on fewer JS & CSS (like with Hyvä or a PWA)
+~ Use composer replacements to skin down Magento
+~ Dive into Magewire because it is fun
+~ Carefully choose your 3rd party extensions
+~ Carefully choose to build it your own or not
+~ Beware of strange core decisions, & bad extensions
 
 ---
 # Magento community news
