@@ -39,12 +39,14 @@
 ---
 # Magento and Varien Inc
 - Varien Inc was founded in 2001 in Los Angeles by Roy Ruben and Yoav Kutner
-- Magento was released in 2007
-- Various versions came out
-  - Magento Community Edition
-  - Magento Enterprise
-  - Magento Go (2011)
-  - Magento Professional
+- Magento 1.0 was released in 2007
+
+---
+# Various versions came out
+- Magento Community Edition
+- Magento Enterprise Edition
+- Magento Go
+- Magento Professional Edition
 
 ---
 {state: main middle dark}
