@@ -216,6 +216,11 @@
 ~ Beware of strange core decisions, & bad extensions
 
 ---
+{state: main middle dark}
+{background-image: m2lovehate/chaplin-real.jpg}
+## Diversity makes us great
+
+---
 # Magento community news
 - Jump online at Magechat or Mage-OS discord
 - 29 Feb: Mage-OS Nederland member meeting (Utrecht)
