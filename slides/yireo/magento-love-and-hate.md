@@ -217,7 +217,6 @@
 
 ---
 {state: main middle dark}
-{background-image: m2lovehate/chaplin-real.jpg}
 ## Diversity makes us great
 
 ---
