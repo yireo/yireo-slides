@@ -212,9 +212,8 @@
 
 ---
 # Tips for a better stack
-~ Focus on fewer JS & CSS (like with Hyvä or a PWA)
-~ Use composer replacements to skin down Magento
-~ Dive into Magewire because it is fun
+~ Focus on fewer JS & CSS (with Hyvä being a good example)
+~ Use composer replacements to strip what you don't need
 ~ Carefully choose your 3rd party extensions
 ~ Carefully choose to build it your own or not
 ~ Beware of strange core decisions, & bad extensions
