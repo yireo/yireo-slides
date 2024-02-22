@@ -60,7 +60,10 @@
 
 ---
 # Magento 1 overview
-- Zend Framework, Prototype / Scriptaculous, PEAR packages
+- Zend Framework
+- Prototype / Scriptaculous
+- PEAR packages, modman
+- Git or Svn
 - Strange core decisions, bad extensions
 
 ---
