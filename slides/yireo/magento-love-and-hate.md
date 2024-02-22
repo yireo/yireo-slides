@@ -198,6 +198,10 @@
 
 ---
 {state: main middle dark}
+## Mage Against The Regime
+
+---
+{state: main middle dark}
 {background-image: m2lovehate/chaplin-real.jpg}
 # The choice is yours
 
@@ -214,10 +218,6 @@
 ~ Carefully choose your 3rd party extensions
 ~ Carefully choose to build it your own or not
 ~ Beware of strange core decisions, & bad extensions
-
----
-{state: main middle dark}
-## Diversity makes us great
 
 ---
 # Magento community news
