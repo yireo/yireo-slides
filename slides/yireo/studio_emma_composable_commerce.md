@@ -1,8 +1,6 @@
 # Monolith vs Composable Commerce
 
 ---
-{state: speaker}
-{background-image: generic/jisse.jpg}
 # About me
 - Jisse Reitsma
 - Founder of Yireo
