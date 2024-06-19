@@ -1,4 +1,4 @@
-# Composable Commerce - beyond the hype
+# Monolith vs Composable Commerce
 
 ---
 {state: speaker}
