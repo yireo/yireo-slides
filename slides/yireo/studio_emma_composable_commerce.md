@@ -131,4 +131,4 @@ Yes, Magento offers PWA Studio, Shopware offers Frontends, or you built somethin
 - How much does it cost
 - What feels right
 
-The terms 
+The terms monolith and composable commerce lead you away from the fact that you need to make this choice
