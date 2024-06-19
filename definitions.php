@@ -35,6 +35,12 @@ $slideGroups = [
         'style' => 'meetmagento',
         'slides' => [
             [
+                'file' => 'yireo/studio_emma_composable_commerce',
+                'title' => 'Composable Commerce (Studio Emma)',
+                'style' => 'yireo',
+                'renderer' => 'reveal'
+            ],
+            [
                 'file' => 'yireo/magento-love-and-hate',
                 'title' => 'Magento: Love and Hate (Mollie Meetup February 2024)',
                 'style' => 'm2lovehate',
