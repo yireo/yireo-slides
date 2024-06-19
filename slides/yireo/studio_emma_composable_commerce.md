@@ -57,7 +57,9 @@
 "Composable commerce is a development approach of selecting best-of-breed commerce components and combining them into a custom application built for specific business needs."
 
 ---
-# A typical Magento/Shopware "monolith"
+# A typical Magento "monolith"
+- Magento backend
+- Magento frontend with Hyvä theme
 - PHP-FPM
 - Nginx
 - MySQL
