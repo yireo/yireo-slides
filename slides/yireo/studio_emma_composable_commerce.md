@@ -109,6 +109,7 @@
 
 ---
 # Does Magento/Shopware support microservices?
+Yes. Unfortunately, this is not standardized, so
 
 ---
 # Is Magento/Shopware built with API-first approach?
