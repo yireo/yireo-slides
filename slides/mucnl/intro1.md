@@ -21,13 +21,6 @@
 ### This is Thursday
 
 ---
-# What happened before?
-~ MageUnconference NL (16 & 17)
-~ MageUnconference DE (15-19 & 22 & 23)
-~ Founding of Mage-OS NL association (22 & 23)
-~ Mage-OS meets Magento meets Adobe meets you (today)
-
----
 {state: main middle black}
 
 # MageUnconference
@@ -94,7 +87,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 
-# Extreme unconferencing
+# Real unconferencing
 
 ~ The venue helps
 ~ Team members help too

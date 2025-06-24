@@ -25,9 +25,10 @@
 
 ---
 # Upcoming events
-~ Magento 2 Hackathon (9 sept, Baarn) 
+~ MageTitans GR (26 sept, Groningen)
 ~ MageUnconference DE (29 sept, Köln)
-~ Meet Magento NL (2 nov, Amsterdam)
+~ Meet Magento NL (6 nov, Amsterdam)
+~ MageUnconference (June 2026)
 
 ---
 {state: main middle black}
