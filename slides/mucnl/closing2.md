@@ -25,26 +25,6 @@
 
 ---
 {state: main middle black}
-# Mandalego
-
-<img class="img-responsive" src="/images/mucnl/mando-lego.webp" style="display:block; margin:auto"/>
-
----
-{state: main middle black}
-
-# Use the force
-
-### How much time did Jisse need 
-### to put this together?
-
----
-{state: main middle black}
-
-### How long did Jisse take
-### to put this together?
-
-
-# 82 minutes
 
 ---
 {state: main middle black}
@@ -53,9 +33,10 @@
 
 ---
 # Upcoming events
-~ Magento 2 Hackathon (9 sept, Baarn) 
+~ MageTitans GR (26 sept, Groningen) 
 ~ MageUnconference DE (29 sept, Köln)
-~ Meet Magento NL (2 nov, Amsterdam)
+~ Meet Magento NL (6 nov, Amsterdam)
+~ MageUnconference (June 2026)
 
 ---
 {state: main middle black}
