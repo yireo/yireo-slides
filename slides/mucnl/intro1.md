@@ -3,7 +3,7 @@
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
 <div style="text-align:center; font-size: 70%; color: #ccc;">
-#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL &nbsp;&nbsp; - &nbsp;&nbsp; @yireo 
+#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconferenceNL &nbsp;&nbsp; - &nbsp;&nbsp; @yireo 
 </div>
 
 ---
@@ -97,7 +97,7 @@ If you find yourself in a situation where you are not contributing or learning, 
 # Extreme unconferencing
 
 ~ The venue helps
-~ Chaos agents help too
+~ Team members help too
 ~ The team helps
 ~ You can help too
 
@@ -111,8 +111,10 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 # Program day 1
 
+
+
 <ul style="column-count: 2">
-<li>09:30 - 10:00 Opening</li>
+<li>09:00 - 10:00 Opening</li>
 <li>10:00 - 10:15 Voting</li>
 <li>10:30 - 11:10 Timeslot 1</li>
 <li>11:25 - 12:05 Timeslot 2</li>
