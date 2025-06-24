@@ -111,22 +111,13 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 # Program day 1
 
-
-
-<ul style="column-count: 2">
-<li>09:00 - 10:00 Opening</li>
-<li>10:00 - 10:15 Voting</li>
-<li>10:30 - 11:10 Timeslot 1</li>
-<li>11:25 - 12:05 Timeslot 2</li>
-<li>12:20 - 13:00 Timeslot 3</li>
-<li>13:00 - 14:30 Lunch</li>
-<li>14:30 - 15:10 Timeslot 4</li>
-<li>15:25 - 16:05 Timeslot 5</li>
-<li>16:20 - 17:00 Timeslot 6</li>
-<li>17:15 - 17:45 Quiz + Closing</li>
-<li>17:45 - 18:30 Snooze</li>
-<li>18:30 - 22:00 Party with food</li>
-</ul>
+- Opening
+- Sessions
+- 13:00 Lunch
+- Sessions
+- 16:00 Magento Association (A)
+- 17:30 Closing
+- 18:30 Party with food
 
 <p style="font-size:80%">
 See also mageunconference.nl &raquo; "Program" &amp; "Schedule Wall"
