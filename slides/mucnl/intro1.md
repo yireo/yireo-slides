@@ -153,7 +153,7 @@ See the map on your lanyard
 
 ---
 
-# The team today
+# The team
 - Henk Valk
 - Jeroen Boersma
 - Jisse Reitsma

@@ -102,20 +102,12 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 # Program day 2
 
-<ul style="column-count: 2">
-<li>09:30 - 10:00 Opening</li>
-<li>10:00 - 10:15 Voting</li>
-<li>10:30 - 11:10 Timeslot 1</li>
-<li>11:25 - 12:05 Timeslot 2</li>
-<li>12:20 - 13:00 Timeslot 3</li>
-<li>13:00 - 14:30 Lunch</li>
-<li>14:30 - 15:10 Timeslot 4</li>
-<li>15:25 - 16:05 Timeslot 5</li>
-<li>16:20 - 17:00 Timeslot 6</li>
-<li>17:15 - 17:45 Quiz + Closing</li>
-<li>17:45 - 18:30 Snooze</li>
-<li>18:30 - 22:00 Party with food</li>
-</ul>
+- Opening
+- Sessions
+- 13:00 Lunch
+- Sessions
+- 17:30 Closing
+- 18:30 Party with food
 
 <p style="font-size:80%">
 See also mageunconference.nl &raquo; "Program" &amp; "Schedule Wall"
@@ -149,7 +141,7 @@ See also mageunconference.nl &raquo; "Program" &amp; "Schedule Wall"
 ~ Dagobah 1 (D1): Small room
 ~ Dagobah 2 (D2): Small room
 ~ Endor (E): Larger room
-~ ~~Ferrix (F): Larger room~~
+~ Ferrix (F): Larger room
 ~ Romney (O): Tent in the outer rim
 ~ ...
 
@@ -159,22 +151,13 @@ See the map on your lanyard
 
 ---
 
-# The organizers
-
-- Jisse Reitsma: Organizer
-- Janet Iljas: Scheduler
-- Ruben Creemers: Art work
-- Ruud van Zuidam: Midichlorians
-- Mage-OS Nederland: Backing up
- 
----
-
-# The team today
-- Sean van Zuidam
-- Len Lorijn
+# The team
+- Henk Valk
 - Jeroen Boersma
 - Jisse Reitsma
+- Michiel Gerritsen
 - Ruud van Zuidam
+- Sean van Zuidam
 
 ---
 {state: main middle red}
@@ -211,7 +194,7 @@ See the map on your lanyard
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
 <div style="text-align:center; font-size: 70%; color: #ccc;">
-#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL &nbsp;&nbsp; - &nbsp;&nbsp; @yireo 
+#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconferenceNL &nbsp;&nbsp; - &nbsp;&nbsp; @yireo 
 </div>
 
 ---
