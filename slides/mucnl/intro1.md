@@ -90,7 +90,6 @@ If you find yourself in a situation where you are not contributing or learning, 
 # Real unconferencing
 
 ~ The venue helps
-~ Team members help too
 ~ The team helps
 ~ You can help too
 
