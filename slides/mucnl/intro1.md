@@ -159,25 +159,15 @@ See also mageunconference.nl &raquo; "Program" &amp; "Schedule Wall"
 See the map on your lanyard
 </p>
 
-
----
-
-# The organizers
-
-- Jisse Reitsma: Organizer
-- Janet Iljas: Scheduler
-- Ruben Creemers: Art work
-- Ruud van Zuidam: Midichlorians
-- Mage-OS Nederland: Backing up
-
 ---
 
 # The team today
-- Sean van Zuidam
-- Len Lorijn
+- Henk Valk
 - Jeroen Boersma
 - Jisse Reitsma
+- Michiel Gerritsen
 - Ruud van Zuidam
+- Sean van Zuidam
 
 ---
 {state: main middle red}
@@ -214,7 +204,7 @@ See the map on your lanyard
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
 <div style="text-align:center; font-size: 70%; color: #ccc;">
-#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL &nbsp;&nbsp; - &nbsp;&nbsp; @yireo 
+#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconferenceNL &nbsp;&nbsp; - &nbsp;&nbsp; @yireo 
 </div>
 
 ---

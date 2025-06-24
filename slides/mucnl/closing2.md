@@ -3,12 +3,12 @@
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
 <div style="text-align:center; font-size: 70%; color: #ccc;">
-#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL  &nbsp;&nbsp; - &nbsp;&nbsp; @yireo
+#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconferenceNL  &nbsp;&nbsp; - &nbsp;&nbsp; @yireo
 </div>
 
 ---
 {state: main middle black}
-# MageUnconfence NL
+# MageUnconference NL
 ### Dang Farrik, this was a day
 
 ---
