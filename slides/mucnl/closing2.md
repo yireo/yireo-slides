@@ -39,9 +39,18 @@
 ~ MageUnconference (June 2026)
 
 ---
-{state: main middle black}
-# Thank you to our sponsors
-### I have sponsored
+{state: main middle red}
+
+## Thank you to our headline sponsor
+
+# Buckaroo
+
+---
+{state: main middle red}
+
+## Thank you to our main sponsors
+
+# Vendic, Tideways, Mollie, Hypernode, PAY, Qoliber, LokiCheckout, Elgentos
 
 ---
 {state: main middle black}

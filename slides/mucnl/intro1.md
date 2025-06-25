@@ -164,9 +164,16 @@ See the map on your lanyard
 ---
 {state: main middle red}
 
-### Thank you to our sponsors
+## Thank you to our headline sponsor
 
-# I have sponsored
+# Buckaroo
+
+---
+{state: main middle red}
+
+## Thank you to our main sponsors
+
+# Vendic, Tideways, Mollie, Hypernode, PAY, Qoliber, LokiCheckout, Elgentos
 
 ---
 {state: middle black}
