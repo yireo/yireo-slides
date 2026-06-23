@@ -3,17 +3,19 @@
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
 <div style="text-align:center; font-size: 70%; color: #ccc;">
-#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconferenceNL  &nbsp;&nbsp; - &nbsp;&nbsp; @yireo
+#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconferenceNL
 </div>
 
 ---
 {state: main middle black}
 # MageUnconference NL
-### Dang Farrik, this was a day
+### A conclusion to a trilogy
 
 ---
 # What else?
+~ Hydrate
 ~ After-party
+~ Hydrate
 ~ Sleep
 ~ Breakfast
 ~ Another unconference day
@@ -25,27 +27,29 @@
 
 ---
 # Upcoming events
-~ MageTitans GR (26 sept, Groningen)
-~ MageUnconference DE (29 sept, Köln)
-~ Meet Magento NL (6 nov, Amsterdam)
-~ MageUnconference (June 2026)
+~ Meet Magento NL (5 nov, Amsterdam)
+~ MageTitans GR 2027
+~ No MageUnconference NL next year
+
+
+# Our main sponsors
+
+- Loki Checkout
+- Hypernode
+- PAY
+- Qoliber
+- Amasty
+- Mollie
 
 ---
-{state: main middle red}
+{state: main middle}
 
-## Thank you to our headline sponsor
+# Our support sponsors
 
-# Buckaroo
-
----
-{state: main middle red}
-
-## Thank you to our main sponsors
-
-# Vendic, Tideways, Mollie, Hypernode, PAY, Qoliber, LokiCheckout, Elgentos
+### Mage-OS Nederland, MagModules, MadeByMouses, Vendic, Aheadworks, Linted, MageMate, MageDispatch
 
 ---
 {state: main middle black}
-# May The Farce Be With You
+# You have spoken
 
 ### Diner & party start at 18:30

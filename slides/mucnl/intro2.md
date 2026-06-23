@@ -3,7 +3,7 @@
 <img class="img-responsive" src="/images/mucnl/mageuc-logo.webp" style="padding-bottom:100px"/>
 
 <div style="text-align:center; font-size: 70%; color: #ccc;">
-#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconfNL &nbsp;&nbsp; - &nbsp;&nbsp; @yireo 
+#mucnl &nbsp;&nbsp; - &nbsp;&nbsp; @MageUnconferenceNL
 </div>
 
 ---
@@ -11,38 +11,23 @@
 
 # Mage Unconference
 
-### This is the day
+### We're going to be on fire
 
 ---
 {state: main middle black}
 
 # Mage Unconference
 
-### This is Friday
-
----
-{state: main middle black}
-
-# MageUnconference
-
-### The saga continues
-
----
-
-# Why the Mandalorian?
-
-~ Magento
-~ Magneto
-~ Maldonorian
-~ Mandalorian
+### Everyone is speaking
 
 ---
 
 # Why are we here?
 
 ~ To collaborate
+~ To debate
 ~ To brainstorm
-~ To have fun
+~ To be amongst friends
 
 ---
 {state: middle black}
@@ -100,7 +85,16 @@ If you find yourself in a situation where you are not contributing or learning, 
 
 ---
 
-# Program day 2
+# Resources
+
+- Signal group
+- mageunconference.nl/schedule-wall
+- github.com/yireo/mageunconference-nl-2026-notes
+
+---
+{state: red}
+
+# Program day 1
 
 - Opening
 - Sessions
@@ -128,7 +122,7 @@ See also mageunconference.nl &raquo; "Program" &amp; "Schedule Wall"
 
 # Sessions
 
-~ Take notes of sessions & send them to the team
+~ Take notes of sessions & send them as PR to the GitHub repo
 ~ Keep the unconference rules in mind
 ~ You are responsible for time management
 
@@ -141,8 +135,8 @@ See also mageunconference.nl &raquo; "Program" &amp; "Schedule Wall"
 ~ Dagobah 1 (D1): Small room
 ~ Dagobah 2 (D2): Small room
 ~ Endor (E): Larger room
-~ Ferrix (F): Larger room
 ~ Romney (O): Tent in the outer rim
+~ Anywhere outside
 ~ ...
 
 <p style="font-size:80%">
@@ -151,34 +145,42 @@ See the map on your lanyard
 
 ---
 
+# Heat protocol
+- Stay in the shade
+- Hydrate all of the time
+- If you drink alcohol, drink water
+~ Take a foot bath
+~ Use a wet towel on your head
+~ Use the water guns
+
+---
+
 # The team
-- Henk Valk
-- Jeroen Boersma
-- Jisse Reitsma
-- Michiel Gerritsen
-- Ruud van Zuidam
 - Sean van Zuidam
+- Jeroen Boersma
+- Henk Valk
+- Michiel Gerritsen
+- Jisse Reitsma
+- Ruud van Zuidam
 
 ---
 {state: main middle red}
 
-## Thank you to our headline sponsor
+# Our main sponsors
 
-# Buckaroo
-
----
-{state: main middle red}
-
-## Thank you to our main sponsors
-
-# Vendic, Tideways, Mollie, Hypernode, PAY, Qoliber, LokiCheckout, Elgentos
+- Loki Checkout
+- Hypernode
+- PAY
+- Qoliber
+- Amasty
+- Mollie
 
 ---
-{state: middle black}
+{state: main middle}
 
-> "This is where the fun begins"
->
-> <cite>Dark Fader</cite>
+# Our support sponsors
+
+### Mage-OS Nederland, MagModules, MadeByMouses, Vendic, Aheadworks, Linted, MageMate, MageDispatch
 
 
 ---
@@ -228,7 +230,7 @@ See the map on your lanyard
 ---
 {state: main middle black}
 
-# May the farce be with you
+# May the force be with you
 
 ### First session starts at 10:30
 
